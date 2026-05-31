@@ -1,14 +1,16 @@
+import { Link } from "react-router-dom"
+
 export default function Navbar() {
   return (
-    <header className="flex justify-between items-center px-8 py-6 border-b border-white/10">
-      <h1 className="text-2xl font-bold">
-        Alfazry<span className="text-cyan-400">Site</span>
-      </h1>
-
+    <header className="sticky top-0 z-50 backdrop-blur-md bg-black/40 flex justify-between items-center px-8 py-6 border-b border-white/10">
+      <Link to="/">
+        <h1 className="text-2xl font-bold">
+          Alfazry<span className="text-cyan-400">Site</span>
+        </h1>
+      </Link>
       <nav className="flex gap-6 text-white/70">
-        <a href="#">Materi</a>
-        <a href="#">Simulasi</a>
-        <a href="#">Blog</a>
+        <Link to="/materi" className="hover:text-cyan-400 transition">Materi</Link>
+        <Link to="/simulasi" className="hover:text-cyan-400 transition">Simulasi</Link>
       </nav>
     </header>
   )

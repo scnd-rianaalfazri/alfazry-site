@@ -1,17 +1,19 @@
-import Navbar from './components/layout/Navbar'
-import Hero from './components/sections/Hero'
-import FloatingCard from'./components/UI/FloatingCards'
-import Features from './components/sections/Features'
-import Footer from './components/layout/Footer'
+import { Routes, Route } from "react-router-dom"
 
-export default function App() {
+import Home from "./pages/Home"
+import Materi from "./pages/Materi"
+import Simulasi from "./pages/Simulasi"
+import DetailMateri from "./pages/DetailMateri"
+
+function App() {
   return (
-    <div className="bg-black text-white">
-      <Navbar />
-      <Hero />
-      <FloatingCard/>
-      <Features />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/materi" element={<Materi />} />
+      <Route path="/simulasi" element={<Simulasi />} />
+      <Route path="/materials/:slug" element={<DetailMateri />} />
+    </Routes>
   )
 }
+
+export default App
