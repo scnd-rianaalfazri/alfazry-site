@@ -13,7 +13,7 @@ function App() {
       <Route path="/materi" element={<Materi />} />
       <Route path="/simulasi" element={<Simulasi />} />
       <Route path="/simulasi/:slug" element={<DetailSimulasi />} />
-      <Route path="/materials/:slug" element={<DetailMateri />} />
+      <Route path="/materi/:slug" element={<DetailMateri />} />
     </Routes>
   )
 }

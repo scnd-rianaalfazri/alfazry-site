@@ -6,7 +6,6 @@ import Footer from "../components/layout/Footer"
 export default function DetailSimulasi() {
   const { slug } = useParams()
   const simulasi = simulations.find((s) => s.slug === slug)
-  const SimulationComponent = simulasi?.component
 
   if (!simulasi) {
     return (
@@ -40,12 +39,6 @@ export default function DetailSimulasi() {
             </div>
           ))}
         </div>
-
-        {SimulationComponent && (
-          <div className="mt-10 border border-white/10 rounded-2xl p-6 bg-white/5">
-            <SimulationComponent />
-          </div>
-        )}
       </section>
       <Footer />
     </div>

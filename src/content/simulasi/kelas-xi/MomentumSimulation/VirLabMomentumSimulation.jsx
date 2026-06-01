@@ -30,7 +30,7 @@ function SliderRow({ label, min, max, value, onChange, satuan = "", positif = fa
 }
 
 // ── Komponen utama ────────────────────────────────────────────
-export default function MomentumSimulasi() {
+export default function MomentumSimulation() {
   // State slider
   const [massA, setMassA]   = useState(3);
   const [massB, setMassB]   = useState(2);
