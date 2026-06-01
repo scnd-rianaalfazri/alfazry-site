@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export default function MaterialCard({ title, description, slug }) {
   return (
-    <Link to={`/materials/${slug}`}>
+    <Link to={`/materi/${slug}`}>
       <div className="
         bg-white/5
         border border-white/10
