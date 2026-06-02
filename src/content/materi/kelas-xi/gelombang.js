@@ -4,16 +4,13 @@ const gelombang = {
   description: "Memahami sifat-sifat gelombang, bunyi, dan cahaya.",
   content: [
     {
-      heading: "Pengertian Gelombang",
-      body: "Gelombang adalah getaran yang merambat, memindahkan energi tanpa memindahkan materi."
-    },
-    {
-      heading: "Jenis Gelombang",
-      body: "Gelombang transversal (arah getar tegak lurus rambat) dan gelombang longitudinal (arah getar sejajar rambat)."
-    },
-    {
-      heading: "Rumus Gelombang",
-      body: "v = λ × f, di mana v adalah kecepatan (m/s), λ adalah panjang gelombang (m), dan f adalah frekuensi (Hz)."
+      heading: "🌊 Gelombang: Getaran yang Merambat",
+      body: [
+        "Apa Itu Gelombang?",
+        "Pernah melihat riak air saat batu dilempar ke kolam? Atau mendengar suara teman yang memanggil dari kejauhan? Semua itu terjadi karena adanya gelombang.",
+        "Gelombang adalah getaran yang merambat melalui suatu medium atau ruang, membawa energi tanpa memindahkan materi secara permanen.",
+        "Artinya, yang berpindah adalah energinya, bukan zat perantaranya."
+      ]
     }
   ]
 }
