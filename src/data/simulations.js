@@ -1,8 +1,6 @@
-import MomentumSimulasi from "../content/simulasi/kelas-xi/MomentumSimulation/MomentumSimulation"
-import PascalSimulasi from "../content/simulasi/kelas-xi/PascalSimulation/PascalSimulation"
+import MomentumSimulation from "../content/simulasi/kelas-xi/MomentumSimulation/MomentumSimulation"
 
 export const simulations = [
-    MomentumSimulasi,
-    PascalSimulasi,
+    MomentumSimulation
 ]
 

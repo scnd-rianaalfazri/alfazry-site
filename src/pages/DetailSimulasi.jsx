@@ -32,12 +32,34 @@ export default function DetailSimulasi() {
         <h1 className="text-5xl font-bold mb-4">{simulasi.title}</h1>
         <p className="text-white/60 text-lg mb-10">{simulasi.description}</p>
         <div className="space-y-8">
-          {simulasi.content.map((section, i) => (
-            <div key={i} className="border border-white/10 rounded-2xl p-6 bg-white/5">
-              <h2 className="text-2xl font-bold text-cyan-400 mb-3">{section.heading}</h2>
-              <p className="text-white/70 leading-relaxed">{section.body}</p>
-            </div>
-          ))}
+          {(() => {
+            const content = Array.isArray(simulasi.content) ? simulasi.content : []
+            if (simulasi.content && !Array.isArray(simulasi.content)) {
+              // eslint-disable-next-line no-console
+              console.error("DetailSimulasi: 'content' must be an array", simulasi.content)
+            }
+
+            return content.map((section, i) => {
+              const SectionComponent = section && section.component
+              if (SectionComponent && typeof SectionComponent !== "function") {
+                // eslint-disable-next-line no-console
+                console.warn("DetailSimulasi: section.component is not a React component", SectionComponent)
+                return null
+              }
+
+              return (
+                <div key={i} className="border border-white/10 rounded-2xl p-6 bg-white/5">
+                  {section && section.heading && (
+                    <h2 className="text-2xl font-bold text-cyan-400 mb-3">{section.heading}</h2>
+                  )}
+                  {section && section.body && (
+                    <p className="text-white/70 leading-relaxed mb-6">{section.body}</p>
+                  )}
+                  {SectionComponent && <SectionComponent />}
+                </div>
+              )
+            })
+          })()}
         </div>
       </section>
       <Footer />

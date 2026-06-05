@@ -1,354 +1,391 @@
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef } from "react";
 
-// ── Konstanta warna ───────────────────────────────────────────
-const WARNA_A = { isi: "#378ADD", teks: "#185FA5" };
-const WARNA_B = { isi: "#D85A30", teks: "#993C1D" };
+export default function VirLabMomentumSimulation() {
+  const [massaA, setMassaA] = useState(2);
+  const [massaB, setMassaB] = useState(3);
+  const [kecepatanAwalA, setKecepatanAwalA] = useState(4);
+  const [kecepatanAwalB, setKecepatanAwalB] = useState(-2);
 
-// ── Rumus tabrakan elastis ────────────────────────────────────
-function hitungTabrakan(mA, vA, mB, vB) {
-  const vA2 = ((mA - mB) * vA + 2 * mB * vB) / (mA + mB);
-  const vB2 = ((mB - mA) * vB + 2 * mA * vA) / (mA + mB);
-  return { vA2, vB2 };
-}
+  const [posA, setPosA] = useState(50);
+  const [posB, setPosB] = useState(450);
+  const containerRef = useRef(null);
+  const [containerWidth, setContainerWidth] = useState(520);
 
-// ── Komponen Slider ───────────────────────────────────────────
-function SliderRow({ label, min, max, value, onChange, satuan = "", positif = false }) {
-  const tampil = positif && value > 0 ? `+${value}` : `${value}`;
-  return (
-    <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 6 }}>
-      <span style={{ fontSize: 12, color: "#666", minWidth: 72 }}>{label}</span>
-      <input
-        type="range" min={min} max={max} step={1} value={value}
-        onChange={e => onChange(Number(e.target.value))}
-        style={{ flex: 1, accentColor: "#378ADD" }}
-      />
-      <span style={{ fontSize: 13, fontWeight: 600, minWidth: 36, textAlign: "right", color: "#222" }}>
-        {tampil}{satuan}
-      </span>
-    </div>
+  const [running, setRunning] = useState(false);
+
+  const posARef = useRef(50);
+  const posBRef = useRef(450);
+  const velARef = useRef(kecepatanAwalA);
+  const velBRef = useRef(kecepatanAwalB);
+
+  const ballSizeA = 20 + massaA * 4;
+  const ballSizeB = 20 + massaB * 4;
+  const maxPosA = Math.max(0, containerWidth - ballSizeA);
+  const maxPosB = Math.max(0, containerWidth - ballSizeB);
+
+  const round2 = (value) => Number(value.toFixed(2));
+
+  const momentumA = round2(massaA * kecepatanAwalA);
+  const momentumB = round2(massaB * kecepatanAwalB);
+  const momentumAwal = round2(momentumA + momentumB);
+
+  const kecepatanAkhir = round2(
+    (massaA * kecepatanAwalA + massaB * kecepatanAwalB) /
+      (massaA + massaB)
   );
-}
 
-// ── Helper: unduh file ────────────────────────────────────────
-// Membuat link sementara, klik otomatis, lalu hapus
-function unduhFile(url, namaFile) {
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = namaFile;
-  a.click();
-  URL.revokeObjectURL(url); // bebaskan memori
-}
-
-// ── Komponen utama ────────────────────────────────────────────
-export default function MomentumSimulasi() {
-  const [massA, setMassA]   = useState(3);
-  const [massB, setMassB]   = useState(2);
-  const [initVA, setInitVA] = useState(3);
-  const [initVB, setInitVB] = useState(-2);
-  const [berjalan, setBerjalan] = useState(false);
-  const [info, setInfo] = useState({ pA: 9, pB: -4, total: 5 });
-  const [menuExport, setMenuExport] = useState(false);
-
-  const canvasRef    = useRef(null);
-  const simRef       = useRef(null);
-  const rafRef       = useRef(null);
-  const berjalanRef  = useRef(false);
-  // Rekam log data momentum untuk export CSV
-  const logRef       = useRef([]);
-
-  const rA = 10 + massA * 5;
-  const rB = 10 + massB * 5;
-
-  // ── Reset ──────────────────────────────────────────────────
-  const resetBola = useCallback(() => {
-    simRef.current = { xA: 130, xB: 470, velA: initVA, velB: initVB };
-    logRef.current = [];
-    setInfo({ pA: massA * initVA, pB: massB * initVB, total: massA * initVA + massB * initVB });
-    setBerjalan(false);
-    berjalanRef.current = false;
-  }, [initVA, initVB, massA, massB]);
-
-  useEffect(() => { resetBola(); }, []); // eslint-disable-line
-
-  // ── Loop animasi ───────────────────────────────────────────
   useEffect(() => {
-    const canvas = canvasRef.current;
-    if (!canvas) return;
-    const ctx   = canvas.getContext("2d");
-    const W     = canvas.width;
-    const H     = canvas.height;
-    const LANTAI = H - 30;
-    let frameCount = 0;
+    posARef.current = posA;
+  }, [posA]);
 
-    function gambarPanah(x, y, v, warna) {
-      if (Math.abs(v) < 0.2) return;
-      const panjang = Math.min(Math.abs(v) * 12, 55) * Math.sign(v);
-      ctx.strokeStyle = warna; ctx.fillStyle = warna; ctx.lineWidth = 2;
-      ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x + panjang, y); ctx.stroke();
-      const ujung = x + panjang; const arah = Math.sign(panjang);
-      ctx.beginPath();
-      ctx.moveTo(ujung, y - 5); ctx.lineTo(ujung, y + 5); ctx.lineTo(ujung + 8 * arah, y);
-      ctx.closePath(); ctx.fill();
+  useEffect(() => {
+    posBRef.current = posB;
+  }, [posB]);
+
+  useEffect(() => {
+    velARef.current = kecepatanAwalA;
+  }, [kecepatanAwalA]);
+
+  useEffect(() => {
+    velBRef.current = kecepatanAwalB;
+  }, [kecepatanAwalB]);
+
+  useEffect(() => {
+    if (!containerRef.current) return;
+
+    const updateWidth = () => {
+      setContainerWidth(containerRef.current.clientWidth || 520);
+    };
+
+    updateWidth();
+
+    const observer = new ResizeObserver(updateWidth);
+    observer.observe(containerRef.current);
+
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (posA > maxPosA) {
+      setPosA(maxPosA);
+      posARef.current = maxPosA;
     }
 
-    function frame() {
-      const sim = simRef.current;
-      if (!sim) { rafRef.current = requestAnimationFrame(frame); return; }
+    if (posB > maxPosB) {
+      setPosB(maxPosB);
+      posBRef.current = maxPosB;
+    }
+  }, [maxPosA, maxPosB, posA, posB]);
 
-      if (berjalanRef.current) {
-        sim.xA += sim.velA * 1.5;
-        sim.xB += sim.velB * 1.5;
+  useEffect(() => {
+    if (!running) return;
 
-        const jarak    = (sim.xB - rB) - (sim.xA + rA);
-        const mendekat = sim.velA - sim.velB > 0;
-        if (jarak <= 0 && mendekat) {
-          const { vA2, vB2 } = hitungTabrakan(massA, sim.velA, massB, sim.velB);
-          sim.velA = vA2; sim.velB = vB2;
-          sim.xA   = sim.xB - rB - rA;
-          setInfo({
-            pA:    parseFloat((massA * vA2).toFixed(1)),
-            pB:    parseFloat((massB * vB2).toFixed(1)),
-            total: parseFloat((massA * vA2 + massB * vB2).toFixed(1)),
-          });
-        }
-        if (sim.xA - rA < 0)   { sim.xA = rA;      sim.velA =  Math.abs(sim.velA); }
-        if (sim.xA + rA > W)   { sim.xA = W - rA;   sim.velA = -Math.abs(sim.velA); }
-        if (sim.xB - rB < 0)   { sim.xB = rB;      sim.velB =  Math.abs(sim.velB); }
-        if (sim.xB + rB > W)   { sim.xB = W - rB;   sim.velB = -Math.abs(sim.velB); }
+    const interval = setInterval(() => {
+      let nextA = posARef.current + velARef.current;
+      let nextB = posBRef.current + velBRef.current;
+      let nextVelA = velARef.current;
+      let nextVelB = velBRef.current;
 
-        // Rekam log setiap 10 frame agar CSV tidak terlalu besar
-        frameCount++;
-        if (frameCount % 10 === 0) {
-          logRef.current.push({
-            frame:      frameCount,
-            xA:         sim.xA.toFixed(1),
-            xB:         sim.xB.toFixed(1),
-            velA:       sim.velA.toFixed(2),
-            velB:       sim.velB.toFixed(2),
-            momentumA:  (massA * sim.velA).toFixed(2),
-            momentumB:  (massB * sim.velB).toFixed(2),
-            totalP:     (massA * sim.velA + massB * sim.velB).toFixed(2),
-          });
+      if (nextA <= 0) {
+        nextVelA = -nextVelA;
+        nextA = 0;
+      } else if (nextA >= maxPosA) {
+        nextVelA = -nextVelA;
+        nextA = maxPosA;
+      }
+
+      if (nextB <= 0) {
+        nextVelB = -nextVelB;
+        nextB = 0;
+      } else if (nextB >= maxPosB) {
+        nextVelB = -nextVelB;
+        nextB = maxPosB;
+      }
+
+      if (
+        posARef.current + ballSizeA <= posBRef.current &&
+        nextA + ballSizeA >= nextB
+      ) {
+        const totalMass = massaA + massaB;
+        const newVelA =
+          ((massaA - massaB) / totalMass) * nextVelA +
+          (2 * massaB / totalMass) * nextVelB;
+        const newVelB =
+          (2 * massaA / totalMass) * nextVelA +
+          ((massaB - massaA) / totalMass) * nextVelB;
+
+        nextVelA = newVelA;
+        nextVelB = newVelB;
+
+        const overlap = nextA + ballSizeA - nextB;
+        if (overlap > 0) {
+          nextA -= overlap / 2;
+          nextB += overlap / 2;
         }
       }
 
-      // Gambar
-      ctx.clearRect(0, 0, W, H);
-      ctx.fillStyle = "#F7F6F3"; ctx.fillRect(0, 0, W, H);
-      ctx.strokeStyle = "#CCCCCC"; ctx.lineWidth = 1;
-      ctx.beginPath(); ctx.moveTo(0, LANTAI); ctx.lineTo(W, LANTAI); ctx.stroke();
-      gambarPanah(sim.xA, LANTAI - rA - 18, sim.velA, WARNA_A.teks);
-      gambarPanah(sim.xB, LANTAI - rB - 18, sim.velB, WARNA_B.teks);
-      ctx.beginPath(); ctx.arc(sim.xA, LANTAI - rA, rA, 0, Math.PI * 2);
-      ctx.fillStyle = WARNA_A.isi; ctx.fill();
-      ctx.beginPath(); ctx.arc(sim.xB, LANTAI - rB, rB, 0, Math.PI * 2);
-      ctx.fillStyle = WARNA_B.isi; ctx.fill();
-      ctx.textAlign = "center"; ctx.font = "bold 12px monospace";
-      ctx.fillStyle = WARNA_A.teks; ctx.fillText(`A: ${massA}kg`, sim.xA, LANTAI - rA * 2 - 24);
-      ctx.fillStyle = WARNA_B.teks; ctx.fillText(`B: ${massB}kg`, sim.xB, LANTAI - rB * 2 - 24);
+      velARef.current = nextVelA;
+      velBRef.current = nextVelB;
+      posARef.current = nextA;
+      posBRef.current = nextB;
 
-      rafRef.current = requestAnimationFrame(frame);
-    }
+      setPosA(nextA);
+      setPosB(nextB);
+    }, 20);
 
-    rafRef.current = requestAnimationFrame(frame);
-    return () => cancelAnimationFrame(rafRef.current);
-  }, [massA, massB, rA, rB]);
+    return () => clearInterval(interval);
+  }, [running, maxPosA, maxPosB, massaA, massaB]);
 
-  // ── Toggle jeda ────────────────────────────────────────────
-  function toggleJeda() {
-    const next = !berjalan;
-    setBerjalan(next);
-    berjalanRef.current = next;
-  }
+  const resetSimulasi = () => {
+    const startA = 0;
+    const startB = maxPosB;
 
-  // ══════════════════════════════════════════════════════════
-  // FITUR EXPORT
-  // ══════════════════════════════════════════════════════════
-
-  // 1. Export PNG — ambil gambar kanvas langsung
-  function exportPNG() {
-    const canvas = canvasRef.current;
-    if (!canvas) return;
-    // toDataURL mengubah kanvas menjadi string base64 format PNG
-    const url = canvas.toDataURL("image/png");
-    unduhFile(url, "simulasi-momentum.png");
-    setMenuExport(false);
-  }
-
-  // 2. Export CSV — ubah array log menjadi teks CSV lalu unduh
-  function exportCSV() {
-    const log = logRef.current;
-    if (log.length === 0) {
-      alert("Jalankan simulasi dulu agar ada data yang direkam!");
-      return;
-    }
-    // Baris pertama = header kolom
-    const header = "Frame,Posisi A,Posisi B,Kecepatan A,Kecepatan B,Momentum A,Momentum B,Total Momentum\n";
-    // Setiap item log diubah jadi satu baris CSV
-    const baris  = log.map(r =>
-      `${r.frame},${r.xA},${r.xB},${r.velA},${r.velB},${r.momentumA},${r.momentumB},${r.totalP}`
-    ).join("\n");
-    const blob = new Blob([header + baris], { type: "text/csv" });
-    unduhFile(URL.createObjectURL(blob), "data-momentum.csv");
-    setMenuExport(false);
-  }
-
-  // 3. Export PDF — buat halaman HTML sementara lalu panggil window.print()
-  function exportPDF() {
-    const canvas  = canvasRef.current;
-    const imgData = canvas ? canvas.toDataURL("image/png") : "";
-    const sim     = simRef.current;
-
-    // Buat konten HTML laporan
-    const html = `
-      <html><head><title>Laporan Simulasi Momentum</title>
-      <style>
-        body { font-family: Georgia, serif; padding: 40px; color: #222; max-width: 700px; margin: auto; }
-        h1   { font-size: 22px; margin-bottom: 4px; }
-        p    { font-size: 13px; color: #555; margin: 0 0 20px; }
-        img  { width: 100%; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 20px; }
-        table { width: 100%; border-collapse: collapse; font-size: 13px; }
-        th, td { border: 1px solid #ddd; padding: 7px 10px; text-align: center; }
-        th { background: #f5f5f5; font-weight: 600; }
-        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
-        .card { background: #f9f9f9; border: 1px solid #e0e0e0; border-radius: 8px; padding: 12px; }
-        .card .label { font-size: 11px; color: #888; margin-bottom: 4px; }
-        .card .val   { font-size: 18px; font-weight: 700; }
-      </style></head><body>
-      <h1>Laporan Simulasi Momentum</h1>
-      <p>Dicetak pada ${new Date().toLocaleString("id-ID")}</p>
-      <img src="${imgData}" alt="Simulasi" />
-      <div class="grid">
-        <div class="card"><div class="label">Massa Bola A</div><div class="val">${massA} kg</div></div>
-        <div class="card"><div class="label">Massa Bola B</div><div class="val">${massB} kg</div></div>
-        <div class="card"><div class="label">Kecepatan Awal A</div><div class="val">${initVA >= 0 ? "+" : ""}${initVA} m/s</div></div>
-        <div class="card"><div class="label">Kecepatan Awal B</div><div class="val">${initVB >= 0 ? "+" : ""}${initVB} m/s</div></div>
-        <div class="card"><div class="label">Momentum A (saat ini)</div><div class="val">${info.pA >= 0 ? "+" : ""}${Number(info.pA).toFixed(1)} kg·m/s</div></div>
-        <div class="card"><div class="label">Momentum B (saat ini)</div><div class="val">${info.pB >= 0 ? "+" : ""}${Number(info.pB).toFixed(1)} kg·m/s</div></div>
-      </div>
-      <table>
-        <thead><tr><th>Total Momentum</th><th>Rumus</th><th>Tipe Tabrakan</th></tr></thead>
-        <tbody><tr>
-          <td>${info.total >= 0 ? "+" : ""}${Number(info.total).toFixed(1)} kg·m/s</td>
-          <td>p = m × v</td>
-          <td>Elastis (energi terjaga)</td>
-        </tr></tbody>
-      </table>
-      </body></html>`;
-
-    // Buka tab baru → tulis HTML → panggil print dialog
-    const tab = window.open("", "_blank");
-    tab.document.write(html);
-    tab.document.close();
-    tab.focus();
-    tab.print();
-    setMenuExport(false);
-  }
-
-  // ── Render ─────────────────────────────────────────────────
-  const labelBtn = berjalan ? "⏸ Jeda" : "▶ Mulai";
+    setRunning(false);
+    setPosA(startA);
+    setPosB(startB);
+    posARef.current = startA;
+    posBRef.current = startB;
+    velARef.current = kecepatanAwalA;
+    velBRef.current = kecepatanAwalB;
+  };
 
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", maxWidth: 620, margin: "0 auto", padding: "16px 12px" }}>
+    <div
+      style={{
+        background: "#0f172a",
+        color: "white",
+        padding: "24px",
+        borderRadius: "20px",
+        border: "1px solid #334155",
+      }}
+    >
+      <h2
+        style={{
+          color: "#38bdf8",
+          marginBottom: "20px",
+        }}
+      >
+        🚀 Simulasi Momentum
+      </h2>
 
-      {/* Judul */}
-      <h2 style={{ margin: "0 0 4px", fontSize: 18, fontWeight: 700, color: "#111" }}>Simulasi Momentum</h2>
-      <p  style={{ margin: "0 0 14px", fontSize: 13, color: "#666" }}>
-        p = m × v &nbsp;|&nbsp; Hukum Kekekalan Momentum
-      </p>
+      <div
+        style={{
+          display: "grid",
+          gap: "12px",
+          marginBottom: "24px",
+        }}
+      >
+        <label>
+          Massa A = {massaA} kg
+          <input
+            type="range"
+            min="1"
+            max="10"
+            value={massaA}
+            onChange={(e) =>
+              setMassaA(Number(e.target.value))
+            }
+          />
+        </label>
 
-      {/* Kanvas */}
-      <canvas ref={canvasRef} width={600} height={200}
-        style={{ width: "100%", borderRadius: 10, border: "1px solid #E0DED8", display: "block" }} />
+        <label>
+          Massa B = {massaB} kg
+          <input
+            type="range"
+            min="1"
+            max="10"
+            value={massaB}
+            onChange={(e) =>
+              setMassaB(Number(e.target.value))
+            }
+          />
+        </label>
 
-      {/* Panel momentum */}
-      <div style={{ display: "flex", gap: 8, margin: "10px 0" }}>
-        {[
-          { label: "Momentum A", nilai: info.pA,    warna: WARNA_A.teks },
-          { label: "Momentum B", nilai: info.pB,    warna: WARNA_B.teks },
-          { label: "Total",      nilai: info.total, warna: "#111", bold: true },
-        ].map(({ label, nilai, warna, bold }) => (
-          <div key={label} style={{ flex: 1, background: "#F0EEE8", borderRadius: 8, padding: "8px 10px", border: "0.5px solid #DDD" }}>
-            <div style={{ fontSize: 11, color: "#888", marginBottom: 2 }}>{label}</div>
-            <div style={{ fontSize: 15, fontWeight: bold ? 700 : 600, color: warna }}>
-              {nilai >= 0 ? "+" : ""}{Number(nilai).toFixed(1)}{" "}
-              <span style={{ fontWeight: 400, fontSize: 11 }}>kg·m/s</span>
-            </div>
-          </div>
-        ))}
+        <label>
+          Kecepatan Awal A = {kecepatanAwalA} m/s
+          <input
+            type="range"
+            min="1"
+            max="10"
+            value={kecepatanAwalA}
+            onChange={(e) =>
+              setKecepatanAwalA(Number(e.target.value))
+            }
+          />
+        </label>
+
+        <label>
+          Kecepatan Awal B = {kecepatanAwalB} m/s
+          <input
+            type="range"
+            min="-10"
+            max="-1"
+            value={kecepatanAwalB}
+            onChange={(e) =>
+              setKecepatanAwalB(Number(e.target.value))
+            }
+          />
+        </label>
       </div>
 
-      {/* Slider */}
-      <div style={{ display: "flex", gap: 12, marginBottom: 12, flexWrap: "wrap" }}>
-        <div style={{ flex: 1, minWidth: 240, background: "#EFF6FD", borderRadius: 10, padding: "12px 14px", border: "0.5px solid #B5D4F4" }}>
-          <div style={{ fontSize: 12, fontWeight: 700, color: WARNA_A.teks, marginBottom: 8 }}>Bola A (biru)</div>
-          <SliderRow label="Massa (kg)" min={1} max={10} value={massA} onChange={v => { setMassA(v); resetBola(); }} satuan=" kg" />
-          <SliderRow label="Kecepatan"  min={-6} max={6}  value={initVA} onChange={v => { setInitVA(v); }} positif satuan=" m/s" />
+      <div
+        ref={containerRef}
+        style={{
+          position: "relative",
+          width: "100%",
+          maxWidth: `${containerWidth}px`,
+          height: "120px",
+          background: "#1e293b",
+          borderRadius: "12px",
+          overflow: "hidden",
+          margin: "0 auto 20px",
+        }}
+      >
+        <div
+          style={{
+            position: "absolute",
+            left: posA,
+            top: 40,
+            width: `${ballSizeA}px`,
+            height: `${ballSizeA}px`,
+            background: "#06b6d4",
+            borderRadius: "50%",
+            boxShadow:
+              "0 0 20px rgba(6,182,212,.8)",
+          }}
+        />
+
+        <div
+          style={{
+            position: "absolute",
+            left: posB,
+            top: 40,
+            width: `${ballSizeB}px`,
+            height: `${ballSizeB}px`,
+            background: "#a855f7",
+            borderRadius: "50%",
+            boxShadow:
+              "0 0 20px rgba(168,85,247,.8)",
+          }}
+        />
+      </div>
+
+      <div
+        style={{
+          display: "flex",
+          gap: "14px",
+          alignItems: "center",
+          marginBottom: "16px",
+          flexWrap: "wrap",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "8px",
+            color: "#cbd5e1",
+            fontSize: "14px",
+          }}
+        >
+          <span
+            style={{
+              width: "14px",
+              height: "14px",
+              background: "#06b6d4",
+              borderRadius: "50%",
+              display: "inline-block",
+            }}
+          />
+          Bola A = Massa A
         </div>
-        <div style={{ flex: 1, minWidth: 240, background: "#FDF2EE", borderRadius: 10, padding: "12px 14px", border: "0.5px solid #F5C4B3" }}>
-          <div style={{ fontSize: 12, fontWeight: 700, color: WARNA_B.teks, marginBottom: 8 }}>Bola B (merah)</div>
-          <SliderRow label="Massa (kg)" min={1} max={10} value={massB} onChange={v => { setMassB(v); resetBola(); }} satuan=" kg" />
-          <SliderRow label="Kecepatan"  min={-6} max={6}  value={initVB} onChange={v => { setInitVB(v); }} positif satuan=" m/s" />
+
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "8px",
+            color: "#cbd5e1",
+            fontSize: "14px",
+          }}
+        >
+          <span
+            style={{
+              width: "14px",
+              height: "14px",
+              background: "#a855f7",
+              borderRadius: "50%",
+              display: "inline-block",
+            }}
+          />
+          Bola B = Massa B
         </div>
       </div>
 
-      {/* Tombol simulasi + export */}
-      <div style={{ display: "flex", gap: 8, position: "relative" }}>
-        <button onClick={toggleJeda} style={{
-          flex: 1, padding: "9px 0", borderRadius: 8, border: "1px solid #378ADD",
-          background: berjalan ? "#378ADD" : "#fff", color: berjalan ? "#fff" : "#378ADD",
-          fontSize: 14, fontWeight: 600, cursor: "pointer", transition: "all 0.15s"
-        }}>{labelBtn}</button>
+      <div
+        style={
+          {
+            display: "flex",
+            gap: "12px",
+            marginBottom: "16px",
+          }
+        }
+      >
+        <button
+          onClick={() => setRunning(true)}
+          style={{
+            background: "#06b6d4",
+            color: "white",
+            border: "none",
+            padding: "10px 20px",
+            borderRadius: "10px",
+            cursor: "pointer",
+          }}
+        >
+          Jalankan
+        </button>
 
-        <button onClick={resetBola} style={{
-          flex: 1, padding: "9px 0", borderRadius: 8, border: "1px solid #CCC",
-          background: "#fff", color: "#444", fontSize: 14, fontWeight: 600, cursor: "pointer"
-        }}>↺ Reset</button>
-
-        {/* Tombol export dengan dropdown */}
-        <div style={{ position: "relative" }}>
-          <button onClick={() => setMenuExport(m => !m)} style={{
-            padding: "9px 16px", borderRadius: 8, border: "1px solid #888",
-            background: menuExport ? "#333" : "#fff",
-            color: menuExport ? "#fff" : "#444",
-            fontSize: 14, fontWeight: 600, cursor: "pointer", whiteSpace: "nowrap"
-          }}>⬇ Export</button>
-
-          {/* Dropdown menu */}
-          {menuExport && (
-            <div style={{
-              position: "absolute", right: 0, top: "calc(100% + 6px)",
-              background: "#fff", border: "1px solid #DDD", borderRadius: 10,
-              boxShadow: "0 4px 16px rgba(0,0,0,0.12)", zIndex: 10, minWidth: 180, overflow: "hidden"
-            }}>
-              {[
-                { icon: "🖼️", label: "Export PNG",  sub: "Screenshot kanvas",     fn: exportPNG },
-                { icon: "📊", label: "Export CSV",  sub: "Data momentum per frame", fn: exportCSV },
-                { icon: "📄", label: "Export PDF",  sub: "Laporan simulasi",        fn: exportPDF },
-              ].map(({ icon, label, sub, fn }) => (
-                <button key={label} onClick={fn} style={{
-                  display: "flex", alignItems: "center", gap: 10,
-                  width: "100%", padding: "10px 14px", border: "none",
-                  background: "transparent", cursor: "pointer", textAlign: "left",
-                  borderBottom: "0.5px solid #F0F0F0",
-                }}>
-                  <span style={{ fontSize: 18 }}>{icon}</span>
-                  <span>
-                    <div style={{ fontSize: 13, fontWeight: 600, color: "#222" }}>{label}</div>
-                    <div style={{ fontSize: 11, color: "#999" }}>{sub}</div>
-                  </span>
-                </button>
-              ))}
-            </div>
-          )}
-        </div>
+        <button
+          onClick={resetSimulasi}
+          style={{
+            background: "#334155",
+            color: "white",
+            border: "none",
+            padding: "10px 20px",
+            borderRadius: "10px",
+            cursor: "pointer",
+          }}
+        >
+          Reset
+        </button>
       </div>
 
-      {/* Rumus */}
-      <div style={{ marginTop: 12, padding: "10px 14px", background: "#F0EEE8", borderRadius: 8, fontSize: 12, color: "#666", border: "0.5px solid #DDD" }}>
-        <strong style={{ color: "#333" }}>Tabrakan elastis:</strong>&nbsp;
-        v'<sub>A</sub> = (m<sub>A</sub>−m<sub>B</sub>)v<sub>A</sub> + 2m<sub>B</sub>v<sub>B</sub> / (m<sub>A</sub>+m<sub>B</sub>)
-        &nbsp;|&nbsp; Energi kinetik <strong style={{ color: "#333" }}>terjaga</strong>
+      <div
+        style={{
+          background: "#111827",
+          padding: "16px",
+          borderRadius: "12px",
+        }}
+      >
+        <p>
+          Momentum Bola A = <strong>{momentumA.toFixed(2)} kg·m/s</strong>
+        </p>
+
+        <p>
+          Momentum Bola B = <strong>{momentumB.toFixed(2)} kg·m/s</strong>
+        </p>
+
+        <p>
+          Momentum Total Awal = <strong>
+            {momentumAwal.toFixed(2)} kg·m/s
+          </strong>
+        </p>
+
+        <p>
+          Kecepatan Setelah Tumbukan = <strong>
+            {kecepatanAkhir.toFixed(2)} m/s
+          </strong>
+        </p>
       </div>
     </div>
   );
