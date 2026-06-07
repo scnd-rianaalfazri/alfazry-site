@@ -1,4 +1,4 @@
-import hubunganmomentumdanimpulsImg from "../../../assets/Materi/MomentumImpuls/HubunganMomentunDanImpuls.png"
+import hubunganmomentumdanimpulsImg from "../../../assets/Materi/MomentumImpuls/HubunganMomentumDanImpuls.png"
 const hubunganmomentumimpuls = {
   title: "Hubungan Antara Momentum dan Impuls",
   slug: "hubungan antara momentum dan impuls",
