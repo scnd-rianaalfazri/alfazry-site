@@ -93,6 +93,21 @@ export default function DetailMateri() {
                 {section.heading}
               </h2>
               <div className="space-y-4">
+                {section.image && (
+                  <figure className="mt-2 rounded-3xl overflow-hidden border border-white/10 bg-black/10">
+                    <img
+                      src={section.image}
+                      alt={section.caption || section.heading || materi.title}
+                      className="w-full h-auto object-cover"
+                    />
+                    {section.caption && (
+                      <figcaption className="px-4 py-3 text-sm text-white/60 bg-black/20 text-center">
+                        {section.caption}
+                      </figcaption>
+                    )}
+                  </figure>
+                )}
+
                 {/* Render body content */}
                 {Array.isArray(section.body) ? (
                   section.body.map((item, index) => {
@@ -108,21 +123,6 @@ export default function DetailMateri() {
                 ) : typeof section.body === "string" ? (
                   <p className="text-white/70 leading-relaxed">{section.body}</p>
                 ) : null}
-
-                {section.image && (
-                  <figure className="mt-6 rounded-3xl overflow-hidden border border-white/10 bg-black/10">
-                    <img
-                      src={section.image}
-                      alt={section.caption || section.heading || materi.title}
-                      className="w-full h-auto object-cover"
-                    />
-                    {section.caption && (
-                      <figcaption className="px-4 py-3 text-sm text-white/60 bg-black/20">
-                        {section.caption}
-                      </figcaption>
-                    )}
-                  </figure>
-                )}
 
                 {/* Render equation, explanation, table, list at section level */}
                 {section.equation && (
