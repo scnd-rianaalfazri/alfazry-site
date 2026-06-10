@@ -1,5 +1,3 @@
-
-import Gelombang from "../content/materi/kelas-xi/gelombang.js"
 import PengertianMomentum from "../content/materi/kelas-xi/MomentumDanImpuls/PengertianMomentum.js"
 import pengertianimpuls from "../content/materi/kelas-xi/MomentumDanImpuls/PengertianImpuls.js"
 import HubunganMomentumImpuls from "../content/materi/kelas-xi/MomentumDanImpuls/HubunganMomentumImpuls.js"
@@ -14,12 +12,12 @@ import HukumAchimedes from "../content/materi/kelas-xi/Fluida/HukumAchimedes"
 import TeganganPermukaan from "../content/materi/kelas-xi/Fluida/TeganganPermukaan.js"
 import Kapilaritas from "../content/materi/kelas-xi/Fluida/Kapilaritas.js"
 import Meniskus from "../content/materi/kelas-xi/Fluida/Meniskus.js"
+import Gelombang from "../content/materi/kelas-xi/gelombang.js"
 import PengertianListrikStatis from "../content/materi/kelas-xii/ListrikStatis/PengertianListrikStatis.js"
 import HukumColoumb from "../content/materi/kelas-xii/ListrikStatis/HukumColoumb.js"
 import ResultanGayaColoumb from "../content/materi/kelas-xii/ListrikStatis/ResultanGayaColoumb.js"
 
 export const materials = [
-  Gelombang,
   PengertianMomentum,
   pengertianimpuls,
   HubunganMomentumImpuls,
@@ -34,6 +32,7 @@ export const materials = [
   TeganganPermukaan,
   Kapilaritas,
   Meniskus,
+  Gelombang,
   PengertianListrikStatis,
   HukumColoumb,
   ResultanGayaColoumb

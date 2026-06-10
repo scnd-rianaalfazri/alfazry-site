@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router-dom"
 import { materials } from "../data/materials"
 import Navbar from "../components/layout/Navbar"
 import Footer from "../components/layout/Footer"
+import MathEquation from "../components/MathEquation"
 
 export default function DetailMateri() {
   const { slug } = useParams()
@@ -126,15 +127,7 @@ export default function DetailMateri() {
 
                 {/* Render equation, explanation, table, list at section level */}
                 {section.equation && (
-                  Array.isArray(section.equation) ? (
-                    <pre className="bg-white/5 p-4 rounded font-mono text-sm overflow-auto text-cyan-200">
-                      {section.equation.join("\n")}
-                    </pre>
-                  ) : (
-                    <pre className="bg-white/5 p-4 rounded font-mono text-sm overflow-auto text-cyan-200">
-                      {section.equation}
-                    </pre>
-                  )
+                  <MathEquation equation={section.equation} />
                 )}
                 {section.explanation && (
                   Array.isArray(section.explanation) ? (

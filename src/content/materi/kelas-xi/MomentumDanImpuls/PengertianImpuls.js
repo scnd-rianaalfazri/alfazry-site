@@ -51,7 +51,7 @@ const pengertianimpuls = {
         "Hubungan antara impuls dan momentum dapat diturunkan dari Hukum II Newton.",
         "Kita mulai dari persamaan gaya sebagai laju perubahan momentum."
       ],
-      equation: "F = Δp / Δt",
+      equation: "F = \\frac{\\Delta p}{\\Delta t}",
       explanation: [
         "Kalikan kedua ruas dengan Δt"
       ]

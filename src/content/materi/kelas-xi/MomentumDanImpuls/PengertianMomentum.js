@@ -1,3 +1,4 @@
+import momentumtrukdansepedaImg from "/src/assets/Materi/MomentumImpuls/MomentunTrukDanSepeda.png";
 const pengertianmomentum = {
   title: "Pengertian Momentum",
   slug: "pengertian momentum",
@@ -5,7 +6,7 @@ const pengertianmomentum = {
   content: [
     {
       heading: "🚀 Momentum: Kenapa Truk Sulit Berhenti?",
-      image: "/src/assets/Materi/MomentumImpuls/MomentunTrukDanSepeda.png",
+      image: momentumtrukdansepedaImg,
       caption: "Perbandingan momentum antara truk dan sepeda",
       body: [
         "Pernah kepikiran nggak, kenapa truk yang melaju terasa jauh lebih sulit dihentikan dibandingkan sepeda?",

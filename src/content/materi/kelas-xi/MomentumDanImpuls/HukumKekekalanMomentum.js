@@ -1,4 +1,4 @@
-import hukumkekekalanmomentumImg from "../../../../assets/Materi/MomentumImpuls/HukumKekekalanMomentum.png"
+import hukumkekekalanmomentumbolabertumbukanImg from "/src/assets/Materi/MomentumImpuls/HukumKekekalanMomentumBolaBertumbukan.png";
 
 const hukumkekekalanmomentum = {
   title: "Hukum Kekekalan Momentum",
@@ -7,17 +7,13 @@ const hukumkekekalanmomentum = {
   content: [
     {
       heading: "⚖️ Apa Itu Hukum Kekekalan Momentum?",
+      image: hukumkekekalanmomentumbolabertumbukanImg,
       body: [
         "Ketika dua benda bertumbukan, kita mungkin melihat kecepatannya berubah. Ada yang melambat, ada yang memantul, bahkan ada yang bergerak bersama setelah tumbukan.",
         "Meskipun demikian, terdapat satu besaran yang tetap terjaga, yaitu momentum total sistem.",
         "Prinsip inilah yang dikenal sebagai Hukum Kekekalan Momentum.",
         "Hukum ini menyatakan bahwa jumlah momentum seluruh benda sebelum tumbukan sama dengan jumlah momentum seluruh benda setelah tumbukan, selama tidak ada gaya luar yang bekerja pada sistem."
       ]
-    },
-
-    {
-      image: hukumkekekalanmomentumImg,
-      caption: "Ilustrasi Hukum Kekekalan Momentum"
     },
 
     {
