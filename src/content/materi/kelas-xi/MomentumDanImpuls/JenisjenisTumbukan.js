@@ -1,3 +1,4 @@
+import JenisjenisTumbukanImg from"/src/assets/Materi/MomentumImpuls/JenisjenisTumbukan.png";
 const jenistumbukan = {
 title: "Jenis-Jenis Tumbukan",
 slug: "jenis-jenis tumbukan",
@@ -5,6 +6,8 @@ description: "Memahami berbagai jenis tumbukan berdasarkan perubahan energi kine
 content: [
 {
 heading: "💥 Apa Itu Tumbukan?",
+image: JenisjenisTumbukanImg,
+caption: "Ilustrasi berbagai jenis tumbukan",
 body: [
 "Tumbukan adalah peristiwa ketika dua benda saling bertemu dan memberikan gaya satu sama lain dalam waktu yang sangat singkat.",
 "Selama tumbukan berlangsung, momentum total sistem selalu tetap sesuai dengan Hukum Kekekalan Momentum.",
@@ -92,7 +95,7 @@ body: [
     "Nilainya berada di antara 0 hingga 1.",
     "Semakin besar nilai e, semakin elastis tumbukan tersebut."
   ],
-  equation: "e = (kecepatan saling menjauh) / (kecepatan saling mendekat)"
+  equation: "e =\\frac {(kecepatan saling menjauh)}{(kecepatan saling mendekat)}"
 },
 
 {
