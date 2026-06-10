@@ -14,7 +14,9 @@ import HukumAchimedes from "../content/materi/kelas-xi/Fluida/HukumAchimedes"
 import TeganganPermukaan from "../content/materi/kelas-xi/Fluida/TeganganPermukaan.js"
 import Kapilaritas from "../content/materi/kelas-xi/Fluida/Kapilaritas.js"
 import Meniskus from "../content/materi/kelas-xi/Fluida/Meniskus.js"
-import ListrikStatis from "../content/materi/kelas-xii/ListrikStatis.js"
+import PengertianListrikStatis from "../content/materi/kelas-xii/ListrikStatis/PengertianListrikStatis.js"
+import HukumColoumb from "../content/materi/kelas-xii/ListrikStatis/HukumColoumb.js"
+import ResultanGayaColoumb from "../content/materi/kelas-xii/ListrikStatis/ResultanGayaColoumb.js"
 
 export const materials = [
   Gelombang,
@@ -32,5 +34,7 @@ export const materials = [
   TeganganPermukaan,
   Kapilaritas,
   Meniskus,
-  ListrikStatis
+  PengertianListrikStatis,
+  HukumColoumb,
+  ResultanGayaColoumb
 ]
