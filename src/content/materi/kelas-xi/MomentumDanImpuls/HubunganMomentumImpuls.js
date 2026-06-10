@@ -1,4 +1,5 @@
-import hubunganmomentumdanimpulsImg from "../../../../assets/Materi/MomentumImpuls/HubunganMomentumDanImpuls.png"
+import hubunganmomentumimpulstendanganbolaImg from "/src/assets/Materi/MomentumImpuls/HubunganMomentumImpulsTendanganBola.png";
+import hubunganmomentumimpulsboladantembokImg from "/src/assets/Materi/MomentumImpuls/HubunganMomentuImpulsBolaDanTembok.png";
 
 const hubunganmomentumimpuls = {
   title: "Hubungan Antara Momentum dan Impuls",
@@ -7,17 +8,14 @@ const hubunganmomentumimpuls = {
   content: [
     {
       heading: "🔗 Momentum dan Impuls: Duo yang Tidak Bisa Dipisahkan",
+      image: hubunganmomentumimpulstendanganbolaImg,
+      caption: "Ilustrasi hubungan antara momentum dan impuls saat menendang bola",
       body: [
         "Momentum dan impuls adalah dua konsep yang saling berkaitan erat dalam fisika.",
         "Ketika sebuah gaya bekerja pada benda selama selang waktu tertentu, momentum benda tersebut akan berubah.",
         "Perubahan momentum inilah yang disebut sebagai impuls.",
         "Semakin besar impuls yang diberikan, semakin besar pula perubahan momentum yang terjadi."
       ]
-    },
-
-    {
-      image: hubunganmomentumdanimpulsImg,
-      caption: "Hubungan antara Momentum dan Impuls"
     },
 
     {
@@ -43,6 +41,8 @@ const hubunganmomentumimpuls = {
 
     {
       heading: "✨ Bentuk Lengkap Persamaan",
+      image: hubunganmomentumimpulsboladantembokImg,
+      caption: "Ilustrasi perubahan momentum saat bola memantul dari tembok",
       body: [
         "Karena momentum dirumuskan sebagai p = mv, maka perubahan momentum dapat ditulis sebagai:"
       ],

@@ -1,3 +1,5 @@
+import impulstendangbolaImg from "/src/assets/Materi/MomentumImpuls/ImpulsTendanganBola.png";
+import impulsairbagImg from "/src/assets/Materi/MomentumImpuls/ImpulsAirbag.png";
 const pengertianimpuls = {
   title: "Pengertian Impuls",
   slug: "impuls",
@@ -5,6 +7,8 @@ const pengertianimpuls = {
   content: [
     {
       heading: "💥 Impuls: Si Pengubah Momentum",
+      image: impulstendangbolaImg,
+      caption: "Ilustrasi impuls saat menendang bola",
       body: [
         "Pernah nggak sih kamu menendang bola hingga melaju kencang? Atau melihat raket tenis memukul bola hanya dalam sepersekian detik?",
         "Di balik peristiwa tersebut terdapat konsep fisika yang disebut impuls.",
@@ -103,8 +107,11 @@ const pengertianimpuls = {
 
     {
       heading: "🌍 Impuls dalam Kehidupan Sehari-hari",
+      image: impulsairbagImg,
+      caption: "Ilustrasi impuls dalam sistem airbag",
       body: [
         "Airbag pada mobil dirancang untuk memperpanjang waktu tumbukan sehingga gaya benturan yang diterima penumpang menjadi lebih kecil.",
+        "Ada lagi, contoh lainya:",
         "Matras lompat tinggi dibuat empuk agar waktu berhentinya atlet lebih lama dan risiko cedera berkurang.",
         "Sarung tinju dibuat lebih tebal untuk memperbesar waktu kontak saat pukulan terjadi.",
         "Saat menangkap bola, tangan biasanya ditarik ke belakang agar waktu kontak bertambah sehingga terasa lebih nyaman."
