@@ -1,3 +1,5 @@
+import { caption } from "framer-motion/client"
+import pengertianfluidaImg from "/src/assets/Materi/Fluida/PengertianFluida.png"
 const pengertianfluida = {
   title: "Pengertian Fluida",
   slug: "pengertian fluida",
@@ -5,6 +7,8 @@ const pengertianfluida = {
   content: [
     {
       heading: "🌊 Apa Itu Fluida?",
+      image: pengertianfluidaImg,
+      caption: "Fluida adalah zat yang dapat mengalir dan mengikuti bentuk wadahnya.",
       body: [
         "Pernah melihat air mengalir di sungai? Atau merasakan angin yang bertiup di wajahmu?",
         "Meskipun terlihat berbeda, keduanya termasuk fluida.",

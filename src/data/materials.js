@@ -1,3 +1,6 @@
+import HakikatIlmuFisika from "../content/materi/kelas-x/Pengukuran/HakikatIlmuFisika.js"
+import MetodeIlmiah from "../content/materi/kelas-x/Pengukuran/MetodeIlmiah.js"
+import BesaranDanSatuan from "../content/materi/kelas-x/Pengukuran/BesaranDanSatuan.js"
 import PengertianMomentum from "../content/materi/kelas-xi/MomentumDanImpuls/PengertianMomentum.js"
 import pengertianimpuls from "../content/materi/kelas-xi/MomentumDanImpuls/PengertianImpuls.js"
 import HubunganMomentumImpuls from "../content/materi/kelas-xi/MomentumDanImpuls/HubunganMomentumImpuls.js"
@@ -18,6 +21,9 @@ import HukumColoumb from "../content/materi/kelas-xii/ListrikStatis/HukumColoumb
 import ResultanGayaColoumb from "../content/materi/kelas-xii/ListrikStatis/ResultanGayaColoumb.js"
 
 export const materials = [
+  HakikatIlmuFisika,
+  MetodeIlmiah,
+  BesaranDanSatuan,
   PengertianMomentum,
   pengertianimpuls,
   HubunganMomentumImpuls,

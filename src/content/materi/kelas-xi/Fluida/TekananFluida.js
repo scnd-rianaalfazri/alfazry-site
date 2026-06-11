@@ -1,3 +1,4 @@
+import tekananfluidaImg from "/src/assets/Materi/Fluida/TekananFluida.png"
 const tekananfluida = {
   title: "Tekanan Fluida",
   slug: "tekanan fluida",
@@ -5,6 +6,8 @@ const tekananfluida = {
   content: [
     {
       heading: "🤔 Kenapa Paku Lebih Mudah Menembus Kayu?",
+      image: tekananfluidaImg,
+      caption: "Paku memiliki luas bidang tekan yang lebih kecil, sehingga tekanannya lebih besar.",
       body: [
         "Coba bandingkan ujung paku dengan ujung jari kamu.",
         "Saat menekan kayu menggunakan jari, kayu tidak akan tertembus. Tetapi saat menggunakan paku dengan gaya yang sama, kayu bisa tertusuk.",

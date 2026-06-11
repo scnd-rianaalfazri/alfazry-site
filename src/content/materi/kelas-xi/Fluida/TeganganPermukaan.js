@@ -1,3 +1,4 @@
+import teganganpermukaanImg from "/src/assets/Materi/Fluida/TeganganPermukaan.png"
 const teganganpermukaan = {
   title: "Tegangan Permukaan",
   slug: "tegangan permukaan",
@@ -5,6 +6,8 @@ const teganganpermukaan = {
   content: [
     {
       heading: "🪲 Kenapa Serangga Bisa Berjalan di Atas Air?",
+      image: teganganpermukaanImg,
+      caption: "Serangga dapat berjalan di atas permukaan air karena tegangan permukaan.",
       body: [
         "Pernah melihat serangga kecil berjalan di atas permukaan kolam tanpa tenggelam?",
         "Padahal massa tubuhnya tetap memiliki berat yang menariknya ke bawah.",
