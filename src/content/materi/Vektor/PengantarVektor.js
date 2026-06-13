@@ -1,0 +1,122 @@
+const pengantarvektor = {
+  title: "Apa Itu Vektor?",
+  slug: "pengantar vektor",
+  description: "Memahami sistem satuan standar yang digunakan dalam fisika agar hasil pengukuran dapat dibandingkan secara universal.",
+  content: [
+    {
+      heading: "🏹 Vektor — Ketika Fisika Mulai Mengenal Arah",
+      body: [
+        "Dalam kehidupan sehari-hari, kita sering menyebut suatu nilai tanpa memikirkan arah.",
+        "",
+        "Contoh:",
+        "\"Jarak rumah ke sekolah adalah 5 km.\"",
+        "",
+        "Namun dalam fisika, informasi tersebut belum selalu cukup.",
+        "",
+        "Kadang kita perlu tahu:",
+        "\"Ke arah mana perpindahannya?\"",
+        "",
+        "Di sinilah konsep vektor digunakan."
+      ]
+    },
+
+    {
+      heading: "🧩 Apa Itu Vektor?",
+      body: [
+        "Vektor adalah besaran fisika yang memiliki dua informasi penting:",
+        "",
+        "① Besar (nilai)",
+        "② Arah",
+        "",
+        "Karena memiliki arah, vektor tidak dapat hanya dinyatakan dengan angka saja."
+      ]
+    },
+
+    {
+      heading: "📏 Contoh Besaran Vektor",
+      body: [
+        "Beberapa contoh besaran vektor dalam fisika:",
+        "",
+        "🚗 Kecepatan",
+        "➡️ Perpindahan",
+        "⚡ Gaya",
+        "🌎 Percepatan",
+        "🚀 Momentum",
+        "",
+        "Semua besaran tersebut memiliki nilai dan arah."
+      ]
+    },
+
+    {
+      heading: "🔢 Contoh Sederhana Vektor",
+      body: [
+        "Misalnya:",
+        "",
+        "Sebuah mobil bergerak dengan kecepatan 60 km/jam ke arah timur.",
+        "",
+        "Angka 60 km/jam menunjukkan besar.",
+        "Arah timur menunjukkan arah vektor."
+      ]
+    },
+
+    {
+      heading: "↔️ Kenapa Fisika Membutuhkan Vektor?",
+      body: [
+        "Banyak fenomena alam tidak cukup dijelaskan hanya dengan angka.",
+        "",
+        "Contoh:",
+        "Dua orang menarik sebuah benda dari arah berbeda.",
+        "",
+        "Untuk mengetahui gerakan benda, kita harus memperhatikan besar dan arah gaya."
+      ]
+    },
+
+    {
+      heading: "🌍 Vektor dalam Kehidupan Sehari-hari",
+      body: [
+        "Tanpa sadar kita sering menggunakan konsep vektor:",
+        "",
+        "🧭 Menentukan arah perjalanan",
+        "🚗 Mengetahui arah kendaraan bergerak",
+        "💨 Menentukan arah angin",
+        "🏀 Mengatur arah lemparan bola"
+      ]
+    },
+
+    {
+      heading: "⚖️ Vektor vs Skalar (Gambaran Awal)",
+      body: [
+        "Ada besaran yang hanya memiliki nilai tanpa arah.",
+        "",
+        "Besaran seperti itu disebut skalar.",
+        "",
+        "Contoh:",
+        "Massa, waktu, suhu, dan energi.",
+        "",
+        "Sedangkan vektor memiliki nilai dan arah."
+      ]
+    },
+
+    {
+      heading: "✨ Inti Materi",
+      body: [
+        "Vektor adalah cara fisika menggambarkan besaran yang memiliki arah.",
+        "",
+        "Dengan vektor, fenomena seperti gerak, gaya, dan perpindahan dapat dijelaskan lebih akurat."
+      ]
+    },
+
+    {
+      heading: "🚀 Next Mission",
+      body: [
+        "Sekarang kita sudah tahu bahwa tidak semua besaran cukup dijelaskan dengan angka.",
+        "",
+        "Lalu apa perbedaan lengkap antara besaran skalar dan vektor?",
+        "",
+        "➡️ Selanjutnya: Besaran Skalar dan Besaran Vektor."
+      ]
+    }
+  ]
+}
+
+export default pengantarvektor

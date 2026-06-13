@@ -1,9 +1,9 @@
 import { body } from "framer-motion/client"
 
-const konversisatuan = {
-  title: "Konversi Satuan",
-  slug: "konversi satuan",
-  description: "Memahami cara mengubah satuan pengukuran ke bentuk lain tanpa mengubah nilai sebenarnya.",
+const ketidakpastian = {
+  title: "Ketidakpastian",
+  slug: "ketidakpastian",
+  description: "Memahami penyebab ketidakpastian dalam pengukuran dan cara menyatakan hasil pengukuran dengan benar.",
   content: [
     {
       heading: "🎯 Ketidakpastian Pengukuran — Tidak Ada Ukuran yang Sempurna",
@@ -132,7 +132,7 @@ const konversisatuan = {
         "",
         "Bagaimana cara mengubah satuan tanpa mengubah nilai sebenarnya?",
         "",
-        "➡️ Selanjutnya kita masuk ke: Konversi Satuan."
+        "➡️ Selanjutnya: Konversi Satuan."
       ]
     },
 
@@ -149,4 +149,4 @@ const konversisatuan = {
   ]
 }
 
-export default konversisatuan
+export default ketidakpastian

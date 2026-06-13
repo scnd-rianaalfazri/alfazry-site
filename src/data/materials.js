@@ -1,14 +1,16 @@
-import HakikatIlmuFisika from "../content/materi/kelas-x/Pengukuran/HakikatIlmuFisika.js"
-import MetodeIlmiah from "../content/materi/kelas-x/Pengukuran/MetodeIlmiah.js"
-import BesaranDanSatuan from "../content/materi/kelas-x/Pengukuran/BesaranDanSatuan.js"
-import SistemInternasional from "../content/materi/kelas-x/Pengukuran/SistemInternasional.js"
-import BesaranPokokDanTurunan from"../content/materi/kelas-x/Pengukuran/BesaranPokokDanTurunan.js"
-import Dimensi from "../content/materi/kelas-x/Pengukuran/Dimensi.js"
-import AngkaPenting from "../content/materi/kelas-x/Pengukuran/AngkaPenting.js"
-import NotasiImiah from "../content/materi/kelas-x/Pengukuran/NotasiIlmiah.js"
-import Pengukuran from "../content/materi/kelas-x/Pengukuran/Pengukuran.js"
-import Ketidakpastian from "../content/materi/kelas-x/Pengukuran/Ketidakpastian.js"
-import KonversiSatuan from "../content/materi/kelas-x/Pengukuran/KonversiSatuan.js"
+import HakikatIlmuFisika from "../content/materi/BesaranDanSatuan/HakikatIlmuFisika.js"
+import MetodeIlmiah from "../content/materi/BesaranDanSatuan/MetodeIlmiah.js"
+import BesaranDanSatuan from "../content/materi/BesaranDanSatuan/BesaranDanSatuan.js"
+import SistemInternasional from "../content/materi/BesaranDanSatuan/SistemInternasional.js"
+import BesaranPokokDanTurunan from"../content/materi/BesaranDanSatuan/BesaranPokokDanTurunan.js"
+import Dimensi from "../content/materi/BesaranDanSatuan/Dimensi.js"
+import AngkaPenting from "../content/materi/BesaranDanSatuan/AngkaPenting.js"
+import NotasiImiah from "../content/materi/BesaranDanSatuan/NotasiIlmiah.js"
+import Pengukuran from "../content/materi/BesaranDanSatuan/Pengukuran.js"
+import Ketidakpastian from "../content/materi/BesaranDanSatuan/Ketidakpastian.js"
+import KonversiSatuan from "../content/materi/BesaranDanSatuan/KonversiSatuan.js"
+import PengantarVektor from "../content/materi/Vektor/PengantarVektor.js"
+import SkalarDanVektor from "../content/materi/Vektor/SkalarDanVektor.js"
 import PengertianMomentum from "../content/materi/kelas-xi/MomentumDanImpuls/PengertianMomentum.js"
 import pengertianimpuls from "../content/materi/kelas-xi/MomentumDanImpuls/PengertianImpuls.js"
 import HubunganMomentumImpuls from "../content/materi/kelas-xi/MomentumDanImpuls/HubunganMomentumImpuls.js"
@@ -34,12 +36,14 @@ export const materials = [
   BesaranDanSatuan,
   SistemInternasional,
   BesaranPokokDanTurunan,
-  Ketidakpastian,
-  KonversiSatuan,
   Dimensi,
   AngkaPenting,
   NotasiImiah,
   Pengukuran,
+  Ketidakpastian,
+  KonversiSatuan,
+  PengantarVektor,
+  SkalarDanVektor,
   PengertianMomentum,
   pengertianimpuls,
   HubunganMomentumImpuls,

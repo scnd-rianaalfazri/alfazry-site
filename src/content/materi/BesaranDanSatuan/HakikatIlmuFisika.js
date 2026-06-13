@@ -1,10 +1,15 @@
+import { caption } from "framer-motion/client"
+import hakikatilmufisikaImg from "/src/assets/Materi/BesaranDanSatuan/HeroSection1.png"
+import pembelajaranfisikaImg from "/src/assets/Materi/BesaranDanSatuan/Ilustrasi1.png"
+
 const hakikatilmufisika = {
   title: "Hakikat Ilmu Fisika",
   slug: "hakikat ilmu fisika",
   description: "Memahami konsep dasar dan pentingnya ilmu fisika dalam memahami alam semesta.",
   content: [
     {
-      heading: "🌌 Hakikat Fisika — Kenapa Dunia Bisa Dipahami?",
+      image: hakikatilmufisikaImg,
+      caption: "🌌 Hakikat Fisika — Kenapa Dunia Bisa Dipahami?",
       body: [
         "Pernah kepikiran nggak…",
         "Kenapa bola yang dilempar selalu jatuh ke bawah?",
@@ -20,17 +25,7 @@ const hakikatilmufisika = {
     },
 
     {
-      heading: "🔍 Apa yang Dipelajari Fisika?",
-      body: [
-        "Fisika mempelajari berbagai fenomena di sekitar kita, seperti:",
-        "⚡ Energi dan listrik",
-        "🚗 Gerak benda",
-        "🌊 Gelombang dan bunyi",
-        "🔥 Kalor dan suhu",
-        "🌌 Planet, bintang, dan alam semesta",
-        "",
-        "Mulai dari partikel yang sangat kecil sampai galaksi yang sangat besar—semuanya bisa dijelaskan menggunakan konsep fisika."
-      ]
+      image: pembelajaranfisikaImg,
     },
 
     {

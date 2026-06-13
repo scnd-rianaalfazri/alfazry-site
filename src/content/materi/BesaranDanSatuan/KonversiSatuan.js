@@ -1,9 +1,9 @@
 import { body } from "framer-motion/client"
 
-const ketidakpastian = {
-  title: "Ketidakpastian",
-  slug: "ketidakpastian",
-  description: "Memahami penyebab ketidakpastian dalam pengukuran dan cara menyatakan hasil pengukuran dengan benar.",
+const konversisatuan = {
+  title: "Konversi Satuan",
+  slug: "konversi satuan",
+  description: "Memahami cara mengubah satuan pengukuran ke bentuk lain tanpa mengubah nilai sebenarnya.",
   content: [
     {
       heading: "🔄 Konversi Satuan — Mengubah Bentuk, Bukan Nilai",
@@ -134,15 +134,15 @@ const ketidakpastian = {
 
     {
       heading: "Referensi:",
-      body: [
-        "Halliday, Resnick & Walker. Fundamentals of Physics.",
-        "Serway & Jewett. Physics for Scientists and Engineers.",
-        "Young & Freedman. University Physics with Modern Physics.",
-        "BIPM. The International System of Units (SI Brochure).",
-        "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X."
+      body:[
+       "Halliday, Resnick & Walker. Fundamentals of Physics.",
+       "Serway & Jewett. Physics for Scientists and Engineers.",
+       "Young & Freedman. University Physics with Modern Physics.",
+       "BIPM. The International System of Units (SI Brochure).",
+       "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X." 
       ]
     }
   ]
 }
 
-export default ketidakpastian
+export default konversisatuan
