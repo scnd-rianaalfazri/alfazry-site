@@ -119,7 +119,16 @@ const metodeilmiah= {
         "",
         "Tapi… bagaimana cara mereka menuliskan hasil pengamatan agar semua orang memiliki standar yang sama?",
         "",
-        "➡️ Di materi berikutnya kita masuk ke: Besaran dan Satuan."
+        "➡️ Selanjutnya: Besaran dan Satuan."
+      ]
+    },
+
+    {
+      heading: "Referensi:",
+      body: [
+        "Serway & Jewett. Physics for Scientists and Engineers.",
+        "Halliday, Resnick & Walker. Fundamentals of Physics.",
+        "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X."
       ]
     }
   ]

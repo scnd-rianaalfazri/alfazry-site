@@ -65,7 +65,16 @@ const hakikatilmufisika = {
         "",
         "Bagaimana cara ilmuwan memastikan hasil pengamatannya benar?",
         "",
-        "➡️ Di materi berikutnya kita akan masuk ke: Metode Ilmiah."
+        "➡️ Selanjutnya: Metode Ilmiah."
+      ]
+    },
+
+    {
+      heading: "Referensi:",
+      body: [
+        "Serway & Jewett. Physics for Scientists and Engineers.",
+        "Halliday, Resnick & Walker. Fundamentals of Physics.",
+        "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X."
       ]
     }
   ]

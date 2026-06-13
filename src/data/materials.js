@@ -1,6 +1,14 @@
 import HakikatIlmuFisika from "../content/materi/kelas-x/Pengukuran/HakikatIlmuFisika.js"
 import MetodeIlmiah from "../content/materi/kelas-x/Pengukuran/MetodeIlmiah.js"
 import BesaranDanSatuan from "../content/materi/kelas-x/Pengukuran/BesaranDanSatuan.js"
+import SistemInternasional from "../content/materi/kelas-x/Pengukuran/SistemInternasional.js"
+import BesaranPokokDanTurunan from"../content/materi/kelas-x/Pengukuran/BesaranPokokDanTurunan.js"
+import Dimensi from "../content/materi/kelas-x/Pengukuran/Dimensi.js"
+import AngkaPenting from "../content/materi/kelas-x/Pengukuran/AngkaPenting.js"
+import NotasiImiah from "../content/materi/kelas-x/Pengukuran/NotasiIlmiah.js"
+import Pengukuran from "../content/materi/kelas-x/Pengukuran/Pengukuran.js"
+import Ketidakpastian from "../content/materi/kelas-x/Pengukuran/Ketidakpastian.js"
+import KonversiSatuan from "../content/materi/kelas-x/Pengukuran/KonversiSatuan.js"
 import PengertianMomentum from "../content/materi/kelas-xi/MomentumDanImpuls/PengertianMomentum.js"
 import pengertianimpuls from "../content/materi/kelas-xi/MomentumDanImpuls/PengertianImpuls.js"
 import HubunganMomentumImpuls from "../content/materi/kelas-xi/MomentumDanImpuls/HubunganMomentumImpuls.js"
@@ -24,6 +32,14 @@ export const materials = [
   HakikatIlmuFisika,
   MetodeIlmiah,
   BesaranDanSatuan,
+  SistemInternasional,
+  BesaranPokokDanTurunan,
+  Ketidakpastian,
+  KonversiSatuan,
+  Dimensi,
+  AngkaPenting,
+  NotasiImiah,
+  Pengukuran,
   PengertianMomentum,
   pengertianimpuls,
   HubunganMomentumImpuls,

@@ -1,0 +1,156 @@
+const notasiilmiah= {
+  title: "Notasi Ilmiah",
+  slug: "notasi ilmiah",
+  description: "Memahami cara menuliskan bilangan sangat besar atau sangat kecil menggunakan bentuk notasi ilmiah.",
+  content: [
+    {
+      heading: "🚀 Notasi Ilmiah — Cara Singkat Menulis Angka Ekstrem",
+      body: [
+        "Dalam fisika, kita sering menemukan angka yang sangat besar maupun sangat kecil.",
+        "",
+        "Contohnya:",
+        "Jarak bumi ke matahari sangat besar.",
+        "Ukuran atom sangat kecil.",
+        "",
+        "Jika ditulis dengan angka biasa, bentuknya menjadi panjang dan sulit dibaca.",
+        "",
+        "Karena itu digunakan notasi ilmiah."
+      ]
+    },
+
+    {
+      heading: "🔢 Apa Itu Notasi Ilmiah?",
+      body: [
+        "Notasi ilmiah adalah cara menuliskan bilangan dalam bentuk:",
+        "",
+        "a × 10ⁿ",
+        "",
+        "dengan:",
+        "a = bilangan antara 1 sampai kurang dari 10",
+        "n = pangkat bilangan bulat"
+      ]
+    },
+
+    {
+      heading: "📈 Menulis Bilangan Besar",
+      body: [
+        "Untuk bilangan besar, koma digeser ke kiri.",
+        "",
+        "Contoh:",
+        "300.000.000 m",
+        "",
+        "Menjadi:",
+        "3 × 10⁸ m",
+        "",
+        "Karena koma bergeser 8 tempat ke kiri."
+      ]
+    },
+
+    {
+      heading: "📉 Menulis Bilangan Kecil",
+      body: [
+        "Untuk bilangan kecil, koma digeser ke kanan.",
+        "",
+        "Contoh:",
+        "0,0000012 m",
+        "",
+        "Menjadi:",
+        "1,2 × 10⁻⁶ m",
+        "",
+        "Pangkat negatif menunjukkan bilangan yang lebih kecil dari satu."
+      ]
+    },
+
+    {
+      heading: "🧠 Memahami Pangkat 10",
+      body: [
+        "Beberapa contoh nilai pangkat:",
+        "",
+        "10² = 100",
+        "10³ = 1000",
+        "10⁻² = 0,01",
+        "10⁻³ = 0,001"
+      ]
+    },
+
+    {
+      heading: "🔄 Mengubah Notasi Ilmiah ke Bentuk Biasa",
+      body: [
+        "Jika pangkat positif:",
+        "Geser koma ke kanan.",
+        "",
+        "Contoh:",
+        "4,5 × 10³",
+        "",
+        "Menjadi:",
+        "4500"
+      ]
+    },
+
+    {
+      heading: "🔄 Mengubah Bentuk Biasa ke Notasi Ilmiah",
+      body: [
+        "Langkahnya:",
+        "",
+        "1. Geser koma hingga angka depan antara 1–10",
+        "2. Hitung jumlah pergeseran",
+        "3. Tentukan pangkat 10"
+      ]
+    },
+
+    {
+      heading: "🌌 Contoh dalam Fisika",
+      body: [
+        "Massa bumi:",
+        "≈ 5.970.000.000.000.000.000.000.000 kg",
+        "",
+        "Lebih sederhana ditulis:",
+        "≈ 5,97 × 10²⁴ kg",
+        "",
+        "Notasi ilmiah membuat angka besar lebih mudah dibaca dan dihitung."
+      ]
+    },
+
+    {
+      heading: "🎯 Manfaat Notasi Ilmiah",
+      body: [
+        "Notasi ilmiah membantu:",
+        "",
+        "✅ Menyederhanakan angka panjang",
+        "✅ Mempermudah operasi matematika",
+        "✅ Menulis hasil pengukuran dengan rapi"
+      ]
+    },
+
+    {
+      heading: "✨ Inti Materi",
+      body: [
+        "Notasi ilmiah adalah bahasa praktis fisika untuk berkomunikasi dengan angka yang sangat besar maupun sangat kecil."
+      ]
+    },
+
+    {
+      heading: "🚀 Next Mission",
+      body: [
+        "Fisika membutuhkan angka yang tepat.",
+        "Tapi dari mana angka tersebut diperoleh?",
+        "",
+        "Jawabannya melalui proses pengukuran.",
+        "",
+        "➡️ Selanjutnya kita masuk ke: Pengukuran."
+      ]
+    },
+
+    {
+      heading: "Referensi:",
+      body: [
+        "Serway & Jewett. Physics for Scientists and Engineers.",
+        "Halliday, Resnick & Walker. Fundamentals of Physics.",
+        "Young & Freedman. University Physics with Modern Physics.",
+        "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X."
+      ]
+    }
+  ]
+}
+
+export default notasiilmiah

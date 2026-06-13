@@ -104,7 +104,17 @@ const besarandansatuan = {
         "Kalau semua pengukuran harus punya standar…",
         "apa saja satuan dasar yang dipakai seluruh dunia?",
         "",
-        "➡️ Di materi berikutnya kita masuk ke: Sistem Internasional (SI)."
+        "➡️ Selanjutnya: Sistem Internasional (SI)."
+      ]
+    },
+
+    {
+      heading: "Referensi:",
+      body: [
+        "Serway & Jewett. Physics for Scientists and Engineers.",
+        "Halliday, Resnick & Walker. Fundamentals of Physics.",
+        "BIPM. The International System of Units (SI Brochure).",
+        "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X."
       ]
     }
   ]
