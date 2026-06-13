@@ -1,6 +1,9 @@
-import { caption } from "framer-motion/client"
-import hakikatilmufisikaImg from "/src/assets/Materi/BesaranDanSatuan/HeroSection1.png"
-import pembelajaranfisikaImg from "/src/assets/Materi/BesaranDanSatuan/Ilustrasi1.png"
+import { caption, image, link } from "framer-motion/client"
+import hakikatilmufisikaImg from "/src/assets/Materi/BesaranDanSatuan/HakikatIlmuFisika1.jpg"
+import pembelajaranfisikaImg from "/src/assets/Materi/BesaranDanSatuan/HakikatIlmuFisika2.jpg"
+import caraberpikirfisikawanImg from "/src/assets/Materi/BesaranDanSatuan/HakikatIlmuFisika3.jpg"
+import penjelasanbelajarfisikaImg from "/src/assets/Materi/BesaranDanSatuan/HakikatIlmuFisika4.jpg"
+import nextmissionmetodeilmiahImg from "/src/assets/Materi/BesaranDanSatuan/HakikatIlmuFisika5.jpg"
 
 const hakikatilmufisika = {
   title: "Hakikat Ilmu Fisika",
@@ -26,10 +29,12 @@ const hakikatilmufisika = {
 
     {
       image: pembelajaranfisikaImg,
+      caption: "Fisika mempelajari berbagai fenomena di sekitar kita, dari yang kecil sampai yang sangat besar."
     },
 
     {
-      heading: "🧠 Cara Berpikir Seorang Fisikawan",
+      image: caraberpikirfisikawanImg,
+      caption: "🧠 Cara Berpikir Seorang Fisikawan",
       body: [
         "Saat melihat suatu peristiwa, fisika tidak langsung percaya pada tebakan.",
         "",
@@ -45,23 +50,17 @@ const hakikatilmufisika = {
     },
 
     {
-      heading: "✨ Kenapa Belajar Fisika?",
+      image: pembelajaranfisikaImg,
+      caption: "✨ Kenapa Belajar Fisika?",
       body: [
-        "Karena fisika membantu kita memahami dunia dengan lebih masuk akal.",
-        "",
         "Saat memahami fisika, kita tidak hanya tahu bahwa sesuatu terjadi—tetapi juga mengerti mengapa itu bisa terjadi."
       ]
     },
 
     {
-      heading: "🚀 Next Mission",
-      body: [
-        "Kalau fisika ingin memahami alam, pertanyaannya sekarang:",
-        "",
-        "Bagaimana cara ilmuwan memastikan hasil pengamatannya benar?",
-        "",
-        "➡️ Selanjutnya: Metode Ilmiah."
-      ]
+      image: nextmissionmetodeilmiahImg,
+      caption: "🚀 Next Mission",
+      link: "../BesaranDanSatuan/MetodeIlmiah.js"
     },
 
     {
@@ -71,7 +70,7 @@ const hakikatilmufisika = {
         "Halliday, Resnick & Walker. Fundamentals of Physics.",
         "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X."
       ]
-    }
+    },
   ]
 }
 

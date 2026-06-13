@@ -94,20 +94,32 @@ export default function DetailMateri() {
                 {section.heading}
               </h2>
               <div className="space-y-4">
-                {section.image && (
-                  <figure className="mt-2 rounded-3xl overflow-hidden border border-white/10 bg-black/10">
-                    <img
-                      src={section.image}
-                      alt={section.caption || section.heading || materi.title}
-                      className="w-full h-auto object-cover"
-                    />
-                    {section.caption && (
-                      <figcaption className="px-4 py-3 text-sm text-white/60 bg-black/20 text-center">
-                        {section.caption}
-                      </figcaption>
-                    )}
-                  </figure>
-                )}
+      {section.image && (
+        <figure className="mt-2 rounded-3xl overflow-hidden border border-white/10 bg-black/10">
+
+          {section.link ? (
+            <Link to={section.link}>
+              <img
+                src={section.image}
+                alt={section.caption || section.heading || materi.title}
+                className="w-full h-auto object-cover cursor-pointer transition duration-300 hover:scale-105"
+              />
+            </Link>
+            ) : (
+              <img
+                src={section.image}
+                alt={section.caption || section.heading || materi.title}
+                className="w-full h-auto object-cover"
+              />
+            )}
+
+          {section.caption && (
+            <figcaption className="px-4 py-3 text-sm text-white/60 bg-black/20 text-center">
+              {section.caption}
+            </figcaption>
+          )}
+        </figure>
+      )}
 
                 {/* Render body content */}
                 {Array.isArray(section.body) ? (
