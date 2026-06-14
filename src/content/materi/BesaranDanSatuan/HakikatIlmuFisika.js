@@ -12,7 +12,7 @@ const hakikatilmufisika = {
   content: [
     {
       image: hakikatilmufisikaImg,
-      caption: "🌌 Hakikat Fisika — Kenapa Dunia Bisa Dipahami?",
+      caption: "Menjelajahi Fisika: Dunia dan Alam Semesta",
       body: [
         "Pernah kepikiran nggak…",
         "Kenapa bola yang dilempar selalu jatuh ke bawah?",
@@ -29,12 +29,12 @@ const hakikatilmufisika = {
 
     {
       image: pembelajaranfisikaImg,
-      caption: "Fisika mempelajari berbagai fenomena di sekitar kita, dari yang kecil sampai yang sangat besar."
+      caption: "Fisika dalam kehidupan sehari-hari."
     },
 
     {
       image: caraberpikirfisikawanImg,
-      caption: "🧠 Cara Berpikir Seorang Fisikawan",
+      caption: "🧠 Cara Berpikir ilmiah fisikawan",
       body: [
         "Saat melihat suatu peristiwa, fisika tidak langsung percaya pada tebakan.",
         "",
@@ -51,7 +51,7 @@ const hakikatilmufisika = {
 
     {
       image: pembelajaranfisikaImg,
-      caption: "✨ Kenapa Belajar Fisika?",
+      caption: "Fisika menjawab rasa ingin tahu sehari-hari",
       body: [
         "Saat memahami fisika, kita tidak hanya tahu bahwa sesuatu terjadi—tetapi juga mengerti mengapa itu bisa terjadi."
       ]
@@ -59,8 +59,8 @@ const hakikatilmufisika = {
 
     {
       image: nextmissionmetodeilmiahImg,
-      caption: "🚀 Next Mission",
-      link: "../BesaranDanSatuan/MetodeIlmiah.js"
+      caption: "🚀 Next Mission! ➜ Metode Ilmiah: Penemuan Dimulai Dari Rasa Ingin Tahu",
+      link: "/materi/metode%20ilmiah"
     },
 
     {

@@ -1,10 +1,19 @@
-const metodeilmiah= {
+import { caption, image, link } from "framer-motion/client"
+import metodeilmiahImg from "/src/assets/Materi/BesaranDanSatuan/MetodeIlmiah1.jpg"
+import penjelasanmetodeilmiahImg from "/src/assets/Materi/BesaranDanSatuan/MetodeIlmiah2.jpg"
+import langkahlangkahmetodeilmiahImg from "/src/assets/Materi/BesaranDanSatuan/MetodeIlmiah3.jpg"
+import contohmetodeilmiahImg from "/src/assets/Materi/BesaranDanSatuan/MetodeIlmiah4.jpg"
+import nextmissionbesarandansatuan from "/src/assets/Materi/BesaranDanSatuan/MetodeIlmiah5.jpg"
+
+
+const metodeilmiah = {
   title: "Metode Ilmiah",
   slug: "metode ilmiah",
   description: "Memahami langkah-langkah sistematis yang digunakan ilmuwan untuk memperoleh pengetahuan yang dapat dipercaya.",
   content: [
     {
-      heading: "🔬 Metode Ilmiah — Bagaimana Ilmuwan Menemukan Jawaban?",
+      image: metodeilmiahImg,
+      caption: "Metode ilmiah di laboratorium modern",
       body: [
         "Setelah memahami bahwa fisika mempelajari alam, muncul pertanyaan baru:",
         "",
@@ -17,10 +26,9 @@ const metodeilmiah= {
     },
 
     {
-      heading: "🌱 Kenapa Harus Pakai Metode Ilmiah?",
+      image: penjelasanmetodeilmiahImg,
+      caption: "Science vs guessing: understanding the difference",
       body: [
-        "Bayangkan kalau semua kesimpulan dibuat hanya berdasarkan perasaan atau tebakan.",
-        "Hasilnya bisa berbeda-beda dan sulit dipercaya.",
         "",
         "Metode ilmiah membantu agar hasil penelitian:",
         "✅ Objektif",
@@ -31,10 +39,9 @@ const metodeilmiah= {
     },
 
     {
-      heading: "🧩 Langkah-Langkah Metode Ilmiah",
-      body: [
-        "Secara umum, metode ilmiah terdiri dari beberapa tahap:"
-      ]
+      image: langkahlangkahmetodeilmiahImg,
+      caption: "Langkah-langkah metode ilmiah",
+
     },
 
     {
@@ -100,7 +107,8 @@ const metodeilmiah= {
     },
 
     {
-      heading: "⚡ Contoh Metode Ilmiah dalam Kehidupan",
+      image: contohmetodeilmiahImg,
+      caption: "Contoh metode ilmiah menggunakan es batu",
       body: [
         "Masalah:",
         "\"Kenapa es batu di luar kulkas cepat mencair?\"",
@@ -113,14 +121,9 @@ const metodeilmiah= {
     },
 
     {
-      heading: "🚀 Next Mission",
-      body: [
-        "Ilmuwan sudah punya cara berpikir yang benar.",
-        "",
-        "Tapi… bagaimana cara mereka menuliskan hasil pengamatan agar semua orang memiliki standar yang sama?",
-        "",
-        "➡️ Selanjutnya: Besaran dan Satuan."
-      ]
+      image: nextmissionbesarandansatuan,
+      caption: "🚀 Next Mission! ➜ Fisika dan pengukuran dalam misi",
+      link: "/materi/besaran%20dan%20satuan",
     },
 
     {
