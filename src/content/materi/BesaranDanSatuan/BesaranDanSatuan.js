@@ -39,6 +39,7 @@ const besarandansatuan = {
 
     {
       image: contohbesaranImg,
+      caption: "Contoh besarannya dalam fisika",
       body: [
         "🎯 Contoh Besaran",
         "✔️ Panjang meja = 120 cm",
@@ -112,7 +113,7 @@ const besarandansatuan = {
 
     {
       image: nextmissionsisteminternasionalImg,
-      caption: "Eksplorasi sistem satuan internasional SI",
+      caption: "🚀 Next Mission! ➜ Eksplorasi sistem satuan internasional SI",
       link: "/materi/besaran%20dan%20satuan"
     },
 
