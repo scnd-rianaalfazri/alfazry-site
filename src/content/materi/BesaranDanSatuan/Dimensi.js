@@ -2,6 +2,7 @@ const dimensi = {
   title: "Dimensi",
   slug: "dimensi",
   description: "Memahami konsep dimensi besaran fisika dan penggunaannya untuk menganalisis persamaan fisika.",
+  chapter: "📏 Pengukuran",
   content: [
     {
       heading: "🧬 Dimensi — Sidik Jari Sebuah Besaran",

@@ -11,6 +11,16 @@ import Ketidakpastian from "../content/materi/BesaranDanSatuan/Ketidakpastian.js
 import KonversiSatuan from "../content/materi/BesaranDanSatuan/KonversiSatuan.js"
 import PengantarVektor from "../content/materi/Vektor/PengantarVektor.js"
 import SkalarDanVektor from "../content/materi/Vektor/SkalarDanVektor.js"
+import RepresentasiVektor from "../content/materi/Vektor/RepresentasiVektor.js"
+import SistemKoordinatDanArahVektor from "../content/materi/Vektor/SistemKoordinatDanArahVektor.js"
+import KomponenVektor from "../content/materi/Vektor/KomponenVektor.js"
+import MenghitungKomponenVektor from "../content/materi/Vektor/MenghitungKomponenVektor.js"
+import MenjumlahkanVektor from "../content/materi/Vektor/MenjumlahkanVektor.js"
+import ResultanVektorSatuGaris from "../content/materi/Vektor/ResultanVektorSatuGaris.js"
+import ResultanVektorDuaDimensi from "../content/materi/Vektor/ResultanVektorDuaDimensi.js"
+import MenentukanArahResultanVektor from "../content/materi/Vektor/MenentukanArahResultanVektor.js"
+import PerkalianVektor from "../content/materi/Vektor/PerkalianVektor.js"
+import AplikasiVektor from "../content/materi/Vektor/AplikasiVektor.js"
 import PengertianMomentum from "../content/materi/kelas-xi/MomentumDanImpuls/PengertianMomentum.js"
 import pengertianimpuls from "../content/materi/kelas-xi/MomentumDanImpuls/PengertianImpuls.js"
 import HubunganMomentumImpuls from "../content/materi/kelas-xi/MomentumDanImpuls/HubunganMomentumImpuls.js"
@@ -44,6 +54,16 @@ export const materials = [
   KonversiSatuan,
   PengantarVektor,
   SkalarDanVektor,
+  RepresentasiVektor,
+  SistemKoordinatDanArahVektor,
+  KomponenVektor,
+  MenghitungKomponenVektor,
+  MenjumlahkanVektor,
+  ResultanVektorSatuGaris,
+  ResultanVektorDuaDimensi,
+  MenentukanArahResultanVektor,
+  PerkalianVektor,
+  AplikasiVektor,
   PengertianMomentum,
   pengertianimpuls,
   HubunganMomentumImpuls,

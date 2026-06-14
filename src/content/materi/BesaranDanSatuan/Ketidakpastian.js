@@ -4,6 +4,7 @@ const ketidakpastian = {
   title: "Ketidakpastian",
   slug: "ketidakpastian",
   description: "Memahami penyebab ketidakpastian dalam pengukuran dan cara menyatakan hasil pengukuran dengan benar.",
+  chapter: "📏 Pengukuran",
   content: [
     {
       heading: "🎯 Ketidakpastian Pengukuran — Tidak Ada Ukuran yang Sempurna",

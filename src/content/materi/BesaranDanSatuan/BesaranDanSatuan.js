@@ -1,10 +1,19 @@
+import { caption, image, link } from "framer-motion/client"
+import besarandansatuanImg from "/src/assets/Materi/BesaranDanSatuan/BesaranDanSatuan1.jpg"
+import pengertianbesaranImg from "/src/assets/Materi/BesaranDanSatuan/BesaranDanSatuan2.jpg"
+import contohbesaranImg from "/src/assets/Materi/BesaranDanSatuan/BesaranDanSatuan3.jpg"
+import pengertiansatuanImg from "/src/assets/Materi/BesaranDanSatuan/BesaranDanSatuan4.jpg"
+import nextmissionsisteminternasionalImg from "/src/assets/Materi/BesaranDanSatuan/BesaranDanSatuan5.jpg"
+
 const besarandansatuan = {
   title: "Besaran dan Satuan",
   slug: "besaran dan satuan",
   description: "Memahami bagaimana fisika menyatakan hasil pengamatan menggunakan besaran dan satuan yang terstandarisasi.",
+  chapter: "📏 Pengukuran",
   content: [
     {
-      heading: "📏 Besaran dan Satuan — Bahasa Universal dalam Fisika",
+      image: besarandansatuanImg,
+      caption: "Pengukuran dan satuan dalam fisika",
       body: [
         "Bayangkan seseorang berkata:",
         "\"Meja ini panjang.\"",
@@ -17,7 +26,8 @@ const besarandansatuan = {
     },
 
     {
-      heading: "🧩 Apa Itu Besaran?",
+      image: pengertianbesaranImg,
+      caption: "Pengenalan besaran dalam fisika",
       body: [
         "Besaran adalah segala sesuatu yang dapat diukur dan dinyatakan dengan angka serta satuan.",
         "",
@@ -28,8 +38,9 @@ const besarandansatuan = {
     },
 
     {
-      heading: "🎯 Contoh Besaran",
+      image: contohbesaranImg,
       body: [
+        "🎯 Contoh Besaran",
         "✔️ Panjang meja = 120 cm",
         "✔️ Massa tas = 2 kg",
         "✔️ Waktu belajar = 45 menit",
@@ -67,7 +78,8 @@ const besarandansatuan = {
     },
 
     {
-      heading: "🌍 Kenapa Harus Ada Satuan yang Sama?",
+      image: pengertiansatuanImg,
+      caption: "Kenapa penting satuan yang sama?",
       body: [
         "Bayangkan kalau setiap negara memakai satuan berbeda tanpa aturan yang sama.",
         "",
@@ -99,13 +111,9 @@ const besarandansatuan = {
     },
 
     {
-      heading: "🚀 Next Mission",
-      body: [
-        "Kalau semua pengukuran harus punya standar…",
-        "apa saja satuan dasar yang dipakai seluruh dunia?",
-        "",
-        "➡️ Selanjutnya: Sistem Internasional (SI)."
-      ]
+      image: nextmissionsisteminternasionalImg,
+      caption: "Eksplorasi sistem satuan internasional SI",
+      link: "/materi/besaran%20dan%20satuan"
     },
 
     {

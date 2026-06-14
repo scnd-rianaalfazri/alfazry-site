@@ -2,6 +2,7 @@ const skalardanvektor = {
   title: "Besaran Skalar dan Vektor",
   slug: "besaran skalar dan vektor",
   description: "Memahami perbedaan besaran skalar dan vektor berdasarkan nilai serta arah dalam fisika.",
+  chapter: "➡️ Vektor",
   content: [
     {
       heading: "⚖️ Dua Cara Fisika Mendeskripsikan Besaran",
@@ -124,6 +125,17 @@ const skalardanvektor = {
         "Jika vektor memiliki arah, bagaimana cara menggambarkannya secara visual?",
         "",
         "➡️ Selanjutnya: Representasi Vektor."
+      ]
+    },
+
+    {
+      heading: "Referensi:",
+      body: [
+        "Halliday, D., Resnick, R., & Walker, J. Fundamentals of Physics.",
+        "Serway, R. A., & Jewett, J. W. Physics for Scientists and Engineers.",
+        "Young, H. D., & Freedman, R. A. University Physics with Modern Physics.",
+        "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X.",
+        "OpenStax. Physics 2e."
       ]
     }
   ]

@@ -2,6 +2,7 @@ const notasiilmiah= {
   title: "Notasi Ilmiah",
   slug: "notasi ilmiah",
   description: "Memahami cara menuliskan bilangan sangat besar atau sangat kecil menggunakan bentuk notasi ilmiah.",
+  chapter: "📏 Pengukuran",
   content: [
     {
       heading: "🚀 Notasi Ilmiah — Cara Singkat Menulis Angka Ekstrem",

@@ -4,6 +4,7 @@ const pengukuran = {
   title: "Pengukuran",
   slug: "pengukuran",
   description: "Memahami konsep pengukuran, alat ukur, dan cara memperoleh data dalam fisika.",
+  chapter: "📏 Pengukuran",
   content: [
     {
       heading: "🎯 Pengukuran — Cara Fisika Mengenal Dunia",

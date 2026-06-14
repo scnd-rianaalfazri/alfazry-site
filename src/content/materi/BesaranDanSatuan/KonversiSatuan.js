@@ -4,6 +4,7 @@ const konversisatuan = {
   title: "Konversi Satuan",
   slug: "konversi satuan",
   description: "Memahami cara mengubah satuan pengukuran ke bentuk lain tanpa mengubah nilai sebenarnya.",
+  chapter: "📏 Pengukuran",
   content: [
     {
       heading: "🔄 Konversi Satuan — Mengubah Bentuk, Bukan Nilai",

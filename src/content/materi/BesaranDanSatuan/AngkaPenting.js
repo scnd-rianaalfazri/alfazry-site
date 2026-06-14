@@ -2,6 +2,7 @@ const angkapenting = {
   title: "Angka Penting",
   slug: "angka penting",
   description: "Memahami aturan penulisan angka penting dan penggunaannya dalam hasil pengukuran fisika.",
+  chapter: "📏 Pengukuran",
   content: [
     {
       heading: "🔢 Angka Penting — Menulis Hasil Ukur dengan Jujur",

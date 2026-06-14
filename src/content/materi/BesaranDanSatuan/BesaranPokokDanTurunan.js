@@ -1,9 +1,8 @@
-import { body } from "framer-motion/client"
-
 const besaranpokokdanturunan = {
   title: "Besaran Pokok dan Turunan",
   slug: "besaran pokok dan turunan",
   description: "Memahami perbedaan besaran pokok dan besaran turunan serta hubungan antarbesaran dalam fisika.",
+  chapter: "📏 Pengukuran",
   content: [
     {
       heading: "🧩 Besaran Fisika Itu Dibangun dari Apa?",
@@ -118,7 +117,7 @@ const besaranpokokdanturunan = {
       body: [
         "Kalau sebuah rumus tersusun dari beberapa besaran, bagaimana cara mengecek apakah rumus itu benar?",
         "",
-        "➡️ Selanjutnya kita masuk ke: Dimensi."
+        "➡️ Selanjutnya: Dimensi."
       ]
     },
 

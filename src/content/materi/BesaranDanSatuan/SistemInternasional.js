@@ -2,6 +2,7 @@ const sisteminternasional = {
   title: "Sistem Internasional",
   slug: "sistem internasional",
   description: "Memahami sistem satuan standar yang digunakan dalam fisika agar hasil pengukuran dapat dibandingkan secara universal.",
+  chapter: "📏 Pengukuran",
   content: [
     {
       heading: "🌍 Sistem Internasional (SI) — Standar Pengukuran Dunia",

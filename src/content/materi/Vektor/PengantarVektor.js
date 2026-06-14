@@ -1,7 +1,10 @@
+import { body } from "framer-motion/client"
+
 const pengantarvektor = {
   title: "Apa Itu Vektor?",
   slug: "pengantar vektor",
   description: "Memahami sistem satuan standar yang digunakan dalam fisika agar hasil pengukuran dapat dibandingkan secara universal.",
+  chapter: "➡️ Vektor",
   content: [
     {
       heading: "🏹 Vektor — Ketika Fisika Mulai Mengenal Arah",
@@ -114,6 +117,17 @@ const pengantarvektor = {
         "Lalu apa perbedaan lengkap antara besaran skalar dan vektor?",
         "",
         "➡️ Selanjutnya: Besaran Skalar dan Besaran Vektor."
+      ]
+    },
+
+    {
+      heading: "Referensi:",
+      body: [
+        "Halliday, D., Resnick, R., & Walker, J. Fundamentals of Physics.",
+        "Serway, R. A., & Jewett, J. W. Physics for Scientists and Engineers.",
+        "Young, H. D., & Freedman, R. A. University Physics with Modern Physics.",
+        "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X.",
+        "OpenStax. Physics 2e."
       ]
     }
   ]

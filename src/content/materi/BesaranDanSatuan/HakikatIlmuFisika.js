@@ -9,6 +9,7 @@ const hakikatilmufisika = {
   title: "Hakikat Ilmu Fisika",
   slug: "hakikat ilmu fisika",
   description: "Memahami konsep dasar dan pentingnya ilmu fisika dalam memahami alam semesta.",
+  chapter: "📏 Pengukuran",
   content: [
     {
       image: hakikatilmufisikaImg,

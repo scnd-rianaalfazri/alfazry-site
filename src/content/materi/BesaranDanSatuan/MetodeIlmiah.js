@@ -10,6 +10,7 @@ const metodeilmiah = {
   title: "Metode Ilmiah",
   slug: "metode ilmiah",
   description: "Memahami langkah-langkah sistematis yang digunakan ilmuwan untuk memperoleh pengetahuan yang dapat dipercaya.",
+  chapter: "📏 Pengukuran",
   content: [
     {
       image: metodeilmiahImg,

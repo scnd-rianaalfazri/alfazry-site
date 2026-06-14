@@ -1,4 +1,4 @@
-const pengertianListrikStatis = {
+const pengertianlistrikstatis = {
   title: "Pengertian Listrik Statis",
   slug: "pengertian listrik statis",
   description: "Mempelajari muatan listrik, gaya Coulomb, dan medan listrik.",
@@ -70,4 +70,4 @@ const pengertianListrikStatis = {
   ]
 }
 
-export default pengertianListrikStatis
+export default pengertianlistrikstatis
