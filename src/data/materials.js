@@ -1,3 +1,6 @@
+/* IMPORT FILE FROM */
+
+/* besaran dan satua */
 import HakikatIlmuFisika from "../content/materi/BesaranDanSatuan/HakikatIlmuFisika.js"
 import MetodeIlmiah from "../content/materi/BesaranDanSatuan/MetodeIlmiah.js"
 import BesaranDanSatuan from "../content/materi/BesaranDanSatuan/BesaranDanSatuan.js"
@@ -9,6 +12,8 @@ import NotasiImiah from "../content/materi/BesaranDanSatuan/NotasiIlmiah.js"
 import Pengukuran from "../content/materi/BesaranDanSatuan/Pengukuran.js"
 import Ketidakpastian from "../content/materi/BesaranDanSatuan/Ketidakpastian.js"
 import KonversiSatuan from "../content/materi/BesaranDanSatuan/KonversiSatuan.js"
+
+/* vektor */
 import PengantarVektor from "../content/materi/Vektor/PengantarVektor.js"
 import SkalarDanVektor from "../content/materi/Vektor/SkalarDanVektor.js"
 import RepresentasiVektor from "../content/materi/Vektor/RepresentasiVektor.js"
@@ -21,6 +26,23 @@ import ResultanVektorDuaDimensi from "../content/materi/Vektor/ResultanVektorDua
 import MenentukanArahResultanVektor from "../content/materi/Vektor/MenentukanArahResultanVektor.js"
 import PerkalianVektor from "../content/materi/Vektor/PerkalianVektor.js"
 import AplikasiVektor from "../content/materi/Vektor/AplikasiVektor.js"
+
+/* kinematika gerak lurus */ 
+import PengantarGerak from "../content/materi/KinematikaGerakLurus/PengantarGerak.js"
+import JarakDanPerpindahan from "../content/materi/KinematikaGerakLurus/JarakDanPerpindahan.js"
+import KelajuanDanKecepatan from "../content/materi/KinematikaGerakLurus/KelajuanDanKecepatan.js"
+import Percepatan from "../content/materi/KinematikaGerakLurus/Percepatan"
+import GerakLurusBeraturan from "../content/materi/KinematikaGerakLurus/GerakLurusBeraturan.js"
+import GerakLurusBerubahBeraturan from "../content/materi/KinematikaGerakLurus/GerakLurusBerubahBeraturan.js"
+import GerakJatuhBebas from "../content/materi/KinematikaGerakLurus/GerakJatuhBebas.js"
+import GerakVertikalAtas from "../content/materi/KinematikaGerakLurus/GerakVertikalAtas.js"
+import GerakVertikalBawah from "../content/materi/KinematikaGerakLurus/GerakVertikalBawah.js"
+
+/* kinematika gerak dua dimensi */
+import AnalisisSumbuXDanY from "../content/materi/KinematikaGerakDuaDimensi/AnalisisSumbuXDanY.js"
+import GerakParabola from "../content/materi/KinematikaGerakDuaDimensi/GerakParabola.js"
+import GerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi/GerakMelingkar.js"
+
 import PengertianMomentum from "../content/materi/kelas-xi/MomentumDanImpuls/PengertianMomentum.js"
 import pengertianimpuls from "../content/materi/kelas-xi/MomentumDanImpuls/PengertianImpuls.js"
 import HubunganMomentumImpuls from "../content/materi/kelas-xi/MomentumDanImpuls/HubunganMomentumImpuls.js"
@@ -40,7 +62,10 @@ import PengertianListrikStatis from "../content/materi/kelas-xii/ListrikStatis/P
 import HukumColoumb from "../content/materi/kelas-xii/ListrikStatis/HukumColoumb.js"
 import ResultanGayaColoumb from "../content/materi/kelas-xii/ListrikStatis/ResultanGayaColoumb.js"
 
+/* EKSPORT CONTENT */
 export const materials = [
+
+  /* Chapter : Besaran dan Satuan */
   HakikatIlmuFisika,
   MetodeIlmiah,
   BesaranDanSatuan,
@@ -52,6 +77,8 @@ export const materials = [
   Pengukuran,
   Ketidakpastian,
   KonversiSatuan,
+
+  /* Chapter : Vektor */
   PengantarVektor,
   SkalarDanVektor,
   RepresentasiVektor,
@@ -64,6 +91,23 @@ export const materials = [
   MenentukanArahResultanVektor,
   PerkalianVektor,
   AplikasiVektor,
+
+  /* Chapter : Kinematika Gerak Lurus */
+  PengantarGerak,
+  JarakDanPerpindahan,
+  KelajuanDanKecepatan,
+  Percepatan,
+  GerakLurusBeraturan,
+  GerakLurusBerubahBeraturan,
+  GerakJatuhBebas,
+  GerakVertikalAtas,
+  GerakVertikalBawah,
+
+  /* Chapter : Kinematika Gerak Dua Dimensi */
+  AnalisisSumbuXDanY,
+  GerakParabola,
+  GerakMelingkar,
+
   PengertianMomentum,
   pengertianimpuls,
   HubunganMomentumImpuls,

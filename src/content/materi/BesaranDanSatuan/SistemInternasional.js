@@ -1,3 +1,10 @@
+import { caption, image, link } from "framer-motion/client"
+import sisteminternasionalImg from "/src/assets/Materi/BesaranDanSatuan/SistemInternasional1.jpg"
+import pengertiansisteminternasionalImg from "/src/assets/Materi/BesaranDanSatuan/SistemInternasional2.jpg"
+import daftarsisteminternasionalImg from "/src/assets/Materi/BesaranDanSatuan/SistemInternasional3.jpg"
+import awalansatuanImg from "/src/assets/Materi/BesaranDanSatuan/SistemInternasional4.jpg"
+import nextmissionbesaranpokokdanturunan from "/src/assets/Materi/BesaranDanSatuan/SistemInternasional5.jpg"
+
 const sisteminternasional = {
   title: "Sistem Internasional",
   slug: "sistem internasional",
@@ -5,7 +12,8 @@ const sisteminternasional = {
   chapter: "📏 Pengukuran",
   content: [
     {
-      heading: "🌍 Sistem Internasional (SI) — Standar Pengukuran Dunia",
+      image: sisteminternasionalImg,
+      caption: "Sistem internasional dalam ilmu pengetahuan",
       body: [
         "Dalam fisika, hasil pengukuran harus bisa dipahami oleh semua orang di mana pun berada.",
         "",
@@ -18,7 +26,8 @@ const sisteminternasional = {
     },
 
     {
-      heading: "📏 Apa Itu Sistem Internasional?",
+      image: pengertiansisteminternasionalImg,
+      caption: "Apa itu sistem internasional?",
       body: [
         "Sistem Internasional (SI) adalah sistem satuan standar yang digunakan secara global dalam ilmu pengetahuan dan teknologi.",
         "",
@@ -30,18 +39,8 @@ const sisteminternasional = {
     },
 
     {
-      heading: "🧩 Tujuh Besaran Pokok SI",
-      body: [
-        "SI memiliki tujuh besaran dasar yang menjadi pondasi untuk besaran lainnya.",
-        "",
-        "1. Panjang → meter (m)",
-        "2. Massa → kilogram (kg)",
-        "3. Waktu → sekon (s)",
-        "4. Suhu → kelvin (K)",
-        "5. Kuat arus listrik → ampere (A)",
-        "6. Jumlah zat → mol (mol)",
-        "7. Intensitas cahaya → candela (cd)"
-      ]
+      image: daftarsisteminternasionalImg,
+      caption: "Tujuh besaran pokok SI dalam fisika",
     },
 
     {
@@ -58,7 +57,8 @@ const sisteminternasional = {
     },
 
     {
-      heading: "🔢 Awalan Satuan (Prefix SI)",
+      image: awalansatuanImg,
+      caption: "Infografis awalan satuan SI",
       body: [
         "Dalam fisika, nilai yang diukur bisa sangat besar atau sangat kecil.",
         "",
@@ -68,59 +68,13 @@ const sisteminternasional = {
         "kilo (k) = 1000 kali",
         "centi (c) = 1/100",
         "mili (m) = 1/1000",
-        "mikro (μ) = 1/1.000.000"
-      ]
-    },
-    {
-      heading: "📚 Tabel Prefix",
-      body:[
-        "Sebenarnya, tabel prefix itu banyak, namun tidak semua tidak dicantumkan ditabel ini.",
+        "mikro (μ) = 1/1.000.000",
+        "",
+        "Sebenarnya, tabel prefix itu banyak, namun tidak semua dicantumkan di dalam infografis ini ya.",
         "Kalau mau lebih lengkap, bisa dilihat di web ini, ya! ➡️ BIPM. The Internationa System of Units",
-        "Berikut ini beberapa tabel awalan satuan yang digunakan dalam SI:",
-      ],
-      table: {
-        headers: ["Awalan", "Simbol", "Nilai"],
-        rows: [
-          ["tera-", "T", "10¹²"],
-          ["giga-", "G", "10⁹"],
-          ["mega-", "M", "10⁶"],
-          ["kilo-", "k", "10³"],
-          ["hekto-", "h", "10²"],
-          ["deka-", "da", "10¹"],
-          ["desi-", "d", "10⁻¹"],
-          ["centi-", "c", "10⁻²"],
-          ["mili-", "m", "10⁻³"],
-          ["mikro-", "μ", "10⁻⁶"],
-          ["nano-", "n", "10⁻⁹"],
-          ["piko-", "p", "10⁻¹²"]
-        ]
-      },
-      explanation: [
-
-        "Fakta menarik: Awalan paling baru SI adalah quetta- dan quecto-. Awalan ini ditambahkan karena perkembangan teknologi dan kebutuhan data digital modern 🌐💻 "
-      ],
-    },
-    {
-      heading: "Cara Mudah Mengingat",
-      body: [
-        "Kelipatan besar 📈",
-        "kilo → mega → giga → tera → ...",
-        "",
-        "Kelipatan kecil 📉",
-        "mili → mikro → nano → piko → ... "
       ]
     },
-    {
-      heading: "🚀 Contoh Penggunaan SI",
-      body: [
-        "Kecepatan mobil:",
-        "72 km/jam dapat diubah menjadi satuan SI yaitu meter per sekon (m/s).",
-        "",
-        "Panjang ruangan:",
-        "5 meter menggunakan satuan SI panjang."
-      ]
-    },
-
+    
     {
       heading: "✨ Inti Materi",
       body: [
@@ -131,15 +85,9 @@ const sisteminternasional = {
     },
 
     {
-      heading: "🚀 Next Mission",
-      body: [
-        "Kita sudah mengenal satuan dasar.",
-        "",
-        "Sekarang pertanyaannya:",
-        "Bagaimana besaran seperti luas, volume, kecepatan, dan gaya bisa terbentuk?",
-        "",
-        "➡️ Selanjutnya: Besaran Pokok dan Besaran Turunan."
-      ]
+      image: nextmissionbesaranpokokdanturunan,
+      caption: "🚀 Next Mission! ➜ Besaran Fisika Dasar",
+      link: "/materi/besaran%20pokok%20dan%20turunan",
     },
 
     {
