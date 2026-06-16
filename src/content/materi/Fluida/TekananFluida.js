@@ -3,6 +3,8 @@ const tekananfluida = {
   title: "Tekanan Fluida",
   slug: "tekanan fluida",
   description: "Memahami konsep tekanan pada fluida dan faktor-faktor yang memengaruhinya.",
+  chapter: "💧 Fluida",
+  
   content: [
     {
       heading: "🤔 Kenapa Paku Lebih Mudah Menembus Kayu?",

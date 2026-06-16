@@ -3,6 +3,8 @@ const teganganpermukaan = {
   title: "Tegangan Permukaan",
   slug: "tegangan permukaan",
   description: "Memahami fenomena tegangan permukaan pada zat cair dan penerapannya dalam kehidupan sehari-hari.",
+  chapter: "💧 Fluida",
+  
   content: [
     {
       heading: "🪲 Kenapa Serangga Bisa Berjalan di Atas Air?",

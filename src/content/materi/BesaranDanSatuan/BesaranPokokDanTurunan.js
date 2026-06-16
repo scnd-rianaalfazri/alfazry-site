@@ -1,3 +1,10 @@
+import { caption, image } from "framer-motion/client"
+import besaranpokokdanturunanImg from "/src/assets/Materi/BesaranDanSatuan/BesaranPokokDanTurunan1.jpg"
+import daftarbesaranpokokImg from "/src/assets/Materi/BesaranDanSatuan/BesaranPokokDanTurunan2.jpg"
+import contohbesaranturunanImg from "/src/assets/Materi/BesaranDanSatuan/BesaranPokokDanTurunan3.jpg"
+import hubunganbesaranpokokdanturunanImg from "/src/assets/Materi/BesaranDanSatuan/BesaranPokokDanTurunan4.jpg"
+import nextmissiondimensiImg from "/src/assets/Materi/BesaranDanSatuan/BesaranPokokDanTurunan5.jpg"
+
 const besaranpokokdanturunan = {
   title: "Besaran Pokok dan Turunan",
   slug: "besaran pokok dan turunan",
@@ -5,7 +12,8 @@ const besaranpokokdanturunan = {
   chapter: "📏 Pengukuran",
   content: [
     {
-      heading: "🧩 Besaran Fisika Itu Dibangun dari Apa?",
+      image: besaranpokokdanturunanImg,
+      caption: "Membangun fisika dengan besaran pokok",
       body: [
         "Dalam fisika, banyak sekali besaran yang kita gunakan.",
         "",
@@ -17,7 +25,8 @@ const besaranpokokdanturunan = {
     },
 
     {
-      heading: "🌱 Besaran Pokok",
+      image: daftarbesaranpokokImg,
+      caption: "7 besaran pokok SI dalam fisika",
       body: [
         "Besaran pokok adalah besaran yang sudah ditetapkan sebagai dasar dan tidak berasal dari gabungan besaran lain.",
         "",
@@ -26,20 +35,8 @@ const besaranpokokdanturunan = {
     },
 
     {
-      heading: "📏 Tabel Besaran Pokok SI",
-      body: [
-        "1. Panjang → meter (m)",
-        "2. Massa → kilogram (kg)",
-        "3. Waktu → sekon (s)",
-        "4. Suhu → kelvin (K)",
-        "5. Kuat arus listrik → ampere (A)",
-        "6. Jumlah zat → mol (mol)",
-        "7. Intensitas cahaya → candela (cd)"
-      ]
-    },
-
-    {
-      heading: "🛠️ Besaran Turunan",
+      image: contohbesaranturunanImg,
+      caption: "Infografis besar turunan fisika",
       body: [
         "Besaran turunan adalah besaran yang diperoleh dari kombinasi besaran pokok.",
         "",
@@ -48,41 +45,8 @@ const besaranpokokdanturunan = {
     },
 
     {
-      heading: "🚗 Contoh Besaran Turunan",
-      body: [
-        "Kecepatan:",
-        "Kecepatan diperoleh dari panjang dibagi waktu.",
-        "",
-        "Satuan:",
-        "meter/sekon (m/s)",
-        "",
-        "Luas:",
-        "panjang × panjang",
-        "",
-        "Satuan:",
-        "meter persegi (m²)"
-      ]
-    },
-
-    {
-      heading: "⚡ Contoh Lain Besaran Turunan",
-      body: [
-        "Volume:",
-        "panjang × lebar × tinggi",
-        "Satuan: m³",
-        "",
-        "Massa jenis:",
-        "massa dibagi volume",
-        "Satuan: kg/m³",
-        "",
-        "Gaya:",
-        "massa × percepatan",
-        "Satuan: newton (N)"
-      ]
-    },
-
-    {
-      heading: "🔗 Hubungan Besaran Pokok dan Turunan",
+      image: hubunganbesaranpokokdanturunanImg,
+      caption: "Infografis besaran fisika dengan analogi pohon",
       body: [
         "Besaran pokok seperti bahan dasar.",
         "",
@@ -113,12 +77,9 @@ const besaranpokokdanturunan = {
     },
 
     {
-      heading: "🚀 Next Mission",
-      body: [
-        "Kalau sebuah rumus tersusun dari beberapa besaran, bagaimana cara mengecek apakah rumus itu benar?",
-        "",
-        "➡️ Selanjutnya: Dimensi."
-      ]
+      image: nextmissiondimensiImg,
+      caption: "Misi dimensi fisika selanjutnya",
+      link: "/materi/dimensi",
     },
 
     {

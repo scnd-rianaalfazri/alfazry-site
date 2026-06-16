@@ -2,6 +2,8 @@ const hukumarchimedes = {
   title: "Hukum Archimedes",
   slug: "hukum archimedes",
   description: "Memahami gaya apung yang dialami benda ketika berada di dalam fluida.",
+  chapter: "💧 Fluida",
+  
   content: [
     {
       heading: "🚢 Kenapa Kapal Baja Tidak Tenggelam?",

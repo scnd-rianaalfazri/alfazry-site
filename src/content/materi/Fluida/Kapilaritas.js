@@ -2,6 +2,8 @@ const kapilaritas = {
   title: "Kapilaritas",
   slug: "kapilaritas",
   description: "Memahami peristiwa naik atau turunnya permukaan zat cair dalam pipa sempit akibat gaya adhesi dan kohesi.",
+  chapter: "💧 Fluida",
+  
   content: [
     {
       heading: "🌱 Bagaimana Air Bisa Naik ke Daun Pohon?",

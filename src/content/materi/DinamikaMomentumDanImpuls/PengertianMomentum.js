@@ -3,6 +3,8 @@ const pengertianmomentum = {
   title: "Pengertian Momentum",
   slug: "pengertian momentum",
   description: "Memahami konsep momentum sebagai ukuran kesulitan suatu benda untuk dihentikan atau diubah geraknya.",
+  chapter: "💥 Dinamika: Momentum dan Impuls",
+  
   content: [
     {
       heading: "🚀 Momentum: Kenapa Truk Sulit Berhenti?",

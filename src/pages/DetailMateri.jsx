@@ -13,27 +13,52 @@ export default function DetailMateri() {
     return source[key] ?? source[key.charAt(0).toUpperCase() + key.slice(1)]
   }
 
+/* RENDER TABLE */  
   const renderTable = (table) => {
     if (!table) return null
 
+    const headers = table.headers || null
     const rows = Array.isArray(table) ? table : table.rows
+
     if (!rows) return null
 
     return (
       <div className="overflow-auto rounded bg-white/5">
-        <table className="min-w-full text-sm">
+        <table className="min-w-full text-sm border-collapse">
+          
+          {headers && (
+            <thead>
+              <tr className="bg-white/10">
+                {headers.map((header, index) => (
+                  <th
+                    key={`header-${index}`}
+                    className="border border-white/10 px-3 py-2 text-center text-white font-semibold"
+                  >
+                    {header}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+          )}
+
           <tbody>
             {Array.isArray(rows)
               ? rows.map((row, rowIndex) => (
                   <tr key={`table-row-${rowIndex}`}>
                     {Array.isArray(row)
                       ? row.map((cell, cellIndex) => (
-                          <td key={cellIndex} className="border border-white/10 px-3 py-2 text-white/80">
+                          <td
+                            key={cellIndex}
+                            className="border border-white/10 px-3 py-2 text-white/80"
+                          >
                             {cell}
                           </td>
                         ))
                       : Object.entries(row).map(([cellKey, cellValue]) => (
-                          <td key={cellKey} className="border border-white/10 px-3 py-2 text-white/80">
+                          <td
+                            key={cellKey}
+                            className="border border-white/10 px-3 py-2 text-white/80"
+                          >
                             {cellValue}
                           </td>
                         ))}
@@ -41,16 +66,21 @@ export default function DetailMateri() {
                 ))
               : Object.entries(rows).map(([rowKey, rowValue]) => (
                   <tr key={rowKey}>
-                    <td className="border border-white/10 px-3 py-2 text-white/80 font-semibold">{rowKey}</td>
-                    <td className="border border-white/10 px-3 py-2 text-white/80">{rowValue}</td>
+                    <td className="border border-white/10 px-3 py-2 text-white/80 font-semibold">
+                      {rowKey}
+                    </td>
+                    <td className="border border-white/10 px-3 py-2 text-white/80">
+                      {rowValue}
+                    </td>
                   </tr>
                 ))}
           </tbody>
+
         </table>
       </div>
     )
   }
-
+  /* RENDER LIST */
   const renderList = (list) => {
     if (!list) return null
     return Array.isArray(list) ? (
@@ -78,7 +108,7 @@ export default function DetailMateri() {
       </div>
     )
   }
-
+  /* LAYOUT PAGE */
   return (
     <div className="bg-black text-white min-h-screen">
       <Navbar />
@@ -94,32 +124,36 @@ export default function DetailMateri() {
                 {section.heading}
               </h2>
               <div className="space-y-4">
-      {section.image && (
-        <figure className="mt-2 rounded-3xl overflow-hidden border border-white/10 bg-black/10">
 
-          {section.link ? (
-            <Link to={section.link}>
-              <img
-                src={section.image}
-                alt={section.caption || section.heading || materi.title}
-                className="w-full h-auto object-cover cursor-pointer transition duration-300 hover:scale-105"
-              />
-            </Link>
-            ) : (
-              <img
-                src={section.image}
-                alt={section.caption || section.heading || materi.title}
-                className="w-full h-auto object-cover"
-              />
-            )}
+          {section.image && (
+              <figure className="mt-2 rounded-3xl overflow-hidden border border-white/10 bg-black/10">
 
-          {section.caption && (
-            <figcaption className="px-4 py-3 text-sm text-white/60 bg-black/20 text-center">
-              {section.caption}
-            </figcaption>
-          )}
-        </figure>
-      )}
+                {section.link ? (
+                  <Link to={section.link}>
+                    <img
+                      src={section.image}
+                      alt={section.caption || section.heading || materi.title}
+                      className="w-full h-auto object-cover cursor-pointer transition duration-300 hover:scale-105"
+                    />
+                  </Link>
+                  ) : (
+                    <img
+                      src={section.image}
+                      alt={section.caption || section.heading || materi.title}
+                      className="w-full h-auto object-cover"
+                    />
+                  )
+                }
+
+                {section.caption && (
+                  <figcaption className="px-4 py-3 text-sm text-white/60 bg-black/20 text-center">
+                    {section.caption}
+                  </figcaption>
+                  )
+                }
+              </figure>
+            )
+          }
 
                 {/* Render body content */}
                 {Array.isArray(section.body) ? (

@@ -2,6 +2,8 @@ const hukumpascal = {
   title: "Hukum Pascal",
   slug: "hukum pascal",
   description: "Memahami bagaimana tekanan pada fluida dalam ruang tertutup diteruskan ke segala arah dengan besar yang sama.",
+  chapter: "💧 Fluida",
+  
   content: [
     {
       heading: "🚗 Kok Mobil Bisa Terangkat Hanya dengan Menekan Tuas?",

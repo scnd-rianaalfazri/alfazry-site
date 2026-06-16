@@ -30,7 +30,10 @@ const hakikatilmufisika = {
 
     {
       image: pembelajaranfisikaImg,
-      caption: "Fisika dalam kehidupan sehari-hari."
+      caption: "Fisika dalam kehidupan sehari-hari.",
+      body: [
+        "Saat memahami fisika, kita tidak hanya tahu bahwa sesuatu terjadi—tetapi juga mengerti mengapa itu bisa terjadi."
+      ]
     },
 
     {
@@ -47,14 +50,6 @@ const hakikatilmufisika = {
         "🧩 Menarik kesimpulan",
         "",
         "Karena itu, belajar fisika sebenarnya juga belajar berpikir kritis."
-      ]
-    },
-
-    {
-      image: pembelajaranfisikaImg,
-      caption: "Fisika menjawab rasa ingin tahu sehari-hari",
-      body: [
-        "Saat memahami fisika, kita tidak hanya tahu bahwa sesuatu terjadi—tetapi juga mengerti mengapa itu bisa terjadi."
       ]
     },
 

@@ -2,7 +2,7 @@ const kelajuandankecepatan = {
   title: "Kelajuan dan Kecepatan",
   slug: "kelajuan dan kecepatan",
   description: "Memahami perbedaan kelajuan dan kecepatan sebagai besaran skalar dan vektor dalam kinematika.",
-  chapter: "🚗 Kinematika Gerak Lurus",
+  chapter: "🚗 Kinematika: Gerak Lurus",
   content: [
     {
       heading: "🏎️ Seberapa Cepat Sebuah Benda Bergerak?",

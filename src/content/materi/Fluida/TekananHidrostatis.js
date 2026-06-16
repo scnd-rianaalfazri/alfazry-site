@@ -2,6 +2,8 @@ const tekananhidrostatis = {
   title: "Tekanan Hidrostatis",
   slug: "tekanan hidrostatis",
   description: "Memahami tekanan yang ditimbulkan oleh zat cair akibat pengaruh gravitasi.",
+  chapter: "💧 Fluida",
+  
   content: [
     {
       heading: "🤿 Kenapa Telinga Terasa Sakit Saat Menyelam?",

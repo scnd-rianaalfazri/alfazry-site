@@ -2,7 +2,7 @@ const percepatan = {
   title: "Percepatan",
   slug: "percepatan",
   description: "Memahami konsep percepatan sebagai perubahan kecepatan terhadap waktu dalam gerak benda.",
-  chapter: "🚗 Kinematika Gerak Lurus",
+  chapter: "🚗 Kinematika: Gerak Lurus",
   content: [
     {
       heading: "🚀 Gerak Tidak Selalu Tetap",

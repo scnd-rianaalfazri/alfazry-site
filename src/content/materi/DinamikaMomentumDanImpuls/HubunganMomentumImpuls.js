@@ -5,6 +5,8 @@ const hubunganmomentumimpuls = {
   title: "Hubungan Antara Momentum dan Impuls",
   slug: "hubungan antara momentum dan impuls",
   description: "Memahami bagaimana impuls menyebabkan perubahan momentum suatu benda.",
+  chapter: "💥 Dinamika: Momentum dan Impuls",
+  
   content: [
     {
       heading: "🔗 Momentum dan Impuls: Duo yang Tidak Bisa Dipisahkan",

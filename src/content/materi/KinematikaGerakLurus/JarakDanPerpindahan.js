@@ -2,7 +2,7 @@ const jarakdanperpindahan = {
   title: "Jarak dan Perpindahan",
   slug: "jarak dan perpindahan",
   description: "Memahami perbedaan konsep jarak dan perpindahan sebagai besaran skalar dan vektor dalam fisika.",
-  chapter: "🚗 Kinematika Gerak Lurus",
+  chapter: "🚗 Kinematika: Gerak Lurus",
   content: [
     {
       heading: "📍 Mengukur Perubahan Posisi",

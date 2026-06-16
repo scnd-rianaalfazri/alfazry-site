@@ -2,7 +2,7 @@ const gerakjatuhbebas = {
   title: "Gerak Jatuh Bebas",
   slug: "gerak jatuh bebas",
   description: "Memahami konsep gerak jatuh bebas sebagai gerak lurus berubah beraturan akibat pengaruh gravitasi.",
-  chapter: "🚗 Kinematika Gerak Lurus",
+  chapter: "🚗 Kinematika: Gerak Lurus",
   content: [
     {
       heading: "🍎 Benda yang Jatuh ke Bumi",

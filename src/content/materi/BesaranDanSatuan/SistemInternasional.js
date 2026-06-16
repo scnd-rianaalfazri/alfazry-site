@@ -1,4 +1,4 @@
-import { caption, image, link } from "framer-motion/client"
+import { caption, header, image, link, table } from "framer-motion/client"
 import sisteminternasionalImg from "/src/assets/Materi/BesaranDanSatuan/SistemInternasional1.jpg"
 import pengertiansisteminternasionalImg from "/src/assets/Materi/BesaranDanSatuan/SistemInternasional2.jpg"
 import daftarsisteminternasionalImg from "/src/assets/Materi/BesaranDanSatuan/SistemInternasional3.jpg"
@@ -43,6 +43,36 @@ const sisteminternasional = {
       caption: "Tujuh besaran pokok SI dalam fisika",
     },
 
+    {
+      heading: "Definisi Ketentuan Sistem Internasional",
+      table: {
+        headers: ["Besaran", "Satuan", "Definisi"],
+        rows: [
+          ["Panjang (l)", "meter (m)", "Jarak yang ditempuh oleh cahaya dalam ruang hampa selama selang waktu 1/299.792,458 sekon."],
+          ["Massa (m)", "kilogram (kg)", "Massa silinder campuran logam platina-iridium yang disimpan di Lembaga Internasional Berat dan Ukuran di Serves, Prancis."],
+          ["Waktu (t)", "sekon (s)", "Selang waktu terjadinya 9.192.631.770 getaran dari radiasi elektromagnetik yang dipancarkan oleh atom Cesium-133 dalam transisi antara dua tingkat energi dalam pada keadaan dasar."],
+          ["Suhu (T)", "Kelvin (K)", "1/273,16 kali suhu termodinamika titik tripel air, yaitu ketika air murni berada pada keseimbangan dengan es dan uap jenuhnya."],
+          ["Intensitas Cahaya (I)", "Candela (Cd)", "Intensitas sumber cahaya dengan frekuensi 5,4 x 10¹⁴ yang memancarkan radiasi 1/683 Watt per steradian."],
+          ["Jumlah Zat (n)", "Mole (mol)", "Jumlah zat yang mengandung zat elementer (atom, molekul atau ion) sebanyak atom yang terdapat pada 12 gram istop Karbon C-12."],
+          ["Kuat Arus (I)", "Ampere (A)", "Arus listrik apabila mengalir melalui dua kawat konduktor sejajar dan terpisah sejauh 1 meter akan menghasilkan gaya sebesar 2 x 10⁻⁷ N tiap meternya."]
+        ]
+      },
+    },
+
+    {
+      heading: "Ketentuan Sistem Internasional",
+      body: [
+        "Sistem ini disepakati pada konferensi umum ke-11 pada tahun 1960 tentang Berat dan Ukuran, yang diadakan di Paris.",
+        "",
+        "Satuan Internasional yang sudah ditetapkan oleh para ilmuan memiliki ketetapan diantaranya:",
+      ],
+      list: [
+        "Mempunyai nilai tetap, tidak berubah karena apapun.",
+        "Bersifat umum.",
+        "Mudah ditiru dan diperbanyak.",
+        "Mudah diubah atau dikonversi ke satuan lain.",
+      ],
+    },
     {
       heading: "⚖️ Kenapa Kilogram, Meter, dan Sekon Penting?",
       body: [

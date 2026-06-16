@@ -2,7 +2,7 @@ const geraklurusberubahberaturan = {
   title: "Gerak Lurus Berubah Beraturan (GLBB)",
   slug: "gerak lurus beraturan",
   description: "Memahami konsep GLBB, hubungan kecepatan, percepatan, waktu, serta penerapannya dalam gerak benda.",
-  chapter: "🚗 Kinematika Gerak Lurus",
+  chapter: "🚗 Kinematika: Gerak Lurus",
   content: [
     {
       heading: "🚗 Ketika Kecepatan Mulai Berubah",

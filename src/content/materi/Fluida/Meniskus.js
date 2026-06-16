@@ -2,6 +2,8 @@ const meniskus = {
   title: "Meniskus",
   slug: "meniskus",
   description: "Memahami bentuk permukaan zat cair dalam wadah akibat pengaruh gaya adhesi dan kohesi.",
+  chapter: "💧 Fluida",  
+  
   content: [
     {
       heading: "🥛 Kenapa Permukaan Air di Gelas Tidak Selalu Datar?",

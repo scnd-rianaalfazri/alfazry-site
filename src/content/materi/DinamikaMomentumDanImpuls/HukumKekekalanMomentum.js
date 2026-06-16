@@ -4,6 +4,8 @@ const hukumkekekalanmomentum = {
   title: "Hukum Kekekalan Momentum",
   slug: "hukum kekekalan momentum",
   description: "Memahami mengapa total momentum sistem selalu tetap selama tidak ada gaya luar yang bekerja.",
+  chapter: "💥 Dinamika: Momentum dan Impuls",
+  
   content: [
     {
       heading: "⚖️ Apa Itu Hukum Kekekalan Momentum?",

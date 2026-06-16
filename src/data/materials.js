@@ -43,24 +43,54 @@ import AnalisisSumbuXDanY from "../content/materi/KinematikaGerakDuaDimensi/Anal
 import GerakParabola from "../content/materi/KinematikaGerakDuaDimensi/GerakParabola.js"
 import GerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi/GerakMelingkar.js"
 
-import PengertianMomentum from "../content/materi/kelas-xi/MomentumDanImpuls/PengertianMomentum.js"
-import pengertianimpuls from "../content/materi/kelas-xi/MomentumDanImpuls/PengertianImpuls.js"
-import HubunganMomentumImpuls from "../content/materi/kelas-xi/MomentumDanImpuls/HubunganMomentumImpuls.js"
-import HukumKekekalanMomentum from "../content/materi/kelas-xi/MomentumDanImpuls/HukumKekekalanMomentum.js"
-import JenisjenisTumbukan from "../content/materi/kelas-xi/MomentumDanImpuls/JenisjenisTumbukan.js"
-import PengertianFluida from "../content/materi/kelas-xi/Fluida/PengertianFluida.js"
-import MassaJenis from "../content/materi/kelas-xi/Fluida/MassaJenis.js"
-import TekananFluida from "../content/materi/kelas-xi/Fluida/TekananFluida.js"
-import TekananHidrostatis from "../content/materi/kelas-xi/Fluida/TekananHidrostatis.js"
-import HukumPascal from "../content/materi/kelas-xi/Fluida/HukumPascal.js"
-import HukumAchimedes from "../content/materi/kelas-xi/Fluida/HukumAchimedes"
-import TeganganPermukaan from "../content/materi/kelas-xi/Fluida/TeganganPermukaan.js"
-import Kapilaritas from "../content/materi/kelas-xi/Fluida/Kapilaritas.js"
-import Meniskus from "../content/materi/kelas-xi/Fluida/Meniskus.js"
+/* dinamika dasar */
+import PengantarDinamika from "../content/materi/DinamikaGayaDanHukumNewton/PengantarDinamika.js"
+import PengertianGaya from "../content/materi/DinamikaGayaDanHukumNewton/PengertianGaya.js"
+import JenisjenisGaya from "../content/materi/DinamikaGayaDanHukumNewton/Jenisjenisgaya.js"
+import GayaGravitasiDanGayaBerat from "../content/materi/DinamikaGayaDanHukumNewton/GayaGravitasiDanGayaBerat.js"
+import GayaNormal from "../content/materi/DinamikaGayaDanHukumNewton/GayaNormal.js"
+import GayaGesek from "../content/materi/DinamikaGayaDanHukumNewton/GayaGesek.js"
+import GayaTeganganTali from "../content/materi/DinamikaGayaDanHukumNewton/GayaTeganganTali.js"
+
+import HukumNewtonSatu from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonSatu.js"
+import HukumNewtonDua from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonDua.js"
+import HukumnewtonTiga from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonTiga.js"
+import DiagramGaya from "../content/materi/DinamikaGayaDanHukumNewton/DiagramGaya.js"
+
+/* dinamika gerak lurus */
+import PengertianDinamikaGerakLurus from "../content/materi/DinamikaGerakLurus/DinamikaGerakLurus.js"
+
+/* dinamika gerak melingkar */
+import PengertianDinamikaGerakMelingkar from "../content/materi/DinamikaGerakMelingkar/PengertianDinamikaGerakMelingkar.js"
+import BesaranGerakMelingkar from "../content/materi/DinamikaGerakMelingkar/BesaranGerakMelingkar.js"
+import PercepatanSentripetal from "../content/materi/DinamikaGerakMelingkar/PercepatanSentripetal.js"
+import GayaSentripetal from "../content/materi/DinamikaGerakMelingkar/GayaSentripetal.js"
+import AplikasiDinamikaGerakMelingkar from "../content/materi/DinamikaGerakMelingkar/AplikasiDinamikaGerakMelingkar"
+
+/* dinamika momentum dan impuls */
+import PengertianMomentum from "../content/materi/DinamikaMomentumDanImpuls/PengertianMomentum.js"
+import pengertianimpuls from "../content/materi/DinamikaMomentumDanImpuls/PengertianImpuls.js"
+import HubunganMomentumImpuls from "../content/materi/DinamikaMomentumDanImpuls/HubunganMomentumImpuls.js"
+import HukumKekekalanMomentum from "../content/materi/DinamikaMomentumDanImpuls/HukumKekekalanMomentum.js"
+import JenisjenisTumbukan from "../content/materi/DinamikaMomentumDanImpuls/JenisjenisTumbukan.js"
+
+/* fluida */
+import PengertianFluida from "../content/materi/Fluida/PengertianFluida.js"
+import MassaJenis from "../content/materi/Fluida/MassaJenis.js"
+import TekananFluida from "../content/materi/Fluida/TekananFluida.js"
+import TekananHidrostatis from "../content/materi/Fluida/TekananHidrostatis.js"
+import HukumPascal from "../content/materi/Fluida/HukumPascal.js"
+import HukumAchimedes from "../content/materi/Fluida/HukumAchimedes.js"
+import TeganganPermukaan from "../content/materi/Fluida/TeganganPermukaan.js"
+import Kapilaritas from "../content/materi/Fluida/Kapilaritas.js"
+import Meniskus from "../content/materi/Fluida/Meniskus.js"
+
+
 import Gelombang from "../content/materi/kelas-xi/gelombang.js"
 import PengertianListrikStatis from "../content/materi/kelas-xii/ListrikStatis/PengertianListrikStatis.js"
 import HukumColoumb from "../content/materi/kelas-xii/ListrikStatis/HukumColoumb.js"
 import ResultanGayaColoumb from "../content/materi/kelas-xii/ListrikStatis/ResultanGayaColoumb.js"
+import hukumnewtondua from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonDua.js"
 
 /* EKSPORT CONTENT */
 export const materials = [
@@ -108,11 +138,37 @@ export const materials = [
   GerakParabola,
   GerakMelingkar,
 
+  /* Chapter : Dinamika Dasar */
+  PengantarDinamika,
+  PengertianGaya,
+  JenisjenisGaya,
+  GayaGravitasiDanGayaBerat,
+  GayaNormal,
+  GayaGesek,
+  GayaTeganganTali,
+  HukumNewtonSatu,
+  HukumNewtonDua,
+  HukumnewtonTiga,
+  DiagramGaya,
+
+  /* Chapter : Dinamika Gerak Lurus */
+  PengertianDinamikaGerakLurus,
+  
+  /* Chapter : Dinamika Gerak Melingkar */
+  PengertianDinamikaGerakMelingkar,
+  BesaranGerakMelingkar,
+  PercepatanSentripetal,
+  GayaSentripetal,
+  AplikasiDinamikaGerakMelingkar,
+
+  /* Chapter : Dinamika Momentum dan Impuls */
   PengertianMomentum,
   pengertianimpuls,
   HubunganMomentumImpuls,
   HukumKekekalanMomentum,
   JenisjenisTumbukan,
+
+  /* fluida */
   PengertianFluida,
   MassaJenis,
   TekananFluida,
@@ -122,6 +178,7 @@ export const materials = [
   TeganganPermukaan,
   Kapilaritas,
   Meniskus,
+
   Gelombang,
   PengertianListrikStatis,
   HukumColoumb,

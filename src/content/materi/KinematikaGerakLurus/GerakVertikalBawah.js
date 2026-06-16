@@ -2,7 +2,7 @@ const gerakvertikalbawah = {
   title: "Gerak Vertikal ke Bawah",
   slug: "gerak vertikal ke bawah",
   description: "Memahami konsep gerak vertikal ke bawah dan hubungan gerak naik turun dalam pengaruh gravitasi.",
-  chapter: "🚗 Kinematika Gerak Lurus",
+  chapter: "🚗 Kinematika: Gerak Lurus",
   content: [
     {
       heading: "⬇️ Benda yang Bergerak Turun",

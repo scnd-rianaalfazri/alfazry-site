@@ -2,7 +2,7 @@ const pengantargerak = {
   title: "Pengantar Gerak",
   slug: "pengantar gerak",
   description: "Memahami konsep dasar gerak, titik acuan, posisi, dan bagaimana fisika menjelaskan perubahan posisi suatu benda.",
-  chapter: "🚗 Kinematika Gerak Lurus",
+  chapter: "🚗 Kinematika: Gerak Lurus",
   content: [
     {
       heading: "🚀 Semua Benda Bisa Bergerak",

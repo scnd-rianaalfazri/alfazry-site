@@ -4,6 +4,8 @@ const pengertianfluida = {
   title: "Pengertian Fluida",
   slug: "pengertian fluida",
   description: "Memahami konsep tekanan, hukum Pascal, hukum Archimedes, dan aliran fluida.",
+  chapter: "💧 Fluida",
+  
   content: [
     {
       heading: "🌊 Apa Itu Fluida?",

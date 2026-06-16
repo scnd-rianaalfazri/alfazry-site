@@ -4,6 +4,8 @@ const pengertianimpuls = {
   title: "Pengertian Impuls",
   slug: "impuls",
   description: "Memahami konsep impuls dan hubungannya dengan perubahan momentum.",
+  chapter: "💥 Dinamika: Momentum dan Impuls",  
+  
   content: [
     {
       heading: "💥 Impuls: Si Pengubah Momentum",
