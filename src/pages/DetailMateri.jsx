@@ -7,6 +7,17 @@ import MathEquation from "../components/MathEquation"
 export default function DetailMateri() {
   const { slug } = useParams()
   const materi = materials.find((m) => m.slug === slug)
+  const currentIndex = materials.findIndex(
+    (m) => m.slug === slug
+  )
+
+  const materiSebelumnya =
+  currentIndex > 0 ? materials[currentIndex - 1] : null
+
+  const materiBerikutnya =
+  currentIndex < materials.length - 1
+    ? materials[currentIndex + 1]
+    : null
 
   const getContentValue = (source, key) => {
     if (!source || typeof source !== "object") return undefined
@@ -197,7 +208,45 @@ export default function DetailMateri() {
           ))}
         </div>
       </section>
-      <Footer />
+
+
+      {/* Navigasi Materi */}
+      <div className="max-w-3xl mx-auto px-10 pb-10 flex justify-between gap-4">
+        {materiSebelumnya ? (
+          <Link
+            to={`/materi/${materiSebelumnya.slug}`}
+            className="
+            px-5 py-3 rounded-xl
+            bg-white/10 
+            hover:bg-white/20
+            transition
+            text-white
+            flex items-center gap-2
+            "
+          >
+            ← Review Lagi
+          </Link>
+        ) : (
+          <div />
+        )}
+        {materiBerikutnya && (
+          <Link
+            to={`/materi/${materiBerikutnya.slug}`}
+            className="
+            px-5 py-3 rounded-xl
+            bg-cyan-500
+            hover:bg-cyan-600
+            transition
+            text-black
+            font-semibold
+            flex items-center gap-2
+            "
+          >
+            Lanjut Eksplor →
+          </Link>
+        )}
+      </div>
+      <Footer/>
     </div>
   )
 }

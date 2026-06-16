@@ -67,7 +67,18 @@ const hakikatilmufisika = {
         "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X."
       ]
     },
-  ]
+  ],
+  navigation:{
+  prev:{
+  title:"Hakikat Ilmu Fisika",
+  path:"/materi/hakikat-ilmu-fisika"
+ },
+
+  next:{
+  title:"Besaran dan Satuan",
+  path:"/materi/besaran-dan-satuan"
+ }
+}  
 }
 
 export default hakikatilmufisika
