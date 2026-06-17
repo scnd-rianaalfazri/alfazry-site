@@ -15,7 +15,7 @@ const besarandansatuan = {
       image: besarandansatuanImg,
       caption: "Pengukuran dan satuan dalam fisika",
       body: [
-        "Bayangkan seseorang berkata:",
+        "Kalau ada seseorang yang berkata:",
         "\"Meja ini panjang.\"",
         "",
         "Panjang… tapi seberapa panjang?",
@@ -114,7 +114,7 @@ const besarandansatuan = {
     {
       image: nextmissionsisteminternasionalImg,
       caption: "🚀 Next Mission! ➜ Eksplorasi sistem satuan internasional SI",
-      link: "/materi/besaran%20dan%20satuan"
+      link: "/materi/sistem%20internasional"
     },
 
     {

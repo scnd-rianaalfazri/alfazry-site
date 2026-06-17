@@ -25,7 +25,7 @@ export default function DetailSimulasi() {
   return (
     <div className="bg-black text-white min-h-screen">
       <Navbar />
-      <section className="p-10 max-w-3xl mx-auto">
+      <section className="px-6 lg:px-12 py-10 max-w-7xl mx-auto">
         <Link to="/simulasi" className="text-cyan-400 hover:underline text-sm mb-8 block">
           ← Kembali ke daftar simulasi
         </Link>

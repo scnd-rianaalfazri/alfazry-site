@@ -1,7 +1,7 @@
 import VirLabMomentumSimulation from "./VirLabMomentumSimulation"
-const MomentumSimulation = {
-    slug: "momentum",
-    title: "Momentum",
+const momentumsimulation = {
+  title: "Momentum",  
+  slug: "simulasi momentum",
     description: "Simulasi dua bola yang bertumbukan untuk memahami kekekalan momentum.",
     content: [
       {
@@ -9,4 +9,4 @@ const MomentumSimulation = {
       }
     ]
   }
-export default MomentumSimulation
+export default momentumsimulation

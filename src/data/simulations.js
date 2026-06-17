@@ -1,8 +1,8 @@
-import MomentumSimulation from "../content/simulasi/kelas-xi/MomentumSimulation/MomentumSimulation"
-import TekananHidrostatisSimulation from "../content/simulasi/kelas-xi/MomentumSimulation/TekananHidrostatisSimulation"
+import MomentumSimulation from "../content/simulasi/MomentumSimulation/MomentumSimulation"
+import Newton2Simulation from "../content/simulasi/Newton2Simulation/Newton2Simulation"
 
 export const simulations = [
     MomentumSimulation,
-    TekananHidrostatisSimulation
+    Newton2Simulation,
 ]
 

@@ -15,7 +15,7 @@ const hakikatilmufisika = {
       image: hakikatilmufisikaImg,
       caption: "Menjelajahi Fisika: Dunia dan Alam Semesta",
       body: [
-        "Pernah kepikiran nggak…",
+        "Pernah kepikiran, nggak?",
         "Kenapa bola yang dilempar selalu jatuh ke bawah?",
         "Kenapa pelangi punya warna yang berbeda-beda?",
         "Kenapa HP bisa mengisi daya dan pesawat bisa terbang?",

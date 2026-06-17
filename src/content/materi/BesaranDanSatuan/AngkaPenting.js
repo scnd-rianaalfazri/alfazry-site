@@ -1,3 +1,10 @@
+import { body, caption, image, link } from "framer-motion/client"
+import angkapentingImg from "/src/assets/Materi/BesaranDanSatuan/AngkaPenting1.jpg"
+import fungsiangkapentingImg from "/src/assets/Materi/BesaranDanSatuan/AngkaPenting2.jpg"
+import aturanangkapentingImg from "/src/assets/Materi/BesaranDanSatuan/AngkaPenting3.jpg"
+import operasihitungangkapentingImg from "/src/assets/Materi/BesaranDanSatuan/AngkaPenting4.jpg"
+import nextmissionnotasiilmiahImg from "/src/assets/Materi/BesaranDanSatuan/AngkaPenting5.jpg" 
+
 const angkapenting = {
   title: "Angka Penting",
   slug: "angka penting",
@@ -5,7 +12,8 @@ const angkapenting = {
   chapter: "📏 Pengukuran",
   content: [
     {
-      heading: "🔢 Angka Penting — Menulis Hasil Ukur dengan Jujur",
+      image: angkapentingImg,
+      caption: "Laboratorium futuristik: mempelajari presisi pengukuran.",
       body: [
         "Dalam fisika, hasil pengukuran selalu memiliki batas ketelitian.",
         "",
@@ -18,7 +26,8 @@ const angkapenting = {
     },
 
     {
-      heading: "🤔 Kenapa Angka Penting Dibutuhkan?",
+      image: fungsiangkapentingImg,
+      caption: "Kenapa angka penting dalam pengukuran?",
       body: [
         "Misalnya panjang sebuah benda diukur menggunakan penggaris.",
         "",
@@ -29,88 +38,23 @@ const angkapenting = {
     },
 
     {
-      heading: "📌 Aturan Angka Penting",
-      body: [
-        "Ada beberapa aturan dasar dalam menentukan angka penting:"
-      ]
+      image: aturanangkapentingImg,
+      caption: "Infografis Aturan angka penting",
     },
 
     {
-      heading: "① Semua Angka Bukan Nol Adalah Penting",
-      body: [
-        "Semua angka 1–9 selalu termasuk angka penting.",
-        "",
-        "Contoh:",
-        "245 memiliki 3 angka penting.",
-        "7,82 memiliki 3 angka penting."
-      ]
+      image: operasihitungangkapentingImg,
+      caption: "Infografis operasi bilangan angka penting",
     },
 
     {
-      heading: "② Angka Nol di Antara Angka Bukan Nol Adalah Penting",
-      body: [
-        "Nol yang berada di tengah angka ikut dihitung.",
-        "",
-        "Contoh:",
-        "1002 memiliki 4 angka penting.",
-        "3,05 memiliki 3 angka penting."
-      ]
-    },
-
-    {
-      heading: "③ Angka Nol di Depan Bukan Angka Penting",
-      body: [
-        "Nol yang hanya menunjukkan posisi desimal tidak dihitung.",
-        "",
-        "Contoh:",
-        "0,0045 memiliki 2 angka penting."
-      ]
-    },
-
-    {
-      heading: "④ Angka Nol di Belakang Koma Desimal Adalah Penting",
-      body: [
-        "Nol setelah angka bukan nol pada bilangan desimal menunjukkan ketelitian.",
-        "",
-        "Contoh:",
-        "2,50 memiliki 3 angka penting.",
-        "",
-        "Angka 2,5 dan 2,50 memiliki makna ketelitian yang berbeda."
-      ]
-    },
-
-    {
-      heading: "➕ Operasi Hitung Angka Penting",
-      body: [
-        "Dalam perhitungan fisika, hasil akhir harus mengikuti aturan angka penting."
-      ]
-    },
-
-    {
-      heading: "✚ Penjumlahan dan Pengurangan",
-      body: [
-        "Hasil mengikuti jumlah angka di belakang koma paling sedikit.",
-        "",
-        "Contoh:",
-        "12,5 + 3,24 = 15,74",
-        "",
-        "Karena 12,5 hanya memiliki satu angka di belakang koma, hasil menjadi:",
-        "15,7"
-      ]
-    },
-
-    {
-      heading: "✖️ Perkalian dan Pembagian",
-      body: [
-        "Hasil mengikuti jumlah angka penting paling sedikit dari bilangan yang digunakan.",
-        "",
-        "Contoh:",
-        "2,5 × 3,42",
-        "",
-        "2,5 memiliki 2 angka penting.",
-        "3,42 memiliki 3 angka penting.",
-        "",
-        "Hasil akhir ditulis dengan 2 angka penting."
+      heading: "🔢 Aturan Pembulatan",
+      body: "Aturan pembulatan angka penting digunakan untuk memastikan hasil perhitungan sesuai dengan tingkat ketelitian data. Aturannya sederhana:",
+      list: [ 
+        "Jika lebih dari 5 (> 5): Bulatkan ke atas (angka sebelumnya ditambah 1). Contoh: 3,76 → menjadi 3,8.",
+        "Jika kurang dari 5 (< 5): Bulatkan ke bawah (angka dihilangkan). Contoh: 3,74 → menjadi 3,7.",
+        "Kalau tepat bernilai 5, jika angka sebelum angka 5 adalah ganjil, bulatkan ke atas. Contoh: 3,75 → menjadi 3,8.",
+        "Kalau tepat bernilai 5, jika angka sebelum angka 5 adalah genap, bulatkan ke bawah. Contoh: 3,65 → menjadi 3,6."
       ]
     },
 
@@ -135,12 +79,9 @@ const angkapenting = {
     },
 
     {
-      heading: "🚀 Next Mission",
-      body: [
-        "Kalau angka bisa sangat besar atau sangat kecil, bagaimana cara menuliskannya agar lebih sederhana?",
-        "",
-        "➡️ Selanjutnya: Notasi Ilmiah."
-      ]
+      image: nextmissionnotasiilmiahImg,
+      caption: "🚀 Next Mission! ➜ Misi besar notasi ilmiah",
+      link: "/materi/angka%20penting"
     },
 
     {

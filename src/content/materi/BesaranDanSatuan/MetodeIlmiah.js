@@ -114,10 +114,11 @@ const metodeilmiah = {
         "Masalah:",
         "\"Kenapa es batu di luar kulkas cepat mencair?\"",
         "",
-        "Observasi → Es berubah menjadi air",
-        "Hipotesis → Suhu lingkungan memengaruhi kecepatan mencair",
-        "Eksperimen → Meletakkan es di tempat berbeda",
-        "Kesimpulan → Semakin tinggi suhu, semakin cepat es mencair"
+        "Observasi → Es berubah menjadi air.",
+        "Hipotesis → Suhu lingkungan memengaruhi kecepatan mencair.",
+        "Eksperimen → Meletakkan es di tempat berbeda.",
+        "Analisis Data → Mencatat hasil eksperimen dalam kondisi yang berbeda-beda.",
+        "Kesimpulan → Semakin tinggi suhu, semakin cepat es mencair."
       ]
     },
 
