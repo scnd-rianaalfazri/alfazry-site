@@ -1,3 +1,11 @@
+import { caption, image } from "framer-motion/client"
+import dimensiImg from "/src/assets/Materi/BesaranDanSatuan/Dimensi1.jpg"
+import fungsidimensiImg from "/src/assets/Materi/BesaranDanSatuan/Dimensi2.jpg"
+import daftardimensiImg from "/src/assets/Materi/BesaranDanSatuan/Dimensi3.jpg"
+import analisisdimensiImg from "/src/assets/Materi/BesaranDanSatuan/Dimensi4.jpg"
+import nextmissionangkapenting from "/src/assets/Materi/BesaranDanSatuan/Dimensi5.jpg"
+
+
 const dimensi = {
   title: "Dimensi",
   slug: "dimensi",
@@ -5,7 +13,8 @@ const dimensi = {
   chapter: "📏 Pengukuran",
   content: [
     {
-      heading: "🧬 Dimensi — Sidik Jari Sebuah Besaran",
+      image: dimensiImg,
+      caption: "Dimensi fisika dalam dunia futuristik",
       body: [
         "Setiap besaran fisika memiliki identitas yang menunjukkan penyusunnya.",
         "",
@@ -16,7 +25,8 @@ const dimensi = {
     },
 
     {
-      heading: "🤔 Kenapa Dimensi Dibutuhkan?",
+      image: fungsidimensiImg,
+      caption: "Kenapa dimensi penting dalam fisika?",
       body: [
         "Dalam fisika, sebuah rumus tidak boleh dibuat sembarangan.",
         "",
@@ -27,17 +37,10 @@ const dimensi = {
     },
 
     {
-      heading: "📏 Dimensi Besaran Pokok",
+      image: daftardimensiImg,
+      caption: "7 dimensi dasar fisika",
       body: [
-        "Setiap besaran pokok memiliki simbol dimensi:",
-        "",
-        "Panjang → [L]",
-        "Massa → [M]",
-        "Waktu → [T]",
-        "Suhu → [Θ]",
-        "Kuat arus listrik → [I]",
-        "Jumlah zat → [N]",
-        "Intensitas cahaya → [J]"
+        "Setiap besaran pokok memiliki simbol dimensi.",
       ]
     },
 
@@ -72,21 +75,8 @@ const dimensi = {
     },
 
     {
-      heading: "🔍 Analisis Dimensi",
-      body: [
-        "Analisis dimensi adalah cara menguji suatu persamaan dengan membandingkan dimensinya.",
-        "",
-        "Contoh:",
-        "Apakah persamaan jarak = kecepatan × waktu benar?",
-        "",
-        "Kecepatan → [L][T⁻¹]",
-        "Waktu → [T]",
-        "",
-        "Hasil:",
-        "[L][T⁻¹] × [T] = [L]",
-        "",
-        "Karena sama dengan dimensi jarak, persamaan tersebut sesuai."
-      ]
+      image: analisisdimensiImg,
+      caption: "Infografis analisis dimensi.",
     },
 
     {
@@ -110,12 +100,9 @@ const dimensi = {
     },
 
     {
-      heading: "🚀 Next Mission",
-      body: [
-        "Dalam fisika, hasil pengukuran tidak hanya harus benar, tetapi juga harus ditulis dengan aturan yang tepat.",
-        "",
-        "➡️ Selanjutnya: Angka Penting."
-      ]
+      image: nextmissionangkapenting,
+      caption: "🚀 Next Mission! ➜ Angka penting dan ketelitian",
+      link: "/materi/angka%20penting",
     },
 
     {
