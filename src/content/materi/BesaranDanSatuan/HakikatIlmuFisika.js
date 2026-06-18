@@ -55,7 +55,7 @@ const hakikatilmufisika = {
 
     {
       image: nextmissionmetodeilmiahImg,
-      caption: "🚀 Next Mission! ➜ Metode Ilmiah: Penemuan Dimulai Dari Rasa Ingin Tahu",
+      caption: "🚀 Next Mission! ➜ Metode Ilmiah: Memahami langkah-langkah sistematis yang digunakan ilmuwan untuk memperoleh pengetahuan yang dapat dipercaya.",
       link: "/materi/metode%20ilmiah"
     },
 

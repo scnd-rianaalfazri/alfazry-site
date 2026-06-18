@@ -113,7 +113,7 @@ const besarandansatuan = {
 
     {
       image: nextmissionsisteminternasionalImg,
-      caption: "🚀 Next Mission! ➜ Eksplorasi sistem satuan internasional SI",
+      caption: "🚀 Next Mission! ➜ Sistem Internasional: Memahami sistem satuan standar yang digunakan dalam fisika agar hasil pengukuran dapat dibandingkan secara universal.",
       link: "/materi/sistem%20internasional"
     },
 

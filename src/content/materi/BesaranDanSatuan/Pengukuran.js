@@ -1,4 +1,9 @@
-import { body } from "framer-motion/client"
+import { body, caption, image, link } from "framer-motion/client"
+import pengukuranImg from "/src/assets/Materi/BesaranDanSatuan/Pengukuran1.jpg"
+import pengertianpengukuranImg from "/src/assets/Materi/BesaranDanSatuan/Pengukuran2.jpg"
+import alatukurImg from "/src/assets/Materi/BesaranDanSatuan/Pengukuran3.jpg"
+import ketelitianalatukurImg from "/src/assets/Materi/BesaranDanSatuan/Pengukuran4.jpg"
+import nextmissinketidakpastianImg from "/src/assets/Materi/BesaranDanSatuan/Pengukuran5.jpg"
 
 const pengukuran = {
   title: "Pengukuran",
@@ -7,7 +12,8 @@ const pengukuran = {
   chapter: "📏 Pengukuran",
   content: [
     {
-      heading: "🎯 Pengukuran — Cara Fisika Mengenal Dunia",
+      image: pengukuranImg,
+      caption: "Pengukuran dalam Dunia Fisika",
       body: [
         "Fisika tidak hanya mengamati fenomena, tetapi juga membutuhkan data.",
         "",
@@ -18,7 +24,8 @@ const pengukuran = {
     },
 
     {
-      heading: "📏 Apa Itu Pengukuran?",
+      image: pengertianpengukuranImg,
+      caption: "Pengenalan konsep pengukuran",
       body: [
         "Pengukuran adalah proses membandingkan suatu besaran dengan satuan standar yang telah ditentukan.",
         "",
@@ -44,7 +51,8 @@ const pengukuran = {
     },
 
     {
-      heading: "🛠️ Alat Ukur dalam Fisika",
+      image: alatukurImg,
+      caption: "Alat ukur dalam fisika dan penggunaannya",
       body: [
         "Setiap besaran memiliki alat ukur yang sesuai.",
         "",
@@ -58,7 +66,8 @@ const pengukuran = {
     },
 
     {
-      heading: "🔍 Ketelitian Alat Ukur",
+      image: ketelitianalatukurImg,
+      caption: "Perbandingan ketelitian alat ukur",
       body: [
         "Setiap alat ukur memiliki tingkat ketelitian yang berbeda.",
         "",
@@ -125,15 +134,9 @@ const pengukuran = {
     },
 
     {
-      heading: "🚀 Next Mission",
-      body: [
-        "Apakah hasil pengukuran selalu tepat 100%?",
-        "",
-        "Ternyata tidak.",
-        "Setiap pengukuran memiliki batas ketelitian.",
-        "",
-        "➡️ Selanjutnya: Ketidakpastian Pengukuran."
-      ]
+      image: nextmissinketidakpastianImg,
+      caption: "🚀 Next Mission! ➜ memahami ketidakpastian pengukuran",
+      link: "/materi/ketidakpastian",
     },
 
     {

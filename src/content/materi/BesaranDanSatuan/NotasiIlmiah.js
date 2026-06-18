@@ -1,3 +1,10 @@
+import { caption, form, image, link } from "framer-motion/client"
+import notasiilmiahImg from "/src/assets/Materi/BesaranDanSatuan/NotasiIlmiah1.jpg"
+import pengertiannotasiIlmiahImg from "/src/assets/Materi/BesaranDanSatuan/NotasiIlmiah2.jpg"
+import jenisjenisbilanganImg from "/src/assets/Materi/BesaranDanSatuan/NotasiIlmiah3.jpg"
+import contohnotasiilmiahImg from "/src/assets/Materi/BesaranDanSatuan/NotasiIlmiah4.jpg"
+import nextmissionpengukuranImg from "/src/assets/Materi/BesaranDanSatuan/NotasiIlmiah5.jpg"
+
 const notasiilmiah= {
   title: "Notasi Ilmiah",
   slug: "notasi ilmiah",
@@ -5,7 +12,8 @@ const notasiilmiah= {
   chapter: "📏 Pengukuran",
   content: [
     {
-      heading: "🚀 Notasi Ilmiah — Cara Singkat Menulis Angka Ekstrem",
+      image: notasiilmiahImg,
+      caption: "Notasi ilmiah: kecil dan besar",
       body: [
         "Dalam fisika, kita sering menemukan angka yang sangat besar maupun sangat kecil.",
         "",
@@ -20,7 +28,8 @@ const notasiilmiah= {
     },
 
     {
-      heading: "🔢 Apa Itu Notasi Ilmiah?",
+      image: pengertiannotasiIlmiahImg,
+      caption: "Penjelasan notasi ilmiah",
       body: [
         "Notasi ilmiah adalah cara menuliskan bilangan dalam bentuk:",
         "",
@@ -33,8 +42,10 @@ const notasiilmiah= {
     },
 
     {
-      heading: "📈 Menulis Bilangan Besar",
+      image: jenisjenisbilanganImg,
+      caption: "Cara menulis notasi ilmiah",
       body: [
+        "📈 Menulis Bilangan Besar",
         "Untuk bilangan besar, koma digeser ke kiri.",
         "",
         "Contoh:",
@@ -43,13 +54,9 @@ const notasiilmiah= {
         "Menjadi:",
         "3 × 10⁸ m",
         "",
-        "Karena koma bergeser 8 tempat ke kiri."
-      ]
-    },
-
-    {
-      heading: "📉 Menulis Bilangan Kecil",
-      body: [
+        "Karena koma bergeser 8 tempat ke kiri.",
+        "------------------------------------------------------",
+        "📉 Menulis Bilangan Kecil",
         "Untuk bilangan kecil, koma digeser ke kanan.",
         "",
         "Contoh:",
@@ -100,7 +107,8 @@ const notasiilmiah= {
     },
 
     {
-      heading: "🌌 Contoh dalam Fisika",
+      image: contohnotasiilmiahImg,
+      caption: "Contoh penggunaan notasi ilmiah",
       body: [
         "Massa bumi:",
         "≈ 5.970.000.000.000.000.000.000.000 kg",
@@ -131,15 +139,9 @@ const notasiilmiah= {
     },
 
     {
-      heading: "🚀 Next Mission",
-      body: [
-        "Fisika membutuhkan angka yang tepat.",
-        "Tapi dari mana angka tersebut diperoleh?",
-        "",
-        "Jawabannya melalui proses pengukuran.",
-        "",
-        "➡️ Selanjutnya kita masuk ke: Pengukuran."
-      ]
+      image: nextmissionpengukuranImg,
+      caption: "🚀 Next Mission! ➜ Pengukuran",
+      link: "/materi/angka%20penting",
     },
 
     {
