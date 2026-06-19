@@ -1,4 +1,9 @@
-import { body } from "framer-motion/client"
+import { body, image } from "framer-motion/client"
+import konversisatuanImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan1.jpg"
+import fungsikonversiImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan2.jpg"
+import prinsipkonversiImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan3.jpg"
+import tanggasatuanImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan4.jpg"
+import endchapterpengukuranImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan5.jpg"
 
 const konversisatuan = {
   title: "Konversi Satuan",
@@ -7,7 +12,7 @@ const konversisatuan = {
   chapter: "📏 Pengukuran",
   content: [
     {
-      heading: "🔄 Konversi Satuan — Mengubah Bentuk, Bukan Nilai",
+      image: konversisatuanImg,
       body: [
         "Dalam fisika, kita sering menemukan satu besaran dengan satuan yang berbeda.",
         "",
@@ -21,7 +26,7 @@ const konversisatuan = {
     },
 
     {
-      heading: "📏 Kenapa Harus Bisa Konversi Satuan?",
+      image: fungsikonversiImg,
       body: [
         "Karena dalam perhitungan fisika, semua besaran harus menggunakan satuan yang sesuai.",
         "",
@@ -30,7 +35,7 @@ const konversisatuan = {
     },
 
     {
-      heading: "🧩 Prinsip Dasar Konversi",
+      image: prinsipkonversiImg,
       body: [
         "Konversi dilakukan dengan menggunakan faktor pengali yang nilainya sama dengan 1.",
         "",
@@ -72,7 +77,7 @@ const konversisatuan = {
     },
 
     {
-      heading: "🔢 Tangga Satuan",
+      image: tanggasatuanImg,
       body: [
         "Urutan awalan satuan yang sering digunakan:",
         "",
@@ -123,14 +128,8 @@ const konversisatuan = {
     },
 
     {
-      heading: "✨ Penutup Chapter",
-      body: [
-        "Sekarang kita sudah mempelajari dasar bagaimana fisika bekerja:",
-        "",
-        "Mengamati alam → mengukur → menuliskan data → menganalisis hasil.",
-        "",
-        "Semua konsep fisika berikutnya akan berdiri di atas fondasi ini."
-      ]
+      image: endchapterpengukuranImg,
+      link: "/materi/pengantar%20vektor",
     },
 
     {

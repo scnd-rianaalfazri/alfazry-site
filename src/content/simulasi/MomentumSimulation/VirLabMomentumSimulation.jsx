@@ -6,12 +6,17 @@ export default function VirLabMomentumSimulation() {
   const [kecepatanAwalA, setKecepatanAwalA] = useState(4);
   const [kecepatanAwalB, setKecepatanAwalB] = useState(-2);
 
+  const [restitusi, setRestitusi] = useState(1);
+
   const [posA, setPosA] = useState(50);
   const [posB, setPosB] = useState(450);
   const containerRef = useRef(null);
   const [containerWidth, setContainerWidth] = useState(520);
 
   const [running, setRunning] = useState(false);
+
+  const [kecepatanAkhirA, setKecepatanAkhirA] = useState(null);
+  const [kecepatanAkhirB, setKecepatanAkhirB] = useState(null);
 
   const posARef = useRef(50);
   const posBRef = useRef(450);
@@ -29,10 +34,54 @@ export default function VirLabMomentumSimulation() {
   const momentumB = round2(massaB * kecepatanAwalB);
   const momentumAwal = round2(momentumA + momentumB);
 
-  const kecepatanAkhir = round2(
-    (massaA * kecepatanAwalA + massaB * kecepatanAwalB) /
-      (massaA + massaB)
+  const momentumSaatIniA = round2(
+  massaA * velARef.current
   );
+  const momentumSaatIniB = round2(
+    massaB * velBRef.current
+  );
+  const momentumTotalSaatIni = round2(
+    momentumSaatIniA + momentumSaatIniB
+  );
+
+  const energiAwalA = round2(
+    0.5 *
+    massaA *
+    kecepatanAwalA *
+    kecepatanAwalA
+  );
+
+  const energiAwalB = round2(
+    0.5 *
+    massaB *
+    kecepatanAwalB *
+    kecepatanAwalB
+  );
+
+  const energiTotalAwal = round2(
+    energiAwalA + energiAwalB
+  );
+
+  const energiSaatIniA = round2(
+    0.5 *
+    massaA *
+    velARef.current *
+    velARef.current
+  );
+
+  const energiSaatIniB = round2(
+    0.5 *
+    massaB *
+    velBRef.current *
+    velBRef.current
+  );
+
+  const energiTotalSaatIni = round2(
+    energiSaatIniA +
+    energiSaatIniB
+  );
+
+  const [menyatu, setMenyatu] = useState(false);
 
   useEffect(() => {
     posARef.current = posA;
@@ -86,6 +135,14 @@ export default function VirLabMomentumSimulation() {
       let nextVelA = velARef.current;
       let nextVelB = velBRef.current;
 
+      if (menyatu) {
+        nextA = posARef.current + velARef.current;
+        nextB = nextA + ballSizeA;
+
+        velARef.current = nextVelA;
+        velBRef.current = nextVelA;
+      }
+
       if (nextA <= 0) {
         nextVelA = -nextVelA;
         nextA = 0;
@@ -106,21 +163,37 @@ export default function VirLabMomentumSimulation() {
         posARef.current + ballSizeA <= posBRef.current &&
         nextA + ballSizeA >= nextB
       ) {
-        const totalMass = massaA + massaB;
-        const newVelA =
-          ((massaA - massaB) / totalMass) * nextVelA +
-          (2 * massaB / totalMass) * nextVelB;
-        const newVelB =
-          (2 * massaA / totalMass) * nextVelA +
-          ((massaB - massaA) / totalMass) * nextVelB;
+      const u1 = nextVelA;
+      const u2 = nextVelB;
+
+      const newVelA =
+        ((massaA - restitusi * massaB) * u1 +
+          (1 + restitusi) * massaB * u2) /
+        (massaA + massaB);
+
+      const newVelB =
+        ((massaB - restitusi * massaA) * u2 +
+          (1 + restitusi) * massaA * u1) /
+        (massaA + massaB);
 
         nextVelA = newVelA;
         nextVelB = newVelB;
 
-        const overlap = nextA + ballSizeA - nextB;
-        if (overlap > 0) {
-          nextA -= overlap / 2;
-          nextB += overlap / 2;
+        if (restitusi === 0) {
+          nextB = nextA + ballSizeA;
+          setMenyatu(true);
+        }
+        
+        setKecepatanAkhirA(round2(newVelA));
+        setKecepatanAkhirB(round2(newVelB)); 
+
+        if (restitusi !== 0) {
+          const overlap = nextA + ballSizeA - nextB;
+
+          if (overlap > 0) {
+            nextA -= overlap / 2;
+            nextB += overlap / 2;
+          }
         }
       }
 
@@ -134,13 +207,23 @@ export default function VirLabMomentumSimulation() {
     }, 20);
 
     return () => clearInterval(interval);
-  }, [running, maxPosA, maxPosB, massaA, massaB]);
+    }, [
+      running,
+      maxPosA,
+      maxPosB,
+      massaA,
+      massaB,
+      restitusi,
+    ]);
 
   const resetSimulasi = () => {
     const startA = 0;
     const startB = maxPosB;
 
     setRunning(false);
+    setKecepatanAkhirA(null);
+    setKecepatanAkhirB(null);
+    setMenyatu(false);
     setPosA(startA);
     setPosB(startB);
     posARef.current = startA;
@@ -148,7 +231,10 @@ export default function VirLabMomentumSimulation() {
     velARef.current = kecepatanAwalA;
     velBRef.current = kecepatanAwalB;
   };
-
+  
+  const arahA = velARef.current >= 0 ? "→" : "←";
+  const arahB = velBRef.current >= 0 ? "→" : "←";
+  
   return (
     <div
       style={{
@@ -167,7 +253,19 @@ export default function VirLabMomentumSimulation() {
       >
         🚀 Simulasi Momentum
       </h2>
-
+      <p
+        style={{
+          color: "#94a3b8",
+          marginBottom: "20px",
+          fontSize: "14px",
+        }}
+      >
+        {restitusi === 1
+          ? "Tumbukan Lenting Sempurna (e = 1)"
+          : restitusi === 0
+          ? "Tumbukan Tidak Lenting Sempurna (e = 0)"
+          : `Tumbukan Lenting Sebagian (e = ${restitusi.toFixed(1)})`}
+      </p>
       <div
         style={{
           display: "grid",
@@ -226,14 +324,28 @@ export default function VirLabMomentumSimulation() {
             }
           />
         </label>
-      </div>
 
+        <label>
+          Koefisien Restitusi (e) = {restitusi.toFixed(1)}
+
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step="0.1"
+            value={restitusi}
+            onChange={(e) =>
+              setRestitusi(Number(e.target.value))
+            }
+          />
+        </label>
+      </div>
       <div
         ref={containerRef}
         style={{
           position: "relative",
           width: "100%",
-          maxWidth: `${containerWidth}px`,
+          maxWidth: "1000px",
           height: "120px",
           background: "#1e293b",
           borderRadius: "12px",
@@ -241,6 +353,19 @@ export default function VirLabMomentumSimulation() {
           margin: "0 auto 20px",
         }}
       >
+      <>
+        <div style={{
+            position: "absolute",
+            left: posA - 10,
+            top: 10,
+            color: "#67e8f9",
+            fontWeight: "bold",
+            fontSize: "18px",
+            whiteSpace: "nowrap",
+          }}
+          >
+          {arahA} {Math.abs(velARef.current).toFixed(1)} m/s
+        </div>  
         <div
           style={{
             position: "absolute",
@@ -254,7 +379,21 @@ export default function VirLabMomentumSimulation() {
               "0 0 20px rgba(6,182,212,.8)",
           }}
         />
-
+      </>
+      <>
+        <div
+          style={{
+            position: "absolute",
+            left: posB - 10,
+            top: 10,
+            color: "#d8b4fe",
+            fontWeight: "bold",
+            fontSize: "18px",
+            whiteSpace: "nowrap",
+          }}
+        >
+          {arahB} {Math.abs(velBRef.current).toFixed(1)} m/s
+        </div>
         <div
           style={{
             position: "absolute",
@@ -268,6 +407,7 @@ export default function VirLabMomentumSimulation() {
               "0 0 20px rgba(168,85,247,.8)",
           }}
         />
+      </>
       </div>
 
       <div
@@ -342,9 +482,21 @@ export default function VirLabMomentumSimulation() {
             cursor: "pointer",
           }}
         >
-          Jalankan
+          ▶ Jalankan
         </button>
-
+        <button
+          onClick={() => setRunning(false)}
+          style={{
+            background: "#f59e0b",
+            color: "white",
+            border: "none",
+            padding: "10px 20px",
+            borderRadius: "10px",
+            cursor: "pointer",
+          }}
+        >
+          ⏸ Jeda
+        </button>
         <button
           onClick={resetSimulasi}
           style={{
@@ -356,10 +508,38 @@ export default function VirLabMomentumSimulation() {
             cursor: "pointer",
           }}
         >
-          Reset
+          🔄 Reset
         </button>
       </div>
-
+      <p
+        style={{
+          color: "#fbbf24",
+          fontWeight: "bold",
+          marginBottom: "12px",
+        }}
+      >
+        {menyatu
+          ? "📌 Kedua benda bergerak bersama setelah tumbukan."
+          : "💥 Benda belum menyatu."}
+      </p>
+      <div
+        style={{
+          marginBottom: "12px",
+          fontWeight: "bold",
+          color:
+            restitusi === 1
+              ? "#22c55e"
+              : restitusi === 0
+              ? "#ef4444"
+              : "#f59e0b",
+        }}
+      >
+        {restitusi === 1
+          ? "🟢 Tumbukan Lenting Sempurna"
+          : restitusi === 0
+          ? "🔴 Tumbukan Tidak Lenting Sempurna"
+          : "🟡 Tumbukan Lenting Sebagian"}
+      </div>
       <div
         style={{
           background: "#111827",
@@ -382,9 +562,177 @@ export default function VirLabMomentumSimulation() {
         </p>
 
         <p>
-          Kecepatan Setelah Tumbukan = <strong>
-            {kecepatanAkhir.toFixed(2)} m/s
+          Kecepatan Akhir Bola A ={" "}
+          <strong>
+            {kecepatanAkhirA !== null
+              ? `${kecepatanAkhirA.toFixed(2)} m/s`
+              : "-"}
           </strong>
+        </p>
+
+        <p>
+          Kecepatan Akhir Bola B ={" "}
+          <strong>
+            {kecepatanAkhirB !== null
+              ? `${kecepatanAkhirB.toFixed(2)} m/s`
+              : "-"}
+          </strong>
+        </p>
+
+        <hr
+          style={{
+            borderColor: "#374151",
+            margin: "12px 0",
+          }}
+        />
+
+        <h4>Momentum Real-Time</h4>
+
+        <p>
+          Momentum A =
+          <strong>
+            {" "}
+            {momentumSaatIniA.toFixed(2)}
+            {" "}kg·m/s
+          </strong>
+        </p>
+
+        <p>
+          Momentum B =
+          <strong>
+            {" "}
+            {momentumSaatIniB.toFixed(2)}
+            {" "}kg·m/s
+          </strong>
+        </p>
+
+        <p>
+          Momentum Total =
+          <strong
+            style={{
+              color: "#22c55e",
+            }}
+          >
+            {" "}
+            {momentumTotalSaatIni.toFixed(2)}
+            {" "}kg·m/s
+          </strong>
+        </p>
+
+        <hr
+          style={{
+            borderColor: "#374151",
+            margin: "12px 0",
+          }}
+        />
+
+        <h4>Energi Kinetik Awal</h4>
+        
+        <p>
+          Energi A =
+          <strong>
+            {" "}
+            {energiAwalA.toFixed(2)}
+            {" "}J
+          </strong>
+        </p>
+
+        <p>
+          Energi B =
+          <strong>
+            {" "}
+            {energiAwalB.toFixed(2)}
+            {" "}J
+          </strong>
+        </p>
+
+        <p>
+          Energi Total =
+          <strong>
+            {" "}
+            {energiTotalAwal.toFixed(2)}
+            {" "}J
+          </strong>
+        </p>
+
+        <hr
+          style={{
+            borderColor: "#374151",
+            margin: "12px 0",
+          }}
+        />
+
+        <h4>Energi Kinetik Real-Time</h4>
+
+        <p>
+          Energi A =
+          <strong>
+            {" "}
+            {energiSaatIniA.toFixed(2)}
+            {" "}J
+          </strong>
+        </p>
+
+        <p>
+          Energi B =
+          <strong>
+            {" "}
+            {energiSaatIniB.toFixed(2)}
+            {" "}J
+          </strong>
+        </p>
+
+        <p>
+          Energi Total =
+          <strong
+            style={{
+              color:
+                restitusi === 1
+                  ? "#22c55e"
+                  : "#f59e0b",
+            }}
+          >
+            {" "}
+            {energiTotalSaatIni.toFixed(2)}
+            {" "}J
+          </strong>
+        </p>
+
+        <hr
+          style={{
+            borderColor: "#374151",
+            margin: "12px 0",
+          }}
+        />
+
+        <h4>Analisis</h4>
+
+        <p>
+          Momentum Awal:
+          {" "}
+          {momentumAwal.toFixed(2)}
+          {" "}kg·m/s
+        </p>
+
+        <p>
+          Momentum Saat Ini:
+          {" "}
+          {momentumTotalSaatIni.toFixed(2)}
+          {" "}kg·m/s
+        </p>
+
+        <p>
+          Energi Awal:
+          {" "}
+          {energiTotalAwal.toFixed(2)}
+          {" "}J
+        </p>
+
+        <p>
+          Energi Saat Ini:
+          {" "}
+          {energiTotalSaatIni.toFixed(2)}
+          {" "}J
         </p>
       </div>
     </div>

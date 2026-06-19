@@ -11,6 +11,8 @@ export default function Navbar() {
       <nav className="flex gap-6 text-white/70">
         <Link to="/materi" className="hover:text-cyan-400 transition">Materi</Link>
         <Link to="/simulasi" className="hover:text-cyan-400 transition">Simulasi</Link>
+        <Link to="/kalkulatorfisika" className="hover:text-cyan-400 transition">Kalkulator Fisika</Link>
+        <Link to="/blog" className="hover:text-cyan-400 transition">Blog</Link>
       </nav>
     </header>
   )

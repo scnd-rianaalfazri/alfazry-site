@@ -1,5 +1,15 @@
 import { useEffect, useRef, useState } from "react"
 
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts"
+
 const surfaces = {
   Es: 0.05,
   Keramik: 0.2,
@@ -8,6 +18,7 @@ const surfaces = {
 }
 
 export default function virlabnewton2simulation() {
+
   const [force, setForce] = useState(80)
   const [mass, setMass] = useState(20)
   const [surface, setSurface] = useState("Kayu")
@@ -17,7 +28,13 @@ export default function virlabnewton2simulation() {
   const [velocity, setVelocity] = useState(0)
   const [time, setTime] = useState(0)
 
+  const [velocityData, setVelocityData] = useState([])
+  const [positionData, setPositionData] = useState([])
+
   const frameRef = useRef()
+  const velocityRef = useRef(0)
+  const positionRef = useRef(0)
+  const timeRef = useRef(0)
 
   const mu = surfaces[surface]
   const g = 9.8
@@ -36,20 +53,48 @@ export default function virlabnewton2simulation() {
     const animate = (now) => {
       const dt = (now - last) / 1000
       last = now
+      const animate = (now) => {
+  const dt = (now - last) / 1000
+  last = now
 
-      setTime((t) => t + dt)
+  timeRef.current += dt
 
-      setVelocity((v) => {
-        const nextV = v + acceleration * dt
+  velocityRef.current += acceleration * dt
 
-        setPosition((p) => {
-          const nextP = p + nextV * 8 * dt
-          return Math.min(nextP, 1300)
-        })
+  positionRef.current += velocityRef.current * 8 * dt
 
-        return nextV
-      })
+  const limitedPosition = Math.min(
+    positionRef.current,
+    1500
+  )
 
+  setTime(timeRef.current)
+  setVelocity(velocityRef.current)
+  setPosition(limitedPosition)
+
+  setVelocityData((prev) => [
+    ...prev.slice(-99),
+    {
+      time: Number(timeRef.current.toFixed(2)),
+      velocity: Number(
+        velocityRef.current.toFixed(2)
+      ),
+    },
+  ])
+
+  setPositionData((prev) => [
+    ...prev.slice(-99),
+    {
+      time: Number(timeRef.current.toFixed(2)),
+      position: Number(
+        limitedPosition.toFixed(2)
+      ),
+    },
+  ])
+
+  frameRef.current =
+    requestAnimationFrame(animate)
+}
       frameRef.current = requestAnimationFrame(animate)
     }
 
@@ -60,9 +105,17 @@ export default function virlabnewton2simulation() {
 
   const resetSimulation = () => {
     setRunning(false)
-    setPosition(0)
-    setVelocity(0)
+
+    timeRef.current = 0
+    velocityRef.current = 0
+    positionRef.current = 0
+
     setTime(0)
+    setVelocity(0)
+    setPosition(0)
+
+    setVelocityData([])
+    setPositionData([])
   }
 
   const explanation =
@@ -207,9 +260,113 @@ export default function virlabnewton2simulation() {
         </div>
       </div>
 
-      <div className="mt-6 rounded-2xl bg-cyan-500/10 border border-cyan-500/20 p-5">
-        <h3 className="font-semibold mb-2">🤖 Penjelasan Konsep</h3>
-        <p className="text-white/80">{explanation}</p>
+
+
+            {/* Grafik Kecepatan */}
+            <div className="rounded-2xl bg-black/20 p-5">
+              <p className="text-sm text-cyan-400 mb-2">
+                Velocity Points: {velocityData.length}
+              </p>
+
+              <p className="text-sm text-green-400 mb-4">
+                Position Points: {positionData.length}
+              </p>
+
+              <h3 className="font-semibold mb-4">
+                📈 Kecepatan vs Waktu
+              </h3>
+
+              <div className="h-72">
+
+                <ResponsiveContainer width="100%" height="100%">
+                  <LineChart data={velocityData}>
+
+                    <CartesianGrid strokeDasharray="3 3" />
+
+                    <XAxis
+                      dataKey="time"
+                      label={{
+                        value: "Waktu (s)",
+                        position: "insideBottom",
+                        offset: -5,
+                      }}
+                    />
+
+                    <YAxis
+                      label={{
+                        value: "m/s",
+                        angle: -90,
+                        position: "insideLeft",
+                      }}
+                    />
+
+                    <Tooltip />
+
+                    <Line
+                      type="monotone"
+                      dataKey="velocity"
+                      stroke="#06b6d4"
+                      strokeWidth={3}
+                      dot={false}
+                    />
+
+                  </LineChart>
+                </ResponsiveContainer>
+
+              </div>
+
+            </div>
+
+            {/* Grafik Posisi */}
+            <div className="rounded-2xl bg-black/20 p-5">
+
+              <h3 className="font-semibold mb-4">
+                📊 Posisi vs Waktu
+              </h3>
+
+              <div className="h-72">
+
+                <ResponsiveContainer width="100%" height="100%">
+                  <LineChart data={positionData}>
+
+                    <CartesianGrid strokeDasharray="3 3" />
+
+                    <XAxis
+                      dataKey="time"
+                      label={{
+                        value: "Waktu (s)",
+                        position: "insideBottom",
+                        offset: -5,
+                      }}
+                    />
+
+                    <YAxis
+                      label={{
+                        value: "m",
+                        angle: -90,
+                        position: "insideLeft",
+                      }}
+                    />
+
+                    <Tooltip />
+
+                    <Line
+                      type="monotone"
+                      dataKey="position"
+                      stroke="#22c55e"
+                      strokeWidth={3}
+                      dot={false}
+                    />
+
+                  </LineChart>
+                </ResponsiveContainer>
+              </div>
+          <div className="mt-6 rounded-2xl bg-cyan-500/10 border border-cyan-500/20 p-5">
+            <h3 className="font-semibold mb-2">🤖 Penjelasan Konsep</h3>
+            <p className="text-white/80">{explanation}</p>
+            <div className="mt-6 grid lg:grid-cols-2 gap-6">
+            </div>
+          </div>
       </div>
     </div>
   )
