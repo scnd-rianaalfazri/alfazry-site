@@ -6,6 +6,8 @@ import Simulasi from "./pages/Simulasi"
 import DetailSimulasi from "./pages/DetailSimulasi"
 import DetailMateri from "./pages/DetailMateri"
 
+
+
 function App() {
   return (
     <Routes>
@@ -13,7 +15,7 @@ function App() {
       <Route path="/materi" element={<Materi />} />
       <Route path="/simulasi" element={<Simulasi />} />
       <Route path="/simulasi/:slug" element={<DetailSimulasi />} />
-      <Route path="/materi/:slug" element={<DetailMateri />} />
+      <Route path="/materi/:slug" element={<DetailMateri />} />  
     </Routes>
   )
 }

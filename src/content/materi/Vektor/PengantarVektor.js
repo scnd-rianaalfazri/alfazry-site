@@ -1,4 +1,10 @@
-import { body } from "framer-motion/client"
+import { body, image, link } from "framer-motion/client"
+import vektorImg from "/src/assets/Materi/Vektor/PengertianVektor1.jpg"
+import pengertianvektorImg from "/src/assets/Materi/Vektor/PengertianVektor2.jpg"
+import contohbesaranvektorImg from "/src/assets/Materi/Vektor/PengertianVektor3.jpg"
+import fungsivektor1Img from "/src/assets/Materi/Vektor/PengertianVektor4.jpg"
+import fungsivektor2Img from "/src/assets/Materi/Vektor/PengertianVektor5.jpg"
+import nextmissionskalarvsvektor from "/src/assets/Materi/Vektor/PengertianVektor6.jpg"
 
 const pengantarvektor = {
   title: "Apa Itu Vektor?",
@@ -7,7 +13,7 @@ const pengantarvektor = {
   chapter: "➡️ Vektor",
   content: [
     {
-      heading: "🏹 Vektor — Ketika Fisika Mulai Mengenal Arah",
+      image: vektorImg,
       body: [
         "Dalam kehidupan sehari-hari, kita sering menyebut suatu nilai tanpa memikirkan arah.",
         "",
@@ -24,7 +30,7 @@ const pengantarvektor = {
     },
 
     {
-      heading: "🧩 Apa Itu Vektor?",
+      image: pengertianvektorImg,
       body: [
         "Vektor adalah besaran fisika yang memiliki dua informasi penting:",
         "",
@@ -36,7 +42,7 @@ const pengantarvektor = {
     },
 
     {
-      heading: "📏 Contoh Besaran Vektor",
+      image: contohbesaranvektorImg,
       body: [
         "Beberapa contoh besaran vektor dalam fisika:",
         "",
@@ -63,8 +69,9 @@ const pengantarvektor = {
     },
 
     {
-      heading: "↔️ Kenapa Fisika Membutuhkan Vektor?",
+      image: fungsivektor2Img,
       body: [
+        "↔️ Kenapa Fisika Membutuhkan Vektor?",
         "Banyak fenomena alam tidak cukup dijelaskan hanya dengan angka.",
         "",
         "Contoh:",
@@ -75,7 +82,7 @@ const pengantarvektor = {
     },
 
     {
-      heading: "🌍 Vektor dalam Kehidupan Sehari-hari",
+      image: fungsivektor1Img,
       body: [
         "Tanpa sadar kita sering menggunakan konsep vektor:",
         "",
@@ -110,14 +117,8 @@ const pengantarvektor = {
     },
 
     {
-      heading: "🚀 Next Mission",
-      body: [
-        "Sekarang kita sudah tahu bahwa tidak semua besaran cukup dijelaskan dengan angka.",
-        "",
-        "Lalu apa perbedaan lengkap antara besaran skalar dan vektor?",
-        "",
-        "➡️ Selanjutnya: Besaran Skalar dan Besaran Vektor."
-      ]
+      image: nextmissionskalarvsvektor,
+      link: "/materi/besaran%20skalar%20dan%20vektor",
     },
 
     {

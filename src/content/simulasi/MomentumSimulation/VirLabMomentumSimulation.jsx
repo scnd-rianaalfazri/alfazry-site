@@ -83,6 +83,8 @@ export default function VirLabMomentumSimulation() {
 
   const [menyatu, setMenyatu] = useState(false);
 
+  const [activeTab, setActiveTab] = useState("hasil");
+
   useEffect(() => {
     posARef.current = posA;
   }, [posA]);
@@ -510,6 +512,81 @@ export default function VirLabMomentumSimulation() {
         >
           🔄 Reset
         </button>
+        <div
+          style={{
+            display: "flex",
+            gap: "8px",
+            marginBottom: "16px",
+            flexWrap: "wrap",
+          }}
+        >
+          <button
+            onClick={() => setActiveTab("hasil")}
+            style={{
+              padding: "10px 16px",
+              borderRadius: "10px",
+              border: "none",
+              cursor: "pointer",
+              background:
+                activeTab === "hasil"
+                  ? "#06b6d4"
+                  : "#334155",
+              color: "white",
+            }}
+          >
+            📊 Hasil
+          </button>
+
+          <button
+            onClick={() => setActiveTab("perhitungan")}
+            style={{
+              padding: "10px 16px",
+              borderRadius: "10px",
+              border: "none",
+              cursor: "pointer",
+              background:
+                activeTab === "perhitungan"
+                  ? "#06b6d4"
+                  : "#334155",
+              color: "white",
+            }}
+          >
+            📖 Perhitungan
+          </button>
+
+          <button
+            onClick={() => setActiveTab("kesimpulan")}
+            style={{
+              padding: "10px 16px",
+              borderRadius: "10px",
+              border: "none",
+              cursor: "pointer",
+              background:
+                activeTab === "kesimpulan"
+                  ? "#06b6d4"
+                  : "#334155",
+              color: "white",
+            }}
+          >
+            🧠 Kesimpulan
+          </button>
+          <button
+            onClick={() => setActiveTab("grafik")}
+            style={{
+              padding: "10px 16px",
+              borderRadius: "10px",
+              border: "none",
+              cursor: "pointer",
+              background:
+                activeTab === "grafik"
+                  ? "#06b6d4"
+                  : "#334155",
+              color: "white",
+            }}
+          >
+            📈 Grafik
+          </button>
+        </div>
       </div>
       <p
         style={{
@@ -540,201 +617,351 @@ export default function VirLabMomentumSimulation() {
           ? "🔴 Tumbukan Tidak Lenting Sempurna"
           : "🟡 Tumbukan Lenting Sebagian"}
       </div>
-      <div
-        style={{
-          background: "#111827",
-          padding: "16px",
-          borderRadius: "12px",
-        }}
-      >
-        <p>
-          Momentum Bola A = <strong>{momentumA.toFixed(2)} kg·m/s</strong>
-        </p>
-
-        <p>
-          Momentum Bola B = <strong>{momentumB.toFixed(2)} kg·m/s</strong>
-        </p>
-
-        <p>
-          Momentum Total Awal = <strong>
-            {momentumAwal.toFixed(2)} kg·m/s
-          </strong>
-        </p>
-
-        <p>
-          Kecepatan Akhir Bola A ={" "}
-          <strong>
-            {kecepatanAkhirA !== null
-              ? `${kecepatanAkhirA.toFixed(2)} m/s`
-              : "-"}
-          </strong>
-        </p>
-
-        <p>
-          Kecepatan Akhir Bola B ={" "}
-          <strong>
-            {kecepatanAkhirB !== null
-              ? `${kecepatanAkhirB.toFixed(2)} m/s`
-              : "-"}
-          </strong>
-        </p>
-
-        <hr
-          style={{
-            borderColor: "#374151",
-            margin: "12px 0",
-          }}
-        />
-
-        <h4>Momentum Real-Time</h4>
-
-        <p>
-          Momentum A =
-          <strong>
-            {" "}
-            {momentumSaatIniA.toFixed(2)}
-            {" "}kg·m/s
-          </strong>
-        </p>
-
-        <p>
-          Momentum B =
-          <strong>
-            {" "}
-            {momentumSaatIniB.toFixed(2)}
-            {" "}kg·m/s
-          </strong>
-        </p>
-
-        <p>
-          Momentum Total =
-          <strong
+      <div>
+        {activeTab === "perhitungan" && (
+          <div
             style={{
-              color: "#22c55e",
+              background: "#0f172a",
+              border: "1px solid #334155",
+              padding: "16px",
+              borderRadius: "12px",
+              marginTop: "16px",
+              lineHeight: "1.8",
             }}
           >
+            <h3
+              style={{
+                color: "#38bdf8",
+                marginBottom: "12px",
+              }}
+            >
+              📖 Perhitungan Momentum
+            </h3>
+
+            <p>
+              pA = mA × vA
+              <br />
+              = {massaA} × {kecepatanAwalA}
+              <br />
+              = {momentumA.toFixed(2)} kg·m/s
+            </p>
+
+            <p>
+              pB = mB × vB
+              <br />
+              = {massaB} × {kecepatanAwalB}
+              <br />
+              = {momentumB.toFixed(2)} kg·m/s
+            </p>
+
+            <p>
+              pTotal = pA + pB
+              <br />
+              = {momentumA.toFixed(2)}
+              {" + "}
+              ({momentumB.toFixed(2)})
+              <br />
+              = {momentumAwal.toFixed(2)} kg·m/s
+            </p>
+
+            <hr
+              style={{
+                borderColor: "#334155",
+                margin: "12px 0",
+              }}
+            />
+
+            <h3
+              style={{
+                color: "#38bdf8",
+                marginBottom: "12px",
+              }}
+            >
+              ⚡ Perhitungan Energi Kinetik
+            </h3>
+
+            <p>
+              EKA = ½ × m × v²
+              <br />
+              = ½ × {massaA} × {kecepatanAwalA}²
+              <br />
+              = {energiAwalA.toFixed(2)} J
+            </p>
+
+            <p>
+              EKB = ½ × m × v²
+              <br />
+              = ½ × {massaB} × {kecepatanAwalB}²
+              <br />
+              = {energiAwalB.toFixed(2)} J
+            </p>
+
+            <p>
+              EK Total
+              <br />
+              = {energiAwalA.toFixed(2)}
+              {" + "}
+              {energiAwalB.toFixed(2)}
+              <br />
+              = {energiTotalAwal.toFixed(2)} J
+            </p>
+          </div>
+        )}
+      </div>
+      {activeTab === "hasil" && (
+        <div
+          style={{
+            background: "#111827",
+            padding: "16px",
+            borderRadius: "12px",
+          }}
+          >
+          <p>
+            Momentum Bola A = <strong>{momentumA.toFixed(2)} kg·m/s</strong>
+          </p>
+
+          <p>
+            Momentum Bola B = <strong>{momentumB.toFixed(2)} kg·m/s</strong>
+          </p>
+
+          <p>
+            Momentum Total Awal = <strong>
+              {momentumAwal.toFixed(2)} kg·m/s
+            </strong>
+          </p>
+
+          <p>
+            Kecepatan Akhir Bola A ={" "}
+            <strong>
+              {kecepatanAkhirA !== null
+                ? `${kecepatanAkhirA.toFixed(2)} m/s`
+                : "-"}
+            </strong>
+          </p>
+
+          <p>
+            Kecepatan Akhir Bola B ={" "}
+            <strong>
+              {kecepatanAkhirB !== null
+                ? `${kecepatanAkhirB.toFixed(2)} m/s`
+                : "-"}
+            </strong>
+          </p>
+
+          <hr
+            style={{
+              borderColor: "#374151",
+              margin: "12px 0",
+            }}
+          />
+
+          <h4>Momentum Real-Time</h4>
+
+          <p>
+            Momentum A =
+            <strong>
+              {" "}
+              {momentumSaatIniA.toFixed(2)}
+              {" "}kg·m/s
+            </strong>
+          </p>
+
+          <p>
+            Momentum B =
+            <strong>
+              {" "}
+              {momentumSaatIniB.toFixed(2)}
+              {" "}kg·m/s
+            </strong>
+          </p>
+
+          <p>
+            Momentum Total =
+            <strong
+              style={{
+                color: "#22c55e",
+              }}
+            >
+              {" "}
+              {momentumTotalSaatIni.toFixed(2)}
+              {" "}kg·m/s
+            </strong>
+          </p>
+
+          <hr
+            style={{
+              borderColor: "#374151",
+              margin: "12px 0",
+            }}
+          />
+
+          <h4>Energi Kinetik Awal</h4>
+          
+          <p>
+            Energi A =
+            <strong>
+              {" "}
+              {energiAwalA.toFixed(2)}
+              {" "}J
+            </strong>
+          </p>
+
+          <p>
+            Energi B =
+            <strong>
+              {" "}
+              {energiAwalB.toFixed(2)}
+              {" "}J
+            </strong>
+          </p>
+
+          <p>
+            Energi Total =
+            <strong>
+              {" "}
+              {energiTotalAwal.toFixed(2)}
+              {" "}J
+            </strong>
+          </p>
+
+          <hr
+            style={{
+              borderColor: "#374151",
+              margin: "12px 0",
+            }}
+          />
+
+          <h4>Energi Kinetik Real-Time</h4>
+
+          <p>
+            Energi A =
+            <strong>
+              {" "}
+              {energiSaatIniA.toFixed(2)}
+              {" "}J
+            </strong>
+          </p>
+
+          <p>
+            Energi B =
+            <strong>
+              {" "}
+              {energiSaatIniB.toFixed(2)}
+              {" "}J
+            </strong>
+          </p>
+
+          <p>
+            Energi Total =
+            <strong
+              style={{
+                color:
+                  restitusi === 1
+                    ? "#22c55e"
+                    : "#f59e0b",
+              }}
+            >
+              {" "}
+              {energiTotalSaatIni.toFixed(2)}
+              {" "}J
+            </strong>
+          </p>
+
+          <hr
+            style={{
+              borderColor: "#374151",
+              margin: "12px 0",
+            }}
+          />
+
+          <h4>Analisis</h4>
+
+          <p>
+            Momentum Awal:
+            {" "}
+            {momentumAwal.toFixed(2)}
+            {" "}kg·m/s
+          </p>
+
+          <p>
+            Momentum Saat Ini:
             {" "}
             {momentumTotalSaatIni.toFixed(2)}
             {" "}kg·m/s
-          </strong>
-        </p>
+          </p>
 
-        <hr
-          style={{
-            borderColor: "#374151",
-            margin: "12px 0",
-          }}
-        />
-
-        <h4>Energi Kinetik Awal</h4>
-        
-        <p>
-          Energi A =
-          <strong>
-            {" "}
-            {energiAwalA.toFixed(2)}
-            {" "}J
-          </strong>
-        </p>
-
-        <p>
-          Energi B =
-          <strong>
-            {" "}
-            {energiAwalB.toFixed(2)}
-            {" "}J
-          </strong>
-        </p>
-
-        <p>
-          Energi Total =
-          <strong>
+          <p>
+            Energi Awal:
             {" "}
             {energiTotalAwal.toFixed(2)}
             {" "}J
-          </strong>
-        </p>
+          </p>
 
-        <hr
-          style={{
-            borderColor: "#374151",
-            margin: "12px 0",
-          }}
-        />
-
-        <h4>Energi Kinetik Real-Time</h4>
-
-        <p>
-          Energi A =
-          <strong>
-            {" "}
-            {energiSaatIniA.toFixed(2)}
-            {" "}J
-          </strong>
-        </p>
-
-        <p>
-          Energi B =
-          <strong>
-            {" "}
-            {energiSaatIniB.toFixed(2)}
-            {" "}J
-          </strong>
-        </p>
-
-        <p>
-          Energi Total =
-          <strong
-            style={{
-              color:
-                restitusi === 1
-                  ? "#22c55e"
-                  : "#f59e0b",
-            }}
-          >
+          <p>
+            Energi Saat Ini:
             {" "}
             {energiTotalSaatIni.toFixed(2)}
             {" "}J
-          </strong>
-        </p>
+          </p>
+          </div>
+        )}
+        {activeTab === "kesimpulan" && (
+          <div
+            style={{
+              background: "#111827",
+              padding: "16px",
+              borderRadius: "12px",
+              lineHeight: "1.8",
+            }}
+          >
+            <h3
+              style={{
+                color: "#38bdf8",
+                marginBottom: "12px",
+              }}
+            >
+              🧠 Kesimpulan
+            </h3>
 
-        <hr
-          style={{
-            borderColor: "#374151",
-            margin: "12px 0",
-          }}
-        />
+            <p>
+              Momentum sistem tetap sebesar{" "}
+              <strong>
+                {momentumTotalSaatIni.toFixed(2)}
+                {" "}kg·m/s
+              </strong>.
+            </p>
 
-        <h4>Analisis</h4>
+            <p>
+              {restitusi === 1
+                ? "Energi kinetik sistem tetap sehingga tumbukan termasuk tumbukan lenting sempurna."
+                : restitusi === 0
+                ? "Energi kinetik berkurang dan kedua benda bergerak bersama setelah tumbukan."
+                : "Sebagian energi kinetik hilang sehingga termasuk tumbukan lenting sebagian."}
+            </p>
 
-        <p>
-          Momentum Awal:
-          {" "}
-          {momentumAwal.toFixed(2)}
-          {" "}kg·m/s
-        </p>
+            <p>
+              Koefisien restitusi saat ini:
+              {" "}
+              <strong>{restitusi}</strong>
+            </p>
+          </div>
+        )}
+        {activeTab === "grafik" && (
+          <div
+            style={{
+              background: "#111827",
+              padding: "16px",
+              borderRadius: "12px",
+            }}
+          >
+            <h3>📈 Grafik Analisis</h3>
 
-        <p>
-          Momentum Saat Ini:
-          {" "}
-          {momentumTotalSaatIni.toFixed(2)}
-          {" "}kg·m/s
-        </p>
-
-        <p>
-          Energi Awal:
-          {" "}
-          {energiTotalAwal.toFixed(2)}
-          {" "}J
-        </p>
-
-        <p>
-          Energi Saat Ini:
-          {" "}
-          {energiTotalSaatIni.toFixed(2)}
-          {" "}J
-        </p>
-      </div>
+            <p>
+              Grafik akan menunjukkan hubungan
+              momentum dan energi kinetik.
+            </p>
+          </div>
+        )}
     </div>
   );
 }

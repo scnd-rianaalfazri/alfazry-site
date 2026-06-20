@@ -1,4 +1,9 @@
-import { body } from "framer-motion/client"
+import { body, image, link } from "framer-motion/client"
+import ketidakpastianImg from "/src/assets/Materi/BesaranDanSatuan/Ketidakpastian1.jpg"
+import pengertiaketidakpastianImg from "/src/assets/Materi/BesaranDanSatuan/Ketidakpastian2.jpg"
+import penyebabketidakpastianImg from "/src/assets/Materi/BesaranDanSatuan/Ketidakpastian3.jpg"
+import menulishasilpengukuranImg from "/src/assets/Materi/BesaranDanSatuan/Ketidakpastian4.jpg"
+import nextmissionkonversisatuanImg from "/src/assets/Materi/BesaranDanSatuan/Ketidakpastian5.jpg"
 
 const ketidakpastian = {
   title: "Ketidakpastian",
@@ -7,7 +12,7 @@ const ketidakpastian = {
   chapter: "📏 Pengukuran",
   content: [
     {
-      heading: "🎯 Ketidakpastian Pengukuran — Tidak Ada Ukuran yang Sempurna",
+      image: ketidakpastianImg,
       body: [
         "Dalam fisika, setiap pengukuran memiliki keterbatasan.",
         "",
@@ -18,7 +23,7 @@ const ketidakpastian = {
     },
 
     {
-      heading: "🤔 Apa Itu Ketidakpastian Pengukuran?",
+      image: pengertiaketidakpastianImg,
       body: [
         "Ketidakpastian pengukuran adalah perkiraan batas penyimpangan suatu hasil pengukuran terhadap nilai sebenarnya.",
         "",
@@ -41,7 +46,7 @@ const ketidakpastian = {
     },
 
     {
-      heading: "⚠️ Penyebab Ketidakpastian",
+      image: penyebabketidakpastianImg,
       body: [
         "Beberapa faktor yang menyebabkan hasil pengukuran tidak sempurna:"
       ]
@@ -127,14 +132,8 @@ const ketidakpastian = {
     },
 
     {
-      heading: "🚀 Next Mission",
-      body: [
-        "Dalam fisika, nilai hasil pengukuran sering memiliki satuan yang berbeda.",
-        "",
-        "Bagaimana cara mengubah satuan tanpa mengubah nilai sebenarnya?",
-        "",
-        "➡️ Selanjutnya: Konversi Satuan."
-      ]
+      image: nextmissionkonversisatuanImg,
+      link: "/materi/konversi%20satuan",
     },
 
     {
