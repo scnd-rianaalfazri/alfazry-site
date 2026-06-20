@@ -62,6 +62,7 @@ import PengertianDinamikaGerakLurus from "../content/materi/DinamikaGerakLurus/D
 import BendaPadaBidangDatar from "../content/materi/DinamikaGerakLurus/BendaPadaBidangDatar.js"
 import BendaPadaBidangMiring from "../content/materi/DinamikaGerakLurus/BendaPadaBidangMiring.js"
 import SistemKatrol from "../content/materi/DinamikaGerakLurus/SistemKatrol.js"
+import SistemBendaTerhubung from "../content/materi/DinamikaGerakLurus/SistemBendaTerhubung.js"
 
 /* dinamika gerak melingkar */
 import PengertianDinamikaGerakMelingkar from "../content/materi/DinamikaGerakMelingkar/PengertianDinamikaGerakMelingkar.js"
@@ -159,6 +160,7 @@ export const materials = [
   BendaPadaBidangDatar,
   BendaPadaBidangMiring,
   SistemKatrol,
+  SistemBendaTerhubung,
   
   /* Chapter : Dinamika Gerak Melingkar */
   PengertianDinamikaGerakMelingkar,

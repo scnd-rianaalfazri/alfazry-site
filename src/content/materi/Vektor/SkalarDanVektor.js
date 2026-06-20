@@ -1,3 +1,11 @@
+import { caption, image, link } from "framer-motion/client"
+import skalardanvektorImg from "/src/assets/Materi/Vektor/BesaranSkalarDanVektor1.jpg"
+import besaranskalarImg from "/src/assets/Materi/Vektor/BesaranSkalarDanVektor2.jpg"
+import besaranvektorImg from "/src/assets/Materi/Vektor/BesaranSkalarDanVektor3.jpg"
+import perbedaanjarakdanperpindahanImg from "/src/assets/Materi/Vektor/BesaranSkalarDanVektor4.jpg"
+import perbedaankelajuandankecepatanImg from "/src/assets/Materi/Vektor/BesaranSkalarDanVektor5.jpg"
+import nextmissionrepresentasivektorImg from "/src/assets/Materi/Vektor/BesaranSkalarDanVektor6.jpg"
+
 const skalardanvektor = {
   title: "Besaran Skalar dan Vektor",
   slug: "besaran skalar dan vektor",
@@ -5,7 +13,7 @@ const skalardanvektor = {
   chapter: "➡️ Vektor",
   content: [
     {
-      heading: "⚖️ Dua Cara Fisika Mendeskripsikan Besaran",
+      image: skalardanvektorImg,
       body: [
         "Dalam fisika, tidak semua besaran memiliki karakter yang sama.",
         "",
@@ -18,17 +26,12 @@ const skalardanvektor = {
     },
 
     {
-      heading: "🔢 Besaran Skalar",
+      image: besaranskalarImg,
       body: [
         "Besaran skalar adalah besaran yang hanya memiliki nilai (besar) tanpa arah.",
         "",
-        "Artinya, informasi tentang arahnya tidak diperlukan untuk menjelaskan besaran tersebut."
-      ]
-    },
-
-    {
-      heading: "📌 Contoh Besaran Skalar",
-      body: [
+        "Artinya, informasi tentang arahnya tidak diperlukan untuk menjelaskan besaran tersebut.",
+        "📌 Contoh Besaran Skalar",
         "Beberapa contoh besaran skalar:",
         "",
         "⚖️ Massa → 5 kg",
@@ -37,22 +40,14 @@ const skalardanvektor = {
         "📏 Jarak → 10 meter",
         "⚡ Energi → 500 joule",
         "",
-        "Semua contoh tersebut cukup dijelaskan dengan nilai dan satuan."
+        "Semua contoh tersebut cukup dijelaskan dengan nilai dan satuan.",
       ]
     },
 
     {
-      heading: "🏹 Besaran Vektor",
+      image: besaranvektorImg,
       body: [
-        "Besaran vektor adalah besaran yang memiliki nilai dan arah.",
-        "",
-        "Jika arah berubah, maka keadaan fisiknya juga dapat berubah."
-      ]
-    },
-
-    {
-      heading: "📌 Contoh Besaran Vektor",
-      body: [
+        "📌 Contoh Besaran Vektor",
         "Beberapa contoh besaran vektor:",
         "",
         "🚗 Perpindahan",
@@ -66,7 +61,7 @@ const skalardanvektor = {
     },
 
     {
-      heading: "🚶 Contoh Perbedaan Jarak dan Perpindahan",
+      image: perbedaanjarakdanperpindahanImg,
       body: [
         "Misalnya seseorang berjalan 5 meter ke timur.",
         "",
@@ -81,7 +76,7 @@ const skalardanvektor = {
     },
 
     {
-      heading: "🚗 Contoh Perbedaan Kelajuan dan Kecepatan",
+      image: perbedaankelajuandankecepatanImg,
       body: [
         "Kelajuan:",
         "Hanya menunjukkan seberapa cepat benda bergerak.",
@@ -120,11 +115,13 @@ const skalardanvektor = {
     },
 
     {
-      heading: "🚀 Next Mission",
+      image: nextmissionrepresentasivektorImg,
+      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
+      link: "/materi/representasi%20vektor",
       body: [
         "Jika vektor memiliki arah, bagaimana cara menggambarkannya secara visual?",
         "",
-        "➡️ Selanjutnya: Representasi Vektor."
+        "➡️ Portal selanjutnya: Representasi Vektor."
       ]
     },
 

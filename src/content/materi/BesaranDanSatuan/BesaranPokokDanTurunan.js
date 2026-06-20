@@ -78,7 +78,7 @@ const besaranpokokdanturunan = {
 
     {
       image: nextmissiondimensiImg,
-      caption: "🚀 KLIK GAMBAR INI! Kamu bisa lanjut ke halaman berikutnya.",
+      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/dimensi",
     },
 
