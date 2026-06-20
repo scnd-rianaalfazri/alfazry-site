@@ -34,7 +34,7 @@ export default function DetailMateri() {
     if (!rows) return null
 
     return (
-      <div className="overflow-auto rounded bg-white/5">
+      <div className="overflow-x-auto rounded-xl bg-white/5">
         <table className="min-w-full text-sm border-collapse">
           
           {headers && (
@@ -127,7 +127,7 @@ export default function DetailMateri() {
         <Link to="/materi" className="text-cyan-400 hover:underline text-sm mb-8 block">
           ← Kembali ke daftar materi
         </Link>
-        <h1 className="text-5xl font-bold mb-4">{materi.title}</h1>
+        <h1 className="text-3xl md:text-5xl font-bold mb-4">{materi.title}</h1>
         <div className="space-y-8">
           {materi.content && materi.content.map((section, i) => (
             <div key={i} className="border border-white/10 rounded-2xl p-6 bg-white/5">
@@ -144,6 +144,7 @@ export default function DetailMateri() {
                     <img
                       src={section.image}
                       alt={section.caption || section.heading || materi.title}
+                      loading="lazy"
                       className="w-full h-auto object-cover cursor-pointer transition duration-300 hover:scale-105"
                     />
                   </Link>
@@ -151,6 +152,7 @@ export default function DetailMateri() {
                     <img
                       src={section.image}
                       alt={section.caption || section.heading || materi.title}
+                      loading="lazy"
                       className="w-full h-auto object-cover"
                     />
                   )
@@ -211,7 +213,16 @@ export default function DetailMateri() {
 
 
       {/* Navigasi Materi */}
-      <div className="max-w-3xl mx-auto px-10 pb-10 flex justify-between gap-4">
+      <div
+        className="
+        max-w-3xl mx-auto
+        px-4 md:px-10
+        pb-10
+        flex flex-col sm:flex-row
+        gap-4
+        justify-between
+        "
+      >
         {materiSebelumnya ? (
           <Link
             to={`/materi/${materiSebelumnya.slug}`}
