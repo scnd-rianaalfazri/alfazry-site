@@ -124,7 +124,7 @@ const metodeilmiah = {
 
     {
       image: nextmissionbesarandansatuan,
-      caption: "🚀 Next Mission! ➜ Besaran dan Satuan: Memahami bagaimana fisika menyatakan hasil pengamatan menggunakan besaran dan satuan yang terstandarisasi.",
+      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/besaran%20dan%20satuan",
     },
 

@@ -135,7 +135,7 @@ const pengukuran = {
 
     {
       image: nextmissinketidakpastianImg,
-      caption: "🚀 Next Mission! ➜ memahami ketidakpastian pengukuran",
+      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/ketidakpastian",
     },
 

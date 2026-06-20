@@ -1,4 +1,4 @@
-import { body, image, link } from "framer-motion/client"
+import { body, caption, image, link } from "framer-motion/client"
 import ketidakpastianImg from "/src/assets/Materi/BesaranDanSatuan/Ketidakpastian1.jpg"
 import pengertiaketidakpastianImg from "/src/assets/Materi/BesaranDanSatuan/Ketidakpastian2.jpg"
 import penyebabketidakpastianImg from "/src/assets/Materi/BesaranDanSatuan/Ketidakpastian3.jpg"
@@ -133,6 +133,7 @@ const ketidakpastian = {
 
     {
       image: nextmissionkonversisatuanImg,
+      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/konversi%20satuan",
     },
 

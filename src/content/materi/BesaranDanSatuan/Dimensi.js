@@ -101,7 +101,7 @@ const dimensi = {
 
     {
       image: nextmissionangkapenting,
-      caption: "🚀 Next Mission! ➜ Angka penting dan ketelitian",
+      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/angka%20penting",
     },
 

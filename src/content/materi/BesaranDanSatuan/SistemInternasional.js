@@ -116,7 +116,7 @@ const sisteminternasional = {
 
     {
       image: nextmissionbesaranpokokdanturunan,
-      caption: "🚀 Next Mission! ➜ Besaran Fisika Dasar",
+      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/besaran%20pokok%20dan%20turunan",
     },
 

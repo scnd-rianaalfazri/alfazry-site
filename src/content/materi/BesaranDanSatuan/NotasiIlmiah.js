@@ -140,7 +140,7 @@ const notasiilmiah= {
 
     {
       image: nextmissionpengukuranImg,
-      caption: "🚀 Next Mission! ➜ Pengukuran",
+      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/angka%20penting",
     },
 

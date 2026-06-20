@@ -1,4 +1,4 @@
-import { body, image, link } from "framer-motion/client"
+import { body, caption, image, link } from "framer-motion/client"
 import vektorImg from "/src/assets/Materi/Vektor/PengertianVektor1.jpg"
 import pengertianvektorImg from "/src/assets/Materi/Vektor/PengertianVektor2.jpg"
 import contohbesaranvektorImg from "/src/assets/Materi/Vektor/PengertianVektor3.jpg"
@@ -118,6 +118,7 @@ const pengantarvektor = {
 
     {
       image: nextmissionskalarvsvektor,
+      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/besaran%20skalar%20dan%20vektor",
     },
 

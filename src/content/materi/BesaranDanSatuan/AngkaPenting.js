@@ -80,7 +80,7 @@ const angkapenting = {
 
     {
       image: nextmissionnotasiilmiahImg,
-      caption: "🚀 Next Mission! ➜ Misi besar notasi ilmiah",
+      caption: "🚀 KLIK GAMBAR INI! Kamu bisa lanjut ke halaman berikutnya.",
       link: "/materi/angka%20penting"
     },
 

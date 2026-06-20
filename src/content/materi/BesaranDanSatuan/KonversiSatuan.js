@@ -1,4 +1,4 @@
-import { body, image } from "framer-motion/client"
+import { body, caption, image } from "framer-motion/client"
 import konversisatuanImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan1.jpg"
 import fungsikonversiImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan2.jpg"
 import prinsipkonversiImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan3.jpg"
@@ -129,6 +129,7 @@ const konversisatuan = {
 
     {
       image: endchapterpengukuranImg,
+      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/pengantar%20vektor",
     },
 
