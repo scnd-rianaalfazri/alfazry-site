@@ -127,6 +127,15 @@ const konversisatuan = {
       ]
     },
 
+        {
+      heading: "✨ Inti Materi",
+      body: [
+        "Angka yang sama bisa memiliki tampilan satuan yang berbeda.",
+        "",
+        "Konversi satuan adalah 'bahasa penerjemah' dalam fisika yang memastikan setiap besaran berbicara dalam satuan yang sama sehingga rumus dapat bekerja dengan benar dan menghasilkan jawaban yang akurat."
+      ]
+    },
+ 
     {
       image: endchapterpengukuranImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",

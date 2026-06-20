@@ -1,9 +1,10 @@
-import { caption, image, link } from "framer-motion/client"
+import { caption, header, image, link, table } from "framer-motion/client"
 import hakikatilmufisikaImg from "/src/assets/Materi/BesaranDanSatuan/HakikatIlmuFisika1.jpg"
 import pembelajaranfisikaImg from "/src/assets/Materi/BesaranDanSatuan/HakikatIlmuFisika2.jpg"
 import caraberpikirfisikawanImg from "/src/assets/Materi/BesaranDanSatuan/HakikatIlmuFisika3.jpg"
 import penjelasanbelajarfisikaImg from "/src/assets/Materi/BesaranDanSatuan/HakikatIlmuFisika4.jpg"
 import nextmissionmetodeilmiahImg from "/src/assets/Materi/BesaranDanSatuan/HakikatIlmuFisika5.jpg"
+import ruanglingkupfisikaImg from "/src/assets/Materi/BesaranDanSatuan/HakikatIlmuFisika6.jpg"
 
 const hakikatilmufisika = {
   title: "Hakikat Ilmu Fisika",
@@ -37,6 +38,26 @@ const hakikatilmufisika = {
     },
 
     {
+      heading: "📚 Fisika sebagai Produk",
+      body: [
+        "Selama ratusan tahun para ilmuwan mengumpulkan potongan-potongan puzzle tentang alam semesta. Hasil dari proses panjang tersebut membentuk apa yang kita kenal sebagai produk fisika.",
+        "Produk fisika merupakan kumpulan pengetahuan yang membantu kita memahami berbagai fenomena di sekitar kita, mulai dari benda yang jatuh ke tanah hingga gerak planet di luar angkasa.",
+        "",
+        "Pengetahuan tersebut tersusun dalam beberapa bentuk:"
+        ],
+      table: {
+        headers: ["Bentuk Pengetahuan", "Penjelasan", "Contoh"],
+        rows : [
+          ["Fakta", "Kenyataan yang dapat diamati dan dibuktikan melalui pengamatan atau eksperimen.", "Magnet menarik benda yang terbuat dari besi."],
+          ["Konsep", "Gagasan atau ide yang digunakan untuk menjelaskan suatu fenomena alam.", "Gaya, massa, energi, kecepatan."],
+          ["Prinsip dan Hukum", "Aturan yang menjelaskan hubungan antar gejala alam berdasarkan hasil pengamatan dan eksperimen yang berulang.", "Hukum Newton, Hukum Gravitasi, Hukum Kekekalan Energi."],
+          ["Persamaan Matematika", "Bentuk matematis yang digunakan untuk menggambarkan hubungan antar besaran fisika.", "F = m x a"],
+          ["Teori dan Model", "Penjelasan ilmiah yang didukung oleh banyak bukti dan digunakan untuk memahami fenomena yang lebih kompleks.", "Model Atom Bohr, Teori Relativitas, Teori Big Bang."]
+        ],
+      }
+    },
+
+    {
       image: caraberpikirfisikawanImg,
       caption: "🧠 Cara Berpikir ilmiah fisikawan",
       body: [
@@ -54,9 +75,23 @@ const hakikatilmufisika = {
     },
 
     {
+      image: ruanglingkupfisikaImg,
+      body: [
+        "Fisika memeluk segala hal yang ada di dalam kosmos ini—dari yang paling megah hingga yang paling tak kasat mata."
+      ]
+    },
+
+    {
       image: nextmissionmetodeilmiahImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
-      link: "/materi/metode%20ilmiah"
+      link: "/materi/metode%20ilmiah",
+      body: [
+        "Kalau fisika ingin memahami alam, pertanyaannya sekarang:",
+        "",
+        "Bagaimana cara ilmuwan memastikan hasil pengamatannya benar?",
+        "",
+        "➡️ Di portal berikutnya kita akan masuk ke: Metode Ilmiah."
+      ]
     },
 
     {

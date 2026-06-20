@@ -122,10 +122,26 @@ const metodeilmiah = {
       ]
     },
 
+     {
+      heading: "✨ Inti Materi",
+      body: [
+      "Setiap penemuan sains tidak muncul dari tebakan, melainkan dari proses yang terstruktur.",
+      "",
+      "Metode ilmiah membantu ilmuwan mengubah rasa ingin tahu menjadi pengetahuan yang dapat diuji, dibuktikan, dan dipercaya."
+      ]
+    },
+
     {
       image: nextmissionbesarandansatuan,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/besaran%20dan%20satuan",
+      body: [
+        "Ilmuwan sudah punya cara berpikir yang benar.",
+        "",
+        "Tapi… bagaimana cara mereka menuliskan hasil pengamatan agar semua orang memiliki standar yang sama?",
+        "",
+        "➡️ Di portal berikutnya kita masuk ke: Besaran dan Satuan."
+      ],
     },
 
     {

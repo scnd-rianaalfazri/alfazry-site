@@ -114,7 +114,13 @@ const besarandansatuan = {
     {
       image: nextmissionsisteminternasionalImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
-      link: "/materi/sistem%20internasional"
+      link: "/materi/sistem%20internasional",
+      body: [
+        "Kalau semua pengukuran harus punya standar…",
+        "apa saja satuan dasar yang dipakai seluruh dunia?",
+        "",
+        "➡️ Di portal berikutnya kita masuk ke: Sistem Internasional (SI)."
+      ]
     },
 
     {

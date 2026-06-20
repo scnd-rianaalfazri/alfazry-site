@@ -1,4 +1,4 @@
-import { caption, image, link } from "framer-motion/client"
+import { caption, header, image, link } from "framer-motion/client"
 import skalardanvektorImg from "/src/assets/Materi/Vektor/BesaranSkalarDanVektor1.jpg"
 import besaranskalarImg from "/src/assets/Materi/Vektor/BesaranSkalarDanVektor2.jpg"
 import besaranvektorImg from "/src/assets/Materi/Vektor/BesaranSkalarDanVektor3.jpg"
