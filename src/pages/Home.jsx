@@ -1,8 +1,9 @@
 import Navbar from '../components/layout/Navbar'
-import Hero from '../components/sections/Hero'
+import Hero from '../content/home/Hero'
 import FloatingCards from '../components/UI/FloatingCards'
-import Features from '../components/sections/Features'
+import Features from '../content/home/Features'
 import Footer from '../components/layout/Footer'
+import BackToTopButton from '../components/UI/BackToTopBottom'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Features />
       </main>
 
+      <BackToTopButton />
       <Footer />
 
     </div>
