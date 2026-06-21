@@ -81,7 +81,12 @@ const angkapenting = {
     {
       image: nextmissionnotasiilmiahImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
-      link: "/materi/angka%20penting"
+      link: "/materi/angka%20penting",
+      body: [
+        "Kalau angka bisa sangat besar atau sangat kecil, bagaimana cara menuliskannya agar lebih sederhana?",
+        "",
+        "➡️ Next, kita masuk ke portal: Notasi Ilmiah."
+      ]
     },
 
     {

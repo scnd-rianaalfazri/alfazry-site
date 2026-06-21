@@ -1,3 +1,10 @@
+import { image, link } from "framer-motion/client"
+import sistemkoodinatdanarahvektorImg from "/src/assets/Materi/Vektor/SistemKoordinatDanArahVektor1.jpg"
+import sistemkoordinatkartesiusImg from "/src/assets/Materi/Vektor/PengertianVektor2.jpg"
+import arahvektorImg from "/src/assets/Materi/Vektor/SistemKoordinatDanArahVektor3.jpg"
+import contohpenerapanKoordinatDanArahImg from "/src/assets/Materi/Vektor/SistemKoordinatDanArahVektor4.jpg"
+import nextmissionkomponenvektorImg from "/src/assets/Materi/Vektor/SistemKoordinatDanArahVektor5.jpg"
+
 const sistemkoordinatdanarahvektor = {
   title: "Sistem Koordinat dan Arah Vektor",
   slug: "sistem koordinat dan arah vektor",
@@ -5,7 +12,7 @@ const sistemkoordinatdanarahvektor = {
   chapter: "➡️ Vektor",
   content: [
     {
-      heading: "🧭 Vektor Membutuhkan Arah yang Jelas",
+      image: sistemkoodinatdanarahvektorImg,
       body: [
         "Sebuah vektor tidak cukup hanya diketahui besarnya.",
         "",
@@ -17,6 +24,7 @@ const sistemkoordinatdanarahvektor = {
 
     {
       heading: "📐 Apa Itu Sistem Koordinat?",
+      image: sistemkoordinatkartesiusImg,
       body: [
         "Sistem koordinat adalah sistem yang digunakan untuk menentukan posisi atau arah suatu objek pada suatu bidang.",
         "",
@@ -38,6 +46,7 @@ const sistemkoordinatdanarahvektor = {
 
     {
       heading: "↔️ Arah Positif dan Negatif",
+      image: arahvektorImg,
       body: [
         "Setiap sumbu memiliki arah positif dan negatif.",
         "",
@@ -96,7 +105,7 @@ const sistemkoordinatdanarahvektor = {
     },
 
     {
-      heading: "🚗 Contoh dalam Kehidupan",
+      image: contohpenerapanKoordinatDanArahImg,
       body: [
         "Sebuah mobil bergerak ke arah timur laut.",
         "",
@@ -126,12 +135,15 @@ const sistemkoordinatdanarahvektor = {
 
     {
       heading: "🚀 Next Mission",
+      image: nextmissionkomponenvektorImg,
+      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
+      link: "/materi/komponen%20vektor",
       body: [
         "Sebuah vektor miring dapat dipecah menjadi dua arah yang lebih sederhana.",
         "",
         "Bagaimana cara memisahkan vektor menjadi komponen horizontal dan vertikal?",
         "",
-        "➡️ Selanjutnya: Komponen Vektor."
+        "➡️ Next, kita lanjut ke portal: Komponen Vektor."
       ]
     },
 

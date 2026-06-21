@@ -6,12 +6,18 @@ import Footer from '../components/layout/Footer'
 
 export default function Home() {
   return (
-    <div className="bg-black text-white min-h-screen">
+    <div className="relative bg-black text-white min-h-screen overflow-x-hidden">
+
       <Navbar />
-      <Hero />
-      <FloatingCards />
-      <Features />
+
+      <main className="relative z-10 pt-6">
+        <Hero />
+        <FloatingCards />
+        <Features />
+      </main>
+
       <Footer />
+
     </div>
   )
 }

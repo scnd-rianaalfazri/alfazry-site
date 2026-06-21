@@ -1,3 +1,13 @@
+import { image } from "framer-motion/client"
+import representasivektorImg from "/src/assets/Materi/Vektor/RepresentasiVektor1.jpg"
+import bentukdasarvektorImg from "/src/assets/Materi/Vektor/RepresentasiVektor2.jpg"
+import magnitudevektorImg from "/src/assets/Materi/Vektor/RepresentasiVektor3.jpg"
+import arahvektorImg from "/src/assets/Materi/Vektor/RepresentasiVektor4.jpg"
+import notasivektorImg from "/src/assets/Materi/Vektor/RepresentasiVektor5.jpg"
+import skalagambarvektorImg from "/src/assets/Materi/Vektor/RepresentasiVektor6.jpg"
+import contohpenggunaanvektorImg from "/src/assets/Materi/Vektor/RepresentasiVektor7.jpg"
+import nextmissionsistemkoodinatdanatdanarahImg from "/src/assets/Materi/Vektor/RepresentasiVektor8.jpg"
+
 const representasivektor = {
   title: "Representasi Vektor",
   slug: "representasi vektor",
@@ -6,6 +16,7 @@ const representasivektor = {
   content: [
     {
       heading: "🏹 Vektor Tidak Hanya Ditulis, Tapi Juga Digambarkan",
+      image: representasivektorImg,
       body: [
         "Karena vektor memiliki arah, kita membutuhkan cara khusus untuk menggambarkannya.",
         "",
@@ -16,7 +27,7 @@ const representasivektor = {
     },
 
     {
-      heading: "➡️ Bentuk Dasar Vektor",
+      image: bentukdasarvektorImg,
       body: [
         "Sebuah vektor digambarkan sebagai garis berarah.",
         "",
@@ -29,7 +40,7 @@ const representasivektor = {
     },
 
     {
-      heading: "📏 Besar (Magnitude) Vektor",
+      image: magnitudevektorImg,
       body: [
         "Panjang anak panah menunjukkan besar atau nilai suatu vektor.",
         "",
@@ -41,7 +52,7 @@ const representasivektor = {
     },
 
     {
-      heading: "🧭 Arah Vektor",
+      image: arahvektorImg,
       body: [
         "Arah anak panah menunjukkan arah kerja suatu besaran.",
         "",
@@ -55,7 +66,7 @@ const representasivektor = {
     },
 
     {
-      heading: "📝 Notasi Vektor",
+      image: notasivektorImg,
       body: [
         "Vektor dapat dituliskan dengan beberapa cara.",
         "",
@@ -68,7 +79,7 @@ const representasivektor = {
     },
 
     {
-      heading: "📐 Skala pada Gambar Vektor",
+      image: skalagambarvektorImg,
       body: [
         "Dalam menggambar vektor, panjang panah dapat menggunakan skala tertentu.",
         "",
@@ -80,7 +91,7 @@ const representasivektor = {
     },
 
     {
-      heading: "🚗 Contoh Vektor dalam Kehidupan",
+      image: contohpenggunaanvektorImg,
       body: [
         "Sebuah mobil bergerak:",
         "",
@@ -118,13 +129,15 @@ const representasivektor = {
     },
 
     {
-      heading: "🚀 Next Mission",
+      image: nextmissionsistemkoodinatdanatdanarahImg,
+      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
+      link: "/materi/sistem%20koordinat%20dan%20arah%20vektor",
       body: [
         "Sebuah vektor bisa berada pada arah yang berbeda-beda.",
         "",
         "Bagaimana cara menentukan arah vektor dalam bidang koordinat?",
         "",
-        "➡️ Selanjutnya: Sistem Koordinat dan Arah Vektor."
+        "➡️ Next, kita masuk ke portal: Sistem Koordinat dan Arah Vektor."
       ]
     },
 

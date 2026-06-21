@@ -140,7 +140,7 @@ const metodeilmiah = {
         "",
         "Tapi… bagaimana cara mereka menuliskan hasil pengamatan agar semua orang memiliki standar yang sama?",
         "",
-        "➡️ Di portal berikutnya kita masuk ke: Besaran dan Satuan."
+        "➡️ Next, kita masuk ke portal: Besaran dan Satuan."
       ],
     },
 

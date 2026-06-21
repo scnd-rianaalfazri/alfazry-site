@@ -142,6 +142,14 @@ const notasiilmiah= {
       image: nextmissionpengukuranImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/angka%20penting",
+      body: [
+        "Fisika membutuhkan angka yang tepat.",
+        "Tapi dari mana angka tersebut diperoleh?",
+        "",
+        "Jawabannya melalui proses pengukuran.",
+        "",
+        "➡️ Next, kita masuk ke portal: Pengukuran."
+      ]
     },
 
     {

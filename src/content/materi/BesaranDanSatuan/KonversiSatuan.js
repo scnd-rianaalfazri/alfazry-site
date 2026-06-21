@@ -127,7 +127,7 @@ const konversisatuan = {
       ]
     },
 
-        {
+    {
       heading: "✨ Inti Materi",
       body: [
         "Angka yang sama bisa memiliki tampilan satuan yang berbeda.",

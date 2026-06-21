@@ -82,6 +82,15 @@ const hakikatilmufisika = {
     },
 
     {
+      heading: "✨ Inti Materi",
+      body: [
+        "Fisika adalah jendela untuk memahami alam semesta.",
+        "",
+        " Dengan rasa ingin tahu, pengamatan, dan pemikiran logis, fisika mengungkap berbagai rahasia alam, mulai dari benda yang jatuh ke bumi hingga gerak galaksi yang jauh di luar angkasa."
+      ]
+    },
+
+    {
       image: nextmissionmetodeilmiahImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/metode%20ilmiah",
@@ -90,7 +99,7 @@ const hakikatilmufisika = {
         "",
         "Bagaimana cara ilmuwan memastikan hasil pengamatannya benar?",
         "",
-        "➡️ Di portal berikutnya kita akan masuk ke: Metode Ilmiah."
+        "➡️ Next, kita akan masuk ke portal: Metode Ilmiah."
       ]
     },
 

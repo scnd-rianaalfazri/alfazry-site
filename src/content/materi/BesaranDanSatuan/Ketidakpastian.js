@@ -135,6 +135,13 @@ const ketidakpastian = {
       image: nextmissionkonversisatuanImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/konversi%20satuan",
+      body: [
+        "Dalam fisika, nilai hasil pengukuran sering memiliki satuan yang berbeda.",
+        "",
+        "Bagaimana cara mengubah satuan tanpa mengubah nilai sebenarnya?",
+        "",
+        "➡️ Next, kita masuk ke portal: Konversi Satuan."
+      ]
     },
 
     {

@@ -118,6 +118,14 @@ const sisteminternasional = {
       image: nextmissionbesaranpokokdanturunan,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/besaran%20pokok%20dan%20turunan",
+      body: [
+        "Kita sudah mengenal satuan dasar.",
+        "",
+        "Sekarang pertanyaannya:",
+        "Bagaimana besaran seperti luas, volume, kecepatan, dan gaya bisa terbentuk?",
+        "",
+        "➡️ Di portal selanjutnya: Besaran Pokok dan Besaran Turunan."
+      ]
     },
 
     {

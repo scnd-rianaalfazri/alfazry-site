@@ -80,6 +80,11 @@ const besaranpokokdanturunan = {
       image: nextmissiondimensiImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/dimensi",
+      body: [
+        "Kalau sebuah rumus tersusun dari beberapa besaran, bagaimana cara mengecek apakah rumus itu benar?",
+        "",
+        "➡️ Netx, kita masuk ke portal: Dimensi."
+      ]
     },
 
     {

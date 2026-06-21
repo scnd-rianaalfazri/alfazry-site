@@ -120,6 +120,13 @@ const pengantarvektor = {
       image: nextmissionskalarvsvektor,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/besaran%20skalar%20dan%20vektor",
+      body: [
+        "Sekarang kita sudah tahu bahwa tidak semua besaran cukup dijelaskan dengan angka.",
+        "",
+        "Lalu apa perbedaan lengkap antara besaran skalar dan vektor?",
+        "",
+        "➡️ Next, kita masuk ke portal: Besaran Skalar dan Besaran Vektor."
+      ]
     },
 
     {

@@ -103,6 +103,11 @@ const dimensi = {
       image: nextmissionangkapenting,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/angka%20penting",
+      body: [
+        "Dalam fisika, hasil pengukuran tidak hanya harus benar, tetapi juga harus ditulis dengan aturan yang tepat.",
+        "",
+        "➡️ Next, kita masuk ke portal: Angka Penting."
+      ]
     },
 
     {

@@ -137,6 +137,14 @@ const pengukuran = {
       image: nextmissinketidakpastianImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/ketidakpastian",
+      body: [
+        "Apakah hasil pengukuran selalu tepat 100%?",
+        "",
+        "Ternyata tidak.",
+        "Setiap pengukuran memiliki batas ketelitian.",
+        "",
+        "➡️ Next, kita masuk ke portal: Ketidakpastian Pengukuran."
+      ]
     },
 
     {

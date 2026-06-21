@@ -119,7 +119,7 @@ const besarandansatuan = {
         "Kalau semua pengukuran harus punya standar…",
         "apa saja satuan dasar yang dipakai seluruh dunia?",
         "",
-        "➡️ Di portal berikutnya kita masuk ke: Sistem Internasional (SI)."
+        "➡️ Next, kita masuk ke portal: Sistem Internasional (SI)."
       ]
     },
 

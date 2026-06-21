@@ -121,7 +121,7 @@ const skalardanvektor = {
       body: [
         "Jika vektor memiliki arah, bagaimana cara menggambarkannya secara visual?",
         "",
-        "➡️ Portal selanjutnya: Representasi Vektor."
+        "➡️ Next, kita masuk ke portal: Representasi Vektor."
       ]
     },
 
