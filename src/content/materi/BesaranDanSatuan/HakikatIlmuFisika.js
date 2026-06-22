@@ -99,7 +99,7 @@ const hakikatilmufisika = {
         "",
         "Bagaimana cara ilmuwan memastikan hasil pengamatannya benar?",
         "",
-        "➡️ Next, kita akan masuk ke portal: Metode Ilmiah."
+        "➡️ Next, kita menuju portal: Metode Ilmiah."
       ]
     },
 

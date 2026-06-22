@@ -21,6 +21,34 @@ const pengertianimpuls = {
     },
 
     {
+      heading: "🔗 Hubungan dengan Momentum",
+      body: [
+        "Pada materi sebelumnya, kita telah mempelajari bahwa momentum menunjukkan kecenderungan benda untuk mempertahankan geraknya.",
+        "",
+        "Namun momentum tidak selalu tetap.",
+        "",
+        "Ketika suatu gaya bekerja pada benda selama selang waktu tertentu, momentum benda dapat berubah.",
+        "",
+        "Perubahan momentum inilah yang dipelajari melalui konsep impuls."
+      ]
+    },
+
+    {
+      heading: "🔄 Alur Terjadinya Impuls",
+      body: [
+        "Konsep impuls dapat diringkas sebagai berikut:",
+        "",
+        "Gaya bekerja",
+        "⬇️",
+        "Terjadi impuls",
+        "⬇️",
+        "Momentum berubah",
+        "⬇️",
+        "Gerak benda berubah"
+      ]
+    },
+
+    {
       heading: "⚡ Persamaan Impuls",
       body: [
         "Secara matematis, impuls merupakan hasil kali antara gaya dan waktu kerja gaya."
@@ -30,6 +58,18 @@ const pengertianimpuls = {
         "I = impuls (N·s)",
         "F = gaya (N)",
         "Δt = selang waktu (s)"
+      ]
+    },
+
+    {
+      heading: "🎯 Faktor yang Memengaruhi Impuls",
+      body: [
+        "Besar impuls dipengaruhi oleh dua faktor utama:",
+        "",
+        "⚡ Besar gaya yang bekerja",
+        "⏱️ Lama waktu gaya bekerja",
+        "",
+        "Semakin besar gaya atau semakin lama waktu kontak, semakin besar impuls yang dihasilkan."
       ]
     },
 
@@ -108,6 +148,28 @@ const pengertianimpuls = {
     },
 
     {
+      heading: "📈 Impuls dan Grafik Gaya-Waktu",
+      body: [
+        "Impuls juga dapat ditentukan menggunakan grafik gaya terhadap waktu.",
+        "",
+        "Pada grafik F–t, impuls sama dengan luas daerah di bawah kurva.",
+        "",
+        "Semakin besar luas daerah tersebut, semakin besar impuls yang diberikan pada benda."
+      ]
+    },
+
+    {
+      heading: "⚠️ Miskonsepsi yang Sering Terjadi",
+      body: [
+        "Banyak siswa mengira impuls hanya bergantung pada besar gaya.",
+        "",
+        "Padahal waktu kontak juga berperan penting.",
+        "",
+        "Gaya kecil yang bekerja dalam waktu lama dapat menghasilkan impuls yang sama dengan gaya besar yang bekerja dalam waktu singkat."
+      ]
+    },  
+
+    {
       heading: "🌍 Impuls dalam Kehidupan Sehari-hari",
       image: impulsairbagImg,
       caption: "Ilustrasi impuls dalam sistem airbag",
@@ -116,7 +178,9 @@ const pengertianimpuls = {
         "Ada lagi, contoh lainya:",
         "Matras lompat tinggi dibuat empuk agar waktu berhentinya atlet lebih lama dan risiko cedera berkurang.",
         "Sarung tinju dibuat lebih tebal untuk memperbesar waktu kontak saat pukulan terjadi.",
-        "Saat menangkap bola, tangan biasanya ditarik ke belakang agar waktu kontak bertambah sehingga terasa lebih nyaman."
+        "Saat menangkap bola, tangan biasanya ditarik ke belakang agar waktu kontak bertambah sehingga terasa lebih nyaman.",
+        "🥚 Kemasan telur dibuat lunak untuk memperpanjang waktu tumbukan sehingga telur tidak mudah pecah.",
+        "Helm sepeda motor membantu memperpanjang waktu benturan sehingga mengurangi gaya yang diterima kepala."
       ]
     },
 
@@ -136,6 +200,30 @@ const pengertianimpuls = {
         "Impuls menyebabkan perubahan momentum pada suatu benda.",
         "Hubungan antara impuls dan momentum dirumuskan sebagai I = Δp.",
         "Semakin besar impuls yang diberikan, semakin besar perubahan momentum yang terjadi."
+      ]
+    },
+
+    {
+      heading: "✨ Inti Materi",
+      body: [
+        "Impuls adalah hasil kali gaya dan selang waktu kerja gaya.",
+        "",
+        "Impuls menyebabkan perubahan momentum pada benda.",
+        "",
+        "Semakin besar gaya atau semakin lama gaya bekerja, semakin besar impuls yang dihasilkan.",
+        "",
+        "Hubungan antara impuls dan momentum dirumuskan sebagai impuls sama dengan perubahan momentum."
+      ]
+    },
+
+    {
+      heading: "🚀 Next Mission",
+      body: [
+        "Momentum dan impuls memiliki hubungan yang sangat erat.",
+        "",
+        "Bagaimana hubungan matematis antara keduanya?",
+        "",
+        "➡️ Next, menuju portal: Hubungan Momentum dan Impuls."
       ]
     }
   ]

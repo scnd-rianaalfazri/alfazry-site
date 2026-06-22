@@ -148,7 +148,7 @@ const notasiilmiah= {
         "",
         "Jawabannya melalui proses pengukuran.",
         "",
-        "➡️ Next, kita masuk ke portal: Pengukuran."
+        "➡️ Next, kita menuju portal: Pengukuran."
       ]
     },
 

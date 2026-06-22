@@ -83,7 +83,7 @@ const besaranpokokdanturunan = {
       body: [
         "Kalau sebuah rumus tersusun dari beberapa besaran, bagaimana cara mengecek apakah rumus itu benar?",
         "",
-        "➡️ Netx, kita masuk ke portal: Dimensi."
+        "➡️ Netx, kita menuju portal: Dimensi."
       ]
     },
 

@@ -106,7 +106,7 @@ const dimensi = {
       body: [
         "Dalam fisika, hasil pengukuran tidak hanya harus benar, tetapi juga harus ditulis dengan aturan yang tepat.",
         "",
-        "➡️ Next, kita masuk ke portal: Angka Penting."
+        "➡️ Next, kita menuju: Angka Penting."
       ]
     },
 

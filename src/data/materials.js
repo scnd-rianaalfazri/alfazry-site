@@ -72,6 +72,7 @@ import GayaSentripetal from "../content/materi/DinamikaGerakMelingkar/GayaSentri
 import AplikasiDinamikaGerakMelingkar from "../content/materi/DinamikaGerakMelingkar/AplikasiDinamikaGerakMelingkar"
 
 /* dinamika momentum dan impuls */
+import PengantarMomentumDanImpuls from "../content/materi/DinamikaMomentumDanImpuls/PemngantarMomentumDanImpuls.js"
 import PengertianMomentum from "../content/materi/DinamikaMomentumDanImpuls/PengertianMomentum.js"
 import pengertianimpuls from "../content/materi/DinamikaMomentumDanImpuls/PengertianImpuls.js"
 import HubunganMomentumImpuls from "../content/materi/DinamikaMomentumDanImpuls/HubunganMomentumImpuls.js"
@@ -95,6 +96,7 @@ import PengertianListrikStatis from "../content/materi/kelas-xii/ListrikStatis/P
 import HukumColoumb from "../content/materi/kelas-xii/ListrikStatis/HukumColoumb.js"
 import ResultanGayaColoumb from "../content/materi/kelas-xii/ListrikStatis/ResultanGayaColoumb.js"
 import hukumnewtondua from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonDua.js"
+import pengertianmomentum from "../content/materi/DinamikaMomentumDanImpuls/PengertianMomentum.js"
 
 /* EKSPORT CONTENT */
 export const materials = [
@@ -170,6 +172,7 @@ export const materials = [
   AplikasiDinamikaGerakMelingkar,
 
   /* Chapter : Dinamika Momentum dan Impuls */
+  pengertianmomentum,
   PengertianMomentum,
   pengertianimpuls,
   HubunganMomentumImpuls,

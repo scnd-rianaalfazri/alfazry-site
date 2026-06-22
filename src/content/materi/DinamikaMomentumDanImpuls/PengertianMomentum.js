@@ -22,6 +22,19 @@ const pengertianmomentum = {
         "Gabungan antara massa dan kecepatan inilah yang disebut momentum."
       ]
     },
+
+    {
+      heading: "🎯 Faktor yang Memengaruhi Momentum",
+      body: [
+        "Momentum dipengaruhi oleh dua faktor utama:",
+        "",
+        "⚖️ Massa",
+        "🏃 Kecepatan",
+        "",
+        "Jika salah satu bertambah, momentum juga bertambah."
+      ]
+    },
+
     {
       heading: "⚡ Apa Itu Momentum?",
       body: [
@@ -30,6 +43,20 @@ const pengertianmomentum = {
         "Momentum termasuk besaran vektor karena memiliki besar dan arah yang sama dengan arah kecepatan benda."
       ]
     },
+
+    {
+      heading: "⚡ Momentum dan Hukum Newton",
+      body: [
+        "Momentum memiliki hubungan yang sangat erat dengan Hukum Newton.",
+        "",
+        "Menurut Hukum Newton, perubahan gerak suatu benda terjadi karena adanya gaya.",
+        "",
+        "Dalam materi momentum, perubahan gerak tersebut dinyatakan sebagai perubahan momentum.",
+        "",
+        "Konsep inilah yang nantinya akan menghubungkan momentum dengan impuls."
+      ]
+    },
+    
     {
       heading: "🧮 Rumus Momentum",
       body: [
@@ -42,6 +69,21 @@ const pengertianmomentum = {
         "v = kecepatan benda (m/s)"
       ]
     },
+
+    {
+      heading: "🧭 Arah Momentum",
+      body: [
+        "Momentum merupakan besaran vektor.",
+        "",
+        "Artinya momentum tidak hanya memiliki besar, tetapi juga memiliki arah.",
+        "",
+        "Arah momentum selalu sama dengan arah kecepatan benda.",
+        "",
+        "Jika benda bergerak ke kanan maka momentum ke kanan.",
+        "Jika benda bergerak ke kiri maka momentum ke kiri."
+      ]
+    },
+
     {
       heading: "🎯 Memahami Momentum Secara Intuitif",
       body: [
@@ -84,6 +126,29 @@ const pengertianmomentum = {
         "Dimensi momentum sama dengan dimensi impuls."
       ]
     },
+
+    {
+      heading: "🔗 Momentum Sistem",
+      body: [
+        "Dalam banyak kasus fisika, kita tidak hanya menganalisis satu benda.",
+        "",
+        "Beberapa benda dapat dianggap sebagai satu sistem.",
+        "",
+        "Momentum total sistem diperoleh dari penjumlahan momentum seluruh benda dalam sistem."
+      ]
+    },
+
+    {
+      heading: "⚠️ Miskonsepsi yang Sering Terjadi",
+      body: [
+        "Banyak orang mengira benda yang paling cepat selalu memiliki momentum terbesar.",
+        "",
+        "Padahal momentum dipengaruhi oleh massa dan kecepatan sekaligus.",
+        "",
+        "Benda yang lebih berat dapat memiliki momentum lebih besar meskipun bergerak lebih lambat."
+      ]
+    },
+
     {
       heading: "🌍 Momentum dalam Kehidupan Sehari-hari",
       body: [
@@ -104,29 +169,46 @@ const pengertianmomentum = {
         "Misalnya, benda bermassa besar yang bergerak lambat dapat memiliki momentum yang sama dengan benda bermassa kecil yang bergerak cepat."
       ]
     },
+
     {
-      heading: "🧮 Contoh Perhitungan",
+      heading: "🧮 Contoh Perbandingan Momentum",
       body: [
-        "Sebuah benda bermassa 5 kg bergerak dengan kecepatan 10 m/s. Berapakah momentumnya?"
+        "Manakah yang memiliki momentum lebih besar?"
       ],
-      equation: [
-        "p = m × v",
-        "p = 5 × 10",
-        "p = 50 kg·m/s"
-      ],
-      explanation: [
-        "Jadi momentum benda tersebut adalah 50 kg·m/s."
+      table: {
+        headers: ["Benda", "Massa", "Kecepatan"],
+        rows: [
+          ["Sepeda", "20 kg", "10 m/s"],
+          ["Motor", "100 kg", "4 m/s"]
+        ]
+      }
+    },
+
+    {
+      heading: "🧠 Inti Materi",
+      body: [
+        "Momentum adalah besaran yang menyatakan kecenderungan suatu benda untuk mempertahankan geraknya.",
+        "",
+        "Momentum dipengaruhi oleh massa dan kecepatan benda.",
+        "",
+        "Semakin besar massa atau semakin tinggi kecepatan benda, semakin besar momentumnya.",
+        "",
+        "Karena memiliki besar dan arah, momentum termasuk besaran vektor."
       ]
     },
+
     {
-      heading: "📝 Kesimpulan",
+      heading: "🚀 Menuju Materi Impuls",
       body: [
-        "Momentum adalah hasil kali massa dan kecepatan.",
-        "Momentum menunjukkan seberapa sulit suatu benda untuk dihentikan atau diubah geraknya.",
-        "Semakin besar massa atau kecepatan benda, semakin besar momentumnya.",
-        "Momentum merupakan besaran vektor yang memiliki besar dan arah."
+        "Momentum dapat berubah ketika suatu gaya bekerja pada benda.",
+        "",
+        "Perubahan momentum tersebut akan dipelajari lebih lanjut melalui konsep impuls.",
+        "",
+        "Impuls menjelaskan bagaimana gaya yang bekerja selama selang waktu tertentu dapat mengubah momentum benda.",
+        "",
+        "➡️ Next, kita menuju portal: Pengertian Impuls"
       ]
-    }
+    },
   ]
 };
 

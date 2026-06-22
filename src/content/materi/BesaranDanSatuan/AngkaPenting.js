@@ -85,7 +85,7 @@ const angkapenting = {
       body: [
         "Kalau angka bisa sangat besar atau sangat kecil, bagaimana cara menuliskannya agar lebih sederhana?",
         "",
-        "➡️ Next, kita masuk ke portal: Notasi Ilmiah."
+        "➡️ Next, kita menuju portal: Notasi Ilmiah."
       ]
     },
 

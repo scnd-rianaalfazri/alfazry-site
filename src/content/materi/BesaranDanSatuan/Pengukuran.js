@@ -143,7 +143,7 @@ const pengukuran = {
         "Ternyata tidak.",
         "Setiap pengukuran memiliki batas ketelitian.",
         "",
-        "➡️ Next, kita masuk ke portal: Ketidakpastian Pengukuran."
+        "➡️ Next, kita menuju portal: Ketidakpastian Pengukuran."
       ]
     },
 

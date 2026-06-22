@@ -140,7 +140,7 @@ const ketidakpastian = {
         "",
         "Bagaimana cara mengubah satuan tanpa mengubah nilai sebenarnya?",
         "",
-        "➡️ Next, kita masuk ke portal: Konversi Satuan."
+        "➡️ Next, kita menuju portal: Konversi Satuan."
       ]
     },
 

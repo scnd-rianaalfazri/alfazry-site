@@ -124,7 +124,7 @@ const sisteminternasional = {
         "Sekarang pertanyaannya:",
         "Bagaimana besaran seperti luas, volume, kecepatan, dan gaya bisa terbentuk?",
         "",
-        "➡️ Di portal selanjutnya: Besaran Pokok dan Besaran Turunan."
+        "➡️ Next, kita menuju portal: Besaran Pokok dan Besaran Turunan."
       ]
     },
 
