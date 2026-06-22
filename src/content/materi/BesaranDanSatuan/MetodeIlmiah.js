@@ -14,7 +14,7 @@ const metodeilmiah = {
   content: [
     {
       image: metodeilmiahImg,
-      caption: "Metode ilmiah di laboratorium modern",
+      caption: "Ilustrasi: Metode ilmiah di laboratorium modern dengan langkah-langkah singkat.",
       body: [
         "Setelah memahami bahwa fisika mempelajari alam, muncul pertanyaan baru:",
         "",
@@ -28,7 +28,7 @@ const metodeilmiah = {
 
     {
       image: penjelasanmetodeilmiahImg,
-      caption: "Science vs guessing: understanding the difference",
+      caption: "Ilustrasi: Memahami sains dan tebakan",
       body: [
         "",
         "Metode ilmiah membantu agar hasil penelitian:",
@@ -41,7 +41,7 @@ const metodeilmiah = {
 
     {
       image: langkahlangkahmetodeilmiahImg,
-      caption: "Langkah-langkah metode ilmiah",
+      caption: "Ilustrasi: Langkah-langkah metode ilmiah",
 
     },
 
@@ -109,7 +109,7 @@ const metodeilmiah = {
 
     {
       image: contohmetodeilmiahImg,
-      caption: "Contoh metode ilmiah menggunakan es batu",
+      caption: "Ilustrasi: Contoh metode ilmiah menggunakan es batu",
       body: [
         "Masalah:",
         "\"Kenapa es batu di luar kulkas cepat mencair?\"",

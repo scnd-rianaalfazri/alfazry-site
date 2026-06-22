@@ -13,7 +13,7 @@ const angkapenting = {
   content: [
     {
       image: angkapentingImg,
-      caption: "Laboratorium futuristik: mempelajari presisi pengukuran.",
+      caption: "Ilustrasi: Mempelajari ketelitian alat ukur di labolatoruim modern",
       body: [
         "Dalam fisika, hasil pengukuran selalu memiliki batas ketelitian.",
         "",
@@ -27,7 +27,7 @@ const angkapenting = {
 
     {
       image: fungsiangkapentingImg,
-      caption: "Kenapa angka penting dalam pengukuran?",
+      caption: "Ilustrasi: Kenapa angka penting dalam pengukuran?",
       body: [
         "Misalnya panjang sebuah benda diukur menggunakan penggaris.",
         "",
@@ -39,12 +39,12 @@ const angkapenting = {
 
     {
       image: aturanangkapentingImg,
-      caption: "Infografis Aturan angka penting",
+      caption: "Ilustrasi:  Aturan angka penting",
     },
 
     {
       image: operasihitungangkapentingImg,
-      caption: "Infografis operasi bilangan angka penting",
+      caption: "Ilustrasi: Operasi bilangan angka penting",
     },
 
     {

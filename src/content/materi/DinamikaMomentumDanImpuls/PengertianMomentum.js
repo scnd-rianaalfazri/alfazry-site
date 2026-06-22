@@ -185,7 +185,7 @@ const pengertianmomentum = {
     },
 
     {
-      heading: "🧠 Inti Materi",
+      heading: "✨ Inti Materi",
       body: [
         "Momentum adalah besaran yang menyatakan kecenderungan suatu benda untuk mempertahankan geraknya.",
         "",

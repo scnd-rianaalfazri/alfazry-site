@@ -19,12 +19,47 @@ const hukumkekekalanmomentum = {
     },
 
     {
+      heading: "🔗 Dari Impuls Menuju Kekekalan Momentum",
+      body: [
+        "Pada materi sebelumnya kita mempelajari bahwa impuls menyebabkan perubahan momentum.",
+        "",
+        "Namun bagaimana jika dua benda saling berinteraksi dalam suatu sistem?",
+        "",
+        "Apakah momentum dapat hilang begitu saja?",
+        "",
+        "Untuk menjawab pertanyaan tersebut, kita perlu memahami Hukum Kekekalan Momentum."
+      ]
+    },
+
+    {
+      heading: "📦 Apa Itu Sistem Terisolasi?",
+      body: [
+        "Dalam fisika, momentum hanya akan kekal pada sistem terisolasi.",
+        "",
+        "Sistem terisolasi adalah sistem yang tidak mengalami resultan gaya luar.",
+        "",
+        "Artinya seluruh gaya yang bekerja hanya berasal dari interaksi antar benda di dalam sistem."
+      ]
+    },
+
+    {
       heading: "🎯 Pernyataan Hukum Kekekalan Momentum",
       body: [
         "Jika resultan gaya luar pada sistem sama dengan nol, maka momentum total sistem akan tetap."
       ],
       equation: [
         "Σp sebelum = Σp sesudah"
+      ]
+    },
+
+    {
+      heading: "⚖️ Momentum Total Sistem",
+      body: [
+        "Momentum total sistem diperoleh dari penjumlahan momentum seluruh benda dalam sistem.",
+        "",
+        "Ketika dua benda saling bertumbukan, momentum masing-masing benda dapat berubah.",
+        "",
+        "Namun jumlah momentum total sistem tetap."
       ]
     },
 
@@ -89,6 +124,41 @@ const hukumkekekalanmomentum = {
     },
 
     {
+      heading: "🎯 Makna Persamaan",
+      body: [
+        "Persamaan ini menunjukkan bahwa momentum tidak diciptakan maupun dimusnahkan.",
+        "",
+        "Momentum hanya berpindah dari satu benda ke benda lain.",
+        "",
+        "Karena itu total momentum sistem tetap terjaga."
+      ]
+    },
+
+    {
+      heading: "🪙 Analogi Sederhana",
+      body: [
+        "Coba bayangkan, momentum seperti uang yang dimiliki sekelompok orang.",
+        "",
+        "Uang dapat berpindah dari satu orang ke orang lain.",
+        "",
+        "Namun jumlah uang seluruh kelompok tetap sama selama tidak ada uang yang masuk atau keluar dari kelompok tersebut.",
+        "",
+        "Hal yang sama terjadi pada momentum dalam sistem terisolasi."
+      ]
+    },
+
+    {
+      heading: "⚠️ Miskonsepsi yang Sering Terjadi",
+      body: [
+        "Momentum total yang kekal bukan berarti momentum setiap benda tetap.",
+        "",
+        "Momentum masing-masing benda dapat berubah selama interaksi berlangsung.",
+        "",
+        "Yang tetap adalah jumlah momentum seluruh sistem."
+      ]
+    }, 
+
+    {
       heading: "🌍 Contoh dalam Kehidupan Sehari-hari",
       body: [
         "Saat dua bola biliar bertumbukan, momentum total keduanya tetap.",
@@ -107,11 +177,24 @@ const hukumkekekalanmomentum = {
     },
 
     {
-      heading: "📝 Kesimpulan",
+      heading: "✨ Inti Materi",
       body: [
-        "Momentum total suatu sistem akan tetap selama tidak ada gaya luar yang bekerja.",
-        "Jumlah momentum sebelum tumbukan sama dengan jumlah momentum setelah tumbukan.",
-        "Prinsip ini menjadi dasar untuk menganalisis berbagai jenis tumbukan dalam fisika."
+        "Momentum total suatu sistem akan tetap selama tidak ada resultan gaya luar yang bekerja.",
+        "",
+        "Momentum dapat berpindah antar benda, tetapi tidak hilang dari sistem.",
+        "",
+        "Prinsip ini dikenal sebagai Hukum Kekekalan Momentum dan menjadi dasar analisis berbagai peristiwa tumbukan."
+      ]
+    },
+
+    {
+      heading: "🚀 Next Mission",
+      body: [
+        "Jika momentum selalu kekal saat dua benda berinteraksi, apakah semua tumbukan memiliki sifat yang sama?",
+        "",
+        "Ternyata tidak.",
+        "",
+        "➡️ Next, portal selanjutnya: Pengantar Tumbukan."
       ]
     }
   ]

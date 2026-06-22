@@ -14,7 +14,7 @@ const hakikatilmufisika = {
   content: [
     {
       image: hakikatilmufisikaImg,
-      caption: "Menjelajahi Fisika: Dunia dan Alam Semesta",
+      caption: "Ilustrasi: Menjelajahi Fisika, Dunia dan Alam Semesta",
       body: [
         "Pernah kepikiran, nggak?",
         "Kenapa bola yang dilempar selalu jatuh ke bawah?",
@@ -31,7 +31,7 @@ const hakikatilmufisika = {
 
     {
       image: pembelajaranfisikaImg,
-      caption: "Fisika dalam kehidupan sehari-hari.",
+      caption: "Ilustrasi: Fisika dalam kehidupan sehari-hari.",
       body: [
         "Saat memahami fisika, kita tidak hanya tahu bahwa sesuatu terjadi—tetapi juga mengerti mengapa itu bisa terjadi."
       ]
@@ -59,7 +59,7 @@ const hakikatilmufisika = {
 
     {
       image: caraberpikirfisikawanImg,
-      caption: "🧠 Cara Berpikir ilmiah fisikawan",
+      caption: "Ilustrasi: Cara Berpikir ilmiah fisikawan",
       body: [
         "Saat melihat suatu peristiwa, fisika tidak langsung percaya pada tebakan.",
         "",
@@ -76,6 +76,7 @@ const hakikatilmufisika = {
 
     {
       image: ruanglingkupfisikaImg,
+      caption: "Ilustrasi: Ruang Lingkup Fisika",
       body: [
         "Fisika memeluk segala hal yang ada di dalam kosmos ini—dari yang paling megah hingga yang paling tak kasat mata."
       ]

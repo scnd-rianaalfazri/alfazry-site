@@ -172,6 +172,7 @@ export const materials = [
   AplikasiDinamikaGerakMelingkar,
 
   /* Chapter : Dinamika Momentum dan Impuls */
+  PengantarMomentumDanImpuls,
   pengertianmomentum,
   PengertianMomentum,
   pengertianimpuls,

@@ -1,6 +1,6 @@
 import VirLabNewton2Simulation from "../Newton2Simulation/VirLabNewton2Simulation"
 const newton2simulation = {
-    title: "Hukum Newton II",
+    title: "Simulasi Hukum Newton II",
     slug: "simulasi hukum newton 2",
     description: "Simulasi Hukum Newton II",
     content: [

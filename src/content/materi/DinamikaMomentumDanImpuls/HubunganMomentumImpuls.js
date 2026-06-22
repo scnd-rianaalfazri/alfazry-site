@@ -21,6 +21,33 @@ const hubunganmomentumimpuls = {
     },
 
     {
+      heading: "🧩 Menghubungkan Dua Konsep",
+      body: [
+        "Pada materi sebelumnya kita telah mempelajari momentum dan impuls secara terpisah.",
+        "",
+        "Momentum menggambarkan keadaan gerak suatu benda.",
+        "Sedangkan impuls menggambarkan pengaruh gaya yang bekerja selama selang waktu tertentu.",
+        "",
+        "Sekarang kita akan melihat bahwa kedua konsep tersebut sebenarnya saling terhubung secara langsung."
+      ]
+    },
+
+    {
+      heading: "🔄 Alur Terjadinya Perubahan Momentum",
+      body: [
+        "Hubungan momentum dan impuls dapat dipahami melalui urutan berikut:",
+        "",
+        "Gaya bekerja",
+        "⬇️",
+        "Muncul impuls",
+        "⬇️",
+        "Momentum berubah",
+        "⬇️",
+        "Gerak benda berubah"
+      ]
+    },
+
+    {
       heading: "⚡ Dari Hukum II Newton Menuju Impuls",
       body: [
         "Hubungan impuls dan momentum dapat diturunkan dari Hukum II Newton.",
@@ -65,12 +92,41 @@ const hubunganmomentumimpuls = {
     {
       heading: "🎯 Makna Fisik Persamaan I = Δp",
       body: [
-        "Persamaan I = Δp menunjukkan bahwa impuls yang diberikan pada benda akan menghasilkan perubahan momentum yang sama besar.",
-        "Jika impuls bernilai positif, momentum benda bertambah.",
-        "Jika impuls bernilai negatif, momentum benda berkurang atau arahnya berubah.",
-        "Karena itulah impuls sering disebut sebagai penyebab berubahnya momentum."
+        "",
+        "Impuls selalu berkaitan dengan perubahan momentum.",
+        "",
+        "Jika momentum berubah besar, maka impuls yang bekerja juga besar.",
+        "",
+        "Jika tidak terjadi perubahan momentum, maka impuls total bernilai nol."
       ]
     },
+
+    {
+      heading: "⚡ Beberapa Kemungkinan yang Terjadi",
+      body: [
+        "Hubungan impuls dan momentum dapat menghasilkan berbagai kondisi:",
+        "",
+        "✔ Benda diam menjadi bergerak",
+        "✔ Benda bergerak menjadi lebih cepat",
+        "✔ Benda melambat",
+        "✔ Benda berubah arah",
+        "",
+        "Semua kondisi tersebut terjadi karena adanya perubahan momentum."
+      ]
+    },
+
+    {
+      heading: "🧭 Impuls Positif dan Negatif",
+      body: [
+        "Perubahan momentum dapat bernilai positif maupun negatif.",
+        "",
+        "Jika arah impuls searah gerak benda, momentum bertambah.",
+        "",
+        "Jika arah impuls berlawanan dengan gerak benda, momentum berkurang.",
+        "",
+        "Karena momentum adalah besaran vektor, arah harus selalu diperhatikan."
+      ]
+    }, 
 
     {
       heading: "🌍 Contoh dalam Kehidupan Sehari-hari",
@@ -78,6 +134,17 @@ const hubunganmomentumimpuls = {
         "Saat pemain sepak bola menendang bola, kaki memberikan impuls sehingga momentum bola berubah dari diam menjadi bergerak.",
         "Ketika petinju memukul samsak, impuls dari pukulan menyebabkan momentum samsak berubah.",
         "Airbag pada mobil memperbesar waktu tumbukan sehingga gaya benturan dapat diperkecil meskipun perubahan momentum tetap sama."
+      ]
+    },
+
+    {
+      heading: "🛡️ Mengapa Waktu Tumbukan Penting?",
+      body: [
+        "Dalam sistem keselamatan kendaraan, perubahan momentum biasanya tidak dapat dihindari.",
+        "",
+        "Yang dapat dikendalikan adalah lamanya waktu tumbukan.",
+        "",
+        "Dengan memperbesar waktu tumbukan, gaya rata-rata dapat diperkecil sehingga risiko cedera berkurang."
       ]
     },
 
@@ -91,12 +158,26 @@ const hubunganmomentumimpuls = {
     },
 
     {
-      heading: "📝 Kesimpulan",
+      heading: "✨ Inti Materi",
       body: [
-        "Impuls merupakan hasil kali antara gaya dan waktu kerja gaya.",
-        "Impuls sama dengan perubahan momentum suatu benda.",
-        "Hubungan tersebut dirumuskan sebagai I = Δp.",
-        "Semakin besar impuls yang diberikan, semakin besar perubahan momentum yang terjadi."
+        "Impuls merupakan penyebab perubahan momentum suatu benda.",
+        "",
+        "Hubungan antara keduanya dirumuskan sebagai I = Δp.",
+        "",
+        "Semakin besar impuls yang bekerja, semakin besar perubahan momentum yang terjadi.",
+        "",
+        "Konsep ini menjadi dasar dalam memahami tumbukan dan hukum kekekalan momentum."
+      ]
+    },
+
+    {
+      heading: "🚀 Next Mission",
+      body: [
+        "Jika impuls dapat mengubah momentum suatu benda, bagaimana perilaku momentum ketika dua benda saling bertumbukan?",
+        "",
+        "Apakah momentum bisa hilang?",
+        "",
+        "➡️ Next, kita menuju portal: Hukum Kekekalan Momentum."
       ]
     }
   ]

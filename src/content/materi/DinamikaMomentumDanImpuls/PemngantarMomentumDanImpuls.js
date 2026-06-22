@@ -129,7 +129,7 @@ const pengantarmomentumdanimpuls = {
     },
 
     {
-      heading: "✨ Inti Chapter",
+      heading: "✨ Inti Chapter ini",
       body: [
         "Momentum menjelaskan bagaimana gerak suatu benda dipengaruhi oleh massa dan kecepatan.",
         "",
