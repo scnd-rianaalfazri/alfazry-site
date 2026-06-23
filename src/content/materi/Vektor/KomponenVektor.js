@@ -1,3 +1,13 @@
+import { caption, image } from "framer-motion/client"
+import komponenvektorImg from "/src/assets/Materi/Vektor/KomponenVektor1.jpg"
+import pengertiankomponenvektorImg from "/src/assets/Materi/Vektor/KomponenVektor2.jpg"
+import komponensumbuxdanyImg from "/src/assets/Materi/Vektor/KomponenVektor3.jpg"
+import pemecahanvektorImg from "/src/assets/Materi/Vektor/KomponenVektor4.jpg"
+import bentuksegitigavektorImg from "/src/assets/Materi/Vektor/KomponenVektor5.jpg"
+import contoharahvektorImg from "/src/assets/Materi/Vektor/KomponenVektor6.jpg"
+import penerapanvektorImg from "/src/assets/Materi/Vektor/KomponenVektor7.jpg"
+import nextmissionmenghitungkomponenvektor from "/src/assets/Materi/Vektor/KomponenVektor8.jpg"
+
 const komponenvektor = {
   title: "Komponen Vektor",
   slug: "komponen vektor",
@@ -5,7 +15,7 @@ const komponenvektor = {
   chapter: "➡️ Vektor",
   content: [
     {
-      heading: "🧩 Komponen Vektor — Memecah Satu Arah Menjadi Dua Arah",
+      image: komponenvektorImg,
       body: [
         "Dalam banyak kasus fisika, sebuah vektor tidak bergerak tepat ke kanan, kiri, atas, atau bawah.",
         "",
@@ -16,7 +26,7 @@ const komponenvektor = {
     },
 
     {
-      heading: "🏹 Apa Itu Komponen Vektor?",
+      image: pengertiankomponenvektorImg,
       body: [
         "Komponen vektor adalah bagian-bagian dari sebuah vektor yang berada pada arah tertentu.",
         "",
@@ -28,18 +38,15 @@ const komponenvektor = {
     },
 
     {
-      heading: "↔️ Komponen Sumbu X",
+      image: komponensumbuxdanyImg,
       body: [
+        "↔️ Komponen Sumbu X",
         "Komponen X menunjukkan bagian vektor yang bekerja pada arah horizontal.",
         "",
         "Arah kanan biasanya dianggap positif.",
-        "Arah kiri biasanya dianggap negatif."
-      ]
-    },
-
-    {
-      heading: "↕️ Komponen Sumbu Y",
-      body: [
+        "Arah kiri biasanya dianggap negatif.",
+        "",
+        "↕️ Komponen Sumbu Y",
         "Komponen Y menunjukkan bagian vektor yang bekerja pada arah vertikal.",
         "",
         "Arah atas biasanya dianggap positif.",
@@ -48,7 +55,7 @@ const komponenvektor = {
     },
 
     {
-      heading: "📐 Mengapa Vektor Perlu Dipecah?",
+      image: pemecahanvektorImg,
       body: [
         "Karena banyak hukum fisika bekerja pada arah tertentu.",
         "",
@@ -63,7 +70,7 @@ const komponenvektor = {
     },
 
     {
-      heading: "🚗 Contoh Sederhana",
+      image: contoharahvektorImg,
       body: [
         "Sebuah mobil bergerak ke arah timur laut.",
         "",
@@ -77,7 +84,7 @@ const komponenvektor = {
     },
 
     {
-      heading: "🔺 Bentuk Segitiga Vektor",
+      image: bentuksegitigavektorImg,
       body: [
         "Ketika sebuah vektor diuraikan menjadi komponen X dan Y, terbentuk hubungan seperti segitiga siku-siku.",
         "",
@@ -98,7 +105,7 @@ const komponenvektor = {
     },
 
     {
-      heading: "🌍 Contoh Penerapan",
+      image: penerapanvektorImg,
       body: [
         "Konsep komponen vektor digunakan pada:",
         "",
@@ -119,13 +126,14 @@ const komponenvektor = {
     },
 
     {
-      heading: "🚀 Next Mission",
+      image: nextmissionmenghitungkomponenvektor,
+      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       body: [
         "Sekarang kita sudah tahu bahwa satu vektor bisa dipecah menjadi beberapa bagian.",
         "",
         "Bagaimana cara menghitung nilai komponen tersebut?",
         "",
-        "➡️ Selanjutnya: Menghitung Komponen Vektor."
+        "➡️ Next, menuju portal selanjutnya: Menghitung Komponen Vektor."
       ]
     },
 

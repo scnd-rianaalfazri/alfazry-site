@@ -78,6 +78,25 @@ import pengertianimpuls from "../content/materi/DinamikaMomentumDanImpuls/Penger
 import HubunganMomentumImpuls from "../content/materi/DinamikaMomentumDanImpuls/HubunganMomentumImpuls.js"
 import HukumKekekalanMomentum from "../content/materi/DinamikaMomentumDanImpuls/HukumKekekalanMomentum.js"
 import JenisjenisTumbukan from "../content/materi/DinamikaMomentumDanImpuls/JenisjenisTumbukan.js"
+import TumbukanLentingSempurna from "../content/materi/DinamikaMomentumDanImpuls/TumbukanLentingSempurna.js"
+import TumbukanLentingSebagian from "../content/materi/DinamikaMomentumDanImpuls/TumbukanLentingSebagian.js"
+import TumbukanTidakLentingSamasekali from "../content/materi/DinamikaMomentumDanImpuls/tumbukanTidakLentingSamaSekali.js"
+import KoefisienRestitusi from "../content/materi/DinamikaMomentumDanImpuls/KoefisienRestitusi.js"
+import AplikasiMomentumDanImpuls from "../content/materi/DinamikaMomentumDanImpuls/AplikasiMomentumDanImpuls.js"
+import PenutupMomentumDanImpuls from "../content/materi/DinamikaMomentumDanImpuls/PenutupMomentumDanImpuls.js"
+
+/* usaha dan energi */
+import PengantarUsahaDanEnergi from "../content/materi/UsahaDanEnergi/PengantarUsahaDanEnergi.js"
+import Usaha from "../content/materi/UsahaDanEnergi/Usaha.js"
+import Energi from "../content/materi/UsahaDanEnergi/Energi.js"
+import EnergiKinetik from "../content/materi/UsahaDanEnergi/EnergiKinetik.js"
+import EnergiPotensialGravitasi from "../content/materi/UsahaDanEnergi/EnergiPotensialGravitasi.js"
+import EnergiMekanik from "../content/materi/UsahaDanEnergi/EnergiMekanik.js"
+import HukumKekekalanEnergiMekanik from "../content/materi/UsahaDanEnergi/HukumKekekalanEnergi.js"
+import Daya from "../content/materi/UsahaDanEnergi/Daya.js"
+import EfisiensiEnergi from "../content/materi/UsahaDanEnergi/EfisiensiEnergi.js"
+import AplikasiUsahaDanEnergi from "../content/materi/UsahaDanEnergi/AplikasiUsahaDanEnergi.js"
+import PenutupUsahaDanEnergi from "../content/materi/UsahaDanEnergi/PenutupUsahaDanEnergi.js"
 
 /* fluida */
 import PengertianFluida from "../content/materi/Fluida/PengertianFluida.js"
@@ -97,6 +116,7 @@ import HukumColoumb from "../content/materi/kelas-xii/ListrikStatis/HukumColoumb
 import ResultanGayaColoumb from "../content/materi/kelas-xii/ListrikStatis/ResultanGayaColoumb.js"
 import hukumnewtondua from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonDua.js"
 import pengertianmomentum from "../content/materi/DinamikaMomentumDanImpuls/PengertianMomentum.js"
+import pengantarusahadanenergi from "../content/materi/UsahaDanEnergi/PengantarUsahaDanEnergi.js"
 
 /* EKSPORT CONTENT */
 export const materials = [
@@ -179,6 +199,24 @@ export const materials = [
   HubunganMomentumImpuls,
   HukumKekekalanMomentum,
   JenisjenisTumbukan,
+  TumbukanLentingSempurna,
+  TumbukanLentingSebagian,
+  TumbukanTidakLentingSamasekali,
+  KoefisienRestitusi,
+  PenutupMomentumDanImpuls,
+
+  /* Chapter : Usaha dan Energi */
+  PengantarUsahaDanEnergi,
+  Usaha,
+  Energi,
+  EnergiKinetik,
+  EnergiPotensialGravitasi,
+  EnergiMekanik,
+  HukumKekekalanEnergiMekanik,
+  Daya,
+  EfisiensiEnergi,
+  AplikasiUsahaDanEnergi,
+  PenutupUsahaDanEnergi,
 
   /* fluida */
   PengertianFluida,
