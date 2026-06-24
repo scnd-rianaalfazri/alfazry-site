@@ -1,99 +1,174 @@
 const tekananhidrostatis = {
   title: "Tekanan Hidrostatis",
-  slug: "tekanan hidrostatis",
-  description: "Memahami tekanan yang ditimbulkan oleh zat cair akibat pengaruh gravitasi.",
-  chapter: "💧 Fluida",
-  
+  slug: "tekananhidrostatis",
+  chapter: "💧 Fluida", 
+  description: "Memahami tekanan hidrostatis, faktor-faktor yang memengaruhinya, serta penerapannya dalam kehidupan sehari-hari.",
+
   content: [
     {
-      heading: "🤿 Kenapa Telinga Terasa Sakit Saat Menyelam?",
+      heading: "🤿 Mengapa Telinga Terasa Sakit Saat Menyelam Lebih Dalam?",
       body: [
-        "Pernah menyelam di kolam renang atau laut?",
-        "Semakin dalam kamu menyelam, telinga akan terasa semakin tertekan.",
-        "Hal ini terjadi karena tekanan air bertambah seiring bertambahnya kedalaman. Tekanan inilah yang disebut tekanan hidrostatis."
+        "Saat menyelam ke dalam air, kita akan merasakan tekanan yang semakin besar pada telinga.",
+        "",
+        "Semakin dalam posisi kita di dalam air, semakin besar tekanan yang dialami tubuh.",
+        "",
+        "Fenomena ini dijelaskan oleh konsep tekanan hidrostatis."
       ]
     },
+
     {
-      heading: "🌊 Apa Itu Tekanan Hidrostatis?",
+      heading: "📍 Apa Itu Tekanan Hidrostatis?",
       body: [
-        "Tekanan hidrostatis adalah tekanan yang diberikan oleh zat cair yang diam pada suatu titik di dalam cairan.",
-        "Tekanan ini muncul karena berat zat cair yang berada di atas titik tersebut.",
-        "Semakin dalam suatu titik dari permukaan cairan, semakin besar tekanan hidrostatisnya."
+        "Tekanan hidrostatis adalah tekanan yang diberikan oleh zat cair yang diam akibat pengaruh gravitasi."
       ]
     },
+
     {
-      heading: "🧮 Rumus Tekanan Hidrostatis",
+      heading: "💡 Mengapa Tekanan Muncul?",
       body: [
-        "Besarnya tekanan hidrostatis dapat dihitung menggunakan rumus:"
-      ],
-      formula: "P = ρgh"
-    },
-    {
-      heading: "📚 Keterangan Rumus",
-      body: [
-        "P = tekanan hidrostatis (Pa)",
-        "ρ = massa jenis fluida (kg/m³)",
-        "g = percepatan gravitasi (m/s²)",
-        "h = kedalaman dari permukaan fluida (m)"
+        "Setiap lapisan air memiliki massa dan berat.",
+        "",
+        "Lapisan air yang berada di atas akan menekan lapisan air di bawahnya.",
+        "",
+        "Akibatnya, semakin dalam suatu titik berada di dalam zat cair, semakin besar tekanan yang diterimanya."
       ]
     },
+
     {
-      heading: "🔍 Faktor yang Memengaruhi Tekanan Hidrostatis",
+      heading: "🌊 Faktor yang Memengaruhi Tekanan Hidrostatis",
       body: [
-        "Tekanan hidrostatis dipengaruhi oleh tiga faktor utama:",
-        "1. Massa jenis fluida (ρ).",
-        "2. Percepatan gravitasi (g).",
-        "3. Kedalaman titik dari permukaan fluida (h).",
-        "Semakin besar ketiga faktor tersebut, semakin besar pula tekanan hidrostatis yang dihasilkan."
+        "Tekanan hidrostatis dipengaruhi oleh massa jenis zat cair, percepatan gravitasi, dan kedalaman titik yang ditinjau."
       ]
     },
+
     {
-      heading: "🧪 Contoh Perhitungan",
+      heading: "📏 Pengaruh Kedalaman",
       body: [
-        "Sebuah titik berada pada kedalaman 2 meter di dalam air.",
-        "Jika massa jenis air 1000 kg/m³ dan percepatan gravitasi 10 m/s², berapakah tekanan hidrostatisnya?"
-      ],
-      formula: "P = 1000 × 10 × 2 = 20.000 Pa"
-    },
-    {
-      heading: "💦 Percobaan Tiga Lubang",
-      body: [
-        "Bayangkan sebuah botol yang memiliki tiga lubang pada ketinggian berbeda.",
-        "Saat botol diisi air, semburan dari lubang paling bawah akan memancar paling jauh.",
-        "Hal ini menunjukkan bahwa tekanan hidrostatis semakin besar pada kedalaman yang lebih besar."
+        "Semakin dalam posisi suatu titik dari permukaan zat cair, semakin besar tekanan hidrostatisnya."
       ]
     },
+
     {
-      heading: "🏗️ Mengapa Bendungan Lebih Tebal di Bawah?",
+      heading: "📦 Pengaruh Massa Jenis",
       body: [
-        "Bagian bawah bendungan menerima tekanan hidrostatis yang jauh lebih besar dibandingkan bagian atas.",
-        "Karena itu, bendungan dirancang semakin tebal ke bawah agar mampu menahan tekanan air yang besar."
+        "Semakin besar massa jenis zat cair, semakin besar tekanan hidrostatis yang dihasilkan."
       ]
     },
+
     {
-      heading: "🐠 Kehidupan di Laut Dalam",
+      heading: "🌍 Pengaruh Gravitasi",
       body: [
-        "Ikan yang hidup di laut dalam memiliki struktur tubuh khusus untuk bertahan pada tekanan yang sangat besar.",
-        "Tekanan di dasar laut bisa mencapai ratusan kali lebih besar daripada tekanan udara di permukaan bumi."
+        "Semakin besar percepatan gravitasi, semakin besar pula tekanan hidrostatis yang dihasilkan."
       ]
     },
+
     {
-      heading: "🚀 Fakta Menarik",
+      heading: "⚠️ Tidak Bergantung Bentuk Wadah",
       body: [
-        "Tekanan hidrostatis pada kedalaman yang sama akan bernilai sama meskipun bentuk wadahnya berbeda.",
-        "Karena itu, air pada bejana berhubungan akan selalu berada pada ketinggian yang sama.",
-        "Tekanan hidrostatis hanya bergantung pada kedalaman, bukan pada bentuk wadah."
+        "Tekanan hidrostatis tidak dipengaruhi bentuk wadah.",
+        "",
+        "Pada kedalaman yang sama, tekanan hidrostatis selalu sama meskipun bentuk wadah berbeda."
       ]
     },
+
     {
-      heading: "🎯 Kesimpulan",
+      heading: "⚖️ Tidak Bergantung Volume Air",
       body: [
-        "Tekanan hidrostatis adalah tekanan yang disebabkan oleh berat zat cair yang berada di atas suatu titik.",
-        "Semakin dalam suatu titik berada dalam fluida, semakin besar tekanan hidrostatisnya.",
-        "Tekanan hidrostatis dipengaruhi oleh massa jenis fluida, gravitasi, dan kedalaman."
+        "Meskipun jumlah air dalam wadah berbeda, tekanan hidrostatis pada kedalaman yang sama tetap bernilai sama."
+      ]
+    },
+
+    {
+      heading: "🎯 Kedalaman Sama, Tekanan Sama",
+      body: [
+        "Dua titik yang berada pada kedalaman yang sama dalam zat cair yang sama akan memiliki tekanan hidrostatis yang sama."
+      ]
+    },
+
+    {
+      heading: "🏊 Perenang dan Penyelam",
+      body: [
+        "Perenang yang berada dekat permukaan menerima tekanan lebih kecil dibandingkan penyelam yang berada jauh di bawah permukaan."
+      ]
+    },
+
+    {
+      heading: "🚢 Bendungan",
+      body: [
+        "Dinding bendungan dibuat lebih tebal di bagian bawah karena tekanan air semakin besar pada kedalaman yang lebih dalam."
+      ]
+    },
+
+    {
+      heading: "🐟 Ikan Laut Dalam",
+      body: [
+        "Ikan yang hidup di laut dalam mampu bertahan pada tekanan yang sangat besar karena memiliki adaptasi khusus."
+      ]
+    },
+
+    {
+      heading: "⚙️ Kapal Selam",
+      body: [
+        "Kapal selam dirancang dengan struktur yang kuat agar mampu menahan tekanan hidrostatis yang besar di kedalaman laut."
+      ]
+    },
+
+    {
+      heading: "🌎 Penerapan Tekanan Hidrostatis",
+      body: [
+        "Konsep tekanan hidrostatis digunakan dalam perancangan bendungan, kapal selam, tangki air, dan berbagai sistem teknik lainnya."
+      ]
+    },
+
+    {
+      heading: "⚠️ Miskonsepsi yang Sering Terjadi",
+      body: [
+        "Banyak siswa mengira tekanan hidrostatis bergantung pada bentuk wadah atau banyaknya air.",
+        "",
+        "Padahal tekanan hidrostatis hanya bergantung pada massa jenis fluida, gravitasi, dan kedalaman."
+      ]
+    },
+
+    {
+      heading: "📊 Ringkasan Konsep",
+      body: [
+        "Massa Jenis Fluida",
+        "⬇️",
+        "Gravitasi",
+        "⬇️",
+        "Kedalaman",
+        "⬇️",
+        "Tekanan Hidrostatis"
+      ]
+    },
+
+    {
+      heading: "🔗 Hubungan dengan Materi Berikutnya",
+      body: [
+        "Konsep tekanan pada fluida diam menjadi dasar untuk memahami Hukum Pascal dan sistem hidrolik."
+      ]
+    },
+
+    {
+      heading: "🧠 Inti Materi",
+      body: [
+        "Tekanan hidrostatis adalah tekanan yang diberikan oleh zat cair yang diam akibat gravitasi.",
+        "",
+        "Tekanan hidrostatis bertambah seiring bertambahnya kedalaman.",
+        "",
+        "Tekanan ini tidak bergantung pada bentuk wadah, tetapi bergantung pada massa jenis fluida, gravitasi, dan kedalaman."
+      ]
+    },
+
+    {
+      heading: "🚀 Next Mission",
+      body: [
+        "Bagaimana tekanan pada fluida dapat diteruskan ke segala arah dan dimanfaatkan untuk mengangkat mobil?",
+        "",
+        "➡️ Selanjutnya: Hukum Pascal."
       ]
     }
   ]
-};
+}
 
-export default tekananhidrostatis;
+export default tekananhidrostatis

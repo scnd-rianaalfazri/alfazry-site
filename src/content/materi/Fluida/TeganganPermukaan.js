@@ -1,102 +1,178 @@
-import teganganpermukaanImg from "/src/assets/Materi/Fluida/TeganganPermukaan.png"
 const teganganpermukaan = {
   title: "Tegangan Permukaan",
   slug: "tegangan permukaan",
-  description: "Memahami fenomena tegangan permukaan pada zat cair dan penerapannya dalam kehidupan sehari-hari.",
   chapter: "💧 Fluida",
-  
+  description: "Memahami konsep tegangan permukaan, penyebab terjadinya, serta berbagai fenomena dan penerapannya dalam kehidupan sehari-hari.",
+
   content: [
     {
-      heading: "🪲 Kenapa Serangga Bisa Berjalan di Atas Air?",
-      image: teganganpermukaanImg,
-      caption: "Serangga dapat berjalan di atas permukaan air karena tegangan permukaan.",
+      heading: "🪲 Mengapa Serangga Dapat Berjalan di Atas Air?",
       body: [
-        "Pernah melihat serangga kecil berjalan di atas permukaan kolam tanpa tenggelam?",
-        "Padahal massa tubuhnya tetap memiliki berat yang menariknya ke bawah.",
-        "Fenomena ini terjadi karena adanya tegangan permukaan pada air."
+        "Beberapa jenis serangga mampu berjalan di atas permukaan air tanpa tenggelam.",
+        "",
+        "Padahal massa jenis tubuhnya lebih besar daripada udara dan mereka tidak memiliki kemampuan untuk mengapung seperti kapal.",
+        "",
+        "Fenomena ini berkaitan dengan tegangan permukaan air."
       ]
     },
+
     {
-      heading: "💧 Apa Itu Tegangan Permukaan?",
+      heading: "📍 Apa Itu Tegangan Permukaan?",
       body: [
-        "Tegangan permukaan adalah kecenderungan permukaan zat cair untuk bertindak seperti lapisan tipis yang elastis.",
-        "Fenomena ini muncul akibat gaya tarik-menarik antar molekul zat cair.",
-        "Molekul yang berada di permukaan mengalami resultan gaya ke arah dalam sehingga permukaan cairan cenderung menyusut."
+        "Tegangan permukaan adalah kecenderungan permukaan zat cair untuk bertindak seperti lapisan tipis yang tegang dan elastis."
       ]
     },
+
     {
-      heading: "🔬 Mengapa Bisa Terjadi?",
+      heading: "💡 Mengapa Tegangan Permukaan Terjadi?",
       body: [
-        "Molekul di bagian dalam cairan ditarik ke segala arah oleh molekul di sekitarnya sehingga gaya-gayanya seimbang.",
-        "Namun molekul di permukaan tidak memiliki molekul cairan di atasnya.",
-        "Akibatnya muncul gaya resultan ke arah dalam yang menyebabkan terbentuknya tegangan permukaan."
+        "Molekul-molekul zat cair saling tarik-menarik melalui gaya kohesi.",
+        "",
+        "Molekul di bagian dalam cairan ditarik ke segala arah sehingga resultan gayanya nol.",
+        "",
+        "Namun molekul di permukaan hanya mengalami tarikan ke samping dan ke bawah sehingga permukaan cairan menjadi tegang."
       ]
     },
+
     {
-      heading: "🧮 Rumus Tegangan Permukaan",
+      heading: "⚛️ Gaya Kohesi",
       body: [
-        "Secara matematis, tegangan permukaan dapat dinyatakan sebagai:"
-      ],
-      formula: "γ = F / L"
-    },
-    {
-      heading: "📚 Keterangan Rumus",
-      body: [
-        "γ = tegangan permukaan (N/m)",
-        "F = gaya yang bekerja (N)",
-        "L = panjang permukaan yang dikenai gaya (m)"
+        "Gaya kohesi adalah gaya tarik-menarik antara molekul-molekul sejenis.",
+        "",
+        "Gaya inilah yang menjadi penyebab utama tegangan permukaan."
       ]
     },
+
     {
-      heading: "💦 Kenapa Tetesan Air Berbentuk Bulat?",
+      heading: "💧 Permukaan Seperti Selaput Elastis",
       body: [
-        "Tegangan permukaan membuat air berusaha memperkecil luas permukaannya.",
-        "Bentuk bola memiliki luas permukaan paling kecil untuk volume tertentu.",
-        "Karena itulah tetesan air cenderung berbentuk bulat."
+        "Karena adanya tegangan permukaan, permukaan air dapat dianggap seperti selaput tipis yang elastis."
       ]
     },
+
     {
-      heading: "🧪 Percobaan Sederhana",
+      heading: "🪡 Jarum yang Mengapung",
       body: [
-        "Cobalah meletakkan jarum atau klip kertas secara hati-hati di atas permukaan air.",
-        "Meskipun logam lebih rapat daripada air, benda tersebut dapat mengapung sementara waktu.",
-        "Hal ini terjadi karena tegangan permukaan air menahan benda tersebut."
+        "Jarum logam dapat mengapung di atas air jika diletakkan dengan hati-hati.",
+        "",
+        "Hal ini terjadi karena tegangan permukaan membantu menopang jarum tersebut."
       ]
     },
+
+    {
+      heading: "🫧 Gelembung Sabun",
+      body: [
+        "Gelembung sabun cenderung berbentuk bola karena bentuk bola memiliki luas permukaan paling kecil untuk volume tertentu."
+      ]
+    },
+
+    {
+      heading: "💦 Tetesan Air",
+      body: [
+        "Tetesan air sering berbentuk hampir bulat akibat pengaruh tegangan permukaan."
+      ]
+    },
+
+    {
+      heading: "🪲 Serangga Air",
+      body: [
+        "Kaki serangga air menyebarkan gaya pada permukaan air sehingga tidak merusak lapisan permukaan yang terbentuk."
+      ]
+    },
+
     {
       heading: "🧼 Pengaruh Sabun",
       body: [
         "Sabun dapat menurunkan tegangan permukaan air.",
-        "Karena itu, sabun membantu air lebih mudah membasahi dan membersihkan permukaan benda.",
-        "Jika sabun diteteskan ke air yang terdapat jarum terapung, jarum biasanya akan tenggelam."
+        "",
+        "Karena itu sabun membantu air membasahi dan membersihkan permukaan dengan lebih efektif."
       ]
     },
+
     {
-      heading: "🌿 Contoh dalam Kehidupan Sehari-hari",
+      heading: "🌡️ Pengaruh Suhu",
       body: [
-        "Serangga air dapat berjalan di atas permukaan kolam.",
-        "Tetesan embun pagi berbentuk hampir bulat.",
-        "Sabun dan deterjen bekerja dengan cara menurunkan tegangan permukaan air.",
-        "Gelembung sabun terbentuk karena adanya tegangan permukaan."
+        "Semakin tinggi suhu zat cair, umumnya tegangan permukaannya semakin kecil."
       ]
     },
+
     {
-      heading: "🚀 Fakta Menarik",
+      heading: "🌎 Tegangan Permukaan dalam Kehidupan",
       body: [
-        "Air memiliki tegangan permukaan yang cukup tinggi dibandingkan banyak cairan lainnya.",
-        "Karena itulah beberapa serangga kecil mampu memanfaatkan permukaan air sebagai tempat berpijak.",
-        "Astronaut di ruang angkasa sering melihat air membentuk bola-bola kecil yang melayang karena tegangan permukaan."
+        "Tegangan permukaan dimanfaatkan dalam deterjen, tinta, cat, obat-obatan, dan berbagai proses industri."
       ]
     },
+
     {
-      heading: "🎯 Kesimpulan",
+      heading: "🔬 Dalam Dunia Biologi",
       body: [
-        "Tegangan permukaan muncul akibat gaya tarik-menarik antar molekul zat cair.",
-        "Permukaan cairan bertindak seperti lapisan elastis tipis.",
-        "Fenomena ini menjelaskan berbagai kejadian menarik seperti serangga berjalan di atas air, tetesan air berbentuk bulat, dan kerja sabun dalam membersihkan."
+        "Beberapa organisme kecil memanfaatkan tegangan permukaan untuk bergerak di atas air."
+      ]
+    },
+
+    {
+      heading: "🏭 Dalam Dunia Industri",
+      body: [
+        "Pengaturan tegangan permukaan penting dalam proses pelapisan, pencetakan, dan pembuatan berbagai produk."
+      ]
+    },
+
+    {
+      heading: "🌱 Hubungan dengan Kapilaritas",
+      body: [
+        "Tegangan permukaan bersama gaya adhesi dan kohesi berperan penting dalam terjadinya gejala kapilaritas."
+      ]
+    },
+
+    {
+      heading: "⚠️ Miskonsepsi yang Sering Terjadi",
+      body: [
+        "Banyak siswa mengira serangga berjalan di atas air karena massa tubuhnya sangat kecil.",
+        "",
+        "Padahal faktor utama yang memungkinkan hal tersebut adalah tegangan permukaan air."
+      ]
+    },
+
+    {
+      heading: "📊 Ringkasan Konsep",
+      body: [
+        "Gaya Kohesi",
+        "⬇️",
+        "Tegangan Permukaan",
+        "⬇️",
+        "Permukaan Seperti Selaput",
+        "⬇️",
+        "Berbagai Fenomena Alam"
+      ]
+    },
+
+    {
+      heading: "🔗 Hubungan dengan Materi Berikutnya",
+      body: [
+        "Tegangan permukaan menyebabkan permukaan zat cair dapat melengkung membentuk meniskus."
+      ]
+    },
+
+    {
+      heading: "🧠 Inti Materi",
+      body: [
+        "Tegangan permukaan terjadi karena gaya kohesi antar molekul zat cair.",
+        "",
+        "Akibatnya permukaan cairan bertindak seperti lapisan tipis yang tegang.",
+        "",
+        "Fenomena ini menjelaskan berbagai peristiwa seperti serangga berjalan di atas air, tetesan air berbentuk bulat, dan gelembung sabun."
+      ]
+    },
+
+    {
+      heading: "🚀 Next Mission",
+      body: [
+        "Mengapa permukaan air di dalam tabung kaca dapat melengkung ke atas atau ke bawah?",
+        "",
+        "➡️ Selanjutnya: Meniskus."
       ]
     }
   ]
-};
+}
 
 export default teganganpermukaan

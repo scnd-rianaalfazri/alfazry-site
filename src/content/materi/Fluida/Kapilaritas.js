@@ -1,8 +1,8 @@
 const kapilaritas = {
   title: "Kapilaritas",
   slug: "kapilaritas",
-  description: "Memahami peristiwa naik atau turunnya permukaan zat cair dalam pipa sempit akibat gaya adhesi dan kohesi.",
   chapter: "💧 Fluida",
+  description: "Memahami peristiwa naik atau turunnya permukaan zat cair dalam pipa sempit akibat gaya adhesi dan kohesi.",
   
   content: [
     {
@@ -106,6 +106,6 @@ const kapilaritas = {
       ]
     }
   ]
-};
+}
 
 export default kapilaritas

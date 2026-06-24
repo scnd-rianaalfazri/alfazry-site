@@ -99,6 +99,17 @@ import EfisiensiEnergi from "../content/materi/UsahaDanEnergi/EfisiensiEnergi.js
 import AplikasiUsahaDanEnergi from "../content/materi/UsahaDanEnergi/AplikasiUsahaDanEnergi.js"
 import PenutupUsahaDanEnergi from "../content/materi/UsahaDanEnergi/PenutupUsahaDanEnergi.js"
 
+/* kesetimbangan danmomen gaya */
+import PengantarKesetimbangan from "../content/materi/KesetimbanganDanDinamikaRotasi/PengantarKesetimbangan.js"
+import KesetimbanganPartikel from "../content/materi/KesetimbanganDanDinamikaRotasi/KesetimbanganPartikel.js"
+import MomenGaya from "../content/materi/KesetimbanganDanDinamikaRotasi/MomenGaya.js"
+import KesetimbanganBendaTegar from  "../content/materi/KesetimbanganDanDinamikaRotasi/KesetimbanganBendaTegar.js"
+import TitikBerat from "../content/materi/KesetimbanganDanDinamikaRotasi/TitikBerat.js"
+import JenisKesetimbangan from "../content/materi/KesetimbanganDanDinamikaRotasi/JenisKesetimbangan.js"
+import Pengungkit from "../content/materi/KesetimbanganDanDinamikaRotasi/Pengungkit.js"
+import AplikasiKesetimbangan from "../content/materi/KesetimbanganDanDinamikaRotasi/AplikasiKesetimbangan.js"
+import PenutupKesetimbangan from "../content/materi/KesetimbanganDanDinamikaRotasi/PenutupKesetimbangan.js"
+
 /* elastisitas dan hukum hooke */
 import PengantarElastisitas from "../content/materi/ElastisitasDanHukum Hooke/PengantarElastisitas.js"
 import ElastisitasDanPlastisitas from "../content/materi/ElastisitasDanHukum Hooke/ElastisitasDanPlastisitas"
@@ -125,9 +136,9 @@ import Hukum3Termodinamika from "../content/materi/Termodinamika/Hukum3Termodina
 
 
 /* fluida */
-import PengertianFluida from "../content/materi/Fluida/PengertianFluida.js"
+import PengertianFluida from "../content/materi/Fluida/PengantarFluida.js"
 import MassaJenis from "../content/materi/Fluida/MassaJenis.js"
-import TekananFluida from "../content/materi/Fluida/TekananFluida.js"
+import TekananFluida from "../content/materi/Fluida/DasarTekanan.js"
 import TekananHidrostatis from "../content/materi/Fluida/TekananHidrostatis.js"
 import HukumPascal from "../content/materi/Fluida/HukumPascal.js"
 import HukumAchimedes from "../content/materi/Fluida/HukumAchimedes.js"
@@ -245,6 +256,17 @@ export const materials = [
   PenutupMomentumDanImpuls,
   MesinKalor,
   EfisiensiMesinKalor,
+
+  /* Chapter : kesetimbangan dan dinamika rotasi */
+  PengantarKesetimbangan,
+  KesetimbanganPartikel,
+  MomenGaya,
+  KesetimbanganBendaTegar,
+  TitikBerat,
+  JenisKesetimbangan,
+  Pengungkit,
+  AplikasiKesetimbangan,
+  PenutupKesetimbangan,
 
   /* Chapter : Usaha dan Energi */
   PengantarUsahaDanEnergi,

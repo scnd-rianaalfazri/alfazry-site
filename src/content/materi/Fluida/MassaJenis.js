@@ -1,8 +1,8 @@
 const massajenis = {
   title: "Massa Jenis Fluida",
   slug: "massa jenis fluida",
-  description: "Memahami konsep massa jenis dan pengaruhnya dalam kehidupan sehari-hari.",
   chapter: "💧 Fluida",
+  description: "Memahami konsep massa jenis dan pengaruhnya dalam kehidupan sehari-hari.",
   
   content: [
     {

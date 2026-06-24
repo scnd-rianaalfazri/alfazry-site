@@ -1,8 +1,8 @@
 const meniskus = {
   title: "Meniskus",
   slug: "meniskus",
-  description: "Memahami bentuk permukaan zat cair dalam wadah akibat pengaruh gaya adhesi dan kohesi.",
   chapter: "💧 Fluida",  
+  description: "Memahami bentuk permukaan zat cair dalam wadah akibat pengaruh gaya adhesi dan kohesi.",
   
   content: [
     {

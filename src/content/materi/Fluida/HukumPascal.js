@@ -1,98 +1,167 @@
 const hukumpascal = {
   title: "Hukum Pascal",
   slug: "hukum pascal",
-  description: "Memahami bagaimana tekanan pada fluida dalam ruang tertutup diteruskan ke segala arah dengan besar yang sama.",
   chapter: "💧 Fluida",
-  
+  description: "Memahami Hukum Pascal, prinsip transmisi tekanan pada fluida, serta penerapannya dalam berbagai teknologi hidrolik.",
+
   content: [
     {
-      heading: "🚗 Kok Mobil Bisa Terangkat Hanya dengan Menekan Tuas?",
+      heading: "🚗 Bagaimana Dongkrak Bisa Mengangkat Mobil?",
       body: [
-        "Pernah melihat mobil di bengkel terangkat menggunakan dongkrak hidrolik?",
-        "Padahal mekanik hanya memberikan gaya yang relatif kecil pada tuas.",
-        "Rahasianya terletak pada Hukum Pascal, salah satu prinsip penting dalam fluida."
+        "Mengangkat mobil dengan tangan tentu sangat sulit.",
+        "",
+        "Namun dengan dongkrak hidrolik, gaya kecil yang diberikan pada tuas dapat mengangkat mobil yang massanya jauh lebih besar.",
+        "",
+        "Fenomena ini dijelaskan oleh Hukum Pascal."
       ]
     },
+
     {
-      heading: "📖 Apa Itu Hukum Pascal?",
+      heading: "📍 Bunyi Hukum Pascal",
       body: [
-        "Hukum Pascal menyatakan bahwa tekanan yang diberikan pada fluida dalam ruang tertutup akan diteruskan ke segala arah dengan besar yang sama.",
-        "Artinya, jika kita memberikan tekanan pada satu bagian fluida, tekanan tersebut akan diteruskan ke seluruh bagian fluida."
+        "Hukum Pascal menyatakan bahwa tekanan yang diberikan pada fluida dalam ruang tertutup akan diteruskan sama besar ke segala arah."
       ]
     },
+
     {
-      heading: "🧪 Percobaan Sederhana",
+      heading: "💡 Makna Hukum Pascal",
       body: [
-        "Bayangkan sebuah suntikan yang ujungnya ditutup.",
-        "Saat piston ditekan, tekanan akan diteruskan ke seluruh cairan di dalam suntikan.",
-        "Inilah contoh sederhana penerapan Hukum Pascal."
+        "Jika suatu bagian fluida ditekan, seluruh fluida akan menerima tambahan tekanan yang sama.",
+        "",
+        "Akibatnya gaya dapat diteruskan dari satu titik ke titik lainnya melalui fluida."
       ]
     },
+
     {
-      heading: "🧮 Persamaan Hukum Pascal",
+      heading: "🌊 Mengapa Fluida Dapat Meneruskan Tekanan?",
       body: [
-        "Karena tekanan pada kedua piston sama, maka berlaku hubungan berikut:"
-      ],
-      formula: "F₁/A₁ = F₂/A₂"
-    },
-    {
-      heading: "📚 Keterangan Rumus",
-      body: [
-        "F₁ = gaya pada piston kecil (N)",
-        "A₁ = luas penampang piston kecil (m²)",
-        "F₂ = gaya pada piston besar (N)",
-        "A₂ = luas penampang piston besar (m²)"
+        "Partikel-partikel fluida saling berdekatan dan dapat meneruskan tekanan yang diterimanya ke seluruh bagian fluida."
       ]
     },
+
     {
-      heading: "🔍 Apa Artinya?",
+      heading: "⚙️ Sistem Hidrolik",
       body: [
-        "Jika luas penampang piston kedua lebih besar, gaya yang dihasilkan juga akan lebih besar.",
-        "Dengan kata lain, gaya kecil dapat diperbesar menggunakan sistem hidrolik."
+        "Prinsip Hukum Pascal dimanfaatkan dalam sistem hidrolik.",
+        "",
+        "Sistem ini menggunakan fluida untuk memperbesar gaya yang dihasilkan."
       ]
     },
+
     {
-      heading: "🧮 Contoh Perhitungan",
+      heading: "📏 Dua Piston Berbeda Ukuran",
       body: [
-        "Sebuah dongkrak hidrolik memiliki luas piston kecil 0,01 m² dan luas piston besar 0,2 m².",
-        "Jika pada piston kecil diberikan gaya 100 N, berapakah gaya yang dihasilkan pada piston besar?"
-      ],
-      formula: "F₂ = (100 × 0,2) / 0,01 = 2000 N"
-    },
-    {
-      heading: "🚗 Penerapan Hukum Pascal",
-      body: [
-        "Dongkrak hidrolik untuk mengangkat kendaraan.",
-        "Rem hidrolik pada mobil dan sepeda motor.",
-        "Kursi hidrolik di salon atau tempat cukur rambut.",
-        "Mesin press hidrolik di industri."
+        "Sistem hidrolik biasanya terdiri atas dua piston yang memiliki luas penampang berbeda.",
+        "",
+        "Piston kecil menerima gaya masukan, sedangkan piston besar menghasilkan gaya keluaran."
       ]
     },
+
     {
-      heading: "🛠️ Cara Kerja Dongkrak Hidrolik",
+      heading: "🚗 Dongkrak Hidrolik",
       body: [
-        "Saat piston kecil ditekan, tekanan diteruskan oleh fluida ke piston besar.",
-        "Karena luas piston besar lebih besar, gaya keluaran menjadi jauh lebih besar.",
-        "Akibatnya mobil yang berat dapat terangkat meskipun gaya awal relatif kecil."
+        "Dongkrak hidrolik memungkinkan gaya kecil digunakan untuk mengangkat kendaraan yang berat."
       ]
     },
+
     {
-      heading: "🚀 Fakta Menarik",
+      heading: "🛑 Rem Hidrolik",
       body: [
-        "Prinsip yang sama digunakan pada alat berat seperti excavator.",
-        "Rem hidrolik memungkinkan pengemudi menghentikan kendaraan dengan tenaga kaki yang tidak terlalu besar.",
-        "Tanpa Hukum Pascal, banyak teknologi modern akan jauh lebih sulit digunakan."
+        "Saat pedal rem ditekan, tekanan diteruskan oleh fluida ke seluruh sistem pengereman sehingga kendaraan dapat berhenti dengan aman."
       ]
     },
+
     {
-      heading: "🎯 Kesimpulan",
+      heading: "💺 Kursi Hidrolik",
       body: [
-        "Tekanan yang diberikan pada fluida dalam ruang tertutup diteruskan sama besar ke segala arah.",
-        "Hukum Pascal memungkinkan gaya kecil menghasilkan gaya yang jauh lebih besar.",
-        "Prinsip ini menjadi dasar berbagai sistem hidrolik yang digunakan dalam kehidupan sehari-hari."
+        "Kursi hidrolik pada salon atau klinik dapat dinaikkan dan diturunkan dengan memanfaatkan tekanan fluida."
+      ]
+    },
+
+    {
+      heading: "🏗️ Alat Berat",
+      body: [
+        "Excavator dan berbagai alat konstruksi menggunakan sistem hidrolik untuk menghasilkan gaya yang sangat besar."
+      ]
+    },
+
+    {
+      heading: "⚖️ Mengapa Gaya Bisa Membesar?",
+      body: [
+        "Karena tekanan pada kedua piston sama, piston dengan luas yang lebih besar akan menghasilkan gaya yang lebih besar."
+      ]
+    },
+
+    {
+      heading: "📈 Hubungan Luas dan Gaya",
+      body: [
+        "Semakin besar luas piston keluaran, semakin besar gaya yang dapat dihasilkan."
+      ]
+    },
+
+    {
+      heading: "🌎 Penerapan Hukum Pascal",
+      body: [
+        "Hukum Pascal digunakan dalam industri, transportasi, alat kesehatan, hingga sistem konstruksi modern."
+      ]
+    },
+
+    {
+      heading: "⚠️ Keterbatasan Sistem Hidrolik",
+      body: [
+        "Sistem hidrolik memerlukan fluida yang tidak mudah dimampatkan agar tekanan dapat diteruskan secara efektif."
+      ]
+    },
+
+    {
+      heading: "⚠️ Miskonsepsi yang Sering Terjadi",
+      body: [
+        "Banyak siswa mengira sistem hidrolik menciptakan energi tambahan.",
+        "",
+        "Padahal sistem hidrolik hanya memperbesar gaya dengan mengorbankan jarak perpindahan."
+      ]
+    },
+
+    {
+      heading: "📊 Ringkasan Konsep",
+      body: [
+        "Tekanan Diberikan",
+        "⬇️",
+        "Fluida Tertutup",
+        "⬇️",
+        "Tekanan Diteruskan",
+        "⬇️",
+        "Gaya Dapat Diperbesar"
+      ]
+    },
+
+    {
+      heading: "🔗 Hubungan dengan Materi Berikutnya",
+      body: [
+        "Selain meneruskan tekanan, fluida juga dapat memberikan gaya ke atas yang menyebabkan benda mengapung atau tenggelam."
+      ]
+    },
+
+    {
+      heading: "🧠 Inti Materi",
+      body: [
+        "Hukum Pascal menyatakan bahwa tekanan yang diberikan pada fluida dalam ruang tertutup diteruskan sama besar ke segala arah.",
+        "",
+        "Prinsip ini memungkinkan sistem hidrolik memperbesar gaya yang dihasilkan.",
+        "",
+        "Hukum Pascal banyak digunakan dalam teknologi modern seperti dongkrak dan rem hidrolik."
+      ]
+    },
+
+    {
+      heading: "🚀 Next Mission",
+      body: [
+        "Mengapa kapal baja dapat mengapung di laut meskipun massanya sangat besar?",
+        "",
+        "➡️ Selanjutnya: Hukum Archimedes."
       ]
     }
   ]
-};
+}
 
 export default hukumpascal
