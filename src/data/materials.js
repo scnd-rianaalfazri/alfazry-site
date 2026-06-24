@@ -98,6 +98,21 @@ import EfisiensiEnergi from "../content/materi/UsahaDanEnergi/EfisiensiEnergi.js
 import AplikasiUsahaDanEnergi from "../content/materi/UsahaDanEnergi/AplikasiUsahaDanEnergi.js"
 import PenutupUsahaDanEnergi from "../content/materi/UsahaDanEnergi/PenutupUsahaDanEnergi.js"
 
+/* elastisitas dan hukum hooke */
+import PengantarElastisitas from "../content/materi/ElastisitasDanHukum Hooke/PengantarElastisitas.js"
+import ElastisitasDanPlastisitas from "../content/materi/ElastisitasDanHukum Hooke/ElastisitasDanPlastisitas"
+import Tegangan from "../content/materi/ElastisitasDanHukum Hooke/Tegangan.js"
+
+/* hukum termodinamika */
+import PengantarTermodinamika from "../content/materi/Termodinamika/PengantarTermodinamika.js"
+import SistemTermodinamika from "../content/materi/Termodinamika/SistemTermodinamika.js"
+import VariabelKeadaan from "../content/materi/Termodinamika/SistemTermodinamika.js"
+import GasIdeal from "../content/materi/Termodinamika/GasIdeal.js"
+import EnergiDalam from "../content/materi/Termodinamika/EnergiDalam.js"
+import UsahaPadaGas from "../content/materi/Termodinamika/UsahaPadaGas.js"
+import HukumITermodinamika from "../content/materi/Termodinamika/Hukum1Termodinamika.js"
+import ProsesProsesTermodinamika from "../content/materi/Termodinamika/ProsesTermodinamika.js"
+
 /* fluida */
 import PengertianFluida from "../content/materi/Fluida/PengertianFluida.js"
 import MassaJenis from "../content/materi/Fluida/MassaJenis.js"
@@ -109,14 +124,19 @@ import TeganganPermukaan from "../content/materi/Fluida/TeganganPermukaan.js"
 import Kapilaritas from "../content/materi/Fluida/Kapilaritas.js"
 import Meniskus from "../content/materi/Fluida/Meniskus.js"
 
+/* gelombang */
+import PengantarGelombang from "../content/materi/Gelombang/PengantarGelombang.js"
+import JenisGelombang from "../content/materi/Gelombang/JenisGelombang.js"
+import BesaranGelombang from "../content/materi/Gelombang/BesaranGelombang.js"
 
-import Gelombang from "../content/materi/kelas-xi/gelombang.js"
+
 import PengertianListrikStatis from "../content/materi/kelas-xii/ListrikStatis/PengertianListrikStatis.js"
 import HukumColoumb from "../content/materi/kelas-xii/ListrikStatis/HukumColoumb.js"
 import ResultanGayaColoumb from "../content/materi/kelas-xii/ListrikStatis/ResultanGayaColoumb.js"
 import hukumnewtondua from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonDua.js"
 import pengertianmomentum from "../content/materi/DinamikaMomentumDanImpuls/PengertianMomentum.js"
 import pengantarusahadanenergi from "../content/materi/UsahaDanEnergi/PengantarUsahaDanEnergi.js"
+import pengantartermodinamika from "../content/materi/Termodinamika/PengantarTermodinamika.js"
 
 /* EKSPORT CONTENT */
 export const materials = [
@@ -218,7 +238,23 @@ export const materials = [
   AplikasiUsahaDanEnergi,
   PenutupUsahaDanEnergi,
 
-  /* fluida */
+  /* Chapter : elastisitas dan hukum hooke */
+  PengantarElastisitas,
+  ElastisitasDanPlastisitas,
+  Tegangan,
+
+  /* Chapter : hukum termodinamika */
+  PengantarTermodinamika,
+  SistemTermodinamika,
+  VariabelKeadaan,
+  GasIdeal,
+  EnergiDalam,
+  UsahaPadaGas,
+  HukumITermodinamika,
+  ProsesProsesTermodinamika,
+
+
+  /* Chapter : fluida */
   PengertianFluida,
   MassaJenis,
   TekananFluida,
@@ -229,7 +265,11 @@ export const materials = [
   Kapilaritas,
   Meniskus,
 
-  Gelombang,
+  /* Chapter: gelombang */
+  PengantarGelombang,
+  JenisGelombang,
+  BesaranGelombang,
+
   PengertianListrikStatis,
   HukumColoumb,
   ResultanGayaColoumb

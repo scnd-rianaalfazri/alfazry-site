@@ -6,7 +6,7 @@ import pemecahanvektorImg from "/src/assets/Materi/Vektor/KomponenVektor4.jpg"
 import bentuksegitigavektorImg from "/src/assets/Materi/Vektor/KomponenVektor5.jpg"
 import contoharahvektorImg from "/src/assets/Materi/Vektor/KomponenVektor6.jpg"
 import penerapanvektorImg from "/src/assets/Materi/Vektor/KomponenVektor7.jpg"
-import nextmissionmenghitungkomponenvektor from "/src/assets/Materi/Vektor/KomponenVektor8.jpg"
+import nextmissionmenghitungkomponenvektor from "/src/assets/Materi/Vektor/KompunenVektor8.jpg"
 
 const komponenvektor = {
   title: "Komponen Vektor",
