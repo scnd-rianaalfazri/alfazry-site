@@ -80,7 +80,7 @@ import HukumKekekalanMomentum from "../content/materi/DinamikaMomentumDanImpuls/
 import JenisjenisTumbukan from "../content/materi/DinamikaMomentumDanImpuls/JenisjenisTumbukan.js"
 import TumbukanLentingSempurna from "../content/materi/DinamikaMomentumDanImpuls/TumbukanLentingSempurna.js"
 import TumbukanLentingSebagian from "../content/materi/DinamikaMomentumDanImpuls/TumbukanLentingSebagian.js"
-import TumbukanTidakLentingSamasekali from "../content/materi/DinamikaMomentumDanImpuls/tumbukanTidakLentingSamaSekali.js"
+import TumbukanTidakLentingSamasekali from "../content/materi/DinamikaMomentumDanImpuls/TumbukanTidakLentingSamaSekali.js"
 import KoefisienRestitusi from "../content/materi/DinamikaMomentumDanImpuls/KoefisienRestitusi.js"
 import AplikasiMomentumDanImpuls from "../content/materi/DinamikaMomentumDanImpuls/AplikasiMomentumDanImpuls.js"
 import PenutupMomentumDanImpuls from "../content/materi/DinamikaMomentumDanImpuls/PenutupMomentumDanImpuls.js"
