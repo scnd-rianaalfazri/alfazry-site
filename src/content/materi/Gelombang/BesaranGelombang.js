@@ -1,8 +1,7 @@
 const besarangelombang = {
-  title: "Besaran-Besaran Gelombang",
+  title: "Besaran-besaran Gelombang",
   slug: "besaran gelombang",
   chapter: "🌊 Gelombang",
-
   description: "Memahami besaran-besaran yang digunakan untuk mendeskripsikan karakteristik gelombang, seperti amplitudo, panjang gelombang, periode, frekuensi, dan cepat rambat gelombang.",
 
   content: [

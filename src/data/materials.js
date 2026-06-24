@@ -52,6 +52,7 @@ import GayaNormal from "../content/materi/DinamikaGayaDanHukumNewton/GayaNormal.
 import GayaGesek from "../content/materi/DinamikaGayaDanHukumNewton/GayaGesek.js"
 import GayaTeganganTali from "../content/materi/DinamikaGayaDanHukumNewton/GayaTeganganTali.js"
 
+/* dinamika hukum newton */
 import HukumNewtonSatu from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonSatu.js"
 import HukumNewtonDua from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonDua.js"
 import HukumnewtonTiga from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonTiga.js"
@@ -112,6 +113,16 @@ import EnergiDalam from "../content/materi/Termodinamika/EnergiDalam.js"
 import UsahaPadaGas from "../content/materi/Termodinamika/UsahaPadaGas.js"
 import HukumITermodinamika from "../content/materi/Termodinamika/Hukum1Termodinamika.js"
 import ProsesProsesTermodinamika from "../content/materi/Termodinamika/ProsesTermodinamika.js"
+import ProsesIsotermal from "../content/materi/Termodinamika/ProsesIsotermal.js"
+import ProsesIsokhorik from "../content/materi/Termodinamika/ProsesIsokhorik.js"
+import ProsesIsobarik from "../content/materi/Termodinamika/ProsesIsobarik.js"
+import ProsesAdiabatik from "../content/materi/Termodinamika/ProsesAdiabatik.js"
+import MesinKalor from "../content/materi/Termodinamika/MesinKalor.js"
+import EfisiensiMesinKalor from "../content/materi/Termodinamika/EfisiensiMesinKalor.js"
+import MesinPendinginDanAC from "../content/materi/Termodinamika/MesinPendinginDanAC.js"
+import Hukum2Termodinamika from "../content/materi/Termodinamika/Hukum2Termodinamika.js"
+import Hukum3Termodinamika from "../content/materi/Termodinamika/Hukum3Termodinamika.js"
+
 
 /* fluida */
 import PengertianFluida from "../content/materi/Fluida/PengertianFluida.js"
@@ -128,15 +139,24 @@ import Meniskus from "../content/materi/Fluida/Meniskus.js"
 import PengantarGelombang from "../content/materi/Gelombang/PengantarGelombang.js"
 import JenisGelombang from "../content/materi/Gelombang/JenisGelombang.js"
 import BesaranGelombang from "../content/materi/Gelombang/BesaranGelombang.js"
+import PersamaanGelombang from "../content/materi/Gelombang/PersamaanGelombang.js"
+import CepatRambatGelombang from "../content/materi/Gelombang/CepatRambatGelombang.js"
+import PemantulanGelombang from "../content/materi/Gelombang/PemantulanGelombang.js"
+import PembiasanGelombang from "../content/materi/Gelombang/PembiasanGelombang.js"
+import DifraksiGelombang from "../content/materi/Gelombang/DifraksiGelombang.js"
+import InterferensiGelombang from "../content/materi/Gelombang/InterferensiGelombang.js"
+import GelommbangStationer from "../content/materi/Gelombang/GelombangStatisoner.js"
+import AplikasiGelombang from "../content/materi/Gelombang/AplikasiGelombang.js"
+import PenutupGelombang from "../content/materi/Gelombang/PenutupGelombang.js"
 
+/* Bunyi */
+import PengantarBunyi from "../content/materi/Bunyi/PengantarBunyi.js"
+import SumberBunyi from "../content/materi/Bunyi/SumberBunyi.js"
+import SifatGelombangBunyi from "../content/materi/Bunyi/SifatGelombangBunyi"
 
 import PengertianListrikStatis from "../content/materi/kelas-xii/ListrikStatis/PengertianListrikStatis.js"
 import HukumColoumb from "../content/materi/kelas-xii/ListrikStatis/HukumColoumb.js"
 import ResultanGayaColoumb from "../content/materi/kelas-xii/ListrikStatis/ResultanGayaColoumb.js"
-import hukumnewtondua from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonDua.js"
-import pengertianmomentum from "../content/materi/DinamikaMomentumDanImpuls/PengertianMomentum.js"
-import pengantarusahadanenergi from "../content/materi/UsahaDanEnergi/PengantarUsahaDanEnergi.js"
-import pengantartermodinamika from "../content/materi/Termodinamika/PengantarTermodinamika.js"
 
 /* EKSPORT CONTENT */
 export const materials = [
@@ -213,7 +233,6 @@ export const materials = [
 
   /* Chapter : Dinamika Momentum dan Impuls */
   PengantarMomentumDanImpuls,
-  pengertianmomentum,
   PengertianMomentum,
   pengertianimpuls,
   HubunganMomentumImpuls,
@@ -224,6 +243,8 @@ export const materials = [
   TumbukanTidakLentingSamasekali,
   KoefisienRestitusi,
   PenutupMomentumDanImpuls,
+  MesinKalor,
+  EfisiensiMesinKalor,
 
   /* Chapter : Usaha dan Energi */
   PengantarUsahaDanEnergi,
@@ -252,8 +273,16 @@ export const materials = [
   UsahaPadaGas,
   HukumITermodinamika,
   ProsesProsesTermodinamika,
-
-
+  ProsesIsotermal,
+  ProsesIsokhorik,
+  ProsesIsobarik,
+  ProsesAdiabatik,
+  MesinKalor,
+  EfisiensiMesinKalor,
+  MesinPendinginDanAC,
+  Hukum2Termodinamika,
+  Hukum3Termodinamika,
+  
   /* Chapter : fluida */
   PengertianFluida,
   MassaJenis,
@@ -269,6 +298,20 @@ export const materials = [
   PengantarGelombang,
   JenisGelombang,
   BesaranGelombang,
+  PersamaanGelombang,
+  CepatRambatGelombang,
+  PemantulanGelombang,
+  PembiasanGelombang,
+  DifraksiGelombang,
+  InterferensiGelombang,
+  GelommbangStationer,
+  AplikasiGelombang,
+  PenutupGelombang,
+
+  /* Bunyi */
+  PengantarBunyi,
+  SumberBunyi,
+  SifatGelombangBunyi,
 
   PengertianListrikStatis,
   HukumColoumb,

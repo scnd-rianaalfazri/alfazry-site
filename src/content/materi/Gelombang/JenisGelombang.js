@@ -2,7 +2,6 @@ const jenisjenisgelombang = {
   title: "Jenis-Jenis Gelombang",
   slug: "jenis jenis gelombang",
   chapter: "🌊 Gelombang",
-
   description: "Memahami pengelompokan gelombang berdasarkan medium perambatan dan arah getarnya.",
 
   content: [
