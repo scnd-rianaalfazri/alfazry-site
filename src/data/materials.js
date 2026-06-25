@@ -128,6 +128,7 @@ import PenutupElastisitas from "../content/materi/ElastisitasDanHukum Hooke/Penu
 import PengantarTermodinamika from "../content/materi/Termodinamika/PengantarTermodinamika.js"
 import SistemTermodinamika from "../content/materi/Termodinamika/SistemTermodinamika.js"
 import VariabelKeadaan from "../content/materi/Termodinamika/SistemTermodinamika.js"
+import Hukum0Termodinamika from "../content/materi/Termodinamika/Hukum0Termodinamika.js"
 import GasIdeal from "../content/materi/Termodinamika/GasIdeal.js"
 import EnergiDalam from "../content/materi/Termodinamika/EnergiDalam.js"
 import UsahaPadaGas from "../content/materi/Termodinamika/UsahaPadaGas.js"
@@ -142,6 +143,8 @@ import EfisiensiMesinKalor from "../content/materi/Termodinamika/EfisiensiMesinK
 import MesinPendinginDanAC from "../content/materi/Termodinamika/MesinPendinginDanAC.js"
 import Hukum2Termodinamika from "../content/materi/Termodinamika/Hukum2Termodinamika.js"
 import Hukum3Termodinamika from "../content/materi/Termodinamika/Hukum3Termodinamika.js"
+import AplikasiTermodinamika from "../content/materi/Termodinamika/AplikasiTermodinamika.js"
+import PenutupTermodinamika from "../content/materi/Termodinamika/PenutupTermodinamika.js"
 
 
 /* fluida */
@@ -184,9 +187,39 @@ import InfrasonikAudiosonikUltrasonik from "../content/materi/Bunyi/InfrasonikAu
 import AplikasiBunyi from "../content/materi/Bunyi/AplikasiBunyi.js"
 import PenutupBunyi from "../content/materi/Bunyi/PenutupBunyi.js"
 
+/* Cahaya dan Alat Optik */
+import PengantarCahaya from "../content/materi/CahayaDanAlatOptik/PengantarCahaya.js"
+import SifatCahaya from "../content/materi/CahayaDanAlatOptik/PengantarCahaya.js"
+import CepatRambatCahaya from "../content/materi/CahayaDanAlatOptik/CepatRambatCahaya.js"
+import PemantulanCahaya from "../content/materi/CahayaDanAlatOptik/PemantulanCahaya.js"
+import HukumPemantulanCahaya from "../content/materi/CahayaDanAlatOptik/HukumPemantulanCahaya.js"
+import CerminDatar from "../content/materi/CahayaDanAlatOptik/CerminDatar.js"
+import CerminCekung from "../content/materi/CahayaDanAlatOptik/CerminCekung.js"
+import CerminCembung from "../content/materi/CahayaDanAlatOptik/CerminCembung.js"
+import PembiasanCahaya from "../content/materi/CahayaDanAlatOptik/PembiasanCahaya.js"
+import HukumSnellius from "../content/materi/CahayaDanAlatOptik/HukumSnelius.js"
+import IndexBias from "../content/materi/CahayaDanAlatOptik/IndexBias.js"
+import DispersiCahaya from "../content/materi/CahayaDanAlatOptik/DispersiCahaya.js"
+import PengantarLensa from "../content/materi/CahayaDanAlatOptik/PengantarLensa.js"
+import LensaCembung from "../content/materi/CahayaDanAlatOptik/LensaCembung.js"
+import LensaCekung from "../content/materi/CahayaDanAlatOptik/LensaCekung.js"
+import MataDanPenglihatan from "../content/materi/CahayaDanAlatOptik/MataDanPenglihatan.js"
+import CacatMata from "../content/materi/CahayaDanAlatOptik/CacatMata.js"
+import AlatalatOptik from "../content/materi/CahayaDanAlatOptik/AlatOptik.js"
+import Lup from "../content/materi/CahayaDanAlatOptik/Lup.js"
+import Mikroskop from "../content/materi/CahayaDanAlatOptik/Mikroskop.js"
+import Teropong from "../content/materi/CahayaDanAlatOptik/Teropong.js"
+import Kamera from "../content/materi/CahayaDanAlatOptik/Kamera.js"
+import AplikasiCahayaDanAlatOptik from "../content/materi/CahayaDanAlatOptik/AplikasiCahayaDanAlatOptik.js"
+import PenutupCahayaDanAlatOptik from "../content/materi/CahayaDanAlatOptik/PenutupCahayaDanAlatOptik.js"
+
 import PengertianListrikStatis from "../content/materi/kelas-xii/ListrikStatis/PengertianListrikStatis.js"
 import HukumColoumb from "../content/materi/kelas-xii/ListrikStatis/HukumColoumb.js"
 import ResultanGayaColoumb from "../content/materi/kelas-xii/ListrikStatis/ResultanGayaColoumb.js"
+import hukum0termodinamika from "../content/materi/Termodinamika/Hukum0Termodinamika.js"
+import pemantulancahaya from "../content/materi/CahayaDanAlatOptik/PemantulanCahaya.js"
+import hukumpemantulancahaya from "../content/materi/CahayaDanAlatOptik/HukumPemantulanCahaya.js"
+import kamera from "../content/materi/CahayaDanAlatOptik/Kamera.js"
 
 /* EKSPORT CONTENT */
 export const materials = [
@@ -273,9 +306,7 @@ export const materials = [
   TumbukanTidakLentingSamasekali,
   KoefisienRestitusi,
   PenutupMomentumDanImpuls,
-  MesinKalor,
-  EfisiensiMesinKalor,
-
+ 
   /* Chapter : kesetimbangan dan dinamika rotasi */
   PengantarKesetimbangan,
   KesetimbanganPartikel,
@@ -318,6 +349,7 @@ export const materials = [
   PengantarTermodinamika,
   SistemTermodinamika,
   VariabelKeadaan,
+  hukum0termodinamika,
   GasIdeal,
   EnergiDalam,
   UsahaPadaGas,
@@ -332,6 +364,8 @@ export const materials = [
   MesinPendinginDanAC,
   Hukum2Termodinamika,
   Hukum3Termodinamika,
+  AplikasiTermodinamika,
+  PenutupTermodinamika,
   
   /* Chapter : fluida */
   PengertianFluida,
@@ -358,7 +392,7 @@ export const materials = [
   AplikasiGelombang,
   PenutupGelombang,
 
-  /* Bunyi */
+  /* Chapter: bunyi */
   PengantarBunyi,
   SumberBunyi,
   SifatGelombangBunyi,
@@ -373,6 +407,31 @@ export const materials = [
   AplikasiBunyi,
   PenutupBunyi,
 
+  /* Chapter : cahaya */
+  PengantarCahaya,
+  SifatCahaya,
+  CepatRambatCahaya,
+  PemantulanCahaya,
+  HukumPemantulanCahaya,
+  CerminDatar,
+  CerminCekung,
+  CerminCembung,
+  PembiasanCahaya,
+  HukumSnellius,
+  IndexBias,
+  DispersiCahaya,
+  PengantarLensa,
+  LensaCembung,
+  LensaCekung,
+  MataDanPenglihatan,
+  CacatMata,
+  Lup,
+  Mikroskop,
+  Teropong,
+  AplikasiCahayaDanAlatOptik,
+  PenutupCahayaDanAlatOptik,
+
+  
   PengertianListrikStatis,
   HukumColoumb,
   ResultanGayaColoumb
