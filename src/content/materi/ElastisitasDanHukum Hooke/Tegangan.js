@@ -3,7 +3,7 @@ const tegangan = {
   slug: "tegangan",
   description: "Memahami konsep tegangan sebagai ukuran gaya yang bekerja pada setiap satuan luas penampang suatu material.",
   chapter : "🗺️ Pengantar Elastisitas",
-
+  
   content: [
     {
       heading: "🎯 Mengapa Paku Lebih Mudah Menembus Kayu?",
@@ -54,6 +54,15 @@ const tegangan = {
       heading: "🧮 Persamaan Tegangan",
       body: [
         "Secara matematis, tegangan diperoleh dengan membandingkan gaya yang bekerja terhadap luas penampang material."
+      ]
+    },
+
+    {
+      heading: "📖 Keterangan Simbol",
+      body: [
+        "σ = tegangan (Pa)",
+        "F = gaya (N)",
+        "A = luas penampang (m²)"
       ]
     },
 

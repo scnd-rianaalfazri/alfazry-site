@@ -114,6 +114,15 @@ import PenutupKesetimbangan from "../content/materi/KesetimbanganDanDinamikaRota
 import PengantarElastisitas from "../content/materi/ElastisitasDanHukum Hooke/PengantarElastisitas.js"
 import ElastisitasDanPlastisitas from "../content/materi/ElastisitasDanHukum Hooke/ElastisitasDanPlastisitas"
 import Tegangan from "../content/materi/ElastisitasDanHukum Hooke/Tegangan.js"
+import Regangan from "../content/materi/ElastisitasDanHukum Hooke/Regangan.js"
+import ModulusYoug from "../content/materi/ElastisitasDanHukum Hooke/ModulusYoung.js"
+import HukumHooke from "../content/materi/ElastisitasDanHukum Hooke/HukumHooke.js"
+import KonstantaPegas from "../content/materi/ElastisitasDanHukum Hooke/KonstantaPegas.js"
+import SusunanPegasSeri from "../content/materi/ElastisitasDanHukum Hooke/SusunanPegasSeri.js"
+import SusunanPegasParalel from "../content/materi/ElastisitasDanHukum Hooke/SusunanPegasParalel"
+import EnergiPotensialPegas from "../content/materi/ElastisitasDanHukum Hooke/EnergiPotensialPegas.js"
+import AplikasElastisitas from "../content/materi/ElastisitasDanHukum Hooke/AplikasiElastisitas.js"
+import PenutupElastisitas from "../content/materi/ElastisitasDanHukum Hooke/PenutupElastisitas.js"
 
 /* hukum termodinamika */
 import PengantarTermodinamika from "../content/materi/Termodinamika/PengantarTermodinamika.js"
@@ -164,6 +173,16 @@ import PenutupGelombang from "../content/materi/Gelombang/PenutupGelombang.js"
 import PengantarBunyi from "../content/materi/Bunyi/PengantarBunyi.js"
 import SumberBunyi from "../content/materi/Bunyi/SumberBunyi.js"
 import SifatGelombangBunyi from "../content/materi/Bunyi/SifatGelombangBunyi"
+import CepatRambangBunyi from "../content/materi/Bunyi/CepatRambatBunyi.js"
+import KarakteristikBunyi from "../content/materi/Bunyi/KarakteristikBunyi.js"
+import IntensitasBunyi from "../content/materi/Bunyi/IntensitasBunyi.js"
+import TarafIntensitasBunyi from "../content/materi/Bunyi/TarafIntensitasBunyi.js"
+import EffekDoppler from "../content/materi/Bunyi/EfekDoppler.js"
+import ResonansiBunyi from "../content/materi/Bunyi/ResonansiBunyi.js"
+import PelayanganBunyi from "../content/materi/Bunyi/PelayanganBunyi.js"
+import InfrasonikAudiosonikUltrasonik from "../content/materi/Bunyi/InfrasonikAudiosonikUltrasonik.js"
+import AplikasiBunyi from "../content/materi/Bunyi/AplikasiBunyi.js"
+import PenutupBunyi from "../content/materi/Bunyi/PenutupBunyi.js"
 
 import PengertianListrikStatis from "../content/materi/kelas-xii/ListrikStatis/PengertianListrikStatis.js"
 import HukumColoumb from "../content/materi/kelas-xii/ListrikStatis/HukumColoumb.js"
@@ -285,6 +304,15 @@ export const materials = [
   PengantarElastisitas,
   ElastisitasDanPlastisitas,
   Tegangan,
+  Regangan,
+  ModulusYoug,
+  HukumHooke,
+  KonstantaPegas,
+  SusunanPegasSeri,
+  SusunanPegasParalel,
+  EnergiPotensialPegas,
+  AplikasElastisitas,
+  PenutupElastisitas,
 
   /* Chapter : hukum termodinamika */
   PengantarTermodinamika,
@@ -334,6 +362,16 @@ export const materials = [
   PengantarBunyi,
   SumberBunyi,
   SifatGelombangBunyi,
+  CepatRambangBunyi,
+  KarakteristikBunyi,
+  IntensitasBunyi,
+  TarafIntensitasBunyi,
+  EffekDoppler,
+  ResonansiBunyi,
+  PelayanganBunyi,
+  InfrasonikAudiosonikUltrasonik,
+  AplikasiBunyi,
+  PenutupBunyi,
 
   PengertianListrikStatis,
   HukumColoumb,

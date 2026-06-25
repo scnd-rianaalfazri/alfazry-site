@@ -1,8 +1,8 @@
 const elastisitasdanplastisitas = {
   title: "Elastisitas dan Plastisitas",
+  description: "Memahami perbedaan antara benda elastis dan plastis berdasarkan kemampuan benda untuk kembali ke bentuk semula setelah mengalami deformasi.",
   slug: "elastisitas dan plastisitas",
   chapter: "🗺️ Pengantar Elastisitas",
-  description: "Memahami perbedaan antara benda elastis dan plastis berdasarkan kemampuan benda untuk kembali ke bentuk semula setelah mengalami deformasi.",
 
   content: [
     {
