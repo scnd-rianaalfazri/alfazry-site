@@ -213,13 +213,26 @@ import Kamera from "../content/materi/CahayaDanAlatOptik/Kamera.js"
 import AplikasiCahayaDanAlatOptik from "../content/materi/CahayaDanAlatOptik/AplikasiCahayaDanAlatOptik.js"
 import PenutupCahayaDanAlatOptik from "../content/materi/CahayaDanAlatOptik/PenutupCahayaDanAlatOptik.js"
 
-import PengertianListrikStatis from "../content/materi/kelas-xii/ListrikStatis/PengertianListrikStatis.js"
-import HukumColoumb from "../content/materi/kelas-xii/ListrikStatis/HukumColoumb.js"
-import ResultanGayaColoumb from "../content/materi/kelas-xii/ListrikStatis/ResultanGayaColoumb.js"
-import hukum0termodinamika from "../content/materi/Termodinamika/Hukum0Termodinamika.js"
-import pemantulancahaya from "../content/materi/CahayaDanAlatOptik/PemantulanCahaya.js"
-import hukumpemantulancahaya from "../content/materi/CahayaDanAlatOptik/HukumPemantulanCahaya.js"
-import kamera from "../content/materi/CahayaDanAlatOptik/Kamera.js"
+/* Listrik Statis */
+import PengantarListrikStatis from "../content/materi/ListrikStatis/PengantarListrikStatis.js"
+import StrukturAtomDanMuatanListrik from "../content/materi/ListrikStatis/StrukturAtomDanMuatanListrik.js"
+import HukumKekekalanMuatan from "../content/materi/ListrikStatis/HukumKekekalanMuatan.js"
+import CaraMembriMuatan from "../content/materi/ListrikStatis/CaraMemberiMuatan.js"
+import InteraksiMuatan from "../content/materi/ListrikStatis/InteraksiMuatanListrik.js"
+import HukumColoumb from "../content/materi/ListrikStatis/Hukum Coloumb.js"
+import ResultanGayaColoumb from "../content/materi/ListrikStatis/ResultanGayaColoumb.js"
+import MedanListrik from "../content/materi/ListrikStatis/MedanListrik.js"
+import GarisMedanListrik from "../content/materi/ListrikStatis/GarisMedanListrik.js"
+import KuatMedanListrik from "../content/materi/ListrikStatis/KuatMedanListrik.js"
+import EnergiPotensialListrik from "../content/materi/ListrikStatis/EnergiPotensialListrik.js"
+import PotensialListrik from "../content/materi/ListrikStatis/PotensialListrik.js"
+import BedaPotensial from "../content/materi/ListrikStatis/BedaPotensial.js"
+import PermukaanEkipotensial from "../content/materi/ListrikStatis/PermukaanEkipotensial.js"
+import Kapasitor from "../content/materi/ListrikStatis/Kapasitor.js"
+import EnergiKapasitor from "../content/materi/ListrikStatis/EnergiKapasitor.js"
+import AplikasiListrikStatis from "../content/materi/ListrikStatis/AplikasiListrikStatis.js"
+import PenutupListrikStatis from "../content/materi/ListrikStatis/PenutupListrikStatis.js"
+
 
 /* EKSPORT CONTENT */
 export const materials = [
@@ -349,7 +362,7 @@ export const materials = [
   PengantarTermodinamika,
   SistemTermodinamika,
   VariabelKeadaan,
-  hukum0termodinamika,
+  Hukum0Termodinamika,
   GasIdeal,
   EnergiDalam,
   UsahaPadaGas,
@@ -431,8 +444,26 @@ export const materials = [
   AplikasiCahayaDanAlatOptik,
   PenutupCahayaDanAlatOptik,
 
-  
-  PengertianListrikStatis,
+  /* Chapter : listrik statis */
+  PengantarListrikStatis,
+  StrukturAtomDanMuatanListrik,
+  HukumKekekalanMuatan,
+  CaraMembriMuatan,
+  InteraksiMuatan,
   HukumColoumb,
-  ResultanGayaColoumb
+  ResultanGayaColoumb,
+  MedanListrik,
+  GarisMedanListrik,
+  KuatMedanListrik,
+  EnergiPotensialListrik,
+  PotensialListrik,
+  BedaPotensial,
+  PermukaanEkipotensial,
+  Kapasitor,
+  EnergiKapasitor,
+  AplikasiListrikStatis,
+  PenutupListrikStatis,
+
+  /* Chapter : Listrik arus searah */
+
 ]
