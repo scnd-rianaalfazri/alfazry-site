@@ -91,7 +91,7 @@ export default function Navbar() {
                 }
               `}
             >
-              Alfazry
+              Alfazrian
               <span
                 className="
                   text-cyan-400

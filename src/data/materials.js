@@ -233,6 +233,36 @@ import EnergiKapasitor from "../content/materi/ListrikStatis/EnergiKapasitor.js"
 import AplikasiListrikStatis from "../content/materi/ListrikStatis/AplikasiListrikStatis.js"
 import PenutupListrikStatis from "../content/materi/ListrikStatis/PenutupListrikStatis.js"
 
+/* Listrik Dinamis : Arus Searah */
+import PengantarListrikDinamis from "../content/materi/ListrikArusSearah/PengantarListrikDinamis.js"
+import ArusListrik from "../content/materi/ListrikArusSearah/ArusListrik.js"
+import HambatanListrik from "../content/materi/ListrikArusSearah/HambatanListrik.js"
+import HukumOhm from "../content/materi/ListrikArusSearah/HukumOhm.js"
+import RangkaianHambatanSeri from "../content/materi/ListrikArusSearah/RangkaianHambatanSeri.js"
+import RangkaianHambatanParalel from "../content/materi/ListrikArusSearah/RangkaianHambatanParalel"
+import RangkaianHambatanCampuran from "../content//materi/ListrikArusSearah/RangkaianHambatanCampuran.js"
+import EnergiListrik from "../content/materi/ListrikArusSearah/EnergiListrik.js"
+import DayaListrik from "../content/materi/ListrikArusSearah/DayaListrik.js"
+import EnergiListrikKehidupan from "../content/materi/ListrikArusSearah/EnergiListrikKehidupan.js"
+import HukumJoule from "../content/materi/ListrikArusSearah/HukumJoule.js"
+import GayaGerakListrik from "../content/materi/ListrikArusSearah/GayaGerakListrik.js"
+import AlatUkurListrik from "../content/materi/ListrikArusSearah/AlatUkurListrik.js"
+import KeselamatanListrik from "../content/materi/ListrikArusSearah/KeselamatanListrik.js"
+import AplikasiListrikDinamis from "../content/materi/ListrikArusSearah/AplikasiListrikArusSearah.js"
+import PenutupListrikDinamis from "../content/materi/ListrikArusSearah/PenutupListrikDinamis.js"
+
+/* Listrik Dinamis : Arus Bolak Balik */
+import PengantarArusBolakBalik from "../content/materi/ListrikArusBolakBalik/PengantarArusBolakBalik.js"
+import GelombangSinus from "../content/materi/ListrikArusBolakBalik/GelombangSinus.js"
+import BesaranArusAC from "../content/materi/ListrikArusBolakBalik/BesaranArusAC.js"
+import PeriodeFrekuensi from "../content/materi/ListrikArusBolakBalik/PeriodeFrekuensiAC.js"
+import PersamaanArusTeganganAC from "../content/materi/ListrikArusBolakBalik/PersamaanArusTeganganAC.js"
+import GeneratorAC from "../content/materi/ListrikArusBolakBalik/GeneratorAC.js"
+import Transformator from "../content/materi/ListrikArusBolakBalik/Tranformator.js"
+import TransmisiEnergiListrik from "../content/materi/ListrikArusBolakBalik/TransmisiEnergiListrik.js"
+import DistrikbusiEnergiListrik from "../content/materi/ListrikArusBolakBalik/DistribusiEnergiListrik.js"
+import AplikasiArusBolakBalik from "../content/materi/ListrikArusBolakBalik/AplikasiArusBolakBalik.js"
+import PenutupArusBolakBalik from "../content/materi/ListrikArusBolakBalik/PenutupArusBolakBalik.js"
 
 /* EKSPORT CONTENT */
 export const materials = [
@@ -464,6 +494,34 @@ export const materials = [
   AplikasiListrikStatis,
   PenutupListrikStatis,
 
-  /* Chapter : Listrik arus searah */
+  /* Chapter : listrik arus searah */
+  PengantarListrikDinamis,
+  ArusListrik,
+  HambatanListrik,
+  HukumOhm,
+  RangkaianHambatanSeri,
+  RangkaianHambatanParalel,
+  RangkaianHambatanCampuran,
+  EnergiListrik,
+  DayaListrik,
+  EnergiListrikKehidupan,
+  HukumJoule,
+  GayaGerakListrik,
+  AlatUkurListrik,
+  KeselamatanListrik,
+  AplikasiListrikDinamis,
+  PenutupListrikDinamis,
 
+  /* Chapter : listrik arus bolak balik */
+  PengantarArusBolakBalik,
+  GelombangSinus,
+  BesaranArusAC,
+  PeriodeFrekuensi,
+  PersamaanArusTeganganAC,
+  GeneratorAC,
+  Transformator,
+  TransmisiEnergiListrik,
+  DistrikbusiEnergiListrik,
+  AplikasiArusBolakBalik,
+  PenutupArusBolakBalik
 ]
