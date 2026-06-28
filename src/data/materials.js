@@ -310,6 +310,22 @@ import SistemTransmisiDistribusi from "../content/materi/Transformator/SistemTra
 import AplikasiTransformator from "../content/materi/Transformator/AplikasiTransformator.js"
 import PenutupTransformator from "../content/materi/Transformator/PenutupTransformator.js"
 
+/* Gelombang Elektromagnrtik */
+import PengantarGelombangElektromagnrtik from "../content/materi/GelombangElektromagnetik/PengantarGelombangElektromagnetik.js"
+import KarakteriatikGelombangElektromagnetik from "../content/materi/GelombangElektromagnetik/KarakteristikGelombangElektromagnetik.js"
+import SpektrumGelombangElektromagnetik from "../content/materi/GelombangElektromagnetik/SpektrumGelombangElektromagnetik.js"
+import GelombangRadio from "../content/materi/GelombangElektromagnetik/GelombangRadio.js"
+import GelombangMikro from "../content/materi/GelombangElektromagnetik/GelombangMikro.js"
+import GelombangInframerah from "../content/materi/GelombangElektromagnetik/GelombangInframerah.js"
+import CahayaTampak from "../content/materi/GelombangElektromagnetik/CahayaTampak.js"
+import SinarUltraviolet from "../content/materi/GelombangElektromagnetik/SinarUV.js"
+import SinarX from "../content/materi/GelombangElektromagnetik/SinarX.js"
+import SinarGamma from "../content/materi/GelombangElektromagnetik/SinarGamma.js"
+import HubunganGelombangElektromagnetik from "../content/materi/GelombangElektromagnetik/HubunganGelombangElektromagnetik.js"
+import ManfaatGelombangElektromagnetik from "../content/materi/GelombangElektromagnetik/ManfaatGelombangElektromagnetik.js"
+import DampakGelombangElektromagnetik from "../content/materi/GelombangElektromagnetik/DampakGelombangElektomagnetik.js"
+import PenutupGelombangElektromagnetik from "../content/materi/GelombangElektromagnetik/PenutupGelombangElektromagnetik.js"
+
 /* EKSPORT CONTENT */
 export const materials = [
 
@@ -616,4 +632,20 @@ export const materials = [
   SistemTransmisiDistribusi,
   AplikasiTransformator,
   PenutupTransformator,
+
+  /* Chapter : Gelombang Elektromagnetik */
+  PengantarGelombangElektromagnrtik,
+  KarakteriatikGelombangElektromagnetik,
+  SpektrumGelombangElektromagnetik,
+  GelombangRadio,
+  GelombangMikro,
+  GelombangInframerah,
+  CahayaTampak,
+  SinarUltraviolet,
+  SinarX,
+  SinarGamma,
+  HubunganGelombangElektromagnetik,
+  ManfaatGelombangElektromagnetik,
+  DampakGelombangElektromagnetik,
+  PenutupGelombangElektromagnetik,
 ]
