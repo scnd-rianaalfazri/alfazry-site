@@ -1,3 +1,5 @@
+import { image } from "framer-motion/client"
+
 const menjumlahkanvektor = {
   title: "Menjumlahkan Vektor",
   slug: "menjumlahkan vektor",

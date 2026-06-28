@@ -276,6 +276,16 @@ import MedanMagnetBumi from "../content/materi/Magnet/MedanMagnetBumi.js"
 import AplikasiMagnet from "../content/materi/Magnet/AplikasiMedanMagnet.js"
 import PenutupKemagnetan from "../content/materi/Magnet/PenutupKemagnetan.js"
 
+/* Gaya Lorentz */
+import PengantarGayaLorentz from "../content/materi/GayaLorentz/PengantarGayaLorenz.js"
+import GayaLorentzMuatan from "../content/materi/GayaLorentz/GayaLorenzMuatan.js"
+import GayaLorentzKawat from "../content/materi/GayaLorentz/GayaLorenzMuatan.js"
+import KaidahTanganKanan from "../content/materi/GayaLorentz/KaidahTanganKanan.js"
+import BesarGayaLorentz from "../content/materi/GayaLorentz/BesarGayaLorentz.js"
+import MotorListrik from "../content/materi/GayaLorentz/MotorListrik.js"
+import AplikasiGayaLorentz from "../content/materi/GayaLorentz/AplikasiGayaLorentz.js"
+import PenutupGayaLorentz from "../content/materi/GayaLorentz/PenutupGayaLorentz.js"
+
 /* EKSPORT CONTENT */
 export const materials = [
 
