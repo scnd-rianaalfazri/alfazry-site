@@ -286,6 +286,19 @@ import MotorListrik from "../content/materi/GayaLorentz/MotorListrik.js"
 import AplikasiGayaLorentz from "../content/materi/GayaLorentz/AplikasiGayaLorentz.js"
 import PenutupGayaLorentz from "../content/materi/GayaLorentz/PenutupGayaLorentz.js"
 
+/* Induksi Elektromagnetik */
+import PengantarInduksiElektromagnetik from "../content/materi/InduksiElekrtomagnetik/PengantarInduksiElektromagnetik.js"
+import FluksElektromagnetik from "../content/materi/InduksiElekrtomagnetik/FluksMagnet.js"
+import PercobaanFaraday from "../content/materi/InduksiElekrtomagnetik/PercobaanFaraday.js"
+import HukumFaraday from "../content/materi/InduksiElekrtomagnetik/HukumFaraday.js"
+import HukumLenz from "../content/materi/InduksiElekrtomagnetik/HukumLenz.js"
+import GGLInduksi from "../content/materi/InduksiElekrtomagnetik/GGLInduksi.js"
+import GeneratorListrik from "../content/materi/InduksiElekrtomagnetik/GeneratorListrik.js"
+import Dinamo from "../content/materi/InduksiElekrtomagnetik/Dinamo.js"
+import PembangkitListrik from "../content/materi/InduksiElekrtomagnetik/PembangkitListrik.js"
+import AplikasiInduksiElektromagnetik from "../content/materi/InduksiElekrtomagnetik/AplikasiInduksiElektromagnetik.js"
+import PenutupInduksiElektromagnetik from "../content/materi/InduksiElekrtomagnetik/PenutupInduksiElektromagnetik.js"
+
 /* EKSPORT CONTENT */
 export const materials = [
 
@@ -560,5 +573,25 @@ export const materials = [
   PenutupKemagnetan,
 
   /* Chapter : gaya lorentz */
-  
+  PengantarGayaLorentz,
+  GayaLorentzMuatan,
+  GayaLorentzKawat,
+  KaidahTanganKanan,
+  BesarGayaLorentz,
+  MotorListrik,
+  AplikasiGayaLorentz,
+  PenutupGayaLorentz,
+
+  /* Chapter : induksi elektomagnetik */
+  PengantarInduksiElektromagnetik,
+  FluksElektromagnetik,
+  PercobaanFaraday,
+  HukumFaraday,
+  HukumLenz,
+  GGLInduksi,
+  GeneratorListrik,
+  Dinamo,
+  PembangkitListrik,
+  AplikasiInduksiElektromagnetik,
+  PenutupInduksiElektromagnetik,
 ]
