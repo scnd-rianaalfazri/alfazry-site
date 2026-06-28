@@ -299,6 +299,17 @@ import PembangkitListrik from "../content/materi/InduksiElekrtomagnetik/Pembangk
 import AplikasiInduksiElektromagnetik from "../content/materi/InduksiElekrtomagnetik/AplikasiInduksiElektromagnetik.js"
 import PenutupInduksiElektromagnetik from "../content/materi/InduksiElekrtomagnetik/PenutupInduksiElektromagnetik.js"
 
+/* Transformator */
+import PengantarTransformator from "../content/materi/Transformator/PengantarTransformator.js"
+import PrinsipKerjaTransformator from "../content/materi/Transformator/PrinsipKerjaTransformator.js"
+import JenisTransformator from "../content/materi/Transformator/JenisTransformator.js"
+import PersamaanTransformator from "../content/materi/Transformator/PersamaanTransformator.js"
+import EfisiensiTransformator from "../content/materi/Transformator/EfisiensiTransformator.js"
+import RugiTransformator from "../content/materi/Transformator/RugiTransformator.js"
+import SistemTransmisiDistribusi from "../content/materi/Transformator/SistemTransmisiDistribusi.js"
+import AplikasiTransformator from "../content/materi/Transformator/AplikasiTransformator.js"
+import PenutupTransformator from "../content/materi/Transformator/PenutupTransformator.js"
+
 /* EKSPORT CONTENT */
 export const materials = [
 
@@ -594,4 +605,15 @@ export const materials = [
   PembangkitListrik,
   AplikasiInduksiElektromagnetik,
   PenutupInduksiElektromagnetik,
+
+  /* Chapter : Transformator */
+  PengantarTransformator,
+  PrinsipKerjaTransformator,
+  JenisTransformator,
+  PersamaanTransformator,
+  EfisiensiTransformator,
+  RugiTransformator,
+  SistemTransmisiDistribusi,
+  AplikasiTransformator,
+  PenutupTransformator,
 ]
