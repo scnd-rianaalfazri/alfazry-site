@@ -264,6 +264,18 @@ import DistrikbusiEnergiListrik from "../content/materi/ListrikArusBolakBalik/Di
 import AplikasiArusBolakBalik from "../content/materi/ListrikArusBolakBalik/AplikasiArusBolakBalik.js"
 import PenutupArusBolakBalik from "../content/materi/ListrikArusBolakBalik/PenutupArusBolakBalik.js"
 
+/* Kemagnetan */
+import PengantarKemagnetan from "../content/materi/Magnet/PengantarKemagnetan.js"
+import SejarahMagnet from "../content/materi/Magnet/SejarahMagnet.js"
+import SifatMagnet from "../content/materi/Magnet/SifatMagnet.js"
+import MedanMagnet from "../content/materi/Magnet/MedanMagnet.js"
+import JenisMagnet from "../content/materi/Magnet/JenisMagnet.js"
+import BahanMagnet from "../content/materi/Magnet/BahanMagnetik.js"
+import CaraMembuatMagnet from "../content/materi/Magnet/CaraMembuatMagnet.js"
+import MedanMagnetBumi from "../content/materi/Magnet/MedanMagnetBumi.js"
+import AplikasiMagnet from "../content/materi/Magnet/AplikasiMedanMagnet.js"
+import PenutupKemagnetan from "../content/materi/Magnet/PenutupKemagnetan.js"
+
 /* EKSPORT CONTENT */
 export const materials = [
 
@@ -523,5 +535,20 @@ export const materials = [
   TransmisiEnergiListrik,
   DistrikbusiEnergiListrik,
   AplikasiArusBolakBalik,
-  PenutupArusBolakBalik
+  PenutupArusBolakBalik,
+
+  /* Chapter : kemagnetan */
+  PengantarKemagnetan,
+  SejarahMagnet,
+  SifatMagnet,
+  MedanMagnet,
+  JenisMagnet,
+  BahanMagnet,
+  CaraMembuatMagnet,
+  MedanMagnetBumi,
+  AplikasiMagnet,
+  PenutupKemagnetan,
+
+  /* Chapter : gaya lorentz */
+  
 ]

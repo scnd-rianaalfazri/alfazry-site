@@ -2,7 +2,8 @@ const distribusienergilistrik = {
   title: "Distribusi Energi Listrik",
   slug: "distribusi energi listrik",
   description: "Memahami proses distribusi energi listrik dari gardu induk hingga ke rumah dan berbagai fasilitas pengguna.",
-
+  chapter: "⚡ Listrik Dinamis: Arus Bolak Balik",
+  
   content: [
     {
       heading: "🏠 Bagaimana Listrik Sampai ke Rumah?",
