@@ -111,18 +111,18 @@ import AplikasiKesetimbangan from "../content/materi/KesetimbanganDanDinamikaRot
 import PenutupKesetimbangan from "../content/materi/KesetimbanganDanDinamikaRotasi/PenutupKesetimbangan.js"
 
 /* elastisitas dan hukum hooke */
-import PengantarElastisitas from "../content/materi/ElastisitasDanHukum Hooke/PengantarElastisitas.js"
-import ElastisitasDanPlastisitas from "../content/materi/ElastisitasDanHukum Hooke/ElastisitasDanPlastisitas"
-import Tegangan from "../content/materi/ElastisitasDanHukum Hooke/Tegangan.js"
-import Regangan from "../content/materi/ElastisitasDanHukum Hooke/Regangan.js"
-import ModulusYoug from "../content/materi/ElastisitasDanHukum Hooke/ModulusYoung.js"
-import HukumHooke from "../content/materi/ElastisitasDanHukum Hooke/HukumHooke.js"
-import KonstantaPegas from "../content/materi/ElastisitasDanHukum Hooke/KonstantaPegas.js"
-import SusunanPegasSeri from "../content/materi/ElastisitasDanHukum Hooke/SusunanPegasSeri.js"
-import SusunanPegasParalel from "../content/materi/ElastisitasDanHukum Hooke/SusunanPegasParalel"
-import EnergiPotensialPegas from "../content/materi/ElastisitasDanHukum Hooke/EnergiPotensialPegas.js"
-import AplikasElastisitas from "../content/materi/ElastisitasDanHukum Hooke/AplikasiElastisitas.js"
-import PenutupElastisitas from "../content/materi/ElastisitasDanHukum Hooke/PenutupElastisitas.js"
+import PengantarElastisitas from "../content/materi/ElastisitasDanHukumHooke/PengantarElastisitas.js"
+import ElastisitasDanPlastisitas from "../content/materi/ElastisitasDanHukumHooke/ElastisitasDanPlastisitas.js"
+import Tegangan from "../content/materi/ElastisitasDanHukumHooke/Tegangan.js"
+import Regangan from "../content/materi/ElastisitasDanHukumHooke/Regangan.js"
+import ModulusYoug from "../content/materi/ElastisitasDanHukumHooke/ModulusYoung.js"
+import HukumHooke from "../content/materi/ElastisitasDanHukumHooke/HukumHooke.js"
+import KonstantaPegas from "../content/materi/ElastisitasDanHukumHooke/KonstantaPegas.js"
+import SusunanPegasSeri from "../content/materi/ElastisitasDanHukumHooke/SusunanPegasSeri.js"
+import SusunanPegasParalel from "../content/materi/ElastisitasDanHukumHooke/SusunanPegasParalel.js"
+import EnergiPotensialPegas from "../content/materi/ElastisitasDanHukumHooke/EnergiPotensialPegas.js"
+import AplikasElastisitas from "../content/materi/ElastisitasDanHukumHooke/AplikasiElastisitas.js"
+import PenutupElastisitas from "../content/materi/ElastisitasDanHukumHooke/PenutupElastisitas.js"
 
 /* hukum termodinamika */
 import PengantarTermodinamika from "../content/materi/Termodinamika/PengantarTermodinamika.js"
@@ -358,6 +358,19 @@ import Robotika from "../content/materi/InstrumentasiDigital/Robotika.js"
 import AIDanSensor from "../content/materi/InstrumentasiDigital/AIDanSensor.js"
 import MiniProjectInstrumentasiDigital from "../content/materi/InstrumentasiDigital/MiniProjectInstrumentasiDigital.js"
 import PenutupInstrumentasiDigital from "../content/materi/InstrumentasiDigital/PenutupInstrumentasiDigital.js"
+
+/* Elektronika Digital & Embedded System */
+import PengantarElektronikaDasar from "../content/materi/ElektronikaDigital/PengantarElektronikaDigital.js"
+import AnalogVsDigital from "../content/materi/ElektronikaDigital/AnalogVsDigital.js"
+import BilanganBiner from "../content/materi/ElektronikaDigital/BilanganBiner.js"
+import GerbangLogika from "../content/materi/ElektronikaDigital/GerbangLogika.js"
+import RangkaianLogika from "../content/materi/ElektronikaDigital/RangkaianLogika.js"
+import MemoriDigital from "../content/materi/ElektronikaDigital/MemoriDigital.js"
+import KomunikasiAntarPerangkat from "../content/materi/ElektronikaDigital/KomunikasiAntarPerangkat.js"
+import PCBDanKomponen from "../content/materi/ElektronikaDigital/PCBDanKomponen.js"
+import SistemElektronikaModern from "../content/materi/ElektronikaDigital/SistemElektronikModern.js"
+import MiniProjectElektronikaDasar from "../content/materi/ElektronikaDigital/MiniProjectElektronika.js"
+import PenutupElektronikaDigital from "../content/materi/ElektronikaDigital/PenutupElektronikaDigital.js"
 
 /* EKSPORT CONTENT */
 export const materials = [
@@ -655,7 +668,7 @@ export const materials = [
   AplikasiInduksiElektromagnetik,
   PenutupInduksiElektromagnetik,
 
-  /* Chapter : Transformator */
+  /* Chapter : transformator */
   PengantarTransformator,
   PrinsipKerjaTransformator,
   JenisTransformator,
@@ -666,7 +679,7 @@ export const materials = [
   AplikasiTransformator,
   PenutupTransformator,
 
-  /* Chapter : Gelombang Elektromagnetik */
+  /* Chapter : gelombang Elektromagnetik */
   PengantarGelombangElektromagnrtik,
   KarakteriatikGelombangElektromagnetik,
   SpektrumGelombangElektromagnetik,
@@ -682,7 +695,7 @@ export const materials = [
   DampakGelombangElektromagnetik,
   PenutupGelombangElektromagnetik,
 
-  /* Chapter : Teknologi Komunikasi */
+  /* Chapter : teknologi Komunikasi */
   PengantarTeknologiKomunikasi,
   BagaimanaInformasiDikirim,
   CaraKerjaWiFi,
@@ -699,7 +712,7 @@ export const materials = [
   TeknologiKomunikasiMasaDepan,
   PenutupTeknologiKomunikasi,
 
-  /* Chapter : Instrumentasi Digital */
+  /* Chapter : instrumentasi Digital */
   PengantarInstrumentasiDigital,
   ApaItuSensor,
   JenisSensor,
@@ -714,4 +727,17 @@ export const materials = [
   AIDanSensor,
   MiniProjectInstrumentasiDigital,
   PenutupInstrumentasiDigital,
+
+  /* Chapter : elektronika dasar & embedded system */
+  PengantarElektronikaDasar,
+  AnalogVsDigital,
+  BilanganBiner,
+  GerbangLogika,
+  RangkaianLogika,
+  MemoriDigital,
+  KomunikasiAntarPerangkat,
+  PCBDanKomponen,
+  SistemElektronikaModern,
+  MiniProjectElektronikaDasar,
+  PenutupElektronikaDigital,
 ]
