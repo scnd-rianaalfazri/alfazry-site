@@ -326,6 +326,23 @@ import ManfaatGelombangElektromagnetik from "../content/materi/GelombangElektrom
 import DampakGelombangElektromagnetik from "../content/materi/GelombangElektromagnetik/DampakGelombangElektomagnetik.js"
 import PenutupGelombangElektromagnetik from "../content/materi/GelombangElektromagnetik/PenutupGelombangElektromagnetik.js"
 
+/* Teknologi Komunikasi */
+import PengantarTeknologiKomunikasi from "../content/materi/TeknologiKomunikasi/PengantarTeknologiKomunikasi.js"
+import BagaimanaInformasiDikirim from "../content/materi/TeknologiKomunikasi/BagaimanInformasiDikirim.js"
+import CaraKerjaWiFi from "../content/materi/TeknologiKomunikasi/CaraKerjaWiFi.js"
+import CaraKerjaBluetooth from "../content/materi/TeknologiKomunikasi/CaraKerjaBluetooth.js"
+import CaraKerjaGPS from "../content/materi/TeknologiKomunikasi/CaraKerjaGPS.js"
+import CaraKerjaJaringanSelular from "../content/materi/TeknologiKomunikasi/CaraKerjaJaringanSeluler.js"
+import CaraKerjaSatelit from "../content/materi/TeknologiKomunikasi/CaraKerjaSatelit.js"
+import BagaimanaInternetBekerja from "../content/materi/TeknologiKomunikasi/BagaimanaInternetBekerja.js"
+import FiberOptik from "../content/materi/TeknologiKomunikasi/FiberOptik.js"
+import KabelBawahLaut from "../content/materi/TeknologiKomunikasi/KabelBawahLaut.js"
+import CloudComputing from "../content/materi/TeknologiKomunikasi/CloudComputing.js"
+import IoT from "../content/materi/TeknologiKomunikasi/IoT"
+import SmartCity from "../content/materi/TeknologiKomunikasi/SmartCity.js"
+import TeknologiKomunikasiMasaDepan from "../content/materi/TeknologiKomunikasi/TeknologiKomunikasiMasaDepan.js"
+import PenutupTeknologiKomunikasi from "../content/materi/TeknologiKomunikasi/TeknologiKomunikasiMasaDepan.js"
+
 /* EKSPORT CONTENT */
 export const materials = [
 
@@ -648,4 +665,21 @@ export const materials = [
   ManfaatGelombangElektromagnetik,
   DampakGelombangElektromagnetik,
   PenutupGelombangElektromagnetik,
+
+  /* Chapter : Teknologi Komunikasi */
+  PengantarTeknologiKomunikasi,
+  BagaimanaInformasiDikirim,
+  CaraKerjaWiFi,
+  CaraKerjaBluetooth,
+  CaraKerjaGPS,
+  CaraKerjaJaringanSelular,
+  CaraKerjaSatelit,
+  BagaimanaInternetBekerja,
+  FiberOptik,
+  KabelBawahLaut,
+  CloudComputing,
+  IoT,
+  SmartCity,
+  TeknologiKomunikasiMasaDepan,
+  PenutupTeknologiKomunikasi,
 ]
