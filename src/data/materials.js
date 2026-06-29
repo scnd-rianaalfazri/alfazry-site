@@ -343,6 +343,22 @@ import SmartCity from "../content/materi/TeknologiKomunikasi/SmartCity.js"
 import TeknologiKomunikasiMasaDepan from "../content/materi/TeknologiKomunikasi/TeknologiKomunikasiMasaDepan.js"
 import PenutupTeknologiKomunikasi from "../content/materi/TeknologiKomunikasi/TeknologiKomunikasiMasaDepan.js"
 
+/* Instrumentasi Digital */
+import PengantarInstrumentasiDigital from "../content/materi/InstrumentasiDigital/PengantarInstrumentasiDigital.js"
+import ApaItuSensor from "../content/materi/InstrumentasiDigital/ApaItuSensor.js"
+import JenisSensor from "../content/materi/InstrumentasiDigital/JenisSensor.js"
+import Aktuator from "../content/materi/InstrumentasiDigital/Aktuator.js"
+import Mikrokontroler from "../content/materi/InstrumentasiDigital/Mikrokontroler.js"
+import SistemOtomasi from "../content/materi/InstrumentasiDigital/SistemOtomatis.js"
+import AkusisiData from "../content/materi/InstrumentasiDigital/AkusisiData.js"
+import SistemKendali from "../content/materi/InstrumentasiDigital/SistemKendali.js"
+import InstrumentasiDalamKehidupan from "../content/materi/InstrumentasiDigital/PenutupInstrumentasiDigital.js"
+import SmartHome from "../content/materi/InstrumentasiDigital/SmartHome.js"
+import Robotika from "../content/materi/InstrumentasiDigital/Robotika.js"
+import AIDanSensor from "../content/materi/InstrumentasiDigital/AIDanSensor.js"
+import MiniProjectInstrumentasiDigital from "../content/materi/InstrumentasiDigital/MiniProjectInstrumentasiDigital.js"
+import PenutupInstrumentasiDigital from "../content/materi/InstrumentasiDigital/PenutupInstrumentasiDigital.js"
+
 /* EKSPORT CONTENT */
 export const materials = [
 
@@ -682,4 +698,20 @@ export const materials = [
   SmartCity,
   TeknologiKomunikasiMasaDepan,
   PenutupTeknologiKomunikasi,
+
+  /* Chapter : Instrumentasi Digital */
+  PengantarInstrumentasiDigital,
+  ApaItuSensor,
+  JenisSensor,
+  Aktuator,
+  Mikrokontroler,
+  SistemOtomasi,
+  AkusisiData,
+  SistemKendali,
+  InstrumentasiDalamKehidupan,
+  SmartHome,
+  Robotika,
+  AIDanSensor,
+  MiniProjectInstrumentasiDigital,
+  PenutupInstrumentasiDigital,
 ]

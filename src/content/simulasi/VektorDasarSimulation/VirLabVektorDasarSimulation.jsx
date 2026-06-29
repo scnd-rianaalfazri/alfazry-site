@@ -187,7 +187,7 @@ export default function VirLabVectorExplorer() {
                     strokeWidth="2"
                   />
                   {showLabels && (
-                    <text x={(center + point.x) / 2} y={center - 10} fill="#3B82F6" fontSize="14" fontWeight="bold">
+                    <text x={(center + point.x) / 2} y={center - 16} fill="#3B82F6" fontSize="14" fontWeight="bold">
                       Ax = {vectorX}
                     </text>
                   )}
@@ -236,11 +236,17 @@ export default function VirLabVectorExplorer() {
                     strokeDasharray="6"
                     strokeWidth="2"
                   />
-                  {showLabels && (
-                    <text x={point.x + 10} y={(center + point.y) / 2} fill="#22C55E" fontSize="14" fontWeight="bold">
-                      Ay = {vectorY}
-                    </text>
-                  )}
+              {showLabels && (
+                <text
+                  x={point.x + 10}
+                  y={(center + point.y) / 2}
+                  fill="#22C55E"
+                  fontSize="14"
+                  fontWeight="bold"
+                >
+                  Ay = {vectorY}
+                </text>
+              )}
                 </>
               )}
 
@@ -275,7 +281,7 @@ export default function VirLabVectorExplorer() {
               <circle cx={center} cy={center} r="6" fill="white" />
 
               {/* Axis labels */}
-              <text x={size - 20} y={center - 10} fill="white">X</text>
+              <text x={size - 20} y={center - 16} fill="white">X</text>
               <text x={center + 10} y={20} fill="white">Y</text>
             </svg>
 

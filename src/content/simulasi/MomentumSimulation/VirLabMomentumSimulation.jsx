@@ -1,11 +1,36 @@
 import { useState, useEffect, useRef } from "react";
 
+import {
+  ResponsiveContainer,
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+} from "recharts";
+
 const tabs = [
   { id: "hasil", label: "Hasil", icon: "📊" },
   { id: "perhitungan", label: "Perhitungan", icon: "📖" },
   { id: "kesimpulan", label: "Kesimpulan", icon: "🧠" },
   { id: "grafik", label: "Grafik", icon: "📈" },
 ];
+
+const chartOptions = [
+  { id: "posisi", label: "Posisi vs Waktu", icon: "📍" },
+  { id: "kecepatan", label: "Kecepatan vs Waktu", icon: "🚗" },
+  { id: "momentum", label: "Momentum vs Waktu", icon: "⚖️" },
+  { id: "energi", label: "Energi vs Waktu", icon: "⚡" },
+];
+
+const tooltipStyle = {
+  background: "#0f172a",
+  border: "1px solid rgba(255,255,255,0.1)",
+  borderRadius: "8px",
+  fontSize: "13px",
+};
 
 export default function VirLabMomentumSimulation() {
   const [massaA, setMassaA] = useState(2);
@@ -29,6 +54,8 @@ export default function VirLabMomentumSimulation() {
   const posBRef = useRef(450);
   const velARef = useRef(kecepatanAwalA);
   const velBRef = useRef(kecepatanAwalB);
+
+  const timeRef = useRef(0);
 
   const ballSizeA = 20 + massaA * 4;
   const ballSizeB = 20 + massaB * 4;
@@ -55,6 +82,9 @@ export default function VirLabMomentumSimulation() {
 
   const [menyatu, setMenyatu] = useState(false);
   const [activeTab, setActiveTab] = useState("hasil");
+  const [activeChart, setActiveChart] = useState("posisi");
+
+  const [graphData, setGraphData] = useState([]);
 
   useEffect(() => {
     posARef.current = posA;
@@ -177,6 +207,37 @@ export default function VirLabMomentumSimulation() {
 
       setPosA(nextA);
       setPosB(nextB);
+
+      timeRef.current += 0.02;
+
+      const momentumNow =
+        massaA * nextVelA +
+        massaB * nextVelB;
+
+      const energiNowA = 0.5 * massaA * nextVelA ** 2;
+      const energiNowB = 0.5 * massaB * nextVelB ** 2;
+      const energiNow = energiNowA + energiNowB;
+
+      setGraphData((prev) => [
+        ...prev.slice(-150),
+        {
+          waktu: Number(timeRef.current.toFixed(2)),
+
+          posisiA: Number(nextA.toFixed(2)),
+          posisiB: Number(nextB.toFixed(2)),
+
+          kecepatanA: Number(nextVelA.toFixed(2)),
+          kecepatanB: Number(nextVelB.toFixed(2)),
+
+          momentumA: Number((massaA * nextVelA).toFixed(2)),
+          momentumB: Number((massaB * nextVelB).toFixed(2)),
+          momentum: Number(momentumNow.toFixed(2)),
+
+          energiA: Number(energiNowA.toFixed(2)),
+          energiB: Number(energiNowB.toFixed(2)),
+          energi: Number(energiNow.toFixed(2)),
+        },
+      ]);
     }, 20);
 
     return () => clearInterval(interval);
@@ -196,6 +257,9 @@ export default function VirLabMomentumSimulation() {
     posBRef.current = startB;
     velARef.current = kecepatanAwalA;
     velBRef.current = kecepatanAwalB;
+
+    setGraphData([]);
+    timeRef.current = 0;
   };
 
   const arahA = velARef.current >= 0 ? "→" : "←";
@@ -556,24 +620,126 @@ export default function VirLabMomentumSimulation() {
 
           {/* TAB GRAFIK */}
           {activeTab === "grafik" && (
-            <Panel title="📈 Grafik Analisis">
-              <div
-                style={{
-                  height: "160px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  textAlign: "center",
-                  fontSize: "14px",
-                  color: "#64748b",
-                  padding: "0 24px",
-                  border: "1px dashed rgba(255,255,255,0.1)",
-                  borderRadius: "12px",
-                }}
-              >
-                Grafik hubungan momentum dan energi kinetik akan segera tersedia di sini.
+            <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+              {/* Tombol pemilih grafik */}
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
+                {chartOptions.map((opt) => (
+                  <button
+                    key={opt.id}
+                    onClick={() => setActiveChart(opt.id)}
+                    style={{
+                      padding: "8px 14px",
+                      borderRadius: "10px",
+                      fontSize: "13px",
+                      fontWeight: 500,
+                      border: "none",
+                      cursor: "pointer",
+                      background: activeChart === opt.id ? "#06b6d4" : "rgba(255,255,255,0.05)",
+                      color: activeChart === opt.id ? "white" : "#94a3b8",
+                    }}
+                  >
+                    {opt.icon} {opt.label}
+                  </button>
+                ))}
               </div>
-            </Panel>
+
+              {graphData.length === 0 ? (
+                <Panel title="📈 Grafik Analisis">
+                  <div
+                    style={{
+                      height: "180px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      textAlign: "center",
+                      fontSize: "14px",
+                      color: "#64748b",
+                      padding: "0 24px",
+                      border: "1px dashed rgba(255,255,255,0.1)",
+                      borderRadius: "12px",
+                    }}
+                  >
+                    Tekan ▶ Jalan untuk mulai merekam data grafik posisi, kecepatan, momentum, dan energi.
+                  </div>
+                </Panel>
+              ) : (
+                <>
+                  {activeChart === "posisi" && (
+                    <ChartPanel
+                      title="📍 Posisi vs Waktu"
+                      description="Perubahan posisi kedua bola sepanjang waktu simulasi."
+                    >
+                      <LineChart data={graphData}>
+                        <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.1)" />
+                        <XAxis dataKey="waktu" stroke="rgba(255,255,255,0.4)" label={{ value: "t (s)", position: "insideBottomRight", offset: -5, fill: "rgba(255,255,255,0.4)" }} />
+                        <YAxis stroke="rgba(255,255,255,0.4)" label={{ value: "x (px)", angle: -90, position: "insideLeft", fill: "rgba(255,255,255,0.4)" }} />
+                        <Tooltip contentStyle={tooltipStyle} />
+                        <Legend wrapperStyle={{ fontSize: "12px" }} />
+                        <Line dataKey="posisiA" stroke="#67e8f9" strokeWidth={3} dot={false} name="Posisi A" isAnimationActive={false} />
+                        <Line dataKey="posisiB" stroke="#d8b4fe" strokeWidth={3} dot={false} name="Posisi B" isAnimationActive={false} />
+                      </LineChart>
+                    </ChartPanel>
+                  )}
+
+                  {activeChart === "kecepatan" && (
+                    <ChartPanel
+                      title="🚗 Kecepatan vs Waktu"
+                      description="Perubahan kecepatan masing-masing bola, termasuk saat tumbukan terjadi."
+                    >
+                      <LineChart data={graphData}>
+                        <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.1)" />
+                        <XAxis dataKey="waktu" stroke="rgba(255,255,255,0.4)" label={{ value: "t (s)", position: "insideBottomRight", offset: -5, fill: "rgba(255,255,255,0.4)" }} />
+                        <YAxis stroke="rgba(255,255,255,0.4)" label={{ value: "v (m/s)", angle: -90, position: "insideLeft", fill: "rgba(255,255,255,0.4)" }} />
+                        <Tooltip contentStyle={tooltipStyle} />
+                        <Legend wrapperStyle={{ fontSize: "12px" }} />
+                        <Line dataKey="kecepatanA" stroke="#67e8f9" strokeWidth={3} dot={false} name="Kecepatan A" isAnimationActive={false} />
+                        <Line dataKey="kecepatanB" stroke="#d8b4fe" strokeWidth={3} dot={false} name="Kecepatan B" isAnimationActive={false} />
+                      </LineChart>
+                    </ChartPanel>
+                  )}
+
+                  {activeChart === "momentum" && (
+                    <ChartPanel
+                      title="⚖️ Momentum vs Waktu"
+                      description="Momentum tiap bola berubah saat tumbukan, namun momentum total tetap konstan."
+                    >
+                      <LineChart data={graphData}>
+                        <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.1)" />
+                        <XAxis dataKey="waktu" stroke="rgba(255,255,255,0.4)" label={{ value: "t (s)", position: "insideBottomRight", offset: -5, fill: "rgba(255,255,255,0.4)" }} />
+                        <YAxis stroke="rgba(255,255,255,0.4)" label={{ value: "p (kg·m/s)", angle: -90, position: "insideLeft", fill: "rgba(255,255,255,0.4)" }} />
+                        <Tooltip contentStyle={tooltipStyle} />
+                        <Legend wrapperStyle={{ fontSize: "12px" }} />
+                        <Line dataKey="momentumA" stroke="#67e8f9" strokeWidth={2} dot={false} name="Momentum A" isAnimationActive={false} />
+                        <Line dataKey="momentumB" stroke="#d8b4fe" strokeWidth={2} dot={false} name="Momentum B" isAnimationActive={false} />
+                        <Line dataKey="momentum" stroke="#6ee7b7" strokeWidth={3} dot={false} name="Momentum Total" isAnimationActive={false} />
+                      </LineChart>
+                    </ChartPanel>
+                  )}
+
+                  {activeChart === "energi" && (
+                    <ChartPanel
+                      title="⚡ Energi vs Waktu"
+                      description={
+                        restitusi === 1
+                          ? "Energi kinetik total tetap konstan (tumbukan lenting sempurna)."
+                          : "Sebagian energi kinetik hilang setelah tumbukan terjadi."
+                      }
+                    >
+                      <LineChart data={graphData}>
+                        <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.1)" />
+                        <XAxis dataKey="waktu" stroke="rgba(255,255,255,0.4)" label={{ value: "t (s)", position: "insideBottomRight", offset: -5, fill: "rgba(255,255,255,0.4)" }} />
+                        <YAxis stroke="rgba(255,255,255,0.4)" label={{ value: "Ek (J)", angle: -90, position: "insideLeft", fill: "rgba(255,255,255,0.4)" }} />
+                        <Tooltip contentStyle={tooltipStyle} />
+                        <Legend wrapperStyle={{ fontSize: "12px" }} />
+                        <Line dataKey="energiA" stroke="#67e8f9" strokeWidth={2} dot={false} name="Energi A" isAnimationActive={false} />
+                        <Line dataKey="energiB" stroke="#d8b4fe" strokeWidth={2} dot={false} name="Energi B" isAnimationActive={false} />
+                        <Line dataKey="energi" stroke="#fcd34d" strokeWidth={3} dot={false} name="Energi Total" isAnimationActive={false} />
+                      </LineChart>
+                    </ChartPanel>
+                  )}
+                </>
+              )}
+            </div>
           )}
         </div>
       </div>
@@ -622,6 +788,24 @@ function Panel({ title, titleColor, children }) {
         {title}
       </h4>
       {children}
+    </div>
+  );
+}
+
+function ChartPanel({ title, description, children }) {
+  return (
+    <div style={{ borderRadius: "16px", background: "rgba(0,0,0,0.2)", padding: "20px" }}>
+      <h4 style={{ fontSize: "15px", color: "#38bdf8", marginTop: 0, marginBottom: "4px", fontWeight: 600 }}>
+        {title}
+      </h4>
+      <p style={{ fontSize: "12px", color: "#94a3b8", marginTop: 0, marginBottom: "12px" }}>
+        {description}
+      </p>
+      <div style={{ width: "100%", height: 260 }}>
+        <ResponsiveContainer width="100%" height="100%">
+          {children}
+        </ResponsiveContainer>
+      </div>
     </div>
   );
 }
