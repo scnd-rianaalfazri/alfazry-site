@@ -1,7 +1,11 @@
 /* IMPORT FILE FROM */
 
+/* hakikat ilmu fisika */
+import MengapaBelajarFisika from "../content/materi/HakikatIlmuFisika/MengapaBelajarFisika.js"
+import ApaItuFisika from "../content/materi/HakikatIlmuFisika/ApaItuFisika.js"
+import HakikatIlmuFisika from "../content/materi/HakikatIlmuFisika/HakikatIlmuFisika.js"
+
 /* besaran dan satua */
-import HakikatIlmuFisika from "../content/materi/BesaranDanSatuan/HakikatIlmuFisika.js"
 import MetodeIlmiah from "../content/materi/BesaranDanSatuan/MetodeIlmiah.js"
 import BesaranDanSatuan from "../content/materi/BesaranDanSatuan/BesaranDanSatuan.js"
 import SistemInternasional from "../content/materi/BesaranDanSatuan/SistemInternasional.js"
@@ -372,11 +376,37 @@ import SistemElektronikaModern from "../content/materi/ElektronikaDigital/Sistem
 import MiniProjectElektronikaDasar from "../content/materi/ElektronikaDigital/MiniProjectElektronika.js"
 import PenutupElektronikaDigital from "../content/materi/ElektronikaDigital/PenutupElektronikaDigital.js"
 
+/* Radioaktivitas */
+import PengantarRadioaktivitas from "../content/materi/Radioaktivitas/PengantarRadioaktivitas.js"
+import StrukturIntiAton from "../content/materi/Radioaktivitas/StrukturIntiAtom.js"
+import IsotopIsobarIsoton from "../content/materi/Radioaktivitas/IsotopIsobarIsoton.js"
+import SejarahRadioaktivitas from "../content/materi/Radioaktivitas/SejarahRadioaktivitas.js"
+import PeluruhanIntiAtom from "../content/materi/Radioaktivitas/PeluruhanInti.js"
+import RadiasiAlfa from "../content/materi/Radioaktivitas/RadiasiAlfa.js"
+import RadiasiBeta from "../content/materi/Radioaktivitas/RadiasiBeta.js"
+import RadiasiGamma from "../content/materi/Radioaktivitas/RadiasiGamma.js"
+import PerbandinganRadiasi from "../content/materi/Radioaktivitas/PerbandinganRadiasi.js"
+import WaktuParuh from "../content/materi/Radioaktivitas/WaktuParuh.js"
+import AktivitasRadioaktif from "../content/materi/Radioaktivitas/AktivitasRadioaktif.js"
+import ReaksiInti from "../content/materi/Radioaktivitas/ReaksiInti.js"
+import FisiNukulir from "../content/materi/Radioaktivitas/FisiNuklir.js"
+import ReaksiBerantai from "../content/materi/Radioaktivitas/ReaksiBerantai.js"
+import FusiNuklir from "../content/materi/Radioaktivitas/FusiNuklir.js"
+import PembangkitListrikTenagaNuklir from "../content/materi/Radioaktivitas/PembangkitListrikTenagaNuklir.js"
+import ManfaatRadioaktivitas from "../content/materi/Radioaktivitas/ManfaatRadioaktivitas.js"
+import KeselamatanRadiasi from "../content/materi/Radioaktivitas/KeselamatanRadiasi.js"
+import TeknologiNuklirMasaDepan from "../content/materi/Radioaktivitas/TeknologiNuklirMasaDepan.js"
+import MiniProjectRadioaktivitas from "../content/materi/Radioaktivitas/MiniProjectRadioaktivitas.js"
+import PenutupRadioaktivitas from "../content/materi/Radioaktivitas/PenutupChapterRadioaktivitas.js"
+
 /* EKSPORT CONTENT */
 export const materials = [
+  /* Chapter : Naikat Ilmu Fisika */
+  MengapaBelajarFisika,
+  ApaItuFisika,
+  HakikatIlmuFisika,
 
   /* Chapter : Besaran dan Satuan */
-  HakikatIlmuFisika,
   MetodeIlmiah,
   BesaranDanSatuan,
   SistemInternasional,
@@ -740,4 +770,28 @@ export const materials = [
   SistemElektronikaModern,
   MiniProjectElektronikaDasar,
   PenutupElektronikaDigital,
+
+  /* Chapter : radioaktivitas */
+  PengantarRadioaktivitas,
+  StrukturIntiAton,
+  IsotopIsobarIsoton,
+  SejarahRadioaktivitas,
+  PeluruhanIntiAtom,
+  RadiasiAlfa,
+  RadiasiBeta,
+  RadiasiGamma,
+  PerbandinganRadiasi,
+  WaktuParuh,
+  AktivitasRadioaktif,
+  ReaksiInti,
+  FisiNukulir,
+  ReaksiBerantai,
+  FusiNuklir,
+  PembangkitListrikTenagaNuklir,
+  ManfaatRadioaktivitas,
+  KeselamatanRadiasi,
+  TeknologiNuklirMasaDepan,
+  MiniProjectRadioaktivitas,
+  PenutupRadioaktivitas,
+  
 ]
