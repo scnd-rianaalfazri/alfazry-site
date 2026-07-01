@@ -399,6 +399,9 @@ import TeknologiNuklirMasaDepan from "../content/materi/Radioaktivitas/Teknologi
 import MiniProjectRadioaktivitas from "../content/materi/Radioaktivitas/MiniProjectRadioaktivitas.js"
 import PenutupRadioaktivitas from "../content/materi/Radioaktivitas/PenutupChapterRadioaktivitas.js"
 
+/* Relativitas */
+import PengantarRelativitas from "../content/materi/Relativitas/PengantarRelativitas.js"
+
 /* EKSPORT CONTENT */
 export const materials = [
   /* Chapter : Naikat Ilmu Fisika */
@@ -794,4 +797,6 @@ export const materials = [
   MiniProjectRadioaktivitas,
   PenutupRadioaktivitas,
   
+  /* Chapter : radioaktivitas */
+  PengantarRelativitas,
 ]

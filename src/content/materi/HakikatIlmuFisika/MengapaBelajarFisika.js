@@ -1,4 +1,4 @@
-import { image } from "framer-motion/client"
+import { caption, image } from "framer-motion/client"
 import herohakikatilmufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika1.jpg"
 import pertanyaanfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika2.jpg"
 import pengertianfisika from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika3.jpg"
@@ -18,10 +18,12 @@ const mengapabelajarfisika = {
   content: [
     {
       image: herohakikatilmufisikaImg,
+      caption: "Mengapa Belajar Fisika?"
     },
     {
       heading: "Semua Berawal dari Pertanyaan",
       image: pertanyaanfisikaImg,
+      caption: "Pertanyaan-pertanyaan fisika dalam kehidupan sehari-hari",
       body: [
         "Pernahkah kamu bertanya...",
         "",
@@ -37,6 +39,7 @@ const mengapabelajarfisika = {
 
     {
       heading: "🤔 Jadi, Apa Itu Fisika?",
+      caption: "Contoh bagian yang dipelajari dalam fisika",
       image: pengertianfisika,
       body: [
         "Fisika adalah ilmu yang mempelajari gejala alam beserta hukum-hukum yang mengaturnya.",
@@ -46,7 +49,9 @@ const mengapabelajarfisika = {
     },
 
     {
+      heading: "📚 Gak cuma Teori, tapi ...",
       image: fisikadisekitarkita,
+      caption: "Benda dan fenomena di sekitar, bagian dari fisika",
       body: [
         "Sering kali kita mengira fisika hanya ada di ruang kelas.",
         "",
@@ -59,6 +64,7 @@ const mengapabelajarfisika = {
     {
       heading: "🚀 Mengapa Kita Belajar Fisika?",
       image: mengapabelajarfisikaImg,
+      caption: "Mindmap kegunaan belajar fisika",
       body: [
         "Belajar fisika bukan hanya untuk menghafal rumus.",
         "",
@@ -75,6 +81,7 @@ const mengapabelajarfisika = {
     {
       heading: "🌟 Fisika Mengubah Dunia",
       image: fisikamengubahduniaImg,
+      caption: "Fisika mempengaruhi perkembangan teknologi",
       body: [
         "Banyak teknologi modern lahir dari pemahaman fisika.",
         "",
@@ -92,6 +99,7 @@ const mengapabelajarfisika = {
     {
       heading: "💡 Tahukah Kamu?",
       image: tahukahkamuImg,
+      caption: "Teknologi pada smartphone",
       body: [
         "Saat membuka Google Maps, mengambil foto dengan kamera ponsel, atau menghubungkan perangkat melalui Bluetooth, kamu sedang menikmati hasil perkembangan ilmu fisika."
       ]
@@ -100,6 +108,7 @@ const mengapabelajarfisika = {
     {
       heading: "⚠️ Miskonsepsi",
       image: miskonsepsimengapafisika,
+      caption: "Miskonsepsi pada pemahaman fisika",
       body: [
         "Banyak orang mengira fisika hanya berisi rumus yang sulit.",
         "",
@@ -112,7 +121,7 @@ const mengapabelajarfisika = {
     {
       heading: "🧭 Roadmap Chapter",
       body: [
-        "Pada chapter ini kamu akan mempelajari:",
+        "Perjalanan yang akan dilalui pada chapter ini",
         "",
         "🔬 Apa itu fisika",
         "🧩 Hakikat ilmu fisika",
