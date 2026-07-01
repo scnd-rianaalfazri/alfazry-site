@@ -1,3 +1,13 @@
+import apaitufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika1.jpg"
+import fisikadisekelilingImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika2.jpg"
+import skalalingkupfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika4.jpg"
+import cabangfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika3.jpg"
+import fisikadalamkehidupanImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika5.jpg"
+import miskonsepsiaoaitufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika6.jpg"
+import pengertianfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika7.jpg"
+import nextmissionhakikatilmufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika8.jpg"
+import cobatemukanImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika9.jpg"
+
 const apaitufisika = {
   title: "Apa Itu Fisika?",
   slug: "apa itu fisika",
@@ -5,8 +15,14 @@ const apaitufisika = {
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
 
   content: [
-
     {
+      image: apaitufisikaImg,
+      caption: "Apa itu fisika?",
+    },
+    {
+      heading: "🔬 Fisika di Sekeliling Kita",
+      image: fisikadisekelilingImg,
+      caption: "Fisika di sekitar kita",
       body: [
         "Coba lihat ke sekelilingmu.",
         "",
@@ -25,6 +41,8 @@ const apaitufisika = {
 
     {
       heading: "🔬 Pengertian Fisika",
+      image: pengertianfisikaImg,
+      caption: "Fenomena alam hingga penjelasan ilmiah",
       body: [
         "Fisika adalah cabang ilmu pengetahuan alam yang mempelajari materi, energi, gerak, gaya, ruang, waktu, dan interaksi di antara semuanya.",
         "",
@@ -34,6 +52,8 @@ const apaitufisika = {
 
     {
       heading: "🌌 Apa yang Dipelajari Fisika?",
+      image: skalalingkupfisikaImg,
+      caption: "Skala alam semesta dalam grafik",
       body: [
         "Objek kajian fisika sangat luas.",
         "",
@@ -45,6 +65,8 @@ const apaitufisika = {
 
     {
       heading: "🧩 Cabang-Cabang Fisika",
+      image: cabangfisikaImg,
+      caption: "Beberapa cabang ilmu fisika",
       body: [
         "Beberapa bidang utama dalam fisika antara lain:",
         "",
@@ -86,6 +108,8 @@ const apaitufisika = {
 
     {
       heading: "💡 Tahukah Kamu?",
+      image: fisikadalamkehidupanImg,
+      caption: "Fisikawan berinovasi di berbagai bidang",
       body: [
         "Fisikawan tidak hanya bekerja di laboratorium.",
         "",
@@ -95,6 +119,8 @@ const apaitufisika = {
 
     {
       heading: "⚠️ Miskonsepsi",
+      image: miskonsepsiaoaitufisikaImg,
+      caption: "Miskonsepsi umum tentang fisika",
       body: [
         "Fisika bukan hanya mempelajari benda yang bergerak.",
         "",
@@ -110,8 +136,15 @@ const apaitufisika = {
     },
 
     {
+      heading: "Coba Temukan?",
+      image: cobatemukanImg,
+      caption: "Coba temukan fenomena fisika di sekitar gambar ini!"
+    },
+
+    {
+      image: nextmissionhakikatilmufisikaImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
-      link: "/materi/hakikat-ilmu-fisika",
+      link: "/materi/hakikat%20ilmu%20fisika",
       body: [
         "Sekarang kita sudah tahu apa yang dipelajari fisika.",
         "",

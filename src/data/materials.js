@@ -399,8 +399,17 @@ import TeknologiNuklirMasaDepan from "../content/materi/Radioaktivitas/Teknologi
 import MiniProjectRadioaktivitas from "../content/materi/Radioaktivitas/MiniProjectRadioaktivitas.js"
 import PenutupRadioaktivitas from "../content/materi/Radioaktivitas/PenutupChapterRadioaktivitas.js"
 
+/* Fisika Kuantum */
+import PengantarFisikaKuantum from "../content/materi/FisikaKuantum/PengantarFisikaKuantum.js"
+import FisikaKlasikTidakCukup from "../content/materi/FisikaKuantum/FisikaKlasikTidakCukup.js"
+import RadiasiBendaHitam from "../content/materi/FisikaKuantum/RadiasiBendaHitam.js"
+import HipotesisPlanck from "../content/materi/FisikaKuantum/HipotesisPlanck.js"
+import EfekFotolisitrik from "../content/materi/FisikaKuantum/EfekFotolistrik.js"
+import Foton from "../content/materi/FisikaKuantum/Foton.js"
+
 /* Relativitas */
 import PengantarRelativitas from "../content/materi/Relativitas/PengantarRelativitas.js"
+
 
 /* EKSPORT CONTENT */
 export const materials = [
@@ -797,6 +806,16 @@ export const materials = [
   MiniProjectRadioaktivitas,
   PenutupRadioaktivitas,
   
+  /* Chapter : fisika kuantum */
+  PengantarFisikaKuantum,
+  FisikaKlasikTidakCukup,
+  RadiasiBendaHitam,
+  HipotesisPlanck,
+  EfekFotolisitrik,
+  Foton,
+
+
   /* Chapter : radioaktivitas */
   PengantarRelativitas,
+
 ]
