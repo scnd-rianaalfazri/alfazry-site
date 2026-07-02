@@ -1,5 +1,3 @@
-import mengapabelajarfisika from "../HakikatIlmuFisika/MengapaBelajarFisika"
-
 const pengantarrelativitas = {
   title: "Mengapa Relativitas Dibutuhkan?",
   slug: "mengapa relativitas dibutuhkan",

@@ -406,10 +406,24 @@ import RadiasiBendaHitam from "../content/materi/FisikaKuantum/RadiasiBendaHitam
 import HipotesisPlanck from "../content/materi/FisikaKuantum/HipotesisPlanck.js"
 import EfekFotolisitrik from "../content/materi/FisikaKuantum/EfekFotolistrik.js"
 import Foton from "../content/materi/FisikaKuantum/Foton.js"
+import DualismeGelombangPartikel from "../content/materi/FisikaKuantum/DualismeGelombangPartikel.js"
+import EksperimenCelahGanda from "../content/materi/FisikaKuantum/EksperimenCelahGanda.js"
+import HipotesisDeBroglie from "../content/materi/FisikaKuantum/HipotesisDeBroglie.js"
+import PrinsipKetidakpastian from "../content/materi/FisikaKuantum/PrinsipKetidakpastian.js"
+import ModelAtomBohr from "../content/materi/FisikaKuantum/ModelAtomBohr.js"
+import BilanganKuantum from "../content/materi/FisikaKuantum/BilanganKuantum.js"
+import OrbitalAtom from "../content/materi/FisikaKuantum/OrbitalAtom.js"
+import FungsiGelombang from "../content/materi/FisikaKuantum/FungsiGelombang.js"
+import PersamaanSchrodinger from "../content/materi/FisikaKuantum/PersamaanSchrodinger.js"
+import QuantumTunneling from "../content/materi/FisikaKuantum/QuantumTunneling.js"
+import AplikasiFisikaKuantum from "../content/materi/FisikaKuantum/AplikasiFisikaKuantum.js"
+import PenutupFisikaKuantum from "../content/materi/FisikaKuantum/PenutupFisikaKuantum.js"
 
 /* Relativitas */
 import PengantarRelativitas from "../content/materi/Relativitas/PengantarRelativitas.js"
-
+import ProstulatRelativitas from "../content/materi/Relativitas/PostulatRelativitas.js"
+import KerangkaAcuan from "../content/materi/Relativitas/KerangkaAcuan.js"
+import KecepatanCahaya from "../content/materi/Relativitas/KecepatanCahaya.js"
 
 /* EKSPORT CONTENT */
 export const materials = [
@@ -813,9 +827,22 @@ export const materials = [
   HipotesisPlanck,
   EfekFotolisitrik,
   Foton,
-
+  DualismeGelombangPartikel,
+  EksperimenCelahGanda,
+  HipotesisDeBroglie,
+  PrinsipKetidakpastian,
+  ModelAtomBohr,
+  BilanganKuantum,
+  OrbitalAtom,
+  FungsiGelombang,
+  PersamaanSchrodinger,
+  QuantumTunneling,
+  AplikasiFisikaKuantum,
+  PenutupFisikaKuantum,
 
   /* Chapter : radioaktivitas */
   PengantarRelativitas,
-
+  ProstulatRelativitas,
+  KerangkaAcuan,
+  KecepatanCahaya,
 ]
