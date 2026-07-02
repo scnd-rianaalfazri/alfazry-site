@@ -1,118 +1,169 @@
-import { caption, header, image, link, table } from "framer-motion/client"
-import hakikatilmufisikaImg from "/src/assets/Materi/BesaranDanSatuan/HakikatIlmuFisika1.jpg"
-import pembelajaranfisikaImg from "/src/assets/Materi/BesaranDanSatuan/HakikatIlmuFisika2.jpg"
-import caraberpikirfisikawanImg from "/src/assets/Materi/BesaranDanSatuan/HakikatIlmuFisika3.jpg"
-import penjelasanbelajarfisikaImg from "/src/assets/Materi/BesaranDanSatuan/HakikatIlmuFisika4.jpg"
-import nextmissionmetodeilmiahImg from "/src/assets/Materi/BesaranDanSatuan/HakikatIlmuFisika5.jpg"
-import ruanglingkupfisikaImg from "/src/assets/Materi/BesaranDanSatuan/HakikatIlmuFisika6.jpg"
+import { caption, image } from "framer-motion/client"
+import hakikatIlmuFisikaImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika1.jpg"
+import pilarilmufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika2.jpg"
+import fisikasbgprodukImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika3.jpg"
+import fisikasbgprosesImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika4.jpg"
+import fisikasbgsikapImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika5.jpg"
+import intimaterhakikatfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika6.jpg"
+import nextmissionfisikasebagaiprodukImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika7.jpg"
+import miskonsepsihakikatfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika8.jpg"
+import tahukahkamuImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika9.jpg"
 
-const hakikatilmufisika = {
+const hakikatimufisika = {
   title: "Hakikat Ilmu Fisika",
-  slug: "hakikat ilmu fisika",
-  description: "Memahami konsep dasar dan pentingnya ilmu fisika dalam memahami alam semesta.",
+  slug: "hakikat-ilmu-fisika",
+  description: "Memahami hakikat ilmu fisika sebagai produk, proses, dan sikap ilmiah dalam mempelajari alam.",
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
+
   content: [
     {
-      image: hakikatilmufisikaImg,
-      caption: "Ilustrasi: Menjelajahi Fisika, Dunia dan Alam Semesta",
+      image: hakikatIlmuFisikaImg,
+      caption: "Menjelajahi Fisika: Dunia dan Alam Semesta",
       body: [
-        "Pernah kepikiran, nggak?",
-        "Kenapa bola yang dilempar selalu jatuh ke bawah?",
-        "Kenapa pelangi punya warna yang berbeda-beda?",
-        "Kenapa HP bisa mengisi daya dan pesawat bisa terbang?",
+        "Ketika mendengar kata fisika, banyak orang langsung membayangkan rumus-rumus yang sulit.",
         "",
-        "Semua pertanyaan itu dipelajari dalam fisika.",
+        "Padahal, hakikat fisika jauh lebih luas daripada sekadar menghitung.",
         "",
-        "Fisika adalah cabang ilmu pengetahuan yang mempelajari gejala alam untuk menemukan pola, hubungan, dan hukum yang mengatur alam semesta.",
-        "",
-        "Fisika bukan sekadar kumpulan rumus. Fisika adalah cara berpikir untuk memahami bagaimana alam bekerja."
+        "Fisika adalah cara manusia memahami alam melalui pengamatan, eksperimen, dan penalaran."
       ]
     },
 
     {
-      image: pembelajaranfisikaImg,
-      caption: "Ilustrasi: Fisika dalam kehidupan sehari-hari.",
+      heading: "🌱 Apa yang Dimaksud Hakikat Ilmu Fisika?",
       body: [
-        "Saat memahami fisika, kita tidak hanya tahu bahwa sesuatu terjadi—tetapi juga mengerti mengapa itu bisa terjadi."
+        "Hakikat ilmu fisika adalah karakter atau sifat dasar fisika sebagai ilmu pengetahuan.",
+        "",
+        "Fisika tidak hanya menghasilkan pengetahuan, tetapi juga memiliki cara kerja dan sikap yang harus dimiliki seorang ilmuwan."
       ]
     },
 
     {
-      heading: "📚 Fisika sebagai Produk",
+      heading: "🧩 Tiga Pilar Hakikat Fisika",
+      image: pilarilmufisikaImg,
+      caption: "Tiga pilar hakikat ilm fisika",
       body: [
-        "Selama ratusan tahun para ilmuwan mengumpulkan potongan-potongan puzzle tentang alam semesta. Hasil dari proses panjang tersebut membentuk apa yang kita kenal sebagai produk fisika.",
-        "Produk fisika merupakan kumpulan pengetahuan yang membantu kita memahami berbagai fenomena di sekitar kita, mulai dari benda yang jatuh ke tanah hingga gerak planet di luar angkasa.",
+        "Hakikat ilmu fisika dapat dipahami melalui tiga pilar utama.",
         "",
-        "Pengetahuan tersebut tersusun dalam beberapa bentuk:"
-        ],
-      table: {
-        headers: ["Bentuk Pengetahuan", "Penjelasan", "Contoh"],
-        rows : [
-          ["Fakta", "Kenyataan yang dapat diamati dan dibuktikan melalui pengamatan atau eksperimen.", "Magnet menarik benda yang terbuat dari besi."],
-          ["Konsep", "Gagasan atau ide yang digunakan untuk menjelaskan suatu fenomena alam.", "Gaya, massa, energi, kecepatan."],
-          ["Prinsip dan Hukum", "Aturan yang menjelaskan hubungan antar gejala alam berdasarkan hasil pengamatan dan eksperimen yang berulang.", "Hukum Newton, Hukum Gravitasi, Hukum Kekekalan Energi."],
-          ["Persamaan Matematika", "Bentuk matematis yang digunakan untuk menggambarkan hubungan antar besaran fisika.", "F = m x a"],
-          ["Teori dan Model", "Penjelasan ilmiah yang didukung oleh banyak bukti dan digunakan untuk memahami fenomena yang lebih kompleks.", "Model Atom Bohr, Teori Relativitas, Teori Big Bang."]
-        ],
-      }
-    },
-
-    {
-      image: caraberpikirfisikawanImg,
-      caption: "Ilustrasi: Cara Berpikir ilmiah fisikawan",
-      body: [
-        "Saat melihat suatu peristiwa, fisika tidak langsung percaya pada tebakan.",
-        "",
-        "Fisika mengajak kita untuk:",
-        "👀 Mengamati",
-        "❓ Bertanya",
-        "🧪 Menguji",
-        "📊 Mengumpulkan data",
-        "🧩 Menarik kesimpulan",
-        "",
-        "Karena itu, belajar fisika sebenarnya juga belajar berpikir kritis."
+        "⚙️ Fisika sebagai Produk",
+        "🧪 Fisika sebagai Proses",
+        "🧠 Fisika sebagai Sikap Ilmiah"
       ]
     },
 
     {
-      image: ruanglingkupfisikaImg,
-      caption: "Ilustrasi: Ruang Lingkup Fisika",
+      heading: "⚙️ Fisika sebagai Produk",
+      image: fisikasbgprodukImg,
+      caption: "Fisika sebagai produk",
       body: [
-        "Fisika memeluk segala hal yang ada di dalam kosmos ini—dari yang paling megah hingga yang paling tak kasat mata."
+        "Fisika menghasilkan berbagai pengetahuan seperti fakta, konsep, hukum, prinsip, teori, dan model.",
+        "",
+        "Semua pengetahuan tersebut diperoleh melalui proses ilmiah yang terus berkembang."
+      ]
+    },
+
+    {
+      heading: "🧪 Fisika sebagai Proses",
+      image: fisikasbgprosesImg,
+      caption: "Fisika sebagai proses",
+      body: [
+        "Fisika berkembang melalui serangkaian kegiatan ilmiah.",
+        "",
+        "Mulai dari mengamati fenomena, menyusun hipotesis, melakukan eksperimen, hingga menarik kesimpulan berdasarkan data."
+      ]
+    },
+
+    {
+      heading: "🧠 Fisika sebagai Sikap",
+      image: fisikasbgsikapImg,
+      caption: "Fisika sebagai sikap",
+      body: [
+        "Selain pengetahuan dan metode, fisika juga menanamkan sikap ilmiah.",
+        "",
+        "Misalnya rasa ingin tahu, jujur terhadap data, berpikir kritis, teliti, terbuka terhadap bukti baru, dan bertanggung jawab."
+      ]
+    },
+
+    {
+      heading: "🌍 Mengapa Hakikat Fisika Penting?",
+      body: [
+        "Dengan memahami hakikat fisika, kita tidak hanya mengetahui hasil akhir suatu penemuan.",
+        "",
+        "Kita juga memahami bagaimana pengetahuan tersebut diperoleh dan mengapa hasilnya dapat dipercaya."
+      ]
+    },
+
+    {
+      heading: "💡 Tahukah Kamu?",
+      image: tahukahkamuImg,
+      caption: "Penemuan dari tahu ke tahun",
+      body: [
+        "Banyak teori fisika yang kita gunakan saat ini telah mengalami penyempurnaan selama ratusan tahun.",
+        "",
+        "Hal ini menunjukkan bahwa ilmu pengetahuan selalu berkembang ketika ditemukan bukti-bukti baru."
+      ]
+    },
+
+    {
+      heading: "⚠️ Miskonsepsi",
+      image: miskonsepsihakikatfisikaImg,
+      caption: "Miskonsepsi tentang hakikat ilmu fisika",
+      body: [
+        "Fisika bukan kumpulan rumus yang harus dihafal.",
+        "",
+        "Rumus hanyalah alat untuk menjelaskan hubungan antarbesaran.",
+        "",
+        "Yang lebih penting adalah memahami konsep dan cara berpikir ilmiah di baliknya."
+      ]
+    },
+
+    {
+      heading: "📊 Ringkasan Konsep",
+      body: [
+        "Fisika",
+        "⬇️",
+        "Produk",
+        "⬇️",
+        "Proses",
+        "⬇️",
+        "Sikap Ilmiah"
       ]
     },
 
     {
       heading: "✨ Inti Materi",
+      image: intimaterhakikatfisikaImg,
+      caption: "Inti materi dari hakikat ilmu fisika",
       body: [
-        "Fisika adalah jendela untuk memahami alam semesta.",
+        "Hakikat ilmu fisika terdiri atas tiga aspek yang saling berkaitan, yaitu fisika sebagai produk, proses, dan sikap ilmiah.",
         "",
-        " Dengan rasa ingin tahu, pengamatan, dan pemikiran logis, fisika mengungkap berbagai rahasia alam, mulai dari benda yang jatuh ke bumi hingga gerak galaksi yang jauh di luar angkasa."
+        "Ketiga aspek inilah yang membentuk cara kerja ilmu pengetahuan."
       ]
     },
 
     {
-      image: nextmissionmetodeilmiahImg,
+      image: nextmissionfisikasebagaiprodukImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
-      link: "/materi/metode%20ilmiah",
+      link: "/materi/fisika-sebagai-produk",
       body: [
-        "Kalau fisika ingin memahami alam, pertanyaannya sekarang:",
+        "Kita sudah mengenal tiga pilar hakikat fisika.",
         "",
-        "Bagaimana cara ilmuwan memastikan hasil pengamatannya benar?",
+        "Sekarang kita akan mempelajari pilar pertama.",
         "",
-        "➡️ Next, kita menuju portal: Metode Ilmiah."
+        "➡️ Next, kita menuju portal: Fisika sebagai Produk."
       ]
     },
 
     {
       heading: "Referensi:",
       body: [
-        "Serway & Jewett. Physics for Scientists and Engineers.",
         "Halliday, Resnick & Walker. Fundamentals of Physics.",
-        "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X."
+        "Serway & Jewett. Physics for Scientists and Engineers.",
+        "Young & Freedman. University Physics with Modern Physics.",
+        "Kemendikbudristek RI. Buku Fisika SMA/MA."
       ]
-    },
-  ],
+    }
+
+  ]
 }
 
-export default hakikatilmufisika
+export default hakikatimufisika
