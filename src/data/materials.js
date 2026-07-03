@@ -4,6 +4,9 @@
 import MengapaBelajarFisika from "../content/materi/HakikatIlmuFisika/MengapaBelajarFisika.js"
 import ApaItuFisika from "../content/materi/HakikatIlmuFisika/ApaItuFisika.js"
 import HakikatIlmuFisika from "../content/materi/HakikatIlmuFisika/HakikatIlmuFisika.js"
+import FisikaSbgProduk from "../content/materi/HakikatIlmuFisika/FisikaSbgProduk.js"
+import FisikaSbgProses from "../content/materi/HakikatIlmuFisika/FisikaSbgProses.js"
+import FisikaSbgSikap from "../content/materi/HakikatIlmuFisika/FisikaSbgSikap.js"
 
 /* besaran dan satua */
 import MetodeIlmiah from "../content/materi/BesaranDanSatuan/MetodeIlmiah.js"
@@ -424,6 +427,22 @@ import PengantarRelativitas from "../content/materi/Relativitas/PengantarRelativ
 import ProstulatRelativitas from "../content/materi/Relativitas/PostulatRelativitas.js"
 import KerangkaAcuan from "../content/materi/Relativitas/KerangkaAcuan.js"
 import KecepatanCahaya from "../content/materi/Relativitas/KecepatanCahaya.js"
+import DilaasiWaktu from "../content/materi/Relativitas/DilatasiWaktu.js"
+import KontaksiPanjang from "../content/materi/Relativitas/KontaksiPanjang.js"
+import RelativitasKeserempakan from "../content/materi/Relativitas/RelativitasKeserempakan.js"
+import PenjumlahanKecepatan from "../content/materi/Relativitas/PenjumlahanKecepatan.js"
+import MomentumRelativistik from "../content/materi/Relativitas/MomentumRelativistik.js"
+import EnergiRelativistik from "../content/materi/Relativitas/EnergiRelativistik.js"
+import PersamaanEinstein from "../content/materi/Relativitas/PersamaanEinstein.js"
+import BuktiRelativitas from "../content/materi/Relativitas/BuktiRelativitas.js"
+import RelativitasUmum from "../content/materi/Relativitas/RelativitasUmum.js"
+import LubangHitam from "../content/materi/Relativitas/LubangHitam.js"
+import GelombangGravitasi from "../content/materi/Relativitas/GelombangGravitasi.js"
+import GPSDanRelativitas from "../content/materi/Relativitas/GPSDanRelativitas.js"
+import AplikasiRelativitas from "../content/materi/Relativitas/AplikasiRelativitas.js"
+import MasaDepanRelativitas from "../content/materi/Relativitas/MasaDepanRelativitas.js"
+import MiniProjectRelativitas from "../content/materi/Relativitas/MiniProjectRelativitas.js"
+import PenutupRelativitas from "../content/materi/Relativitas/PenutupRelativitas.js"
 
 /* EKSPORT CONTENT */
 export const materials = [
@@ -431,6 +450,9 @@ export const materials = [
   MengapaBelajarFisika,
   ApaItuFisika,
   HakikatIlmuFisika,
+  FisikaSbgProduk,
+  FisikaSbgProses,
+  FisikaSbgSikap,
 
   /* Chapter : Besaran dan Satuan */
   MetodeIlmiah,
@@ -840,9 +862,25 @@ export const materials = [
   AplikasiFisikaKuantum,
   PenutupFisikaKuantum,
 
-  /* Chapter : radioaktivitas */
+  /* Chapter : relativitas */
   PengantarRelativitas,
   ProstulatRelativitas,
   KerangkaAcuan,
   KecepatanCahaya,
+  DilaasiWaktu,
+  KontaksiPanjang,
+  RelativitasKeserempakan,
+  PenjumlahanKecepatan,
+  MomentumRelativistik,
+  EnergiRelativistik,
+  PersamaanEinstein,
+  BuktiRelativitas,
+  RelativitasUmum,
+  LubangHitam,
+  GelombangGravitasi,
+  GPSDanRelativitas,
+  AplikasiRelativitas,
+  MasaDepanRelativitas,
+  MiniProjectRelativitas,
+  PenutupRelativitas,
 ]
