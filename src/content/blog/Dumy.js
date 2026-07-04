@@ -1,4 +1,4 @@
-﻿// ============================================================
+// ============================================================
 // DATA BLOG — Alfazrian Fisika
 // ============================================================
 // Tinggal copy salah satu object di bawah, ganti isinya, lalu
@@ -26,39 +26,39 @@
 // ============================================================
 
 const dumy = {
+
   // Contoh 1 — hapus/ganti setelah kamu isi konten sungguhan
-  slug: "contoh-cara-menulis-post",
-  title: "Contoh: Cara Menulis Postingan Baru",
-  excerpt:
-    "Postingan ini cuma contoh struktur. Hapus atau timpa dengan kontenmu sendiri.",
-  date: "4 Juli 2026",
-  category: "Panduan",
-  readTime: "2 menit",
-  tags: ["panduan"],
-  content: [
-    {
-      body:
-        "Ini adalah paragraf pembuka. Kamu bisa mulai dengan cerita pendek, pertanyaan, atau fakta menarik seputar fisika.",
-    },
-    {
-      heading: "Sub Judul Bagian Pertama",
-    },
-    {
-      body: [
-        "Paragraf pertama di bagian ini.",
-        "Paragraf kedua, kalau butuh lebih dari satu.",
-      ],
-    },
-    {
-      quote: "Kutipan atau kalimat highlight taruh di sini.",
-    },
-    {
-      heading: "Sub Judul Bagian Kedua",
-    },
-    {
-      body: "Tutup dengan kesimpulan singkat atau ajakan buat lanjut belajar.",
-    },
-  ],
+    slug: "contoh-cara-menulis-post",
+    title: "Contoh: Cara Menulis Postingan Baru",
+    excerpt:  "Postingan ini cuma contoh struktur. Hapus atau timpa dengan kontenmu sendiri.",
+    date: "4 Juli 2026",
+    category: "Panduan",
+    readTime: "2 menit",
+    tags: ["panduan"],
+    content: [
+      {
+        body:
+          "Ini adalah paragraf pembuka. Kamu bisa mulai dengan cerita pendek, pertanyaan, atau fakta menarik seputar fisika.",
+      },
+      {
+        heading: "Sub Judul Bagian Pertama",
+      },
+      {
+        body: [
+          "Paragraf pertama di bagian ini.",
+          "Paragraf kedua, kalau butuh lebih dari satu.",
+        ],
+      },
+      {
+        quote: "Kutipan atau kalimat highlight taruh di sini.",
+      },
+      {
+        heading: "Sub Judul Bagian Kedua",
+      },
+      {
+        body: "Tutup dengan kesimpulan singkat atau ajakan buat lanjut belajar.",
+      },
+    ],
 }
 
 export default dumy

@@ -6,6 +6,7 @@ import fisikadisekitarkita from "/src/assets/Materi/HakikatIlmuFisika/MengapaFis
 import mengapabelajarfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika5.jpg"
 import fisikamengubahduniaImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika6.jpg"
 import tahukahkamuImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika7.jpg"
+import intimaterimengapabelajarfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika8.png"
 import miskonsepsimengapafisika from "/src/assets/Materi/HakikatIlmuFisika/Mengapafisika9.jpg"
 import nextmissionapaitufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika10.jpg"
 
@@ -136,6 +137,8 @@ const mengapabelajarfisika = {
 
     {
       heading: "✨ Inti Materi",
+      image: intimaterimengapabelajarfisikaImg,
+      caption: "Inti materi mengapa belajar fisika",
       body: [
         "Fisika adalah ilmu yang membantu manusia memahami alam melalui pengamatan, eksperimen, dan penalaran ilmiah.",
         "",
