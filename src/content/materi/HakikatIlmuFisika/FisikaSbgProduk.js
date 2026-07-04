@@ -1,3 +1,5 @@
+import fisikasbgprodukImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk1.jpg"
+
 const fisikasebagaiproduk = {
   title: "Fisika sebagai Produk",
   slug: "fisika sebagai produk",
@@ -6,6 +8,7 @@ const fisikasebagaiproduk = {
 
   content: [
     {
+      image: fisikasbgprodukImg,
       caption: "Pengetahuan ilmiah merupakan hasil dari proses penyelidikan.",
       body: [
         "Pernahkah kamu bertanya mengapa kita mengetahui bahwa Bumi mengelilingi Matahari?",
