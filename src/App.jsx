@@ -7,6 +7,8 @@ import KalkulatorFisika from "./pages/KalkulatorFisika"
 import DetailSimulasi from "./pages/DetailSimulasi"
 import DetailMateri from "./pages/DetailMateri"
 import DetailKakulatorFisika from "./pages/DetailKalkulatorFisika"
+import Blog from "./pages/Blog"
+import DetailBlog from "./pages/DetailBlog"
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Route path="/simulasi/:slug" element={<DetailSimulasi />} />
       <Route path="/materi/:slug" element={<DetailMateri />} />  
       <Route path="/kalkulatorfisika/:slug" element={<DetailKakulatorFisika />} />       
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/blog/:slug" element={<DetailBlog />} />
     </Routes>
   )
 }

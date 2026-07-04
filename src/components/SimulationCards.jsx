@@ -5,22 +5,23 @@ export default function SimulationCard({ title, description, slug }) {
     <Link to={`/simulasi/${slug}`} className="block">
       <div
         className="
+          hud-frame
           h-full
           bg-white/5
           border border-white/10
-          rounded-3xl
+          rounded-2xl
           p-5 md:p-6
           transition-all
           duration-300
-          hover:border-cyan-400
-          hover:shadow-cyan-500/20
+          hover:border-violet-400/50
+          hover:shadow-violet-500/20
           hover:shadow-2xl
           hover:-translate-y-2
           active:scale-[0.98]
           cursor-pointer
         "
       >
-        <h2 className="text-xl md:text-2xl font-bold mb-3 line-clamp-2">
+        <h2 className="font-hud text-xl md:text-2xl font-bold mb-3 line-clamp-2">
           {title}
         </h2>
 
@@ -28,8 +29,8 @@ export default function SimulationCard({ title, description, slug }) {
           {description}
         </p>
 
-        <div className="mt-5 flex items-center text-cyan-400 text-sm font-medium">
-          Jalankan Simulasi →
+        <div className="mt-5 flex items-center text-cyan-300 text-sm font-medium font-mono">
+          JALANKAN SIMULASI →
         </div>
       </div>
     </Link>
