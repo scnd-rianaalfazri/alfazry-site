@@ -21,9 +21,10 @@ export default function FloatingCards() {
           <div
             key={index}
             className="
+              hud-frame
               group
               p-5 md:p-8
-              rounded-3xl
+              rounded-2xl
               border border-white/10
               bg-white/5
               backdrop-blur-xl
@@ -31,17 +32,17 @@ export default function FloatingCards() {
               duration-500
 
               hover:-translate-y-2
-              hover:border-cyan-400/40
-              hover:shadow-[0_0_30px_rgba(34,211,238,0.12)]
+              hover:border-violet-400/40
+              hover:shadow-[0_0_30px_rgba(139,59,255,0.15)]
             "
           >
             <div
               className="
                 w-12 h-12 md:w-14 md:h-14
                 rounded-2xl
-                bg-cyan-400/10
+                bg-violet-500/10
                 flex items-center justify-center
-                text-cyan-400
+                text-violet-300
                 text-xl md:text-2xl
                 mb-5
               "
@@ -51,11 +52,12 @@ export default function FloatingCards() {
 
             <h3
               className="
+                font-hud
                 text-xl md:text-2xl
                 font-bold
                 mb-3
                 transition
-                group-hover:text-cyan-400
+                group-hover:text-violet-300
               "
             >
               {item.title}

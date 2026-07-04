@@ -1,1 +1,161 @@
 @import "tailwindcss";
+
+/* ============================================================
+   ALFAZRIAN FISIKA — Sci-Fi HUD Design System
+   Signature: ungu neon (brand) + cyan (data/interaktif)
+   ============================================================ */
+
+@theme {
+  --font-display: "Orbitron", "sans-serif";
+  --font-hud: "Rajdhani", "sans-serif";
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-violet-glow: #b26bff;
+  --color-violet-core: #8b3bff;
+  --color-violet-deep: #4c1d95;
+  --color-cyan-core: #22d3ee;
+  --color-space: #05060f;
+  --color-panel: #0b0e1f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-space);
+  font-family: var(--font-hud);
+}
+
+/* ---------- Ambient space background ---------- */
+.bg-space {
+  position: relative;
+  background-color: var(--color-space);
+  background-image:
+    radial-gradient(ellipse 60% 45% at 18% 0%, rgba(139, 59, 255, 0.28), transparent 60%),
+    radial-gradient(ellipse 55% 40% at 100% 20%, rgba(34, 211, 238, 0.16), transparent 60%),
+    radial-gradient(ellipse 45% 35% at 50% 100%, rgba(139, 59, 255, 0.14), transparent 60%);
+}
+
+.bg-grid {
+  position: relative;
+}
+
+.bg-grid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(139, 59, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(139, 59, 255, 0.08) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, black 40%, transparent 90%);
+}
+
+/* ---------- Typography helpers ---------- */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-hud {
+  font-family: var(--font-mono);
+}
+
+.text-glow-violet {
+  color: #fff;
+  text-shadow:
+    0 0 8px rgba(178, 107, 255, 0.9),
+    0 0 26px rgba(139, 59, 255, 0.6),
+    0 0 60px rgba(139, 59, 255, 0.35);
+}
+
+.text-glow-cyan {
+  text-shadow:
+    0 0 8px rgba(34, 211, 238, 0.8),
+    0 0 24px rgba(34, 211, 238, 0.4);
+}
+
+.text-gradient-violet {
+  background: linear-gradient(180deg, #ffffff 0%, #d9bbff 45%, #8b3bff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 22px rgba(139, 59, 255, 0.45));
+}
+
+/* ---------- HUD panel: sudut bracket seperti layar holografik ---------- */
+.hud-frame {
+  position: relative;
+}
+
+.hud-frame::before,
+.hud-frame::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(178, 107, 255, 0.55);
+  opacity: 0.85;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.hud-frame::before {
+  top: -1px;
+  left: -1px;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 6px 0 0 0;
+}
+
+.hud-frame::after {
+  bottom: -1px;
+  right: -1px;
+  border-left: none;
+  border-top: none;
+  border-radius: 0 0 6px 0;
+}
+
+.hud-frame:hover::before,
+.hud-frame:hover::after {
+  width: 22px;
+  height: 22px;
+  border-color: rgba(34, 211, 238, 0.85);
+}
+
+/* ---------- Motion ---------- */
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 1; }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2.6s ease-in-out infinite;
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-14px); }
+}
+
+.animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+@keyframes orbit-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-orbit {
+  animation: orbit-spin 14s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-pulse-glow,
+  .animate-float-slow,
+  .animate-orbit {
+    animation: none;
+  }
+}

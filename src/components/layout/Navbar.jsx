@@ -51,12 +51,12 @@ export default function Navbar() {
               ? `
                 bg-black/70
                 backdrop-blur-2xl
-                shadow-[0_0_50px_rgba(34,211,238,0.12)]
+                shadow-[0_0_50px_rgba(139,59,255,0.14)]
               `
               : `
                 bg-black/50
                 backdrop-blur-xl
-                shadow-[0_0_30px_rgba(34,211,238,0.08)]
+                shadow-[0_0_30px_rgba(139,59,255,0.10)]
               `
           }
         `}
@@ -79,26 +79,27 @@ export default function Navbar() {
           <Link to="/" onClick={() => setIsOpen(false)}>
             <h1
               className={`
+                font-display
                 font-bold
-                tracking-tight
+                tracking-wide
                 transition-all
                 duration-300
 
                 ${
                   isScrolled
-                    ? "text-lg sm:text-xl"
-                    : "text-xl sm:text-2xl"
+                    ? "text-base sm:text-lg"
+                    : "text-lg sm:text-xl"
                 }
               `}
             >
-              Alfazrian
+              ALFAZRIAN
               <span
                 className="
-                  text-cyan-400
-                  drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]
+                  text-violet-400
+                  drop-shadow-[0_0_10px_rgba(139,59,255,0.7)]
                 "
               >
-                Site
+                {" "}FISIKA
               </span>
             </h1>
           </Link>

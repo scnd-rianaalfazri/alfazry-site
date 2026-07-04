@@ -43,17 +43,17 @@ export default function BackToTopButton() {
         bg-black/60
         backdrop-blur-xl
 
-        text-cyan-400
+        text-violet-300
         text-xl
 
-        shadow-[0_0_20px_rgba(34,211,238,0.2)]
+        shadow-[0_0_20px_rgba(139,59,255,0.25)]
 
         transition-all
         duration-300
 
         hover:scale-110
-        hover:border-cyan-400
-        hover:shadow-[0_0_25px_rgba(34,211,238,0.35)]
+        hover:border-violet-400
+        hover:shadow-[0_0_25px_rgba(139,59,255,0.4)]
 
         ${
           visible
