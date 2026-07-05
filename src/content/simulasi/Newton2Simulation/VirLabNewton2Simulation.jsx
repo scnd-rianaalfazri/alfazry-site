@@ -139,10 +139,10 @@ export default function VirLabNewton2Simulation() {
   const frictionArrow = Math.max(20, Math.min(friction * 0.3, 110))
 
   return (
-    <div className="max-w-6xl mx-auto rounded-3xl border border-white/10 bg-gradient-to-br from-slate-900 via-slate-900 to-cyan-950/40 p-6 text-white">
+    <div className="max-w-6xl mx-auto rounded-3xl hud-frame border border-violet-400/20 bg-gradient-to-br from-[#05060f] via-[#0b0e1f] to-[#1a0b2e] p-6 text-white">
       <div className="flex flex-wrap items-start justify-between gap-3 mb-6">
         <div>
-          <h2 className="text-3xl font-bold flex items-center gap-2">
+          <h2 className="font-display text-2xl md:text-3xl font-black flex items-center gap-2 [text-shadow:0_0_24px_rgba(139,59,255,0.45)]">
             <span>⚡</span> Simulasi Hukum Newton II
           </h2>
           <p className="text-white/60 mt-1">
@@ -168,14 +168,14 @@ export default function VirLabNewton2Simulation() {
 
       <div className="grid lg:grid-cols-[300px_1fr] gap-6 items-start">
         {/* Kontrol */}
-        <div className="rounded-2xl bg-black/20 p-5 lg:sticky lg:top-4">
+        <div className="rounded-2xl bg-white/[0.03] border border-violet-400/10 p-5 lg:sticky lg:top-4">
           <h3 className="font-semibold mb-4 flex items-center gap-2">
             🎛 Kontrol
           </h3>
 
           <div className="flex items-baseline justify-between mb-2">
             <label className="text-sm text-white/70">Gaya dorong</label>
-            <span className="font-mono text-cyan-300">{force} N</span>
+            <span className="font-mono text-violet-300">{force} N</span>
           </div>
           <input
             type="range"
@@ -183,12 +183,12 @@ export default function VirLabNewton2Simulation() {
             max="300"
             value={force}
             onChange={(e) => setForce(Number(e.target.value))}
-            className="w-full mb-5 accent-cyan-500"
+            className="w-full mb-5 accent-violet-500"
           />
 
           <div className="flex items-baseline justify-between mb-2">
             <label className="text-sm text-white/70">Massa</label>
-            <span className="font-mono text-cyan-300">{mass} kg</span>
+            <span className="font-mono text-violet-300">{mass} kg</span>
           </div>
           <input
             type="range"
@@ -196,7 +196,7 @@ export default function VirLabNewton2Simulation() {
             max="100"
             value={mass}
             onChange={(e) => setMass(Number(e.target.value))}
-            className="w-full mb-5 accent-cyan-500"
+            className="w-full mb-5 accent-violet-500"
           />
 
           <label className="block text-sm text-white/70 mb-2">Permukaan</label>
@@ -219,7 +219,7 @@ export default function VirLabNewton2Simulation() {
             <button
               onClick={() => setRunning(true)}
               disabled={running}
-              className="rounded-xl bg-cyan-500 disabled:bg-cyan-500/30 disabled:text-white/40 px-3 py-3 font-medium transition-colors hover:bg-cyan-400"
+              className="rounded-xl bg-gradient-to-r from-violet-500 to-violet-700 disabled:opacity-30 disabled:text-white/40 px-3 py-3 font-medium transition hover:scale-[1.03] shadow-lg shadow-violet-600/30"
             >
               ▶ Mulai
             </button>
@@ -249,9 +249,9 @@ export default function VirLabNewton2Simulation() {
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`px-4 py-2 rounded-xl text-sm font-medium transition-colors ${
+                className={`px-4 py-2 rounded-xl text-sm font-medium font-hud transition-colors ${
                   activeTab === tab.id
-                    ? "bg-cyan-500 text-white"
+                    ? "bg-gradient-to-r from-violet-500 to-violet-700 text-white"
                     : "bg-white/5 text-white/60 hover:bg-white/10"
                 }`}
               >
@@ -264,7 +264,7 @@ export default function VirLabNewton2Simulation() {
           {activeTab === "simulasi" && (
             <div className="grid md:grid-cols-2 gap-6">
               {/* Free Body Diagram */}
-              <div className="rounded-2xl bg-black/20 p-5">
+              <div className="rounded-2xl bg-white/[0.03] border border-violet-400/10 p-5">
                 <h3 className="font-semibold mb-4">🧭 Free Body Diagram</h3>
 
                 <div className="relative mx-auto h-64 w-64">
@@ -321,7 +321,7 @@ export default function VirLabNewton2Simulation() {
               </div>
 
               {/* Data Real-Time */}
-              <div className="rounded-2xl bg-black/20 p-5">
+              <div className="rounded-2xl bg-white/[0.03] border border-violet-400/10 p-5">
                 <h3 className="font-semibold mb-4">📊 Data Real-Time</h3>
 
                 <div className="grid grid-cols-2 gap-3">
@@ -347,7 +347,7 @@ export default function VirLabNewton2Simulation() {
           {/* TAB GRAFIK */}
           {activeTab === "grafik" && (
             <div className="grid md:grid-cols-2 gap-6">
-              <div className="rounded-2xl bg-black/20 p-5">
+              <div className="rounded-2xl bg-white/[0.03] border border-violet-400/10 p-5">
                 <h3 className="font-semibold mb-4">📈 Kecepatan vs Waktu</h3>
 
                 <div className="h-72">
@@ -378,7 +378,7 @@ export default function VirLabNewton2Simulation() {
                 </div>
               </div>
 
-              <div className="rounded-2xl bg-black/20 p-5">
+              <div className="rounded-2xl bg-white/[0.03] border border-violet-400/10 p-5">
                 <h3 className="font-semibold mb-4">📊 Posisi vs Waktu</h3>
 
                 <div className="h-72">
@@ -455,7 +455,7 @@ export default function VirLabNewton2Simulation() {
       </div>
 
       {/* Arena Simulasi */}
-      <div className="mt-6 rounded-2xl bg-black/20 p-5">
+      <div className="mt-6 rounded-2xl bg-white/[0.03] border border-violet-400/10 p-5">
         <div className="flex items-center justify-between mb-4">
           <h3 className="font-semibold">🏁 Arena Simulasi</h3>
           <span className="text-xs text-white/40 font-mono">
@@ -515,7 +515,7 @@ function Stat({ label, value, accent = "text-white" }) {
 
 function ResultCard({ label, value, unit, accent = "text-white" }) {
   return (
-    <div className="rounded-xl bg-black/20 p-4">
+    <div className="rounded-xl bg-white/[0.03] border border-violet-400/10 p-4">
       <p className="text-white/50 text-sm mb-1">{label}</p>
       <p className={`text-2xl font-bold font-mono ${accent}`}>
         {value} <span className="text-sm text-white/40">{unit}</span>

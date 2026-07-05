@@ -14,7 +14,7 @@ const hakikatimufisika = {
   slug: "hakikat-ilmu-fisika",
   description: "Memahami hakikat ilmu fisika sebagai produk, proses, dan sikap ilmiah dalam mempelajari alam.",
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
-
+ 
   content: [
     {
       image: hakikatIlmuFisikaImg,

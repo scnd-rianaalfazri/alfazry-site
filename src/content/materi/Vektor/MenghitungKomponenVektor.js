@@ -1,13 +1,3 @@
-import { caption, form, image } from "framer-motion/client"
-import menghitungkomponenvektorImg from "/src/assets/Materi/Vektor/MenghitungKomponenVektor1.jpg"
-import vektormembentuksikusikuImg from "/src/assets/Materi/Vektor/MenghitungKomponenVektor2.jpg"
-import komponenxImg from "/src/assets/Materi/Vektor/MenghitungKomponenVektor3.jpg"
-import komponenyImg from "/src/assets/Materi/Vektor/MenghitungKomponenVektor4.jpg"
-import rumuskomponenvektorImg from "/src/assets/Materi/Vektor/MenghitungKomponenVektor5.jpg"
-import caraperhitungankomponenvektorImg from "/src/assets/Materi/Vektor/MenghitungKomponenVektor6.jpg"
-import tandakomponenkoordinatImg from "/src/assets/Materi/Vektor/MenghitungKomponenVektor7.jpg"
-import penerapanmenghitungkomponenvektorImg from "/src/assets/Materi/Vektor/MenghitungKomponenVektor8.jpg"
-import nextmissionmenjumlahkanvektorImg from "/src/assets/Materi/Vektor/MenghitungKomponenVektor9.jpg"
 
 const menghitungkomponenvektor = {
   title: "Menghitung Komponen Vektor",
@@ -17,7 +7,6 @@ const menghitungkomponenvektor = {
   content: [
     {
       heading: "📐 Dari Gambar Menjadi Perhitungan",
-      image: menghitungkomponenvektorImg,
       body: [
         "Sebuah vektor yang membentuk sudut dapat diuraikan menjadi dua komponen:",
         "",
@@ -29,7 +18,6 @@ const menghitungkomponenvektor = {
     },
 
     {
-      image: vektormembentuksikusikuImg,
       body: [
         "Ketika sebuah vektor diuraikan, terbentuk segitiga siku-siku.",
         "",
@@ -40,7 +28,6 @@ const menghitungkomponenvektor = {
     },
 
     {
-      image: komponenxImg,
       body: [
         "Komponen X menunjukkan bagian vektor yang searah dengan sumbu horizontal.",
         "",
@@ -51,7 +38,6 @@ const menghitungkomponenvektor = {
     },
 
     {
-      image: komponenyImg,
       body: [
         "Komponen Y menunjukkan bagian vektor yang searah dengan sumbu vertikal.",
         "",
@@ -62,7 +48,6 @@ const menghitungkomponenvektor = {
     },
 
     {
-      image: rumuskomponenvektorImg,
       body: [
         "Misalkan sebuah vektor memiliki besar A dan membentuk sudut θ terhadap sumbu X.",
         "",
@@ -75,7 +60,6 @@ const menghitungkomponenvektor = {
     },
 
     {
-      image: caraperhitungankomponenvektorImg,
       body: [
         "Sebuah gaya sebesar 100 N membentuk sudut 30° terhadap arah horizontal.",
         "",
@@ -89,7 +73,6 @@ const menghitungkomponenvektor = {
     },
 
     {
-      image: tandakomponenkoordinatImg,
       body: [
         "Nilai komponen bergantung pada arah vektor.",
         "",
@@ -102,7 +85,6 @@ const menghitungkomponenvektor = {
     },
 
     {
-      image: penerapanmenghitungkomponenvektorImg,
       body: [
         "Pada bidang miring, gaya gravitasi dapat diuraikan menjadi:",
         "",
@@ -132,7 +114,6 @@ const menghitungkomponenvektor = {
     },
 
     {
-      image: nextmissionmenjumlahkanvektorImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/menjumlahkan%20vektor",
       body: [

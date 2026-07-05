@@ -278,11 +278,11 @@ export default function VirLabMomentumSimulation() {
         maxWidth: "1100px",
         margin: "0 auto",
         borderRadius: "24px",
-        border: "1px solid #334155",
-        background: "linear-gradient(to bottom right, #0f172a, #0f172a, #083344)",
+        border: "1px solid rgba(139,59,255,0.25)",
+        background: "linear-gradient(to bottom right, #05060f, #0b0e1f, #1a0b2e)",
         padding: "24px",
         color: "white",
-        fontFamily: "system-ui, -apple-system, sans-serif",
+        fontFamily: "Rajdhani, system-ui, -apple-system, sans-serif",
       }}
     >
       {/* Header */}
@@ -297,7 +297,7 @@ export default function VirLabMomentumSimulation() {
         }}
       >
         <div>
-          <h2 style={{ fontSize: "28px", fontWeight: 700, margin: 0, display: "flex", alignItems: "center", gap: "8px" }}>
+          <h2 style={{ fontFamily: "Orbitron, sans-serif", fontSize: "26px", fontWeight: 800, margin: 0, display: "flex", alignItems: "center", gap: "8px", textShadow: "0 0 24px rgba(139,59,255,0.45)" }}>
             🚀 Simulasi Momentum
           </h2>
           <p style={{ color: "#94a3b8", marginTop: "6px" }}>
@@ -360,7 +360,7 @@ export default function VirLabMomentumSimulation() {
         className="momentum-layout"
       >
         {/* Kontrol */}
-        <div style={{ borderRadius: "16px", background: "rgba(0,0,0,0.2)", padding: "20px" }}>
+        <div style={{ borderRadius: "16px", background: "rgba(255,255,255,0.03)", border: "1px solid rgba(139,59,255,0.12)", padding: "20px" }}>
           <h3 style={{ fontWeight: 600, marginTop: 0, marginBottom: "16px" }}>🎛 Kontrol</h3>
 
           <SliderRow label="Massa A" value={`${massaA} kg`} color="#67e8f9">
@@ -390,7 +390,7 @@ export default function VirLabMomentumSimulation() {
             <button
               onClick={() => setRunning(true)}
               disabled={running}
-              style={btnStyle("#06b6d4", running)}
+              style={btnStyle("linear-gradient(to right, #8b3bff, #6d28d9)", running)}
             >
               ▶ Jalan
             </button>
@@ -410,7 +410,7 @@ export default function VirLabMomentumSimulation() {
         {/* Kanan: arena + tabs */}
         <div style={{ minWidth: 0, display: "flex", flexDirection: "column", gap: "20px" }}>
           {/* Arena */}
-          <div style={{ borderRadius: "16px", background: "rgba(0,0,0,0.2)", padding: "20px" }}>
+          <div style={{ borderRadius: "16px", background: "rgba(255,255,255,0.03)", border: "1px solid rgba(34,211,238,0.15)", padding: "20px" }}>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "16px", flexWrap: "wrap", gap: "8px" }}>
               <h3 style={{ fontWeight: 600, margin: 0 }}>🏟️ Arena Tumbukan</h3>
               <div style={{ display: "flex", gap: "16px", fontSize: "12px", color: "#94a3b8" }}>
@@ -486,7 +486,7 @@ export default function VirLabMomentumSimulation() {
                   fontWeight: 500,
                   border: "none",
                   cursor: "pointer",
-                  background: activeTab === tab.id ? "#06b6d4" : "rgba(255,255,255,0.05)",
+                  background: activeTab === tab.id ? "linear-gradient(to right, #8b3bff, #6d28d9)" : "rgba(255,255,255,0.05)",
                   color: activeTab === tab.id ? "white" : "#94a3b8",
                 }}
               >
@@ -561,7 +561,7 @@ export default function VirLabMomentumSimulation() {
           {/* TAB PERHITUNGAN */}
           {activeTab === "perhitungan" && (
             <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
-              <Panel title="📖 Perhitungan Momentum" titleColor="#38bdf8">
+              <Panel title="📖 Perhitungan Momentum" titleColor="#22d3ee">
                 <div style={{ display: "flex", flexDirection: "column", gap: "10px", fontFamily: "monospace", fontSize: "14px", color: "#cbd5e1" }}>
                   <Rumus lines={["pA = mA × vA", `= ${massaA} × ${kecepatanAwalA}`, `= ${momentumA.toFixed(2)} kg·m/s`]} />
                   <Rumus lines={["pB = mB × vB", `= ${massaB} × ${kecepatanAwalB}`, `= ${momentumB.toFixed(2)} kg·m/s`]} />
@@ -572,7 +572,7 @@ export default function VirLabMomentumSimulation() {
                 </div>
               </Panel>
 
-              <Panel title="⚡ Perhitungan Energi Kinetik" titleColor="#38bdf8">
+              <Panel title="⚡ Perhitungan Energi Kinetik" titleColor="#22d3ee">
                 <div style={{ display: "flex", flexDirection: "column", gap: "10px", fontFamily: "monospace", fontSize: "14px", color: "#cbd5e1" }}>
                   <Rumus lines={["EKA = ½ × m × v²", `= ½ × ${massaA} × ${kecepatanAwalA}²`, `= ${energiAwalA.toFixed(2)} J`]} />
                   <Rumus lines={["EKB = ½ × m × v²", `= ½ × ${massaB} × ${kecepatanAwalB}²`, `= ${energiAwalB.toFixed(2)} J`]} />
@@ -596,7 +596,7 @@ export default function VirLabMomentumSimulation() {
                 lineHeight: 1.7,
               }}
             >
-              <h3 style={{ color: "#38bdf8", marginTop: 0, marginBottom: "12px" }}>🧠 Kesimpulan</h3>
+              <h3 style={{ color: "#22d3ee", marginTop: 0, marginBottom: "12px" }}>🧠 Kesimpulan</h3>
 
               <p style={{ color: "#cbd5e1", marginBottom: "8px" }}>
                 Momentum sistem tetap sebesar{" "}
@@ -634,7 +634,7 @@ export default function VirLabMomentumSimulation() {
                       fontWeight: 500,
                       border: "none",
                       cursor: "pointer",
-                      background: activeChart === opt.id ? "#06b6d4" : "rgba(255,255,255,0.05)",
+                      background: activeChart === opt.id ? "linear-gradient(to right, #8b3bff, #6d28d9)" : "rgba(255,255,255,0.05)",
                       color: activeChart === opt.id ? "white" : "#94a3b8",
                     }}
                   >
@@ -783,7 +783,7 @@ function SliderRow({ label, value, color, children }) {
 
 function Panel({ title, titleColor, children }) {
   return (
-    <div style={{ borderRadius: "16px", background: "rgba(0,0,0,0.2)", padding: "20px" }}>
+    <div style={{ borderRadius: "16px", background: "rgba(255,255,255,0.03)", border: "1px solid rgba(139,59,255,0.12)", padding: "20px" }}>
       <h4 style={{ fontSize: "14px", color: titleColor || "#94a3b8", marginTop: 0, marginBottom: "12px", fontWeight: titleColor ? 600 : 400 }}>
         {title}
       </h4>
@@ -794,8 +794,8 @@ function Panel({ title, titleColor, children }) {
 
 function ChartPanel({ title, description, children }) {
   return (
-    <div style={{ borderRadius: "16px", background: "rgba(0,0,0,0.2)", padding: "20px" }}>
-      <h4 style={{ fontSize: "15px", color: "#38bdf8", marginTop: 0, marginBottom: "4px", fontWeight: 600 }}>
+    <div style={{ borderRadius: "16px", background: "rgba(255,255,255,0.03)", border: "1px solid rgba(34,211,238,0.15)", padding: "20px" }}>
+      <h4 style={{ fontSize: "15px", color: "#22d3ee", marginTop: 0, marginBottom: "4px", fontWeight: 600 }}>
         {title}
       </h4>
       <p style={{ fontSize: "12px", color: "#94a3b8", marginTop: 0, marginBottom: "12px" }}>

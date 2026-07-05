@@ -7,10 +7,18 @@ import HakikatIlmuFisika from "../content/materi/HakikatIlmuFisika/HakikatIlmuFi
 import FisikaSbgProduk from "../content/materi/HakikatIlmuFisika/FisikaSbgProduk.js"
 import FisikaSbgProses from "../content/materi/HakikatIlmuFisika/FisikaSbgProses.js"
 import FisikaSbgSikap from "../content/materi/HakikatIlmuFisika/FisikaSbgSikap.js"
+import RuangLingkupFisika from "../content/materi/HakikatIlmuFisika/RuangLingkupFisika.js"
+import MetodeIlmiah from "../content/materi/HakikatIlmuFisika/MetodeIlmiah.js"
+import MerancangEksprtimen from "../content/materi/HakikatIlmuFisika/MerancangEksperimen.js"
+import MengolahData from "../content/materi/HakikatIlmuFisika/MengolahData.js"
+import KesimppulanKomunikasi from "../content/materi/HakikatIlmuFisika/KesimpulanKomunikasi.js"
+import KeselamatanLaboratorium from "../content/materi/HakikatIlmuFisika/KeselamatanLaboratorium.js"
+import SainsDalamKehidupan from "../content/materi/HakikatIlmuFisika/SainsDalamKehidupan.js"
+import MiniProjectHakikatIlmuFisika from "../content/materi/HakikatIlmuFisika/MiniProjectHakikatIlmuFisika.js"
+import PenutupChapterHakikatIlmuFisika from "../content/materi/HakikatIlmuFisika/PenutupHakikatFisika.js"
 
 /* besaran dan satua */
 import PengantarBesaranDanSatuan from "../content/materi/BesaranDanSatuan/PengantarBesaranDanSatuan.js"
-import MetodeIlmiah from "../content/materi/BesaranDanSatuan/MetodeIlmiah.js"
 import BesaranDanSatuan from "../content/materi/BesaranDanSatuan/BesaranDanSatuan.js"
 import SistemInternasional from "../content/materi/BesaranDanSatuan/SistemInternasional.js"
 import BesaranPokokDanTurunan from"../content/materi/BesaranDanSatuan/BesaranPokokDanTurunan.js"
@@ -454,10 +462,18 @@ export const materials = [
   FisikaSbgProduk,
   FisikaSbgProses,
   FisikaSbgSikap,
+  RuangLingkupFisika,
+  MetodeIlmiah,
+  MerancangEksprtimen,
+  MengolahData,
+  KesimppulanKomunikasi,
+  KeselamatanLaboratorium,
+  SainsDalamKehidupan,
+  MiniProjectHakikatIlmuFisika,
+  PenutupChapterHakikatIlmuFisika,
 
   /* Chapter : Besaran dan Satuan */
   PengantarBesaranDanSatuan,
-  MetodeIlmiah,
   BesaranDanSatuan,
   SistemInternasional,
   BesaranPokokDanTurunan,

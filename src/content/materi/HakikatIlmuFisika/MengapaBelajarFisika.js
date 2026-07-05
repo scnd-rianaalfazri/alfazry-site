@@ -149,7 +149,7 @@ const mengapabelajarfisika = {
     {
       image: nextmissionapaitufisikaImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
-      link: "/materi/apa-itu-fisika",
+      link: "/materi/apa%20itu%20fisika",
       body: [
         "Sekarang kita tahu mengapa fisika penting.",
         "",
