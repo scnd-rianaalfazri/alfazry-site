@@ -1,6 +1,14 @@
+import { body, caption } from "framer-motion/client"
 import mengapakitaharusmengukurImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan1.jpg"
 import katakatatidakcukupImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan2.jpg"
 import daripengamatandatadataImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan3.jpg"
+import pengukuranadadimanamanaImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan4.jpg"
+import tahukahkamuImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan5.jpg"
+import miskonsepsibesarandansatuanImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan6.jpg"
+import pentingnyapengukuranImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan7.jpg"
+import intichapterImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan8.jpg"
+import nextmissionImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan9.jpg"
+import cobatebakImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan10.jpg"
 
 const pengantarbesarandansatuan = {
   title: "Mengapa Kita Harus Mengukur?",
@@ -40,7 +48,7 @@ const pengantarbesarandansatuan = {
         "Fisika membutuhkan sesuatu yang dapat dibandingkan, diuji, dan dihitung."
       ]
     },
-
+ 
     {
       heading: "📏 Dari Pengamatan Menjadi Data",
       image: daripengamatandatadataImg,
@@ -56,6 +64,8 @@ const pengantarbesarandansatuan = {
 
     {
       heading: "🌍 Pengukuran Ada di Mana-Mana",
+      image: pengukuranadadimanamanaImg,
+      caption: "Ini beberapa alat ukur",
       body: [
         "Tanpa disadari, setiap hari kita melakukan pengukuran.",
         "",
@@ -69,11 +79,12 @@ const pengantarbesarandansatuan = {
 
     {
       heading: "🚀 Mengapa Pengukuran Sangat Penting?",
+      image: pentingnyapengukuranImg,
+      caption: "Pengukuran adalah dasar dari semua penemuan ilmiah.",
       body: [
         "Seluruh cabang fisika bergantung pada pengukuran.",
         "",
         "Tanpa pengukuran, kita tidak dapat:",
-        "",
         "✅ Menentukan kecepatan benda.",
         "✅ Menghitung gaya.",
         "✅ Mengetahui energi.",
@@ -84,6 +95,8 @@ const pengantarbesarandansatuan = {
 
     {
       heading: "💡 Tahukah Kamu?",
+      image: tahukahkamuImg,
+      caption: "Ketelitian pada laser",
       body: [
         "Ketika ilmuwan mengukur jarak Bumi ke Bulan menggunakan laser, ketelitiannya dapat mencapai beberapa milimeter meskipun jaraknya sekitar 384.400 kilometer."
       ]
@@ -91,6 +104,8 @@ const pengantarbesarandansatuan = {
 
     {
       heading: "⚠️ Miskonsepsi",
+      image: miskonsepsibesarandansatuanImg,
+      caption: "Banyak orang mengira pengukuran hanya berarti membaca angka pada alat ukur.",
       body: [
         "Banyak orang mengira pengukuran hanya berarti membaca angka pada alat ukur.",
         "",
@@ -117,6 +132,8 @@ const pengantarbesarandansatuan = {
 
     {
       heading: "✨ Inti Chapter",
+      image: intichapterImg,
+      caption: "Pengukuran adalah bahasa yang digunakan fisika untuk menggambarkan alam secara objektif.",
       body: [
         "Pengukuran adalah bahasa yang digunakan fisika untuk menggambarkan alam secara objektif.",
         "",
@@ -124,7 +141,19 @@ const pengantarbesarandansatuan = {
       ]
     },
 
+        {
+      heading: "⁉️ Coba Tebak?",
+      image: cobatebakImg,
+      caption: "Manakah yang bisa diukur?",
+      body: [
+        "✔️ Objektif = Dapat diukur mengunakan alat dan satuan",
+        "",
+        "❌ Subjektif = Berdasarkan perasaan dan pendapat"
+      ]
+    },
+
     {
+      image: nextmissionImg,
       caption: "🚀 KLIK GAMBAR INI! Misi pertamamu dimulai di sini.",
       link: "/materi/besaran%20dan%20satuan",
 
