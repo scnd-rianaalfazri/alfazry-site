@@ -1,13 +1,3 @@
-import { caption, image } from "framer-motion/client"
-import komponenvektorImg from "/src/assets/Materi/Vektor/KomponenVektor1.jpg"
-import pengertiankomponenvektorImg from "/src/assets/Materi/Vektor/KomponenVektor2.jpg"
-import komponensumbuxdanyImg from "/src/assets/Materi/Vektor/KomponenVektor3.jpg"
-import pemecahanvektorImg from "/src/assets/Materi/Vektor/KomponenVektor4.jpg"
-import bentuksegitigavektorImg from "/src/assets/Materi/Vektor/KomponenVektor5.jpg"
-import contoharahvektorImg from "/src/assets/Materi/Vektor/KomponenVektor6.jpg"
-import penerapanvektorImg from "/src/assets/Materi/Vektor/KomponenVektor7.jpg"
-import nextmissionmenghitungkomponenvektor from "/src/assets/Materi/Vektor/KompunenVektor8.jpg"
-
 const komponenvektor = {
   title: "Komponen Vektor",
   slug: "komponen vektor",
@@ -15,7 +5,6 @@ const komponenvektor = {
   chapter: "➡️ Vektor",
   content: [
     {
-      image: komponenvektorImg,
       body: [
         "Dalam banyak kasus fisika, sebuah vektor tidak bergerak tepat ke kanan, kiri, atas, atau bawah.",
         "",
@@ -26,7 +15,6 @@ const komponenvektor = {
     },
 
     {
-      image: pengertiankomponenvektorImg,
       body: [
         "Komponen vektor adalah bagian-bagian dari sebuah vektor yang berada pada arah tertentu.",
         "",
@@ -38,7 +26,6 @@ const komponenvektor = {
     },
 
     {
-      image: komponensumbuxdanyImg,
       body: [
         "↔️ Komponen Sumbu X",
         "Komponen X menunjukkan bagian vektor yang bekerja pada arah horizontal.",
@@ -55,7 +42,6 @@ const komponenvektor = {
     },
 
     {
-      image: pemecahanvektorImg,
       body: [
         "Karena banyak hukum fisika bekerja pada arah tertentu.",
         "",
@@ -70,7 +56,6 @@ const komponenvektor = {
     },
 
     {
-      image: contoharahvektorImg,
       body: [
         "Sebuah mobil bergerak ke arah timur laut.",
         "",
@@ -84,7 +69,6 @@ const komponenvektor = {
     },
 
     {
-      image: bentuksegitigavektorImg,
       body: [
         "Ketika sebuah vektor diuraikan menjadi komponen X dan Y, terbentuk hubungan seperti segitiga siku-siku.",
         "",
@@ -105,7 +89,6 @@ const komponenvektor = {
     },
 
     {
-      image: penerapanvektorImg,
       body: [
         "Konsep komponen vektor digunakan pada:",
         "",
@@ -126,7 +109,6 @@ const komponenvektor = {
     },
 
     {
-      image: nextmissionmenghitungkomponenvektor,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       body: [
         "Sekarang kita sudah tahu bahwa satu vektor bisa dipecah menjadi beberapa bagian.",

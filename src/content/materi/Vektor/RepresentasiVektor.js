@@ -1,12 +1,3 @@
-import { image } from "framer-motion/client"
-import representasivektorImg from "/src/assets/Materi/Vektor/RepresentasiVektor1.jpg"
-import bentukdasarvektorImg from "/src/assets/Materi/Vektor/RepresentasiVektor2.jpg"
-import magnitudevektorImg from "/src/assets/Materi/Vektor/RepresentasiVektor3.jpg"
-import arahvektorImg from "/src/assets/Materi/Vektor/RepresentasiVektor4.jpg"
-import notasivektorImg from "/src/assets/Materi/Vektor/RepresentasiVektor5.jpg"
-import skalagambarvektorImg from "/src/assets/Materi/Vektor/RepresentasiVektor6.jpg"
-import contohpenggunaanvektorImg from "/src/assets/Materi/Vektor/RepresentasiVektor7.jpg"
-import nextmissionsistemkoodinatdanatdanarahImg from "/src/assets/Materi/Vektor/RepresentasiVektor8.jpg"
 
 const representasivektor = {
   title: "Representasi Vektor",
@@ -16,7 +7,6 @@ const representasivektor = {
   content: [
     {
       heading: "🏹 Vektor Tidak Hanya Ditulis, Tapi Juga Digambarkan",
-      image: representasivektorImg,
       body: [
         "Karena vektor memiliki arah, kita membutuhkan cara khusus untuk menggambarkannya.",
         "",
@@ -27,7 +17,6 @@ const representasivektor = {
     },
 
     {
-      image: bentukdasarvektorImg,
       body: [
         "Sebuah vektor digambarkan sebagai garis berarah.",
         "",
@@ -40,7 +29,6 @@ const representasivektor = {
     },
 
     {
-      image: magnitudevektorImg,
       body: [
         "Panjang anak panah menunjukkan besar atau nilai suatu vektor.",
         "",
@@ -52,7 +40,6 @@ const representasivektor = {
     },
 
     {
-      image: arahvektorImg,
       body: [
         "Arah anak panah menunjukkan arah kerja suatu besaran.",
         "",
@@ -66,7 +53,6 @@ const representasivektor = {
     },
 
     {
-      image: notasivektorImg,
       body: [
         "Vektor dapat dituliskan dengan beberapa cara.",
         "",
@@ -79,7 +65,6 @@ const representasivektor = {
     },
 
     {
-      image: skalagambarvektorImg,
       body: [
         "Dalam menggambar vektor, panjang panah dapat menggunakan skala tertentu.",
         "",
@@ -91,7 +76,6 @@ const representasivektor = {
     },
 
     {
-      image: contohpenggunaanvektorImg,
       body: [
         "Sebuah mobil bergerak:",
         "",
@@ -129,7 +113,6 @@ const representasivektor = {
     },
 
     {
-      image: nextmissionsistemkoodinatdanatdanarahImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/sistem%20koordinat%20dan%20arah%20vektor",
       body: [

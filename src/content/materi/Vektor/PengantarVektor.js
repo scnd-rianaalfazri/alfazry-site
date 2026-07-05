@@ -1,10 +1,4 @@
-import { body, caption, image, link } from "framer-motion/client"
-import vektorImg from "/src/assets/Materi/Vektor/PengertianVektor1.jpg"
-import pengertianvektorImg from "/src/assets/Materi/Vektor/PengertianVektor2.jpg"
-import contohbesaranvektorImg from "/src/assets/Materi/Vektor/PengertianVektor3.jpg"
-import fungsivektor1Img from "/src/assets/Materi/Vektor/PengertianVektor4.jpg"
-import fungsivektor2Img from "/src/assets/Materi/Vektor/PengertianVektor5.jpg"
-import nextmissionskalarvsvektor from "/src/assets/Materi/Vektor/PengertianVektor6.jpg"
+import pengantarvektorImg from "/src/assets/Materi/Vektor/PengantarVektor1.jpg"
 
 const pengantarvektor = {
   title: "Apa Itu Vektor?",
@@ -13,7 +7,8 @@ const pengantarvektor = {
   chapter: "➡️ Vektor",
   content: [
     {
-      image: vektorImg,
+      image: pengantarvektorImg,
+      caption: "Bagaimana mendefinisikan besaran vektor?",
       body: [
         "Dalam kehidupan sehari-hari, kita sering menyebut suatu nilai tanpa memikirkan arah.",
         "",
@@ -30,7 +25,6 @@ const pengantarvektor = {
     },
 
     {
-      image: pengertianvektorImg,
       body: [
         "Vektor adalah besaran fisika yang memiliki dua informasi penting:",
         "",
@@ -42,7 +36,6 @@ const pengantarvektor = {
     },
 
     {
-      image: contohbesaranvektorImg,
       body: [
         "Beberapa contoh besaran vektor dalam fisika:",
         "",
@@ -69,7 +62,6 @@ const pengantarvektor = {
     },
 
     {
-      image: fungsivektor2Img,
       body: [
         "↔️ Kenapa Fisika Membutuhkan Vektor?",
         "Banyak fenomena alam tidak cukup dijelaskan hanya dengan angka.",
@@ -82,7 +74,6 @@ const pengantarvektor = {
     },
 
     {
-      image: fungsivektor1Img,
       body: [
         "Tanpa sadar kita sering menggunakan konsep vektor:",
         "",
@@ -117,7 +108,6 @@ const pengantarvektor = {
     },
 
     {
-      image: nextmissionskalarvsvektor,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/besaran%20skalar%20dan%20vektor",
       body: [

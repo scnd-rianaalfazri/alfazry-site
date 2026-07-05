@@ -9,6 +9,7 @@ import FisikaSbgProses from "../content/materi/HakikatIlmuFisika/FisikaSbgProses
 import FisikaSbgSikap from "../content/materi/HakikatIlmuFisika/FisikaSbgSikap.js"
 
 /* besaran dan satua */
+import PengantarBesaranDanSatuan from "../content/materi/BesaranDanSatuan/PengantarBesaranDanSatuan.js"
 import MetodeIlmiah from "../content/materi/BesaranDanSatuan/MetodeIlmiah.js"
 import BesaranDanSatuan from "../content/materi/BesaranDanSatuan/BesaranDanSatuan.js"
 import SistemInternasional from "../content/materi/BesaranDanSatuan/SistemInternasional.js"
@@ -455,6 +456,7 @@ export const materials = [
   FisikaSbgSikap,
 
   /* Chapter : Besaran dan Satuan */
+  PengantarBesaranDanSatuan,
   MetodeIlmiah,
   BesaranDanSatuan,
   SistemInternasional,
