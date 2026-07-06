@@ -2,7 +2,7 @@ import fisikasbgprodukImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebag
 
 const fisikasebagaiproduk = {
   title: "Fisika sebagai Produk",
-  slug: "fisika sebagai produk",
+  slug: "fisika-sebagai-produk",
   description: "Memahami bahwa fisika menghasilkan berbagai bentuk pengetahuan ilmiah seperti fakta, konsep, hukum, prinsip, teori, dan model.",
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
 

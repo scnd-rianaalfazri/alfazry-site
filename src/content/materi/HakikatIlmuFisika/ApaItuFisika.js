@@ -10,7 +10,7 @@ import cobatemukanImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika9.j
 
 const apaitufisika = {
   title: "Apa Itu Fisika?",
-  slug: "apa itu fisika",
+  slug: "apa-itu-fisika",
   description: "Memahami pengertian fisika, objek kajiannya, dan perannya dalam memahami alam semesta.",
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
 
@@ -144,7 +144,7 @@ const apaitufisika = {
     {
       image: nextmissionhakikatilmufisikaImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
-      link: "/materi/hakikat%20ilmu%20fisika",
+      link: "/materi/hakikat-ilmu-fisika",
       body: [
         "Sekarang kita sudah tahu apa yang dipelajari fisika.",
         "",

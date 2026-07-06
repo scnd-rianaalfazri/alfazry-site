@@ -12,7 +12,7 @@ import nextmissionapaitufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/Men
 
 const mengapabelajarfisika = {
   title: "Mengapa Belajar Fisika?",
-  slug: "mengapa belajar fisika",
+  slug: "mengapa-belajar-fisika",
   description: "Memahami mengapa fisika dipelajari dan bagaimana fisika membantu manusia memahami alam semesta.",
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
 
@@ -149,7 +149,7 @@ const mengapabelajarfisika = {
     {
       image: nextmissionapaitufisikaImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
-      link: "/materi/apa%20itu%20fisika",
+      link: "/materi/apa-itu-fisika",
       body: [
         "Sekarang kita tahu mengapa fisika penting.",
         "",

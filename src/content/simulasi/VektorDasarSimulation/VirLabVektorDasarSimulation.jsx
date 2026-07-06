@@ -129,10 +129,10 @@ export default function VirLabVectorExplorer() {
   const rightY = tipY - arrowLength * Math.sin(angleRad) + arrowWidth * Math.cos(angleRad)
 
   return (
-    <div className="max-w-6xl mx-auto rounded-3xl border border-white/10 bg-gradient-to-br from-slate-900 via-slate-900 to-cyan-950/40 p-6 text-white">
+    <div className="max-w-6xl mx-auto rounded-3xl hud-frame border border-violet-400/20 bg-gradient-to-br from-[#05060f] via-[#0b0e1f] to-[#1a0b2e] p-6 text-white">
       <div className="flex flex-wrap items-start justify-between gap-3 mb-2">
         <div>
-          <h2 className="text-3xl font-bold flex items-center gap-2">
+          <h2 className="font-display text-2xl md:text-3xl font-black flex items-center gap-2 [text-shadow:0_0_24px_rgba(139,59,255,0.45)]">
             <span>🧭</span> Vector Explorer
           </h2>
           <p className="text-white/60 mt-1">
@@ -156,11 +156,11 @@ export default function VirLabVectorExplorer() {
       <div className="grid lg:grid-cols-3 gap-6 mt-6">
         {/* SVG / Simulasi */}
         <div className="lg:col-span-2">
-          <div className="rounded-2xl bg-black/20 p-4">
+          <div className="rounded-2xl bg-white/[0.03] border border-violet-400/10 p-4">
             <svg
               ref={svgRef}
               viewBox={`0 0 ${size} ${size}`}
-              className="w-full bg-slate-900 rounded-xl border border-white/10 touch-none select-none"
+              className="w-full bg-[#05060f] rounded-xl border border-cyan-400/15 touch-none select-none"
               onMouseMove={handleMouseMove}
               onMouseUp={() => setDragging(false)}
               onMouseLeave={() => setDragging(false)}
@@ -294,7 +294,7 @@ export default function VirLabVectorExplorer() {
         {/* PANEL */}
         <div className="space-y-4 lg:sticky lg:top-4 self-start">
           {/* Pengaturan */}
-          <div className="rounded-2xl bg-black/20 p-5">
+          <div className="rounded-2xl bg-white/[0.03] border border-violet-400/10 p-5">
             <h3 className="font-semibold mb-3">🎛 Pengaturan Tampilan</h3>
 
             <ToggleRow label="Grid" checked={showGrid} onChange={() => setShowGrid(!showGrid)} />
@@ -303,7 +303,7 @@ export default function VirLabVectorExplorer() {
           </div>
 
           {/* Aksi cepat */}
-          <div className="rounded-2xl bg-black/20 p-5">
+          <div className="rounded-2xl bg-white/[0.03] border border-violet-400/10 p-5">
             <div className="grid grid-cols-2 gap-2">
               <button
                 onClick={handleReset}
@@ -321,15 +321,15 @@ export default function VirLabVectorExplorer() {
           </div>
 
           {/* Tabs */}
-          <div className="rounded-2xl bg-black/20 p-5">
+          <div className="rounded-2xl bg-white/[0.03] border border-violet-400/10 p-5">
             <div className="flex flex-wrap gap-2 mb-4">
               {tabs.map((tab) => (
                 <button
                   key={tab.id}
                   onClick={() => setActiveTab(tab.id)}
-                  className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                  className={`px-3 py-1.5 rounded-lg text-sm font-medium font-hud transition-colors ${
                     activeTab === tab.id
-                      ? "bg-cyan-500 text-white"
+                      ? "bg-gradient-to-r from-violet-500 to-violet-700 text-white"
                       : "bg-white/5 text-white/60 hover:bg-white/10"
                   }`}
                 >
@@ -398,7 +398,7 @@ function ToggleRow({ label, checked, onChange, last = false }) {
         type="checkbox"
         checked={checked}
         onChange={onChange}
-        className="w-4 h-4 accent-cyan-500"
+        className="w-4 h-4 accent-violet-500"
       />
     </label>
   )
