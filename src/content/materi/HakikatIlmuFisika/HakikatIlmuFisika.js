@@ -141,6 +141,96 @@ const hakikatimufisika = {
     },
 
     {
+      heading: "🎯 Quick Check",
+      quickCheck: {
+        questions: [
+          {
+            question: "Hakikat ilmu fisika adalah....",
+            options: [
+              "Kumpulan rumus yang harus dihafal.",
+              "Karakter atau sifat dasar fisika sebagai ilmu pengetahuan.",
+              "Cara menghitung besaran fisika.",
+              "Cabang ilmu yang hanya mempelajari gerak benda."
+            ],
+            answerIndex: 1,
+          },
+          {
+            question:
+              "Manakah yang bukan termasuk tiga pilar hakikat ilmu fisika?",
+            options: [
+              "Fisika sebagai Produk",
+              "Fisika sebagai Proses",
+              "Fisika sebagai Sikap Ilmiah",
+              "Fisika sebagai Teknologi"
+            ],
+            answerIndex: 3,
+          },
+          {
+            question: "Seorang ilmuwan melakukan pengamatan, menyusun hipotesis, melakukan eksperimen, lalu menarik kesimpulan. Kegiatan tersebut menunjukkan fisika sebagai....",
+            options: [
+              "Produk",
+              "Proses",
+              "Sikap",
+              "Teknologi"
+            ],
+            answerIndex: 1,
+          },
+          {
+            question: "Sikap berikut yang mencerminkan sikap ilmiah adalah....",
+            options: [
+              "Mengubah data agar sesuai dengan harapan.",
+              "Menghafal semua rumus tanpa memahami konsep.",
+              "Jujur terhadap hasil eksperimen meskipun tidak sesuai dugaan.",
+              "Menolak pendapat orang lain tanpa bukti."
+            ],
+            answerIndex: 2,
+          },
+          {
+            question:
+              "Contoh fisika sebagai produk adalah....",
+            options: [
+              "Melakukan percobaan di laboratorium.",
+              "Mengamati gerak benda setiap hari.",
+              "Hukum Newton, teori, konsep, dan prinsip yang telah ditemukan.",
+              "Bersikap teliti saat melakukan pengukuran."
+            ],
+            answerIndex: 2,
+          },
+        ],
+        scoring: [
+          {
+            min: 5,
+            max: 5,
+            emoji: "🏆",
+            title: "Mission Complete!",
+            message: "Kamu siap memasuki portal berikutnya.",
+          },
+          {
+            min: 4,
+            max: 4,
+            emoji: "🚀",
+            title: "Hampir Sempurna",
+            message: "Pemahamanmu sudah sangat baik.",
+          },
+          {
+            min: 2,
+            max: 3,
+            emoji: "🔄",
+            title: "Perlu Sedikit Lagi",
+            message: "Coba eksplorasi lagi bagian inti materi.",
+          },
+          {
+            min: 0,
+            max: 1,
+            emoji: "📖",
+            title: "Ulangi Petualangan",
+            message: "Tenang, ulangi petualanganmu dari awal.",
+          },
+        ],
+      },
+    },
+
+    {
       image: nextmissionfisikasebagaiprodukImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/fisika-sebagai-produk",
