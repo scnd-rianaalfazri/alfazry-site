@@ -1,4 +1,11 @@
 import fisikasbgprodukImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk1.jpg"
+import faktafisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk4.jpg"
+import bentukprodukfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk3.jpg"
+import bentukprodukfisika2Img from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk2.jpg"
+import konsepfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk5.jpg"
+import prinsipfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk6.jpg"
+import { caption, image } from "framer-motion/client"
+
 
 const fisikasebagaiproduk = {
   title: "Fisika sebagai Produk",
@@ -20,9 +27,11 @@ const fisikasebagaiproduk = {
         "Pengetahuan itu merupakan hasil dari proses ilmiah yang telah dilakukan dan diuji berulang kali."
       ]
     },
-
+ 
     {
       heading: "⚙️ Apa yang Dimaksud Produk dalam Fisika?",
+      image: bentukprodukfisika2Img,
+      caption: "Beberapa produk fisika",    
       body: [
         "Fisika sebagai produk adalah seluruh pengetahuan yang dihasilkan melalui proses ilmiah.",
         "",
@@ -32,6 +41,8 @@ const fisikasebagaiproduk = {
 
     {
       heading: "🧩 Bentuk-Bentuk Produk Fisika",
+      image: bentukprodukfisikaImg,
+      caption: "Beberapa produk fisika",
       body: [
         "Produk fisika terdiri atas beberapa bentuk utama:",
         "",
@@ -46,6 +57,8 @@ const fisikasebagaiproduk = {
 
     {
       heading: "📌 Fakta",
+      image: faktafisikaImg,
+      caption: "Ilustrasi fakta fisika",
       body: [
         "Fakta adalah kenyataan yang dapat diamati atau diukur secara langsung.",
         "",
@@ -57,6 +70,8 @@ const fisikasebagaiproduk = {
 
     {
       heading: "💡 Konsep",
+      image: konsepfisikaImg,
+      caption: "Ilustrasi konsep fisika",
       body: [
         "Konsep adalah gagasan atau pengertian yang digunakan untuk menjelaskan suatu fenomena.",
         "",
@@ -70,6 +85,7 @@ const fisikasebagaiproduk = {
 
     {
       heading: "📏 Prinsip",
+      caption: "Ilustrasi prinsip fisika",
       body: [
         "Prinsip merupakan hubungan umum antara beberapa konsep.",
         "",

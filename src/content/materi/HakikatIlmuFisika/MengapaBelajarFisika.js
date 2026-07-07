@@ -147,6 +147,96 @@ const mengapabelajarfisika = {
     },
 
     {
+      heading: "🎯 Quick Check",
+      quickCheck: {
+        questions: [
+          {
+            question: "Mengapa manusia mempelajari fisika?",
+            options: [
+              "Untuk menghafal sebanyak mungkin rumus",
+              "Untuk memahami bagaimana alam bekerja melalui pengamatan dan penalaran ilmiah",
+              "Agar dapat menghitung lebih cepat daripada komputer",
+              "Supaya bisa membuat semua teknologi sendiri",
+            ],
+            answerIndex: 1,
+          },
+          {
+            question:
+              "Manakah kegiatan berikut yang merupakan contoh penerapan fisika dalam kehidupan sehari-hari?",
+            options: [
+              "Menggunakan GPS saat bepergian",
+              "Menonton film kartun",
+              "Menghafal nama-nama negara",
+              "Menggambar pemandangan",
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: "Pernyataan yang paling tepat tentang fisika adalah....",
+            options: [
+              "Ilmu yang hanya dipelajari di laboratorium.",
+              "Ilmu yang mempelajari gejala alam dan hukum-hukum yang mengaturnya.",
+              "Ilmu yang hanya membahas perhitungan matematika.",
+              "Ilmu yang hanya digunakan oleh ilmuwan.",
+            ],
+            answerIndex: 1,
+          },
+          {
+            question: "Manakah kemampuan berikut yang dilatih ketika belajar fisika?",
+            options: [
+              "Berpikir logis dan memecahkan masalah",
+              "Menghafal tanpa memahami konsep",
+              "Menebak jawaban tanpa alasan",
+              "Mengingat semua rumus tanpa latihan",
+            ],
+            answerIndex: 0,
+          },
+          {
+            question:
+              "Banyak orang menganggap fisika sulit karena penuh rumus. Menurut materi ini, pernyataan yang benar adalah....",
+            options: [
+              "Rumus adalah tujuan utama belajar fisika.",
+              "Rumus hanyalah alat untuk memahami alam.",
+              "Fisika hanya digunakan di sekolah.",
+              "Semua fenomena alam tidak dapat dijelaskan dengan fisika.",
+            ],
+            answerIndex: 1,
+          },
+        ],
+        scoring: [
+          {
+            min: 5,
+            max: 5,
+            emoji: "🏆",
+            title: "Mission Complete!",
+            message: "Kamu siap memasuki portal berikutnya.",
+          },
+          {
+            min: 4,
+            max: 4,
+            emoji: "🚀",
+            title: "Hampir Sempurna",
+            message: "Pemahamanmu sudah sangat baik.",
+          },
+          {
+            min: 2,
+            max: 3,
+            emoji: "🔄",
+            title: "Perlu Sedikit Lagi",
+            message: "Coba eksplorasi lagi bagian inti materi.",
+          },
+          {
+            min: 0,
+            max: 1,
+            emoji: "📖",
+            title: "Ulangi Petualangan",
+            message: "Tenang, ulangi petualanganmu dari awal.",
+          },
+        ],
+      },
+    },
+
+    {
       image: nextmissionapaitufisikaImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/apa-itu-fisika",
