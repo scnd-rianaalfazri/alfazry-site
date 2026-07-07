@@ -4,6 +4,14 @@ import bentukprodukfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSe
 import bentukprodukfisika2Img from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk2.jpg"
 import konsepfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk5.jpg"
 import prinsipfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk6.jpg"
+import hukumfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk8.jpg"
+import teorifisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk9.jpg"
+import nextmissionfisikasbgprosesImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk7.jpg"
+import modelfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk11.jpg"
+import pentingnyafisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk11.jpg"
+import tahukahkamuImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk12.jpg"
+import miskonsepsiImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk13.jpg"
+import intimateriImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk14.jpg"
 import { caption, image } from "framer-motion/client"
 
 
@@ -85,6 +93,7 @@ const fisikasebagaiproduk = {
 
     {
       heading: "📏 Prinsip",
+      image: prinsipfisikaImg,
       caption: "Ilustrasi prinsip fisika",
       body: [
         "Prinsip merupakan hubungan umum antara beberapa konsep.",
@@ -96,6 +105,8 @@ const fisikasebagaiproduk = {
 
     {
       heading: "⚖️ Hukum",
+      image: hukumfisikaImg,
+      caption: "Ilustrasi hukum fisika",
       body: [
         "Hukum fisika menjelaskan hubungan yang selalu berlaku pada kondisi tertentu berdasarkan hasil pengamatan dan eksperimen.",
         "",
@@ -105,9 +116,11 @@ const fisikasebagaiproduk = {
         "Hukum Coulomb"
       ]
     },
-
+ 
     {
       heading: "🌌 Teori",
+      image: teorifisikaImg,
+      caption: "Ilustrasi teori fisika",
       body: [
         "Teori adalah penjelasan ilmiah yang didukung oleh banyak bukti eksperimen dan mampu menjelaskan berbagai fenomena.",
         "",
@@ -119,6 +132,8 @@ const fisikasebagaiproduk = {
 
     {
       heading: "🧱 Model",
+      image: modelfisikaImg,
+      caption: "Ilustrasi model fisika",
       body: [
         "Model adalah representasi sederhana yang membantu kita memahami sistem yang lebih kompleks.",
         "",
@@ -128,6 +143,8 @@ const fisikasebagaiproduk = {
 
     {
       heading: "🌍 Mengapa Produk Fisika Penting?",
+      image: pentingnyafisikaImg,
+      caption: "Contoh beberapa perkembangan teknologi",
       body: [
         "Produk fisika menjadi dasar bagi perkembangan teknologi dan penelitian.",
         "",
@@ -137,6 +154,8 @@ const fisikasebagaiproduk = {
 
     {
       heading: "💡 Tahukah Kamu?",
+      image: tahukahkamuImg,
+      caption: "Hukum vs teori",
       body: [
         "Hukum ilmiah dan teori ilmiah memiliki peran yang berbeda.",
         "",
@@ -146,6 +165,8 @@ const fisikasebagaiproduk = {
 
     {
       heading: "⚠️ Miskonsepsi",
+      image: miskonsepsiImg,
+      caption: "Miskonsepsi teori ilmiah",
       body: [
         "Teori ilmiah bukan berarti 'sekadar dugaan'.",
         "",
@@ -174,12 +195,15 @@ const fisikasebagaiproduk = {
 
     {
       heading: "✨ Inti Materi",
+      image: intimateriImg,
+      caption: "Inti materi",
       body: [
         "Fisika sebagai produk merupakan kumpulan pengetahuan ilmiah yang dihasilkan melalui proses penyelidikan dan menjadi dasar untuk memahami alam semesta."
       ]
     },
 
     {
+      image: nextmissionfisikasbgprosesImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/fisika-sebagai-proses",
       body: [

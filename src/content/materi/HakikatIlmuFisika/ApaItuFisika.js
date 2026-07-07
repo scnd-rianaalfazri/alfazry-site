@@ -142,6 +142,96 @@ const apaitufisika = {
     },
 
     {
+      heading: "🎯 Quick Check",
+      quickCheck: {
+        questions: [
+          {
+            question: "Apa yang dipelajari dalam ilmu fisika?",
+            options: [
+              "Hanya benda yang bergerak",
+              "Hanya planet dan bintang",
+              "Materi, energi, gerak, gaya, ruang, waktu, dan interaksinya",
+              "Makhluk hidup dan ekosistem"
+            ],
+            answerIndex: 2,
+          },
+          {
+            question:
+              "Peristiwa berikut yang merupakan contoh fenomena fisika adalah....",
+            options: [
+              "Daun membuat makanan melalui fotosintesis",
+              "Batu jatuh ke tanah karena gravitasi",
+              "Bunga mekar pada musim tertentu",
+              "Jamur berkembang biak"
+            ],
+            answerIndex: 1,
+          },
+          {
+            question: "Mengapa fisika sering disebut sebagai ilmu dasar?",
+            options: [
+              "Karena hanya dipelajari di sekolah.",
+              "Karena menjadi dasar bagi banyak cabang ilmu pengetahuan dan teknologi.",
+              "Karena merupakan ilmu yang paling mudah dipelajari.",
+              "DKarena hanya membahas hukum Newton."
+            ],
+            answerIndex: 1,
+          },
+          {
+            question: "Manakah yang bukan termasuk cabang ilmu fisika?",
+            options: [
+              "Mekanika",
+              "Termodinamika",
+              "Optika",
+              "Botani"
+            ],
+            answerIndex: 3,
+          },
+          {
+            question:
+              "Pernyataan yang paling tepat mengenai fisika adalah....",
+            options: [
+              "Fisika hanya mempelajari benda yang bergerak.",
+              "Fisika hanya digunakan di laboratorium.",
+              "Fisika membantu menjelaskan berbagai fenomena alam melalui hukum-hukum alam.",
+              "Fisika hanya berguna bagi ilmuwan."
+            ],
+            answerIndex: 2,
+          },
+        ],
+        scoring: [
+          {
+            min: 5,
+            max: 5,
+            emoji: "🏆",
+            title: "Mission Complete!",
+            message: "Kamu siap memasuki portal berikutnya.",
+          },
+          {
+            min: 4,
+            max: 4,
+            emoji: "🚀",
+            title: "Hampir Sempurna",
+            message: "Pemahamanmu sudah sangat baik.",
+          },
+          {
+            min: 2,
+            max: 3,
+            emoji: "🔄",
+            title: "Perlu Sedikit Lagi",
+            message: "Coba eksplorasi lagi bagian inti materi.",
+          },
+          {
+            min: 0,
+            max: 1,
+            emoji: "📖",
+            title: "Ulangi Petualangan",
+            message: "Tenang, ulangi petualanganmu dari awal.",
+          },
+        ],
+      },
+    },
+
+    {
       image: nextmissionhakikatilmufisikaImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/hakikat-ilmu-fisika",
