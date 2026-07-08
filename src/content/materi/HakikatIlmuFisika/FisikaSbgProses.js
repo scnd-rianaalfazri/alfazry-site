@@ -1,3 +1,8 @@
+import { caption, image } from "framer-motion/client"
+import fisikaSbgProsesImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses1.jpg"
+import prosesilmiahImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses2.jpg"
+import intimateriImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses3.jpg"
+
 const fisikasbgproses = {
   title: "Fisika sebagai Proses",
   slug: "fisika sebagai proses",
@@ -7,6 +12,7 @@ const fisikasbgproses = {
   content: [
 
     {
+      image: fisikaSbgProsesImg,
       caption: "Setiap penemuan besar dimulai dari rasa ingin tahu.",
       body: [
         "Pernahkah kamu bertanya mengapa apel jatuh ke bawah, tetapi Bulan tidak jatuh ke Bumi?",
@@ -28,6 +34,8 @@ const fisikasbgproses = {
 
     {
       heading: "🔄 Bagaimana Pengetahuan Fisika Dibangun?",
+      image: fisikaSbgProsesImg,
+      caption: "Proses ilmiah",
       body: [
         "Secara umum, proses ilmiah berlangsung melalui tahapan berikut:",
         "",
@@ -102,6 +110,7 @@ const fisikasbgproses = {
 
     {
       heading: "✨ Inti Materi",
+      image: fisikaSbgProsesImg,
       body: [
         "Fisika berkembang melalui proses ilmiah yang sistematis, objektif, dan didasarkan pada bukti hasil pengamatan maupun eksperimen."
       ]

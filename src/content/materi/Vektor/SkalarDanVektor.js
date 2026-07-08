@@ -1,10 +1,3 @@
-import { caption, header, image, link } from "framer-motion/client"
-import skalardanvektorImg from "/src/assets/Materi/Vektor/BesaranSkalarDanVektor1.jpg"
-import besaranskalarImg from "/src/assets/Materi/Vektor/BesaranSkalarDanVektor2.jpg"
-import besaranvektorImg from "/src/assets/Materi/Vektor/BesaranSkalarDanVektor3.jpg"
-import perbedaanjarakdanperpindahanImg from "/src/assets/Materi/Vektor/BesaranSkalarDanVektor4.jpg"
-import perbedaankelajuandankecepatanImg from "/src/assets/Materi/Vektor/BesaranSkalarDanVektor5.jpg"
-import nextmissionrepresentasivektorImg from "/src/assets/Materi/Vektor/BesaranSkalarDanVektor6.jpg"
 
 const skalardanvektor = {
   title: "Besaran Skalar dan Vektor",
@@ -13,7 +6,6 @@ const skalardanvektor = {
   chapter: "➡️ Vektor",
   content: [
     {
-      image: skalardanvektorImg,
       body: [
         "Dalam fisika, tidak semua besaran memiliki karakter yang sama.",
         "",
@@ -26,7 +18,6 @@ const skalardanvektor = {
     },
 
     {
-      image: besaranskalarImg,
       body: [
         "Besaran skalar adalah besaran yang hanya memiliki nilai (besar) tanpa arah.",
         "",
@@ -45,7 +36,6 @@ const skalardanvektor = {
     },
 
     {
-      image: besaranvektorImg,
       body: [
         "📌 Contoh Besaran Vektor",
         "Beberapa contoh besaran vektor:",
@@ -61,7 +51,6 @@ const skalardanvektor = {
     },
 
     {
-      image: perbedaanjarakdanperpindahanImg,
       body: [
         "Misalnya seseorang berjalan 5 meter ke timur.",
         "",
@@ -76,7 +65,6 @@ const skalardanvektor = {
     },
 
     {
-      image: perbedaankelajuandankecepatanImg,
       body: [
         "Kelajuan:",
         "Hanya menunjukkan seberapa cepat benda bergerak.",
@@ -115,7 +103,6 @@ const skalardanvektor = {
     },
 
     {
-      image: nextmissionrepresentasivektorImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/representasi%20vektor",
       body: [

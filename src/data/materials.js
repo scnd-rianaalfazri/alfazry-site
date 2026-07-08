@@ -453,8 +453,13 @@ import MasaDepanRelativitas from "../content/materi/Relativitas/MasaDepanRelativ
 import MiniProjectRelativitas from "../content/materi/Relativitas/MiniProjectRelativitas.js"
 import PenutupRelativitas from "../content/materi/Relativitas/PenutupRelativitas.js"
 
+/* Astrofisika */
+import PengantarAstrofisika from "/src/content/materi/Astrofisika/PengantarAstrofisika"
+import ApaItuAstrofisika from "/src/content/materi/Astrofisika/ApaItuAstrofisika"
+
 /* EKSPORT CONTENT */
 export const materials = [
+
   /* Chapter : Naikat Ilmu Fisika */
   MengapaBelajarFisika,
   ApaItuFisika,
@@ -901,4 +906,8 @@ export const materials = [
   MasaDepanRelativitas,
   MiniProjectRelativitas,
   PenutupRelativitas,
+
+  /* Chapter: astrofisika */
+  PengantarAstrofisika,
+  ApaItuAstrofisika,
 ]
