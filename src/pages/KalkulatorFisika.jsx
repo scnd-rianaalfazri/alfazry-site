@@ -1,4 +1,4 @@
-import PhysicsCalculatorCard from "../components/PhysicsCalculatorCards"
+import PhysicsCalculatorCard from "../components/layout/PhysicsCalculatorCards"
 import { physicscalculators } from "../data/physicscalculators"
 import Navbar from "../components/layout/Navbar"
 import Footer from "../components/layout/Footer"

@@ -2,10 +2,19 @@ import { caption, image } from "framer-motion/client"
 import fisikaSbgProsesImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses1.jpg"
 import prosesilmiahImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses2.jpg"
 import intimateriImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses3.jpg"
+import definisifisikasbgprosesImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses5.jpg"
+import buktiprosesfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses4.jpg"
+import sikluspenelitianImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses7.jpg"
+import contohkehidupanImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses8.jpg"
+import tahukahkamuImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses9.jpg"
+import ringkasanImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses10.jpg"
+import miskonsepsiImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses11.jpg"
+import nextmissionfisikasebagaisikapImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses14.jpg"
+import bonusImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses15.jpg"
 
 const fisikasbgproses = {
   title: "Fisika sebagai Proses",
-  slug: "fisika sebagai proses",
+  slug: "fisika-sebagai-proses",
   description: "Memahami bahwa pengetahuan fisika diperoleh melalui proses penyelidikan ilmiah yang sistematis.",
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
 
@@ -25,6 +34,8 @@ const fisikasbgproses = {
 
     {
       heading: "🧪 Apa yang Dimaksud Fisika sebagai Proses?",
+      image: definisifisikasbgprosesImg,
+      caption: "pengamatan di sekitar lingkungan",
       body: [
         "Fisika sebagai proses adalah cara ilmuwan memperoleh pengetahuan tentang alam.",
         "",
@@ -34,7 +45,7 @@ const fisikasbgproses = {
 
     {
       heading: "🔄 Bagaimana Pengetahuan Fisika Dibangun?",
-      image: fisikaSbgProsesImg,
+      image: prosesilmiahImg,
       caption: "Proses ilmiah",
       body: [
         "Secara umum, proses ilmiah berlangsung melalui tahapan berikut:",
@@ -50,6 +61,8 @@ const fisikasbgproses = {
 
     {
       heading: "🔍 Mengapa Harus Berdasarkan Bukti?",
+      image: buktiprosesfisikaImg,
+      caption: "Pendapat vs bukti",
       body: [
         "Dalam sains, sebuah pendapat belum tentu benar hanya karena terdengar masuk akal.",
         "",
@@ -59,15 +72,20 @@ const fisikasbgproses = {
 
     {
       heading: "🔁 Proses yang Terus Berulang",
+      image: sikluspenelitianImg,
+      caption: "Siklus penelitian ilmiah",
       body: [
-        "Penelitian ilmiah tidak selalu berhasil pada percobaan pertama.",
+        "Penelitian ilmiah tidak selalu berhasil pada percobaan pertama. Karena penelitian ialah proses yang terus berulang sampai mendekati kebenaran.",
         "",
         "Sering kali ilmuwan harus mengulang eksperimen, memperbaiki metode, atau mengembangkan hipotesis baru hingga memperoleh hasil yang lebih baik."
+
       ]
     },
 
     {
       heading: "🌍 Contoh dalam Kehidupan",
+      image: contohkehidupanImg,
+      Caption: "Penelitian di lab futuristik",
       body: [
         "Misalnya, seorang siswa ingin mengetahui apakah panjang tali memengaruhi waktu ayunan bandul.",
         "",
@@ -77,6 +95,8 @@ const fisikasbgproses = {
 
     {
       heading: "💡 Tahukah Kamu?",
+      image: tahukahkamuImg,
+      Caption: "Penemuan besar dimuali dari pengamatan.",
       body: [
         "Banyak penemuan besar dalam sejarah lahir dari pengamatan sederhana yang kemudian diteliti lebih lanjut melalui eksperimen."
       ]
@@ -84,6 +104,8 @@ const fisikasbgproses = {
 
     {
       heading: "⚠️ Miskonsepsi",
+      image: miskonsepsiImg,
+      caption: "Miskonsepsi tentang hipotesis",
       body: [
         "Eksperimen bukan dilakukan untuk membuktikan bahwa hipotesis kita pasti benar.",
         "",
@@ -93,6 +115,8 @@ const fisikasbgproses = {
 
     {
       heading: "📊 Ringkasan Konsep",
+      image: ringkasanImg,
+      caption: "Ilustrasi ringkasan konsep",
       body: [
         "Fenomena Alam",
         "⬇️",
@@ -110,14 +134,20 @@ const fisikasbgproses = {
 
     {
       heading: "✨ Inti Materi",
-      image: fisikaSbgProsesImg,
+
       body: [
         "Fisika berkembang melalui proses ilmiah yang sistematis, objektif, dan didasarkan pada bukti hasil pengamatan maupun eksperimen."
       ]
     },
 
     {
+      heading: "Bonus",
+      image: bonusImg,
+    },
+
+    {
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
+      image: nextmissionfisikasebagaisikapImg,
       link: "/materi/fisika-sebagai-sikap",
       body: [
         "Selain menghasilkan pengetahuan dan memiliki proses ilmiah, fisika juga membentuk karakter seorang ilmuwan.",

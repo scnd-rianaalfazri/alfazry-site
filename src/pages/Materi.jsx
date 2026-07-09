@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { ChevronDown } from "lucide-react"
-import MaterialCard from "../components/MaterialCards"
+import MaterialCard from "../components/layout/MaterialCards"
 import { materials } from "../data/materials"
 import Navbar from "../components/layout/Navbar"
 import Footer from "../components/layout/Footer"

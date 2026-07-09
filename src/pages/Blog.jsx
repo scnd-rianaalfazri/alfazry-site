@@ -1,5 +1,5 @@
 import { useState } from "react"
-import BlogCard from "../components/BlogCards"
+import BlogCard from "../components/layout/BlogCards"
 import { blogs } from "../data/blogs"
 import Navbar from "../components/layout/Navbar"
 import Footer from "../components/layout/Footer"

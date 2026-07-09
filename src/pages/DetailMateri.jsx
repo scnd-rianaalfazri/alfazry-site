@@ -6,8 +6,8 @@ import { materials } from "../data/materials"
 
 import Navbar from "../components/layout/Navbar"
 import Footer from "../components/layout/Footer"
-import MathEquation from "../components/MathEquation"
-import QuickCheck from "../components/QuickCheck"
+import MathEquation from "../components/layout/MathEquation"
+import QuickCheck from "../components/layout/QuickCheck"
 import BackToTopButton from "../components/UI/BackToTopBottom"
 
 export default function DetailMateri() {

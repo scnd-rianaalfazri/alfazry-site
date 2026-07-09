@@ -92,14 +92,14 @@ export default function Navbar() {
                 }
               `}
             >
-              ALFAZRIAN
+              FISIKA
               <span
                 className="
                   text-violet-400
                   drop-shadow-[0_0_10px_rgba(139,59,255,0.7)]
                 "
               >
-                {" "}FISIKA
+                {" "}ALFAZRIAN
               </span>
             </h1>
           </Link>

@@ -1,4 +1,4 @@
-import SimulationCard from "../components/SimulationCards"
+import SimulationCard from "../components/layout/SimulationCards"
 import { simulations } from "../data/simulations"
 import Navbar from "../components/layout/Navbar"
 import Footer from "../components/layout/Footer"
