@@ -203,6 +203,101 @@ const fisikasebagaiproduk = {
     },
 
     {
+      heading: "🎯 Quick Check",
+      quickCheck: {
+        questions: [
+          {
+            question: "Yang dimaksud fisika sebagai produk adalah....",
+            options: [
+              "Cara ilmuwan melakukan eksperimen.",
+              "Proses mengamati dan menguji suatu hipotesis.",
+              "Kumpulan pengetahuan ilmiah yang dihasilkan melalui proses ilmiah.",
+              "Sikap yang harus dimiliki seorang ilmuwan.",
+              "Peralatan yang digunakan di laboratorium."
+            ],
+            answerIndex: 2,
+          },
+          {
+            question:
+              "Manakah contoh konsep dalam fisika?.",
+            options: [
+              "Hukum Newton",
+              "Teori Relativitas",
+              "Energi",
+              "Air mendidih pada suhu 100°C (1 atm)",
+              "Model atom Bohr."
+            ],
+            answerIndex: 2,
+          },
+          {
+            question: "Pernyataan 'Benda yang dilepaskan akan jatuh menuju permukaan Bumi' merupakan contoh....",
+            options: [
+              "Fakta",
+              "Prinsip",
+              "Teori",
+              "Konsep",
+              "Model"
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: "Pernyataan yang benar mengenai hukum dan teori ilmiah adalah....",
+            options: [
+              "Teori hanyalah dugaan yang belum dibuktikan.",
+              "Hukum menjelaskan mengapa suatu fenomena terjadi, sedangkan teori hanya menjelaskan apa yang terjadi.",
+              "Hukum menjelaskan hubungan yang teramati, sedangkan teori menjelaskan mengapa hubungan tersebut dapat terjadi.",
+              "Hukum selalu lebih benar daripada teori.",
+              "Hukum dan teori memiliki arti yang sama dalam sains."
+            ],
+            answerIndex: 2,
+          },
+          {
+            question:
+              "Mengapa model digunakan dalam fisika?",
+            options: [
+              "Untuk menggantikan eksperimen sepenuhnya.",
+              "Untuk membuat rumus menjadi lebih rumit.",
+              "Untuk membantu memahami sistem yang kompleks melalui representasi yang lebih sederhana.",
+              "Agar semua fenomena dapat diamati secara langsung.",
+              "Untuk membuktikan bahwa semua teori selalu benar."
+            ],
+            answerIndex: 2,
+          },
+        ],
+        scoring: [
+          {
+            min: 5,
+            max: 5,
+            emoji: "🏆",
+            title: "Mission Complete!",
+            message: "Kamu siap memasuki portal berikutnya.",
+          },
+          {
+            min: 4,
+            max: 4,
+            emoji: "🚀",
+            title: "Hampir Sempurna",
+            message: "Pemahamanmu sudah sangat baik.",
+          },
+          {
+            min: 2,
+            max: 3,
+            emoji: "🔄",
+            title: "Perlu Sedikit Lagi",
+            message: "Coba eksplorasi lagi bagian inti materi.",
+          },
+          {
+            min: 0,
+            max: 1,
+            emoji: "📖",
+            title: "Ulangi Petualangan",
+            message: "Tenang, ulangi petualanganmu dari awal.",
+          },
+        ],
+      },
+    },
+
+    {
       image: nextmissionfisikasbgprosesImg,
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/fisika-sebagai-proses",

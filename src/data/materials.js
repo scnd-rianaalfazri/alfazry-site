@@ -280,6 +280,20 @@ import DistrikbusiEnergiListrik from "../content/materi/ListrikArusBolakBalik/Di
 import AplikasiArusBolakBalik from "../content/materi/ListrikArusBolakBalik/AplikasiArusBolakBalik.js"
 import PenutupArusBolakBalik from "../content/materi/ListrikArusBolakBalik/PenutupArusBolakBalik.js"
 
+/* Listrik Dinamis: Rangkaian Arus Bolak Balik */
+import PengantarRangkaianArusBolakBalik from "../content/materi/RangkaianArusBolakBalik/PengantarRangkaianArusBolakBalik.js"
+import ResistorAC from "../content/materi/RangkaianArusBolakBalik/ResistorPadaAC.js"
+import InduktorAC from "../content/materi/RangkaianArusBolakBalik/InduktorPadaAC"
+import KapasitorAC from "../content/materi/RangkaianArusBolakBalik/KapasitorPadaAC"
+import RangkaianRL from "../content/materi/RangkaianArusBolakBalik/RangkaianRL.js"
+import RangkaianRC from "../content/materi/RangkaianArusBolakBalik/RangkaianRC.js"
+import RangkaianLC from "../content/materi/RangkaianArusBolakBalik/RangkaianLC.js"
+import RangkaianRLCSeri from "../content/materi/RangkaianArusBolakBalik/RangkaianRLCSeri.js"
+import ResonansiRLC from "../content/materi/RangkaianArusBolakBalik/ResonansiRLC.js"
+import FaktorDaya from "../content/materi/RangkaianArusBolakBalik/FaktorDaya.js"
+import AplikasiRangkaianArusBolakBalik from "../content/materi/RangkaianArusBolakBalik/AplikasiLRC.js"
+import PenutupRangkaianArusBolakBalik from "../content/materi/RangkaianArusBolakBalik/PenutupRangkaianArusBolakBalik.js"
+
 /* Kemagnetan */
 import PengantarKemagnetan from "../content/materi/Magnet/PengantarKemagnetan.js"
 import SejarahMagnet from "../content/materi/Magnet/SejarahMagnet.js"
@@ -456,6 +470,9 @@ import PenutupRelativitas from "../content/materi/Relativitas/PenutupRelativitas
 /* Astrofisika */
 import PengantarAstrofisika from "/src/content/materi/Astrofisika/PengantarAstrofisika"
 import ApaItuAstrofisika from "/src/content/materi/Astrofisika/ApaItuAstrofisika"
+import CahayaBahasaAlamSemesta from "/src/content/materi/Astrofisika/CahayaBahasaAlamSemesta"
+import SpektrumElektromagnetik from "/src/content/materi/Astrofisika/SpektrumElektromagnetik"
+import MataTelekskop from "/src/content/materi/Astrofisika/MataTeleskop"
 
 /* EKSPORT CONTENT */
 export const materials = [
@@ -734,6 +751,20 @@ export const materials = [
   AplikasiArusBolakBalik,
   PenutupArusBolakBalik,
 
+  /* Chapter : Rangkaian Arus Bolak Balik */
+  PengantarRangkaianArusBolakBalik,
+  ResistorAC,
+  InduktorAC,
+  KapasitorAC,
+  RangkaianRL,
+  RangkaianRC,
+  RangkaianLC,
+  RangkaianRLCSeri,
+  ResonansiRLC,
+  FaktorDaya,
+  AplikasiRangkaianArusBolakBalik,
+  PenutupRangkaianArusBolakBalik,
+
   /* Chapter : kemagnetan */
   PengantarKemagnetan,
   SejarahMagnet,
@@ -910,4 +941,7 @@ export const materials = [
   /* Chapter: astrofisika */
   PengantarAstrofisika,
   ApaItuAstrofisika,
+  CahayaBahasaAlamSemesta,
+  SpektrumElektromagnetik,
+  MataTelekskop,
 ]

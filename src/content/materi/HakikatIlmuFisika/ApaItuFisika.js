@@ -7,6 +7,7 @@ import miskonsepsiaoaitufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/Apa
 import pengertianfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika7.jpg"
 import nextmissionhakikatilmufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika8.jpg"
 import cobatemukanImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika9.jpg"
+import { body, text } from "framer-motion/client"
 
 const apaitufisika = {
   title: "Apa Itu Fisika?",
@@ -68,19 +69,83 @@ const apaitufisika = {
       image: cabangfisikaImg,
       caption: "Beberapa cabang ilmu fisika",
       body: [
-        "Beberapa bidang utama dalam fisika antara lain:",
+        "Cabang-cabang ilmu fisika terbagi ke dalam dua era besar: Fisika Klasik (era sebelum abad ke-20, makro, dan predictable) dan Fisika Modern (era setelah abad ke-20, mikro, dan penuh kejutan).",
         "",
-        "⚙️ Mekanika",
-        "🌊 Fluida",
-        "🌡️ Termodinamika",
-        "🎵 Gelombang dan Bunyi",
-        "💡 Optika",
-        "⚡ Listrik dan Magnet",
-        "☢️ Fisika Modern",
-        "🌌 Astrofisika"
-      ]
+        "Berikut adalah peta cabang ilmu fisika yang bikin kita makin kagum sama cara alam semesta bekerja:",
+      ],
+      list: {
+        type: "ordered",
+        items: [
+          {
+            text: "Fisika Klasik (The Foundation)",
+            description: "Ini adalah fondasi awal yang membahas fenomena alam yang bisa kita lihat dan rasakan langsung dalam skala sehari-hari.",
+            children: {
+              type: "unordered",
+              items: [
+                {
+                  text: "Mekanika Klasik: Bos-nya hukum gerak. Membahas bagaimana benda bergerak, gaya yang mempengaruhinya, dan keseimbangan benda. Hukum Newton ada di sini."
+                },
+                {
+                  text: "Termodinamika: Cabang yang puitis tentang bagaimana kalor (panas) berdansa dan berubah menjadi energi bentuk lain, serta konsep entropi yang misterius."
+                },
+                {
+                  text: "Elektromagnetisme: Menyatukan fenomena kelistrikan dan kemagnetan. Ini alasan kenapa lampu di rumah kita menyala dan kenapa kompas bisa menunjuk arah utara."
+                },
+                {
+                  text: "Optika: Ilmu tentang cahaya, lensa, dan bagaimana mata atau kamera menangkap keindahan visual dunia."
+                },
+                {
+                  text: "Akustik (Fisika Gelombang & Bunyi): Mempelajari bagaimana gelombang mekanik merambat, bergetar, dan menghasilkan suara—mulai dari petikan dawai gitar sampai ultrasonik.."
+                },
+              ]
+            }
+          },
+          {
+            text: "Fisika Modern (The Frontier)",
+            description: "Ketika para ilmuwan masuk ke skala ekstrem—super cepat, super kecil, atau super masif—hukum klasik mulai runtuh, dan lahirlah fisika modern.",
+            children: {
+              type: "unordered",
+              items: [
+                {
+                  text: "Mekanika Kuantum: Selamat datang di dunia sub-atomik yang liar (atom, elektron, foton). Di sini, benda bisa berada di dua tempat sekaligus (probabilitas) dan bertingkah seperti gelombang sekaligus partikel."
+                },
+                {
+                  text: "Teori Relativitas (Einstein): Mengubah cara kita memandang ruang dan waktu. Menjelaskan gravitasi bukan lagi sekadar gaya tarik, melainkan kelengkungan ruang-waktu akibat massa yang besar."
+                },
+                {
+                  text: "Fisika Inti (Nuklir): Fokus pada 'jantung' dari atom, yaitu nukleus. Mempelajari gaya kuat yang mengikat proton dan neutron, serta reaksi fisi dan fusi."
+                },    
+                {
+                  text: "Fisika Partikel: Berburu partikel paling fundamental yang menyusun alam semesta (seperti quark dan Higgs Boson) menggunakan akselerator raksasa."
+                },                                
+              ]
+            }
+          },
+          {
+            text: "Fisika Terapan & Interdisipliner (The Innovation)",
+            description: "Fisika gak melulu diam di lab, tapi juga berkolaborasi dengan ilmu lain untuk melahirkan teknologi masa depan.",
+            children: {
+              type: "unordered",
+              items: [
+                {
+                  text: "Astrofisika & Kosmologi: Fisika yang menatap bintang-bintang. Mempelajari sifat fisik benda langit, lubang hitam, dan bagaimana alam semesta ini bermula serta berakhir."
+                },
+                {
+                  text: "Biofisika: Jembatan antara fisika dan biologi. Menganalisis fenomena biologis (seperti kerja sel atau impuls saraf) menggunakan prinsip-prinsip fisika."
+                },
+                {
+                  text: "Geofisika: Menggunakan metode fisika (seperti gelombang seismik) untuk mengintip apa yang ada di perut bumi dan memahami gempa."
+                },
+                {
+                  text: "Fisika Komputasi: Ketika rumus-rumus fisika yang rumit diselesaikan lewat baris-baris kode (coding) dan simulasi komputer untuk memprediksi fenomena kompleks."
+                },
+              ]
+            }
+          },
+        ]
+      }
     },
-
+ 
     {
       heading: "🌍 Mengapa Fisika Disebut Ilmu Dasar?",
       body: [
@@ -136,7 +201,7 @@ const apaitufisika = {
     },
 
     {
-      heading: "Coba Temukan?",
+      heading: "🔍 Coba Temukan?",
       image: cobatemukanImg,
       caption: "Coba temukan fenomena fisika di sekitar gambar ini!"
     },

@@ -135,16 +135,138 @@ export default function DetailMateri() {
     )
   }
 
+  // Marker kustom (bukan bullet/angka bawaan browser) biar konsisten
+  // sama tema HUD ungu-cyan di seluruh situs. Mendukung list bercabang:
+  // tiap item boleh punya `children` (sub-list) yang otomatis di-indent
+  // dan bisa dicampur ordered/unordered sesuka hati, berapa level pun.
+  const renderListBlock = (block, depth = 0) => {
+    const type = block?.type === "ordered" ? "ordered" : "unordered"
+    const items = block?.items || []
+    const Tag = type === "ordered" ? "ol" : "ul"
+
+    return (
+      <Tag className={`list-none space-y-2.5 ${depth > 0 ? "mt-2.5" : ""}`}>
+        {items.map((raw, index) => {
+          // item boleh berupa string biasa, atau object { text, children }
+          const item = typeof raw === "string" ? { text: raw } : raw || {}
+
+          return (
+            <li key={index}>
+              <div className="flex items-start gap-3 text-white/70 leading-relaxed">
+                {type === "ordered" ? (
+                  <span
+                    className="
+                      mt-0.5
+                      shrink-0
+                      w-6 h-6
+                      rounded-full
+                      bg-violet-500/15
+                      border border-violet-400/40
+                      text-violet-300
+                      font-mono text-xs
+                      flex items-center justify-center
+                    "
+                  >
+                    {index + 1}
+                  </span>
+                ) : (
+                  <span
+                    className="
+                      mt-2
+                      w-1.5 h-1.5
+                      rounded-full
+                      shrink-0
+                      shadow-[0_0_6px_2px_rgba(139,59,255,0.5)]
+                      bg-violet-400
+                    "
+                  />
+                )}
+                <span>{item.text}</span>
+              </div>
+
+              {/* Paragraf penjelasan milik item ini (opsional) */}
+              {item.description && (
+                <div className="pl-8 md:pl-9 mt-1.5 space-y-1.5">
+                  {Array.isArray(item.description) ? (
+                    item.description.map((d, dIndex) => (
+                      <p
+                        key={dIndex}
+                        className="text-white/45 text-sm leading-relaxed"
+                      >
+                        {d}
+                      </p>
+                    ))
+                  ) : (
+                    <p className="text-white/45 text-sm leading-relaxed">
+                      {item.description}
+                    </p>
+                  )}
+                </div>
+              )}
+
+              {/* Sub-list (list bercabang) — indent ke kanan tiap level */}
+              {item.children && (
+                <div className="pl-8 md:pl-9 mt-2">
+                  {renderListBlock(item.children, depth + 1)}
+                </div>
+              )}
+            </li>
+          )
+        })}
+      </Tag>
+    )
+  }
+
+  // Format yang didukung:
+  //   list: ["a", "b"]                          -> unordered (bullet), seperti sebelumnya
+  //   list: { type: "unordered", items: [...] } -> unordered (bullet), eksplisit
+  //   list: { type: "ordered", items: [...] }   -> ordered (bernomor)
+  //   list: "teks biasa"                         -> paragraf, seperti sebelumnya
+  //
+  //   List bercabang + penjelasan per item: tiap item di `items` boleh
+  //   diganti object { text, description, children }:
+  //     - text        -> teks poinnya (wajib kalau pakai object)
+  //     - description -> paragraf penjelasan di bawah poin itu (opsional,
+  //                      boleh string atau array of string buat banyak paragraf)
+  //     - children    -> sub-list di bawah paragraf (opsional, format sama
+  //                      persis kayak `list`, jadi bisa berlapis-lapis)
+  //
+  //   Contoh:
+  //   list: {
+  //     type: "ordered",
+  //     items: [
+  //       {
+  //         text: "Langkah pertama",
+  //         description: "Penjelasan singkat soal langkah pertama.",
+  //       },
+  //       {
+  //         text: "Langkah kedua (punya sub-langkah)",
+  //         description: "Penjelasan langkah kedua.",
+  //         children: {
+  //           type: "unordered",
+  //           items: [
+  //             {
+  //               text: "Sub A",
+  //               description: "Penjelasan sub A.",
+  //             },
+  //             "Sub B (tanpa penjelasan, boleh string biasa)",
+  //           ],
+  //         },
+  //       },
+  //     ],
+  //   }
   const renderList = (list) => {
     if (!list) return null
 
-    return Array.isArray(list) ? (
-      <ul className="list-disc list-inside space-y-2 text-white/70">
-        {list.map((item, index) => (
-          <li key={index}>{item}</li>
-        ))}
-      </ul>
-    ) : (
+    if (Array.isArray(list)) {
+      return renderListBlock({ type: "unordered", items: list })
+    }
+
+    if (typeof list === "object" && Array.isArray(list.items)) {
+      return renderListBlock(list)
+    }
+
+    return (
       <p className="text-white/70 leading-relaxed">
         {list}
       </p>

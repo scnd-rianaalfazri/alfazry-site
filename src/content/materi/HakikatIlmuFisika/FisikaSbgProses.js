@@ -141,8 +141,103 @@ const fisikasbgproses = {
     },
 
     {
-      heading: "Bonus",
+      heading: "🔍 Bonus",
       image: bonusImg,
+    },
+
+    {
+      heading: "🎯 Quick Check",
+      quickCheck: {
+        questions: [
+          {
+            question: "Yang dimaksud fisika sebagai proses adalah....",
+            options: [
+              "Kumpulan hukum dan teori yang telah ditemukan.",
+              "Cara ilmuwan memperoleh pengetahuan melalui penyelidikan ilmiah.",
+              "Sikap yang harus dimiliki setiap ilmuwan.",
+              "Penggunaan teknologi dalam kehidupan sehari-hari.",
+              "Cabang fisika yang mempelajari gerak benda."
+            ],
+            answerIndex: 1,
+          },
+          {
+            question:
+              "Manakah urutan proses ilmiah yang paling tepat?",
+            options: [
+              "Kesimpulan → Hipotesis → Pengamatan → Eksperimen",
+              "Pengamatan → Pertanyaan → Hipotesis → Eksperimen → Analisis → Kesimpulan",
+              "Hipotesis → Kesimpulan → Pengamatan → Analisis",
+              "Eksperimen → Pengamatan → Hipotesis → Kesimpulan",
+              "Pengamatan → Eksperimen → Kesimpulan → Hipotesis → Analisis"
+            ],
+            answerIndex: 1,
+          },
+          {
+            question: "Mengapa hasil penelitian ilmiah harus didukung oleh bukti?",
+            options: [
+              "Agar hasilnya terlihat lebih menarik.",
+              "Karena pendapat seseorang selalu benar.",
+              "Agar kesimpulan dapat diuji dan dipercaya oleh orang lain.",
+              "Supaya eksperimen tidak perlu diulang.",
+              "Karena semua hipotesis pasti benar."
+            ],
+            answerIndex: 0,
+          },
+          {
+            question: "Seorang siswa ingin mengetahui apakah panjang tali memengaruhi waktu ayunan bandul. Langkah yang paling tepat adalah....",
+            options: [
+              "Menebak hasilnya tanpa melakukan percobaan.",
+              "Bertanya kepada teman lalu langsung menarik kesimpulan.",
+              "Melakukan eksperimen, mencatat data, kemudian menganalisis hasilnya.",
+              "Mencari jawaban di internet tanpa melakukan pengamatan.",
+              "Mengubah hasil pengamatan agar sesuai dengan dugaan."
+            ],
+            answerIndex: 2,
+          },
+          {
+            question:
+              "Pernyataan yang benar mengenai hipotesis adalah....",
+            options: [
+              "Hipotesis harus selalu terbukti benar.",
+              "Hipotesis adalah dugaan sementara yang perlu diuji melalui eksperimen.",
+              "Hipotesis sama dengan kesimpulan akhir penelitian.",
+              "Hipotesis tidak boleh berubah meskipun data menunjukkan hasil yang berbeda.",
+              "Hipotesis dibuat setelah eksperimen selesai dilakukan."
+            ],
+            answerIndex: 2,
+          },
+        ],
+        scoring: [
+          {
+            min: 5,
+            max: 5,
+            emoji: "🏆",
+            title: "Mission Complete!",
+            message: "Kamu siap memasuki portal berikutnya.",
+          },
+          {
+            min: 4,
+            max: 4,
+            emoji: "🚀",
+            title: "Hampir Sempurna",
+            message: "Pemahamanmu sudah sangat baik.",
+          },
+          {
+            min: 2,
+            max: 3,
+            emoji: "🔄",
+            title: "Perlu Sedikit Lagi",
+            message: "Coba eksplorasi lagi bagian inti materi.",
+          },
+          {
+            min: 0,
+            max: 1,
+            emoji: "📖",
+            title: "Ulangi Petualangan",
+            message: "Tenang, ulangi petualanganmu dari awal.",
+          },
+        ],
+      },
     },
 
     {
