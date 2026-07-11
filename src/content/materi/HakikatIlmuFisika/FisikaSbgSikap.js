@@ -1,3 +1,9 @@
+import { caption, image } from "framer-motion/client"
+import FisikaSgbSikapImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiSikap1.jpg"
+import PengertianSikapIlmiahImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiSikap2.jpg"
+import diagramsikapImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiSikap3.jpg"
+import sikapilmuanImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiSikap4.jpg"
+
 const fisikasbgsikap = {
   title: "Fisika sebagai Sikap Ilmiah",
   slug: "fisika sebagai sikap ilmiah",
@@ -7,6 +13,7 @@ const fisikasbgsikap = {
   content: [
 
     {
+      image: FisikaSgbSikapImg,
       caption: "Sikap ilmiah membantu kita mengambil keputusan berdasarkan bukti, bukan sekadar dugaan.",
       body: [
         "Bayangkan dua orang melakukan percobaan.",
@@ -21,6 +28,8 @@ const fisikasbgsikap = {
 
     {
       heading: "🧠 Apa Itu Sikap Ilmiah?",
+      caption: "Perbandingan dua cara berpikir",
+      image: PengertianSikapIlmiahImg,
       body: [
         "Sikap ilmiah adalah cara berpikir dan bertindak yang mendukung proses memperoleh pengetahuan secara objektif.",
         "",
@@ -30,6 +39,8 @@ const fisikasbgsikap = {
 
     {
       heading: "🌟 Mengapa Sikap Ilmiah Penting?",
+      image: diagramsikapImg,
+      caption: "Diagram sikap ilmiah",
       body: [
         "Dengan memiliki sikap ilmiah, kita dapat:",
         "",
@@ -42,6 +53,8 @@ const fisikasbgsikap = {
 
     {
       heading: "🔍 Sikap-Sikap Ilmiah",
+      caption: "Sikap-sikap ilmiah",
+      image: sikapilmuanImg,
       body: [
         "Beberapa sikap ilmiah yang penting antara lain:",
         "",
@@ -118,61 +131,61 @@ const fisikasbgsikap = {
       quickCheck: {
         questions: [
           {
-            question: "Yang dimaksud fisika sebagai proses adalah....",
+            question: "Yang dimaksud sikap ilmiah adalah....",
             options: [
-              "Kumpulan hukum dan teori yang telah ditemukan.",
-              "Cara ilmuwan memperoleh pengetahuan melalui penyelidikan ilmiah.",
-              "Sikap yang harus dimiliki setiap ilmuwan.",
-              "Penggunaan teknologi dalam kehidupan sehari-hari.",
-              "Cabang fisika yang mempelajari gerak benda."
+              "Kemampuan menghafal rumus-rumus fisika.",
+              "Cara berpikir dan bertindak yang mendukung proses memperoleh pengetahuan secara objektif.",
+              "Kemampuan menyelesaikan soal fisika dengan cepat.",
+              "Sikap untuk selalu membenarkan pendapat sendiri.",
+              "Keterampilan menggunakan alat laboratorium."
             ],
             answerIndex: 1,
           },
           {
             question:
-              "Manakah urutan proses ilmiah yang paling tepat?",
+              "Manakah yang merupakan contoh sikap ilmiah?",
             options: [
-              "Kesimpulan → Hipotesis → Pengamatan → Eksperimen",
-              "Pengamatan → Pertanyaan → Hipotesis → Eksperimen → Analisis → Kesimpulan",
-              "Hipotesis → Kesimpulan → Pengamatan → Analisis",
-              "Eksperimen → Pengamatan → Hipotesis → Kesimpulan",
-              "Pengamatan → Eksperimen → Kesimpulan → Hipotesis → Analisis"
-            ],
-            answerIndex: 1,
-          },
-          {
-            question: "Mengapa hasil penelitian ilmiah harus didukung oleh bukti?",
-            options: [
-              "Agar hasilnya terlihat lebih menarik.",
-              "Karena pendapat seseorang selalu benar.",
-              "Agar kesimpulan dapat diuji dan dipercaya oleh orang lain.",
-              "Supaya eksperimen tidak perlu diulang.",
-              "Karena semua hipotesis pasti benar."
+              "Mengubah data agar sesuai dengan hipotesis.",
+              "Menarik kesimpulan tanpa melakukan pengamatan.",
+              "Jujur mencatat hasil pengamatan meskipun tidak sesuai harapan.",
+              "Menolak semua pendapat orang lain.",
+              "Menyalin hasil percobaan kelompok lain."
             ],
             answerIndex: 2,
           },
           {
-            question: "Seorang siswa ingin mengetahui apakah panjang tali memengaruhi waktu ayunan bandul. Langkah yang paling tepat adalah....",
+            question: "Mengapa sikap ilmiah penting dalam kehidupan sehari-hari?",
             options: [
-              "Menebak hasilnya tanpa melakukan percobaan.",
-              "Bertanya kepada teman lalu langsung menarik kesimpulan.",
-              "Melakukan eksperimen, mencatat data, kemudian menganalisis hasilnya.",
-              "Mencari jawaban di internet tanpa melakukan pengamatan.",
-              "Mengubah hasil pengamatan agar sesuai dengan dugaan."
+              "Agar semua pendapat kita selalu benar.",
+              "Agar dapat mengambil keputusan berdasarkan bukti dan fakta.",
+              "Agar tidak perlu melakukan pengamatan.",
+              "Agar hasil percobaan selalu sesuai harapan.",
+              "Agar lebih mudah menghafal rumus fisika."
+            ],
+            answerIndex: 1,
+          },
+          {
+            question: "Saat membaca berita di internet, seseorang yang memiliki sikap ilmiah akan....",
+            options: [
+              "Langsung mempercayai isi berita.",
+              "Membagikan berita tanpa memeriksa kebenarannya.",
+              "Memeriksa sumber informasi dan mencari bukti pendukung sebelum menyimpulkan.",
+              "Memilih berita yang sesuai dengan pendapatnya saja.",
+              "Mengabaikan semua informasi yang dibaca."
             ],
             answerIndex: 2,
           },
           {
             question:
-              "Pernyataan yang benar mengenai hipotesis adalah....",
+              "Pernyataan yang benar mengenai sikap ilmiah adalah....",
             options: [
-              "Hipotesis harus selalu terbukti benar.",
-              "Hipotesis adalah dugaan sementara yang perlu diuji melalui eksperimen.",
-              "Hipotesis sama dengan kesimpulan akhir penelitian.",
-              "Hipotesis tidak boleh berubah meskipun data menunjukkan hasil yang berbeda.",
-              "Hipotesis dibuat setelah eksperimen selesai dilakukan."
+              "Sikap ilmiah berarti selalu meragukan semua informasi.",
+              "Sikap ilmiah hanya diperlukan oleh ilmuwan di laboratorium.",
+              "Sikap ilmiah berarti menerima atau menolak suatu pendapat berdasarkan bukti yang dapat dipertanggungjawabkan.",
+              "Sikap ilmiah bertujuan membuktikan bahwa pendapat kita selalu benar.",
+              "Sikap ilmiah hanya digunakan saat melakukan praktikum."
             ],
-            answerIndex: 1,
+            answerIndex: 2,
           },
         ],
         scoring: [
@@ -207,7 +220,7 @@ const fisikasbgsikap = {
         ],
       },
     },
-    
+
     {
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/ruang-lingkup-fisika",

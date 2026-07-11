@@ -473,6 +473,11 @@ import ApaItuAstrofisika from "/src/content/materi/Astrofisika/ApaItuAstrofisika
 import CahayaBahasaAlamSemesta from "/src/content/materi/Astrofisika/CahayaBahasaAlamSemesta"
 import SpektrumElektromagnetik from "/src/content/materi/Astrofisika/SpektrumElektromagnetik"
 import MataTelekskop from "/src/content/materi/Astrofisika/MataTeleskop"
+import KehidupanBintang from "/src/content/materi/Astrofisika/KehidupanBintang"
+import KelahiranBintang from "/src/content/materi/Astrofisika/KelahiranBintang"
+import AkhirKehidupanBintang from "/src/content/materi/Astrofisika/AkhirKehidupanBintang"
+import Supernova from "/src/content/materi/Astrofisika/Supernova"
+import WhiteDwarf from "/src/content/materi/Astrofisika/WhiteDwarf"
 
 /* EKSPORT CONTENT */
 export const materials = [
@@ -944,4 +949,9 @@ export const materials = [
   CahayaBahasaAlamSemesta,
   SpektrumElektromagnetik,
   MataTelekskop,
+  KehidupanBintang,
+  KelahiranBintang,
+  AkhirKehidupanBintang,
+  Supernova,
+  WhiteDwarf,
 ]
