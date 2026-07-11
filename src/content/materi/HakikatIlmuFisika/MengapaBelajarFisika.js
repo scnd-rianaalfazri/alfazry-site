@@ -154,11 +154,12 @@ const mengapabelajarfisika = {
             question: "Mengapa manusia mempelajari fisika?",
             options: [
               "Untuk menghafal sebanyak mungkin rumus",
-              "Untuk memahami bagaimana alam bekerja melalui pengamatan dan penalaran ilmiah",
+              "Agar dapat menyelesaikan soal hitungan dengan cepat.",
               "Agar dapat menghitung lebih cepat daripada komputer",
               "Supaya bisa membuat semua teknologi sendiri",
+              "Untuk memahami bagaimana alam bekerja melalui pengamatan dan penalaran ilmiah",
             ],
-            answerIndex: 1,
+            answerIndex: 4,
           },
           {
             question:
@@ -167,7 +168,8 @@ const mengapabelajarfisika = {
               "Menggunakan GPS saat bepergian",
               "Menonton film kartun",
               "Menghafal nama-nama negara",
-              "Menggambar pemandangan",
+              "Menulis cerita fiksi.",
+              "Menggambar pemandangan"
             ],
             answerIndex: 0,
           },
@@ -178,6 +180,7 @@ const mengapabelajarfisika = {
               "Ilmu yang mempelajari gejala alam dan hukum-hukum yang mengaturnya.",
               "Ilmu yang hanya membahas perhitungan matematika.",
               "Ilmu yang hanya digunakan oleh ilmuwan.",
+              "Ilmu yang mempelajari makhluk hidup dan lingkungannya."
             ],
             answerIndex: 1,
           },
@@ -188,6 +191,7 @@ const mengapabelajarfisika = {
               "Menghafal tanpa memahami konsep",
               "Menebak jawaban tanpa alasan",
               "Mengingat semua rumus tanpa latihan",
+              "Mengandalkan intuisi tanpa melakukan pengamatan."
             ],
             answerIndex: 0,
           },
@@ -199,6 +203,7 @@ const mengapabelajarfisika = {
               "Rumus hanyalah alat untuk memahami alam.",
               "Fisika hanya digunakan di sekolah.",
               "Semua fenomena alam tidak dapat dijelaskan dengan fisika.",
+              "Belajar fisika cukup dengan menghafal semua persamaan."
             ],
             answerIndex: 1,
           },

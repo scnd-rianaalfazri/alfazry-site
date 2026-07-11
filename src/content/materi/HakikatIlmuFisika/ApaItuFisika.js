@@ -215,10 +215,11 @@ const apaitufisika = {
             options: [
               "Hanya benda yang bergerak",
               "Hanya planet dan bintang",
+              "Sejarah perkembangan kehidupan di Bumi.",
               "Materi, energi, gerak, gaya, ruang, waktu, dan interaksinya",
               "Makhluk hidup dan ekosistem"
             ],
-            answerIndex: 2,
+            answerIndex: 3,
           },
           {
             question:
@@ -227,6 +228,7 @@ const apaitufisika = {
               "Daun membuat makanan melalui fotosintesis",
               "Batu jatuh ke tanah karena gravitasi",
               "Bunga mekar pada musim tertentu",
+              "Besi yang bereaksi dengan air akan membentuk karat",
               "Jamur berkembang biak"
             ],
             answerIndex: 1,
@@ -237,7 +239,8 @@ const apaitufisika = {
               "Karena hanya dipelajari di sekolah.",
               "Karena menjadi dasar bagi banyak cabang ilmu pengetahuan dan teknologi.",
               "Karena merupakan ilmu yang paling mudah dipelajari.",
-              "DKarena hanya membahas hukum Newton."
+              "DKarena hanya membahas hukum Newton.",
+              "Karena hanya digunakan oleh para fisikawan."
             ],
             answerIndex: 1,
           },
@@ -247,7 +250,8 @@ const apaitufisika = {
               "Mekanika",
               "Termodinamika",
               "Optika",
-              "Botani"
+              "Botani",
+              "Elektronika"
             ],
             answerIndex: 3,
           },
@@ -258,7 +262,8 @@ const apaitufisika = {
               "Fisika hanya mempelajari benda yang bergerak.",
               "Fisika hanya digunakan di laboratorium.",
               "Fisika membantu menjelaskan berbagai fenomena alam melalui hukum-hukum alam.",
-              "Fisika hanya berguna bagi ilmuwan."
+              "Fisika hanya berguna bagi ilmuwan.",
+              "Fisika hanya mempelajari benda-benda yang dapat dilihat secara langsung."
             ],
             answerIndex: 2,
           },

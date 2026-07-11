@@ -181,7 +181,7 @@ const fisikasbgproses = {
               "Supaya eksperimen tidak perlu diulang.",
               "Karena semua hipotesis pasti benar."
             ],
-            answerIndex: 0,
+            answerIndex: 2,
           },
           {
             question: "Seorang siswa ingin mengetahui apakah panjang tali memengaruhi waktu ayunan bandul. Langkah yang paling tepat adalah....",
@@ -204,7 +204,7 @@ const fisikasbgproses = {
               "Hipotesis tidak boleh berubah meskipun data menunjukkan hasil yang berbeda.",
               "Hipotesis dibuat setelah eksperimen selesai dilakukan."
             ],
-            answerIndex: 2,
+            answerIndex: 1,
           },
         ],
         scoring: [
