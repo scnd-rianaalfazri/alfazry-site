@@ -1,4 +1,4 @@
-import { caption, image } from "framer-motion/client"
+import { caption, image, text } from "framer-motion/client"
 import fisikaSbgProsesImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses1.jpg"
 import prosesilmiahImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses2.jpg"
 import intimateriImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses3.jpg"
@@ -11,6 +11,7 @@ import ringkasanImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiPros
 import miskonsepsiImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses11.jpg"
 import nextmissionfisikasebagaisikapImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses14.jpg"
 import bonusImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses15.jpg"
+import { List } from "lucide-react"
 
 const fisikasbgproses = {
   title: "Fisika sebagai Proses",
@@ -24,11 +25,11 @@ const fisikasbgproses = {
       image: fisikaSbgProsesImg,
       caption: "Setiap penemuan besar dimulai dari rasa ingin tahu.",
       body: [
-        "Pernahkah kamu bertanya mengapa apel jatuh ke bawah, tetapi Bulan tidak jatuh ke Bumi?",
+        "Pernahkah kamu merenung sejenak dan bertanya: Mengapa buah apel jatuh tegak lurus ke bawah, tetapi Bulan yang sangat besar itu tidak jatuh menabrak Bumi?",
         "",
-        "Pertanyaan sederhana seperti itu dapat menjadi awal dari sebuah penemuan ilmiah.",
+        "ertanyaan-pertanyaan sederhana seperti itulah yang sering kali menjadi gerbang awal dari sebuah penemuan ilmiah yang mengubah peradaban.",
         "",
-        "Dalam fisika, pengetahuan tidak muncul karena tebakan, melainkan melalui proses penyelidikan yang sistematis."
+        "Dalam ilmu fisika, pengetahuan tidak pernah muncul dari tebakan acak, ramalan, atau cocoklogi. Semuanya dibangun melalui sebuah proses penyelidikan yang sistematis."
       ]
     },
 
@@ -37,9 +38,9 @@ const fisikasbgproses = {
       image: definisifisikasbgprosesImg,
       caption: "pengamatan di sekitar lingkungan",
       body: [
-        "Fisika sebagai proses adalah cara ilmuwan memperoleh pengetahuan tentang alam.",
+        "Fisika sebagai proses (physics as a process) adalah cara atau metodologi yang digunakan oleh para ilmuwan untuk memperoleh pengetahuan tentang alam semesta.",
         "",
-        "Pengetahuan tersebut diperoleh melalui pengamatan, pengujian, analisis, dan penarikan kesimpulan berdasarkan bukti."
+        "Pengetahuan fisika tidak turun begitu saja dari langit, melainkan diraih secara bertahap melalui rantai pengamatan yang ketat, pengujian di laboratorium, analisis data yang objektif, dan penarikan kesimpulan berdasarkan bukti-bukti nyata."
       ]
     },
 
@@ -48,15 +49,39 @@ const fisikasbgproses = {
       image: prosesilmiahImg,
       caption: "Proses ilmiah",
       body: [
-        "Secara umum, proses ilmiah berlangsung melalui tahapan berikut:",
+        "Secara umum, para fisikawan bekerja menggunakan alur berpikir yang terstruktur yang dinamakan Metode Ilmiah. Tahapan-tahapan proses ilmiah ini meliputi:",
         "",
-        "👀 Mengamati fenomena",
-        "❓ Mengajukan pertanyaan",
-        "💭 Menyusun dugaan sementara (hipotesis)",
-        "🧪 Melakukan eksperimen",
-        "📊 Menganalisis data",
-        "📖 Menarik kesimpulan"
-      ]
+      ],
+      List: {
+        type: "unordered",
+        items: [
+          {
+            text: "👀 Mengamati fenomena",
+            description: "Melihat dan mencermati kejadian unik di sekitar alam."
+          },
+          {
+            text: "❓ Mengajukan pertanyaan",
+            description: "Merumuskan masalah yang ingin dipecahkan (Mengapa? Bagaimana?)."
+          },
+          {
+            text: "💭 Menyusun hipotesi",
+            description: "Membuat dugaan atau jawaban sementara yang logis."
+          },
+          {
+            text: "🧪 Melakukan eksperimen",
+            description: "Menguji hipotesis secara langsung melalui serangkaian percobaan terkontrol."
+          },
+          {
+            text: "📊 Menganalisis data",
+            description: "Mengolah, membaca, dan menginterpretasikan angka atau hasil dari eksperimen."
+          },
+          {
+            text: "📖 Menarik kesimpulan",
+            description: "Menentukan apakah data eksperimen mendukung atau justru membantah hipotesis awal."
+          },
+        ]
+
+      }
     },
 
     {
@@ -64,9 +89,11 @@ const fisikasbgproses = {
       image: buktiprosesfisikaImg,
       caption: "Pendapat vs bukti",
       body: [
-        "Dalam sains, sebuah pendapat belum tentu benar hanya karena terdengar masuk akal.",
+        "Dalam dunia sains, sebuah pendapat atau teori tidak akan dianggap benar hanya karena terdengar masuk akal atau karena diucapkan oleh orang terkenal.",
         "",
-        "Setiap pernyataan harus didukung oleh data dan hasil eksperimen yang dapat diuji kembali oleh orang lain."
+        "Pendapat tanpa data hanyalah rumor.",
+        "",
+        "Setiap pernyataan ilmiah wajib didukung oleh data valid dan hasil eksperimen empiris yang dapat diuji kembali (reproducible) oleh siapa pun, kapan pun, dan di mana pun."
       ]
     },
 
@@ -75,10 +102,10 @@ const fisikasbgproses = {
       image: sikluspenelitianImg,
       caption: "Siklus penelitian ilmiah",
       body: [
-        "Penelitian ilmiah tidak selalu berhasil pada percobaan pertama. Karena penelitian ialah proses yang terus berulang sampai mendekati kebenaran.",
+        "Penelitian ilmiah hampir tidak pernah langsung sukses pada percobaan pertama. Kegagalan adalah makanan sehari-hari para ilmuwan.",
         "",
-        "Sering kali ilmuwan harus mengulang eksperimen, memperbaiki metode, atau mengembangkan hipotesis baru hingga memperoleh hasil yang lebih baik."
-
+        "Oleh karena itu, penelitian fisika adalah proses yang terus berulang (siklus) demi mendekati kebenaran yang paling akurat.",
+        "Jika hasil eksperimen tidak sesuai, ilmuwan akan kembali ke meja kerja untuk mengulang eksperimen, memperbaiki metode pengumpulan data, atau bahkan merombak total hipotesis mereka demi mendapatkan hasil yang valid."
       ]
     },
 
@@ -87,9 +114,13 @@ const fisikasbgproses = {
       image: contohkehidupanImg,
       Caption: "Penelitian di lab futuristik",
       body: [
-        "Misalnya, seorang siswa ingin mengetahui apakah panjang tali memengaruhi waktu ayunan bandul.",
+        "Bayangkan kamu sedang penasaran: 'Apakah panjang tali pada ayunan akan memengaruhi waktu yang dibutuhkan bandul untuk berayun?'",
         "",
-        "Ia tidak cukup hanya menebak jawabannya, tetapi harus melakukan percobaan dan mencatat hasilnya."
+        "Sebagai orang yang berpikir ilmiah, kamu tidak boleh cuma menebak-nebak ('Kayaknya sih makin panjang makin cepet...').",
+        "",
+        "Kamu harus bertindak! Kamu ambil tali dengan berbagai ukuran variasi, mengikat beban, mengayunkannya, menghitung waktunya dengan stopwatch, lalu mencatat datanya secara jujur.",
+        "",
+        "Dari data itulah kamu baru bisa menarik kesimpulan yang valid."
       ]
     },
 
@@ -98,7 +129,9 @@ const fisikasbgproses = {
       image: tahukahkamuImg,
       Caption: "Penemuan besar dimuali dari pengamatan.",
       body: [
-        "Banyak penemuan besar dalam sejarah lahir dari pengamatan sederhana yang kemudian diteliti lebih lanjut melalui eksperimen."
+        "Banyak penemuan besar dalam sejarah fisika lahir dari pengamatan hal-hal remeh yang kemudian diinvestigasi secara serius melalui eksperimen mendalam.",
+        "",
+        "Kuncinya bukan seberapa rumit alatnya, melainkan seberapa konsisten proses ilmiah yang dijalankan!"
       ]
     },
 
@@ -107,9 +140,15 @@ const fisikasbgproses = {
       image: miskonsepsiImg,
       caption: "Miskonsepsi tentang hipotesis",
       body: [
-        "Eksperimen bukan dilakukan untuk membuktikan bahwa hipotesis kita pasti benar.",
+        "'Tujuan eksperimen itu untuk membuktikan kalau tebakan (hipotesis) kita 100% benar, kan?' ❌",
         "",
-        "Tujuan eksperimen adalah menguji apakah hipotesis tersebut didukung oleh bukti."
+        "Gak, gitu! ",
+        "",
+        "Eksperimen bukan alat untuk validasi ego agar hipotesis kita terlihat selalu benar.",
+        "",
+        "Tujuan utama eksperimen adalah untuk menguji secara objektif apakah hipotesis tersebut didukung oleh bukti nyata atau tidak.",
+        "",
+        "Hipotesis yang terbukti salah lewat eksperimen tetaplah sebuah kontribusi besar bagi sains karena memberi tahu peneliti lain jalan mana yang buntu."
       ]
     },
 
@@ -133,10 +172,10 @@ const fisikasbgproses = {
     },
 
     {
-      heading: "✨ Inti Materi",
+      heading: "✨ Inti Materi (Takeaway Message)",
 
       body: [
-        "Fisika berkembang melalui proses ilmiah yang sistematis, objektif, dan didasarkan pada bukti hasil pengamatan maupun eksperimen."
+        "Fisika berkembang secara dinamis melalui proses ilmiah yang sistematis, objektif, dan berbasis pada bukti (evidence-based) yang didapatkan dari hasil pengamatan maupun eksperimen nyata."
       ]
     },
 
@@ -245,7 +284,11 @@ const fisikasbgproses = {
       image: nextmissionfisikasebagaisikapImg,
       link: "/materi/fisika-sebagai-sikap",
       body: [
-        "Selain menghasilkan pengetahuan dan memiliki proses ilmiah, fisika juga membentuk karakter seorang ilmuwan.",
+        "Apakah kamu sudah paham bagaimana ilmu fisika itu diproses dan dibangun?",
+        "",
+        "Namun, proses ilmiah yang keren ini tidak akan berjalan lancar tanpa adanya karakter atau mindset yang benar dari sang peneliti.",
+        "",
+        "Selain menghasilkan pengetahuan dan metode, fisika juga membentuk karakter serta cara berperilaku seorang ilmuwan.",
         "",
         "➡️ Next, kita menuju portal: Fisika sebagai Sikap Ilmiah."
       ]

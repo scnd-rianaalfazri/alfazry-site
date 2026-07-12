@@ -4,7 +4,7 @@
 // menjadi deretan token yang siap dibaca oleh expressionParser.js.
 //
 // Tokenizer ini ditulis manual tanpa library eksternal, dan menangani:
-//   - Operator: + - * / ^ (termasuk alias × dan ÷)
+//   - Operator: + - * / ^ (termasuk alias × dan ÷, serta '.' sebagai alias perkalian)
 //   - Tanda kurung: ( )
 //   - Tanda sama dengan: =
 //   - Angka desimal, termasuk simbol pecahan "½"
@@ -170,6 +170,15 @@ export function tokenize(rawInput) {
     // Operator aritmetika
     if ("+-*/^".includes(ch)) {
       tokens.push({ type: TOKEN_TYPES.OP, value: ch });
+      i += 1;
+      continue;
+    }
+
+    // Tanda titik '.' yang berdiri sendiri (bukan bagian dari angka desimal,
+    // itu sudah ditangani di blok angka di atas) diperlakukan sebagai alias
+    // perkalian, misalnya "m.v" dibaca sebagai "m * v".
+    if (ch === ".") {
+      tokens.push({ type: TOKEN_TYPES.OP, value: "*" });
       i += 1;
       continue;
     }

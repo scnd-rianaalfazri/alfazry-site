@@ -1,4 +1,4 @@
-import { caption, image } from "framer-motion/client"
+import { caption, image, text } from "framer-motion/client"
 import FisikaSgbSikapImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiSikap1.jpg"
 import PengertianSikapIlmiahImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiSikap2.jpg"
 import diagramsikapImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiSikap3.jpg"
@@ -33,7 +33,9 @@ const fisikasbgsikap = {
       body: [
         "Sikap ilmiah adalah cara berpikir dan bertindak yang mendukung proses memperoleh pengetahuan secara objektif.",
         "",
-        "Sikap ini tidak hanya diperlukan oleh ilmuwan, tetapi juga berguna dalam kehidupan sehari-hari."
+        "Sikap ini tidak secara esklusif hanya untuk para ilmuwan atau profesor yang bekerja di dalam laboratorium canggih saja.",
+        "",
+        "Sikap ilmiah sebenarnya sangat berguna dan bisa kita terapkan dalam kehidupan sehari-hari demi menyaring informasi dan mengambil keputusan yang bijak."
       ]
     },
 
@@ -42,13 +44,28 @@ const fisikasbgsikap = {
       image: diagramsikapImg,
       caption: "Diagram sikap ilmiah",
       body: [
-        "Dengan memiliki sikap ilmiah, kita dapat:",
+        "Di era derasnya arus informasi seperti sekarang, memiliki sikap ilmiah bertindak sebagai 'filter' mental kita.",
         "",
-        "✅ Mengambil keputusan berdasarkan bukti.",
-        "✅ Menghindari kesimpulan yang terburu-buru.",
-        "✅ Menghargai fakta dan data.",
-        "✅ Bersikap terbuka terhadap informasi baru."
-      ]
+        "Dengan menanamkan sikap ilmiah, kita dapat:",
+        "",
+      ],
+      list: {
+        type: "unordered",
+        items: [
+          {
+            text: "Mengambil keputusan berdasarkan bukti: Tidak mudah termakan omongan tanpa dasar nyata.",
+          },
+          {
+            text: "Menghindari kesimpulan yang terburu-buru: Selalu meluangkan waktu untuk memverifikasi kebenaran."
+          },
+          {
+            text: "Menghargai fakta dan data: Berani bersandar pada kebenaran objektif meskipun terkadang tidak sesuai keinginan kita."
+          },
+          {
+            text: "Bersikap terbuka terhadap informasi baru: Siap menerima perubahan jika ada bukti baru yang lebih valid."
+          }
+        ]
+      }
     },
 
     {
@@ -56,49 +73,94 @@ const fisikasbgsikap = {
       caption: "Sikap-sikap ilmiah",
       image: sikapilmuanImg,
       body: [
-        "Beberapa sikap ilmiah yang penting antara lain:",
+        "Untuk menjadi pribadi yang ilmiah, berikut adalah beberapa pilar sikap yang perlu kita asah:",
         "",
-        "🤔 Rasa ingin tahu",
-        "📏 Teliti",
-        "⚖️ Jujur terhadap data",
-        "🧩 Berpikir kritis",
-        "🤝 Terbuka terhadap pendapat yang didukung bukti",
-        "💪 Tekun",
-        "🎯 Bertanggung jawab"
-      ]
+      ],
+      list: {
+        type: "ordered",
+        items: [
+          {
+            text: "🤔 Rasa Ingin Tahu",
+            description: "Selalu penasaran dengan cara kerja alam semesta. Mengapa langit biru? Mengapa apel jatuh ke bawah?"
+          },
+          {
+            text: "📏 Telit",
+            description: "Cermat dalam mengamati dan tidak ceroboh saat melakukan pengukuran atau analisis."
+          },
+                    {
+            text: "⚖️ Jujur Terhadap Data",
+            description: "Mencatat apa adanya hasil pengamatan tanpa memanipulasi atau mengubah data agar terlihat 'sempurna' atau sesuai hipotesis awal."
+          },
+                    {
+            text: "🧩 Berpikir Kritis:",
+            description: "Tidak langsung menelan mentah-mentah sebuah informasi, melainkan mempertanyakan kevalidan dan logikanya."
+          },
+                    {
+            text: "🤝 Terbuka (Open-Minded)",
+            description: "Menghargai pendapat atau kritik dari orang lain, selama argumen tersebut didukung oleh bukti kuat."
+          },
+                    {
+            text: "💪 Tekun",
+            description: "Tidak mudah menyerah ketika eksperimen gagal, melainkan terus mencari tahu letak kesalahannya."
+          },
+          {
+            text: "🎯 Bertanggung Jawab",
+            description: "Siap mempertanggungjawabkan hasil temuan serta proses penelitian yang telah dilakukan."
+          }
+        ]
+      }
     },
 
     {
       heading: "🌍 Contoh dalam Kehidupan",
-      body: [
-        "Misalnya saat membaca berita di internet.",
-        "",
-        "Orang yang memiliki sikap ilmiah tidak langsung percaya.",
-        "",
-        "Ia akan memeriksa sumber informasi, membandingkan dengan bukti lain, dan berpikir kritis sebelum menyimpulkan."
-      ]
-    },
-
-    {
-      heading: "🧪 Sikap Ilmiah di Laboratorium",
-      body: [
-        "Saat melakukan praktikum, sikap ilmiah ditunjukkan dengan mencatat hasil apa adanya, mengikuti prosedur, dan tidak mengubah data agar sesuai dengan harapan."
-      ]
+      list : {
+        type: "ordered",
+        items: [
+          {
+            text: "Saat Berselancar di Internet (Life Skill)",
+            description : [
+              "Misalnya saat kamu membaca berita viral atau info heboh di media sosial. Seseorang yang memiliki sikap ilmiah tidak akan langsung percaya dan langsung membagikannya (share).",
+              "",
+              "Ia akan bertindak kritis terlebih dahulu:",
+            ],
+            children:{
+              type: "unordered",
+              items:[
+                "memeriksa dari mana sumber informasinya,",
+                "mencari tahu apakah ada bukti pendukung dari sumber tepercaya, dan",
+                "membandingkannya dengan fakta lain sebelum menyimpulkan berita itu hoax atau bukan."
+              ]
+            }
+          },
+          {
+            text: "Saat Praktikum di Laboratorium Sekolah",
+            description: [
+              "Ketika jam praktikum fisika, sikap ilmiah ditunjukkan dengan kedisiplinan tingkat tinggi.",
+              "",
+              "Kamu mencatat angka hasil ukur apa adanya (misal jika hasilnya 4,9 cm ya ditulis 4,9 cm, bukan dibulatkan paksa menjadi 5,0 cm hanya demi terlihat pas sesuai rumus).",
+              "",
+              "Kamu juga mengikuti prosedur keselamatan dan tidak memanipulasi data praktikum kelompokmu."
+            ]
+          },
+        ],
+      }
     },
 
     {
       heading: "💡 Tahukah Kamu?",
       body: [
-        "Banyak penemuan ilmiah justru berawal dari rasa ingin tahu terhadap hal-hal sederhana yang sering diabaikan orang lain."
+        "Banyak penemuan besar sains yang mengubah dunia justru tidak berawal dari formula rumit nan megah, melainkan dari rasa ingin tahu terhadap hal-hal sederhana di sekitar kita yang sering dilewatkan orang lain.",
+        "",
+        "Contohnya, Sir Isaac Newton yang penasaran dengan jatuhnya buah apel hingga akhirnya merumuskan Teori Gravitasi Universal!"
       ]
     },
 
     {
       heading: "⚠️ Miskonsepsi",
       body: [
-        "Sikap ilmiah bukan berarti selalu meragukan semua hal.",
+        "'Berarti kalau bersikap ilmiah, kita harus jadi orang skeptis yang meragukan segala hal di dunia ini dong?' ❌",
         "",
-        "Sikap ilmiah berarti bersedia menerima atau menolak suatu pendapat berdasarkan bukti yang dapat dipertanggungjawabkan."
+        "Gak, gitu! Sikap ilmiah bukan berarti selalu meragukan semua hal tanpa akhir. Sikap ilmiah berarti kita bersedia menerima atau menolak suatu pendapat secara rasional berdasarkan bukti yang dapat dipertanggungjawabkan secara nyata."
       ]
     },
 
@@ -118,11 +180,11 @@ const fisikasbgsikap = {
     },
 
     {
-      heading: "✨ Inti Materi",
+      heading: "✨ Inti Materi (Takeaway Message)",
       body: [
-        "Sikap ilmiah merupakan dasar dalam mempelajari fisika dan melakukan penelitian.",
+        "Sikap ilmiah merupakan fondasi paling mendasar dalam mempelajari ilmu fisika maupun saat melakukan penelitian sains lainnya.",
         "",
-        "Dengan bersikap jujur, teliti, kritis, dan terbuka terhadap bukti, kita dapat memperoleh pengetahuan yang lebih dapat dipercaya."
+        "Dengan mempraktikkan sikap jujur, teliti, kritis, dan terbuka terhadap kebenaran bukti, kita tidak hanya mampu memperoleh pengetahuan yang lebih dapat dipercaya, tetapi juga melatih diri menjadi individu yang bijak dalam berpikir sehari-hari."
       ]
     },
 
@@ -225,9 +287,9 @@ const fisikasbgsikap = {
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/ruang-lingkup-fisika",
       body: [
-        "Sekarang kita telah memahami tiga pilar hakikat fisika.",
+        "Apakah kamu memahami apa itu sikap ilmiah sebagai salah satu pilar hakikat fisika?",
         "",
-        "Lalu, apa saja bidang yang dipelajari dalam fisika?",
+        "Namun, setelah memiliki sikap ini, apa saja sih kapling atau bidang luas yang dipelajari di dalam fisika?",
         "",
         "➡️ Next, kita menuju portal: Ruang Lingkup Fisika."
       ]

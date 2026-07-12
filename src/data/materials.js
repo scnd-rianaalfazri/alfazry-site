@@ -478,6 +478,9 @@ import KelahiranBintang from "/src/content/materi/Astrofisika/KelahiranBintang"
 import AkhirKehidupanBintang from "/src/content/materi/Astrofisika/AkhirKehidupanBintang"
 import Supernova from "/src/content/materi/Astrofisika/Supernova"
 import WhiteDwarf from "/src/content/materi/Astrofisika/WhiteDwarf"
+import NeutronStars from "/src/content/materi/Astrofisika/NeutronStars"
+import BlackHole from "/src/content/materi/Astrofisika/BlackHole"
+import Galaksi from "/src/content/materi/Astrofisika/Galaksi"
 
 /* EKSPORT CONTENT */
 export const materials = [
@@ -954,4 +957,7 @@ export const materials = [
   AkhirKehidupanBintang,
   Supernova,
   WhiteDwarf,
+  NeutronStars,
+  BlackHole,
+  Galaksi,
 ]

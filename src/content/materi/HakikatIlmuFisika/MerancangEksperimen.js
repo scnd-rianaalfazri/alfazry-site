@@ -143,6 +143,101 @@ const merancangEksperimen = {
     },
 
     {
+      heading: "🎯 Quick Check",
+      quickCheck: {
+        questions: [
+          {
+            question: "Tujuan utama melakukan eksperimen adalah....",
+            options: [
+              "Menghafal langkah-langkah praktikum.",
+              "Menguji hipotesis melalui percobaan yang terencana.",
+              "Membuktikan bahwa semua hipotesis pasti benar.",
+              "Menghasilkan alat laboratorium baru.",
+              "Mengurangi jumlah data yang dikumpulkan."
+            ],
+            answerIndex: 1,
+          },
+          {
+            question:
+              "Dalam eksperimen tentang pengaruh panjang tali terhadap periode ayunan bandul, variabel bebas adalah....",
+            options: [
+              "Massa bandul.",
+              "Sudut awal ayunan.",
+              "Periode ayunan bandul.",
+              "Panjang tali bandul.",
+              "Lokasi percobaan."
+            ],
+            answerIndex: 3,
+          },
+          {
+            question: "Manakah yang merupakan variabel terikat pada eksperimen bandul?",
+            options: [
+              "Panjang tali.",
+              "Massa bandul.",
+              "Periode ayunan bandul.",
+              "Jenis tali yang digunakan.",
+              "Suhu ruangan."
+            ],
+            answerIndex: 2,
+          },
+          {
+            question: "Mengapa variabel kontrol perlu dijaga tetap selama eksperimen?",
+            options: [
+              "Agar percobaan selesai lebih cepat.",
+              "Agar hasil percobaan terlihat lebih menarik.",
+              "Agar pengaruh variabel bebas terhadap hasil dapat diamati dengan adil.",
+              "Agar tidak perlu melakukan pengukuran.",
+              "Agar semua hipotesis terbukti benar."
+            ],
+            answerIndex: 2,
+          },
+          {
+            question:
+              "Pernyataan yang benar mengenai fair test adalah....",
+            options: [
+              "Semua variabel harus diubah secara bersamaan.",
+              "Variabel terikat harus dibuat tetap.",
+              "Eksperimen cukup dilakukan satu kali tanpa pengulangan.",
+              "Hasil eksperimen harus selalu sesuai dengan hipotesis.",
+              "Hanya satu variabel bebas yang diubah, sedangkan variabel lainnya dikendalikan."
+            ],
+            answerIndex: 4,
+          },
+        ],
+        scoring: [
+          {
+            min: 5,
+            max: 5,
+            emoji: "🏆",
+            title: "Mission Complete!",
+            message: "Kamu siap memasuki portal berikutnya.",
+          },
+          {
+            min: 4,
+            max: 4,
+            emoji: "🚀",
+            title: "Hampir Sempurna",
+            message: "Pemahamanmu sudah sangat baik.",
+          },
+          {
+            min: 2,
+            max: 3,
+            emoji: "🔄",
+            title: "Perlu Sedikit Lagi",
+            message: "Coba eksplorasi lagi bagian inti materi.",
+          },
+          {
+            min: 0,
+            max: 1,
+            emoji: "📖",
+            title: "Ulangi Petualangan",
+            message: "Tenang, ulangi petualanganmu dari awal.",
+          },
+        ],
+      },
+    },
+
+    {
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/mengolah-data",
       body: [

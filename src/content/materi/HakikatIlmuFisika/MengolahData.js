@@ -129,6 +129,101 @@ const mengolahdata = {
     },
 
     {
+      heading: "🎯 Quick Check",
+      quickCheck: {
+        questions: [
+          {
+            question: "Mengapa data hasil eksperimen perlu diolah?",
+            options: [
+              "Agar data terlihat lebih banyak.",
+              "Agar hasil eksperimen selalu sesuai dengan hipotesis.",
+              "Agar tidak perlu membuat laporan penelitian.",
+              "Agar data dapat diubah sesuai keinginan peneliti.",
+              "Agar lebih mudah menemukan pola dan menarik kesimpulan yang tepat."
+            ],
+            answerIndex: 4,
+          },
+          {
+            question:
+              "Manakah yang bukan merupakan cara menyajikan data hasil eksperimen?",
+            options: [
+              "Tabel.",
+              "Grafik.",
+              "Diagram.",
+              "Narasi.",
+              "Hipotesis."
+            ],
+            answerIndex: 4,
+          },
+          {
+            question: "Fungsi utama grafik dalam penyajian data adalah....",
+            options: [
+              "Menambah jumlah data hasil eksperimen.",
+              "Menggantikan proses pengamatan.",
+              "Memudahkan melihat hubungan antarvariabel dan kecenderungan data.",
+              "Membuktikan bahwa hipotesis selalu benar.",
+              "Menghilangkan kesalahan pengukuran."
+            ],
+            answerIndex: 2,
+          },
+          {
+            question: "Menafsirkan data berarti....",
+            options: [
+              "Mengubah data agar sesuai dengan harapan.",
+              "Menjelaskan makna pola yang ditemukan berdasarkan data hasil eksperimen.",
+              "Menyalin semua data ke dalam tabel.",
+              "Menghapus data yang dianggap tidak sesuai.",
+              "Membuat grafik tanpa melakukan analisis."
+            ],
+            answerIndex: 1,
+          },
+          {
+            question:
+              "Pernyataan yang benar mengenai pengolahan data adalah....",
+            options: [
+              "Grafik yang menarik selalu menghasilkan kesimpulan yang benar.",
+              "Kesimpulan harus didasarkan pada pendapat peneliti.",
+              "Data yang valid perlu dianalisis secara objektif sebelum ditarik kesimpulan.",
+              "Data mentah tidak perlu disajikan dalam bentuk tabel atau grafik.",
+              "Semua hasil eksperimen pasti menunjukkan pola yang sama."
+            ],
+            answerIndex: 2,
+          },
+        ],
+        scoring: [
+          {
+            min: 5,
+            max: 5,
+            emoji: "🏆",
+            title: "Mission Complete!",
+            message: "Kamu siap memasuki portal berikutnya.",
+          },
+          {
+            min: 4,
+            max: 4,
+            emoji: "🚀",
+            title: "Hampir Sempurna",
+            message: "Pemahamanmu sudah sangat baik.",
+          },
+          {
+            min: 2,
+            max: 3,
+            emoji: "🔄",
+            title: "Perlu Sedikit Lagi",
+            message: "Coba eksplorasi lagi bagian inti materi.",
+          },
+          {
+            min: 0,
+            max: 1,
+            emoji: "📖",
+            title: "Ulangi Petualangan",
+            message: "Tenang, ulangi petualanganmu dari awal.",
+          },
+        ],
+      },
+    },
+
+    {
       caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
       link: "/materi/kesimpulan-dan-komunikasi-ilmiah",
       body: [

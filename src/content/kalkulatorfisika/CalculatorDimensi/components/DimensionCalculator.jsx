@@ -80,6 +80,12 @@ export default function DimensionCalculator() {
       : result.isHeterogeneous
     : false;
 
+  // Peringatan anti-miskomunikasi: huruf 'x' di kalkulator ini adalah variabel
+  // posisi (dimensi L), BUKAN tanda kali. Bila rumus yang baru dianalisis
+  // ternyata memuat 'x', tampilkan pengingat agar pengguna tidak salah kira
+  // sedang menuliskan perkalian (mis. "m x v" akan dibaca m * x * v).
+  const usesXAsVariable = !!(result && result.variables.some((v) => v.symbol === "x"));
+
   return (
     <div className="w-full">
       {/* Tab pemilih mode: Hitung Dimensi Rumus vs Cari Dimensi Besaran */}
@@ -105,7 +111,7 @@ export default function DimensionCalculator() {
             onChange={setFormulaInput}
             onSubmit={handleFormulaSubmit}
             placeholder="Misalnya: F=m*a atau (m*v²)/r"
-            helperText="Tekan Enter untuk menghitung. Mendukung operator + - × / ^ dan tanda kurung ( )."
+            helperText="Tekan Enter untuk menghitung. Gunakan '*' atau '.' untuk perkalian (jangan huruf 'x', karena 'x' adalah variabel posisi) — mendukung juga + - / ^ dan tanda kurung ( )."
             autoFocus
           />
 
@@ -123,6 +129,17 @@ export default function DimensionCalculator() {
 
           {result && !errorMessage && (
             <>
+              {usesXAsVariable && (
+                <div className="rounded-2xl border border-amber-400/40 bg-amber-400/10 p-4 text-sm leading-relaxed text-amber-200">
+                  ⚠ Rumus ini memuat variabel <span className="font-mono font-semibold">x</span>,
+                  yang di kalkulator ini berarti <strong>posisi (dimensi L)</strong>, bukan tanda
+                  kali. Jika maksudmu perkalian, ganti dengan{" "}
+                  <span className="font-mono">*</span> atau{" "}
+                  <span className="font-mono">.</span>, misalnya{" "}
+                  <span className="font-mono">m*v</span> atau{" "}
+                  <span className="font-mono">m.v</span>.
+                </div>
+              )}
               <VariableList variables={result.variables} />
               <DimensionSteps steps={result.steps} isHeterogeneous={stepsAreHeterogeneous} />
               <DimensionResult result={result} />
