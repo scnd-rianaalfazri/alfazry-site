@@ -100,11 +100,14 @@ const pengertianmomentum = {
       explanation: [
         "Semakin besar massa atau kecepatan suatu benda, semakin besar pula momentumnya."
       ],
-      list: [
+      list: {
+        type: "unordered",
+        items: [
         "🎾 Bola tenis relatif mudah dihentikan.",
         "🚚 Truk membutuhkan gaya yang lebih besar untuk berhenti.",
         "🚆 Kereta api membutuhkan jarak pengereman yang sangat panjang."
       ]
+      }
     },
     {
       heading: "📏 Satuan Momentum",
@@ -155,12 +158,15 @@ const pengertianmomentum = {
         "Konsep momentum sering kita jumpai tanpa disadari.",
         "Banyak peristiwa di sekitar kita yang melibatkan perubahan momentum."
       ],
-      list: [
+      list: {
+        type: "unordered",
+        items: [
         "⚽ Bola yang ditendang akan memperoleh momentum.",
         "🏏 Pemukul baseball memberikan momentum pada bola saat memukul.",
         "🚗 Mobil yang melaju kencang memiliki momentum lebih besar dibanding mobil yang bergerak lambat.",
         "🚀 Roket dapat meluncur karena terjadi perubahan momentum antara roket dan gas buang."
       ]
+      }
     },
     {
       heading: "🚀 Fakta Menarik",

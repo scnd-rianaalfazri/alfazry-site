@@ -114,12 +114,15 @@ const menjumlahkanvektor = {
       heading: "🚗 Contoh Penerapan Vektor dalam Kehidupan",
       image: penerapanpenjumlahanvektorImg,
       caption: "Ilustrasi: Contoh penerapan pada penjumlahan vektor",
-      list:[
+      list: {
+        type: "unordered",
+        items: [
         "Kapal tidak bergerak lurus ke depan, tetapi menyamping karena pengaruh arus. Arah sebenarnya adalah resultan dari arah kapal dan arus",
         "Pesawat tidak sampai tepat diatas tujuan jika ada angin menyamping. Resultan menentukan arah tempuh sebenarnya.",
         "Mobil melaju ke depan tetapi juga tertarik ke bawah oleh gravitasi. Resultan menentukan seberapa cepat mobil benar-benar menanjak",
         "Bola tidak bergerak sesuai tendangan saja,tetapi dipengaruhi oleh angin. Resultan menentukan arah sebenarnya."
-      ],
+      ]
+      },
     },
 
     {

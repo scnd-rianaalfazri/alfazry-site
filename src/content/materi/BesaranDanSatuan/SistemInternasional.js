@@ -66,12 +66,15 @@ const sisteminternasional = {
         "",
         "Satuan Internasional yang sudah ditetapkan oleh para ilmuan memiliki ketetapan diantaranya:",
       ],
-      list: [
+      list: {
+        type: "unordered",
+        items: [
         "Mempunyai nilai tetap, tidak berubah karena apapun.",
         "Bersifat umum.",
         "Mudah ditiru dan diperbanyak.",
         "Mudah diubah atau dikonversi ke satuan lain.",
-      ],
+      ]
+      },
     },
     {
       heading: "⚖️ Kenapa Kilogram, Meter, dan Sekon Penting?",

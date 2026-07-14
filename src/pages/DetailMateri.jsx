@@ -8,6 +8,7 @@ import Navbar from "../components/layout/Navbar"
 import Footer from "../components/layout/Footer"
 import MathEquation from "../components/layout/MathEquation"
 import QuickCheck from "../components/layout/QuickCheck"
+import RichText from "../components/layout/RichText"
 import BackToTopButton from "../components/UI/BackToTopBottom"
 
 export default function DetailMateri() {
@@ -88,7 +89,7 @@ export default function DetailMateri() {
                       whitespace-nowrap
                     "
                   >
-                    {header}
+                    <RichText text={header} />
                   </th>
                 ))}
               </tr>
@@ -109,7 +110,7 @@ export default function DetailMateri() {
                               text-white/80
                             "
                           >
-                            {cell}
+                            <RichText text={cell} />
                           </td>
                         ))
                       : Object.values(row).map(
@@ -122,7 +123,7 @@ export default function DetailMateri() {
                                 text-white/80
                               "
                             >
-                              {cell}
+                              <RichText text={cell} />
                             </td>
                           )
                         )}
@@ -181,7 +182,9 @@ export default function DetailMateri() {
                     "
                   />
                 )}
-                <span>{item.text}</span>
+                <span>
+                  <RichText text={item.text} />
+                </span>
               </div>
 
               {/* Paragraf penjelasan milik item ini (opsional) */}
@@ -193,12 +196,12 @@ export default function DetailMateri() {
                         key={dIndex}
                         className="text-white/45 text-sm leading-relaxed"
                       >
-                        {d}
+                        <RichText text={d} />
                       </p>
                     ))
                   ) : (
                     <p className="text-white/45 text-sm leading-relaxed">
-                      {item.description}
+                      <RichText text={item.description} />
                     </p>
                   )}
                 </div>
@@ -217,11 +220,10 @@ export default function DetailMateri() {
     )
   }
 
-  // Format yang didukung:
-  //   list: ["a", "b"]                          -> unordered (bullet), seperti sebelumnya
-  //   list: { type: "unordered", items: [...] } -> unordered (bullet), eksplisit
+  // Format yang didukung (HANYA object, format array lama sudah tidak didukung):
+  //   list: { type: "unordered", items: [...] } -> unordered (bullet)
   //   list: { type: "ordered", items: [...] }   -> ordered (bernomor)
-  //   list: "teks biasa"                         -> paragraf, seperti sebelumnya
+  //   list: "teks biasa"                         -> paragraf (fallback)
   //
   //   List bercabang + penjelasan per item: tiap item di `items` boleh
   //   diganti object { text, description, children }:
@@ -258,19 +260,189 @@ export default function DetailMateri() {
   const renderList = (list) => {
     if (!list) return null
 
-    if (Array.isArray(list)) {
-      return renderListBlock({ type: "unordered", items: list })
-    }
-
     if (typeof list === "object" && Array.isArray(list.items)) {
       return renderListBlock(list)
     }
 
     return (
       <p className="text-white/70 leading-relaxed">
-        {list}
+        <RichText text={list} />
       </p>
     )
+  }
+
+  // ============================================================
+  // Sistem BLOCKS — biar penempatan image/body/equation/explanation/
+  // table/list/quickCheck dalam satu section bisa bebas urutannya,
+  // bahkan bisa diulang beberapa kali (misal: paragraf → gambar →
+  // paragraf lagi → tabel → paragraf lagi).
+  // ============================================================
+  //
+  // Cara pakai (opsional, section tanpa `blocks` tetap jalan seperti
+  // biasa lewat field lama: image/body/equation/explanation/table/
+  // list/quickCheck, dengan urutan tampil tetap seperti sebelumnya):
+  //
+  //   {
+  //     heading: "Judul Section",
+  //     blocks: [
+  //       { type: "paragraph", text: "Paragraf pembuka." },
+  //       { type: "image", src: fotoImg, caption: "Keterangan foto" },
+  //       { type: "heading", text: "Sub-judul di tengah konten" },
+  //       { type: "paragraf", text: ["Paragraf 1", "Paragraf 2"] },
+  //       { type: "equation", equation: "F = ma" },
+  //       { type: "table", table: { headers: [...], rows: [...] } },
+  //       { type: "list", list: { type: "ordered", items: [...] } },
+  //       { type: "explanation", text: "Catatan tambahan." },
+  //       { type: "quickCheck", data: { questions: [...] } },
+  //     ],
+  //   }
+  //
+  // Tipe block yang didukung: paragraph, image, heading, equation,
+  // table, list, explanation, quickCheck.
+  const sectionToBlocks = (section) => {
+    if (Array.isArray(section.blocks)) return section.blocks
+
+    // Section lama (tanpa `blocks`) -> dirakit otomatis dari field
+    // lama, urutannya persis seperti versi sebelumnya supaya semua
+    // materi yang sudah ada tetap tampil sama.
+    const blocks = []
+
+    if (section.image) {
+      blocks.push({
+        type: "image",
+        src: section.image,
+        caption: section.caption,
+        link: section.link,
+        alt: section.caption || section.heading,
+      })
+    }
+
+    if (section.body) {
+      blocks.push({ type: "paragraph", text: section.body })
+    }
+
+    if (section.equation) {
+      blocks.push({ type: "equation", equation: section.equation })
+    }
+
+    if (section.explanation) {
+      blocks.push({ type: "explanation", text: section.explanation })
+    }
+
+    if (section.table) {
+      blocks.push({ type: "table", table: section.table })
+    }
+
+    if (section.list) {
+      blocks.push({ type: "list", list: section.list })
+    }
+
+    if (section.quickCheck) {
+      blocks.push({ type: "quickCheck", data: section.quickCheck })
+    }
+
+    return blocks
+  }
+
+  const renderParagraphs = (text, className) =>
+    Array.isArray(text) ? (
+      text.map((item, index) => (
+        <p key={index} className={className}>
+          <RichText text={item} />
+        </p>
+      ))
+    ) : (
+      <p className={className}>
+        <RichText text={text} />
+      </p>
+    )
+
+  const renderBlock = (block, key) => {
+    if (!block || !block.type) return null
+
+    switch (block.type) {
+      case "image":
+        return (
+          <figure
+            key={key}
+            className="overflow-hidden rounded-2xl border border-white/10"
+          >
+            {block.link ? (
+              <Link to={block.link}>
+                <img
+                  src={block.src}
+                  alt={block.alt || block.caption}
+                  loading="lazy"
+                  className="
+                    w-full h-auto object-cover
+                    transition duration-300
+                    hover:scale-105
+                  "
+                />
+              </Link>
+            ) : (
+              <img
+                src={block.src}
+                alt={block.alt || block.caption}
+                loading="lazy"
+                className="w-full h-auto object-cover"
+              />
+            )}
+
+            {block.caption && (
+              <figcaption
+                className="
+                  px-4 py-3
+                  text-sm text-center
+                  text-white/60
+                  bg-black/20
+                "
+              >
+                {block.caption}
+              </figcaption>
+            )}
+          </figure>
+        )
+
+      case "heading":
+        return (
+          <h3
+            key={key}
+            className="font-hud text-base md:text-lg font-bold text-violet-300"
+          >
+            <RichText text={block.text} />
+          </h3>
+        )
+
+      case "paragraph":
+        return (
+          <div key={key} className="space-y-4">
+            {renderParagraphs(block.text, "text-white/70 leading-relaxed")}
+          </div>
+        )
+
+      case "explanation":
+        return (
+          <div key={key} className="space-y-4">
+            {renderParagraphs(block.text, "text-white/70 leading-relaxed")}
+          </div>
+        )
+
+      case "equation":
+        return <MathEquation key={key} equation={block.equation} />
+
+      case "table":
+        return <div key={key}>{renderTable(block.table)}</div>
+
+      case "list":
+        return <div key={key}>{renderList(block.list)}</div>
+
+      case "quickCheck":
+        return <QuickCheck key={key} data={block.data} />
+
+      default:
+        return null
+    }
   }
 
   if (!materi) {
@@ -373,110 +545,8 @@ export default function DetailMateri() {
 
             const body = (
               <div className="space-y-4">
-
-                {section.image && (
-                  <figure className="overflow-hidden rounded-2xl border border-white/10">
-                    {section.link ? (
-                      <Link to={section.link}>
-                        <img
-                          src={section.image}
-                          alt={
-                            section.caption ||
-                            section.heading
-                          }
-                          loading="lazy"
-                          className="
-                            w-full
-                            h-auto
-                            object-cover
-                            transition
-                            duration-300
-                            hover:scale-105
-                          "
-                        />
-                      </Link>
-                    ) : (
-                      <img
-                        src={section.image}
-                        alt={
-                          section.caption ||
-                          section.heading
-                        }
-                        loading="lazy"
-                        className="w-full h-auto object-cover"
-                      />
-                    )}
-
-                    {section.caption && (
-                      <figcaption
-                        className="
-                          px-4 py-3
-                          text-sm
-                          text-center
-                          text-white/60
-                          bg-black/20
-                        "
-                      >
-                        {section.caption}
-                      </figcaption>
-                    )}
-                  </figure>
-                )}
-
-                {Array.isArray(section.body)
-                  ? section.body.map((item, index) => (
-                      <p
-                        key={index}
-                        className="
-                          text-white/70
-                          leading-relaxed
-                        "
-                      >
-                        {item}
-                      </p>
-                    ))
-                  : section.body && (
-                      <p className="text-white/70 leading-relaxed">
-                        {section.body}
-                      </p>
-                    )}
-
-                {section.equation && (
-                  <MathEquation
-                    equation={section.equation}
-                  />
-                )}
-
-                {section.explanation && (
-                  Array.isArray(section.explanation)
-                    ? section.explanation.map(
-                        (item, index) => (
-                          <p
-                            key={index}
-                            className="
-                              text-white/70
-                              leading-relaxed
-                            "
-                          >
-                            {item}
-                          </p>
-                        )
-                      )
-                    : (
-                      <p className="text-white/70 leading-relaxed">
-                        {section.explanation}
-                      </p>
-                    )
-                )}
-
-                {section.table &&
-                  renderTable(section.table)}
-
-                {section.list &&
-                  renderList(section.list)}
-
-                {section.quickCheck && (
-                  <QuickCheck data={section.quickCheck} />
+                {sectionToBlocks(section).map((block, bi) =>
+                  renderBlock(block, bi)
                 )}
               </div>
             )
@@ -541,7 +611,7 @@ export default function DetailMateri() {
                       text-gradient-violet
                     "
                   >
-                    {section.heading}
+                    <RichText text={section.heading} />
                   </h2>
 
                   <motion.div

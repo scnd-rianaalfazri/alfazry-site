@@ -50,12 +50,15 @@ const angkapenting = {
     {
       heading: "🔢 Aturan Pembulatan",
       body: "Aturan pembulatan angka penting digunakan untuk memastikan hasil perhitungan sesuai dengan tingkat ketelitian data. Aturannya sederhana:",
-      list: [ 
+      list: {
+        type: "unordered",
+        items: [ 
         "Jika lebih dari 5 (> 5): Bulatkan ke atas (angka sebelumnya ditambah 1). Contoh: 3,76 → menjadi 3,8.",
         "Jika kurang dari 5 (< 5): Bulatkan ke bawah (angka dihilangkan). Contoh: 3,74 → menjadi 3,7.",
         "Kalau tepat bernilai 5, jika angka sebelum angka 5 adalah ganjil, bulatkan ke atas. Contoh: 3,75 → menjadi 3,8.",
         "Kalau tepat bernilai 5, jika angka sebelum angka 5 adalah genap, bulatkan ke bawah. Contoh: 3,65 → menjadi 3,6."
       ]
+      }
     },
 
     {

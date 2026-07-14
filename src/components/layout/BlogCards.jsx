@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import RichText from "./RichText"
 
 export default function BlogCard({ title, excerpt, slug, date, category, readTime }) {
   return (
@@ -32,11 +33,11 @@ export default function BlogCard({ title, excerpt, slug, date, category, readTim
         </div>
 
         <h2 className="font-hud text-xl md:text-2xl font-bold mb-3 line-clamp-2">
-          {title}
+          <RichText text={title} />
         </h2>
 
         <p className="text-sm md:text-base text-white/60 leading-relaxed line-clamp-3 flex-1">
-          {excerpt}
+          <RichText text={excerpt} />
         </p>
 
         <div className="mt-5 flex items-center justify-between text-sm font-mono">

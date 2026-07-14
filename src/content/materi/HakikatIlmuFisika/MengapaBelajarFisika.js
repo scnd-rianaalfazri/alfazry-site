@@ -19,23 +19,36 @@ const mengapabelajarfisika = {
   content: [
     {
       image: herohakikatilmufisikaImg,
-      caption: "Mengapa Belajar Fisika?"
+      caption: "Mengapa Belajar Fisika?",
+      body: [
+        "Pernahkah kamu tiba-tiba bengong lalu bertanya-tanya tentang hal ini:",
+      ],
     },
     {
       heading: "Semua Berawal dari Pertanyaan",
       image: pertanyaanfisikaImg,
       caption: "Pertanyaan-pertanyaan fisika dalam kehidupan sehari-hari",
-      body: [
-        "Pernahkah kamu bertanya...",
-        "",
-        "Mengapa langit berwarna biru?",
-        "Mengapa pelangi memiliki banyak warna?",
-        "Mengapa benda selalu jatuh ke bawah?",
-        "Bagaimana pesawat bisa terbang?",
-        "Bagaimana internet dan GPS bekerja?",
-        "",
-        "Semua pertanyaan itu dipelajari dalam fisika."
-      ]
+      list: {
+        type: "unordered",
+        items: [
+          {
+            text: "Mengapa sih langit di siang hari berwarna biru, tapi pas sore berubah jadi senja aesthetic kemerahan?"
+          },
+          {
+            text: "Mengapa pelangi selalu muncul pasca hujan dengan warna-warni yang mejikuhibiniu?"
+          },
+          {
+            text: "Mengapa benda apa pun yang kita lepas dari tangan selalu jatuh ke bawah, gak pernah melayang ke atas?"
+          },
+          {
+            text: "Bagaimana bisa burung besi seberat ratusan ton (pesawat) meluncur bebas di udara tanpa jatuh?"
+          },
+          {
+            text: "Bagaimana ceritanya internet dan sinyal GPS di HP kita bisa tahu lokasi tukang bakso terdekat secara real-time?"
+          }
+        ]
+      },
+      explanation: "Tebak apa kesamaan dari semua pertanyaan random tapi penting itu? Semuanya dibahas dan dipecahkan dalam fisika!"
     },
 
     {
@@ -43,9 +56,11 @@ const mengapabelajarfisika = {
       caption: "Contoh bagian yang dipelajari dalam fisika",
       image: pengertianfisika,
       body: [
-        "Fisika adalah ilmu yang mempelajari gejala alam beserta hukum-hukum yang mengaturnya.",
+        "Secara sederhana, Fisika adalah ilmu yang mempelajari gejala-gejala alam beserta hukum-hukum fundamental yang mengaturnya.",
         "",
-        "Fisika membantu kita memahami bagaimana alam semesta bekerja, mulai dari partikel yang sangat kecil hingga galaksi yang sangat besar."
+        "Fisika bertindak sebagai 'kacamata tembus pandang'  yang membantu kita memahami bagaimana alam semesta ini bekerja.",
+        "",
+        "Skalanya pun gak main-main—mulai dari tingkah laku partikel sub-atomik yang ukurannya super mini, sampai pergerakan galaksi raksasa yang ada di luar angkasa sana."
       ]
     },
 

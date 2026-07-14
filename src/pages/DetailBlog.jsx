@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router-dom"
 import { blogs } from "../data/blogs"
 import Navbar from "../components/layout/Navbar"
 import Footer from "../components/layout/Footer"
+import RichText from "../components/layout/RichText"
 import BackToTopButton from "../components/UI/BackToTopBottom.jsx"
 
 export default function DetailBlog() {
@@ -95,7 +96,7 @@ export default function DetailBlog() {
                   key={i}
                   className="font-hud text-xl md:text-2xl font-bold text-gradient-violet pt-2"
                 >
-                  {section.heading}
+                  <RichText text={section.heading} />
                 </h2>
               )
             }
@@ -112,7 +113,7 @@ export default function DetailBlog() {
                     [text-shadow:0_0_20px_rgba(139,59,255,0.25)]
                   "
                 >
-                  {section.quote}
+                  <RichText text={section.quote} />
                 </blockquote>
               )
             }
@@ -150,7 +151,7 @@ export default function DetailBlog() {
                       key={idx}
                       className="text-white/70 leading-relaxed text-base md:text-lg"
                     >
-                      {p}
+                      <RichText text={p} />
                     </p>
                   ))}
                 </div>

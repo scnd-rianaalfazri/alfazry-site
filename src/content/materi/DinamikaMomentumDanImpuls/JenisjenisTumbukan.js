@@ -34,11 +34,14 @@ content: [
       "Jenis tumbukan ini sangat ideal dan jarang ditemukan secara sempurna di kehidupan nyata.",
       "Contoh yang paling mendekati adalah tumbukan antar partikel mikroskopis atau bola baja yang sangat elastis."
     ],
-    list: [
+    list: {
+      type: "unordered",
+      items: [
       "✅ Momentum kekal",
       "✅ Energi kinetik kekal",
       "✅ Koefisien restitusi (e) = 1"
     ]
+    }
   },
 
   {
@@ -48,11 +51,14 @@ content: [
       "Jenis tumbukan ini paling sering ditemukan dalam kehidupan sehari-hari.",
       "Misalnya saat bola basket dipantulkan ke lantai. Bola masih memantul, tetapi tidak mencapai ketinggian semula."
     ],
-    list: [
+    list: {
+      type: "unordered",
+      items: [
       "✅ Momentum kekal",
       "❌ Energi kinetik tidak kekal",
       "✅ 0 < e < 1"
     ]
+    }
   },
 
   {
@@ -66,11 +72,14 @@ content: [
     explanation: [
       "Setelah tumbukan kedua benda memiliki kecepatan yang sama."
     ],
-    list: [
+    list: {
+      type: "unordered",
+      items: [
       "✅ Momentum kekal",
       "❌ Energi kinetik tidak kekal",
       "✅ e = 0"
     ]
+    }
   },
 
   {
@@ -105,13 +114,16 @@ content: [
     body: [
       "Jenis tumbukan dapat ditemukan di berbagai aktivitas sehari-hari."
     ],
-    list: [
+    list: {
+      type: "unordered",
+      items: [
       "🎾 Bola tenis memantul di lapangan → lenting sebagian.",
       "🏀 Bola basket memantul di lantai → lenting sebagian.",
       "⚛️ Tumbukan partikel gas ideal → mendekati lenting sempurna.",
       "🧱 Plastisin yang saling menempel setelah bertabrakan → tidak lenting sama sekali.",
       "🚗 Tabrakan mobil → umumnya termasuk lenting sebagian."
     ]
+    }
   },
 
   {

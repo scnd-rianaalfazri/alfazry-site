@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { ChevronLeft, ChevronRight } from "lucide-react"
+import RichText from "./RichText"
 
 // ============================================================
 // QuickCheck — kuis pilihan ganda bergaya carousel (1 soal/slide)
@@ -174,7 +175,7 @@ export default function QuickCheck({ data }) {
               </p>
 
               <p className="font-hud font-semibold text-white/90 text-lg mb-5">
-                {q.question}
+                <RichText text={q.question} />
               </p>
 
               <div className="grid sm:grid-cols-2 gap-3">
@@ -212,7 +213,7 @@ export default function QuickCheck({ data }) {
                       <span className="font-mono text-xs opacity-60 mt-0.5">
                         {String.fromCharCode(65 + optIndex)}
                       </span>
-                      <span>{opt}</span>
+                      <span><RichText text={opt} /></span>
                       {submitted && isCorrect && <span className="ml-auto">✅</span>}
                       {submitted && isSelected && !isCorrect && <span className="ml-auto">❌</span>}
                     </button>
@@ -242,10 +243,10 @@ export default function QuickCheck({ data }) {
               <p className="text-2xl mb-1">{tier.emoji}</p>
 
               <p className="font-hud text-lg font-bold text-gradient-violet mb-1">
-                {tier.title}
+                <RichText text={tier.title} />
               </p>
 
-              <p className="text-white/60 text-sm mb-6">{tier.message}</p>
+              <p className="text-white/60 text-sm mb-6"><RichText text={tier.message} /></p>
 
               <button
                 type="button"

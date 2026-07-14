@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import RichText from "./RichText"
 
 export default function MaterialCard({ title, description, slug }) {
   return (
@@ -22,11 +23,11 @@ export default function MaterialCard({ title, description, slug }) {
         "
       >
         <h2 className="font-hud text-xl md:text-2xl font-bold mb-3 line-clamp-2">
-          {title}
+          <RichText text={title} />
         </h2>
 
         <p className="text-sm md:text-base text-white/60 leading-relaxed">
-          {description}
+          <RichText text={description} />
         </p>
 
         <div className="mt-5 flex items-center text-cyan-300 text-sm font-medium font-mono">

@@ -1,5 +1,21 @@
 import { BlockMath } from "react-katex"
 
+// Fallback saat sintaks rumus tidak valid — daripada kotak error merah
+// bawaan KaTeX, tampilkan rumus mentahnya dengan gaya redup, konsisten
+// dengan perilaku RichText.jsx untuk rumus inline.
+function renderError(rawSource) {
+  return function () {
+    return (
+      <span
+        className="border-b border-dashed border-amber-400/50 text-amber-200/90 font-mono text-sm"
+        title="Rumus tidak dapat ditampilkan, periksa kembali sintaksnya"
+      >
+        {rawSource}
+      </span>
+    )
+  }
+}
+
 export default function MathEquation({
   equation,
   className = "",
@@ -31,7 +47,7 @@ export default function MathEquation({
               key={`${item}-${index}`}
               className="flex justify-center text-white/90"
             >
-              <BlockMath math={item} />
+              <BlockMath math={item} renderError={renderError(item)} />
             </div>
           ))}
         </div>
