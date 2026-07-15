@@ -183,15 +183,11 @@ const mengapabelajarfisika = {
           description:
           "Punya kepuasan tersendiri karena bisa menjelaskan alasan ilmiah di balik indahnya fenomena semesta."
         }]
-
       }
     }]
 
   },
   { heading:
-
-
-
     "🌟 Fisika Mengubah Dunia (The Tech Trigger)", blocks: [{ type: "heading", text: "🌟 Fisika Mengubah Dunia (The Tech Trigger)"
     },
     {
@@ -243,13 +239,12 @@ const mengapabelajarfisika = {
           description:
           "Memindai bagian dalam tubuh di rumah sakit memanfaatkan medan magnetik dan fisika inti."
         }]
-
       }
     }]
 
   },
   { heading:
-
+    
     "💡 Tahukah Kamu?", blocks: [{ type: "heading", text: "💡 Tahukah Kamu?" },
     {
       type: "image",
@@ -272,12 +267,23 @@ const mengapabelajarfisika = {
     },
     {
       type: "paragraph",
-      text: "Banyak orang mengira fisika hanya berisi rumus yang sulit."
+      text: "'Fisika itu kan cuma ilmu menyeramkan yang isinya kumpulan rumus ribet dan bikin pusing?' ❌."
     },
-    { type: "paragraph", text: "Padahal rumus hanyalah alat." },
+    { type: "paragraph", 
+      text: "Gak, gitu!" 
+    },
+    { type: "paragraph", 
+      text: "Mari kita ubah mindset" 
+    },
+    { type: "paragraph", 
+      text: "Rumus dalam fisika itu bukanlah tujuan utama, melainkan hanyalah sebuah alat bantu atau bahasa universal untuk menyederhanakan cara alam bekerja agar bisa dihitung oleh manusia." 
+    },
+    { type: "paragraph", 
+      text: "Padahal rumus hanyalah alat." 
+    },
     {
       type: "paragraph",
-      text: "Tujuan utama fisika adalah memahami bagaimana alam bekerja."
+      text: "Inti dari fisika adalah cerita di balik rumus tersebut, yaitu memahami polah tingkah alam semesta.."
     }]
 
   },
@@ -288,19 +294,51 @@ const mengapabelajarfisika = {
       type: "paragraph",
       text: "Perjalanan yang akan dilalui pada chapter ini"
     },
-    { type: "paragraph", text: "🔬 Apa itu fisika" },
-    { type: "paragraph", text: "🧩 Hakikat ilmu fisika" },
-    { type: "paragraph", text: "🌌 Ruang lingkup fisika" },
-    { type: "paragraph", text: "⚙️ Fisika sebagai produk" },
-    { type: "paragraph", text: "🧪 Fisika sebagai proses" },
-    { type: "paragraph", text: "🧠 Fisika sebagai sikap" },
-    { type: "paragraph", text: "🔍 Metode ilmiah" },
-    { type: "paragraph", text: "🥽 Keselamatan laboratorium" }]
+    {
+      type: "list",
+      list: {
+        type: "unordered",
+        items: [
+          {
+            text: "🔬 Apa itu Fisika?",
+            description: "Gerbang awal mengenal objek sains"
+          },
+          {
+            text: "🧩 Hakikat Ilmu Fisika",
+            description: "Memahami 3 pilar utama fisika"
+          },
+          {
+            text: "🌌 Ruang Lingkup Fisika",
+            description: "Menjelajahi skala klasik hingga modern"
+          },
+          {
+            text: "⚙️ Fisika sebagai Produk",
+            description: "Kumpulan hasil pengetahuan ilmiah"
+          },
+          {
+            text: "🧪 Fisika sebagai Proses",
+            description: "Bagaimana cara ilmuwan bekerja?"
+          },
+          {
+            text: "🧠 Fisika sebagai Sikap",
+            description: "Karakter ilmiah yang wajib dimiliki"
+          },
+          {
+            text: "🔍 Metode Ilmiah",
+            description: "Langkah-langkah sistematis penelitian"
+          },
+          {
+            text: "🥽 Keselamatan Laboratorium",
+            description: "Aturan main aman saat bereksperimen"
+          }
+        ]
+      }
+    }]
 
   },
   { heading:
 
-    "✨ Inti Materi", blocks: [{ type: "heading", text: "✨ Inti Materi" },
+    "✨ Inti Materi (Takeaway Message)", blocks: [{ type: "heading", text: "✨ Inti Materi (Takeaway Message)" },
     {
       type: "image",
       src: intimaterimengapabelajarfisikaImg,
@@ -308,11 +346,11 @@ const mengapabelajarfisika = {
     },
     {
       type: "paragraph",
-      text: "Fisika adalah ilmu yang membantu manusia memahami alam melalui pengamatan, eksperimen, dan penalaran ilmiah."
+      text: "Fisika adalah ilmu yang membantu manusia memahami alam melalui pengamatan, eksperimen, dan penalaran ilmiah yang valid."
     },
     {
       type: "paragraph",
-      text: "Belajar fisika berarti belajar memahami dunia di sekitar kita."
+      text: "Belajar fisika berarti belajar memahami dunia dan lingkungan yang ada di sekitar kita."
     }]
 
   },
@@ -433,7 +471,7 @@ const mengapabelajarfisika = {
     },
     {
       type: "paragraph",
-      text: "Sekarang kita tahu mengapa fisika penting."
+      text: "Sekarang kita udah tau kan? Secara tidak sadar fisika juga ada disekitar kita."
     },
     { type: "paragraph", text: "Lalu sebenarnya..." },
     { type: "paragraph", text: "Apa yang dipelajari dalam fisika?" },
