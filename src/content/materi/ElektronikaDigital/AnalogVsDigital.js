@@ -2,176 +2,176 @@ const analogvsdigital = {
   title: "Analog vs Digital",
   slug: "analog vs digital",
   description:
-    "Memahami perbedaan sinyal analog dan sinyal digital serta alasan mengapa sistem digital menjadi fondasi teknologi modern.",
+  "Memahami perbedaan sinyal analog dan sinyal digital serta alasan mengapa sistem digital menjadi fondasi teknologi modern.",
   chapter: "💻 Elektronika Digital & Embedded System",
 
   content: [
+  { heading:
+
+    "🕒 Mengapa Ada Jam Analog dan Jam Digital?", blocks: [{ type: "heading", text: "🕒 Mengapa Ada Jam Analog dan Jam Digital?" },
     {
-      blocks: [
-        { type: "heading", text: "🕒 Mengapa Ada Jam Analog dan Jam Digital?" },
-        {
-          type: "paragraph",
-          text: "Jam analog menggunakan jarum yang bergerak secara terus-menerus.",
-        },
-        {
-          type: "paragraph",
-          text: "Sebaliknya, jam digital menampilkan angka yang berubah setiap detik.",
-        },
-        {
-          type: "paragraph",
-          text: "Perbedaan sederhana ini menggambarkan dua cara berbeda dalam merepresentasikan informasi: analog dan digital.",
-        },
-      ],
+      type: "paragraph",
+      text: "Jam analog menggunakan jarum yang bergerak secara terus-menerus."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌊 Apa Itu Sinyal Analog?" },
-        {
-          type: "paragraph",
-          text: "Sinyal analog adalah sinyal yang nilainya berubah secara kontinu atau terus-menerus.",
-        },
-        {
-          type: "paragraph",
-          text: "Perubahan pada sinyal analog berlangsung halus tanpa lompatan nilai.",
-        },
-      ],
+      type: "paragraph",
+      text: "Sebaliknya, jam digital menampilkan angka yang berubah setiap detik."
     },
     {
-      blocks: [
-        { type: "heading", text: "🔢 Apa Itu Sinyal Digital?" },
-        {
-          type: "paragraph",
-          text: "Sinyal digital adalah sinyal yang hanya memiliki sejumlah nilai tertentu.",
-        },
-        {
-          type: "paragraph",
-          text: "Dalam sistem komputer, dua keadaan yang paling umum digunakan adalah logika 0 dan logika 1.",
-        },
-      ],
+      type: "paragraph",
+      text: "Perbedaan sederhana ini menggambarkan dua cara berbeda dalam merepresentasikan informasi: analog dan digital."
+    }]
+
+  },
+  { heading:
+
+    "🌊 Apa Itu Sinyal Analog?", blocks: [{ type: "heading", text: "🌊 Apa Itu Sinyal Analog?" },
+    {
+      type: "paragraph",
+      text: "Sinyal analog adalah sinyal yang nilainya berubah secara kontinu atau terus-menerus."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚡ Contoh Analog dan Digital" },
-        {
-          type: "paragraph",
-          text: "Suara manusia, suhu ruangan, dan intensitas cahaya merupakan besaran analog karena dapat berubah secara kontinu.",
-        },
-        {
-          type: "paragraph",
-          text: "Sebaliknya, file musik, foto digital, video, dan data komputer merupakan contoh informasi digital.",
-        },
-      ],
+      type: "paragraph",
+      text: "Perubahan pada sinyal analog berlangsung halus tanpa lompatan nilai."
+    }]
+
+  },
+  { heading:
+
+    "🔢 Apa Itu Sinyal Digital?", blocks: [{ type: "heading", text: "🔢 Apa Itu Sinyal Digital?" },
+    {
+      type: "paragraph",
+      text: "Sinyal digital adalah sinyal yang hanya memiliki sejumlah nilai tertentu."
     },
     {
-      blocks: [
-        {
-          type: "heading",
-          text: "💻 Mengapa Komputer Memilih Sistem Digital?",
-        },
-        {
-          type: "paragraph",
-          text: "Sistem digital lebih mudah diproses, disimpan, dan dikirim tanpa banyak dipengaruhi gangguan (noise).",
-        },
-        {
-          type: "paragraph",
-          text: "Selain itu, logika dua keadaan membuat perangkat elektronik dapat bekerja dengan lebih andal.",
-        },
-      ],
+      type: "paragraph",
+      text: "Dalam sistem komputer, dua keadaan yang paling umum digunakan adalah logika 0 dan logika 1."
+    }]
+
+  },
+  { heading:
+
+    "⚡ Contoh Analog dan Digital", blocks: [{ type: "heading", text: "⚡ Contoh Analog dan Digital" },
+    {
+      type: "paragraph",
+      text: "Suara manusia, suhu ruangan, dan intensitas cahaya merupakan besaran analog karena dapat berubah secara kontinu."
     },
     {
-      blocks: [
-        { type: "heading", text: "🔄 Konversi Analog ke Digital" },
-        {
-          type: "paragraph",
-          text: "Karena dunia nyata sebagian besar bersifat analog, perangkat digital memerlukan proses konversi sebelum data dapat diproses.",
-        },
-        {
-          type: "paragraph",
-          text: "Konversi ini dilakukan menggunakan Analog to Digital Converter (ADC), yang telah kamu pelajari pada chapter Instrumentasi Digital.",
-        },
-      ],
+      type: "paragraph",
+      text: "Sebaliknya, file musik, foto digital, video, dan data komputer merupakan contoh informasi digital."
+    }]
+
+  },
+  { heading:
+
+
+
+    "💻 Mengapa Komputer Memilih Sistem Digital?", blocks: [{ type: "heading", text: "💻 Mengapa Komputer Memilih Sistem Digital?"
     },
     {
-      blocks: [
-        { type: "heading", text: "🌍 Contoh dalam Kehidupan" },
-        {
-          type: "paragraph",
-          text: "Mikrofon mengubah suara analog menjadi data digital.",
-        },
-        {
-          type: "paragraph",
-          text: "Kamera mengubah cahaya menjadi gambar digital.",
-        },
-        {
-          type: "paragraph",
-          text: "Smartphone mengubah sentuhan layar menjadi data digital yang diproses oleh sistem.",
-        },
-      ],
+      type: "paragraph",
+      text: "Sistem digital lebih mudah diproses, disimpan, dan dikirim tanpa banyak dipengaruhi gangguan (noise)."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
-        {
-          type: "paragraph",
-          text: "Digital bukan berarti selalu lebih baik daripada analog.",
-        },
-        {
-          type: "paragraph",
-          text: "Dalam banyak aplikasi, sinyal analog tetap diperlukan karena dunia fisik memang menghasilkan besaran yang berubah secara kontinu. Sistem digital justru bekerja bersama sistem analog melalui proses konversi.",
-        },
-      ],
+      type: "paragraph",
+      text: "Selain itu, logika dua keadaan membuat perangkat elektronik dapat bekerja dengan lebih andal."
+    }]
+
+  },
+  { heading:
+
+    "🔄 Konversi Analog ke Digital", blocks: [{ type: "heading", text: "🔄 Konversi Analog ke Digital" },
+    {
+      type: "paragraph",
+      text: "Karena dunia nyata sebagian besar bersifat analog, perangkat digital memerlukan proses konversi sebelum data dapat diproses."
     },
     {
-      blocks: [
-        { type: "heading", text: "📊 Ringkasan Konsep" },
-        { type: "paragraph", text: "Dunia Nyata" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Sinyal Analog" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "ADC" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Data Digital" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Komputer" },
-      ],
+      type: "paragraph",
+      text: "Konversi ini dilakukan menggunakan Analog to Digital Converter (ADC), yang telah kamu pelajari pada chapter Instrumentasi Digital."
+    }]
+
+  },
+  { heading:
+
+    "🌍 Contoh dalam Kehidupan", blocks: [{ type: "heading", text: "🌍 Contoh dalam Kehidupan" },
+    {
+      type: "paragraph",
+      text: "Mikrofon mengubah suara analog menjadi data digital."
     },
     {
-      blocks: [
-        { type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
-        {
-          type: "paragraph",
-          text: "Sistem digital bekerja menggunakan dua keadaan, yaitu 0 dan 1.",
-        },
-        {
-          type: "paragraph",
-          text: "Pada halaman berikutnya kita akan mempelajari bagaimana angka biner menjadi bahasa dasar semua perangkat digital.",
-        },
-      ],
+      type: "paragraph",
+      text: "Kamera mengubah cahaya menjadi gambar digital."
     },
     {
-      blocks: [
-        { type: "heading", text: "🧠 Inti Materi" },
-        {
-          type: "paragraph",
-          text: "Sinyal analog berubah secara kontinu, sedangkan sinyal digital terdiri atas nilai-nilai diskret.",
-        },
-        {
-          type: "paragraph",
-          text: "Perangkat modern memanfaatkan sistem digital karena lebih mudah diproses, disimpan, dan dikirim dengan andal.",
-        },
-      ],
+      type: "paragraph",
+      text: "Smartphone mengubah sentuhan layar menjadi data digital yang diproses oleh sistem."
+    }]
+
+  },
+  { heading:
+
+    "⚠️ Miskonsepsi yang Sering Terjadi", blocks: [{ type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
+    {
+      type: "paragraph",
+      text: "Digital bukan berarti selalu lebih baik daripada analog."
     },
     {
-      blocks: [
-        { type: "heading", text: "🚀 Next Mission" },
-        {
-          type: "paragraph",
-          text: "Mengapa komputer hanya memahami angka 0 dan 1?",
-        },
-        { type: "paragraph", text: "➡️ Selanjutnya: Bilangan Biner." },
-      ],
+      type: "paragraph",
+      text: "Dalam banyak aplikasi, sinyal analog tetap diperlukan karena dunia fisik memang menghasilkan besaran yang berubah secara kontinu. Sistem digital justru bekerja bersama sistem analog melalui proses konversi."
+    }]
+
+  },
+  { heading:
+
+    "📊 Ringkasan Konsep", blocks: [{ type: "heading", text: "📊 Ringkasan Konsep" },
+    { type: "paragraph", text: "Dunia Nyata" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Sinyal Analog" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "ADC" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Data Digital" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Komputer" }]
+
+  },
+  { heading:
+
+    "🔗 Hubungan dengan Materi Berikutnya", blocks: [{ type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
+    {
+      type: "paragraph",
+      text: "Sistem digital bekerja menggunakan dua keadaan, yaitu 0 dan 1."
     },
-  ],
+    {
+      type: "paragraph",
+      text: "Pada halaman berikutnya kita akan mempelajari bagaimana angka biner menjadi bahasa dasar semua perangkat digital."
+    }]
+
+  },
+  { heading:
+
+    "🧠 Inti Materi", blocks: [{ type: "heading", text: "🧠 Inti Materi" },
+    {
+      type: "paragraph",
+      text: "Sinyal analog berubah secara kontinu, sedangkan sinyal digital terdiri atas nilai-nilai diskret."
+    },
+    {
+      type: "paragraph",
+      text: "Perangkat modern memanfaatkan sistem digital karena lebih mudah diproses, disimpan, dan dikirim dengan andal."
+    }]
+
+  },
+  { heading:
+
+    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
+    {
+      type: "paragraph",
+      text: "Mengapa komputer hanya memahami angka 0 dan 1?"
+    },
+    { type: "paragraph", text: "➡️ Selanjutnya: Bilangan Biner." }]
+
+  }]
+
 };
 
 export default analogvsdigital;

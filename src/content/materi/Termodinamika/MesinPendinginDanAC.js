@@ -3,264 +3,264 @@ const mesinpendinginac = {
   slug: "mesin pendingin dan ac",
   chapter: "🌡️ Termodinamika",
   description:
-    "Memahami prinsip kerja mesin pendingin dan AC sebagai alat yang menggunakan energi untuk memindahkan kalor dari tempat bersuhu rendah ke tempat bersuhu lebih tinggi.",
+  "Memahami prinsip kerja mesin pendingin dan AC sebagai alat yang menggunakan energi untuk memindahkan kalor dari tempat bersuhu rendah ke tempat bersuhu lebih tinggi.",
 
   content: [
+  { heading:
+
+    "❄️ Mengapa Kulkas Bisa Membuat Es?", blocks: [{ type: "heading", text: "❄️ Mengapa Kulkas Bisa Membuat Es?" },
     {
-      blocks: [
-        { type: "heading", text: "❄️ Mengapa Kulkas Bisa Membuat Es?" },
-        {
-          type: "paragraph",
-          text: "Ketika es batu dimasukkan ke dalam kulkas, suhu di dalam kulkas lebih rendah daripada suhu ruangan.",
-        },
-        {
-          type: "paragraph",
-          text: "Namun kalor secara alami selalu berpindah dari suhu tinggi ke suhu rendah.",
-        },
-        {
-          type: "paragraph",
-          text: "Lalu bagaimana kulkas dapat menjaga bagian dalamnya tetap dingin?",
-        },
-      ],
+      type: "paragraph",
+      text: "Ketika es batu dimasukkan ke dalam kulkas, suhu di dalam kulkas lebih rendah daripada suhu ruangan."
     },
     {
-      blocks: [
-        { type: "heading", text: "🏠 Mengapa AC Bisa Mendinginkan Ruangan?" },
-        {
-          type: "paragraph",
-          text: "AC mampu membuat ruangan terasa sejuk meskipun cuaca di luar sangat panas.",
-        },
-        {
-          type: "paragraph",
-          text: "Sebenarnya AC tidak menghasilkan dingin, melainkan memindahkan kalor dari dalam ruangan ke lingkungan luar.",
-        },
-      ],
+      type: "paragraph",
+      text: "Namun kalor secara alami selalu berpindah dari suhu tinggi ke suhu rendah."
     },
     {
-      blocks: [
-        { type: "heading", text: "📍 Apa Itu Mesin Pendingin?" },
-        {
-          type: "paragraph",
-          text: "Mesin pendingin adalah alat yang menggunakan energi dari luar untuk memindahkan kalor dari tempat bersuhu rendah ke tempat bersuhu lebih tinggi.",
-        },
-        {
-          type: "paragraph",
-          text: "Proses ini berlawanan dengan arah alami perpindahan kalor sehingga membutuhkan usaha dari luar.",
-        },
-      ],
+      type: "paragraph",
+      text: "Lalu bagaimana kulkas dapat menjaga bagian dalamnya tetap dingin?"
+    }]
+
+  },
+  { heading:
+
+    "🏠 Mengapa AC Bisa Mendinginkan Ruangan?", blocks: [{ type: "heading", text: "🏠 Mengapa AC Bisa Mendinginkan Ruangan?" },
+    {
+      type: "paragraph",
+      text: "AC mampu membuat ruangan terasa sejuk meskipun cuaca di luar sangat panas."
     },
     {
-      blocks: [
-        { type: "heading", text: "🔄 Kebalikan Mesin Kalor" },
-        {
-          type: "paragraph",
-          text: "Mesin kalor mengubah kalor menjadi kerja.",
-        },
-        {
-          type: "paragraph",
-          text: "Sebaliknya, mesin pendingin menggunakan kerja untuk memindahkan kalor.",
-        },
-      ],
+      type: "paragraph",
+      text: "Sebenarnya AC tidak menghasilkan dingin, melainkan memindahkan kalor dari dalam ruangan ke lingkungan luar."
+    }]
+
+  },
+  { heading:
+
+    "📍 Apa Itu Mesin Pendingin?", blocks: [{ type: "heading", text: "📍 Apa Itu Mesin Pendingin?" },
+    {
+      type: "paragraph",
+      text: "Mesin pendingin adalah alat yang menggunakan energi dari luar untuk memindahkan kalor dari tempat bersuhu rendah ke tempat bersuhu lebih tinggi."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚙️ Prinsip Kerja Mesin Pendingin" },
-        {
-          type: "paragraph",
-          text: "Mesin pendingin bekerja dengan menyerap kalor dari ruang dingin dan membuangnya ke lingkungan yang lebih hangat.",
-        },
-        {
-          type: "paragraph",
-          text: "Untuk melakukan proses ini diperlukan energi, biasanya berupa energi listrik.",
-        },
-      ],
+      type: "paragraph",
+      text: "Proses ini berlawanan dengan arah alami perpindahan kalor sehingga membutuhkan usaha dari luar."
+    }]
+
+  },
+  { heading:
+
+    "🔄 Kebalikan Mesin Kalor", blocks: [{ type: "heading", text: "🔄 Kebalikan Mesin Kalor" },
+    {
+      type: "paragraph",
+      text: "Mesin kalor mengubah kalor menjadi kerja."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌡️ Reservoir Dingin dan Reservoir Panas" },
-        {
-          type: "paragraph",
-          text: "Mesin pendingin melibatkan dua reservoir suhu:",
-        },
-        {
-          type: "paragraph",
-          text: "❄️ Reservoir dingin (bagian yang didinginkan)",
-        },
-        { type: "paragraph", text: "🔥 Reservoir panas (lingkungan luar)" },
-      ],
+      type: "paragraph",
+      text: "Sebaliknya, mesin pendingin menggunakan kerja untuk memindahkan kalor."
+    }]
+
+  },
+  { heading:
+
+    "⚙️ Prinsip Kerja Mesin Pendingin", blocks: [{ type: "heading", text: "⚙️ Prinsip Kerja Mesin Pendingin" },
+    {
+      type: "paragraph",
+      text: "Mesin pendingin bekerja dengan menyerap kalor dari ruang dingin dan membuangnya ke lingkungan yang lebih hangat."
     },
     {
-      blocks: [
-        { type: "heading", text: "📊 Aliran Energi pada Mesin Pendingin" },
-        {
-          type: "paragraph",
-          text: "Kalor diserap dari ruang dingin, kemudian dipindahkan ke lingkungan dengan bantuan kerja dari luar.",
-        },
-      ],
+      type: "paragraph",
+      text: "Untuk melakukan proses ini diperlukan energi, biasanya berupa energi listrik."
+    }]
+
+  },
+  { heading:
+
+    "🌡️ Reservoir Dingin dan Reservoir Panas", blocks: [{ type: "heading", text: "🌡️ Reservoir Dingin dan Reservoir Panas" },
+    {
+      type: "paragraph",
+      text: "Mesin pendingin melibatkan dua reservoir suhu:"
     },
     {
-      blocks: [
-        { type: "heading", text: "🧮 Hubungan Energi pada Mesin Pendingin" },
-        {
-          type: "paragraph",
-          text: "Energi yang dibuang ke lingkungan merupakan gabungan dari kalor yang diserap dan kerja yang diberikan pada sistem.",
-        },
-      ],
+      type: "paragraph",
+      text: "❄️ Reservoir dingin (bagian yang didinginkan)"
+    },
+    { type: "paragraph", text: "🔥 Reservoir panas (lingkungan luar)" }]
+
+  },
+  { heading:
+
+    "📊 Aliran Energi pada Mesin Pendingin", blocks: [{ type: "heading", text: "📊 Aliran Energi pada Mesin Pendingin" },
+    {
+      type: "paragraph",
+      text: "Kalor diserap dari ruang dingin, kemudian dipindahkan ke lingkungan dengan bantuan kerja dari luar."
+    }]
+
+  },
+  { heading:
+
+    "🧮 Hubungan Energi pada Mesin Pendingin", blocks: [{ type: "heading", text: "🧮 Hubungan Energi pada Mesin Pendingin" },
+    {
+      type: "paragraph",
+      text: "Energi yang dibuang ke lingkungan merupakan gabungan dari kalor yang diserap dan kerja yang diberikan pada sistem."
+    }]
+
+  },
+  { heading:
+
+    "📖 Keterangan Simbol", blocks: [{ type: "heading", text: "📖 Keterangan Simbol" },
+    {
+      type: "paragraph",
+      text: "Qc = kalor yang diserap dari ruang dingin"
+    },
+    { type: "paragraph", text: "W = kerja yang diberikan pada sistem" },
+    { type: "paragraph", text: "Qh = kalor yang dibuang ke lingkungan" }]
+
+  },
+  { heading:
+
+    "❄️ Cara Kerja Kulkas", blocks: [{ type: "heading", text: "❄️ Cara Kerja Kulkas" },
+    {
+      type: "paragraph",
+      text: "Kulkas menggunakan zat pendingin (refrigeran) yang bersirkulasi melalui kompresor, kondensor, katup ekspansi, dan evaporator."
     },
     {
-      blocks: [
-        { type: "heading", text: "📖 Keterangan Simbol" },
-        {
-          type: "paragraph",
-          text: "Qc = kalor yang diserap dari ruang dingin",
-        },
-        { type: "paragraph", text: "W = kerja yang diberikan pada sistem" },
-        { type: "paragraph", text: "Qh = kalor yang dibuang ke lingkungan" },
-      ],
+      type: "paragraph",
+      text: "Refrigeran menyerap kalor dari dalam kulkas dan membuangnya ke udara luar."
+    }]
+
+  },
+  { heading:
+
+    "🏠 Cara Kerja AC", blocks: [{ type: "heading", text: "🏠 Cara Kerja AC" },
+    {
+      type: "paragraph",
+      text: "AC bekerja dengan prinsip yang sama seperti kulkas."
     },
     {
-      blocks: [
-        { type: "heading", text: "❄️ Cara Kerja Kulkas" },
-        {
-          type: "paragraph",
-          text: "Kulkas menggunakan zat pendingin (refrigeran) yang bersirkulasi melalui kompresor, kondensor, katup ekspansi, dan evaporator.",
-        },
-        {
-          type: "paragraph",
-          text: "Refrigeran menyerap kalor dari dalam kulkas dan membuangnya ke udara luar.",
-        },
-      ],
+      type: "paragraph",
+      text: "Perbedaannya, AC dirancang untuk mendinginkan udara di dalam ruangan dalam skala yang lebih besar."
+    }]
+
+  },
+  { heading:
+
+    "🔧 Komponen Utama Sistem Pendingin", blocks: [{ type: "heading", text: "🔧 Komponen Utama Sistem Pendingin" },
+    {
+      type: "paragraph",
+      text: "Komponen utama sistem pendingin meliputi:"
+    },
+    { type: "paragraph", text: "⚙️ Kompresor" },
+    { type: "paragraph", text: "🔥 Kondensor" },
+    { type: "paragraph", text: "🚪 Katup ekspansi" },
+    { type: "paragraph", text: "❄️ Evaporator" }]
+
+  },
+  { heading:
+
+    "📈 Koefisien Performa (COP)", blocks: [{ type: "heading", text: "📈 Koefisien Performa (COP)" },
+    {
+      type: "paragraph",
+      text: "Kinerja mesin pendingin biasanya dinyatakan dengan Coefficient of Performance (COP)."
     },
     {
-      blocks: [
-        { type: "heading", text: "🏠 Cara Kerja AC" },
-        {
-          type: "paragraph",
-          text: "AC bekerja dengan prinsip yang sama seperti kulkas.",
-        },
-        {
-          type: "paragraph",
-          text: "Perbedaannya, AC dirancang untuk mendinginkan udara di dalam ruangan dalam skala yang lebih besar.",
-        },
-      ],
+      type: "paragraph",
+      text: "Semakin besar nilai COP, semakin efisien sistem pendingin tersebut."
+    }]
+
+  },
+  { heading:
+
+    "🏢 Penerapan dalam Kehidupan", blocks: [{ type: "heading", text: "🏢 Penerapan dalam Kehidupan" },
+    { type: "paragraph", text: "Prinsip mesin pendingin digunakan pada:" },
+    { type: "paragraph", text: "❄️ kulkas" },
+    { type: "paragraph", text: "🏠 AC rumah" },
+    { type: "paragraph", text: "🚗 AC kendaraan" },
+    { type: "paragraph", text: "🏭 pendingin industri" },
+    { type: "paragraph", text: "💉 penyimpanan vaksin" }]
+
+  },
+  { heading:
+
+    "🌎 Pentingnya Sistem Pendingin", blocks: [{ type: "heading", text: "🌎 Pentingnya Sistem Pendingin" },
+    {
+      type: "paragraph",
+      text: "Sistem pendingin berperan penting dalam penyimpanan makanan, kesehatan, industri, dan kenyamanan manusia."
+    }]
+
+  },
+  { heading:
+
+    "⚠️ Miskonsepsi yang Sering Terjadi", blocks: [{ type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
+    {
+      type: "paragraph",
+      text: "Banyak siswa mengira kulkas atau AC menghasilkan dingin."
     },
     {
-      blocks: [
-        { type: "heading", text: "🔧 Komponen Utama Sistem Pendingin" },
-        {
-          type: "paragraph",
-          text: "Komponen utama sistem pendingin meliputi:",
-        },
-        { type: "paragraph", text: "⚙️ Kompresor" },
-        { type: "paragraph", text: "🔥 Kondensor" },
-        { type: "paragraph", text: "🚪 Katup ekspansi" },
-        { type: "paragraph", text: "❄️ Evaporator" },
-      ],
+      type: "paragraph",
+      text: "Padahal alat tersebut hanya memindahkan kalor dari suatu tempat ke tempat lain."
+    }]
+
+  },
+  { heading:
+
+    "📊 Mesin Kalor vs Mesin Pendingin", blocks: [{ type: "heading", text: "📊 Mesin Kalor vs Mesin Pendingin" },
+    {
+      type: "paragraph",
+      text: "Mesin kalor menghasilkan kerja dari kalor."
     },
     {
-      blocks: [
-        { type: "heading", text: "📈 Koefisien Performa (COP)" },
-        {
-          type: "paragraph",
-          text: "Kinerja mesin pendingin biasanya dinyatakan dengan Coefficient of Performance (COP).",
-        },
-        {
-          type: "paragraph",
-          text: "Semakin besar nilai COP, semakin efisien sistem pendingin tersebut.",
-        },
-      ],
+      type: "paragraph",
+      text: "Mesin pendingin menggunakan kerja untuk memindahkan kalor."
+    }]
+
+  },
+  { heading:
+
+    "🔗 Hubungan dengan Materi Berikutnya", blocks: [{ type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
+    {
+      type: "paragraph",
+      text: "Mesin kalor dan mesin pendingin memiliki keterbatasan yang dijelaskan oleh Hukum II Termodinamika."
     },
     {
-      blocks: [
-        { type: "heading", text: "🏢 Penerapan dalam Kehidupan" },
-        { type: "paragraph", text: "Prinsip mesin pendingin digunakan pada:" },
-        { type: "paragraph", text: "❄️ kulkas" },
-        { type: "paragraph", text: "🏠 AC rumah" },
-        { type: "paragraph", text: "🚗 AC kendaraan" },
-        { type: "paragraph", text: "🏭 pendingin industri" },
-        { type: "paragraph", text: "💉 penyimpanan vaksin" },
-      ],
+      type: "paragraph",
+      text: "Hukum ini menjelaskan arah alami perpindahan kalor dan batas efisiensi mesin."
+    }]
+
+  },
+  { heading:
+
+    "🧠 Inti Materi", blocks: [{ type: "heading", text: "🧠 Inti Materi" },
+    {
+      type: "paragraph",
+      text: "Mesin pendingin dan AC menggunakan kerja untuk memindahkan kalor dari tempat bersuhu rendah ke tempat bersuhu lebih tinggi."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌎 Pentingnya Sistem Pendingin" },
-        {
-          type: "paragraph",
-          text: "Sistem pendingin berperan penting dalam penyimpanan makanan, kesehatan, industri, dan kenyamanan manusia.",
-        },
-      ],
+      type: "paragraph",
+      text: "Prinsip kerjanya merupakan kebalikan dari mesin kalor."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
-        {
-          type: "paragraph",
-          text: "Banyak siswa mengira kulkas atau AC menghasilkan dingin.",
-        },
-        {
-          type: "paragraph",
-          text: "Padahal alat tersebut hanya memindahkan kalor dari suatu tempat ke tempat lain.",
-        },
-      ],
+      type: "paragraph",
+      text: "Kulkas dan AC tidak menghasilkan dingin, tetapi memindahkan kalor dari ruang yang ingin didinginkan."
+    }]
+
+  },
+  { heading:
+
+    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
+    {
+      type: "paragraph",
+      text: "Mengapa kalor selalu mengalir dari benda panas ke benda dingin secara alami?"
     },
     {
-      blocks: [
-        { type: "heading", text: "📊 Mesin Kalor vs Mesin Pendingin" },
-        {
-          type: "paragraph",
-          text: "Mesin kalor menghasilkan kerja dari kalor.",
-        },
-        {
-          type: "paragraph",
-          text: "Mesin pendingin menggunakan kerja untuk memindahkan kalor.",
-        },
-      ],
+      type: "paragraph",
+      text: "Mengapa tidak mungkin membuat mesin dengan efisiensi 100%?"
     },
-    {
-      blocks: [
-        { type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
-        {
-          type: "paragraph",
-          text: "Mesin kalor dan mesin pendingin memiliki keterbatasan yang dijelaskan oleh Hukum II Termodinamika.",
-        },
-        {
-          type: "paragraph",
-          text: "Hukum ini menjelaskan arah alami perpindahan kalor dan batas efisiensi mesin.",
-        },
-      ],
-    },
-    {
-      blocks: [
-        { type: "heading", text: "🧠 Inti Materi" },
-        {
-          type: "paragraph",
-          text: "Mesin pendingin dan AC menggunakan kerja untuk memindahkan kalor dari tempat bersuhu rendah ke tempat bersuhu lebih tinggi.",
-        },
-        {
-          type: "paragraph",
-          text: "Prinsip kerjanya merupakan kebalikan dari mesin kalor.",
-        },
-        {
-          type: "paragraph",
-          text: "Kulkas dan AC tidak menghasilkan dingin, tetapi memindahkan kalor dari ruang yang ingin didinginkan.",
-        },
-      ],
-    },
-    {
-      blocks: [
-        { type: "heading", text: "🚀 Next Mission" },
-        {
-          type: "paragraph",
-          text: "Mengapa kalor selalu mengalir dari benda panas ke benda dingin secara alami?",
-        },
-        {
-          type: "paragraph",
-          text: "Mengapa tidak mungkin membuat mesin dengan efisiensi 100%?",
-        },
-        { type: "paragraph", text: "➡️ Selanjutnya: Hukum II Termodinamika." },
-      ],
-    },
-  ],
+    { type: "paragraph", text: "➡️ Selanjutnya: Hukum II Termodinamika." }]
+
+  }]
+
 };
 
 export default mesinpendinginac;

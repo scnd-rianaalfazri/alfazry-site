@@ -1,252 +1,252 @@
 const elastisitasdanplastisitas = {
   title: "Elastisitas dan Plastisitas",
   description:
-    "Memahami perbedaan antara benda elastis dan plastis berdasarkan kemampuan benda untuk kembali ke bentuk semula setelah mengalami deformasi.",
+  "Memahami perbedaan antara benda elastis dan plastis berdasarkan kemampuan benda untuk kembali ke bentuk semula setelah mengalami deformasi.",
   slug: "elastisitas dan plastisitas",
   chapter: "🗺️ Pengantar Elastisitas",
 
   content: [
-    {
-      blocks: [
-        {
-          type: "heading",
-          text: "🎯 Mengapa Ada Benda yang Kembali Seperti Semula?",
-        },
-        {
-          type: "paragraph",
-          text: "Ketika karet gelang diregangkan, bentuknya berubah.",
-        },
-        {
-          type: "paragraph",
-          text: "Namun setelah dilepaskan, karet gelang kembali ke bentuk semula.",
-        },
-        {
-          type: "paragraph",
-          text: "Sebaliknya, ketika plastisin ditekan atau dibentuk, plastisin tidak kembali ke bentuk awalnya.",
-        },
-        {
-          type: "paragraph",
-          text: "Perbedaan inilah yang menjadi dasar konsep elastisitas dan plastisitas.",
-        },
-      ],
+  { heading:
+
+
+
+    "🎯 Mengapa Ada Benda yang Kembali Seperti Semula?", blocks: [{ type: "heading", text: "🎯 Mengapa Ada Benda yang Kembali Seperti Semula?"
     },
     {
-      blocks: [
-        { type: "heading", text: "📍 Apa Itu Elastisitas?" },
-        {
-          type: "paragraph",
-          text: "Elastisitas adalah kemampuan suatu benda untuk kembali ke bentuk dan ukuran semula setelah gaya yang menyebabkan deformasi dihilangkan.",
-        },
-        {
-          type: "paragraph",
-          text: "Benda yang memiliki sifat elastis disebut benda elastis.",
-        },
-      ],
+      type: "paragraph",
+      text: "Ketika karet gelang diregangkan, bentuknya berubah."
     },
     {
-      blocks: [
-        { type: "heading", text: "🧩 Ciri-Ciri Benda Elastis" },
-        {
-          type: "paragraph",
-          text: "Benda elastis memiliki karakteristik berikut:",
-        },
-        { type: "paragraph", text: "✔ Dapat mengalami deformasi sementara" },
-        {
-          type: "paragraph",
-          text: "✔ Kembali ke bentuk semula setelah gaya dihilangkan",
-        },
-        { type: "paragraph", text: "✔ Dapat menyimpan energi elastis" },
-        {
-          type: "paragraph",
-          text: "✔ Banyak digunakan dalam teknologi dan rekayasa",
-        },
-      ],
+      type: "paragraph",
+      text: "Namun setelah dilepaskan, karet gelang kembali ke bentuk semula."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌎 Contoh Benda Elastis" },
-        {
-          type: "paragraph",
-          text: "Contoh benda yang bersifat elastis antara lain:",
-        },
-        { type: "paragraph", text: "🪢 karet gelang" },
-        { type: "paragraph", text: "🌀 pegas" },
-        { type: "paragraph", text: "🏹 busur panah" },
-        { type: "paragraph", text: "🛏️ kasur pegas" },
-        { type: "paragraph", text: "🚗 suspensi kendaraan" },
-      ],
+      type: "paragraph",
+      text: "Sebaliknya, ketika plastisin ditekan atau dibentuk, plastisin tidak kembali ke bentuk awalnya."
     },
     {
-      blocks: [
-        { type: "heading", text: "📍 Apa Itu Plastisitas?" },
-        {
-          type: "paragraph",
-          text: "Plastisitas adalah sifat benda yang mengalami perubahan bentuk permanen setelah gaya yang bekerja dihilangkan.",
-        },
-        {
-          type: "paragraph",
-          text: "Benda yang memiliki sifat ini disebut benda plastis.",
-        },
-      ],
+      type: "paragraph",
+      text: "Perbedaan inilah yang menjadi dasar konsep elastisitas dan plastisitas."
+    }]
+
+  },
+  { heading:
+
+    "📍 Apa Itu Elastisitas?", blocks: [{ type: "heading", text: "📍 Apa Itu Elastisitas?" },
+    {
+      type: "paragraph",
+      text: "Elastisitas adalah kemampuan suatu benda untuk kembali ke bentuk dan ukuran semula setelah gaya yang menyebabkan deformasi dihilangkan."
     },
     {
-      blocks: [
-        { type: "heading", text: "🧱 Ciri-Ciri Benda Plastis" },
-        {
-          type: "paragraph",
-          text: "Benda plastis memiliki karakteristik berikut:",
-        },
-        { type: "paragraph", text: "✔ Mengalami deformasi permanen" },
-        { type: "paragraph", text: "✔ Tidak kembali ke bentuk semula" },
-        {
-          type: "paragraph",
-          text: "✔ Bentuk baru tetap bertahan setelah gaya dihilangkan",
-        },
-      ],
+      type: "paragraph",
+      text: "Benda yang memiliki sifat elastis disebut benda elastis."
+    }]
+
+  },
+  { heading:
+
+    "🧩 Ciri-Ciri Benda Elastis", blocks: [{ type: "heading", text: "🧩 Ciri-Ciri Benda Elastis" },
+    {
+      type: "paragraph",
+      text: "Benda elastis memiliki karakteristik berikut:"
+    },
+    { type: "paragraph", text: "✔ Dapat mengalami deformasi sementara" },
+    {
+      type: "paragraph",
+      text: "✔ Kembali ke bentuk semula setelah gaya dihilangkan"
+    },
+    { type: "paragraph", text: "✔ Dapat menyimpan energi elastis" },
+    {
+      type: "paragraph",
+      text: "✔ Banyak digunakan dalam teknologi dan rekayasa"
+    }]
+
+  },
+  { heading:
+
+    "🌎 Contoh Benda Elastis", blocks: [{ type: "heading", text: "🌎 Contoh Benda Elastis" },
+    {
+      type: "paragraph",
+      text: "Contoh benda yang bersifat elastis antara lain:"
+    },
+    { type: "paragraph", text: "🪢 karet gelang" },
+    { type: "paragraph", text: "🌀 pegas" },
+    { type: "paragraph", text: "🏹 busur panah" },
+    { type: "paragraph", text: "🛏️ kasur pegas" },
+    { type: "paragraph", text: "🚗 suspensi kendaraan" }]
+
+  },
+  { heading:
+
+    "📍 Apa Itu Plastisitas?", blocks: [{ type: "heading", text: "📍 Apa Itu Plastisitas?" },
+    {
+      type: "paragraph",
+      text: "Plastisitas adalah sifat benda yang mengalami perubahan bentuk permanen setelah gaya yang bekerja dihilangkan."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌎 Contoh Benda Plastis" },
-        {
-          type: "paragraph",
-          text: "Contoh benda yang bersifat plastis antara lain:",
-        },
-        { type: "paragraph", text: "🧱 tanah liat" },
-        { type: "paragraph", text: "🎨 plastisin" },
-        { type: "paragraph", text: "🥫 kaleng yang penyok" },
-        { type: "paragraph", text: "🪙 logam yang dibentuk secara permanen" },
-      ],
+      type: "paragraph",
+      text: "Benda yang memiliki sifat ini disebut benda plastis."
+    }]
+
+  },
+  { heading:
+
+    "🧱 Ciri-Ciri Benda Plastis", blocks: [{ type: "heading", text: "🧱 Ciri-Ciri Benda Plastis" },
+    {
+      type: "paragraph",
+      text: "Benda plastis memiliki karakteristik berikut:"
+    },
+    { type: "paragraph", text: "✔ Mengalami deformasi permanen" },
+    { type: "paragraph", text: "✔ Tidak kembali ke bentuk semula" },
+    {
+      type: "paragraph",
+      text: "✔ Bentuk baru tetap bertahan setelah gaya dihilangkan"
+    }]
+
+  },
+  { heading:
+
+    "🌎 Contoh Benda Plastis", blocks: [{ type: "heading", text: "🌎 Contoh Benda Plastis" },
+    {
+      type: "paragraph",
+      text: "Contoh benda yang bersifat plastis antara lain:"
+    },
+    { type: "paragraph", text: "🧱 tanah liat" },
+    { type: "paragraph", text: "🎨 plastisin" },
+    { type: "paragraph", text: "🥫 kaleng yang penyok" },
+    { type: "paragraph", text: "🪙 logam yang dibentuk secara permanen" }]
+
+  },
+  { heading:
+
+
+
+    "⚖️ Perbandingan Elastisitas dan Plastisitas", blocks: [{ type: "heading", text: "⚖️ Perbandingan Elastisitas dan Plastisitas"
     },
     {
-      blocks: [
-        {
-          type: "heading",
-          text: "⚖️ Perbandingan Elastisitas dan Plastisitas",
-        },
-        {
-          type: "paragraph",
-          text: "Perbedaan utama keduanya terletak pada kemampuan benda untuk kembali ke bentuk semula.",
-        },
-        {
-          type: "paragraph",
-          text: "Benda elastis kembali ke bentuk awal, sedangkan benda plastis mengalami perubahan bentuk permanen.",
-        },
-      ],
+      type: "paragraph",
+      text: "Perbedaan utama keduanya terletak pada kemampuan benda untuk kembali ke bentuk semula."
     },
     {
-      blocks: [
-        {
-          type: "heading",
-          text: "🏗️ Mengapa Elastisitas Penting dalam Rekayasa?",
-        },
-        {
-          type: "paragraph",
-          text: "Dalam teknik sipil dan teknik mesin, material harus dipilih dengan hati-hati.",
-        },
-        {
-          type: "paragraph",
-          text: "Jembatan, gedung, dan kendaraan membutuhkan material yang mampu menahan gaya tanpa mengalami deformasi permanen.",
-        },
-      ],
+      type: "paragraph",
+      text: "Benda elastis kembali ke bentuk awal, sedangkan benda plastis mengalami perubahan bentuk permanen."
+    }]
+
+  },
+  { heading:
+
+
+
+    "🏗️ Mengapa Elastisitas Penting dalam Rekayasa?", blocks: [{ type: "heading", text: "🏗️ Mengapa Elastisitas Penting dalam Rekayasa?"
     },
     {
-      blocks: [
-        { type: "heading", text: "🚗 Contoh pada Kendaraan" },
-        {
-          type: "paragraph",
-          text: "Pegas pada sistem suspensi kendaraan harus bersifat elastis.",
-        },
-        {
-          type: "paragraph",
-          text: "Jika pegas bersifat plastis, kendaraan akan kehilangan kemampuan meredam getaran setelah digunakan beberapa kali.",
-        },
-      ],
+      type: "paragraph",
+      text: "Dalam teknik sipil dan teknik mesin, material harus dipilih dengan hati-hati."
     },
     {
-      blocks: [
-        { type: "heading", text: "🏹 Contoh pada Busur Panah" },
-        {
-          type: "paragraph",
-          text: "Busur panah harus dapat kembali ke bentuk semula setelah ditarik.",
-        },
-        {
-          type: "paragraph",
-          text: "Sifat elastis memungkinkan energi tersimpan dan dilepaskan secara efektif.",
-        },
-      ],
+      type: "paragraph",
+      text: "Jembatan, gedung, dan kendaraan membutuhkan material yang mampu menahan gaya tanpa mengalami deformasi permanen."
+    }]
+
+  },
+  { heading:
+
+    "🚗 Contoh pada Kendaraan", blocks: [{ type: "heading", text: "🚗 Contoh pada Kendaraan" },
+    {
+      type: "paragraph",
+      text: "Pegas pada sistem suspensi kendaraan harus bersifat elastis."
     },
     {
-      blocks: [
-        { type: "heading", text: "📈 Batas Elastis" },
-        {
-          type: "paragraph",
-          text: "Setiap benda elastis memiliki batas tertentu.",
-        },
-        {
-          type: "paragraph",
-          text: "Jika gaya yang diberikan terlalu besar, benda dapat kehilangan sifat elastisnya dan mengalami deformasi permanen.",
-        },
-        { type: "paragraph", text: "Batas ini disebut batas elastis." },
-      ],
+      type: "paragraph",
+      text: "Jika pegas bersifat plastis, kendaraan akan kehilangan kemampuan meredam getaran setelah digunakan beberapa kali."
+    }]
+
+  },
+  { heading:
+
+    "🏹 Contoh pada Busur Panah", blocks: [{ type: "heading", text: "🏹 Contoh pada Busur Panah" },
+    {
+      type: "paragraph",
+      text: "Busur panah harus dapat kembali ke bentuk semula setelah ditarik."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
-        {
-          type: "paragraph",
-          text: "Banyak siswa menganggap benda yang paling mudah diregangkan pasti paling elastis.",
-        },
-        {
-          type: "paragraph",
-          text: "Padahal elastisitas ditentukan oleh kemampuan benda untuk kembali ke bentuk semula, bukan oleh besar kecilnya perubahan bentuk yang terjadi.",
-        },
-      ],
+      type: "paragraph",
+      text: "Sifat elastis memungkinkan energi tersimpan dan dilepaskan secara efektif."
+    }]
+
+  },
+  { heading:
+
+    "📈 Batas Elastis", blocks: [{ type: "heading", text: "📈 Batas Elastis" },
+    {
+      type: "paragraph",
+      text: "Setiap benda elastis memiliki batas tertentu."
     },
     {
-      blocks: [
-        { type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
-        {
-          type: "paragraph",
-          text: "Ketika gaya diberikan pada suatu benda, benda dapat mengalami deformasi.",
-        },
-        {
-          type: "paragraph",
-          text: "Untuk memahami deformasi tersebut secara kuantitatif, kita perlu mempelajari konsep tegangan dan regangan.",
-        },
-      ],
+      type: "paragraph",
+      text: "Jika gaya yang diberikan terlalu besar, benda dapat kehilangan sifat elastisnya dan mengalami deformasi permanen."
+    },
+    { type: "paragraph", text: "Batas ini disebut batas elastis." }]
+
+  },
+  { heading:
+
+    "⚠️ Miskonsepsi yang Sering Terjadi", blocks: [{ type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
+    {
+      type: "paragraph",
+      text: "Banyak siswa menganggap benda yang paling mudah diregangkan pasti paling elastis."
     },
     {
-      blocks: [
-        { type: "heading", text: "🧠 Inti Materi" },
-        {
-          type: "paragraph",
-          text: "Elastisitas adalah kemampuan benda untuk kembali ke bentuk semula setelah gaya dihilangkan.",
-        },
-        {
-          type: "paragraph",
-          text: "Plastisitas adalah sifat benda yang mengalami perubahan bentuk permanen setelah gaya dihilangkan.",
-        },
-        {
-          type: "paragraph",
-          text: "Setiap benda memiliki batas elastis yang menentukan apakah benda masih dapat kembali ke bentuk semula atau tidak.",
-        },
-      ],
+      type: "paragraph",
+      text: "Padahal elastisitas ditentukan oleh kemampuan benda untuk kembali ke bentuk semula, bukan oleh besar kecilnya perubahan bentuk yang terjadi."
+    }]
+
+  },
+  { heading:
+
+    "🔗 Hubungan dengan Materi Berikutnya", blocks: [{ type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
+    {
+      type: "paragraph",
+      text: "Ketika gaya diberikan pada suatu benda, benda dapat mengalami deformasi."
     },
     {
-      blocks: [
-        { type: "heading", text: "🚀 Next Mission" },
-        {
-          type: "paragraph",
-          text: "Bagaimana cara mengukur pengaruh gaya terhadap suatu material?",
-        },
-        {
-          type: "paragraph",
-          text: "Fisika menggunakan konsep khusus untuk menyatakan gaya yang bekerja pada suatu luas permukaan.",
-        },
-        { type: "paragraph", text: "➡️ Selanjutnya: Tegangan (Stress)." },
-      ],
+      type: "paragraph",
+      text: "Untuk memahami deformasi tersebut secara kuantitatif, kita perlu mempelajari konsep tegangan dan regangan."
+    }]
+
+  },
+  { heading:
+
+    "🧠 Inti Materi", blocks: [{ type: "heading", text: "🧠 Inti Materi" },
+    {
+      type: "paragraph",
+      text: "Elastisitas adalah kemampuan benda untuk kembali ke bentuk semula setelah gaya dihilangkan."
     },
-  ],
+    {
+      type: "paragraph",
+      text: "Plastisitas adalah sifat benda yang mengalami perubahan bentuk permanen setelah gaya dihilangkan."
+    },
+    {
+      type: "paragraph",
+      text: "Setiap benda memiliki batas elastis yang menentukan apakah benda masih dapat kembali ke bentuk semula atau tidak."
+    }]
+
+  },
+  { heading:
+
+    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
+    {
+      type: "paragraph",
+      text: "Bagaimana cara mengukur pengaruh gaya terhadap suatu material?"
+    },
+    {
+      type: "paragraph",
+      text: "Fisika menggunakan konsep khusus untuk menyatakan gaya yang bekerja pada suatu luas permukaan."
+    },
+    { type: "paragraph", text: "➡️ Selanjutnya: Tegangan (Stress)." }]
+
+  }]
+
 };
 
 export default elastisitasdanplastisitas;

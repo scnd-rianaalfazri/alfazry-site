@@ -2,207 +2,207 @@ const perbandinganradiasi = {
   title: "Perbandingan Radiasi Alfa, Beta, dan Gamma",
   slug: "perbandingan radiasi",
   description:
-    "Membandingkan karakteristik radiasi alfa, beta, dan gamma berdasarkan bentuk, muatan, massa, daya ionisasi, daya tembus, serta pemanfaatannya.",
+  "Membandingkan karakteristik radiasi alfa, beta, dan gamma berdasarkan bentuk, muatan, massa, daya ionisasi, daya tembus, serta pemanfaatannya.",
   chapter: "☢️ Radioaktivitas",
 
   content: [
+  { heading:
+
+    "🤔 Mengapa Ada Tiga Jenis Radiasi?", blocks: [{ type: "heading", text: "🤔 Mengapa Ada Tiga Jenis Radiasi?" },
     {
-      blocks: [
-        { type: "heading", text: "🤔 Mengapa Ada Tiga Jenis Radiasi?" },
-        {
-          type: "paragraph",
-          text: "Inti atom dapat melepaskan energi dengan berbagai cara.",
-        },
-        {
-          type: "paragraph",
-          text: "Ada yang memancarkan partikel berat, partikel ringan, maupun gelombang elektromagnetik.",
-        },
-        {
-          type: "paragraph",
-          text: "Karena itulah dikenal tiga jenis radiasi utama, yaitu alfa, beta, dan gamma.",
-        },
-      ],
+      type: "paragraph",
+      text: "Inti atom dapat melepaskan energi dengan berbagai cara."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚛️ Bentuk Radiasi" },
-        {
-          type: "paragraph",
-          text: "Radiasi alfa berupa inti atom helium yang terdiri atas dua proton dan dua neutron.",
-        },
-        {
-          type: "paragraph",
-          text: "Radiasi beta berupa elektron atau positron berenergi tinggi.",
-        },
-        {
-          type: "paragraph",
-          text: "Radiasi gamma merupakan gelombang elektromagnetik berenergi sangat tinggi.",
-        },
-      ],
+      type: "paragraph",
+      text: "Ada yang memancarkan partikel berat, partikel ringan, maupun gelombang elektromagnetik."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚡ Muatan dan Massa" },
-        {
-          type: "paragraph",
-          text: "Partikel alfa bermuatan +2 dan memiliki massa paling besar.",
-        },
-        {
-          type: "paragraph",
-          text: "Partikel beta bermuatan -1 atau +1 dengan massa sangat kecil.",
-        },
-        {
-          type: "paragraph",
-          text: "Radiasi gamma tidak memiliki massa maupun muatan listrik.",
-        },
-      ],
+      type: "paragraph",
+      text: "Karena itulah dikenal tiga jenis radiasi utama, yaitu alfa, beta, dan gamma."
+    }]
+
+  },
+  { heading:
+
+    "⚛️ Bentuk Radiasi", blocks: [{ type: "heading", text: "⚛️ Bentuk Radiasi" },
+    {
+      type: "paragraph",
+      text: "Radiasi alfa berupa inti atom helium yang terdiri atas dua proton dan dua neutron."
     },
     {
-      blocks: [
-        { type: "heading", text: "🧱 Daya Tembus" },
-        {
-          type: "paragraph",
-          text: "Semakin kecil massa partikel dan semakin kecil interaksinya dengan materi, semakin besar daya tembusnya.",
-        },
-        {
-          type: "paragraph",
-          text: "Oleh karena itu, daya tembus meningkat dari alfa ke beta, lalu gamma.",
-        },
-      ],
+      type: "paragraph",
+      text: "Radiasi beta berupa elektron atau positron berenergi tinggi."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚡ Daya Ionisasi" },
-        {
-          type: "paragraph",
-          text: "Sebaliknya, kemampuan mengionisasi cenderung paling besar dimiliki radiasi alfa.",
-        },
-        {
-          type: "paragraph",
-          text: "Radiasi beta memiliki daya ionisasi sedang, sedangkan gamma paling kecil di antara ketiganya.",
-        },
-      ],
+      type: "paragraph",
+      text: "Radiasi gamma merupakan gelombang elektromagnetik berenergi sangat tinggi."
+    }]
+
+  },
+  { heading:
+
+    "⚡ Muatan dan Massa", blocks: [{ type: "heading", text: "⚡ Muatan dan Massa" },
+    {
+      type: "paragraph",
+      text: "Partikel alfa bermuatan +2 dan memiliki massa paling besar."
     },
     {
-      blocks: [
-        { type: "heading", text: "🛡️ Cara Melindungi Diri" },
-        {
-          type: "paragraph",
-          text: "Radiasi alfa dapat dihentikan oleh kertas atau lapisan kulit.",
-        },
-        {
-          type: "paragraph",
-          text: "Radiasi beta memerlukan pelindung berupa aluminium atau plastik tebal.",
-        },
-        {
-          type: "paragraph",
-          text: "Radiasi gamma membutuhkan pelindung dari timbal atau beton yang tebal.",
-        },
-      ],
+      type: "paragraph",
+      text: "Partikel beta bermuatan -1 atau +1 dengan massa sangat kecil."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌍 Pemanfaatan Masing-Masing" },
-        { type: "paragraph", text: "Alfa digunakan pada detektor asap." },
-        {
-          type: "paragraph",
-          text: "Beta digunakan untuk pengukuran ketebalan material dan aplikasi medis tertentu.",
-        },
-        {
-          type: "paragraph",
-          text: "Gamma dimanfaatkan untuk radioterapi, sterilisasi alat medis, serta inspeksi industri.",
-        },
-      ],
+      type: "paragraph",
+      text: "Radiasi gamma tidak memiliki massa maupun muatan listrik."
+    }]
+
+  },
+  { heading:
+
+    "🧱 Daya Tembus", blocks: [{ type: "heading", text: "🧱 Daya Tembus" },
+    {
+      type: "paragraph",
+      text: "Semakin kecil massa partikel dan semakin kecil interaksinya dengan materi, semakin besar daya tembusnya."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚠️ Risiko Paparan" },
-        {
-          type: "paragraph",
-          text: "Tidak ada radiasi yang dapat disebut 'paling berbahaya' tanpa melihat situasinya.",
-        },
-        {
-          type: "paragraph",
-          text: "Risiko bergantung pada jenis radiasi, besar dosis, lama paparan, jarak dari sumber, dan apakah sumber radiasi berada di luar atau di dalam tubuh.",
-        },
-      ],
+      type: "paragraph",
+      text: "Oleh karena itu, daya tembus meningkat dari alfa ke beta, lalu gamma."
+    }]
+
+  },
+  { heading:
+
+    "⚡ Daya Ionisasi", blocks: [{ type: "heading", text: "⚡ Daya Ionisasi" },
+    {
+      type: "paragraph",
+      text: "Sebaliknya, kemampuan mengionisasi cenderung paling besar dimiliki radiasi alfa."
     },
     {
-      blocks: [
-        { type: "heading", text: "💡 Memilih Radiasi yang Tepat" },
-        {
-          type: "paragraph",
-          text: "Dalam dunia nyata, ilmuwan memilih jenis radiasi berdasarkan kebutuhan.",
-        },
-        {
-          type: "paragraph",
-          text: "Misalnya, detektor asap membutuhkan alfa karena tidak menembus casing alat, sedangkan radioterapi memanfaatkan gamma karena mampu mencapai jaringan yang berada jauh di dalam tubuh.",
-        },
-      ],
+      type: "paragraph",
+      text: "Radiasi beta memiliki daya ionisasi sedang, sedangkan gamma paling kecil di antara ketiganya."
+    }]
+
+  },
+  { heading:
+
+    "🛡️ Cara Melindungi Diri", blocks: [{ type: "heading", text: "🛡️ Cara Melindungi Diri" },
+    {
+      type: "paragraph",
+      text: "Radiasi alfa dapat dihentikan oleh kertas atau lapisan kulit."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
-        {
-          type: "paragraph",
-          text: "Banyak orang mengira gamma selalu lebih berbahaya daripada alfa.",
-        },
-        {
-          type: "paragraph",
-          text: "Padahal, partikel alfa yang masuk ke dalam tubuh dapat menyebabkan kerusakan lokal yang sangat besar karena daya ionisasinya tinggi.",
-        },
-      ],
+      type: "paragraph",
+      text: "Radiasi beta memerlukan pelindung berupa aluminium atau plastik tebal."
     },
     {
-      blocks: [
-        { type: "heading", text: "📊 Ringkasan Konsep" },
-        { type: "paragraph", text: "Alfa → Ionisasi Tinggi, Tembus Rendah" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Beta → Ionisasi Sedang, Tembus Sedang" },
-        { type: "paragraph", text: "⬇️" },
-        {
-          type: "paragraph",
-          text: "Gamma → Ionisasi Lebih Rendah, Tembus Sangat Tinggi",
-        },
-      ],
+      type: "paragraph",
+      text: "Radiasi gamma membutuhkan pelindung dari timbal atau beton yang tebal."
+    }]
+
+  },
+  { heading:
+
+    "🌍 Pemanfaatan Masing-Masing", blocks: [{ type: "heading", text: "🌍 Pemanfaatan Masing-Masing" },
+    { type: "paragraph", text: "Alfa digunakan pada detektor asap." },
+    {
+      type: "paragraph",
+      text: "Beta digunakan untuk pengukuran ketebalan material dan aplikasi medis tertentu."
     },
     {
-      blocks: [
-        { type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
-        {
-          type: "paragraph",
-          text: "Meskipun inti atom meluruh secara acak, kumpulan atom radioaktif menunjukkan pola yang sangat teratur.",
-        },
-        {
-          type: "paragraph",
-          text: "Pola tersebut dikenal sebagai waktu paruh (half-life), yang akan kita pelajari pada halaman berikutnya.",
-        },
-      ],
+      type: "paragraph",
+      text: "Gamma dimanfaatkan untuk radioterapi, sterilisasi alat medis, serta inspeksi industri."
+    }]
+
+  },
+  { heading:
+
+    "⚠️ Risiko Paparan", blocks: [{ type: "heading", text: "⚠️ Risiko Paparan" },
+    {
+      type: "paragraph",
+      text: "Tidak ada radiasi yang dapat disebut 'paling berbahaya' tanpa melihat situasinya."
     },
     {
-      blocks: [
-        { type: "heading", text: "🧠 Inti Materi" },
-        {
-          type: "paragraph",
-          text: "Alfa, beta, dan gamma memiliki karakteristik yang berbeda sehingga masing-masing memiliki keunggulan, keterbatasan, dan pemanfaatan yang berbeda pula.",
-        },
-        {
-          type: "paragraph",
-          text: "Memahami perbedaannya membantu kita menggunakan radiasi secara aman dan efektif.",
-        },
-      ],
+      type: "paragraph",
+      text: "Risiko bergantung pada jenis radiasi, besar dosis, lama paparan, jarak dari sumber, dan apakah sumber radiasi berada di luar atau di dalam tubuh."
+    }]
+
+  },
+  { heading:
+
+    "💡 Memilih Radiasi yang Tepat", blocks: [{ type: "heading", text: "💡 Memilih Radiasi yang Tepat" },
+    {
+      type: "paragraph",
+      text: "Dalam dunia nyata, ilmuwan memilih jenis radiasi berdasarkan kebutuhan."
     },
     {
-      blocks: [
-        { type: "heading", text: "🚀 Next Mission" },
-        {
-          type: "paragraph",
-          text: "Jika kita memiliki 1.000 atom radioaktif, berapa yang masih tersisa setelah beberapa waktu?",
-        },
-        { type: "paragraph", text: "➡️ Selanjutnya: Waktu Paruh (Half-Life)." },
-      ],
+      type: "paragraph",
+      text: "Misalnya, detektor asap membutuhkan alfa karena tidak menembus casing alat, sedangkan radioterapi memanfaatkan gamma karena mampu mencapai jaringan yang berada jauh di dalam tubuh."
+    }]
+
+  },
+  { heading:
+
+    "⚠️ Miskonsepsi yang Sering Terjadi", blocks: [{ type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
+    {
+      type: "paragraph",
+      text: "Banyak orang mengira gamma selalu lebih berbahaya daripada alfa."
     },
-  ],
+    {
+      type: "paragraph",
+      text: "Padahal, partikel alfa yang masuk ke dalam tubuh dapat menyebabkan kerusakan lokal yang sangat besar karena daya ionisasinya tinggi."
+    }]
+
+  },
+  { heading:
+
+    "📊 Ringkasan Konsep", blocks: [{ type: "heading", text: "📊 Ringkasan Konsep" },
+    { type: "paragraph", text: "Alfa → Ionisasi Tinggi, Tembus Rendah" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Beta → Ionisasi Sedang, Tembus Sedang" },
+    { type: "paragraph", text: "⬇️" },
+    {
+      type: "paragraph",
+      text: "Gamma → Ionisasi Lebih Rendah, Tembus Sangat Tinggi"
+    }]
+
+  },
+  { heading:
+
+    "🔗 Hubungan dengan Materi Berikutnya", blocks: [{ type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
+    {
+      type: "paragraph",
+      text: "Meskipun inti atom meluruh secara acak, kumpulan atom radioaktif menunjukkan pola yang sangat teratur."
+    },
+    {
+      type: "paragraph",
+      text: "Pola tersebut dikenal sebagai waktu paruh (half-life), yang akan kita pelajari pada halaman berikutnya."
+    }]
+
+  },
+  { heading:
+
+    "🧠 Inti Materi", blocks: [{ type: "heading", text: "🧠 Inti Materi" },
+    {
+      type: "paragraph",
+      text: "Alfa, beta, dan gamma memiliki karakteristik yang berbeda sehingga masing-masing memiliki keunggulan, keterbatasan, dan pemanfaatan yang berbeda pula."
+    },
+    {
+      type: "paragraph",
+      text: "Memahami perbedaannya membantu kita menggunakan radiasi secara aman dan efektif."
+    }]
+
+  },
+  { heading:
+
+    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
+    {
+      type: "paragraph",
+      text: "Jika kita memiliki 1.000 atom radioaktif, berapa yang masih tersisa setelah beberapa waktu?"
+    },
+    { type: "paragraph", text: "➡️ Selanjutnya: Waktu Paruh (Half-Life)." }]
+
+  }]
+
 };
 
 export default perbandinganradiasi;

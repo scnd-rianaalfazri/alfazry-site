@@ -2,172 +2,172 @@ const sistemelektronikmodern = {
   title: "Sistem Elektronik Modern",
   slug: "sistem elektronik modern",
   description:
-    "Memahami bagaimana berbagai komponen elektronika digital bekerja bersama membentuk perangkat elektronik modern seperti smartphone, laptop, dan robot.",
+  "Memahami bagaimana berbagai komponen elektronika digital bekerja bersama membentuk perangkat elektronik modern seperti smartphone, laptop, dan robot.",
   chapter: "💻 Elektronika Digital & Embedded System",
 
   content: [
-    {
-      blocks: [
-        {
-          type: "heading",
-          text: "📱 Apa yang Terjadi Saat Smartphone Dinyalakan?",
-        },
-        {
-          type: "paragraph",
-          text: "Menekan tombol power hanyalah awal dari serangkaian proses yang sangat cepat.",
-        },
-        {
-          type: "paragraph",
-          text: "Dalam hitungan detik, berbagai komponen elektronik bekerja bersama untuk menghidupkan sistem operasi, memeriksa memori, mengaktifkan layar, dan menyiapkan perangkat agar siap digunakan.",
-        },
-      ],
+  { heading:
+
+
+
+    "📱 Apa yang Terjadi Saat Smartphone Dinyalakan?", blocks: [{ type: "heading", text: "📱 Apa yang Terjadi Saat Smartphone Dinyalakan?"
     },
     {
-      blocks: [
-        {
-          type: "heading",
-          text: "🧩 Sistem yang Bekerja Sebagai Satu Kesatuan",
-        },
-        {
-          type: "paragraph",
-          text: "Sebuah perangkat modern bukan hanya terdiri dari satu komponen.",
-        },
-        {
-          type: "paragraph",
-          text: "Sensor, prosesor, memori, PCB, modul komunikasi, dan sumber daya listrik saling terhubung membentuk sebuah sistem elektronik yang utuh.",
-        },
-      ],
+      type: "paragraph",
+      text: "Menekan tombol power hanyalah awal dari serangkaian proses yang sangat cepat."
     },
     {
-      blocks: [
-        { type: "heading", text: "🧠 Peran Prosesor" },
-        {
-          type: "paragraph",
-          text: "Prosesor merupakan pusat pemrosesan data pada perangkat elektronik.",
-        },
-        {
-          type: "paragraph",
-          text: "Prosesor menjalankan instruksi, melakukan perhitungan, dan mengoordinasikan kerja komponen lain agar perangkat berfungsi dengan baik.",
-        },
-      ],
+      type: "paragraph",
+      text: "Dalam hitungan detik, berbagai komponen elektronik bekerja bersama untuk menghidupkan sistem operasi, memeriksa memori, mengaktifkan layar, dan menyiapkan perangkat agar siap digunakan."
+    }]
+
+  },
+  { heading:
+
+
+
+    "🧩 Sistem yang Bekerja Sebagai Satu Kesatuan", blocks: [{ type: "heading", text: "🧩 Sistem yang Bekerja Sebagai Satu Kesatuan"
     },
     {
-      blocks: [
-        { type: "heading", text: "💾 Peran Memori" },
-        {
-          type: "paragraph",
-          text: "RAM digunakan untuk menyimpan data sementara saat aplikasi berjalan.",
-        },
-        {
-          type: "paragraph",
-          text: "Media penyimpanan seperti SSD atau memori flash menyimpan sistem operasi, aplikasi, foto, dan berbagai file pengguna.",
-        },
-      ],
+      type: "paragraph",
+      text: "Sebuah perangkat modern bukan hanya terdiri dari satu komponen."
     },
     {
-      blocks: [
-        { type: "heading", text: "📡 Peran Sensor dan Modul Komunikasi" },
-        {
-          type: "paragraph",
-          text: "Sensor memungkinkan perangkat mengenali kondisi di sekitarnya.",
-        },
-        {
-          type: "paragraph",
-          text: "Modul Wi-Fi, Bluetooth, GPS, dan jaringan seluler memungkinkan perangkat bertukar data dengan dunia luar.",
-        },
-      ],
+      type: "paragraph",
+      text: "Sensor, prosesor, memori, PCB, modul komunikasi, dan sumber daya listrik saling terhubung membentuk sebuah sistem elektronik yang utuh."
+    }]
+
+  },
+  { heading:
+
+    "🧠 Peran Prosesor", blocks: [{ type: "heading", text: "🧠 Peran Prosesor" },
+    {
+      type: "paragraph",
+      text: "Prosesor merupakan pusat pemrosesan data pada perangkat elektronik."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚙️ Semua Dikendalikan Embedded System" },
-        {
-          type: "paragraph",
-          text: "Embedded system memastikan setiap komponen bekerja sesuai tugasnya.",
-        },
-        {
-          type: "paragraph",
-          text: "Program yang tersimpan di dalam perangkat mengatur kapan sensor dibaca, data diproses, dan aktuator diaktifkan.",
-        },
-      ],
+      type: "paragraph",
+      text: "Prosesor menjalankan instruksi, melakukan perhitungan, dan mengoordinasikan kerja komponen lain agar perangkat berfungsi dengan baik."
+    }]
+
+  },
+  { heading:
+
+    "💾 Peran Memori", blocks: [{ type: "heading", text: "💾 Peran Memori" },
+    {
+      type: "paragraph",
+      text: "RAM digunakan untuk menyimpan data sementara saat aplikasi berjalan."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌍 Contoh Sistem Elektronik Modern" },
-        {
-          type: "paragraph",
-          text: "Smartphone, laptop, drone, smartwatch, kendaraan listrik, robot, kamera digital, dan smart TV merupakan contoh sistem elektronik modern yang memadukan banyak teknologi dalam satu perangkat.",
-        },
-      ],
+      type: "paragraph",
+      text: "Media penyimpanan seperti SSD atau memori flash menyimpan sistem operasi, aplikasi, foto, dan berbagai file pengguna."
+    }]
+
+  },
+  { heading:
+
+    "📡 Peran Sensor dan Modul Komunikasi", blocks: [{ type: "heading", text: "📡 Peran Sensor dan Modul Komunikasi" },
+    {
+      type: "paragraph",
+      text: "Sensor memungkinkan perangkat mengenali kondisi di sekitarnya."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
-        {
-          type: "paragraph",
-          text: "Banyak orang menganggap satu komponen saja sudah cukup membuat perangkat bekerja.",
-        },
-        {
-          type: "paragraph",
-          text: "Padahal sebuah perangkat modern hanya dapat berfungsi jika semua komponen saling bekerja sama sebagai satu sistem.",
-        },
-      ],
+      type: "paragraph",
+      text: "Modul Wi-Fi, Bluetooth, GPS, dan jaringan seluler memungkinkan perangkat bertukar data dengan dunia luar."
+    }]
+
+  },
+  { heading:
+
+    "⚙️ Semua Dikendalikan Embedded System", blocks: [{ type: "heading", text: "⚙️ Semua Dikendalikan Embedded System" },
+    {
+      type: "paragraph",
+      text: "Embedded system memastikan setiap komponen bekerja sesuai tugasnya."
     },
     {
-      blocks: [
-        { type: "heading", text: "📊 Ringkasan Konsep" },
-        { type: "paragraph", text: "Sensor" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Prosesor" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Memori" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Komunikasi" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Embedded System" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Perangkat Elektronik Modern" },
-      ],
+      type: "paragraph",
+      text: "Program yang tersimpan di dalam perangkat mengatur kapan sensor dibaca, data diproses, dan aktuator diaktifkan."
+    }]
+
+  },
+  { heading:
+
+    "🌍 Contoh Sistem Elektronik Modern", blocks: [{ type: "heading", text: "🌍 Contoh Sistem Elektronik Modern" },
+    {
+      type: "paragraph",
+      text: "Smartphone, laptop, drone, smartwatch, kendaraan listrik, robot, kamera digital, dan smart TV merupakan contoh sistem elektronik modern yang memadukan banyak teknologi dalam satu perangkat."
+    }]
+
+  },
+  { heading:
+
+    "⚠️ Miskonsepsi yang Sering Terjadi", blocks: [{ type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
+    {
+      type: "paragraph",
+      text: "Banyak orang menganggap satu komponen saja sudah cukup membuat perangkat bekerja."
     },
     {
-      blocks: [
-        { type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
-        {
-          type: "paragraph",
-          text: "Setelah memahami bagaimana perangkat elektronik modern bekerja, saatnya menerapkan seluruh konsep tersebut dalam sebuah proyek sederhana.",
-        },
-        {
-          type: "paragraph",
-          text: "Pada halaman berikutnya kita akan merancang Mini Project Elektronika Digital.",
-        },
-      ],
+      type: "paragraph",
+      text: "Padahal sebuah perangkat modern hanya dapat berfungsi jika semua komponen saling bekerja sama sebagai satu sistem."
+    }]
+
+  },
+  { heading:
+
+    "📊 Ringkasan Konsep", blocks: [{ type: "heading", text: "📊 Ringkasan Konsep" },
+    { type: "paragraph", text: "Sensor" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Prosesor" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Memori" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Komunikasi" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Embedded System" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Perangkat Elektronik Modern" }]
+
+  },
+  { heading:
+
+    "🔗 Hubungan dengan Materi Berikutnya", blocks: [{ type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
+    {
+      type: "paragraph",
+      text: "Setelah memahami bagaimana perangkat elektronik modern bekerja, saatnya menerapkan seluruh konsep tersebut dalam sebuah proyek sederhana."
     },
     {
-      blocks: [
-        { type: "heading", text: "🧠 Inti Materi" },
-        {
-          type: "paragraph",
-          text: "Perangkat elektronik modern merupakan hasil kerja sama berbagai komponen, seperti prosesor, memori, sensor, komunikasi digital, dan embedded system.",
-        },
-        {
-          type: "paragraph",
-          text: "Keberhasilan sebuah perangkat tidak ditentukan oleh satu komponen saja, melainkan oleh bagaimana seluruh sistem bekerja secara terpadu.",
-        },
-      ],
+      type: "paragraph",
+      text: "Pada halaman berikutnya kita akan merancang Mini Project Elektronika Digital."
+    }]
+
+  },
+  { heading:
+
+    "🧠 Inti Materi", blocks: [{ type: "heading", text: "🧠 Inti Materi" },
+    {
+      type: "paragraph",
+      text: "Perangkat elektronik modern merupakan hasil kerja sama berbagai komponen, seperti prosesor, memori, sensor, komunikasi digital, dan embedded system."
     },
     {
-      blocks: [
-        { type: "heading", text: "🚀 Next Mission" },
-        {
-          type: "paragraph",
-          text: "Bagaimana jika kamu diminta merancang perangkat elektronikmu sendiri?",
-        },
-        {
-          type: "paragraph",
-          text: "➡️ Selanjutnya: Mini Project Elektronika Digital.",
-        },
-      ],
+      type: "paragraph",
+      text: "Keberhasilan sebuah perangkat tidak ditentukan oleh satu komponen saja, melainkan oleh bagaimana seluruh sistem bekerja secara terpadu."
+    }]
+
+  },
+  { heading:
+
+    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
+    {
+      type: "paragraph",
+      text: "Bagaimana jika kamu diminta merancang perangkat elektronikmu sendiri?"
     },
-  ],
+    {
+      type: "paragraph",
+      text: "➡️ Selanjutnya: Mini Project Elektronika Digital."
+    }]
+
+  }]
+
 };
 
 export default sistemelektronikmodern;

@@ -542,12 +542,19 @@ export default function DetailMateri() {
         {/* Content */}
         <div className="space-y-4 md:space-y-5">
           {materi.content?.map((section, i) => {
+            const blocks = sectionToBlocks(section).filter(
+              (block, bi) =>
+                !(
+                  block?.type === "heading" &&
+                  bi === 0 &&
+                  section.heading &&
+                  block.text === section.heading
+                )
+            )
 
             const body = (
               <div className="space-y-4">
-                {sectionToBlocks(section).map((block, bi) =>
-                  renderBlock(block, bi)
-                )}
+                {blocks.map((block, bi) => renderBlock(block, bi))}
               </div>
             )
 

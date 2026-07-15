@@ -2,186 +2,186 @@ const quantumtunneling = {
   title: "Quantum Tunneling",
   slug: "quantum tunneling",
   description:
-    "Memahami efek terowongan kuantum sebagai fenomena ketika partikel memiliki peluang melewati penghalang energi yang menurut fisika klasik tidak dapat dilewati.",
+  "Memahami efek terowongan kuantum sebagai fenomena ketika partikel memiliki peluang melewati penghalang energi yang menurut fisika klasik tidak dapat dilewati.",
   chapter: "✨ Fisika Kuantum",
 
   content: [
+  { heading:
+
+    "🚧 Sebuah Penghalang", blocks: [{ type: "heading", text: "🚧 Sebuah Penghalang" },
     {
-      blocks: [
-        { type: "heading", text: "🚧 Sebuah Penghalang" },
-        {
-          type: "paragraph",
-          text: "Bayangkan sebuah bola menggelinding menuju sebuah bukit.",
-        },
-        {
-          type: "paragraph",
-          text: "Jika energi bola lebih kecil daripada tinggi bukit, bola akan berhenti dan kembali turun.",
-        },
-        { type: "paragraph", text: "Itulah prediksi fisika klasik." },
-      ],
+      type: "paragraph",
+      text: "Bayangkan sebuah bola menggelinding menuju sebuah bukit."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚛️ Dunia Kuantum Berbeda" },
-        {
-          type: "paragraph",
-          text: "Pada dunia kuantum, partikel tidak selalu berperilaku seperti bola.",
-        },
-        {
-          type: "paragraph",
-          text: "Karena partikel memiliki sifat gelombang, terdapat peluang kecil untuk menemukannya di sisi lain penghalang.",
-        },
-        {
-          type: "paragraph",
-          text: "Fenomena ini disebut quantum tunneling atau efek terowongan kuantum.",
-        },
-      ],
+      type: "paragraph",
+      text: "Jika energi bola lebih kecil daripada tinggi bukit, bola akan berhenti dan kembali turun."
+    },
+    { type: "paragraph", text: "Itulah prediksi fisika klasik." }]
+
+  },
+  { heading:
+
+    "⚛️ Dunia Kuantum Berbeda", blocks: [{ type: "heading", text: "⚛️ Dunia Kuantum Berbeda" },
+    {
+      type: "paragraph",
+      text: "Pada dunia kuantum, partikel tidak selalu berperilaku seperti bola."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌊 Mengapa Bisa Terjadi?" },
-        {
-          type: "paragraph",
-          text: "Fungsi gelombang partikel tidak langsung menjadi nol ketika mencapai penghalang.",
-        },
-        {
-          type: "paragraph",
-          text: "Sebagian fungsi gelombang dapat 'menembus' penghalang.",
-        },
-        {
-          type: "paragraph",
-          text: "Akibatnya masih ada peluang partikel muncul di sisi seberang.",
-        },
-      ],
+      type: "paragraph",
+      text: "Karena partikel memiliki sifat gelombang, terdapat peluang kecil untuk menemukannya di sisi lain penghalang."
     },
     {
-      blocks: [
-        { type: "heading", text: "🎲 Bukan Berarti Selalu Berhasil" },
-        {
-          type: "paragraph",
-          text: "Quantum tunneling bersifat probabilistik.",
-        },
-        {
-          type: "paragraph",
-          text: "Artinya, partikel tidak selalu berhasil melewati penghalang.",
-        },
-        {
-          type: "paragraph",
-          text: "Hanya terdapat peluang tertentu untuk menemukannya di sisi lain.",
-        },
-      ],
+      type: "paragraph",
+      text: "Fenomena ini disebut quantum tunneling atau efek terowongan kuantum."
+    }]
+
+  },
+  { heading:
+
+    "🌊 Mengapa Bisa Terjadi?", blocks: [{ type: "heading", text: "🌊 Mengapa Bisa Terjadi?" },
+    {
+      type: "paragraph",
+      text: "Fungsi gelombang partikel tidak langsung menjadi nol ketika mencapai penghalang."
     },
     {
-      blocks: [
-        { type: "heading", text: "📏 Faktor yang Memengaruhi" },
-        {
-          type: "paragraph",
-          text: "Peluang tunneling dipengaruhi oleh beberapa faktor.",
-        },
-        {
-          type: "paragraph",
-          text: "Semakin tipis penghalang, peluang tunneling semakin besar.",
-        },
-        {
-          type: "paragraph",
-          text: "Semakin rendah penghalang energi, peluang tunneling juga semakin besar.",
-        },
-      ],
+      type: "paragraph",
+      text: "Sebagian fungsi gelombang dapat 'menembus' penghalang."
     },
     {
-      blocks: [
-        { type: "heading", text: "☀️ Contoh di Matahari" },
-        {
-          type: "paragraph",
-          text: "Quantum tunneling membantu menjelaskan bagaimana reaksi fusi dapat terjadi di inti Matahari.",
-        },
-        {
-          type: "paragraph",
-          text: "Meskipun inti atom saling tolak-menolak, ada peluang bagi mereka untuk cukup dekat sehingga gaya nuklir kuat dapat menyatukannya.",
-        },
-      ],
+      type: "paragraph",
+      text: "Akibatnya masih ada peluang partikel muncul di sisi seberang."
+    }]
+
+  },
+  { heading:
+
+    "🎲 Bukan Berarti Selalu Berhasil", blocks: [{ type: "heading", text: "🎲 Bukan Berarti Selalu Berhasil" },
+    {
+      type: "paragraph",
+      text: "Quantum tunneling bersifat probabilistik."
     },
     {
-      blocks: [
-        { type: "heading", text: "💻 Contoh Teknologi" },
-        {
-          type: "paragraph",
-          text: "Efek terowongan kuantum dimanfaatkan dalam berbagai teknologi modern.",
-        },
-        {
-          type: "paragraph",
-          text: "Contohnya adalah Scanning Tunneling Microscope (STM), memori flash, dan beberapa jenis dioda semikonduktor.",
-        },
-      ],
+      type: "paragraph",
+      text: "Artinya, partikel tidak selalu berhasil melewati penghalang."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
-        {
-          type: "paragraph",
-          text: "Quantum tunneling bukan berarti partikel membuat lubang pada penghalang.",
-        },
-        {
-          type: "paragraph",
-          text: "Partikel juga tidak 'melanggar' hukum kekekalan energi.",
-        },
-        {
-          type: "paragraph",
-          text: "Fenomena ini muncul secara alami dari solusi mekanika kuantum.",
-        },
-      ],
+      type: "paragraph",
+      text: "Hanya terdapat peluang tertentu untuk menemukannya di sisi lain."
+    }]
+
+  },
+  { heading:
+
+    "📏 Faktor yang Memengaruhi", blocks: [{ type: "heading", text: "📏 Faktor yang Memengaruhi" },
+    {
+      type: "paragraph",
+      text: "Peluang tunneling dipengaruhi oleh beberapa faktor."
     },
     {
-      blocks: [
-        { type: "heading", text: "📊 Ringkasan Konsep" },
-        { type: "paragraph", text: "Partikel" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Penghalang Energi" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Fungsi Gelombang Menembus" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Ada Peluang" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Quantum Tunneling" },
-      ],
+      type: "paragraph",
+      text: "Semakin tipis penghalang, peluang tunneling semakin besar."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌍 Mengapa Penting?" },
-        {
-          type: "paragraph",
-          text: "Quantum tunneling menunjukkan bahwa dunia kuantum tidak selalu mengikuti intuisi yang berasal dari pengalaman sehari-hari.",
-        },
-        {
-          type: "paragraph",
-          text: "Fenomena ini menjadi dasar berbagai teknologi modern dan membantu menjelaskan proses alam yang sebelumnya sulit dipahami.",
-        },
-      ],
+      type: "paragraph",
+      text: "Semakin rendah penghalang energi, peluang tunneling juga semakin besar."
+    }]
+
+  },
+  { heading:
+
+    "☀️ Contoh di Matahari", blocks: [{ type: "heading", text: "☀️ Contoh di Matahari" },
+    {
+      type: "paragraph",
+      text: "Quantum tunneling membantu menjelaskan bagaimana reaksi fusi dapat terjadi di inti Matahari."
     },
     {
-      blocks: [
-        { type: "heading", text: "🧠 Inti Materi" },
-        {
-          type: "paragraph",
-          text: "Quantum tunneling adalah fenomena ketika partikel memiliki peluang melewati penghalang energi meskipun secara klasik energinya tidak mencukupi.",
-        },
-        {
-          type: "paragraph",
-          text: "Fenomena ini terjadi karena sifat gelombang partikel dalam mekanika kuantum.",
-        },
-      ],
+      type: "paragraph",
+      text: "Meskipun inti atom saling tolak-menolak, ada peluang bagi mereka untuk cukup dekat sehingga gaya nuklir kuat dapat menyatukannya."
+    }]
+
+  },
+  { heading:
+
+    "💻 Contoh Teknologi", blocks: [{ type: "heading", text: "💻 Contoh Teknologi" },
+    {
+      type: "paragraph",
+      text: "Efek terowongan kuantum dimanfaatkan dalam berbagai teknologi modern."
     },
     {
-      blocks: [
-        { type: "heading", text: "🚀 Next Mission" },
-        {
-          type: "paragraph",
-          text: "Setelah memahami berbagai konsep dasar mekanika kuantum, saatnya melihat bagaimana konsep-konsep tersebut diterapkan dalam kehidupan nyata.",
-        },
-        { type: "paragraph", text: "➡️ Selanjutnya: Aplikasi Fisika Kuantum." },
-      ],
+      type: "paragraph",
+      text: "Contohnya adalah Scanning Tunneling Microscope (STM), memori flash, dan beberapa jenis dioda semikonduktor."
+    }]
+
+  },
+  { heading:
+
+    "⚠️ Miskonsepsi yang Sering Terjadi", blocks: [{ type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
+    {
+      type: "paragraph",
+      text: "Quantum tunneling bukan berarti partikel membuat lubang pada penghalang."
     },
-  ],
+    {
+      type: "paragraph",
+      text: "Partikel juga tidak 'melanggar' hukum kekekalan energi."
+    },
+    {
+      type: "paragraph",
+      text: "Fenomena ini muncul secara alami dari solusi mekanika kuantum."
+    }]
+
+  },
+  { heading:
+
+    "📊 Ringkasan Konsep", blocks: [{ type: "heading", text: "📊 Ringkasan Konsep" },
+    { type: "paragraph", text: "Partikel" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Penghalang Energi" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Fungsi Gelombang Menembus" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Ada Peluang" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Quantum Tunneling" }]
+
+  },
+  { heading:
+
+    "🌍 Mengapa Penting?", blocks: [{ type: "heading", text: "🌍 Mengapa Penting?" },
+    {
+      type: "paragraph",
+      text: "Quantum tunneling menunjukkan bahwa dunia kuantum tidak selalu mengikuti intuisi yang berasal dari pengalaman sehari-hari."
+    },
+    {
+      type: "paragraph",
+      text: "Fenomena ini menjadi dasar berbagai teknologi modern dan membantu menjelaskan proses alam yang sebelumnya sulit dipahami."
+    }]
+
+  },
+  { heading:
+
+    "🧠 Inti Materi", blocks: [{ type: "heading", text: "🧠 Inti Materi" },
+    {
+      type: "paragraph",
+      text: "Quantum tunneling adalah fenomena ketika partikel memiliki peluang melewati penghalang energi meskipun secara klasik energinya tidak mencukupi."
+    },
+    {
+      type: "paragraph",
+      text: "Fenomena ini terjadi karena sifat gelombang partikel dalam mekanika kuantum."
+    }]
+
+  },
+  { heading:
+
+    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
+    {
+      type: "paragraph",
+      text: "Setelah memahami berbagai konsep dasar mekanika kuantum, saatnya melihat bagaimana konsep-konsep tersebut diterapkan dalam kehidupan nyata."
+    },
+    { type: "paragraph", text: "➡️ Selanjutnya: Aplikasi Fisika Kuantum." }]
+
+  }]
+
 };
 
 export default quantumtunneling;

@@ -2,158 +2,158 @@ const kapasitorpadaac = {
   title: "Kapasitor pada Arus Bolak-Balik",
   slug: "kapasitor-pada-arus-bolak-balik",
   description:
-    "Memahami perilaku kapasitor pada rangkaian arus bolak-balik (AC), reaktansi kapasitif, hubungan fase antara tegangan dan arus, serta penerapannya.",
+  "Memahami perilaku kapasitor pada rangkaian arus bolak-balik (AC), reaktansi kapasitif, hubungan fase antara tegangan dan arus, serta penerapannya.",
   chapter: "⚡ Rangkaian Arus Bolak Balik",
 
   content: [
-    {
-      blocks: [
-        {
-          type: "heading",
-          text: "🔋 Mengapa Kapasitor Berbeda dengan Induktor?",
-        },
-        {
-          type: "paragraph",
-          text: "Jika induktor menyimpan energi dalam bentuk medan magnet, kapasitor menyimpan energi dalam bentuk medan listrik.",
-        },
-        {
-          type: "paragraph",
-          text: "Perbedaan cara menyimpan energi ini menyebabkan kapasitor memiliki perilaku yang berbeda ketika dialiri arus bolak-balik.",
-        },
-      ],
+  { heading:
+
+
+
+    "🔋 Mengapa Kapasitor Berbeda dengan Induktor?", blocks: [{ type: "heading", text: "🔋 Mengapa Kapasitor Berbeda dengan Induktor?"
     },
     {
-      blocks: [
-        { type: "heading", text: "📍 Apa Itu Kapasitor?" },
-        {
-          type: "paragraph",
-          text: "Kapasitor adalah komponen listrik yang terdiri atas dua pelat penghantar yang dipisahkan oleh bahan isolator (dielektrik).",
-        },
-        {
-          type: "paragraph",
-          text: "Kapasitor mampu menyimpan muatan listrik dan energi dalam bentuk medan listrik.",
-        },
-      ],
+      type: "paragraph",
+      text: "Jika induktor menyimpan energi dalam bentuk medan magnet, kapasitor menyimpan energi dalam bentuk medan listrik."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚡ Perilaku Kapasitor pada Arus AC" },
-        {
-          type: "paragraph",
-          text: "Pada arus bolak-balik, kapasitor terus mengalami proses pengisian dan pengosongan muatan karena arah arus selalu berubah.",
-        },
-        {
-          type: "paragraph",
-          text: "Akibatnya, arus dapat mengalir secara periodik meskipun muatan tidak berpindah menembus bahan dielektrik.",
-        },
-      ],
+      type: "paragraph",
+      text: "Perbedaan cara menyimpan energi ini menyebabkan kapasitor memiliki perilaku yang berbeda ketika dialiri arus bolak-balik."
+    }]
+
+  },
+  { heading:
+
+    "📍 Apa Itu Kapasitor?", blocks: [{ type: "heading", text: "📍 Apa Itu Kapasitor?" },
+    {
+      type: "paragraph",
+      text: "Kapasitor adalah komponen listrik yang terdiri atas dua pelat penghantar yang dipisahkan oleh bahan isolator (dielektrik)."
     },
     {
-      blocks: [
-        { type: "heading", text: "📐 Arus Mendahului Tegangan" },
-        {
-          type: "paragraph",
-          text: "Pada kapasitor murni, arus mencapai nilai maksimum lebih dahulu daripada tegangan.",
-        },
-        {
-          type: "paragraph",
-          text: "Dengan kata lain, arus mendahului tegangan sebesar 90° atau seperempat siklus.",
-        },
-      ],
+      type: "paragraph",
+      text: "Kapasitor mampu menyimpan muatan listrik dan energi dalam bentuk medan listrik."
+    }]
+
+  },
+  { heading:
+
+    "⚡ Perilaku Kapasitor pada Arus AC", blocks: [{ type: "heading", text: "⚡ Perilaku Kapasitor pada Arus AC" },
+    {
+      type: "paragraph",
+      text: "Pada arus bolak-balik, kapasitor terus mengalami proses pengisian dan pengosongan muatan karena arah arus selalu berubah."
     },
     {
-      blocks: [
-        { type: "heading", text: "🧮 Reaktansi Kapasitif" },
-        {
-          type: "paragraph",
-          text: "Hambatan yang diberikan kapasitor terhadap arus AC disebut reaktansi kapasitif (XC).",
-        },
-        {
-          type: "paragraph",
-          text: "Besarnya reaktansi kapasitif dipengaruhi oleh frekuensi sumber AC dan nilai kapasitansi.",
-        },
-      ],
+      type: "paragraph",
+      text: "Akibatnya, arus dapat mengalir secara periodik meskipun muatan tidak berpindah menembus bahan dielektrik."
+    }]
+
+  },
+  { heading:
+
+    "📐 Arus Mendahului Tegangan", blocks: [{ type: "heading", text: "📐 Arus Mendahului Tegangan" },
+    {
+      type: "paragraph",
+      text: "Pada kapasitor murni, arus mencapai nilai maksimum lebih dahulu daripada tegangan."
     },
     {
-      blocks: [
-        { type: "heading", text: "📈 Pengaruh Frekuensi" },
-        {
-          type: "paragraph",
-          text: "Semakin tinggi frekuensi arus AC, semakin kecil reaktansi kapasitif.",
-        },
-        {
-          type: "paragraph",
-          text: "Artinya, kapasitor lebih mudah dilewati oleh arus listrik ketika frekuensi meningkat.",
-        },
-      ],
+      type: "paragraph",
+      text: "Dengan kata lain, arus mendahului tegangan sebesar 90° atau seperempat siklus."
+    }]
+
+  },
+  { heading:
+
+    "🧮 Reaktansi Kapasitif", blocks: [{ type: "heading", text: "🧮 Reaktansi Kapasitif" },
+    {
+      type: "paragraph",
+      text: "Hambatan yang diberikan kapasitor terhadap arus AC disebut reaktansi kapasitif (XC)."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌍 Penerapan dalam Kehidupan" },
-        {
-          type: "paragraph",
-          text: "Kapasitor digunakan pada catu daya, filter elektronik, rangkaian pengatur waktu, radio, televisi, komputer, dan berbagai perangkat elektronika modern.",
-        },
-      ],
+      type: "paragraph",
+      text: "Besarnya reaktansi kapasitif dipengaruhi oleh frekuensi sumber AC dan nilai kapasitansi."
+    }]
+
+  },
+  { heading:
+
+    "📈 Pengaruh Frekuensi", blocks: [{ type: "heading", text: "📈 Pengaruh Frekuensi" },
+    {
+      type: "paragraph",
+      text: "Semakin tinggi frekuensi arus AC, semakin kecil reaktansi kapasitif."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
-        {
-          type: "paragraph",
-          text: "Banyak siswa menganggap kapasitor menghalangi semua arus listrik.",
-        },
-        {
-          type: "paragraph",
-          text: "Padahal kapasitor memang menghambat arus searah (DC) setelah terisi penuh, tetapi pada arus bolak-balik (AC) kapasitor tetap dapat dilalui arus akibat proses pengisian dan pengosongan yang terus berlangsung.",
-        },
-      ],
+      type: "paragraph",
+      text: "Artinya, kapasitor lebih mudah dilewati oleh arus listrik ketika frekuensi meningkat."
+    }]
+
+  },
+  { heading:
+
+    "🌍 Penerapan dalam Kehidupan", blocks: [{ type: "heading", text: "🌍 Penerapan dalam Kehidupan" },
+    {
+      type: "paragraph",
+      text: "Kapasitor digunakan pada catu daya, filter elektronik, rangkaian pengatur waktu, radio, televisi, komputer, dan berbagai perangkat elektronika modern."
+    }]
+
+  },
+  { heading:
+
+    "⚠️ Miskonsepsi yang Sering Terjadi", blocks: [{ type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
+    {
+      type: "paragraph",
+      text: "Banyak siswa menganggap kapasitor menghalangi semua arus listrik."
     },
     {
-      blocks: [
-        { type: "heading", text: "📊 Ringkasan Konsep" },
-        { type: "paragraph", text: "Kapasitor" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Medan Listrik" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Reaktansi Kapasitif" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Arus Mendahului 90°" },
-      ],
+      type: "paragraph",
+      text: "Padahal kapasitor memang menghambat arus searah (DC) setelah terisi penuh, tetapi pada arus bolak-balik (AC) kapasitor tetap dapat dilalui arus akibat proses pengisian dan pengosongan yang terus berlangsung."
+    }]
+
+  },
+  { heading:
+
+    "📊 Ringkasan Konsep", blocks: [{ type: "heading", text: "📊 Ringkasan Konsep" },
+    { type: "paragraph", text: "Kapasitor" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Medan Listrik" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Reaktansi Kapasitif" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Arus Mendahului 90°" }]
+
+  },
+  { heading:
+
+    "🔗 Hubungan dengan Materi Berikutnya", blocks: [{ type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
+    {
+      type: "paragraph",
+      text: "Setelah memahami perilaku resistor, induktor, dan kapasitor secara terpisah, kita akan mempelajari bagaimana komponen-komponen tersebut bekerja bersama dalam rangkaian RL."
+    }]
+
+  },
+  { heading:
+
+    "🧠 Inti Materi", blocks: [{ type: "heading", text: "🧠 Inti Materi" },
+    {
+      type: "paragraph",
+      text: "Kapasitor menyimpan energi dalam bentuk medan listrik dan memberikan reaktansi kapasitif pada arus AC."
     },
     {
-      blocks: [
-        { type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
-        {
-          type: "paragraph",
-          text: "Setelah memahami perilaku resistor, induktor, dan kapasitor secara terpisah, kita akan mempelajari bagaimana komponen-komponen tersebut bekerja bersama dalam rangkaian RL.",
-        },
-      ],
-    },
+      type: "paragraph",
+      text: "Pada kapasitor murni, arus mendahului tegangan sebesar 90°."
+    }]
+
+  },
+  { heading:
+
+    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
     {
-      blocks: [
-        { type: "heading", text: "🧠 Inti Materi" },
-        {
-          type: "paragraph",
-          text: "Kapasitor menyimpan energi dalam bentuk medan listrik dan memberikan reaktansi kapasitif pada arus AC.",
-        },
-        {
-          type: "paragraph",
-          text: "Pada kapasitor murni, arus mendahului tegangan sebesar 90°.",
-        },
-      ],
+      type: "paragraph",
+      text: "Apa yang terjadi jika resistor dan induktor digabungkan dalam satu rangkaian?"
     },
-    {
-      blocks: [
-        { type: "heading", text: "🚀 Next Mission" },
-        {
-          type: "paragraph",
-          text: "Apa yang terjadi jika resistor dan induktor digabungkan dalam satu rangkaian?",
-        },
-        { type: "paragraph", text: "➡️ Selanjutnya: Rangkaian RL." },
-      ],
-    },
-  ],
+    { type: "paragraph", text: "➡️ Selanjutnya: Rangkaian RL." }]
+
+  }]
+
 };
 
 export default kapasitorpadaac;

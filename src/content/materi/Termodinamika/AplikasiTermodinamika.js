@@ -2,266 +2,266 @@ const aplikasitermodinamika = {
   title: "Aplikasi Termodinamika",
   slug: "aplikasi-termodinamika",
   description:
-    "Memahami penerapan prinsip-prinsip termodinamika dalam teknologi, industri, transportasi, dan kehidupan sehari-hari.",
+  "Memahami penerapan prinsip-prinsip termodinamika dalam teknologi, industri, transportasi, dan kehidupan sehari-hari.",
   chapter: "🌡️ Termodinamika",
 
   content: [
+  { heading:
+
+    "🌎 Termodinamika di Sekitar Kita", blocks: [{ type: "heading", text: "🌎 Termodinamika di Sekitar Kita" },
     {
-      blocks: [
-        { type: "heading", text: "🌎 Termodinamika di Sekitar Kita" },
-        {
-          type: "paragraph",
-          text: "Meskipun sering dianggap sebagai materi yang rumit, prinsip-prinsip termodinamika sebenarnya hadir hampir di setiap aspek kehidupan modern.",
-        },
-        {
-          type: "paragraph",
-          text: "Mulai dari kendaraan, kulkas, AC, hingga pembangkit listrik bekerja berdasarkan hukum-hukum termodinamika.",
-        },
-      ],
+      type: "paragraph",
+      text: "Meskipun sering dianggap sebagai materi yang rumit, prinsip-prinsip termodinamika sebenarnya hadir hampir di setiap aspek kehidupan modern."
     },
     {
-      blocks: [
-        { type: "heading", text: "🚗 Mesin Kendaraan" },
-        {
-          type: "paragraph",
-          text: "Mesin bensin dan diesel mengubah energi kimia bahan bakar menjadi energi panas.",
-        },
-        {
-          type: "paragraph",
-          text: "Energi panas tersebut kemudian diubah menjadi kerja untuk menggerakkan piston dan roda kendaraan.",
-        },
-        {
-          type: "paragraph",
-          text: "Proses ini merupakan penerapan langsung mesin kalor.",
-        },
-      ],
+      type: "paragraph",
+      text: "Mulai dari kendaraan, kulkas, AC, hingga pembangkit listrik bekerja berdasarkan hukum-hukum termodinamika."
+    }]
+
+  },
+  { heading:
+
+    "🚗 Mesin Kendaraan", blocks: [{ type: "heading", text: "🚗 Mesin Kendaraan" },
+    {
+      type: "paragraph",
+      text: "Mesin bensin dan diesel mengubah energi kimia bahan bakar menjadi energi panas."
     },
     {
-      blocks: [
-        { type: "heading", text: "✈️ Mesin Jet Pesawat" },
-        {
-          type: "paragraph",
-          text: "Mesin jet bekerja dengan membakar bahan bakar dan menghasilkan gas panas bertekanan tinggi.",
-        },
-        {
-          type: "paragraph",
-          text: "Gas tersebut mengembang dan menghasilkan gaya dorong yang memungkinkan pesawat bergerak maju.",
-        },
-      ],
+      type: "paragraph",
+      text: "Energi panas tersebut kemudian diubah menjadi kerja untuk menggerakkan piston dan roda kendaraan."
     },
     {
-      blocks: [
-        { type: "heading", text: "🏭 Pembangkit Listrik" },
-        {
-          type: "paragraph",
-          text: "Banyak pembangkit listrik menggunakan uap panas untuk memutar turbin.",
-        },
-        {
-          type: "paragraph",
-          text: "Turbin kemudian menggerakkan generator yang menghasilkan energi listrik.",
-        },
-      ],
+      type: "paragraph",
+      text: "Proses ini merupakan penerapan langsung mesin kalor."
+    }]
+
+  },
+  { heading:
+
+    "✈️ Mesin Jet Pesawat", blocks: [{ type: "heading", text: "✈️ Mesin Jet Pesawat" },
+    {
+      type: "paragraph",
+      text: "Mesin jet bekerja dengan membakar bahan bakar dan menghasilkan gas panas bertekanan tinggi."
     },
     {
-      blocks: [
-        { type: "heading", text: "❄️ Kulkas" },
-        {
-          type: "paragraph",
-          text: "Kulkas memindahkan kalor dari bagian dalam yang dingin menuju lingkungan yang lebih hangat.",
-        },
-        {
-          type: "paragraph",
-          text: "Untuk melakukan proses tersebut diperlukan energi listrik.",
-        },
-      ],
+      type: "paragraph",
+      text: "Gas tersebut mengembang dan menghasilkan gaya dorong yang memungkinkan pesawat bergerak maju."
+    }]
+
+  },
+  { heading:
+
+    "🏭 Pembangkit Listrik", blocks: [{ type: "heading", text: "🏭 Pembangkit Listrik" },
+    {
+      type: "paragraph",
+      text: "Banyak pembangkit listrik menggunakan uap panas untuk memutar turbin."
     },
     {
-      blocks: [
-        { type: "heading", text: "🏠 Air Conditioner (AC)" },
-        {
-          type: "paragraph",
-          text: "AC bekerja dengan prinsip yang sama seperti kulkas.",
-        },
-        {
-          type: "paragraph",
-          text: "Kalor dari dalam ruangan dipindahkan ke lingkungan luar sehingga ruangan terasa lebih sejuk.",
-        },
-      ],
+      type: "paragraph",
+      text: "Turbin kemudian menggerakkan generator yang menghasilkan energi listrik."
+    }]
+
+  },
+  { heading:
+
+    "❄️ Kulkas", blocks: [{ type: "heading", text: "❄️ Kulkas" },
+    {
+      type: "paragraph",
+      text: "Kulkas memindahkan kalor dari bagian dalam yang dingin menuju lingkungan yang lebih hangat."
     },
     {
-      blocks: [
-        { type: "heading", text: "☕ Termos" },
-        {
-          type: "paragraph",
-          text: "Termos dirancang untuk mengurangi perpindahan kalor antara isi termos dan lingkungan.",
-        },
-        {
-          type: "paragraph",
-          text: "Dengan demikian suhu minuman dapat dipertahankan lebih lama.",
-        },
-      ],
+      type: "paragraph",
+      text: "Untuk melakukan proses tersebut diperlukan energi listrik."
+    }]
+
+  },
+  { heading:
+
+    "🏠 Air Conditioner (AC)", blocks: [{ type: "heading", text: "🏠 Air Conditioner (AC)" },
+    {
+      type: "paragraph",
+      text: "AC bekerja dengan prinsip yang sama seperti kulkas."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌡️ Sistem Pendingin Kendaraan" },
-        {
-          type: "paragraph",
-          text: "Radiator mobil membantu menjaga suhu mesin agar tidak terlalu tinggi.",
-        },
-        {
-          type: "paragraph",
-          text: "Kalor dari mesin dipindahkan ke udara melalui cairan pendingin.",
-        },
-      ],
+      type: "paragraph",
+      text: "Kalor dari dalam ruangan dipindahkan ke lingkungan luar sehingga ruangan terasa lebih sejuk."
+    }]
+
+  },
+  { heading:
+
+    "☕ Termos", blocks: [{ type: "heading", text: "☕ Termos" },
+    {
+      type: "paragraph",
+      text: "Termos dirancang untuk mengurangi perpindahan kalor antara isi termos dan lingkungan."
     },
     {
-      blocks: [
-        { type: "heading", text: "🏥 Dunia Medis" },
-        {
-          type: "paragraph",
-          text: "Termodinamika digunakan dalam berbagai peralatan medis seperti MRI, inkubator bayi, alat sterilisasi, dan sistem penyimpanan vaksin.",
-        },
-      ],
+      type: "paragraph",
+      text: "Dengan demikian suhu minuman dapat dipertahankan lebih lama."
+    }]
+
+  },
+  { heading:
+
+    "🌡️ Sistem Pendingin Kendaraan", blocks: [{ type: "heading", text: "🌡️ Sistem Pendingin Kendaraan" },
+    {
+      type: "paragraph",
+      text: "Radiator mobil membantu menjaga suhu mesin agar tidak terlalu tinggi."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚡ Pembangkit Energi Terbarukan" },
-        {
-          type: "paragraph",
-          text: "Pembangkit listrik tenaga surya termal memanfaatkan energi panas Matahari untuk menghasilkan uap dan memutar turbin.",
-        },
-      ],
+      type: "paragraph",
+      text: "Kalor dari mesin dipindahkan ke udara melalui cairan pendingin."
+    }]
+
+  },
+  { heading:
+
+    "🏥 Dunia Medis", blocks: [{ type: "heading", text: "🏥 Dunia Medis" },
+    {
+      type: "paragraph",
+      text: "Termodinamika digunakan dalam berbagai peralatan medis seperti MRI, inkubator bayi, alat sterilisasi, dan sistem penyimpanan vaksin."
+    }]
+
+  },
+  { heading:
+
+    "⚡ Pembangkit Energi Terbarukan", blocks: [{ type: "heading", text: "⚡ Pembangkit Energi Terbarukan" },
+    {
+      type: "paragraph",
+      text: "Pembangkit listrik tenaga surya termal memanfaatkan energi panas Matahari untuk menghasilkan uap dan memutar turbin."
+    }]
+
+  },
+  { heading:
+
+    "🚀 Teknologi Antariksa", blocks: [{ type: "heading", text: "🚀 Teknologi Antariksa" },
+    {
+      type: "paragraph",
+      text: "Pesawat luar angkasa menggunakan prinsip termodinamika untuk mengendalikan suhu peralatan dan sistem pendukung kehidupan."
+    }]
+
+  },
+  { heading:
+
+    "🧊 Teknologi Kriogenik", blocks: [{ type: "heading", text: "🧊 Teknologi Kriogenik" },
+    {
+      type: "paragraph",
+      text: "Kriogenik mempelajari teknik menghasilkan suhu yang sangat rendah."
     },
     {
-      blocks: [
-        { type: "heading", text: "🚀 Teknologi Antariksa" },
-        {
-          type: "paragraph",
-          text: "Pesawat luar angkasa menggunakan prinsip termodinamika untuk mengendalikan suhu peralatan dan sistem pendukung kehidupan.",
-        },
-      ],
+      type: "paragraph",
+      text: "Teknologi ini digunakan dalam penelitian fisika modern, superkonduktor, dan komputer kuantum."
+    }]
+
+  },
+  { heading:
+
+    "⚙️ Industri Manufaktur", blocks: [{ type: "heading", text: "⚙️ Industri Manufaktur" },
+    {
+      type: "paragraph",
+      text: "Berbagai proses industri memanfaatkan pemanasan, pendinginan, kompresi, dan ekspansi gas yang dianalisis menggunakan prinsip termodinamika."
+    }]
+
+  },
+  { heading:
+
+    "🌦️ Cuaca dan Atmosfer", blocks: [{ type: "heading", text: "🌦️ Cuaca dan Atmosfer" },
+    {
+      type: "paragraph",
+      text: "Pembentukan awan, hujan, angin, dan berbagai fenomena atmosfer melibatkan proses-proses termodinamika seperti ekspansi dan kompresi udara."
+    }]
+
+  },
+  { heading:
+
+    "🌋 Fenomena Alam", blocks: [{ type: "heading", text: "🌋 Fenomena Alam" },
+    {
+      type: "paragraph",
+      text: "Aktivitas gunung api, arus laut, dan perpindahan energi di atmosfer dapat dijelaskan menggunakan konsep termodinamika."
+    }]
+
+  },
+  { heading:
+
+    "🔋 Efisiensi Energi", blocks: [{ type: "heading", text: "🔋 Efisiensi Energi" },
+    {
+      type: "paragraph",
+      text: "Termodinamika membantu insinyur merancang mesin dan sistem yang lebih hemat energi serta ramah lingkungan."
+    }]
+
+  },
+  { heading:
+
+    "🌱 Termodinamika dan Lingkungan", blocks: [{ type: "heading", text: "🌱 Termodinamika dan Lingkungan" },
+    {
+      type: "paragraph",
+      text: "Peningkatan efisiensi energi dapat mengurangi konsumsi bahan bakar dan emisi gas rumah kaca."
     },
     {
-      blocks: [
-        { type: "heading", text: "🧊 Teknologi Kriogenik" },
-        {
-          type: "paragraph",
-          text: "Kriogenik mempelajari teknik menghasilkan suhu yang sangat rendah.",
-        },
-        {
-          type: "paragraph",
-          text: "Teknologi ini digunakan dalam penelitian fisika modern, superkonduktor, dan komputer kuantum.",
-        },
-      ],
+      type: "paragraph",
+      text: "Karena itu termodinamika memiliki peran penting dalam pembangunan berkelanjutan."
+    }]
+
+  },
+  { heading:
+
+
+
+    "🔗 Keterkaitan dengan Hukum-Hukum Termodinamika", blocks: [{ type: "heading", text: "🔗 Keterkaitan dengan Hukum-Hukum Termodinamika"
     },
     {
-      blocks: [
-        { type: "heading", text: "⚙️ Industri Manufaktur" },
-        {
-          type: "paragraph",
-          text: "Berbagai proses industri memanfaatkan pemanasan, pendinginan, kompresi, dan ekspansi gas yang dianalisis menggunakan prinsip termodinamika.",
-        },
-      ],
+      type: "paragraph",
+      text: "Seluruh aplikasi tersebut bekerja berdasarkan prinsip yang telah dipelajari sebelumnya:"
+    },
+    { type: "paragraph", text: "📜 Hukum I Termodinamika" },
+    { type: "paragraph", text: "📜 Hukum II Termodinamika" },
+    { type: "paragraph", text: "📜 Hukum III Termodinamika" }]
+
+  },
+  { heading:
+
+    "🎯 Apa yang Dapat Kita Pelajari?", blocks: [{ type: "heading", text: "🎯 Apa yang Dapat Kita Pelajari?" },
+    {
+      type: "paragraph",
+      text: "Termodinamika tidak hanya membantu kita memahami cara kerja mesin."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌦️ Cuaca dan Atmosfer" },
-        {
-          type: "paragraph",
-          text: "Pembentukan awan, hujan, angin, dan berbagai fenomena atmosfer melibatkan proses-proses termodinamika seperti ekspansi dan kompresi udara.",
-        },
-      ],
+      type: "paragraph",
+      text: "Ilmu ini juga membantu menjelaskan bagaimana energi berpindah, berubah bentuk, dan dimanfaatkan dalam kehidupan modern."
+    }]
+
+  },
+  { heading:
+
+    "🧠 Inti Materi", blocks: [{ type: "heading", text: "🧠 Inti Materi" },
+    {
+      type: "paragraph",
+      text: "Termodinamika memiliki banyak penerapan dalam kehidupan sehari-hari, teknologi, industri, transportasi, kesehatan, dan energi."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌋 Fenomena Alam" },
-        {
-          type: "paragraph",
-          text: "Aktivitas gunung api, arus laut, dan perpindahan energi di atmosfer dapat dijelaskan menggunakan konsep termodinamika.",
-        },
-      ],
+      type: "paragraph",
+      text: "Prinsip-prinsip termodinamika membantu manusia mengubah, memanfaatkan, dan mengelola energi secara lebih efektif."
+    }]
+
+  },
+  { heading:
+
+    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
+    {
+      type: "paragraph",
+      text: "Kita telah mempelajari sistem termodinamika, gas ideal, energi dalam, usaha, mesin kalor, mesin pendingin, serta hukum-hukum termodinamika."
     },
     {
-      blocks: [
-        { type: "heading", text: "🔋 Efisiensi Energi" },
-        {
-          type: "paragraph",
-          text: "Termodinamika membantu insinyur merancang mesin dan sistem yang lebih hemat energi serta ramah lingkungan.",
-        },
-      ],
+      type: "paragraph",
+      text: "Saatnya merangkum seluruh konsep tersebut dalam satu benang merah besar."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌱 Termodinamika dan Lingkungan" },
-        {
-          type: "paragraph",
-          text: "Peningkatan efisiensi energi dapat mengurangi konsumsi bahan bakar dan emisi gas rumah kaca.",
-        },
-        {
-          type: "paragraph",
-          text: "Karena itu termodinamika memiliki peran penting dalam pembangunan berkelanjutan.",
-        },
-      ],
-    },
-    {
-      blocks: [
-        {
-          type: "heading",
-          text: "🔗 Keterkaitan dengan Hukum-Hukum Termodinamika",
-        },
-        {
-          type: "paragraph",
-          text: "Seluruh aplikasi tersebut bekerja berdasarkan prinsip yang telah dipelajari sebelumnya:",
-        },
-        { type: "paragraph", text: "📜 Hukum I Termodinamika" },
-        { type: "paragraph", text: "📜 Hukum II Termodinamika" },
-        { type: "paragraph", text: "📜 Hukum III Termodinamika" },
-      ],
-    },
-    {
-      blocks: [
-        { type: "heading", text: "🎯 Apa yang Dapat Kita Pelajari?" },
-        {
-          type: "paragraph",
-          text: "Termodinamika tidak hanya membantu kita memahami cara kerja mesin.",
-        },
-        {
-          type: "paragraph",
-          text: "Ilmu ini juga membantu menjelaskan bagaimana energi berpindah, berubah bentuk, dan dimanfaatkan dalam kehidupan modern.",
-        },
-      ],
-    },
-    {
-      blocks: [
-        { type: "heading", text: "🧠 Inti Materi" },
-        {
-          type: "paragraph",
-          text: "Termodinamika memiliki banyak penerapan dalam kehidupan sehari-hari, teknologi, industri, transportasi, kesehatan, dan energi.",
-        },
-        {
-          type: "paragraph",
-          text: "Prinsip-prinsip termodinamika membantu manusia mengubah, memanfaatkan, dan mengelola energi secara lebih efektif.",
-        },
-      ],
-    },
-    {
-      blocks: [
-        { type: "heading", text: "🚀 Next Mission" },
-        {
-          type: "paragraph",
-          text: "Kita telah mempelajari sistem termodinamika, gas ideal, energi dalam, usaha, mesin kalor, mesin pendingin, serta hukum-hukum termodinamika.",
-        },
-        {
-          type: "paragraph",
-          text: "Saatnya merangkum seluruh konsep tersebut dalam satu benang merah besar.",
-        },
-        {
-          type: "paragraph",
-          text: "➡️ Selanjutnya: Penutup Chapter Termodinamika.",
-        },
-      ],
-    },
-  ],
+      type: "paragraph",
+      text: "➡️ Selanjutnya: Penutup Chapter Termodinamika."
+    }]
+
+  }]
+
 };
 
 export default aplikasitermodinamika;

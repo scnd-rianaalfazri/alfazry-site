@@ -2,224 +2,224 @@ const strukturatomdanmuatanlistrik = {
   title: "Struktur Atom dan Muatan Listrik",
   slug: "struktur atom dan muatan listrik",
   description:
-    "Memahami struktur atom, jenis-jenis partikel penyusun atom, serta bagaimana suatu benda dapat menjadi bermuatan listrik.",
+  "Memahami struktur atom, jenis-jenis partikel penyusun atom, serta bagaimana suatu benda dapat menjadi bermuatan listrik.",
   chapter: "⚡ Listrik Statis",
 
   content: [
+  { heading:
+
+    "⚛️ Semua Benda Tersusun atas Atom", blocks: [{ type: "heading", text: "⚛️ Semua Benda Tersusun atas Atom" },
     {
-      blocks: [
-        { type: "heading", text: "⚛️ Semua Benda Tersusun atas Atom" },
-        {
-          type: "paragraph",
-          text: "Segala benda di sekitar kita, seperti meja, air, udara, hingga tubuh manusia, tersusun atas partikel yang sangat kecil yang disebut atom.",
-        },
-        {
-          type: "paragraph",
-          text: "Walaupun ukurannya sangat kecil, atom memiliki peran penting dalam menjelaskan berbagai fenomena listrik statis.",
-        },
-      ],
+      type: "paragraph",
+      text: "Segala benda di sekitar kita, seperti meja, air, udara, hingga tubuh manusia, tersusun atas partikel yang sangat kecil yang disebut atom."
     },
     {
-      blocks: [
-        { type: "heading", text: "🔬 Apa Itu Atom?" },
-        {
-          type: "paragraph",
-          text: "Atom adalah partikel penyusun dasar suatu materi yang masih memiliki sifat unsur tersebut.",
-        },
-        {
-          type: "paragraph",
-          text: "Atom terdiri atas inti atom dan elektron yang bergerak mengelilinginya.",
-        },
-      ],
+      type: "paragraph",
+      text: "Walaupun ukurannya sangat kecil, atom memiliki peran penting dalam menjelaskan berbagai fenomena listrik statis."
+    }]
+
+  },
+  { heading:
+
+    "🔬 Apa Itu Atom?", blocks: [{ type: "heading", text: "🔬 Apa Itu Atom?" },
+    {
+      type: "paragraph",
+      text: "Atom adalah partikel penyusun dasar suatu materi yang masih memiliki sifat unsur tersebut."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚛️ Partikel Penyusun Atom" },
-        {
-          type: "paragraph",
-          text: "Atom tersusun atas tiga partikel utama, yaitu proton, neutron, dan elektron.",
-        },
-        {
-          type: "paragraph",
-          text: "Masing-masing partikel memiliki muatan listrik yang berbeda.",
-        },
-      ],
+      type: "paragraph",
+      text: "Atom terdiri atas inti atom dan elektron yang bergerak mengelilinginya."
+    }]
+
+  },
+  { heading:
+
+    "⚛️ Partikel Penyusun Atom", blocks: [{ type: "heading", text: "⚛️ Partikel Penyusun Atom" },
+    {
+      type: "paragraph",
+      text: "Atom tersusun atas tiga partikel utama, yaitu proton, neutron, dan elektron."
     },
     {
-      blocks: [
-        { type: "heading", text: "➕ Proton" },
-        {
-          type: "paragraph",
-          text: "Proton merupakan partikel bermuatan positif (+).",
-        },
-        {
-          type: "paragraph",
-          text: "Proton berada di dalam inti atom bersama neutron.",
-        },
-      ],
+      type: "paragraph",
+      text: "Masing-masing partikel memiliki muatan listrik yang berbeda."
+    }]
+
+  },
+  { heading:
+
+    "➕ Proton", blocks: [{ type: "heading", text: "➕ Proton" },
+    {
+      type: "paragraph",
+      text: "Proton merupakan partikel bermuatan positif (+)."
     },
     {
-      blocks: [
-        { type: "heading", text: "➖ Elektron" },
-        {
-          type: "paragraph",
-          text: "Elektron merupakan partikel bermuatan negatif (−).",
-        },
-        {
-          type: "paragraph",
-          text: "Elektron bergerak mengelilingi inti atom dan merupakan partikel yang paling mudah berpindah dari satu benda ke benda lainnya.",
-        },
-      ],
+      type: "paragraph",
+      text: "Proton berada di dalam inti atom bersama neutron."
+    }]
+
+  },
+  { heading:
+
+    "➖ Elektron", blocks: [{ type: "heading", text: "➖ Elektron" },
+    {
+      type: "paragraph",
+      text: "Elektron merupakan partikel bermuatan negatif (−)."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚪ Neutron" },
-        {
-          type: "paragraph",
-          text: "Neutron tidak memiliki muatan listrik (netral).",
-        },
-        {
-          type: "paragraph",
-          text: "Neutron bersama proton membentuk inti atom.",
-        },
-      ],
+      type: "paragraph",
+      text: "Elektron bergerak mengelilingi inti atom dan merupakan partikel yang paling mudah berpindah dari satu benda ke benda lainnya."
+    }]
+
+  },
+  { heading:
+
+    "⚪ Neutron", blocks: [{ type: "heading", text: "⚪ Neutron" },
+    {
+      type: "paragraph",
+      text: "Neutron tidak memiliki muatan listrik (netral)."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚖️ Atom Netral" },
-        {
-          type: "paragraph",
-          text: "Suatu atom dikatakan netral jika jumlah proton sama dengan jumlah elektronnya.",
-        },
-        {
-          type: "paragraph",
-          text: "Pada kondisi ini, muatan positif dan muatan negatif saling menyeimbangkan.",
-        },
-      ],
+      type: "paragraph",
+      text: "Neutron bersama proton membentuk inti atom."
+    }]
+
+  },
+  { heading:
+
+    "⚖️ Atom Netral", blocks: [{ type: "heading", text: "⚖️ Atom Netral" },
+    {
+      type: "paragraph",
+      text: "Suatu atom dikatakan netral jika jumlah proton sama dengan jumlah elektronnya."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚡ Bagaimana Benda Menjadi Bermuatan?" },
-        {
-          type: "paragraph",
-          text: "Sebuah benda menjadi bermuatan ketika jumlah elektronnya berubah.",
-        },
-        {
-          type: "paragraph",
-          text: "Perubahan ini terjadi karena elektron dapat berpindah dari satu benda ke benda lain.",
-        },
-      ],
+      type: "paragraph",
+      text: "Pada kondisi ini, muatan positif dan muatan negatif saling menyeimbangkan."
+    }]
+
+  },
+  { heading:
+
+    "⚡ Bagaimana Benda Menjadi Bermuatan?", blocks: [{ type: "heading", text: "⚡ Bagaimana Benda Menjadi Bermuatan?" },
+    {
+      type: "paragraph",
+      text: "Sebuah benda menjadi bermuatan ketika jumlah elektronnya berubah."
     },
     {
-      blocks: [
-        { type: "heading", text: "➕ Muatan Positif" },
-        {
-          type: "paragraph",
-          text: "Jika suatu benda kehilangan elektron, jumlah proton menjadi lebih banyak daripada elektron sehingga benda bermuatan positif.",
-        },
-      ],
+      type: "paragraph",
+      text: "Perubahan ini terjadi karena elektron dapat berpindah dari satu benda ke benda lain."
+    }]
+
+  },
+  { heading:
+
+    "➕ Muatan Positif", blocks: [{ type: "heading", text: "➕ Muatan Positif" },
+    {
+      type: "paragraph",
+      text: "Jika suatu benda kehilangan elektron, jumlah proton menjadi lebih banyak daripada elektron sehingga benda bermuatan positif."
+    }]
+
+  },
+  { heading:
+
+    "➖ Muatan Negatif", blocks: [{ type: "heading", text: "➖ Muatan Negatif" },
+    {
+      type: "paragraph",
+      text: "Jika suatu benda menerima tambahan elektron, jumlah elektron menjadi lebih banyak daripada proton sehingga benda bermuatan negatif."
+    }]
+
+  },
+  { heading:
+
+    "💡 Mengapa Proton Tidak Berpindah?", blocks: [{ type: "heading", text: "💡 Mengapa Proton Tidak Berpindah?" },
+    {
+      type: "paragraph",
+      text: "Dalam listrik statis, proton tetap berada di dalam inti atom sehingga tidak berpindah antar benda."
     },
     {
-      blocks: [
-        { type: "heading", text: "➖ Muatan Negatif" },
-        {
-          type: "paragraph",
-          text: "Jika suatu benda menerima tambahan elektron, jumlah elektron menjadi lebih banyak daripada proton sehingga benda bermuatan negatif.",
-        },
-      ],
+      type: "paragraph",
+      text: "Yang berpindah hanyalah elektron karena letaknya berada di luar inti atom dan lebih mudah bergerak."
+    }]
+
+  },
+  { heading:
+
+    "🌎 Contoh dalam Kehidupan", blocks: [{ type: "heading", text: "🌎 Contoh dalam Kehidupan" },
+    {
+      type: "paragraph",
+      text: "Saat balon digosokkan pada rambut, elektron berpindah dari rambut ke balon."
     },
     {
-      blocks: [
-        { type: "heading", text: "💡 Mengapa Proton Tidak Berpindah?" },
-        {
-          type: "paragraph",
-          text: "Dalam listrik statis, proton tetap berada di dalam inti atom sehingga tidak berpindah antar benda.",
-        },
-        {
-          type: "paragraph",
-          text: "Yang berpindah hanyalah elektron karena letaknya berada di luar inti atom dan lebih mudah bergerak.",
-        },
-      ],
+      type: "paragraph",
+      text: "Akibatnya balon menjadi bermuatan negatif, sedangkan rambut menjadi bermuatan positif."
+    }]
+
+  },
+  { heading:
+
+    "⚠️ Miskonsepsi yang Sering Terjadi", blocks: [{ type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
+    {
+      type: "paragraph",
+      text: "Banyak siswa mengira proton berpindah dari satu benda ke benda lain."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌎 Contoh dalam Kehidupan" },
-        {
-          type: "paragraph",
-          text: "Saat balon digosokkan pada rambut, elektron berpindah dari rambut ke balon.",
-        },
-        {
-          type: "paragraph",
-          text: "Akibatnya balon menjadi bermuatan negatif, sedangkan rambut menjadi bermuatan positif.",
-        },
-      ],
+      type: "paragraph",
+      text: "Padahal dalam fenomena listrik statis, yang berpindah adalah elektron."
+    }]
+
+  },
+  { heading:
+
+    "📊 Ringkasan Konsep", blocks: [{ type: "heading", text: "📊 Ringkasan Konsep" },
+    { type: "paragraph", text: "Atom" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Proton, Neutron, Elektron" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Perpindahan Elektron" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Muatan Listrik" }]
+
+  },
+  { heading:
+
+    "🔗 Hubungan dengan Materi Berikutnya", blocks: [{ type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
+    {
+      type: "paragraph",
+      text: "Meskipun elektron dapat berpindah dari satu benda ke benda lain, jumlah muatan listrik secara keseluruhan tetap."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
-        {
-          type: "paragraph",
-          text: "Banyak siswa mengira proton berpindah dari satu benda ke benda lain.",
-        },
-        {
-          type: "paragraph",
-          text: "Padahal dalam fenomena listrik statis, yang berpindah adalah elektron.",
-        },
-      ],
+      type: "paragraph",
+      text: "Konsep ini dikenal sebagai Hukum Kekekalan Muatan."
+    }]
+
+  },
+  { heading:
+
+    "🧠 Inti Materi", blocks: [{ type: "heading", text: "🧠 Inti Materi" },
+    {
+      type: "paragraph",
+      text: "Atom terdiri atas proton, neutron, dan elektron."
     },
     {
-      blocks: [
-        { type: "heading", text: "📊 Ringkasan Konsep" },
-        { type: "paragraph", text: "Atom" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Proton, Neutron, Elektron" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Perpindahan Elektron" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Muatan Listrik" },
-      ],
+      type: "paragraph",
+      text: "Suatu benda menjadi bermuatan karena kehilangan atau memperoleh elektron."
     },
     {
-      blocks: [
-        { type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
-        {
-          type: "paragraph",
-          text: "Meskipun elektron dapat berpindah dari satu benda ke benda lain, jumlah muatan listrik secara keseluruhan tetap.",
-        },
-        {
-          type: "paragraph",
-          text: "Konsep ini dikenal sebagai Hukum Kekekalan Muatan.",
-        },
-      ],
-    },
+      type: "paragraph",
+      text: "Dalam listrik statis, elektron merupakan partikel yang berpindah antar benda."
+    }]
+
+  },
+  { heading:
+
+    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
     {
-      blocks: [
-        { type: "heading", text: "🧠 Inti Materi" },
-        {
-          type: "paragraph",
-          text: "Atom terdiri atas proton, neutron, dan elektron.",
-        },
-        {
-          type: "paragraph",
-          text: "Suatu benda menjadi bermuatan karena kehilangan atau memperoleh elektron.",
-        },
-        {
-          type: "paragraph",
-          text: "Dalam listrik statis, elektron merupakan partikel yang berpindah antar benda.",
-        },
-      ],
+      type: "paragraph",
+      text: "Apakah muatan listrik dapat diciptakan atau dimusnahkan?"
     },
-    {
-      blocks: [
-        { type: "heading", text: "🚀 Next Mission" },
-        {
-          type: "paragraph",
-          text: "Apakah muatan listrik dapat diciptakan atau dimusnahkan?",
-        },
-        { type: "paragraph", text: "➡️ Selanjutnya: Hukum Kekekalan Muatan." },
-      ],
-    },
-  ],
+    { type: "paragraph", text: "➡️ Selanjutnya: Hukum Kekekalan Muatan." }]
+
+  }]
+
 };
 
 export default strukturatomdanmuatanlistrik;

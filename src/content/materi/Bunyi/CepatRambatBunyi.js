@@ -3,278 +3,278 @@ const cepatrambatbunyi = {
   slug: "cepat rambat bunyi",
   chapter: "🔊 Bunyi",
   description:
-    "Memahami konsep cepat rambat bunyi, faktor-faktor yang memengaruhinya, serta perbedaan kecepatan bunyi pada berbagai medium.",
+  "Memahami konsep cepat rambat bunyi, faktor-faktor yang memengaruhinya, serta perbedaan kecepatan bunyi pada berbagai medium.",
 
   content: [
-    {
-      blocks: [
-        {
-          type: "heading",
-          text: "⚡ Mengapa Kita Melihat Kilat Lebih Dulu daripada Mendengar Petir?",
-        },
-        {
-          type: "paragraph",
-          text: "Saat terjadi badai, kilat dan petir sebenarnya terjadi hampir bersamaan.",
-        },
-        {
-          type: "paragraph",
-          text: "Namun kita biasanya melihat kilat lebih dahulu, kemudian beberapa saat setelahnya baru mendengar suara petir.",
-        },
-        {
-          type: "paragraph",
-          text: "Fenomena ini berkaitan dengan perbedaan kecepatan rambat cahaya dan bunyi.",
-        },
-      ],
+  { heading:
+
+
+
+    "⚡ Mengapa Kita Melihat Kilat Lebih Dulu daripada Mendengar Petir?", blocks: [{ type: "heading", text: "⚡ Mengapa Kita Melihat Kilat Lebih Dulu daripada Mendengar Petir?"
     },
     {
-      blocks: [
-        { type: "heading", text: "📍 Apa Itu Cepat Rambat Bunyi?" },
-        {
-          type: "paragraph",
-          text: "Cepat rambat bunyi adalah kecepatan perambatan gelombang bunyi melalui suatu medium.",
-        },
-        {
-          type: "paragraph",
-          text: "Besaran ini menunjukkan seberapa cepat bunyi berpindah dari sumber menuju pendengar.",
-        },
-      ],
+      type: "paragraph",
+      text: "Saat terjadi badai, kilat dan petir sebenarnya terjadi hampir bersamaan."
     },
     {
-      blocks: [
-        { type: "heading", text: "🚀 Bunyi Tidak Merambat Seketika" },
-        {
-          type: "paragraph",
-          text: "Meskipun terdengar sangat cepat, bunyi memerlukan waktu untuk mencapai telinga kita.",
-        },
-        {
-          type: "paragraph",
-          text: "Semakin jauh sumber bunyi, semakin lama waktu yang dibutuhkan bunyi untuk sampai.",
-        },
-      ],
+      type: "paragraph",
+      text: "Namun kita biasanya melihat kilat lebih dahulu, kemudian beberapa saat setelahnya baru mendengar suara petir."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌎 Bunyi Memerlukan Medium" },
-        {
-          type: "paragraph",
-          text: "Bunyi hanya dapat merambat jika terdapat medium yang meneruskan getaran.",
-        },
-        {
-          type: "paragraph",
-          text: "Medium tersebut dapat berupa gas, cair, atau padat.",
-        },
-      ],
+      type: "paragraph",
+      text: "Fenomena ini berkaitan dengan perbedaan kecepatan rambat cahaya dan bunyi."
+    }]
+
+  },
+  { heading:
+
+    "📍 Apa Itu Cepat Rambat Bunyi?", blocks: [{ type: "heading", text: "📍 Apa Itu Cepat Rambat Bunyi?" },
+    {
+      type: "paragraph",
+      text: "Cepat rambat bunyi adalah kecepatan perambatan gelombang bunyi melalui suatu medium."
     },
     {
-      blocks: [
-        { type: "heading", text: "📊 Medium dan Cepat Rambat Bunyi" },
-        {
-          type: "paragraph",
-          text: "Cepat rambat bunyi berbeda-beda pada setiap medium.",
-        },
-        {
-          type: "paragraph",
-          text: "Secara umum bunyi merambat paling cepat pada zat padat dan paling lambat pada gas.",
-        },
-      ],
+      type: "paragraph",
+      text: "Besaran ini menunjukkan seberapa cepat bunyi berpindah dari sumber menuju pendengar."
+    }]
+
+  },
+  { heading:
+
+    "🚀 Bunyi Tidak Merambat Seketika", blocks: [{ type: "heading", text: "🚀 Bunyi Tidak Merambat Seketika" },
+    {
+      type: "paragraph",
+      text: "Meskipun terdengar sangat cepat, bunyi memerlukan waktu untuk mencapai telinga kita."
     },
     {
-      blocks: [
-        { type: "heading", text: "🧱 Bunyi pada Zat Padat" },
-        {
-          type: "paragraph",
-          text: "Partikel-partikel zat padat tersusun sangat rapat sehingga getaran dapat diteruskan dengan cepat.",
-        },
-        {
-          type: "paragraph",
-          text: "Karena itu bunyi merambat paling cepat pada zat padat.",
-        },
-      ],
+      type: "paragraph",
+      text: "Semakin jauh sumber bunyi, semakin lama waktu yang dibutuhkan bunyi untuk sampai."
+    }]
+
+  },
+  { heading:
+
+    "🌎 Bunyi Memerlukan Medium", blocks: [{ type: "heading", text: "🌎 Bunyi Memerlukan Medium" },
+    {
+      type: "paragraph",
+      text: "Bunyi hanya dapat merambat jika terdapat medium yang meneruskan getaran."
     },
     {
-      blocks: [
-        { type: "heading", text: "💧 Bunyi pada Zat Cair" },
-        {
-          type: "paragraph",
-          text: "Pada zat cair, jarak antarpartikel lebih renggang dibandingkan zat padat.",
-        },
-        {
-          type: "paragraph",
-          text: "Akibatnya cepat rambat bunyi lebih kecil daripada pada zat padat.",
-        },
-      ],
+      type: "paragraph",
+      text: "Medium tersebut dapat berupa gas, cair, atau padat."
+    }]
+
+  },
+  { heading:
+
+    "📊 Medium dan Cepat Rambat Bunyi", blocks: [{ type: "heading", text: "📊 Medium dan Cepat Rambat Bunyi" },
+    {
+      type: "paragraph",
+      text: "Cepat rambat bunyi berbeda-beda pada setiap medium."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌬️ Bunyi pada Gas" },
-        {
-          type: "paragraph",
-          text: "Partikel gas memiliki jarak yang lebih renggang.",
-        },
-        {
-          type: "paragraph",
-          text: "Karena itu bunyi merambat paling lambat pada medium gas seperti udara.",
-        },
-      ],
+      type: "paragraph",
+      text: "Secara umum bunyi merambat paling cepat pada zat padat dan paling lambat pada gas."
+    }]
+
+  },
+  { heading:
+
+    "🧱 Bunyi pada Zat Padat", blocks: [{ type: "heading", text: "🧱 Bunyi pada Zat Padat" },
+    {
+      type: "paragraph",
+      text: "Partikel-partikel zat padat tersusun sangat rapat sehingga getaran dapat diteruskan dengan cepat."
     },
     {
-      blocks: [
-        { type: "heading", text: "🚂 Mendengar Rel Kereta" },
-        {
-          type: "paragraph",
-          text: "Orang yang menempelkan telinga ke rel kereta dapat mendengar suara kereta lebih cepat dibandingkan melalui udara.",
-        },
-        {
-          type: "paragraph",
-          text: "Hal ini terjadi karena bunyi merambat lebih cepat pada baja daripada pada udara.",
-        },
-      ],
+      type: "paragraph",
+      text: "Karena itu bunyi merambat paling cepat pada zat padat."
+    }]
+
+  },
+  { heading:
+
+    "💧 Bunyi pada Zat Cair", blocks: [{ type: "heading", text: "💧 Bunyi pada Zat Cair" },
+    {
+      type: "paragraph",
+      text: "Pada zat cair, jarak antarpartikel lebih renggang dibandingkan zat padat."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌡️ Pengaruh Suhu" },
-        {
-          type: "paragraph",
-          text: "Pada medium gas, cepat rambat bunyi dipengaruhi oleh suhu.",
-        },
-        {
-          type: "paragraph",
-          text: "Semakin tinggi suhu udara, semakin cepat partikel-partikel udara bergerak dan meneruskan getaran.",
-        },
-      ],
+      type: "paragraph",
+      text: "Akibatnya cepat rambat bunyi lebih kecil daripada pada zat padat."
+    }]
+
+  },
+  { heading:
+
+    "🌬️ Bunyi pada Gas", blocks: [{ type: "heading", text: "🌬️ Bunyi pada Gas" },
+    {
+      type: "paragraph",
+      text: "Partikel gas memiliki jarak yang lebih renggang."
     },
     {
-      blocks: [
-        { type: "heading", text: "☀️ Bunyi pada Siang dan Malam Hari" },
-        {
-          type: "paragraph",
-          text: "Perbedaan suhu udara dapat memengaruhi perambatan bunyi.",
-        },
-        {
-          type: "paragraph",
-          text: "Karena itu suara terkadang terdengar lebih jelas pada malam hari dibandingkan siang hari.",
-        },
-      ],
+      type: "paragraph",
+      text: "Karena itu bunyi merambat paling lambat pada medium gas seperti udara."
+    }]
+
+  },
+  { heading:
+
+    "🚂 Mendengar Rel Kereta", blocks: [{ type: "heading", text: "🚂 Mendengar Rel Kereta" },
+    {
+      type: "paragraph",
+      text: "Orang yang menempelkan telinga ke rel kereta dapat mendengar suara kereta lebih cepat dibandingkan melalui udara."
     },
     {
-      blocks: [
-        { type: "heading", text: "📏 Hubungan Jarak, Waktu, dan Kecepatan" },
-        {
-          type: "paragraph",
-          text: "Jika diketahui jarak yang ditempuh bunyi dan waktu tempuhnya, cepat rambat bunyi dapat dihitung menggunakan hubungan dasar antara jarak dan waktu.",
-        },
-      ],
+      type: "paragraph",
+      text: "Hal ini terjadi karena bunyi merambat lebih cepat pada baja daripada pada udara."
+    }]
+
+  },
+  { heading:
+
+    "🌡️ Pengaruh Suhu", blocks: [{ type: "heading", text: "🌡️ Pengaruh Suhu" },
+    {
+      type: "paragraph",
+      text: "Pada medium gas, cepat rambat bunyi dipengaruhi oleh suhu."
     },
     {
-      blocks: [
-        { type: "heading", text: "🔊 Cepat Rambat Bunyi di Udara" },
-        {
-          type: "paragraph",
-          text: "Pada suhu ruang, cepat rambat bunyi di udara sekitar 340 meter per sekon.",
-        },
-        {
-          type: "paragraph",
-          text: "Nilai ini dapat berubah bergantung pada kondisi lingkungan.",
-        },
-      ],
+      type: "paragraph",
+      text: "Semakin tinggi suhu udara, semakin cepat partikel-partikel udara bergerak dan meneruskan getaran."
+    }]
+
+  },
+  { heading:
+
+    "☀️ Bunyi pada Siang dan Malam Hari", blocks: [{ type: "heading", text: "☀️ Bunyi pada Siang dan Malam Hari" },
+    {
+      type: "paragraph",
+      text: "Perbedaan suhu udara dapat memengaruhi perambatan bunyi."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌊 Hubungan dengan Gelombang" },
-        {
-          type: "paragraph",
-          text: "Sebagai gelombang, bunyi juga memiliki hubungan antara cepat rambat, frekuensi, dan panjang gelombang.",
-        },
-      ],
+      type: "paragraph",
+      text: "Karena itu suara terkadang terdengar lebih jelas pada malam hari dibandingkan siang hari."
+    }]
+
+  },
+  { heading:
+
+    "📏 Hubungan Jarak, Waktu, dan Kecepatan", blocks: [{ type: "heading", text: "📏 Hubungan Jarak, Waktu, dan Kecepatan" },
+    {
+      type: "paragraph",
+      text: "Jika diketahui jarak yang ditempuh bunyi dan waktu tempuhnya, cepat rambat bunyi dapat dihitung menggunakan hubungan dasar antara jarak dan waktu."
+    }]
+
+  },
+  { heading:
+
+    "🔊 Cepat Rambat Bunyi di Udara", blocks: [{ type: "heading", text: "🔊 Cepat Rambat Bunyi di Udara" },
+    {
+      type: "paragraph",
+      text: "Pada suhu ruang, cepat rambat bunyi di udara sekitar 340 meter per sekon."
     },
     {
-      blocks: [
-        { type: "heading", text: "🏥 Aplikasi Cepat Rambat Bunyi" },
-        {
-          type: "paragraph",
-          text: "Teknologi sonar, USG, dan berbagai alat pengukur jarak memanfaatkan konsep cepat rambat bunyi.",
-        },
-      ],
+      type: "paragraph",
+      text: "Nilai ini dapat berubah bergantung pada kondisi lingkungan."
+    }]
+
+  },
+  { heading:
+
+    "🌊 Hubungan dengan Gelombang", blocks: [{ type: "heading", text: "🌊 Hubungan dengan Gelombang" },
+    {
+      type: "paragraph",
+      text: "Sebagai gelombang, bunyi juga memiliki hubungan antara cepat rambat, frekuensi, dan panjang gelombang."
+    }]
+
+  },
+  { heading:
+
+    "🏥 Aplikasi Cepat Rambat Bunyi", blocks: [{ type: "heading", text: "🏥 Aplikasi Cepat Rambat Bunyi" },
+    {
+      type: "paragraph",
+      text: "Teknologi sonar, USG, dan berbagai alat pengukur jarak memanfaatkan konsep cepat rambat bunyi."
+    }]
+
+  },
+  { heading:
+
+    "🚢 Sonar", blocks: [{ type: "heading", text: "🚢 Sonar" },
+    {
+      type: "paragraph",
+      text: "Sonar menentukan posisi objek di bawah air dengan mengukur waktu yang diperlukan bunyi untuk pergi dan kembali setelah dipantulkan."
+    }]
+
+  },
+  { heading:
+
+    "⚠️ Miskonsepsi yang Sering Terjadi", blocks: [{ type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
+    {
+      type: "paragraph",
+      text: "Banyak siswa mengira bunyi selalu merambat dengan kecepatan yang sama."
     },
     {
-      blocks: [
-        { type: "heading", text: "🚢 Sonar" },
-        {
-          type: "paragraph",
-          text: "Sonar menentukan posisi objek di bawah air dengan mengukur waktu yang diperlukan bunyi untuk pergi dan kembali setelah dipantulkan.",
-        },
-      ],
+      type: "paragraph",
+      text: "Padahal cepat rambat bunyi bergantung pada medium dan kondisi lingkungan."
+    }]
+
+  },
+  { heading:
+
+    "📊 Ringkasan Konsep", blocks: [{ type: "heading", text: "📊 Ringkasan Konsep" },
+    { type: "paragraph", text: "Medium" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Perambatan Getaran" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Cepat Rambat Bunyi" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Sampai ke Pendengar" }]
+
+  },
+  { heading:
+
+    "🔗 Hubungan dengan Materi Berikutnya", blocks: [{ type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
+    {
+      type: "paragraph",
+      text: "Selain cepat rambat, bunyi juga memiliki karakteristik lain yang menentukan bagaimana bunyi terdengar oleh manusia."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
-        {
-          type: "paragraph",
-          text: "Banyak siswa mengira bunyi selalu merambat dengan kecepatan yang sama.",
-        },
-        {
-          type: "paragraph",
-          text: "Padahal cepat rambat bunyi bergantung pada medium dan kondisi lingkungan.",
-        },
-      ],
+      type: "paragraph",
+      text: "Karakteristik tersebut akan dibahas pada materi berikutnya."
+    }]
+
+  },
+  { heading:
+
+    "🧠 Inti Materi", blocks: [{ type: "heading", text: "🧠 Inti Materi" },
+    {
+      type: "paragraph",
+      text: "Cepat rambat bunyi adalah kecepatan perambatan gelombang bunyi melalui suatu medium."
     },
     {
-      blocks: [
-        { type: "heading", text: "📊 Ringkasan Konsep" },
-        { type: "paragraph", text: "Medium" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Perambatan Getaran" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Cepat Rambat Bunyi" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Sampai ke Pendengar" },
-      ],
+      type: "paragraph",
+      text: "Cepat rambat bunyi bergantung pada medium dan suhu lingkungan."
     },
     {
-      blocks: [
-        { type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
-        {
-          type: "paragraph",
-          text: "Selain cepat rambat, bunyi juga memiliki karakteristik lain yang menentukan bagaimana bunyi terdengar oleh manusia.",
-        },
-        {
-          type: "paragraph",
-          text: "Karakteristik tersebut akan dibahas pada materi berikutnya.",
-        },
-      ],
+      type: "paragraph",
+      text: "Secara umum bunyi merambat paling cepat pada zat padat dan paling lambat pada gas."
+    }]
+
+  },
+  { heading:
+
+    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
+    {
+      type: "paragraph",
+      text: "Mengapa suara gitar dan piano berbeda meskipun memainkan nada yang sama?"
     },
     {
-      blocks: [
-        { type: "heading", text: "🧠 Inti Materi" },
-        {
-          type: "paragraph",
-          text: "Cepat rambat bunyi adalah kecepatan perambatan gelombang bunyi melalui suatu medium.",
-        },
-        {
-          type: "paragraph",
-          text: "Cepat rambat bunyi bergantung pada medium dan suhu lingkungan.",
-        },
-        {
-          type: "paragraph",
-          text: "Secara umum bunyi merambat paling cepat pada zat padat dan paling lambat pada gas.",
-        },
-      ],
+      type: "paragraph",
+      text: "Mengapa ada bunyi yang terdengar keras dan ada yang lemah?"
     },
-    {
-      blocks: [
-        { type: "heading", text: "🚀 Next Mission" },
-        {
-          type: "paragraph",
-          text: "Mengapa suara gitar dan piano berbeda meskipun memainkan nada yang sama?",
-        },
-        {
-          type: "paragraph",
-          text: "Mengapa ada bunyi yang terdengar keras dan ada yang lemah?",
-        },
-        { type: "paragraph", text: "➡️ Selanjutnya: Karakteristik Bunyi." },
-      ],
-    },
-  ],
+    { type: "paragraph", text: "➡️ Selanjutnya: Karakteristik Bunyi." }]
+
+  }]
+
 };
 
 export default cepatrambatbunyi;

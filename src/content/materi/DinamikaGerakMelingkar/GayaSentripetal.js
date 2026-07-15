@@ -2,177 +2,177 @@ const gayasentripetal = {
   title: "Gaya Sentripetal",
   slug: "gaya sentripetal",
   description:
-    "Memahami gaya sentripetal sebagai resultan gaya yang menyebabkan benda tetap bergerak pada lintasan melingkar.",
+  "Memahami gaya sentripetal sebagai resultan gaya yang menyebabkan benda tetap bergerak pada lintasan melingkar.",
   chapter: "🎡 Dinamika: Gerak Melingkar",
 
   content: [
+  { heading:
+
+    "⭕ Mengapa Benda Tetap Berputar?", blocks: [{ type: "heading", text: "⭕ Mengapa Benda Tetap Berputar?" },
     {
-      blocks: [
-        { type: "heading", text: "⭕ Mengapa Benda Tetap Berputar?" },
-        {
-          type: "paragraph",
-          text: "Jika sebuah benda bergerak melingkar, sebenarnya benda tersebut memiliki kecenderungan untuk bergerak lurus karena inersia.",
-        },
-        {
-          type: "paragraph",
-          text: "Agar tetap mengikuti lintasan melingkar, harus ada gaya yang menarik benda menuju pusat.",
-        },
-      ],
+      type: "paragraph",
+      text: "Jika sebuah benda bergerak melingkar, sebenarnya benda tersebut memiliki kecenderungan untuk bergerak lurus karena inersia."
     },
     {
-      blocks: [
-        { type: "heading", text: "📍 Apa Itu Gaya Sentripetal?" },
-        {
-          type: "paragraph",
-          text: "Gaya sentripetal adalah gaya resultan yang arahnya menuju pusat lingkaran dan menyebabkan benda tetap bergerak melingkar.",
-        },
-        { type: "paragraph", text: "Kata sentripetal berarti 'menuju pusat'." },
-      ],
+      type: "paragraph",
+      text: "Agar tetap mengikuti lintasan melingkar, harus ada gaya yang menarik benda menuju pusat."
+    }]
+
+  },
+  { heading:
+
+    "📍 Apa Itu Gaya Sentripetal?", blocks: [{ type: "heading", text: "📍 Apa Itu Gaya Sentripetal?" },
+    {
+      type: "paragraph",
+      text: "Gaya sentripetal adalah gaya resultan yang arahnya menuju pusat lingkaran dan menyebabkan benda tetap bergerak melingkar."
+    },
+    { type: "paragraph", text: "Kata sentripetal berarti 'menuju pusat'." }]
+
+  },
+  { heading:
+
+    "⚡ Gaya Sentripetal Bukan Gaya Baru", blocks: [{ type: "heading", text: "⚡ Gaya Sentripetal Bukan Gaya Baru" },
+    {
+      type: "paragraph",
+      text: "Gaya sentripetal bukan jenis gaya yang berdiri sendiri."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚡ Gaya Sentripetal Bukan Gaya Baru" },
-        {
-          type: "paragraph",
-          text: "Gaya sentripetal bukan jenis gaya yang berdiri sendiri.",
-        },
-        {
-          type: "paragraph",
-          text: "Gaya sentripetal adalah nama untuk resultan gaya yang arahnya menuju pusat.",
-        },
-        { type: "paragraph", text: "Gaya tersebut bisa berasal dari:" },
-        { type: "paragraph", text: "🧱 gaya gesek" },
-        { type: "paragraph", text: "🪢 tegangan tali" },
-        { type: "paragraph", text: "🌎 gravitasi" },
-        { type: "paragraph", text: "⚡ gaya listrik" },
-      ],
+      type: "paragraph",
+      text: "Gaya sentripetal adalah nama untuk resultan gaya yang arahnya menuju pusat."
+    },
+    { type: "paragraph", text: "Gaya tersebut bisa berasal dari:" },
+    { type: "paragraph", text: "🧱 gaya gesek" },
+    { type: "paragraph", text: "🪢 tegangan tali" },
+    { type: "paragraph", text: "🌎 gravitasi" },
+    { type: "paragraph", text: "⚡ gaya listrik" }]
+
+  },
+  { heading:
+
+    "🚗 Mobil Saat Berbelok", blocks: [{ type: "heading", text: "🚗 Mobil Saat Berbelok" },
+    { type: "paragraph", text: "Saat mobil melewati tikungan:" },
+    {
+      type: "paragraph",
+      text: "🚗 mobil memiliki kecenderungan bergerak lurus"
     },
     {
-      blocks: [
-        { type: "heading", text: "🚗 Mobil Saat Berbelok" },
-        { type: "paragraph", text: "Saat mobil melewati tikungan:" },
-        {
-          type: "paragraph",
-          text: "🚗 mobil memiliki kecenderungan bergerak lurus",
-        },
-        {
-          type: "paragraph",
-          text: "🛞 gaya gesek ban dengan jalan mengarah ke pusat tikungan",
-        },
-        {
-          type: "paragraph",
-          text: "Gaya gesek tersebut menjadi gaya sentripetal.",
-        },
-      ],
+      type: "paragraph",
+      text: "🛞 gaya gesek ban dengan jalan mengarah ke pusat tikungan"
     },
     {
-      blocks: [
-        { type: "heading", text: "🪢 Benda Diputar dengan Tali" },
-        { type: "paragraph", text: "Ketika bola diputar menggunakan tali:" },
-        {
-          type: "paragraph",
-          text: "🪢 tegangan tali menarik bola menuju pusat",
-        },
-        {
-          type: "paragraph",
-          text: "Tegangan tali berperan sebagai gaya sentripetal.",
-        },
-      ],
+      type: "paragraph",
+      text: "Gaya gesek tersebut menjadi gaya sentripetal."
+    }]
+
+  },
+  { heading:
+
+    "🪢 Benda Diputar dengan Tali", blocks: [{ type: "heading", text: "🪢 Benda Diputar dengan Tali" },
+    { type: "paragraph", text: "Ketika bola diputar menggunakan tali:" },
+    {
+      type: "paragraph",
+      text: "🪢 tegangan tali menarik bola menuju pusat"
     },
     {
-      blocks: [
-        { type: "heading", text: "🌎 Gerak Planet" },
-        {
-          type: "paragraph",
-          text: "Planet dapat mengorbit karena adanya gaya gravitasi.",
-        },
-        {
-          type: "paragraph",
-          text: "Gravitasi matahari menarik planet menuju pusat orbit.",
-        },
-        {
-          type: "paragraph",
-          text: "Gaya gravitasi tersebut berfungsi sebagai gaya sentripetal.",
-        },
-      ],
+      type: "paragraph",
+      text: "Tegangan tali berperan sebagai gaya sentripetal."
+    }]
+
+  },
+  { heading:
+
+    "🌎 Gerak Planet", blocks: [{ type: "heading", text: "🌎 Gerak Planet" },
+    {
+      type: "paragraph",
+      text: "Planet dapat mengorbit karena adanya gaya gravitasi."
     },
     {
-      blocks: [
-        { type: "heading", text: "🧠 Hubungan dengan Hukum Newton II" },
-        {
-          type: "paragraph",
-          text: "Karena gaya sentripetal adalah gaya, maka tetap mengikuti Hukum Newton II.",
-        },
-        {
-          type: "paragraph",
-          text: "Semakin besar gaya menuju pusat, semakin besar perubahan gerak melingkar benda.",
-        },
-      ],
+      type: "paragraph",
+      text: "Gravitasi matahari menarik planet menuju pusat orbit."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚖️ Faktor yang Memengaruhi" },
-        { type: "paragraph", text: "Besar gaya sentripetal dipengaruhi oleh:" },
-        { type: "paragraph", text: "⚖️ massa benda" },
-        { type: "paragraph", text: "🏎️ kecepatan benda" },
-        { type: "paragraph", text: "⭕ jari-jari lintasan" },
-        {
-          type: "paragraph",
-          text: "Benda yang lebih berat atau bergerak lebih cepat membutuhkan gaya menuju pusat yang lebih besar.",
-        },
-      ],
+      type: "paragraph",
+      text: "Gaya gravitasi tersebut berfungsi sebagai gaya sentripetal."
+    }]
+
+  },
+  { heading:
+
+    "🧠 Hubungan dengan Hukum Newton II", blocks: [{ type: "heading", text: "🧠 Hubungan dengan Hukum Newton II" },
+    {
+      type: "paragraph",
+      text: "Karena gaya sentripetal adalah gaya, maka tetap mengikuti Hukum Newton II."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌎 Contoh Penerapan" },
-        { type: "paragraph", text: "Gaya sentripetal digunakan pada:" },
-        { type: "paragraph", text: "🚗 kendaraan menikung" },
-        { type: "paragraph", text: "🎡 wahana berputar" },
-        { type: "paragraph", text: "🛰️ satelit mengorbit" },
-        { type: "paragraph", text: "⚙️ mesin berputar" },
-      ],
+      type: "paragraph",
+      text: "Semakin besar gaya menuju pusat, semakin besar perubahan gerak melingkar benda."
+    }]
+
+  },
+  { heading:
+
+    "⚖️ Faktor yang Memengaruhi", blocks: [{ type: "heading", text: "⚖️ Faktor yang Memengaruhi" },
+    { type: "paragraph", text: "Besar gaya sentripetal dipengaruhi oleh:" },
+    { type: "paragraph", text: "⚖️ massa benda" },
+    { type: "paragraph", text: "🏎️ kecepatan benda" },
+    { type: "paragraph", text: "⭕ jari-jari lintasan" },
+    {
+      type: "paragraph",
+      text: "Benda yang lebih berat atau bergerak lebih cepat membutuhkan gaya menuju pusat yang lebih besar."
+    }]
+
+  },
+  { heading:
+
+    "🌎 Contoh Penerapan", blocks: [{ type: "heading", text: "🌎 Contoh Penerapan" },
+    { type: "paragraph", text: "Gaya sentripetal digunakan pada:" },
+    { type: "paragraph", text: "🚗 kendaraan menikung" },
+    { type: "paragraph", text: "🎡 wahana berputar" },
+    { type: "paragraph", text: "🛰️ satelit mengorbit" },
+    { type: "paragraph", text: "⚙️ mesin berputar" }]
+
+  },
+  { heading:
+
+    "⚠️ Jika Gaya Sentripetal Hilang", blocks: [{ type: "heading", text: "⚠️ Jika Gaya Sentripetal Hilang" },
+    { type: "paragraph", text: "Jika gaya menuju pusat tiba-tiba hilang:" },
+    {
+      type: "paragraph",
+      text: "benda tidak akan melanjutkan gerak melingkar."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚠️ Jika Gaya Sentripetal Hilang" },
-        { type: "paragraph", text: "Jika gaya menuju pusat tiba-tiba hilang:" },
-        {
-          type: "paragraph",
-          text: "benda tidak akan melanjutkan gerak melingkar.",
-        },
-        {
-          type: "paragraph",
-          text: "Benda akan bergerak lurus mengikuti arah kecepatan saat itu.",
-        },
-      ],
+      type: "paragraph",
+      text: "Benda akan bergerak lurus mengikuti arah kecepatan saat itu."
+    }]
+
+  },
+  { heading:
+
+    "✨ Inti Materi", blocks: [{ type: "heading", text: "✨ Inti Materi" },
+    {
+      type: "paragraph",
+      text: "Gaya sentripetal adalah resultan gaya menuju pusat yang menjaga benda tetap bergerak melingkar."
     },
     {
-      blocks: [
-        { type: "heading", text: "✨ Inti Materi" },
-        {
-          type: "paragraph",
-          text: "Gaya sentripetal adalah resultan gaya menuju pusat yang menjaga benda tetap bergerak melingkar.",
-        },
-        {
-          type: "paragraph",
-          text: "Tanpa gaya sentripetal, gerak melingkar tidak dapat terjadi.",
-        },
-      ],
+      type: "paragraph",
+      text: "Tanpa gaya sentripetal, gerak melingkar tidak dapat terjadi."
+    }]
+
+  },
+  { heading:
+
+    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
+    {
+      type: "paragraph",
+      text: "Setelah memahami gaya yang menyebabkan gerak melingkar, kita akan melihat penerapannya dalam kehidupan nyata."
     },
     {
-      blocks: [
-        { type: "heading", text: "🚀 Next Mission" },
-        {
-          type: "paragraph",
-          text: "Setelah memahami gaya yang menyebabkan gerak melingkar, kita akan melihat penerapannya dalam kehidupan nyata.",
-        },
-        {
-          type: "paragraph",
-          text: "➡️ Selanjutnya: Aplikasi Dinamika Gerak Melingkar.",
-        },
-      ],
-    },
-  ],
+      type: "paragraph",
+      text: "➡️ Selanjutnya: Aplikasi Dinamika Gerak Melingkar."
+    }]
+
+  }]
+
 };
 
 export default gayasentripetal;

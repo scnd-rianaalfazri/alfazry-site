@@ -2,229 +2,229 @@ const viskositas = {
   title: "Viskositas",
   slug: "viskositas",
   description:
-    "Memahami konsep viskositas, faktor-faktor yang memengaruhinya, serta penerapannya dalam kehidupan sehari-hari.",
+  "Memahami konsep viskositas, faktor-faktor yang memengaruhinya, serta penerapannya dalam kehidupan sehari-hari.",
   chapter: "💧 Fluida",
 
   content: [
-    {
-      blocks: [
-        {
-          type: "heading",
-          text: "🍯 Mengapa Madu Mengalir Lebih Lambat daripada Air?",
-        },
-        {
-          type: "paragraph",
-          text: "Jika air dan madu dituangkan dari wadah yang sama, air akan mengalir lebih cepat.",
-        },
-        {
-          type: "paragraph",
-          text: "Sebaliknya, madu mengalir lebih lambat karena memiliki kekentalan yang lebih tinggi.",
-        },
-        {
-          type: "paragraph",
-          text: "Sifat inilah yang dikenal sebagai viskositas.",
-        },
-      ],
+  { heading:
+
+
+
+    "🍯 Mengapa Madu Mengalir Lebih Lambat daripada Air?", blocks: [{ type: "heading", text: "🍯 Mengapa Madu Mengalir Lebih Lambat daripada Air?"
     },
     {
-      blocks: [
-        { type: "heading", text: "📍 Apa Itu Viskositas?" },
-        {
-          type: "paragraph",
-          text: "Viskositas adalah ukuran hambatan suatu fluida terhadap aliran.",
-        },
-        {
-          type: "paragraph",
-          text: "Semakin besar viskositas suatu fluida, semakin sulit fluida tersebut mengalir.",
-        },
-      ],
+      type: "paragraph",
+      text: "Jika air dan madu dituangkan dari wadah yang sama, air akan mengalir lebih cepat."
     },
     {
-      blocks: [
-        { type: "heading", text: "💡 Makna Viskositas" },
-        {
-          type: "paragraph",
-          text: "Viskositas sering disebut sebagai ukuran kekentalan fluida.",
-        },
-        {
-          type: "paragraph",
-          text: "Namun secara fisika, viskositas menunjukkan besarnya gaya gesek internal antar lapisan fluida saat fluida mengalir.",
-        },
-      ],
+      type: "paragraph",
+      text: "Sebaliknya, madu mengalir lebih lambat karena memiliki kekentalan yang lebih tinggi."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌊 Mengapa Fluida Memiliki Viskositas?" },
-        {
-          type: "paragraph",
-          text: "Saat fluida mengalir, setiap lapisan fluida bergesekan dengan lapisan di sebelahnya.",
-        },
-        {
-          type: "paragraph",
-          text: "Gesekan internal inilah yang menyebabkan fluida mengalami hambatan aliran.",
-        },
-      ],
+      type: "paragraph",
+      text: "Sifat inilah yang dikenal sebagai viskositas."
+    }]
+
+  },
+  { heading:
+
+    "📍 Apa Itu Viskositas?", blocks: [{ type: "heading", text: "📍 Apa Itu Viskositas?" },
+    {
+      type: "paragraph",
+      text: "Viskositas adalah ukuran hambatan suatu fluida terhadap aliran."
     },
     {
-      blocks: [
-        { type: "heading", text: "📈 Viskositas Tinggi" },
-        {
-          type: "paragraph",
-          text: "Fluida dengan viskositas tinggi mengalir lebih lambat.",
-        },
-        {
-          type: "paragraph",
-          text: "Contohnya madu, sirup, oli, dan gliserin.",
-        },
-      ],
+      type: "paragraph",
+      text: "Semakin besar viskositas suatu fluida, semakin sulit fluida tersebut mengalir."
+    }]
+
+  },
+  { heading:
+
+    "💡 Makna Viskositas", blocks: [{ type: "heading", text: "💡 Makna Viskositas" },
+    {
+      type: "paragraph",
+      text: "Viskositas sering disebut sebagai ukuran kekentalan fluida."
     },
     {
-      blocks: [
-        { type: "heading", text: "📉 Viskositas Rendah" },
-        {
-          type: "paragraph",
-          text: "Fluida dengan viskositas rendah lebih mudah mengalir.",
-        },
-        { type: "paragraph", text: "Contohnya air, alkohol, dan bensin." },
-      ],
+      type: "paragraph",
+      text: "Namun secara fisika, viskositas menunjukkan besarnya gaya gesek internal antar lapisan fluida saat fluida mengalir."
+    }]
+
+  },
+  { heading:
+
+    "🌊 Mengapa Fluida Memiliki Viskositas?", blocks: [{ type: "heading", text: "🌊 Mengapa Fluida Memiliki Viskositas?" },
+    {
+      type: "paragraph",
+      text: "Saat fluida mengalir, setiap lapisan fluida bergesekan dengan lapisan di sebelahnya."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌡️ Pengaruh Suhu" },
-        {
-          type: "paragraph",
-          text: "Pada zat cair, kenaikan suhu umumnya menyebabkan viskositas menurun.",
-        },
-        {
-          type: "paragraph",
-          text: "Itulah sebabnya madu menjadi lebih encer ketika dipanaskan.",
-        },
-      ],
+      type: "paragraph",
+      text: "Gesekan internal inilah yang menyebabkan fluida mengalami hambatan aliran."
+    }]
+
+  },
+  { heading:
+
+    "📈 Viskositas Tinggi", blocks: [{ type: "heading", text: "📈 Viskositas Tinggi" },
+    {
+      type: "paragraph",
+      text: "Fluida dengan viskositas tinggi mengalir lebih lambat."
     },
     {
-      blocks: [
-        { type: "heading", text: "💨 Viskositas Gas" },
-        {
-          type: "paragraph",
-          text: "Berbeda dengan zat cair, viskositas gas justru cenderung meningkat ketika suhu naik.",
-        },
-      ],
+      type: "paragraph",
+      text: "Contohnya madu, sirup, oli, dan gliserin."
+    }]
+
+  },
+  { heading:
+
+    "📉 Viskositas Rendah", blocks: [{ type: "heading", text: "📉 Viskositas Rendah" },
+    {
+      type: "paragraph",
+      text: "Fluida dengan viskositas rendah lebih mudah mengalir."
+    },
+    { type: "paragraph", text: "Contohnya air, alkohol, dan bensin." }]
+
+  },
+  { heading:
+
+    "🌡️ Pengaruh Suhu", blocks: [{ type: "heading", text: "🌡️ Pengaruh Suhu" },
+    {
+      type: "paragraph",
+      text: "Pada zat cair, kenaikan suhu umumnya menyebabkan viskositas menurun."
     },
     {
-      blocks: [
-        { type: "heading", text: "🚗 Oli Mesin" },
-        {
-          type: "paragraph",
-          text: "Oli digunakan untuk mengurangi gesekan antar komponen mesin.",
-        },
-        {
-          type: "paragraph",
-          text: "Pemilihan oli harus mempertimbangkan nilai viskositasnya agar pelumasan bekerja secara optimal.",
-        },
-      ],
+      type: "paragraph",
+      text: "Itulah sebabnya madu menjadi lebih encer ketika dipanaskan."
+    }]
+
+  },
+  { heading:
+
+    "💨 Viskositas Gas", blocks: [{ type: "heading", text: "💨 Viskositas Gas" },
+    {
+      type: "paragraph",
+      text: "Berbeda dengan zat cair, viskositas gas justru cenderung meningkat ketika suhu naik."
+    }]
+
+  },
+  { heading:
+
+    "🚗 Oli Mesin", blocks: [{ type: "heading", text: "🚗 Oli Mesin" },
+    {
+      type: "paragraph",
+      text: "Oli digunakan untuk mengurangi gesekan antar komponen mesin."
     },
     {
-      blocks: [
-        { type: "heading", text: "🩸 Viskositas Darah" },
-        {
-          type: "paragraph",
-          text: "Darah juga merupakan fluida yang memiliki viskositas.",
-        },
-        {
-          type: "paragraph",
-          text: "Perubahan viskositas darah dapat memengaruhi kerja sistem peredaran darah.",
-        },
-      ],
+      type: "paragraph",
+      text: "Pemilihan oli harus mempertimbangkan nilai viskositasnya agar pelumasan bekerja secara optimal."
+    }]
+
+  },
+  { heading:
+
+    "🩸 Viskositas Darah", blocks: [{ type: "heading", text: "🩸 Viskositas Darah" },
+    {
+      type: "paragraph",
+      text: "Darah juga merupakan fluida yang memiliki viskositas."
     },
     {
-      blocks: [
-        { type: "heading", text: "🏭 Penerapan Viskositas" },
-        {
-          type: "paragraph",
-          text: "Konsep viskositas dimanfaatkan dalam industri makanan, farmasi, otomotif, minyak bumi, dan berbagai proses manufaktur.",
-        },
-      ],
+      type: "paragraph",
+      text: "Perubahan viskositas darah dapat memengaruhi kerja sistem peredaran darah."
+    }]
+
+  },
+  { heading:
+
+    "🏭 Penerapan Viskositas", blocks: [{ type: "heading", text: "🏭 Penerapan Viskositas" },
+    {
+      type: "paragraph",
+      text: "Konsep viskositas dimanfaatkan dalam industri makanan, farmasi, otomotif, minyak bumi, dan berbagai proses manufaktur."
+    }]
+
+  },
+  { heading:
+
+    "🧪 Pengukuran Viskositas", blocks: [{ type: "heading", text: "🧪 Pengukuran Viskositas" },
+    {
+      type: "paragraph",
+      text: "Viskositas suatu fluida dapat diukur menggunakan alat yang disebut viskometer."
+    }]
+
+  },
+  { heading:
+
+    "🌎 Viskositas dalam Kehidupan", blocks: [{ type: "heading", text: "🌎 Viskositas dalam Kehidupan" },
+    {
+      type: "paragraph",
+      text: "Saat menuangkan kecap, mencampur cat, atau menggunakan sampo, kita sedang berhadapan dengan fenomena viskositas."
+    }]
+
+  },
+  { heading:
+
+    "⚠️ Miskonsepsi yang Sering Terjadi", blocks: [{ type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
+    {
+      type: "paragraph",
+      text: "Banyak siswa menganggap fluida yang lebih berat pasti lebih kental."
     },
     {
-      blocks: [
-        { type: "heading", text: "🧪 Pengukuran Viskositas" },
-        {
-          type: "paragraph",
-          text: "Viskositas suatu fluida dapat diukur menggunakan alat yang disebut viskometer.",
-        },
-      ],
+      type: "paragraph",
+      text: "Padahal massa jenis dan viskositas merupakan dua besaran yang berbeda."
+    }]
+
+  },
+  { heading:
+
+    "📊 Ringkasan Konsep", blocks: [{ type: "heading", text: "📊 Ringkasan Konsep" },
+    { type: "paragraph", text: "Gesekan Internal" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Hambatan Aliran" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Viskositas" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Cepat atau Lambat Mengalir" }]
+
+  },
+  { heading:
+
+    "🔗 Hubungan dengan Materi Berikutnya", blocks: [{ type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
+    {
+      type: "paragraph",
+      text: "Setelah memahami sifat-sifat fluida yang diam, selanjutnya kita akan mempelajari fluida yang sedang bergerak."
+    }]
+
+  },
+  { heading:
+
+    "🧠 Inti Materi", blocks: [{ type: "heading", text: "🧠 Inti Materi" },
+    {
+      type: "paragraph",
+      text: "Viskositas adalah ukuran hambatan fluida terhadap aliran."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌎 Viskositas dalam Kehidupan" },
-        {
-          type: "paragraph",
-          text: "Saat menuangkan kecap, mencampur cat, atau menggunakan sampo, kita sedang berhadapan dengan fenomena viskositas.",
-        },
-      ],
+      type: "paragraph",
+      text: "Semakin besar viskositas, semakin sulit fluida mengalir."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
-        {
-          type: "paragraph",
-          text: "Banyak siswa menganggap fluida yang lebih berat pasti lebih kental.",
-        },
-        {
-          type: "paragraph",
-          text: "Padahal massa jenis dan viskositas merupakan dua besaran yang berbeda.",
-        },
-      ],
-    },
+      type: "paragraph",
+      text: "Konsep ini sangat penting dalam berbagai bidang teknik, kesehatan, dan industri."
+    }]
+
+  },
+  { heading:
+
+    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
     {
-      blocks: [
-        { type: "heading", text: "📊 Ringkasan Konsep" },
-        { type: "paragraph", text: "Gesekan Internal" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Hambatan Aliran" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Viskositas" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Cepat atau Lambat Mengalir" },
-      ],
+      type: "paragraph",
+      text: "Bagaimana fluida bergerak di dalam pipa atau sungai?"
     },
-    {
-      blocks: [
-        { type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
-        {
-          type: "paragraph",
-          text: "Setelah memahami sifat-sifat fluida yang diam, selanjutnya kita akan mempelajari fluida yang sedang bergerak.",
-        },
-      ],
-    },
-    {
-      blocks: [
-        { type: "heading", text: "🧠 Inti Materi" },
-        {
-          type: "paragraph",
-          text: "Viskositas adalah ukuran hambatan fluida terhadap aliran.",
-        },
-        {
-          type: "paragraph",
-          text: "Semakin besar viskositas, semakin sulit fluida mengalir.",
-        },
-        {
-          type: "paragraph",
-          text: "Konsep ini sangat penting dalam berbagai bidang teknik, kesehatan, dan industri.",
-        },
-      ],
-    },
-    {
-      blocks: [
-        { type: "heading", text: "🚀 Next Mission" },
-        {
-          type: "paragraph",
-          text: "Bagaimana fluida bergerak di dalam pipa atau sungai?",
-        },
-        { type: "paragraph", text: "➡️ Selanjutnya: Fluida Dinamis." },
-      ],
-    },
-  ],
+    { type: "paragraph", text: "➡️ Selanjutnya: Fluida Dinamis." }]
+
+  }]
+
 };
 
 export default viskositas;

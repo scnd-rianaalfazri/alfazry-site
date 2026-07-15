@@ -2,193 +2,193 @@ const hambatanlistrik = {
   title: "Hambatan Listrik",
   slug: "hambatan listrik",
   description:
-    "Memahami konsep hambatan listrik, faktor-faktor yang memengaruhinya, serta peran hambatan dalam rangkaian listrik.",
+  "Memahami konsep hambatan listrik, faktor-faktor yang memengaruhinya, serta peran hambatan dalam rangkaian listrik.",
   chapter: "⚡ Listrik Dinamis: Arus Searah",
 
   content: [
-    {
-      blocks: [
-        {
-          type: "heading",
-          text: "🚧 Mengapa Arus Listrik Tidak Selalu Mengalir dengan Mudah?",
-        },
-        {
-          type: "paragraph",
-          text: "Saat arus listrik mengalir melalui penghantar, elektron tidak selalu bergerak bebas.",
-        },
-        {
-          type: "paragraph",
-          text: "Elektron sering bertumbukan dengan atom-atom penyusun penghantar sehingga gerakannya terhambat.",
-        },
-        {
-          type: "paragraph",
-          text: "Perlawanan terhadap aliran elektron inilah yang disebut hambatan listrik.",
-        },
-      ],
+  { heading:
+
+
+
+    "🚧 Mengapa Arus Listrik Tidak Selalu Mengalir dengan Mudah?", blocks: [{ type: "heading", text: "🚧 Mengapa Arus Listrik Tidak Selalu Mengalir dengan Mudah?"
     },
     {
-      blocks: [
-        { type: "heading", text: "📍 Apa Itu Hambatan Listrik?" },
-        {
-          type: "paragraph",
-          text: "Hambatan listrik adalah besaran yang menyatakan seberapa besar suatu penghantar menghambat aliran arus listrik.",
-        },
-        {
-          type: "paragraph",
-          text: "Semakin besar hambatan, semakin sulit arus listrik mengalir melalui penghantar tersebut.",
-        },
-      ],
+      type: "paragraph",
+      text: "Saat arus listrik mengalir melalui penghantar, elektron tidak selalu bergerak bebas."
     },
     {
-      blocks: [
-        { type: "heading", text: "💡 Makna Hambatan Listrik" },
-        {
-          type: "paragraph",
-          text: "Hambatan listrik menentukan mudah atau sulitnya arus listrik mengalir dalam suatu rangkaian.",
-        },
-        {
-          type: "paragraph",
-          text: "Penghantar dengan hambatan kecil lebih mudah dialiri arus dibandingkan penghantar dengan hambatan besar.",
-        },
-      ],
+      type: "paragraph",
+      text: "Elektron sering bertumbukan dengan atom-atom penyusun penghantar sehingga gerakannya terhambat."
     },
     {
-      blocks: [
-        { type: "heading", text: "📏 Faktor yang Memengaruhi Hambatan" },
-        {
-          type: "paragraph",
-          text: "Besar hambatan listrik dipengaruhi oleh jenis bahan penghantar, panjang penghantar, luas penampang, dan suhu penghantar.",
-        },
-      ],
+      type: "paragraph",
+      text: "Perlawanan terhadap aliran elektron inilah yang disebut hambatan listrik."
+    }]
+
+  },
+  { heading:
+
+    "📍 Apa Itu Hambatan Listrik?", blocks: [{ type: "heading", text: "📍 Apa Itu Hambatan Listrik?" },
+    {
+      type: "paragraph",
+      text: "Hambatan listrik adalah besaran yang menyatakan seberapa besar suatu penghantar menghambat aliran arus listrik."
     },
     {
-      blocks: [
-        { type: "heading", text: "🧱 Jenis Bahan" },
-        {
-          type: "paragraph",
-          text: "Setiap bahan memiliki kemampuan yang berbeda dalam menghantarkan listrik.",
-        },
-        {
-          type: "paragraph",
-          text: "Logam seperti tembaga memiliki hambatan kecil, sedangkan karet dan plastik memiliki hambatan yang sangat besar.",
-        },
-      ],
+      type: "paragraph",
+      text: "Semakin besar hambatan, semakin sulit arus listrik mengalir melalui penghantar tersebut."
+    }]
+
+  },
+  { heading:
+
+    "💡 Makna Hambatan Listrik", blocks: [{ type: "heading", text: "💡 Makna Hambatan Listrik" },
+    {
+      type: "paragraph",
+      text: "Hambatan listrik menentukan mudah atau sulitnya arus listrik mengalir dalam suatu rangkaian."
     },
     {
-      blocks: [
-        { type: "heading", text: "📐 Panjang Penghantar" },
-        {
-          type: "paragraph",
-          text: "Semakin panjang penghantar, semakin besar hambatannya.",
-        },
-        {
-          type: "paragraph",
-          text: "Elektron harus menempuh lintasan yang lebih jauh sehingga peluang bertumbukan dengan atom semakin besar.",
-        },
-      ],
+      type: "paragraph",
+      text: "Penghantar dengan hambatan kecil lebih mudah dialiri arus dibandingkan penghantar dengan hambatan besar."
+    }]
+
+  },
+  { heading:
+
+    "📏 Faktor yang Memengaruhi Hambatan", blocks: [{ type: "heading", text: "📏 Faktor yang Memengaruhi Hambatan" },
+    {
+      type: "paragraph",
+      text: "Besar hambatan listrik dipengaruhi oleh jenis bahan penghantar, panjang penghantar, luas penampang, dan suhu penghantar."
+    }]
+
+  },
+  { heading:
+
+    "🧱 Jenis Bahan", blocks: [{ type: "heading", text: "🧱 Jenis Bahan" },
+    {
+      type: "paragraph",
+      text: "Setiap bahan memiliki kemampuan yang berbeda dalam menghantarkan listrik."
     },
     {
-      blocks: [
-        { type: "heading", text: "🔵 Luas Penampang" },
-        {
-          type: "paragraph",
-          text: "Semakin besar luas penampang penghantar, semakin kecil hambatannya.",
-        },
-        {
-          type: "paragraph",
-          text: "Elektron memiliki ruang yang lebih luas untuk bergerak sehingga aliran listrik menjadi lebih mudah.",
-        },
-      ],
+      type: "paragraph",
+      text: "Logam seperti tembaga memiliki hambatan kecil, sedangkan karet dan plastik memiliki hambatan yang sangat besar."
+    }]
+
+  },
+  { heading:
+
+    "📐 Panjang Penghantar", blocks: [{ type: "heading", text: "📐 Panjang Penghantar" },
+    {
+      type: "paragraph",
+      text: "Semakin panjang penghantar, semakin besar hambatannya."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌡️ Suhu" },
-        {
-          type: "paragraph",
-          text: "Pada logam, kenaikan suhu umumnya menyebabkan hambatan listrik bertambah.",
-        },
-        {
-          type: "paragraph",
-          text: "Hal ini karena atom-atom logam bergetar lebih kuat sehingga elektron lebih sering mengalami tumbukan.",
-        },
-      ],
+      type: "paragraph",
+      text: "Elektron harus menempuh lintasan yang lebih jauh sehingga peluang bertumbukan dengan atom semakin besar."
+    }]
+
+  },
+  { heading:
+
+    "🔵 Luas Penampang", blocks: [{ type: "heading", text: "🔵 Luas Penampang" },
+    {
+      type: "paragraph",
+      text: "Semakin besar luas penampang penghantar, semakin kecil hambatannya."
     },
     {
-      blocks: [
-        { type: "heading", text: "🧪 Mengukur Hambatan" },
-        {
-          type: "paragraph",
-          text: "Hambatan listrik diukur menggunakan ohmmeter atau multimeter yang diatur pada mode pengukuran hambatan.",
-        },
-      ],
+      type: "paragraph",
+      text: "Elektron memiliki ruang yang lebih luas untuk bergerak sehingga aliran listrik menjadi lebih mudah."
+    }]
+
+  },
+  { heading:
+
+    "🌡️ Suhu", blocks: [{ type: "heading", text: "🌡️ Suhu" },
+    {
+      type: "paragraph",
+      text: "Pada logam, kenaikan suhu umumnya menyebabkan hambatan listrik bertambah."
     },
     {
-      blocks: [
-        { type: "heading", text: "🌎 Penerapan dalam Kehidupan" },
-        {
-          type: "paragraph",
-          text: "Hambatan listrik dimanfaatkan pada elemen pemanas setrika, kompor listrik, pemanas air, resistor dalam rangkaian elektronik, dan lampu pijar.",
-        },
-      ],
+      type: "paragraph",
+      text: "Hal ini karena atom-atom logam bergetar lebih kuat sehingga elektron lebih sering mengalami tumbukan."
+    }]
+
+  },
+  { heading:
+
+    "🧪 Mengukur Hambatan", blocks: [{ type: "heading", text: "🧪 Mengukur Hambatan" },
+    {
+      type: "paragraph",
+      text: "Hambatan listrik diukur menggunakan ohmmeter atau multimeter yang diatur pada mode pengukuran hambatan."
+    }]
+
+  },
+  { heading:
+
+    "🌎 Penerapan dalam Kehidupan", blocks: [{ type: "heading", text: "🌎 Penerapan dalam Kehidupan" },
+    {
+      type: "paragraph",
+      text: "Hambatan listrik dimanfaatkan pada elemen pemanas setrika, kompor listrik, pemanas air, resistor dalam rangkaian elektronik, dan lampu pijar."
+    }]
+
+  },
+  { heading:
+
+    "⚠️ Miskonsepsi yang Sering Terjadi", blocks: [{ type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
+    {
+      type: "paragraph",
+      text: "Banyak siswa mengira hambatan listrik selalu merugikan."
     },
     {
-      blocks: [
-        { type: "heading", text: "⚠️ Miskonsepsi yang Sering Terjadi" },
-        {
-          type: "paragraph",
-          text: "Banyak siswa mengira hambatan listrik selalu merugikan.",
-        },
-        {
-          type: "paragraph",
-          text: "Padahal hambatan justru dimanfaatkan untuk mengatur besar arus, menghasilkan panas, dan melindungi komponen elektronik.",
-        },
-      ],
+      type: "paragraph",
+      text: "Padahal hambatan justru dimanfaatkan untuk mengatur besar arus, menghasilkan panas, dan melindungi komponen elektronik."
+    }]
+
+  },
+  { heading:
+
+    "📊 Ringkasan Konsep", blocks: [{ type: "heading", text: "📊 Ringkasan Konsep" },
+    { type: "paragraph", text: "Penghantar" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Hambatan Listrik" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Menghambat Arus" },
+    { type: "paragraph", text: "⬇️" },
+    { type: "paragraph", text: "Besar Arus Berubah" }]
+
+  },
+  { heading:
+
+    "🔗 Hubungan dengan Materi Berikutnya", blocks: [{ type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
+    {
+      type: "paragraph",
+      text: "Hubungan antara hambatan, arus listrik, dan beda potensial dijelaskan secara matematis melalui Hukum Ohm."
+    }]
+
+  },
+  { heading:
+
+    "🧠 Inti Materi", blocks: [{ type: "heading", text: "🧠 Inti Materi" },
+    {
+      type: "paragraph",
+      text: "Hambatan listrik menyatakan tingkat kesulitan arus listrik untuk mengalir pada suatu penghantar."
     },
     {
-      blocks: [
-        { type: "heading", text: "📊 Ringkasan Konsep" },
-        { type: "paragraph", text: "Penghantar" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Hambatan Listrik" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Menghambat Arus" },
-        { type: "paragraph", text: "⬇️" },
-        { type: "paragraph", text: "Besar Arus Berubah" },
-      ],
-    },
+      type: "paragraph",
+      text: "Besarnya dipengaruhi oleh jenis bahan, panjang penghantar, luas penampang, dan suhu."
+    }]
+
+  },
+  { heading:
+
+    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
     {
-      blocks: [
-        { type: "heading", text: "🔗 Hubungan dengan Materi Berikutnya" },
-        {
-          type: "paragraph",
-          text: "Hubungan antara hambatan, arus listrik, dan beda potensial dijelaskan secara matematis melalui Hukum Ohm.",
-        },
-      ],
+      type: "paragraph",
+      text: "Bagaimana hubungan antara hambatan, arus listrik, dan tegangan dalam suatu rangkaian?"
     },
-    {
-      blocks: [
-        { type: "heading", text: "🧠 Inti Materi" },
-        {
-          type: "paragraph",
-          text: "Hambatan listrik menyatakan tingkat kesulitan arus listrik untuk mengalir pada suatu penghantar.",
-        },
-        {
-          type: "paragraph",
-          text: "Besarnya dipengaruhi oleh jenis bahan, panjang penghantar, luas penampang, dan suhu.",
-        },
-      ],
-    },
-    {
-      blocks: [
-        { type: "heading", text: "🚀 Next Mission" },
-        {
-          type: "paragraph",
-          text: "Bagaimana hubungan antara hambatan, arus listrik, dan tegangan dalam suatu rangkaian?",
-        },
-        { type: "paragraph", text: "➡️ Selanjutnya: Hukum Ohm." },
-      ],
-    },
-  ],
+    { type: "paragraph", text: "➡️ Selanjutnya: Hukum Ohm." }]
+
+  }]
+
 };
 
 export default hambatanlistrik;
