@@ -4,62 +4,62 @@ const gayanormal = {
   description: "Memahami gaya normal sebagai gaya kontak dari permukaan terhadap benda.",
   chapter: "🚀 Dinamika: Konsep Dasar",
 
-  content: [
-    {
-      heading: "📦 Mengapa Benda Tidak Jatuh Menembus Meja?",
-      body: [
-        "Ketika sebuah benda diletakkan di atas permukaan, gravitasi menarik benda ke bawah.",
-        "",
-        "Namun benda tetap berada di tempatnya karena ada gaya dari permukaan."
-      ]
-    },
+  content: [{ blocks: [{ type: "heading", text:
 
-    {
-      heading: "📍 Apa Itu Gaya Normal?",
-      body: [
-        "Gaya normal adalah gaya yang diberikan permukaan terhadap benda yang bersentuhan dengannya.",
-        "",
-        "Arah gaya normal selalu tegak lurus terhadap permukaan."
-      ]
-    },
+      "📦 Mengapa Benda Tidak Jatuh Menembus Meja?" }, { type: "paragraph", text: "Ketika sebuah benda diletakkan di atas permukaan, gravitasi menarik benda ke bawah." }, { type: "paragraph", text: "Namun benda tetap berada di tempatnya karena ada gaya dari permukaan." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "⚖️ Contoh Buku di Atas Meja",
-      body: [
-        "Buku mengalami:",
-        "",
-        "⬇️ gaya berat menuju bawah",
-        "⬆️ gaya normal dari meja",
-        "",
-        "Jika keduanya seimbang, buku tetap diam."
-      ]
-    },
 
-    {
-      heading: "📐 Pada Bidang Miring",
-      body: [
-        "Pada bidang miring, gaya normal tidak selalu sama dengan gaya berat.",
-        "",
-        "Karena arah permukaan berubah, arah gaya normal juga berubah."
-      ]
-    },
 
-    {
-      heading: "✨ Inti Materi",
-      body: [
-        "Gaya normal adalah gaya kontak dari permukaan yang bekerja tegak lurus terhadap benda."
-      ]
-    },
 
-    {
-      heading: "🚀 Next Mission",
-      body: [
-        "Bagaimana jika benda ditarik menggunakan tali?",
-        "",
-        "➡️ Selanjutnya: Gaya Tegangan Tali."
-      ]
-    }
-  ]
-}
 
-export default gayanormal
+
+
+
+      "📍 Apa Itu Gaya Normal?" }, { type: "paragraph", text: "Gaya normal adalah gaya yang diberikan permukaan terhadap benda yang bersentuhan dengannya." }, { type: "paragraph", text: "Arah gaya normal selalu tegak lurus terhadap permukaan." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "⚖️ Contoh Buku di Atas Meja" }, { type: "paragraph", text: "Buku mengalami:" }, { type: "paragraph", text: "⬇️ gaya berat menuju bawah" }, { type: "paragraph", text: "⬆️ gaya normal dari meja" }, { type: "paragraph", text: "Jika keduanya seimbang, buku tetap diam." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+      "📐 Pada Bidang Miring" }, { type: "paragraph", text: "Pada bidang miring, gaya normal tidak selalu sama dengan gaya berat." }, { type: "paragraph", text: "Karena arah permukaan berubah, arah gaya normal juga berubah." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "✨ Inti Materi" }, { type: "paragraph", text: "Gaya normal adalah gaya kontak dari permukaan yang bekerja tegak lurus terhadap benda." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "🚀 Next Mission" }, { type: "paragraph", text: "Bagaimana jika benda ditarik menggunakan tali?" }, { type: "paragraph", text: "➡️ Selanjutnya: Gaya Tegangan Tali." }] }]
+
+
+
+
+
+
+
+};
+
+export default gayanormal;

@@ -1,135 +1,135 @@
-import pengantarvektorImg from "/src/assets/Materi/Vektor/PengantarVektor1.jpg"
+import pengantarvektorImg from "/src/assets/Materi/Vektor/PengantarVektor1.jpg";
 
 const pengantarvektor = {
   title: "Apa Itu Vektor?",
   slug: "pengantar vektor",
   description: "Memahami sistem satuan standar yang digunakan dalam fisika agar hasil pengukuran dapat dibandingkan secara universal.",
   chapter: "➡️ Vektor",
-  content: [
-    {
-      image: pengantarvektorImg,
-      caption: "Bagaimana mendefinisikan besaran vektor?",
-      body: [
-        "Dalam kehidupan sehari-hari, kita sering menyebut suatu nilai tanpa memikirkan arah.",
-        "",
-        "Contoh:",
-        "\"Jarak rumah ke sekolah adalah 5 km.\"",
-        "",
-        "Namun dalam fisika, informasi tersebut belum selalu cukup.",
-        "",
-        "Kadang kita perlu tahu:",
-        "\"Ke arah mana perpindahannya?\"",
-        "",
-        "Di sinilah konsep vektor digunakan."
-      ]
-    },
+  content: [{ blocks: [{ type: "image", src:
 
-    {
-      body: [
-        "Vektor adalah besaran fisika yang memiliki dua informasi penting:",
-        "",
-        "① Besar (nilai)",
-        "② Arah",
-        "",
-        "Karena memiliki arah, vektor tidak dapat hanya dinyatakan dengan angka saja."
-      ]
-    },
+      pengantarvektorImg, caption:
+      "Bagaimana mendefinisikan besaran vektor?" }, { type: "paragraph", text: "Dalam kehidupan sehari-hari, kita sering menyebut suatu nilai tanpa memikirkan arah." }, { type: "paragraph", text: "Contoh:" }, { type: "paragraph", text: "\"Jarak rumah ke sekolah adalah 5 km.\"" }, { type: "paragraph", text: "Namun dalam fisika, informasi tersebut belum selalu cukup." }, { type: "paragraph", text: "Kadang kita perlu tahu:" }, { type: "paragraph", text: "\"Ke arah mana perpindahannya?\"" }, { type: "paragraph", text: "Di sinilah konsep vektor digunakan." }] }, { blocks: [{ type: "paragraph", text: "Vektor adalah besaran fisika yang memiliki dua informasi penting:" }, { type: "paragraph", text: "① Besar (nilai)" }, { type: "paragraph", text: "② Arah" }, { type: "paragraph", text: "Karena memiliki arah, vektor tidak dapat hanya dinyatakan dengan angka saja." }] }, { blocks: [{ type: "paragraph", text: "Beberapa contoh besaran vektor dalam fisika:" }, { type: "paragraph", text: "🚗 Kecepatan" }, { type: "paragraph", text: "➡️ Perpindahan" }, { type: "paragraph", text: "⚡ Gaya" }, { type: "paragraph", text: "🌎 Percepatan" }, { type: "paragraph", text: "🚀 Momentum" }, { type: "paragraph", text: "Semua besaran tersebut memiliki nilai dan arah." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      body: [
-        "Beberapa contoh besaran vektor dalam fisika:",
-        "",
-        "🚗 Kecepatan",
-        "➡️ Perpindahan",
-        "⚡ Gaya",
-        "🌎 Percepatan",
-        "🚀 Momentum",
-        "",
-        "Semua besaran tersebut memiliki nilai dan arah."
-      ]
-    },
 
-    {
-      heading: "🔢 Contoh Sederhana Vektor",
-      body: [
-        "Misalnya:",
-        "",
-        "Sebuah mobil bergerak dengan kecepatan 60 km/jam ke arah timur.",
-        "",
-        "Angka 60 km/jam menunjukkan besar.",
-        "Arah timur menunjukkan arah vektor."
-      ]
-    },
 
-    {
-      body: [
-        "↔️ Kenapa Fisika Membutuhkan Vektor?",
-        "Banyak fenomena alam tidak cukup dijelaskan hanya dengan angka.",
-        "",
-        "Contoh:",
-        "Dua orang menarik sebuah benda dari arah berbeda.",
-        "",
-        "Untuk mengetahui gerakan benda, kita harus memperhatikan besar dan arah gaya."
-      ]
-    },
 
-    {
-      body: [
-        "Tanpa sadar kita sering menggunakan konsep vektor:",
-        "",
-        "🧭 Menentukan arah perjalanan",
-        "🚗 Mengetahui arah kendaraan bergerak",
-        "💨 Menentukan arah angin",
-        "🏀 Mengatur arah lemparan bola"
-      ]
-    },
 
-    {
-      heading: "⚖️ Vektor vs Skalar (Gambaran Awal)",
-      body: [
-        "Ada besaran yang hanya memiliki nilai tanpa arah.",
-        "",
-        "Besaran seperti itu disebut skalar.",
-        "",
-        "Contoh:",
-        "Massa, waktu, suhu, dan energi.",
-        "",
-        "Sedangkan vektor memiliki nilai dan arah."
-      ]
-    },
 
-    {
-      heading: "✨ Inti Materi",
-      body: [
-        "Vektor adalah cara fisika menggambarkan besaran yang memiliki arah.",
-        "",
-        "Dengan vektor, fenomena seperti gerak, gaya, dan perpindahan dapat dijelaskan lebih akurat."
-      ]
-    },
 
-    {
-      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
-      link: "/materi/besaran%20skalar%20dan%20vektor",
-      body: [
-        "Sekarang kita sudah tahu bahwa tidak semua besaran cukup dijelaskan dengan angka.",
-        "",
-        "Lalu apa perbedaan lengkap antara besaran skalar dan vektor?",
-        "",
-        "➡️ Next, kita masuk ke portal: Besaran Skalar dan Besaran Vektor."
-      ]
-    },
 
-    {
-      heading: "Referensi:",
-      body: [
-        "Halliday, D., Resnick, R., & Walker, J. Fundamentals of Physics.",
-        "Serway, R. A., & Jewett, J. W. Physics for Scientists and Engineers.",
-        "Young, H. D., & Freedman, R. A. University Physics with Modern Physics.",
-        "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X.",
-        "OpenStax. Physics 2e."
-      ]
-    }
-  ]
-}
 
-export default pengantarvektor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "🔢 Contoh Sederhana Vektor" }, { type: "paragraph", text: "Misalnya:" }, { type: "paragraph", text: "Sebuah mobil bergerak dengan kecepatan 60 km/jam ke arah timur." }, { type: "paragraph", text: "Angka 60 km/jam menunjukkan besar." }, { type: "paragraph", text: "Arah timur menunjukkan arah vektor." }] }, { blocks: [{ type: "paragraph", text: "↔️ Kenapa Fisika Membutuhkan Vektor?" }, { type: "paragraph", text: "Banyak fenomena alam tidak cukup dijelaskan hanya dengan angka." }, { type: "paragraph", text: "Contoh:" }, { type: "paragraph", text: "Dua orang menarik sebuah benda dari arah berbeda." }, { type: "paragraph", text: "Untuk mengetahui gerakan benda, kita harus memperhatikan besar dan arah gaya." }] }, { blocks: [{ type: "paragraph", text: "Tanpa sadar kita sering menggunakan konsep vektor:" }, { type: "paragraph", text: "🧭 Menentukan arah perjalanan" }, { type: "paragraph", text: "🚗 Mengetahui arah kendaraan bergerak" }, { type: "paragraph", text: "💨 Menentukan arah angin" }, { type: "paragraph", text: "🏀 Mengatur arah lemparan bola" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "⚖️ Vektor vs Skalar (Gambaran Awal)" }, { type: "paragraph", text: "Ada besaran yang hanya memiliki nilai tanpa arah." }, { type: "paragraph", text: "Besaran seperti itu disebut skalar." }, { type: "paragraph", text: "Contoh:" }, { type: "paragraph", text: "Massa, waktu, suhu, dan energi." }, { type: "paragraph", text: "Sedangkan vektor memiliki nilai dan arah." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "✨ Inti Materi" }, { type: "paragraph", text: "Vektor adalah cara fisika menggambarkan besaran yang memiliki arah." }, { type: "paragraph", text: "Dengan vektor, fenomena seperti gerak, gaya, dan perpindahan dapat dijelaskan lebih akurat." }] }, {
+
+
+
+
+
+
+
+
+
+    link: "/materi/besaran%20skalar%20dan%20vektor", blocks: [{ type: "paragraph", text: "Sekarang kita sudah tahu bahwa tidak semua besaran cukup dijelaskan dengan angka." }, { type: "paragraph", text: "Lalu apa perbedaan lengkap antara besaran skalar dan vektor?" }, { type: "paragraph", text: "➡️ Next, kita masuk ke portal: Besaran Skalar dan Besaran Vektor." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "Referensi:" }, { type: "paragraph", text: "Halliday, D., Resnick, R., & Walker, J. Fundamentals of Physics." }, { type: "paragraph", text: "Serway, R. A., & Jewett, J. W. Physics for Scientists and Engineers." }, { type: "paragraph", text: "Young, H. D., & Freedman, R. A. University Physics with Modern Physics." }, { type: "paragraph", text: "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X." }, { type: "paragraph", text: "OpenStax. Physics 2e." }] }]
+
+
+
+
+
+
+
+
+
+};
+
+export default pengantarvektor;

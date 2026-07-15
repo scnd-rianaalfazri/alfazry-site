@@ -2,165 +2,165 @@ const susunanpegasseri = {
   title: "Susunan Pegas Seri",
   slug: "susunan pegas seri",
   description: "Memahami karakteristik susunan pegas seri serta cara menentukan konstanta pegas penggantinya.",
-  chapter : "🗺️ Pengantar Elastisitas",
+  chapter: "🗺️ Pengantar Elastisitas",
 
-  content: [
-    {
-      heading: "🌀 Mengapa Dua Pegas Lebih Mudah Diregangkan?",
-      body: [
-        "Bayangkan dua pegas identik digantung secara berurutan.",
-        "",
-        "Ketika sebuah beban digantung pada ujungnya, sistem tersebut akan meregang lebih panjang dibandingkan satu pegas saja.",
-        "",
-        "Mengapa hal itu bisa terjadi?"
-      ]
-    },
+  content: [{ blocks: [{ type: "heading", text:
 
-    {
-      heading: "📍 Apa Itu Susunan Pegas Seri?",
-      body: [
-        "Susunan pegas seri adalah susunan beberapa pegas yang dihubungkan secara berurutan sehingga ujung satu pegas terhubung dengan ujung pegas lainnya.",
-        "",
-        "Gaya diberikan pada ujung sistem pegas tersebut."
-      ]
-    },
+      "🌀 Mengapa Dua Pegas Lebih Mudah Diregangkan?" }, { type: "paragraph", text: "Bayangkan dua pegas identik digantung secara berurutan." }, { type: "paragraph", text: "Ketika sebuah beban digantung pada ujungnya, sistem tersebut akan meregang lebih panjang dibandingkan satu pegas saja." }, { type: "paragraph", text: "Mengapa hal itu bisa terjadi?" }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "🔗 Karakteristik Susunan Seri",
-      body: [
-        "Pada susunan seri:",
-        "",
-        "✔ Gaya yang bekerja pada setiap pegas sama",
-        "✔ Pertambahan panjang total merupakan jumlah pertambahan panjang masing-masing pegas",
-        "✔ Sistem menjadi lebih mudah diregangkan"
-      ]
-    },
 
-    {
-      heading: "⚖️ Gaya pada Setiap Pegas",
-      body: [
-        "Karena pegas disusun secara berurutan, gaya yang diteruskan melalui setiap pegas memiliki besar yang sama.",
-        "",
-        "Akibatnya setiap pegas mengalami gaya tarik yang identik."
-      ]
-    },
 
-    {
-      heading: "📏 Pertambahan Panjang Total",
-      body: [
-        "Jika setiap pegas mengalami pertambahan panjang tertentu, maka pertambahan panjang total sistem merupakan jumlah seluruh pertambahan panjang tersebut."
-      ]
-    },
 
-    {
-      heading: "🧮 Konstanta Pegas Pengganti",
-      body: [
-        "Untuk mempermudah analisis, beberapa pegas seri dapat digantikan oleh satu pegas ekuivalen.",
-        "",
-        "Pegas ekuivalen ini disebut memiliki konstanta pegas pengganti."
-      ]
-    },
 
-    {
-      heading: "📊 Makna Konstanta Pengganti",
-      body: [
-        "Konstanta pegas pengganti pada susunan seri selalu lebih kecil daripada konstanta pegas penyusunnya.",
-        "",
-        "Artinya sistem menjadi lebih lunak dan lebih mudah diregangkan."
-      ]
-    },
 
-    {
-      heading: "🎯 Dua Pegas Identik",
-      body: [
-        "Jika dua pegas identik disusun seri, konstanta pegas penggantinya menjadi lebih kecil daripada konstanta masing-masing pegas.",
-        "",
-        "Akibatnya pertambahan panjang sistem menjadi lebih besar."
-      ]
-    },
 
-    {
-      heading: "🌀 Tiga Pegas atau Lebih",
-      body: [
-        "Semakin banyak pegas yang disusun seri, semakin kecil konstanta pegas penggantinya.",
-        "",
-        "Karena itu sistem akan semakin mudah mengalami deformasi."
-      ]
-    },
 
-    {
-      heading: "🚗 Analogi Suspensi Kendaraan",
-      body: [
-        "Pada beberapa sistem mekanik, prinsip susunan seri digunakan untuk meningkatkan fleksibilitas dan kemampuan meredam getaran."
-      ]
-    },
 
-    {
-      heading: "🏗️ Aplikasi dalam Teknik",
-      body: [
-        "Konsep susunan seri digunakan dalam berbagai sistem rekayasa yang memerlukan tingkat elastisitas tertentu.",
-        "",
-        "Insinyur dapat mengatur kekakuan sistem dengan mengombinasikan beberapa pegas."
-      ]
-    },
 
-    {
-      heading: "📈 Visualisasi Sederhana",
-      body: [
-        "Satu pegas:",
-        "",
-        "🔩 → relatif lebih kaku",
-        "",
-        "Dua pegas seri:",
-        "",
-        "🔩🔩 → lebih mudah diregangkan",
-        "",
-        "Tiga pegas seri:",
-        "",
-        "🔩🔩🔩 → semakin mudah diregangkan"
-      ]
-    },
+      "📍 Apa Itu Susunan Pegas Seri?" }, { type: "paragraph", text: "Susunan pegas seri adalah susunan beberapa pegas yang dihubungkan secara berurutan sehingga ujung satu pegas terhubung dengan ujung pegas lainnya." }, { type: "paragraph", text: "Gaya diberikan pada ujung sistem pegas tersebut." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "⚠️ Miskonsepsi yang Sering Terjadi",
-      body: [
-        "Banyak siswa mengira semakin banyak pegas berarti sistem semakin kuat dan semakin kaku.",
-        "",
-        "Pada susunan seri justru sebaliknya.",
-        "",
-        "Semakin banyak pegas yang disusun seri, sistem menjadi semakin lunak."
-      ]
-    },
 
-    {
-      heading: "🔗 Hubungan dengan Materi Berikutnya",
-      body: [
-        "Susunan seri membuat sistem lebih mudah diregangkan.",
-        "",
-        "Bagaimana jika pegas disusun berdampingan?",
-        "",
-        "Kasus tersebut akan dipelajari pada susunan pegas paralel."
-      ]
-    },
 
-    {
-      heading: "🧠 Inti Materi",
-      body: [
-        "Pada susunan pegas seri, gaya yang bekerja pada setiap pegas sama dan pertambahan panjang total merupakan jumlah pertambahan panjang masing-masing pegas.",
-        "",
-        "Konstanta pegas pengganti selalu lebih kecil daripada konstanta pegas penyusunnya sehingga sistem menjadi lebih mudah diregangkan."
-      ]
-    },
 
-    {
-      heading: "🚀 Next Mission",
-      body: [
-        "Apakah semua susunan pegas membuat sistem menjadi lebih lunak?",
-        "",
-        "➡️ Selanjutnya: Susunan Pegas Paralel."
-      ]
-    }
-  ]
-}
 
-export default susunanpegasseri
+
+
+
+      "🔗 Karakteristik Susunan Seri" }, { type: "paragraph", text: "Pada susunan seri:" }, { type: "paragraph", text: "✔ Gaya yang bekerja pada setiap pegas sama" }, { type: "paragraph", text: "✔ Pertambahan panjang total merupakan jumlah pertambahan panjang masing-masing pegas" }, { type: "paragraph", text: "✔ Sistem menjadi lebih mudah diregangkan" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "⚖️ Gaya pada Setiap Pegas" }, { type: "paragraph", text: "Karena pegas disusun secara berurutan, gaya yang diteruskan melalui setiap pegas memiliki besar yang sama." }, { type: "paragraph", text: "Akibatnya setiap pegas mengalami gaya tarik yang identik." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "📏 Pertambahan Panjang Total" }, { type: "paragraph", text: "Jika setiap pegas mengalami pertambahan panjang tertentu, maka pertambahan panjang total sistem merupakan jumlah seluruh pertambahan panjang tersebut." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "🧮 Konstanta Pegas Pengganti" }, { type: "paragraph", text: "Untuk mempermudah analisis, beberapa pegas seri dapat digantikan oleh satu pegas ekuivalen." }, { type: "paragraph", text: "Pegas ekuivalen ini disebut memiliki konstanta pegas pengganti." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "📊 Makna Konstanta Pengganti" }, { type: "paragraph", text: "Konstanta pegas pengganti pada susunan seri selalu lebih kecil daripada konstanta pegas penyusunnya." }, { type: "paragraph", text: "Artinya sistem menjadi lebih lunak dan lebih mudah diregangkan." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🎯 Dua Pegas Identik" }, { type: "paragraph", text: "Jika dua pegas identik disusun seri, konstanta pegas penggantinya menjadi lebih kecil daripada konstanta masing-masing pegas." }, { type: "paragraph", text: "Akibatnya pertambahan panjang sistem menjadi lebih besar." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🌀 Tiga Pegas atau Lebih" }, { type: "paragraph", text: "Semakin banyak pegas yang disusun seri, semakin kecil konstanta pegas penggantinya." }, { type: "paragraph", text: "Karena itu sistem akan semakin mudah mengalami deformasi." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🚗 Analogi Suspensi Kendaraan" }, { type: "paragraph", text: "Pada beberapa sistem mekanik, prinsip susunan seri digunakan untuk meningkatkan fleksibilitas dan kemampuan meredam getaran." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "🏗️ Aplikasi dalam Teknik" }, { type: "paragraph", text: "Konsep susunan seri digunakan dalam berbagai sistem rekayasa yang memerlukan tingkat elastisitas tertentu." }, { type: "paragraph", text: "Insinyur dapat mengatur kekakuan sistem dengan mengombinasikan beberapa pegas." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "📈 Visualisasi Sederhana" }, { type: "paragraph", text: "Satu pegas:" }, { type: "paragraph", text: "🔩 → relatif lebih kaku" }, { type: "paragraph", text: "Dua pegas seri:" }, { type: "paragraph", text: "🔩🔩 → lebih mudah diregangkan" }, { type: "paragraph", text: "Tiga pegas seri:" }, { type: "paragraph", text: "🔩🔩🔩 → semakin mudah diregangkan" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "⚠️ Miskonsepsi yang Sering Terjadi" }, { type: "paragraph", text: "Banyak siswa mengira semakin banyak pegas berarti sistem semakin kuat dan semakin kaku." }, { type: "paragraph", text: "Pada susunan seri justru sebaliknya." }, { type: "paragraph", text: "Semakin banyak pegas yang disusun seri, sistem menjadi semakin lunak." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "🔗 Hubungan dengan Materi Berikutnya" }, { type: "paragraph", text: "Susunan seri membuat sistem lebih mudah diregangkan." }, { type: "paragraph", text: "Bagaimana jika pegas disusun berdampingan?" }, { type: "paragraph", text: "Kasus tersebut akan dipelajari pada susunan pegas paralel." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "🧠 Inti Materi" }, { type: "paragraph", text: "Pada susunan pegas seri, gaya yang bekerja pada setiap pegas sama dan pertambahan panjang total merupakan jumlah pertambahan panjang masing-masing pegas." }, { type: "paragraph", text: "Konstanta pegas pengganti selalu lebih kecil daripada konstanta pegas penyusunnya sehingga sistem menjadi lebih mudah diregangkan." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🚀 Next Mission" }, { type: "paragraph", text: "Apakah semua susunan pegas membuat sistem menjadi lebih lunak?" }, { type: "paragraph", text: "➡️ Selanjutnya: Susunan Pegas Paralel." }] }]
+
+
+
+
+
+
+
+};
+
+export default susunanpegasseri;

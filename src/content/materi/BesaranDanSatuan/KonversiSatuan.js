@@ -1,158 +1,158 @@
-import { body, caption, image } from "framer-motion/client"
-import konversisatuanImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan1.jpg"
-import fungsikonversiImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan2.jpg"
-import prinsipkonversiImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan3.jpg"
-import tanggasatuanImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan4.jpg"
-import endchapterpengukuranImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan5.jpg"
+import { body, caption, image } from "framer-motion/client";
+import konversisatuanImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan1.jpg";
+import fungsikonversiImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan2.jpg";
+import prinsipkonversiImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan3.jpg";
+import tanggasatuanImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan4.jpg";
+import endchapterpengukuranImg from "/src/assets/Materi/BesaranDanSatuan/KonversiSatuan5.jpg";
 
 const konversisatuan = {
   title: "Konversi Satuan",
   slug: "konversi satuan",
   description: "Memahami cara mengubah satuan pengukuran ke bentuk lain tanpa mengubah nilai sebenarnya.",
   chapter: "📏 Pengukuran",
-  content: [
-    {
-      image: konversisatuanImg,
-      body: [
-        "Dalam fisika, kita sering menemukan satu besaran dengan satuan yang berbeda.",
-        "",
-        "Contohnya:",
-        "Panjang jalan dapat dinyatakan dalam kilometer atau meter.",
-        "",
-        "Walaupun satuannya berbeda, nilai sebenarnya tetap sama.",
-        "",
-        "Proses mengubah satuan inilah yang disebut konversi satuan."
-      ]
-    },
+  content: [{ blocks: [{ type: "image", src:
 
-    {
-      image: fungsikonversiImg,
-      body: [
-        "Karena dalam perhitungan fisika, semua besaran harus menggunakan satuan yang sesuai.",
-        "",
-        "Jika satuan tidak disamakan, hasil perhitungan bisa menjadi salah."
-      ]
-    },
+      konversisatuanImg }, { type: "paragraph", text: "Dalam fisika, kita sering menemukan satu besaran dengan satuan yang berbeda." }, { type: "paragraph", text: "Contohnya:" }, { type: "paragraph", text: "Panjang jalan dapat dinyatakan dalam kilometer atau meter." }, { type: "paragraph", text: "Walaupun satuannya berbeda, nilai sebenarnya tetap sama." }, { type: "paragraph", text: "Proses mengubah satuan inilah yang disebut konversi satuan." }] }, { blocks: [{ type: "image", src:
 
-    {
-      image: prinsipkonversiImg,
-      body: [
-        "Konversi dilakukan dengan menggunakan faktor pengali yang nilainya sama dengan 1.",
-        "",
-        "Contoh:",
-        "1 km = 1000 m",
-        "",
-        "Artinya:",
-        "1 km × 1000 m / 1 km = 1000 m"
-      ]
-    },
 
-    {
-      heading: "📈 Konversi Satuan Besar ke Kecil",
-      body: [
-        "Jika berpindah ke satuan yang lebih kecil, nilainya dikalikan.",
-        "",
-        "Contoh:",
-        "5 km menjadi meter",
-        "",
-        "1 km = 1000 m",
-        "",
-        "5 km = 5 × 1000 m",
-        "5 km = 5000 m"
-      ]
-    },
 
-    {
-      heading: "📉 Konversi Satuan Kecil ke Besar",
-      body: [
-        "Jika berpindah ke satuan yang lebih besar, nilainya dibagi.",
-        "",
-        "Contoh:",
-        "3000 m menjadi km",
-        "",
-        "1 km = 1000 m",
-        "",
-        "3000 m ÷ 1000 = 3 km"
-      ]
-    },
 
-    {
-      image: tanggasatuanImg,
-      body: [
-        "Urutan awalan satuan yang sering digunakan:",
-        "",
-        "kilo → hekto → deka → satuan dasar → desi → senti → mili",
-        "",
-        "Turun satu langkah ×10",
-        "Naik satu langkah ÷10"
-      ]
-    },
 
-    {
-      heading: "⚡ Konversi dalam Fisika",
-      body: [
-        "Contoh kecepatan:",
-        "",
-        "72 km/jam harus diubah ke m/s.",
-        "",
-        "Karena:",
-        "1 km = 1000 m",
-        "1 jam = 3600 s",
-        "",
-        "Maka:",
-        "72 km/jam = 20 m/s"
-      ]
-    },
 
-    {
-      heading: "🧠 Tips Menghindari Kesalahan",
-      body: [
-        "Sebelum menghitung:",
-        "",
-        "1. Perhatikan satuan awal",
-        "2. Tentukan satuan tujuan",
-        "3. Gunakan faktor konversi yang benar",
-        "4. Cek kembali apakah hasilnya masuk akal"
-      ]
-    },
 
-    {
-      heading: "🎯 Manfaat Konversi Satuan",
-      body: [
-        "Konversi satuan membantu:",
-        "",
-        "✅ Menyamakan satuan dalam perhitungan",
-        "✅ Menghindari kesalahan rumus",
-        "✅ Membuat data mudah dibandingkan"
-      ]
-    },
 
-    {
-      heading: "✨ Inti Materi",
-      body: [
-        "Angka yang sama bisa memiliki tampilan satuan yang berbeda.",
-        "",
-        "Konversi satuan adalah 'bahasa penerjemah' dalam fisika yang memastikan setiap besaran berbicara dalam satuan yang sama sehingga rumus dapat bekerja dengan benar dan menghasilkan jawaban yang akurat."
-      ]
-    },
- 
-    {
-      image: endchapterpengukuranImg,
-      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
-      link: "/materi/pengantar%20vektor",
-    },
 
-    {
-      heading: "Referensi:",
-      body:[
-       "Halliday, Resnick & Walker. Fundamentals of Physics.",
-       "Serway & Jewett. Physics for Scientists and Engineers.",
-       "Young & Freedman. University Physics with Modern Physics.",
-       "BIPM. The International System of Units (SI Brochure).",
-       "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X." 
-      ]
-    }
-  ]
-}
 
-export default konversisatuan
+
+
+
+      fungsikonversiImg }, { type: "paragraph", text: "Karena dalam perhitungan fisika, semua besaran harus menggunakan satuan yang sesuai." }, { type: "paragraph", text: "Jika satuan tidak disamakan, hasil perhitungan bisa menjadi salah." }] }, { blocks: [{ type: "image", src:
+
+
+
+
+
+
+
+
+      prinsipkonversiImg }, { type: "paragraph", text: "Konversi dilakukan dengan menggunakan faktor pengali yang nilainya sama dengan 1." }, { type: "paragraph", text: "Contoh:" }, { type: "paragraph", text: "1 km = 1000 m" }, { type: "paragraph", text: "Artinya:" }, { type: "paragraph", text: "1 km × 1000 m / 1 km = 1000 m" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+      "📈 Konversi Satuan Besar ke Kecil" }, { type: "paragraph", text: "Jika berpindah ke satuan yang lebih kecil, nilainya dikalikan." }, { type: "paragraph", text: "Contoh:" }, { type: "paragraph", text: "5 km menjadi meter" }, { type: "paragraph", text: "1 km = 1000 m" }, { type: "paragraph", text: "5 km = 5 × 1000 m" }, { type: "paragraph", text: "5 km = 5000 m" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "📉 Konversi Satuan Kecil ke Besar" }, { type: "paragraph", text: "Jika berpindah ke satuan yang lebih besar, nilainya dibagi." }, { type: "paragraph", text: "Contoh:" }, { type: "paragraph", text: "3000 m menjadi km" }, { type: "paragraph", text: "1 km = 1000 m" }, { type: "paragraph", text: "3000 m ÷ 1000 = 3 km" }] }, { blocks: [{ type: "image", src:
+
+
+
+
+
+
+
+
+
+
+
+
+
+      tanggasatuanImg }, { type: "paragraph", text: "Urutan awalan satuan yang sering digunakan:" }, { type: "paragraph", text: "kilo → hekto → deka → satuan dasar → desi → senti → mili" }, { type: "paragraph", text: "Turun satu langkah ×10" }, { type: "paragraph", text: "Naik satu langkah ÷10" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+      "⚡ Konversi dalam Fisika" }, { type: "paragraph", text: "Contoh kecepatan:" }, { type: "paragraph", text: "72 km/jam harus diubah ke m/s." }, { type: "paragraph", text: "Karena:" }, { type: "paragraph", text: "1 km = 1000 m" }, { type: "paragraph", text: "1 jam = 3600 s" }, { type: "paragraph", text: "Maka:" }, { type: "paragraph", text: "72 km/jam = 20 m/s" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "🧠 Tips Menghindari Kesalahan" }, { type: "paragraph", text: "Sebelum menghitung:" }, { type: "paragraph", text: "1. Perhatikan satuan awal" }, { type: "paragraph", text: "2. Tentukan satuan tujuan" }, { type: "paragraph", text: "3. Gunakan faktor konversi yang benar" }, { type: "paragraph", text: "4. Cek kembali apakah hasilnya masuk akal" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+      "🎯 Manfaat Konversi Satuan" }, { type: "paragraph", text: "Konversi satuan membantu:" }, { type: "paragraph", text: "✅ Menyamakan satuan dalam perhitungan" }, { type: "paragraph", text: "✅ Menghindari kesalahan rumus" }, { type: "paragraph", text: "✅ Membuat data mudah dibandingkan" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "✨ Inti Materi" }, { type: "paragraph", text: "Angka yang sama bisa memiliki tampilan satuan yang berbeda." }, { type: "paragraph", text: "Konversi satuan adalah 'bahasa penerjemah' dalam fisika yang memastikan setiap besaran berbicara dalam satuan yang sama sehingga rumus dapat bekerja dengan benar dan menghasilkan jawaban yang akurat." }] }, {
+
+
+
+
+
+
+
+
+
+
+    link: "/materi/pengantar%20vektor", blocks: [{ type: "image", src: endchapterpengukuranImg, caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya." }] }, { blocks: [{ type: "heading", text:
+
+
+
+      "Referensi:" }, { type: "paragraph", text: "Halliday, Resnick & Walker. Fundamentals of Physics." }, { type: "paragraph", text: "Serway & Jewett. Physics for Scientists and Engineers." }, { type: "paragraph", text: "Young & Freedman. University Physics with Modern Physics." }, { type: "paragraph", text: "BIPM. The International System of Units (SI Brochure)." }, { type: "paragraph", text: "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X." }] }]
+
+
+
+
+
+
+
+
+
+};
+
+export default konversisatuan;

@@ -4,180 +4,180 @@ const penutupelastisitas = {
   description: "Merangkum konsep elastisitas, tegangan, regangan, Hukum Hooke, dan energi potensial pegas sebagai dasar memahami sifat mekanik material.",
   chapter: "🗺️ Pengantar Elastisitas",
 
-  content: [
-    {
-      heading: "🎯 Memahami Respons Benda terhadap Gaya",
-      body: [
-        "Pada chapter ini, kita telah mempelajari bagaimana benda merespons gaya yang bekerja padanya.",
-        "",
-        "Tidak semua benda hanya bergerak ketika diberi gaya.",
-        "",
-        "Sebagian benda juga dapat mengalami perubahan bentuk atau deformasi."
-      ]
-    },
+  content: [{ blocks: [{ type: "heading", text:
 
-    {
-      heading: "🌀 Elastisitas dan Plastisitas",
-      body: [
-        "Kita telah mengenal dua sifat penting material.",
-        "",
-        "Benda elastis mampu kembali ke bentuk semula setelah gaya dihilangkan.",
-        "",
-        "Sebaliknya, benda plastis mengalami perubahan bentuk permanen."
-      ]
-    },
+      "🎯 Memahami Respons Benda terhadap Gaya" }, { type: "paragraph", text: "Pada chapter ini, kita telah mempelajari bagaimana benda merespons gaya yang bekerja padanya." }, { type: "paragraph", text: "Tidak semua benda hanya bergerak ketika diberi gaya." }, { type: "paragraph", text: "Sebagian benda juga dapat mengalami perubahan bentuk atau deformasi." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "⚖️ Tegangan dan 📏 Regangan",
-      body: [
-        "Tegangan menjelaskan pengaruh gaya yang bekerja pada setiap satuan luas material.",
-        "",
-        "Regangan menjelaskan seberapa besar perubahan bentuk relatif yang terjadi akibat gaya tersebut.",
-        "",
-        "Kedua konsep ini menjadi dasar dalam mempelajari sifat mekanik material."
-      ]
-    },
 
-    {
-      heading: "🏗️ Modulus Young",
-      body: [
-        "Modulus Young digunakan untuk mengukur tingkat kekakuan suatu material.",
-        "",
-        "Besaran ini membantu menjelaskan mengapa baja, aluminium, kayu, dan karet memiliki respons yang berbeda ketika diberi gaya."
-      ]
-    },
 
-    {
-      heading: "🪄 Hukum Hooke",
-      body: [
-        "Melalui Hukum Hooke, kita mempelajari bahwa gaya dan pertambahan panjang berbanding lurus selama benda masih berada dalam daerah elastis.",
-        "",
-        "Prinsip ini menjadi dasar dalam analisis pegas dan berbagai sistem elastis lainnya."
-      ]
-    },
 
-    {
-      heading: "🔩 Konstanta Pegas",
-      body: [
-        "Konstanta pegas menunjukkan tingkat kekakuan pegas.",
-        "",
-        "Semakin besar nilai konstanta pegas, semakin sulit pegas mengalami deformasi."
-      ]
-    },
 
-    {
-      heading: "🌀 Susunan Pegas",
-      body: [
-        "Kita juga mempelajari bahwa susunan pegas dapat mengubah karakteristik sistem.",
-        "",
-        "🔩 Susunan seri membuat sistem lebih lunak.",
-        "",
-        "🔩 Susunan paralel membuat sistem lebih kaku."
-      ]
-    },
 
-    {
-      heading: "🔋 Energi Potensial Pegas",
-      body: [
-        "Pegas tidak hanya mengalami deformasi, tetapi juga mampu menyimpan energi.",
-        "",
-        "Energi yang tersimpan dalam benda elastis disebut energi potensial pegas.",
-        "",
-        "Energi ini dapat berubah menjadi energi kinetik ketika pegas kembali ke posisi setimbang."
-      ]
-    },
 
-    {
-      heading: "🌎 Elastisitas dalam Kehidupan Nyata",
-      body: [
-        "Konsep elastisitas digunakan dalam berbagai bidang:",
-        "",
-        "🚗 suspensi kendaraan",
-        "🏗️ jembatan dan gedung",
-        "⚖️ alat ukur",
-        "🏹 busur panah",
-        "🏥 teknologi medis",
-        "🚀 teknologi antariksa",
-        "",
-        "Elastisitas membantu manusia merancang sistem yang aman, nyaman, dan efisien."
-      ]
-    },
 
-    {
-      heading: "🧠 Apa yang Sudah Kita Pelajari?",
-      body: [
-        "Dalam chapter ini kita telah mempelajari:",
-        "",
-        "🎯 Pengantar Elastisitas",
-        "🌀 Elastisitas dan Plastisitas",
-        "⚖️ Tegangan",
-        "📏 Regangan",
-        "🏗️ Modulus Young",
-        "🪄 Hukum Hooke",
-        "🔩 Konstanta Pegas",
-        "🌀 Susunan Pegas Seri",
-        "🌀 Susunan Pegas Paralel",
-        "🔋 Energi Potensial Pegas",
-        "🌎 Aplikasi Elastisitas"
-      ]
-    },
 
-    {
-      heading: "🔄 Benang Merah Chapter",
-      body: [
-        "Seluruh konsep dalam chapter ini dapat dirangkum sebagai berikut:",
-        "",
-        "Gaya",
-        "⬇️",
-        "Deformasi",
-        "⬇️",
-        "Elastisitas",
-        "⬇️",
-        "Tegangan",
-        "⬇️",
-        "Regangan",
-        "⬇️",
-        "Modulus Young",
-        "⬇️",
-        "Hukum Hooke",
-        "⬇️",
-        "Pegas",
-        "⬇️",
-        "Energi Potensial Pegas",
-        "⬇️",
-        "Aplikasi Dunia Nyata"
-      ]
-    },
 
-    {
-      heading: "🎯 Mengapa Materi Ini Penting?",
-      body: [
-        "Elastisitas merupakan dasar dalam ilmu material dan rekayasa.",
-        "",
-        "Pemahaman tentang sifat elastis membantu para ilmuwan dan insinyur merancang berbagai teknologi yang aman dan tahan lama."
-      ]
-    },
+      "🌀 Elastisitas dan Plastisitas" }, { type: "paragraph", text: "Kita telah mengenal dua sifat penting material." }, { type: "paragraph", text: "Benda elastis mampu kembali ke bentuk semula setelah gaya dihilangkan." }, { type: "paragraph", text: "Sebaliknya, benda plastis mengalami perubahan bentuk permanen." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "✨ Inti Chapter",
-      body: [
-        "Elastisitas menjelaskan kemampuan material untuk kembali ke bentuk semula setelah mengalami deformasi.",
-        "",
-        "Melalui konsep tegangan, regangan, Modulus Young, dan Hukum Hooke, kita dapat memahami serta memprediksi perilaku berbagai material ketika diberi gaya."
-      ]
-    },
 
-    {
-      heading: "🚀 Next Chapter",
-      body: [
-        "Pada chapter ini kita mempelajari bagaimana gaya dapat menyebabkan perubahan bentuk dan penyimpanan energi pada benda elastis.",
-        "",
-        "Selanjutnya kita akan mempelajari bagaimana energi berpindah dalam bentuk panas dan bagaimana suhu memengaruhi suatu sistem.",
-        "",
-        "➡️ Selanjutnya: Suhu dan Kalor."
-      ]
-    }
-  ]
-}
 
-export default penutupelastisitas
+
+
+
+
+
+
+
+      "⚖️ Tegangan dan 📏 Regangan" }, { type: "paragraph", text: "Tegangan menjelaskan pengaruh gaya yang bekerja pada setiap satuan luas material." }, { type: "paragraph", text: "Regangan menjelaskan seberapa besar perubahan bentuk relatif yang terjadi akibat gaya tersebut." }, { type: "paragraph", text: "Kedua konsep ini menjadi dasar dalam mempelajari sifat mekanik material." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "🏗️ Modulus Young" }, { type: "paragraph", text: "Modulus Young digunakan untuk mengukur tingkat kekakuan suatu material." }, { type: "paragraph", text: "Besaran ini membantu menjelaskan mengapa baja, aluminium, kayu, dan karet memiliki respons yang berbeda ketika diberi gaya." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🪄 Hukum Hooke" }, { type: "paragraph", text: "Melalui Hukum Hooke, kita mempelajari bahwa gaya dan pertambahan panjang berbanding lurus selama benda masih berada dalam daerah elastis." }, { type: "paragraph", text: "Prinsip ini menjadi dasar dalam analisis pegas dan berbagai sistem elastis lainnya." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🔩 Konstanta Pegas" }, { type: "paragraph", text: "Konstanta pegas menunjukkan tingkat kekakuan pegas." }, { type: "paragraph", text: "Semakin besar nilai konstanta pegas, semakin sulit pegas mengalami deformasi." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🌀 Susunan Pegas" }, { type: "paragraph", text: "Kita juga mempelajari bahwa susunan pegas dapat mengubah karakteristik sistem." }, { type: "paragraph", text: "🔩 Susunan seri membuat sistem lebih lunak." }, { type: "paragraph", text: "🔩 Susunan paralel membuat sistem lebih kaku." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "🔋 Energi Potensial Pegas" }, { type: "paragraph", text: "Pegas tidak hanya mengalami deformasi, tetapi juga mampu menyimpan energi." }, { type: "paragraph", text: "Energi yang tersimpan dalam benda elastis disebut energi potensial pegas." }, { type: "paragraph", text: "Energi ini dapat berubah menjadi energi kinetik ketika pegas kembali ke posisi setimbang." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "🌎 Elastisitas dalam Kehidupan Nyata" }, { type: "paragraph", text: "Konsep elastisitas digunakan dalam berbagai bidang:" }, { type: "paragraph", text: "🚗 suspensi kendaraan" }, { type: "paragraph", text: "🏗️ jembatan dan gedung" }, { type: "paragraph", text: "⚖️ alat ukur" }, { type: "paragraph", text: "🏹 busur panah" }, { type: "paragraph", text: "🏥 teknologi medis" }, { type: "paragraph", text: "🚀 teknologi antariksa" }, { type: "paragraph", text: "Elastisitas membantu manusia merancang sistem yang aman, nyaman, dan efisien." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "🧠 Apa yang Sudah Kita Pelajari?" }, { type: "paragraph", text: "Dalam chapter ini kita telah mempelajari:" }, { type: "paragraph", text: "🎯 Pengantar Elastisitas" }, { type: "paragraph", text: "🌀 Elastisitas dan Plastisitas" }, { type: "paragraph", text: "⚖️ Tegangan" }, { type: "paragraph", text: "📏 Regangan" }, { type: "paragraph", text: "🏗️ Modulus Young" }, { type: "paragraph", text: "🪄 Hukum Hooke" }, { type: "paragraph", text: "🔩 Konstanta Pegas" }, { type: "paragraph", text: "🌀 Susunan Pegas Seri" }, { type: "paragraph", text: "🌀 Susunan Pegas Paralel" }, { type: "paragraph", text: "🔋 Energi Potensial Pegas" }, { type: "paragraph", text: "🌎 Aplikasi Elastisitas" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "🔄 Benang Merah Chapter" }, { type: "paragraph", text: "Seluruh konsep dalam chapter ini dapat dirangkum sebagai berikut:" }, { type: "paragraph", text: "Gaya" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Deformasi" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Elastisitas" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Tegangan" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Regangan" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Modulus Young" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Hukum Hooke" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Pegas" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Energi Potensial Pegas" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Aplikasi Dunia Nyata" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "🎯 Mengapa Materi Ini Penting?" }, { type: "paragraph", text: "Elastisitas merupakan dasar dalam ilmu material dan rekayasa." }, { type: "paragraph", text: "Pemahaman tentang sifat elastis membantu para ilmuwan dan insinyur merancang berbagai teknologi yang aman dan tahan lama." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "✨ Inti Chapter" }, { type: "paragraph", text: "Elastisitas menjelaskan kemampuan material untuk kembali ke bentuk semula setelah mengalami deformasi." }, { type: "paragraph", text: "Melalui konsep tegangan, regangan, Modulus Young, dan Hukum Hooke, kita dapat memahami serta memprediksi perilaku berbagai material ketika diberi gaya." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🚀 Next Chapter" }, { type: "paragraph", text: "Pada chapter ini kita mempelajari bagaimana gaya dapat menyebabkan perubahan bentuk dan penyimpanan energi pada benda elastis." }, { type: "paragraph", text: "Selanjutnya kita akan mempelajari bagaimana energi berpindah dalam bentuk panas dan bagaimana suhu memengaruhi suatu sistem." }, { type: "paragraph", text: "➡️ Selanjutnya: Suhu dan Kalor." }] }]
+
+
+
+
+
+
+
+
+
+};
+
+export default penutupelastisitas;

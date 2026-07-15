@@ -3,139 +3,139 @@ const percepatan = {
   slug: "percepatan",
   description: "Memahami konsep percepatan sebagai perubahan kecepatan terhadap waktu dalam gerak benda.",
   chapter: "🚗 Kinematika: Gerak Lurus",
-  content: [
-    {
-      heading: "🚀 Gerak Tidak Selalu Tetap",
-      body: [
-        "Dalam kehidupan sehari-hari, banyak benda mengalami perubahan gerak.",
-        "",
-        "Contoh:",
-        "",
-        "🚗 Mobil mulai bergerak dari diam",
-        "🏎️ Kendaraan semakin cepat",
-        "🛑 Kendaraan melakukan pengereman",
-        "",
-        "Perubahan seperti ini berkaitan dengan konsep percepatan."
-      ]
-    },
+  content: [{ blocks: [{ type: "heading", text:
 
-    {
-      heading: "⚡ Apa Itu Percepatan?",
-      body: [
-        "Percepatan adalah perubahan kecepatan suatu benda dalam selang waktu tertentu.",
-        "",
-        "Artinya, percepatan menunjukkan seberapa cepat kecepatan berubah."
-      ]
-    },
+      "🚀 Gerak Tidak Selalu Tetap" }, { type: "paragraph", text: "Dalam kehidupan sehari-hari, banyak benda mengalami perubahan gerak." }, { type: "paragraph", text: "Contoh:" }, { type: "paragraph", text: "🚗 Mobil mulai bergerak dari diam" }, { type: "paragraph", text: "🏎️ Kendaraan semakin cepat" }, { type: "paragraph", text: "🛑 Kendaraan melakukan pengereman" }, { type: "paragraph", text: "Perubahan seperti ini berkaitan dengan konsep percepatan." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "📐 Percepatan sebagai Besaran Vektor",
-      body: [
-        "Percepatan termasuk besaran vektor.",
-        "",
-        "Karena percepatan memiliki:",
-        "",
-        "📏 besar",
-        "🧭 arah",
-        "",
-        "Arah percepatan bergantung pada perubahan kecepatan."
-      ]
-    },
 
-    {
-      heading: "📈 Percepatan Positif",
-      body: [
-        "Jika kecepatan benda bertambah, benda mengalami percepatan positif.",
-        "",
-        "Contoh:",
-        "",
-        "Mobil yang semakin cepat saat mulai bergerak."
-      ]
-    },
 
-    {
-      heading: "📉 Perlambatan (Percepatan Negatif)",
-      body: [
-        "Jika kecepatan benda berkurang, benda mengalami perlambatan.",
-        "",
-        "Contoh:",
-        "",
-        "Mobil yang melakukan pengereman."
-      ]
-    },
 
-    {
-      heading: "↔️ Perubahan Arah Juga Percepatan",
-      body: [
-        "Percepatan tidak hanya terjadi ketika besar kecepatan berubah.",
-        "",
-        "Perubahan arah gerak juga menyebabkan perubahan kecepatan.",
-        "",
-        "Contoh:",
-        "Mobil berbelok tetap mengalami percepatan walaupun kelajuannya tetap."
-      ]
-    },
 
-    {
-      heading: "🚗 Contoh Sederhana",
-      body: [
-        "Sebuah mobil:",
-        "",
-        "Awalnya bergerak 20 km/jam.",
-        "Beberapa detik kemudian menjadi 60 km/jam.",
-        "",
-        "Kecepatannya berubah, sehingga mobil mengalami percepatan."
-      ]
-    },
 
-    {
-      heading: "🌎 Contoh Percepatan dalam Kehidupan",
-      body: [
-        "Konsep percepatan digunakan pada:",
-        "",
-        "🚀 Roket saat diluncurkan",
-        "🏎️ Kendaraan balap",
-        "⚽ Bola yang ditendang",
-        "🌎 Gerak benda akibat gravitasi"
-      ]
-    },
 
-    {
-      heading: "🧠 Hubungan dengan Kinematika",
-      body: [
-        "Dalam kinematika, kita mempelajari hubungan:",
-        "",
-        "Posisi → Kecepatan → Percepatan",
-        "",
-        "Ketiganya saling berhubungan untuk menjelaskan gerak benda."
-      ]
-    },
 
-    {
-      heading: "✨ Inti Materi",
-      body: [
-        "Percepatan adalah perubahan kecepatan terhadap waktu.",
-        "",
-        "Benda mengalami percepatan jika:",
-        "",
-        "✔ Kelajuannya berubah",
-        "✔ Arahnya berubah",
-        "",
-        "Percepatan menjelaskan bagaimana gerak suatu benda berubah."
-      ]
-    },
 
-    {
-      heading: "🚀 Next Mission",
-      body: [
-        "Sekarang kita sudah memahami konsep dasar gerak.",
-        "",
-        "Selanjutnya kita masuk ke jenis gerak paling sederhana:",
-        "",
-        "➡️ Gerak Lurus Beraturan (GLB)."
-      ]
-    }
-  ]
-}
 
-export default percepatan
+
+
+
+
+      "⚡ Apa Itu Percepatan?" }, { type: "paragraph", text: "Percepatan adalah perubahan kecepatan suatu benda dalam selang waktu tertentu." }, { type: "paragraph", text: "Artinya, percepatan menunjukkan seberapa cepat kecepatan berubah." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "📐 Percepatan sebagai Besaran Vektor" }, { type: "paragraph", text: "Percepatan termasuk besaran vektor." }, { type: "paragraph", text: "Karena percepatan memiliki:" }, { type: "paragraph", text: "📏 besar" }, { type: "paragraph", text: "🧭 arah" }, { type: "paragraph", text: "Arah percepatan bergantung pada perubahan kecepatan." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "📈 Percepatan Positif" }, { type: "paragraph", text: "Jika kecepatan benda bertambah, benda mengalami percepatan positif." }, { type: "paragraph", text: "Contoh:" }, { type: "paragraph", text: "Mobil yang semakin cepat saat mulai bergerak." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "📉 Perlambatan (Percepatan Negatif)" }, { type: "paragraph", text: "Jika kecepatan benda berkurang, benda mengalami perlambatan." }, { type: "paragraph", text: "Contoh:" }, { type: "paragraph", text: "Mobil yang melakukan pengereman." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "↔️ Perubahan Arah Juga Percepatan" }, { type: "paragraph", text: "Percepatan tidak hanya terjadi ketika besar kecepatan berubah." }, { type: "paragraph", text: "Perubahan arah gerak juga menyebabkan perubahan kecepatan." }, { type: "paragraph", text: "Contoh:" }, { type: "paragraph", text: "Mobil berbelok tetap mengalami percepatan walaupun kelajuannya tetap." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+      "🚗 Contoh Sederhana" }, { type: "paragraph", text: "Sebuah mobil:" }, { type: "paragraph", text: "Awalnya bergerak 20 km/jam." }, { type: "paragraph", text: "Beberapa detik kemudian menjadi 60 km/jam." }, { type: "paragraph", text: "Kecepatannya berubah, sehingga mobil mengalami percepatan." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+      "🌎 Contoh Percepatan dalam Kehidupan" }, { type: "paragraph", text: "Konsep percepatan digunakan pada:" }, { type: "paragraph", text: "🚀 Roket saat diluncurkan" }, { type: "paragraph", text: "🏎️ Kendaraan balap" }, { type: "paragraph", text: "⚽ Bola yang ditendang" }, { type: "paragraph", text: "🌎 Gerak benda akibat gravitasi" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+      "🧠 Hubungan dengan Kinematika" }, { type: "paragraph", text: "Dalam kinematika, kita mempelajari hubungan:" }, { type: "paragraph", text: "Posisi → Kecepatan → Percepatan" }, { type: "paragraph", text: "Ketiganya saling berhubungan untuk menjelaskan gerak benda." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "✨ Inti Materi" }, { type: "paragraph", text: "Percepatan adalah perubahan kecepatan terhadap waktu." }, { type: "paragraph", text: "Benda mengalami percepatan jika:" }, { type: "paragraph", text: "✔ Kelajuannya berubah" }, { type: "paragraph", text: "✔ Arahnya berubah" }, { type: "paragraph", text: "Percepatan menjelaskan bagaimana gerak suatu benda berubah." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "🚀 Next Mission" }, { type: "paragraph", text: "Sekarang kita sudah memahami konsep dasar gerak." }, { type: "paragraph", text: "Selanjutnya kita masuk ke jenis gerak paling sederhana:" }, { type: "paragraph", text: "➡️ Gerak Lurus Beraturan (GLB)." }] }]
+
+
+
+
+
+
+
+
+
+};
+
+export default percepatan;

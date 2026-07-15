@@ -4,213 +4,213 @@ const sistemtermodinamika = {
   chapter: "🌡️ Termodinamika",
   description: "Memahami konsep sistem, lingkungan, dan jenis-jenis sistem termodinamika sebagai dasar analisis proses termodinamika.",
 
-  content: [
-    {
-      heading: "☕ Secangkir Kopi Panas",
-      body: [
-        "Bayangkan terdapat secangkir kopi panas di atas meja.",
-        "",
-        "Seiring waktu, kopi akan mendingin karena kalor berpindah ke udara di sekitarnya.",
-        "",
-        "Dalam termodinamika, kita perlu menentukan bagian mana yang menjadi objek kajian dan bagian mana yang menjadi lingkungan."
-      ]
-    },
+  content: [{ blocks: [{ type: "heading", text:
 
-    {
-      heading: "📍 Apa Itu Sistem?",
-      body: [
-        "Sistem adalah bagian dari alam semesta yang menjadi fokus pengamatan atau kajian.",
-        "",
-        "Sistem dapat berupa benda tunggal, kumpulan benda, maupun sejumlah zat tertentu."
-      ]
-    },
+      "☕ Secangkir Kopi Panas" }, { type: "paragraph", text: "Bayangkan terdapat secangkir kopi panas di atas meja." }, { type: "paragraph", text: "Seiring waktu, kopi akan mendingin karena kalor berpindah ke udara di sekitarnya." }, { type: "paragraph", text: "Dalam termodinamika, kita perlu menentukan bagian mana yang menjadi objek kajian dan bagian mana yang menjadi lingkungan." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "🌎 Apa Itu Lingkungan?",
-      body: [
-        "Lingkungan adalah segala sesuatu yang berada di luar sistem.",
-        "",
-        "Lingkungan dapat berinteraksi dengan sistem melalui pertukaran energi atau materi."
-      ]
-    },
 
-    {
-      heading: "🚧 Batas Sistem",
-      body: [
-        "Sistem dan lingkungan dipisahkan oleh suatu batas yang disebut batas sistem.",
-        "",
-        "Batas sistem dapat berupa dinding nyata maupun batas imajiner yang ditentukan untuk mempermudah analisis."
-      ]
-    },
 
-    {
-      heading: "☕ Contoh Sistem dan Lingkungan",
-      body: [
-        "Jika sistem yang dipilih adalah kopi panas di dalam cangkir:",
-        "",
-        "☕ Kopi → Sistem",
-        "🌬️ Udara sekitar → Lingkungan",
-        "",
-        "Kalor dapat berpindah dari sistem ke lingkungan."
-      ]
-    },
 
-    {
-      heading: "🔄 Interaksi Sistem dan Lingkungan",
-      body: [
-        "Sistem dapat berinteraksi dengan lingkungannya melalui:",
-        "",
-        "🔥 Pertukaran kalor",
-        "⚙️ Pertukaran kerja",
-        "💨 Pertukaran materi"
-      ]
-    },
 
-    {
-      heading: "📦 Jenis Sistem Termodinamika",
-      body: [
-        "Berdasarkan kemampuannya berinteraksi dengan lingkungan, sistem termodinamika dibagi menjadi tiga jenis:",
-        "",
-        "1️⃣ Sistem Terbuka",
-        "2️⃣ Sistem Tertutup",
-        "3️⃣ Sistem Terisolasi"
-      ]
-    },
 
-    {
-      heading: "1️⃣ Sistem Terbuka",
-      body: [
-        "Sistem terbuka dapat bertukar energi dan materi dengan lingkungannya.",
-        "",
-        "Kalor, kerja, maupun zat dapat keluar dan masuk sistem."
-      ]
-    },
 
-    {
-      heading: "🌊 Contoh Sistem Terbuka",
-      body: [
-        "Contoh sistem terbuka:",
-        "",
-        "☕ kopi tanpa tutup",
-        "🏭 turbin uap",
-        "🚿 aliran air dalam pipa",
-        "🚗 mesin kendaraan yang sedang bekerja"
-      ]
-    },
 
-    {
-      heading: "2️⃣ Sistem Tertutup",
-      body: [
-        "Sistem tertutup dapat bertukar energi dengan lingkungan, tetapi tidak dapat bertukar materi."
-      ]
-    },
 
-    {
-      heading: "🫙 Contoh Sistem Tertutup",
-      body: [
-        "Contoh sistem tertutup:",
-        "",
-        "🫙 gas dalam tabung tertutup",
-        "🍲 panci bertutup rapat",
-        "🧪 zat dalam wadah tertutup"
-      ]
-    },
 
-    {
-      heading: "3️⃣ Sistem Terisolasi",
-      body: [
-        "Sistem terisolasi tidak dapat bertukar energi maupun materi dengan lingkungan."
-      ]
-    },
+      "📍 Apa Itu Sistem?" }, { type: "paragraph", text: "Sistem adalah bagian dari alam semesta yang menjadi fokus pengamatan atau kajian." }, { type: "paragraph", text: "Sistem dapat berupa benda tunggal, kumpulan benda, maupun sejumlah zat tertentu." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "❄️ Contoh Sistem Terisolasi",
-      body: [
-        "Contoh sistem terisolasi ideal:",
-        "",
-        "🧊 termos berkualitas tinggi",
-        "🌌 alam semesta (dalam beberapa pendekatan fisika)"
-      ]
-    },
 
-    {
-      heading: "⚠️ Sistem Terisolasi Ideal",
-      body: [
-        "Dalam kenyataannya sangat sulit membuat sistem yang benar-benar terisolasi.",
-        "",
-        "Sebagian besar sistem terisolasi yang digunakan dalam fisika hanyalah pendekatan ideal."
-      ]
-    },
 
-    {
-      heading: "🔬 Mengapa Konsep Sistem Penting?",
-      body: [
-        "Dalam termodinamika, hasil analisis sangat bergantung pada bagaimana kita menentukan sistem dan lingkungan.",
-        "",
-        "Pemilihan sistem yang tepat akan mempermudah perhitungan energi, kalor, dan kerja."
-      ]
-    },
 
-    {
-      heading: "🌡️ Sistem dalam Kehidupan Sehari-Hari",
-      body: [
-        "Konsep sistem termodinamika digunakan dalam berbagai teknologi:",
-        "",
-        "🚗 mesin kendaraan",
-        "❄️ kulkas",
-        "☀️ panel surya",
-        "🏭 pembangkit listrik",
-        "✈️ mesin pesawat"
-      ]
-    },
 
-    {
-      heading: "📊 Perbandingan Jenis Sistem",
-      body: [
-        "Perbedaan utama ketiga sistem terletak pada kemampuan bertukar energi dan materi dengan lingkungan."
-      ]
-    },
 
-    {
-      heading: "⚠️ Miskonsepsi yang Sering Terjadi",
-      body: [
-        "Banyak siswa menganggap sistem selalu berupa benda fisik yang tertutup.",
-        "",
-        "Padahal sistem dapat berupa bagian apa pun yang dipilih untuk dianalisis."
-      ]
-    },
 
-    {
-      heading: "🔗 Hubungan dengan Materi Berikutnya",
-      body: [
-        "Setelah menentukan sistem, kita perlu mengetahui besaran-besaran yang digunakan untuk menggambarkan keadaan sistem tersebut.",
-        "",
-        "Besaran tersebut dikenal sebagai variabel keadaan."
-      ]
-    },
 
-    {
-      heading: "🧠 Inti Materi",
-      body: [
-        "Sistem adalah bagian alam semesta yang menjadi fokus kajian, sedangkan lingkungan adalah segala sesuatu di luar sistem.",
-        "",
-        "Berdasarkan interaksinya dengan lingkungan, sistem dibedakan menjadi sistem terbuka, sistem tertutup, dan sistem terisolasi.",
-        "",
-        "Pemahaman konsep sistem merupakan dasar seluruh pembahasan termodinamika."
-      ]
-    },
+      "🌎 Apa Itu Lingkungan?" }, { type: "paragraph", text: "Lingkungan adalah segala sesuatu yang berada di luar sistem." }, { type: "paragraph", text: "Lingkungan dapat berinteraksi dengan sistem melalui pertukaran energi atau materi." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "🚀 Next Mission",
-      body: [
-        "Bagaimana cara mendeskripsikan keadaan suatu sistem termodinamika?",
-        "",
-        "Besaran apa saja yang digunakan untuk menggambarkan kondisi sistem?",
-        "",
-        "➡️ Selanjutnya: Variabel Keadaan."
-      ]
-    }
-  ]
-}
 
-export default sistemtermodinamika
+
+
+
+
+
+
+      "🚧 Batas Sistem" }, { type: "paragraph", text: "Sistem dan lingkungan dipisahkan oleh suatu batas yang disebut batas sistem." }, { type: "paragraph", text: "Batas sistem dapat berupa dinding nyata maupun batas imajiner yang ditentukan untuk mempermudah analisis." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "☕ Contoh Sistem dan Lingkungan" }, { type: "paragraph", text: "Jika sistem yang dipilih adalah kopi panas di dalam cangkir:" }, { type: "paragraph", text: "☕ Kopi → Sistem" }, { type: "paragraph", text: "🌬️ Udara sekitar → Lingkungan" }, { type: "paragraph", text: "Kalor dapat berpindah dari sistem ke lingkungan." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+      "🔄 Interaksi Sistem dan Lingkungan" }, { type: "paragraph", text: "Sistem dapat berinteraksi dengan lingkungannya melalui:" }, { type: "paragraph", text: "🔥 Pertukaran kalor" }, { type: "paragraph", text: "⚙️ Pertukaran kerja" }, { type: "paragraph", text: "💨 Pertukaran materi" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "📦 Jenis Sistem Termodinamika" }, { type: "paragraph", text: "Berdasarkan kemampuannya berinteraksi dengan lingkungan, sistem termodinamika dibagi menjadi tiga jenis:" }, { type: "paragraph", text: "1️⃣ Sistem Terbuka" }, { type: "paragraph", text: "2️⃣ Sistem Tertutup" }, { type: "paragraph", text: "3️⃣ Sistem Terisolasi" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "1️⃣ Sistem Terbuka" }, { type: "paragraph", text: "Sistem terbuka dapat bertukar energi dan materi dengan lingkungannya." }, { type: "paragraph", text: "Kalor, kerja, maupun zat dapat keluar dan masuk sistem." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🌊 Contoh Sistem Terbuka" }, { type: "paragraph", text: "Contoh sistem terbuka:" }, { type: "paragraph", text: "☕ kopi tanpa tutup" }, { type: "paragraph", text: "🏭 turbin uap" }, { type: "paragraph", text: "🚿 aliran air dalam pipa" }, { type: "paragraph", text: "🚗 mesin kendaraan yang sedang bekerja" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+      "2️⃣ Sistem Tertutup" }, { type: "paragraph", text: "Sistem tertutup dapat bertukar energi dengan lingkungan, tetapi tidak dapat bertukar materi." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "🫙 Contoh Sistem Tertutup" }, { type: "paragraph", text: "Contoh sistem tertutup:" }, { type: "paragraph", text: "🫙 gas dalam tabung tertutup" }, { type: "paragraph", text: "🍲 panci bertutup rapat" }, { type: "paragraph", text: "🧪 zat dalam wadah tertutup" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "3️⃣ Sistem Terisolasi" }, { type: "paragraph", text: "Sistem terisolasi tidak dapat bertukar energi maupun materi dengan lingkungan." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "❄️ Contoh Sistem Terisolasi" }, { type: "paragraph", text: "Contoh sistem terisolasi ideal:" }, { type: "paragraph", text: "🧊 termos berkualitas tinggi" }, { type: "paragraph", text: "🌌 alam semesta (dalam beberapa pendekatan fisika)" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+      "⚠️ Sistem Terisolasi Ideal" }, { type: "paragraph", text: "Dalam kenyataannya sangat sulit membuat sistem yang benar-benar terisolasi." }, { type: "paragraph", text: "Sebagian besar sistem terisolasi yang digunakan dalam fisika hanyalah pendekatan ideal." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🔬 Mengapa Konsep Sistem Penting?" }, { type: "paragraph", text: "Dalam termodinamika, hasil analisis sangat bergantung pada bagaimana kita menentukan sistem dan lingkungan." }, { type: "paragraph", text: "Pemilihan sistem yang tepat akan mempermudah perhitungan energi, kalor, dan kerja." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🌡️ Sistem dalam Kehidupan Sehari-Hari" }, { type: "paragraph", text: "Konsep sistem termodinamika digunakan dalam berbagai teknologi:" }, { type: "paragraph", text: "🚗 mesin kendaraan" }, { type: "paragraph", text: "❄️ kulkas" }, { type: "paragraph", text: "☀️ panel surya" }, { type: "paragraph", text: "🏭 pembangkit listrik" }, { type: "paragraph", text: "✈️ mesin pesawat" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+      "📊 Perbandingan Jenis Sistem" }, { type: "paragraph", text: "Perbedaan utama ketiga sistem terletak pada kemampuan bertukar energi dan materi dengan lingkungan." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "⚠️ Miskonsepsi yang Sering Terjadi" }, { type: "paragraph", text: "Banyak siswa menganggap sistem selalu berupa benda fisik yang tertutup." }, { type: "paragraph", text: "Padahal sistem dapat berupa bagian apa pun yang dipilih untuk dianalisis." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🔗 Hubungan dengan Materi Berikutnya" }, { type: "paragraph", text: "Setelah menentukan sistem, kita perlu mengetahui besaran-besaran yang digunakan untuk menggambarkan keadaan sistem tersebut." }, { type: "paragraph", text: "Besaran tersebut dikenal sebagai variabel keadaan." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🧠 Inti Materi" }, { type: "paragraph", text: "Sistem adalah bagian alam semesta yang menjadi fokus kajian, sedangkan lingkungan adalah segala sesuatu di luar sistem." }, { type: "paragraph", text: "Berdasarkan interaksinya dengan lingkungan, sistem dibedakan menjadi sistem terbuka, sistem tertutup, dan sistem terisolasi." }, { type: "paragraph", text: "Pemahaman konsep sistem merupakan dasar seluruh pembahasan termodinamika." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "🚀 Next Mission" }, { type: "paragraph", text: "Bagaimana cara mendeskripsikan keadaan suatu sistem termodinamika?" }, { type: "paragraph", text: "Besaran apa saja yang digunakan untuk menggambarkan kondisi sistem?" }, { type: "paragraph", text: "➡️ Selanjutnya: Variabel Keadaan." }] }]
+
+
+
+
+
+
+
+
+
+};
+
+export default sistemtermodinamika;

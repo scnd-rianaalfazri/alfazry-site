@@ -4,148 +4,148 @@ const dinamikageraklurus = {
   description: "Menerapkan Hukum Newton untuk menganalisis gerak benda pada bidang datar, miring, dan sistem katrol.",
   chapter: "🏎️ Dinamika: Gerak Lurus (Aplikasi Hukum Newton)",
 
-  content: [
-    {
-      heading: "🚀 Dari Teori ke Aksi Nyata",
-      body: [
-        "Setelah memahami gaya dan Hukum Newton, sekarang saatnya masuk ke penerapan langsung.",
-        "",
-        "Di sini kita tidak hanya melihat gaya satu per satu, tapi bagaimana semua gaya bekerja bersama dalam satu sistem."
-      ]
-    },
+  content: [{ blocks: [{ type: "heading", text:
 
-    {
-      heading: "🧩 Kunci Utama: Resultan Gaya",
-      body: [
-        "Dalam semua kasus dinamika, hal pertama yang harus dicari adalah resultan gaya.",
-        "",
-        "ΣF = m × a",
-        "",
-        "Dari sini kita bisa menentukan bagaimana benda bergerak."
-      ]
-    },
+      "🚀 Dari Teori ke Aksi Nyata" }, { type: "paragraph", text: "Setelah memahami gaya dan Hukum Newton, sekarang saatnya masuk ke penerapan langsung." }, { type: "paragraph", text: "Di sini kita tidak hanya melihat gaya satu per satu, tapi bagaimana semua gaya bekerja bersama dalam satu sistem." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "🛣️ Benda di Bidang Datar",
-      body: [
-        "Kasus paling dasar adalah benda yang bergerak di permukaan datar.",
-        "",
-        "Gaya yang bekerja biasanya:",
-        "",
-        "⚖️ gaya berat (ke bawah)",
-        "📦 gaya normal (ke atas)",
-        "🧱 gaya gesek (melawan gerak)",
-        "💪 gaya dorong/tarik"
-      ]
-    },
 
-    {
-      heading: "⚖️ Kondisi Tanpa Gesekan",
-      body: [
-        "Jika tidak ada gaya gesek:",
-        "",
-        "➡️ benda lebih mudah bergerak",
-        "➡️ percepatan hanya dipengaruhi gaya dorong",
-        "",
-        "Ini sering digunakan untuk model ideal."
-      ]
-    },
 
-    {
-      heading: "🧱 Kondisi Dengan Gesekan",
-      body: [
-        "Jika ada gaya gesek:",
-        "",
-        "➡️ gaya gesek melawan gerak",
-        "➡️ percepatan menjadi lebih kecil",
-        "",
-        "Semakin besar gesekan, semakin sulit benda bergerak."
-      ]
-    },
 
-    {
-      heading: "📐 Bidang Miring",
-      body: [
-        "Pada bidang miring, gaya berat tidak bekerja langsung ke bawah saja.",
-        "",
-        "Gaya berat diuraikan menjadi dua komponen:",
-        "",
-        "⬇️ sejajar bidang (menyebabkan gerak)",
-        "⬆️ tegak lurus bidang (mempengaruhi normal)",
-        "",
-        "Inilah pentingnya vektor dalam dinamika."
-      ]
-    },
 
-    {
-      heading: "🪢 Sistem Katrol",
-      body: [
-        "Katrol digunakan untuk menghubungkan dua benda melalui tali.",
-        "",
-        "Dalam sistem ini:",
-        "",
-        "🪢 tegangan tali menjadi gaya penghubung",
-        "⚖️ massa benda menentukan percepatan sistem",
-        "",
-        "Semua benda dalam sistem saling mempengaruhi."
-      ]
-    },
 
-    {
-      heading: "🔗 Benda Saling Terhubung",
-      body: [
-        "Pada sistem katrol atau benda terhubung:",
-        "",
-        "➡️ percepatan bisa sama",
-        "➡️ gaya pada satu benda memengaruhi benda lain",
-        "",
-        "Ini adalah konsep sistem dalam dinamika."
-      ]
-    },
 
-    {
-      heading: "🧠 Langkah Penyelesaian Soal",
-      body: [
-        "Dalam soal dinamika gerak lurus:",
-        "",
-        "1. Gambar FBD",
-        "2. Tentukan arah gerak",
-        "3. Hitung resultan gaya",
-        "4. Gunakan ΣF = m × a",
-        "5. Analisis percepatan"
-      ]
-    },
 
-    {
-      heading: "🚗 Contoh Kehidupan Nyata",
-      body: [
-        "Contoh penerapan:",
-        "",
-        "🚗 mobil ditarik/didorong",
-        "📦 benda didorong di lantai",
-        "🏗️ beban diangkat dengan katrol",
-        "🛷 benda meluncur di permukaan"
-      ]
-    },
+      "🧩 Kunci Utama: Resultan Gaya" }, { type: "paragraph", text: "Dalam semua kasus dinamika, hal pertama yang harus dicari adalah resultan gaya." }, { type: "paragraph", text: "ΣF = m × a" }, { type: "paragraph", text: "Dari sini kita bisa menentukan bagaimana benda bergerak." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "✨ Inti Materi",
-      body: [
-        "Dinamika gerak lurus adalah penerapan Hukum Newton untuk menganalisis gerak benda dalam berbagai kondisi nyata.",
-        "",
-        "Kunci utamanya adalah memahami semua gaya yang bekerja dalam sistem."
-      ]
-    },
 
-    {
-      heading: "🚀 Next Mission",
-      body: [
-        "Setelah memahami gerak lurus, kita masuk ke kasus yang lebih kompleks:",
-        "",
-        "➡️ Selanjutnya: Aplikasi Dinamika dalam Kehidupan & Sistem Kompleks."
-      ]
-    }
-  ]
-}
 
-export default dinamikageraklurus
+
+
+
+
+
+
+
+      "🛣️ Benda di Bidang Datar" }, { type: "paragraph", text: "Kasus paling dasar adalah benda yang bergerak di permukaan datar." }, { type: "paragraph", text: "Gaya yang bekerja biasanya:" }, { type: "paragraph", text: "⚖️ gaya berat (ke bawah)" }, { type: "paragraph", text: "📦 gaya normal (ke atas)" }, { type: "paragraph", text: "🧱 gaya gesek (melawan gerak)" }, { type: "paragraph", text: "💪 gaya dorong/tarik" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "⚖️ Kondisi Tanpa Gesekan" }, { type: "paragraph", text: "Jika tidak ada gaya gesek:" }, { type: "paragraph", text: "➡️ benda lebih mudah bergerak" }, { type: "paragraph", text: "➡️ percepatan hanya dipengaruhi gaya dorong" }, { type: "paragraph", text: "Ini sering digunakan untuk model ideal." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+      "🧱 Kondisi Dengan Gesekan" }, { type: "paragraph", text: "Jika ada gaya gesek:" }, { type: "paragraph", text: "➡️ gaya gesek melawan gerak" }, { type: "paragraph", text: "➡️ percepatan menjadi lebih kecil" }, { type: "paragraph", text: "Semakin besar gesekan, semakin sulit benda bergerak." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+      "📐 Bidang Miring" }, { type: "paragraph", text: "Pada bidang miring, gaya berat tidak bekerja langsung ke bawah saja." }, { type: "paragraph", text: "Gaya berat diuraikan menjadi dua komponen:" }, { type: "paragraph", text: "⬇️ sejajar bidang (menyebabkan gerak)" }, { type: "paragraph", text: "⬆️ tegak lurus bidang (mempengaruhi normal)" }, { type: "paragraph", text: "Inilah pentingnya vektor dalam dinamika." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "🪢 Sistem Katrol" }, { type: "paragraph", text: "Katrol digunakan untuk menghubungkan dua benda melalui tali." }, { type: "paragraph", text: "Dalam sistem ini:" }, { type: "paragraph", text: "🪢 tegangan tali menjadi gaya penghubung" }, { type: "paragraph", text: "⚖️ massa benda menentukan percepatan sistem" }, { type: "paragraph", text: "Semua benda dalam sistem saling mempengaruhi." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "🔗 Benda Saling Terhubung" }, { type: "paragraph", text: "Pada sistem katrol atau benda terhubung:" }, { type: "paragraph", text: "➡️ percepatan bisa sama" }, { type: "paragraph", text: "➡️ gaya pada satu benda memengaruhi benda lain" }, { type: "paragraph", text: "Ini adalah konsep sistem dalam dinamika." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+      "🧠 Langkah Penyelesaian Soal" }, { type: "paragraph", text: "Dalam soal dinamika gerak lurus:" }, { type: "paragraph", text: "1. Gambar FBD" }, { type: "paragraph", text: "2. Tentukan arah gerak" }, { type: "paragraph", text: "3. Hitung resultan gaya" }, { type: "paragraph", text: "4. Gunakan ΣF = m × a" }, { type: "paragraph", text: "5. Analisis percepatan" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+      "🚗 Contoh Kehidupan Nyata" }, { type: "paragraph", text: "Contoh penerapan:" }, { type: "paragraph", text: "🚗 mobil ditarik/didorong" }, { type: "paragraph", text: "📦 benda didorong di lantai" }, { type: "paragraph", text: "🏗️ beban diangkat dengan katrol" }, { type: "paragraph", text: "🛷 benda meluncur di permukaan" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+      "✨ Inti Materi" }, { type: "paragraph", text: "Dinamika gerak lurus adalah penerapan Hukum Newton untuk menganalisis gerak benda dalam berbagai kondisi nyata." }, { type: "paragraph", text: "Kunci utamanya adalah memahami semua gaya yang bekerja dalam sistem." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🚀 Next Mission" }, { type: "paragraph", text: "Setelah memahami gerak lurus, kita masuk ke kasus yang lebih kompleks:" }, { type: "paragraph", text: "➡️ Selanjutnya: Aplikasi Dinamika dalam Kehidupan & Sistem Kompleks." }] }]
+
+
+
+
+
+
+
+};
+
+export default dinamikageraklurus;

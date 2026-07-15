@@ -4,131 +4,131 @@ const modelatombohr = {
   description: "Memahami Model Atom Bohr, konsep tingkat energi elektron, serta bagaimana model ini menjelaskan spektrum atom hidrogen.",
   chapter: "✨ Fisika Kuantum",
 
-  content: [
-    {
-      heading: "⚛️ Masalah pada Model Atom Klasik",
-      body: [
-        "Menurut fisika klasik, elektron yang bergerak mengelilingi inti akan terus memancarkan energi.",
-        "",
-        "Jika hal itu benar, elektron seharusnya kehilangan energi dan akhirnya jatuh ke inti atom.",
-        "",
-        "Namun kenyataannya atom dapat tetap stabil."
-      ]
-    },
+  content: [{ blocks: [{ type: "heading", text:
 
-    {
-      heading: "💡 Gagasan Niels Bohr",
-      body: [
-        "Pada tahun 1913, Niels Bohr mengusulkan bahwa elektron hanya dapat berada pada lintasan tertentu yang disebut tingkat energi.",
-        "",
-        "Selama berada pada lintasan tersebut, elektron tidak memancarkan energi."
-      ]
-    },
+      "⚛️ Masalah pada Model Atom Klasik" }, { type: "paragraph", text: "Menurut fisika klasik, elektron yang bergerak mengelilingi inti akan terus memancarkan energi." }, { type: "paragraph", text: "Jika hal itu benar, elektron seharusnya kehilangan energi dan akhirnya jatuh ke inti atom." }, { type: "paragraph", text: "Namun kenyataannya atom dapat tetap stabil." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "🪜 Tingkat Energi",
-      body: [
-        "Setiap lintasan memiliki energi yang berbeda.",
-        "",
-        "Elektron tidak dapat berada di antara dua tingkat energi, melainkan hanya pada tingkat-tingkat tertentu."
-      ]
-    },
 
-    {
-      heading: "⬆️ Menyerap Energi",
-      body: [
-        "Jika elektron menyerap energi yang cukup, elektron dapat berpindah ke tingkat energi yang lebih tinggi.",
-        "",
-        "Keadaan ini disebut keadaan tereksitasi."
-      ]
-    },
 
-    {
-      heading: "⬇️ Memancarkan Cahaya",
-      body: [
-        "Elektron yang berada pada tingkat energi tinggi cenderung kembali ke tingkat energi yang lebih rendah.",
-        "",
-        "Ketika berpindah, selisih energinya dipancarkan sebagai sebuah foton."
-      ]
-    },
 
-    {
-      heading: "🌈 Spektrum Garis",
-      body: [
-        "Karena hanya terdapat tingkat energi tertentu, atom hanya dapat memancarkan cahaya dengan energi tertentu pula.",
-        "",
-        "Akibatnya terbentuk spektrum garis, bukan spektrum kontinu."
-      ]
-    },
 
-    {
-      heading: "🏆 Keberhasilan Model Bohr",
-      body: [
-        "Model Bohr berhasil menjelaskan kestabilan atom hidrogen serta spektrum garis atom hidrogen.",
-        "",
-        "Model ini menjadi salah satu tonggak penting dalam perkembangan fisika kuantum."
-      ]
-    },
 
-    {
-      heading: "⚠️ Keterbatasan Model Bohr",
-      body: [
-        "Model Bohr bekerja sangat baik untuk atom hidrogen.",
-        "",
-        "Namun model ini kurang mampu menjelaskan atom yang memiliki banyak elektron.",
-        "",
-        "Karena itu kemudian dikembangkan model atom mekanika kuantum."
-      ]
-    },
 
-    {
-      heading: "📊 Ringkasan Konsep",
-      body: [
-        "Elektron",
-        "⬇️",
-        "Tingkat Energi",
-        "⬇️",
-        "Menyerap Energi",
-        "⬇️",
-        "Naik Tingkat",
-        "",
-        "atau",
-        "",
-        "Turun Tingkat",
-        "⬇️",
-        "Memancarkan Foton"
-      ]
-    },
 
-    {
-      heading: "🔗 Hubungan dengan Materi Berikutnya",
-      body: [
-        "Model Bohr menjelaskan bahwa elektron berada pada tingkat energi tertentu.",
-        "",
-        "Namun bagaimana cara menggambarkan keadaan elektron secara lebih lengkap?",
-        "",
-        "Untuk itu diperlukan konsep bilangan kuantum."
-      ]
-    },
 
-    {
-      heading: "🧠 Inti Materi",
-      body: [
-        "Model Atom Bohr menyatakan bahwa elektron berada pada tingkat energi tertentu dan hanya dapat berpindah antar tingkat dengan menyerap atau memancarkan energi.",
-        "",
-        "Model ini berhasil menjelaskan spektrum atom hidrogen dan menjadi langkah penting menuju mekanika kuantum modern."
-      ]
-    },
 
-    {
-      heading: "🚀 Next Mission",
-      body: [
-        "Bagaimana cara ilmuwan menentukan 'alamat' sebuah elektron di dalam atom?",
-        "",
-        "➡️ Selanjutnya: Bilangan Kuantum."
-      ]
-    }
-  ]
-}
+      "💡 Gagasan Niels Bohr" }, { type: "paragraph", text: "Pada tahun 1913, Niels Bohr mengusulkan bahwa elektron hanya dapat berada pada lintasan tertentu yang disebut tingkat energi." }, { type: "paragraph", text: "Selama berada pada lintasan tersebut, elektron tidak memancarkan energi." }] }, { blocks: [{ type: "heading", text:
 
-export default modelatombohr
+
+
+
+
+
+
+
+      "🪜 Tingkat Energi" }, { type: "paragraph", text: "Setiap lintasan memiliki energi yang berbeda." }, { type: "paragraph", text: "Elektron tidak dapat berada di antara dua tingkat energi, melainkan hanya pada tingkat-tingkat tertentu." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "⬆️ Menyerap Energi" }, { type: "paragraph", text: "Jika elektron menyerap energi yang cukup, elektron dapat berpindah ke tingkat energi yang lebih tinggi." }, { type: "paragraph", text: "Keadaan ini disebut keadaan tereksitasi." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "⬇️ Memancarkan Cahaya" }, { type: "paragraph", text: "Elektron yang berada pada tingkat energi tinggi cenderung kembali ke tingkat energi yang lebih rendah." }, { type: "paragraph", text: "Ketika berpindah, selisih energinya dipancarkan sebagai sebuah foton." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🌈 Spektrum Garis" }, { type: "paragraph", text: "Karena hanya terdapat tingkat energi tertentu, atom hanya dapat memancarkan cahaya dengan energi tertentu pula." }, { type: "paragraph", text: "Akibatnya terbentuk spektrum garis, bukan spektrum kontinu." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🏆 Keberhasilan Model Bohr" }, { type: "paragraph", text: "Model Bohr berhasil menjelaskan kestabilan atom hidrogen serta spektrum garis atom hidrogen." }, { type: "paragraph", text: "Model ini menjadi salah satu tonggak penting dalam perkembangan fisika kuantum." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "⚠️ Keterbatasan Model Bohr" }, { type: "paragraph", text: "Model Bohr bekerja sangat baik untuk atom hidrogen." }, { type: "paragraph", text: "Namun model ini kurang mampu menjelaskan atom yang memiliki banyak elektron." }, { type: "paragraph", text: "Karena itu kemudian dikembangkan model atom mekanika kuantum." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "📊 Ringkasan Konsep" }, { type: "paragraph", text: "Elektron" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Tingkat Energi" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Menyerap Energi" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Naik Tingkat" }, { type: "paragraph", text: "atau" }, { type: "paragraph", text: "Turun Tingkat" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Memancarkan Foton" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "🔗 Hubungan dengan Materi Berikutnya" }, { type: "paragraph", text: "Model Bohr menjelaskan bahwa elektron berada pada tingkat energi tertentu." }, { type: "paragraph", text: "Namun bagaimana cara menggambarkan keadaan elektron secara lebih lengkap?" }, { type: "paragraph", text: "Untuk itu diperlukan konsep bilangan kuantum." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "🧠 Inti Materi" }, { type: "paragraph", text: "Model Atom Bohr menyatakan bahwa elektron berada pada tingkat energi tertentu dan hanya dapat berpindah antar tingkat dengan menyerap atau memancarkan energi." }, { type: "paragraph", text: "Model ini berhasil menjelaskan spektrum atom hidrogen dan menjadi langkah penting menuju mekanika kuantum modern." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🚀 Next Mission" }, { type: "paragraph", text: "Bagaimana cara ilmuwan menentukan 'alamat' sebuah elektron di dalam atom?" }, { type: "paragraph", text: "➡️ Selanjutnya: Bilangan Kuantum." }] }]
+
+
+
+
+
+
+
+};
+
+export default modelatombohr;

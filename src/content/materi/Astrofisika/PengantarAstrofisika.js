@@ -5,136 +5,136 @@ const pengantarastrofisika = {
   description: "Memahami mengapa manusia mempelajari alam semesta dan bagaimana fisika membantu mengungkap berbagai misteri yang ada di luar Bumi.",
   chapter: "🌠 Astrofisika",
 
-  content: [
-    {
-      caption: "Setiap cahaya yang datang dari langit membawa cerita tentang alam semesta.",
+  content: [{ blocks: [{ type: "paragraph", text: "Malam ini, cobalah melihat ke arah langit." }, { type: "paragraph", text: "Ribuan bintang tampak berkelap-kelip." }, { type: "paragraph", text: "Namun pernahkah kamu bertanya..." }, { type: "paragraph", text: "\"Bagaimana kita bisa mengetahui suhu sebuah bintang yang tidak pernah kita datangi?\"" }, { type: "paragraph", text: "\"Bagaimana kita tahu sebuah galaksi berjarak jutaan tahun cahaya?\"" }, { type: "paragraph", text: "\"Bagaimana kita mengetahui adanya lubang hitam yang bahkan tidak memancarkan cahaya?\"" }] }, { blocks: [{ type: "heading", text:
 
-      body: [
-        "Malam ini, cobalah melihat ke arah langit.",
-        "",
-        "Ribuan bintang tampak berkelap-kelip.",
-        "",
-        "Namun pernahkah kamu bertanya...",
-        "",
-        "\"Bagaimana kita bisa mengetahui suhu sebuah bintang yang tidak pernah kita datangi?\"",
-        "",
-        "\"Bagaimana kita tahu sebuah galaksi berjarak jutaan tahun cahaya?\"",
-        "",
-        "\"Bagaimana kita mengetahui adanya lubang hitam yang bahkan tidak memancarkan cahaya?\""
-      ]
-    },
 
-    {
-      heading: "🌌 Alam Semesta Penuh Misteri",
 
-      body: [
-        "Sejak ribuan tahun lalu, manusia selalu tertarik mengamati langit.",
-        "",
-        "Bintang, Bulan, planet, dan galaksi menimbulkan banyak pertanyaan yang mendorong lahirnya ilmu pengetahuan.",
-        "",
-        "Semakin jauh kita memandang ke angkasa, semakin banyak misteri yang menunggu untuk dijelaskan."
-      ]
-    },
 
-    {
-      heading: "🔭 Mengapa Fisika Dibutuhkan?",
 
-      body: [
-        "Kita tidak bisa pergi ke sebagian besar bintang atau galaksi.",
-        "",
-        "Namun melalui hukum-hukum fisika, ilmuwan mampu mempelajari benda-benda langit tanpa harus menyentuhnya.",
-        "",
-        "Fisika menjadi 'bahasa' yang membantu kita memahami alam semesta."
-      ]
-    },
 
-    {
-      heading: "🚀 Apa yang Akan Kamu Jelajahi?",
 
-      body: [
-        "Dalam chapter ini kamu akan menjelajahi berbagai fenomena luar angkasa, seperti:",
-        "",
-        "⭐ Kelahiran dan kehidupan bintang",
-        "💥 Ledakan supernova",
-        "🕳️ Black hole",
-        "🌌 Galaksi",
-        "🪐 Exoplanet",
-        "🔭 Teleskop modern",
-        "🌈 Cahaya dan spektrum"
-      ]
-    },
 
-    {
-      heading: "💡 Tahukah Kamu?",
 
-      body: [
-        "Saat kamu melihat Matahari, sebenarnya kamu sedang melihat kondisi Matahari sekitar 8 menit yang lalu karena cahaya membutuhkan waktu untuk mencapai Bumi.",
-        "",
-        "Cahaya dari beberapa galaksi bahkan telah melakukan perjalanan selama jutaan hingga miliaran tahun sebelum akhirnya mencapai teleskop di Bumi."
-      ]
-    },
 
-    {
-      heading: "⚠️ Miskonsepsi",
 
-      body: [
-        "Banyak orang menganggap astronomi hanya menghafal nama bintang atau planet.",
-        "",
-        "Padahal astrofisika berusaha menjelaskan bagaimana benda-benda langit terbentuk, berevolusi, dan berinteraksi menggunakan hukum-hukum fisika."
-      ]
-    },
 
-    {
-      heading: "🗺️ Misi Chapter Ini",
 
-      body: [
-        "Perjalananmu akan dimulai dengan memahami bagaimana ilmuwan 'membaca' alam semesta melalui cahaya.",
-        "",
-        "Selanjutnya kamu akan mempelajari:",
-        "",
-        "🔭 Astrofisika",
-        "✨ Cahaya sebagai pembawa informasi",
-        "🌈 Spektrum elektromagnetik",
-        "⭐ Evolusi bintang",
-        "🕳️ Black hole",
-        "🌌 Galaksi",
-        "🪐 Exoplanet",
-        "🔭 Teleskop modern"
-      ]
-    },
 
-    {
-      heading: "✨ Inti Chapter",
 
-      body: [
-        "Astrofisika menggunakan hukum-hukum fisika untuk menjelaskan berbagai fenomena yang terjadi di alam semesta.",
-        "",
-        "Meskipun objek-objek tersebut berada sangat jauh, cahaya yang mereka pancarkan membawa informasi yang dapat dipelajari oleh manusia."
-      ]
-    },
 
-    {
-      caption: "🚀 KLIK GAMBAR INI! Saatnya memulai eksplorasi pertama.",
-      link: "/materi/apa-itu-astrofisika",
-      body: [
-        "Sebelum menjelajahi bintang dan galaksi, kita perlu memahami terlebih dahulu apa sebenarnya yang dipelajari oleh astrofisika.",
-        "",
-        "➡️ Next Mission: Apa Itu Astrofisika?"
-      ]
-    },
 
-    {
-      heading: "Referensi:",
-      body: [
-        "OpenStax Astronomy.",
-        "Carroll & Ostlie. An Introduction to Modern Astrophysics.",
-        "NASA Educational Resources.",
-        "European Space Agency (ESA) Education.",
-        "Royal Astronomical Society Education Resources."
-      ]
-    }
 
-  ]
-}
+
+      "🌌 Alam Semesta Penuh Misteri" }, { type: "paragraph", text: "Sejak ribuan tahun lalu, manusia selalu tertarik mengamati langit." }, { type: "paragraph", text: "Bintang, Bulan, planet, dan galaksi menimbulkan banyak pertanyaan yang mendorong lahirnya ilmu pengetahuan." }, { type: "paragraph", text: "Semakin jauh kita memandang ke angkasa, semakin banyak misteri yang menunggu untuk dijelaskan." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+      "🔭 Mengapa Fisika Dibutuhkan?" }, { type: "paragraph", text: "Kita tidak bisa pergi ke sebagian besar bintang atau galaksi." }, { type: "paragraph", text: "Namun melalui hukum-hukum fisika, ilmuwan mampu mempelajari benda-benda langit tanpa harus menyentuhnya." }, { type: "paragraph", text: "Fisika menjadi 'bahasa' yang membantu kita memahami alam semesta." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+      "🚀 Apa yang Akan Kamu Jelajahi?" }, { type: "paragraph", text: "Dalam chapter ini kamu akan menjelajahi berbagai fenomena luar angkasa, seperti:" }, { type: "paragraph", text: "⭐ Kelahiran dan kehidupan bintang" }, { type: "paragraph", text: "💥 Ledakan supernova" }, { type: "paragraph", text: "🕳️ Black hole" }, { type: "paragraph", text: "🌌 Galaksi" }, { type: "paragraph", text: "🪐 Exoplanet" }, { type: "paragraph", text: "🔭 Teleskop modern" }, { type: "paragraph", text: "🌈 Cahaya dan spektrum" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "💡 Tahukah Kamu?" }, { type: "paragraph", text: "Saat kamu melihat Matahari, sebenarnya kamu sedang melihat kondisi Matahari sekitar 8 menit yang lalu karena cahaya membutuhkan waktu untuk mencapai Bumi." }, { type: "paragraph", text: "Cahaya dari beberapa galaksi bahkan telah melakukan perjalanan selama jutaan hingga miliaran tahun sebelum akhirnya mencapai teleskop di Bumi." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+      "⚠️ Miskonsepsi" }, { type: "paragraph", text: "Banyak orang menganggap astronomi hanya menghafal nama bintang atau planet." }, { type: "paragraph", text: "Padahal astrofisika berusaha menjelaskan bagaimana benda-benda langit terbentuk, berevolusi, dan berinteraksi menggunakan hukum-hukum fisika." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+      "🗺️ Misi Chapter Ini" }, { type: "paragraph", text: "Perjalananmu akan dimulai dengan memahami bagaimana ilmuwan 'membaca' alam semesta melalui cahaya." }, { type: "paragraph", text: "Selanjutnya kamu akan mempelajari:" }, { type: "paragraph", text: "🔭 Astrofisika" }, { type: "paragraph", text: "✨ Cahaya sebagai pembawa informasi" }, { type: "paragraph", text: "🌈 Spektrum elektromagnetik" }, { type: "paragraph", text: "⭐ Evolusi bintang" }, { type: "paragraph", text: "🕳️ Black hole" }, { type: "paragraph", text: "🌌 Galaksi" }, { type: "paragraph", text: "🪐 Exoplanet" }, { type: "paragraph", text: "🔭 Teleskop modern" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "✨ Inti Chapter" }, { type: "paragraph", text: "Astrofisika menggunakan hukum-hukum fisika untuk menjelaskan berbagai fenomena yang terjadi di alam semesta." }, { type: "paragraph", text: "Meskipun objek-objek tersebut berada sangat jauh, cahaya yang mereka pancarkan membawa informasi yang dapat dipelajari oleh manusia." }] }, {
+
+
+
+
+
+
+
+
+
+
+    link: "/materi/apa-itu-astrofisika", blocks: [{ type: "paragraph", text: "Sebelum menjelajahi bintang dan galaksi, kita perlu memahami terlebih dahulu apa sebenarnya yang dipelajari oleh astrofisika." }, { type: "paragraph", text: "➡️ Next Mission: Apa Itu Astrofisika?" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "Referensi:" }, { type: "paragraph", text: "OpenStax Astronomy." }, { type: "paragraph", text: "Carroll & Ostlie. An Introduction to Modern Astrophysics." }, { type: "paragraph", text: "NASA Educational Resources." }, { type: "paragraph", text: "European Space Agency (ESA) Education." }, { type: "paragraph", text: "Royal Astronomical Society Education Resources." }] }]
+
+
+
+
+
+
+
+
+
+
+};
 
 export default pengantarastrofisika;

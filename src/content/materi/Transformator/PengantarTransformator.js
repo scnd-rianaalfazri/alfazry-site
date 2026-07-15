@@ -4,108 +4,108 @@ const pengantartransformator = {
   description: "Memahami konsep dasar transformator, fungsi transformator, serta perannya dalam sistem penyaluran energi listrik.",
   chapter: "⚡🧲 Transformator",
 
-  content: [
-    {
-      heading: "⚡ Bagaimana Listrik Sampai ke Rumah Kita?",
-      body: [
-        "Listrik yang digunakan di rumah berasal dari pembangkit listrik yang lokasinya bisa puluhan hingga ratusan kilometer jauhnya.",
-        "",
-        "Meskipun menempuh perjalanan yang sangat jauh, listrik tetap dapat digunakan dengan aman pada tegangan sekitar 220 volt. Bagaimana hal itu bisa terjadi?"
-      ]
-    },
+  content: [{ blocks: [{ type: "heading", text:
 
-    {
-      heading: "📍 Apa Itu Transformator?",
-      body: [
-        "Transformator atau trafo adalah alat yang digunakan untuk menaikkan atau menurunkan tegangan listrik bolak-balik (AC).",
-        "",
-        "Transformator bekerja berdasarkan prinsip induksi elektromagnetik tanpa mengubah frekuensi listrik."
-      ]
-    },
+      "⚡ Bagaimana Listrik Sampai ke Rumah Kita?" }, { type: "paragraph", text: "Listrik yang digunakan di rumah berasal dari pembangkit listrik yang lokasinya bisa puluhan hingga ratusan kilometer jauhnya." }, { type: "paragraph", text: "Meskipun menempuh perjalanan yang sangat jauh, listrik tetap dapat digunakan dengan aman pada tegangan sekitar 220 volt. Bagaimana hal itu bisa terjadi?" }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "🔄 Mengapa Transformator Dibutuhkan?",
-      body: [
-        "Jika listrik dikirim dengan tegangan rendah, arus listrik akan menjadi besar sehingga banyak energi yang hilang sebagai panas pada kabel transmisi.",
-        "",
-        "Transformator digunakan untuk menaikkan tegangan sebelum listrik dikirim dan menurunkannya kembali sebelum digunakan oleh konsumen."
-      ]
-    },
 
-    {
-      heading: "🧲 Hubungan dengan Induksi Elektromagnetik",
-      body: [
-        "Pada chapter sebelumnya kita mempelajari bahwa perubahan fluks magnet dapat menghasilkan GGL induksi.",
-        "",
-        "Transformator memanfaatkan prinsip yang sama. Arus bolak-balik pada kumparan primer menghasilkan perubahan medan magnet yang kemudian menginduksi tegangan pada kumparan sekunder."
-      ]
-    },
 
-    {
-      heading: "🏭 Peran Transformator dalam Sistem Kelistrikan",
-      body: [
-        "Transformator menjadi komponen penting dalam sistem pembangkitan, transmisi, dan distribusi tenaga listrik.",
-        "",
-        "Tanpa transformator, penyaluran listrik jarak jauh akan jauh lebih tidak efisien karena rugi-rugi daya pada kabel menjadi sangat besar."
-      ]
-    },
 
-    {
-      heading: "🌍 Transformator di Sekitar Kita",
-      body: [
-        "Selain digunakan pada gardu listrik, transformator juga terdapat pada adaptor laptop, charger ponsel, televisi, sistem audio, dan berbagai perangkat elektronik lainnya."
-      ]
-    },
 
-    {
-      heading: "⚠️ Miskonsepsi yang Sering Terjadi",
-      body: [
-        "Banyak siswa mengira transformator dapat digunakan pada semua jenis arus listrik.",
-        "",
-        "Padahal transformator konvensional bekerja dengan memanfaatkan perubahan medan magnet sehingga membutuhkan arus bolak-balik (AC). Transformator tidak dapat bekerja dengan arus searah (DC) yang konstan."
-      ]
-    },
 
-    {
-      heading: "📊 Ringkasan Konsep",
-      body: [
-        "Arus Bolak-Balik (AC)",
-        "⬇️",
-        "Perubahan Medan Magnet",
-        "⬇️",
-        "Induksi Elektromagnetik",
-        "⬇️",
-        "Transformator",
-        "⬇️",
-        "Tegangan Naik atau Turun"
-      ]
-    },
 
-    {
-      heading: "🔗 Hubungan dengan Materi Berikutnya",
-      body: [
-        "Setelah mengenal fungsi transformator, kita akan mempelajari bagaimana transformator bekerja melalui interaksi antara kumparan primer, kumparan sekunder, dan inti besi."
-      ]
-    },
 
-    {
-      heading: "🧠 Inti Materi",
-      body: [
-        "Transformator adalah alat yang digunakan untuk mengubah besar tegangan listrik AC berdasarkan prinsip induksi elektromagnetik.",
-        "",
-        "Peran transformator sangat penting dalam sistem penyaluran energi listrik agar efisien dan aman digunakan."
-      ]
-    },
+      "📍 Apa Itu Transformator?" }, { type: "paragraph", text: "Transformator atau trafo adalah alat yang digunakan untuk menaikkan atau menurunkan tegangan listrik bolak-balik (AC)." }, { type: "paragraph", text: "Transformator bekerja berdasarkan prinsip induksi elektromagnetik tanpa mengubah frekuensi listrik." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "🚀 Next Mission",
-      body: [
-        "Bagaimana sebuah transformator dapat menaikkan atau menurunkan tegangan listrik hanya dengan menggunakan dua kumparan?",
-        "",
-        "➡️ Selanjutnya: Prinsip Kerja Transformator."
-      ]
-    }
-  ]
-}
 
-export default pengantartransformator
+
+
+
+
+
+
+      "🔄 Mengapa Transformator Dibutuhkan?" }, { type: "paragraph", text: "Jika listrik dikirim dengan tegangan rendah, arus listrik akan menjadi besar sehingga banyak energi yang hilang sebagai panas pada kabel transmisi." }, { type: "paragraph", text: "Transformator digunakan untuk menaikkan tegangan sebelum listrik dikirim dan menurunkannya kembali sebelum digunakan oleh konsumen." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🧲 Hubungan dengan Induksi Elektromagnetik" }, { type: "paragraph", text: "Pada chapter sebelumnya kita mempelajari bahwa perubahan fluks magnet dapat menghasilkan GGL induksi." }, { type: "paragraph", text: "Transformator memanfaatkan prinsip yang sama. Arus bolak-balik pada kumparan primer menghasilkan perubahan medan magnet yang kemudian menginduksi tegangan pada kumparan sekunder." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🏭 Peran Transformator dalam Sistem Kelistrikan" }, { type: "paragraph", text: "Transformator menjadi komponen penting dalam sistem pembangkitan, transmisi, dan distribusi tenaga listrik." }, { type: "paragraph", text: "Tanpa transformator, penyaluran listrik jarak jauh akan jauh lebih tidak efisien karena rugi-rugi daya pada kabel menjadi sangat besar." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🌍 Transformator di Sekitar Kita" }, { type: "paragraph", text: "Selain digunakan pada gardu listrik, transformator juga terdapat pada adaptor laptop, charger ponsel, televisi, sistem audio, dan berbagai perangkat elektronik lainnya." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "⚠️ Miskonsepsi yang Sering Terjadi" }, { type: "paragraph", text: "Banyak siswa mengira transformator dapat digunakan pada semua jenis arus listrik." }, { type: "paragraph", text: "Padahal transformator konvensional bekerja dengan memanfaatkan perubahan medan magnet sehingga membutuhkan arus bolak-balik (AC). Transformator tidak dapat bekerja dengan arus searah (DC) yang konstan." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "📊 Ringkasan Konsep" }, { type: "paragraph", text: "Arus Bolak-Balik (AC)" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Perubahan Medan Magnet" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Induksi Elektromagnetik" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Transformator" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Tegangan Naik atau Turun" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "🔗 Hubungan dengan Materi Berikutnya" }, { type: "paragraph", text: "Setelah mengenal fungsi transformator, kita akan mempelajari bagaimana transformator bekerja melalui interaksi antara kumparan primer, kumparan sekunder, dan inti besi." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "🧠 Inti Materi" }, { type: "paragraph", text: "Transformator adalah alat yang digunakan untuk mengubah besar tegangan listrik AC berdasarkan prinsip induksi elektromagnetik." }, { type: "paragraph", text: "Peran transformator sangat penting dalam sistem penyaluran energi listrik agar efisien dan aman digunakan." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🚀 Next Mission" }, { type: "paragraph", text: "Bagaimana sebuah transformator dapat menaikkan atau menurunkan tegangan listrik hanya dengan menggunakan dua kumparan?" }, { type: "paragraph", text: "➡️ Selanjutnya: Prinsip Kerja Transformator." }] }]
+
+
+
+
+
+
+
+};
+
+export default pengantartransformator;

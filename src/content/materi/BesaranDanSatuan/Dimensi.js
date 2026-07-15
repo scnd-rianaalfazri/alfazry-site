@@ -1,9 +1,9 @@
-import { caption, image } from "framer-motion/client"
-import dimensiImg from "/src/assets/Materi/BesaranDanSatuan/Dimensi1.jpg"
-import fungsidimensiImg from "/src/assets/Materi/BesaranDanSatuan/Dimensi2.jpg"
-import daftardimensiImg from "/src/assets/Materi/BesaranDanSatuan/Dimensi3.jpg"
-import analisisdimensiImg from "/src/assets/Materi/BesaranDanSatuan/Dimensi4.jpg"
-import nextmissionangkapenting from "/src/assets/Materi/BesaranDanSatuan/Dimensi5.jpg"
+import { caption, image } from "framer-motion/client";
+import dimensiImg from "/src/assets/Materi/BesaranDanSatuan/Dimensi1.jpg";
+import fungsidimensiImg from "/src/assets/Materi/BesaranDanSatuan/Dimensi2.jpg";
+import daftardimensiImg from "/src/assets/Materi/BesaranDanSatuan/Dimensi3.jpg";
+import analisisdimensiImg from "/src/assets/Materi/BesaranDanSatuan/Dimensi4.jpg";
+import nextmissionangkapenting from "/src/assets/Materi/BesaranDanSatuan/Dimensi5.jpg";
 
 
 const dimensi = {
@@ -11,115 +11,115 @@ const dimensi = {
   slug: "dimensi",
   description: "Memahami konsep dimensi besaran fisika dan penggunaannya untuk menganalisis persamaan fisika.",
   chapter: "📏 Pengukuran",
-  content: [
-    {
-      image: dimensiImg,
-      caption: "Dimensi fisika dalam dunia futuristik",
-      body: [
-        "Setiap besaran fisika memiliki identitas yang menunjukkan penyusunnya.",
-        "",
-        "Identitas tersebut disebut dimensi.",
-        "",
-        "Kalau satuan menunjukkan 'berapa ukurannya', maka dimensi menunjukkan 'tersusun dari apa besaran tersebut'."
-      ]
-    },
+  content: [{ blocks: [{ type: "image", src:
 
-    {
-      image: fungsidimensiImg,
-      caption: "Kenapa dimensi penting dalam fisika?",
-      body: [
-        "Dalam fisika, sebuah rumus tidak boleh dibuat sembarangan.",
-        "",
-        "Dimensi membantu ilmuwan mengecek apakah sebuah persamaan sudah benar atau belum.",
-        "",
-        "Jika dimensi ruas kiri dan kanan sama, maka persamaan tersebut kemungkinan benar."
-      ]
-    },
+      dimensiImg, caption:
+      "Dimensi fisika dalam dunia futuristik" }, { type: "paragraph", text: "Setiap besaran fisika memiliki identitas yang menunjukkan penyusunnya." }, { type: "paragraph", text: "Identitas tersebut disebut dimensi." }, { type: "paragraph", text: "Kalau satuan menunjukkan 'berapa ukurannya', maka dimensi menunjukkan 'tersusun dari apa besaran tersebut'." }] }, { blocks: [{ type: "image", src:
 
-    {
-      image: daftardimensiImg,
-      caption: "7 dimensi dasar fisika",
-      body: [
-        "Setiap besaran pokok memiliki simbol dimensi.",
-      ]
-    },
 
-    {
-      heading: "🚗 Contoh Dimensi Kecepatan",
-      body: [
-        "Kecepatan diperoleh dari:",
-        "",
-        "kecepatan = jarak / waktu",
-        "",
-        "Jarak memiliki dimensi [L]",
-        "Waktu memiliki dimensi [T]",
-        "",
-        "Maka dimensi kecepatan adalah:",
-        "[L][T⁻¹]"
-      ]
-    },
 
-    {
-      heading: "⚡ Contoh Dimensi Gaya",
-      body: [
-        "Menurut hukum Newton:",
-        "",
-        "gaya = massa × percepatan",
-        "",
-        "Massa → [M]",
-        "Percepatan → [L][T⁻²]",
-        "",
-        "Maka:",
-        "Gaya → [M][L][T⁻²]"
-      ]
-    },
 
-    {
-      image: analisisdimensiImg,
-      caption: "Infografis analisis dimensi.",
-    },
 
-    {
-      heading: "🎯 Manfaat Dimensi",
-      body: [
-        "Dimensi digunakan untuk:",
-        "",
-        "✅ Mengecek kebenaran rumus",
-        "✅ Menentukan satuan suatu besaran",
-        "✅ Membantu memahami hubungan antarbesaran"
-      ]
-    },
 
-    {
-      heading: "✨ Inti Materi",
-      body: [
-        "Dimensi adalah cara fisika mengenali struktur sebuah besaran.",
-        "",
-        "Dengan dimensi, kita dapat melihat apakah sebuah rumus memiliki hubungan yang logis."
-      ]
-    },
 
-    {
-      image: nextmissionangkapenting,
-      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
-      link: "/materi/angka%20penting",
-      body: [
-        "Dalam fisika, hasil pengukuran tidak hanya harus benar, tetapi juga harus ditulis dengan aturan yang tepat.",
-        "",
-        "➡️ Next, kita menuju: Angka Penting."
-      ]
-    },
 
-    {
-      heading: "Referensi:",
-      body: [
-        "Halliday, Resnick & Walker. Fundamentals of Physics.",
-        "Serway & Jewett. Physics for Scientists and Engineers.",
-        "Young & Freedman. University Physics with Modern Physics.",
-        "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X."
-      ]
-    }
-  ]
-}
 
-export default dimensi
+
+      fungsidimensiImg, caption:
+      "Kenapa dimensi penting dalam fisika?" }, { type: "paragraph", text: "Dalam fisika, sebuah rumus tidak boleh dibuat sembarangan." }, { type: "paragraph", text: "Dimensi membantu ilmuwan mengecek apakah sebuah persamaan sudah benar atau belum." }, { type: "paragraph", text: "Jika dimensi ruas kiri dan kanan sama, maka persamaan tersebut kemungkinan benar." }] }, { blocks: [{ type: "image", src:
+
+
+
+
+
+
+
+
+
+
+      daftardimensiImg, caption:
+      "7 dimensi dasar fisika" }, { type: "paragraph", text: "Setiap besaran pokok memiliki simbol dimensi." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "🚗 Contoh Dimensi Kecepatan" }, { type: "paragraph", text: "Kecepatan diperoleh dari:" }, { type: "paragraph", text: "kecepatan = jarak / waktu" }, { type: "paragraph", text: "Jarak memiliki dimensi [L]" }, { type: "paragraph", text: "Waktu memiliki dimensi [T]" }, { type: "paragraph", text: "Maka dimensi kecepatan adalah:" }, { type: "paragraph", text: "[L][T⁻¹]" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "⚡ Contoh Dimensi Gaya" }, { type: "paragraph", text: "Menurut hukum Newton:" }, { type: "paragraph", text: "gaya = massa × percepatan" }, { type: "paragraph", text: "Massa → [M]" }, { type: "paragraph", text: "Percepatan → [L][T⁻²]" }, { type: "paragraph", text: "Maka:" }, { type: "paragraph", text: "Gaya → [M][L][T⁻²]" }] }, { blocks: [{ type: "image", src:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      analisisdimensiImg, caption:
+      "Infografis analisis dimensi." }] }, { blocks: [{ type: "heading", text:
+
+
+
+      "🎯 Manfaat Dimensi" }, { type: "paragraph", text: "Dimensi digunakan untuk:" }, { type: "paragraph", text: "✅ Mengecek kebenaran rumus" }, { type: "paragraph", text: "✅ Menentukan satuan suatu besaran" }, { type: "paragraph", text: "✅ Membantu memahami hubungan antarbesaran" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "✨ Inti Materi" }, { type: "paragraph", text: "Dimensi adalah cara fisika mengenali struktur sebuah besaran." }, { type: "paragraph", text: "Dengan dimensi, kita dapat melihat apakah sebuah rumus memiliki hubungan yang logis." }] }, {
+
+
+
+
+
+
+
+
+
+
+    link: "/materi/angka%20penting", blocks: [{ type: "image", src: nextmissionangkapenting, caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya." }, { type: "paragraph", text: "Dalam fisika, hasil pengukuran tidak hanya harus benar, tetapi juga harus ditulis dengan aturan yang tepat." }, { type: "paragraph", text: "➡️ Next, kita menuju: Angka Penting." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "Referensi:" }, { type: "paragraph", text: "Halliday, Resnick & Walker. Fundamentals of Physics." }, { type: "paragraph", text: "Serway & Jewett. Physics for Scientists and Engineers." }, { type: "paragraph", text: "Young & Freedman. University Physics with Modern Physics." }, { type: "paragraph", text: "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X." }] }]
+
+
+
+
+
+
+
+
+};
+
+export default dimensi;

@@ -3,124 +3,124 @@ const reaksiinti = {
   slug: "reaksi inti atom",
   description: "Memahami pengertian reaksi inti atom, perbedaannya dengan reaksi kimia, serta bagaimana perubahan inti atom dapat menghasilkan unsur baru dan energi yang sangat besar.",
   chapter: "☢️ Radioaktivitas",
-  
-  content: [
-    {
-      heading: "🤔 Apa Itu Reaksi Inti?",
-      body: [
-        "Selama ini kita mempelajari peluruhan radioaktif, yaitu perubahan inti atom yang terjadi secara spontan.",
-        "",
-        "Namun inti atom juga dapat berubah akibat bertumbukan dengan partikel lain. Perubahan inilah yang disebut reaksi inti."
-      ]
-    },
 
-    {
-      heading: "⚛️ Definisi Reaksi Inti",
-      body: [
-        "Reaksi inti adalah proses perubahan inti atom akibat interaksi dengan partikel lain, seperti neutron, proton, atau inti atom lainnya.",
-        "",
-        "Reaksi ini dapat menghasilkan inti atom baru sekaligus melepaskan atau menyerap energi."
-      ]
-    },
+  content: [{ blocks: [{ type: "heading", text:
 
-    {
-      heading: "🧪 Reaksi Kimia vs Reaksi Inti",
-      body: [
-        "Pada reaksi kimia, yang berubah hanyalah susunan elektron di sekitar inti atom.",
-        "",
-        "Sebaliknya, pada reaksi inti yang berubah adalah susunan proton dan neutron di dalam inti atom."
-      ]
-    },
+      "🤔 Apa Itu Reaksi Inti?" }, { type: "paragraph", text: "Selama ini kita mempelajari peluruhan radioaktif, yaitu perubahan inti atom yang terjadi secara spontan." }, { type: "paragraph", text: "Namun inti atom juga dapat berubah akibat bertumbukan dengan partikel lain. Perubahan inilah yang disebut reaksi inti." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "⚡ Mengapa Energinya Sangat Besar?",
-      body: [
-        "Energi yang tersimpan di dalam inti atom jauh lebih besar dibandingkan energi ikatan elektron pada reaksi kimia.",
-        "",
-        "Karena itu, perubahan kecil pada inti atom dapat menghasilkan energi yang sangat besar."
-      ]
-    },
 
-    {
-      heading: "📏 Hubungan dengan Persamaan Einstein",
-      body: [
-        "Pada beberapa reaksi inti, sebagian kecil massa berubah menjadi energi.",
-        "",
-        "Hubungan antara massa dan energi dijelaskan oleh persamaan Einstein yang terkenal."
-      ]
-    },
 
-    {
-      heading: "🌍 Contoh Reaksi Inti",
-      body: [
-        "Reaksi inti terjadi di Matahari melalui proses fusi nuklir.",
-        "",
-        "Di pembangkit listrik tenaga nuklir (PLTN), energi dihasilkan melalui proses fisi nuklir.",
-        "",
-        "Selain itu, reaksi inti juga dimanfaatkan untuk menghasilkan radioisotop di laboratorium."
-      ]
-    },
 
-    {
-      heading: "🏥 Mengapa Reaksi Inti Penting?",
-      body: [
-        "Pemahaman tentang reaksi inti memungkinkan manusia mengembangkan teknologi di bidang energi, kesehatan, industri, dan penelitian.",
-        "",
-        "Namun teknologi tersebut juga harus digunakan secara bertanggung jawab karena melibatkan energi yang sangat besar."
-      ]
-    },
 
-    {
-      heading: "⚠️ Miskonsepsi yang Sering Terjadi",
-      body: [
-        "Tidak semua reaksi inti bersifat berbahaya.",
-        "",
-        "Banyak reaksi inti dimanfaatkan secara aman dalam bidang kedokteran, penelitian, dan produksi energi dengan pengawasan yang ketat."
-      ]
-    },
 
-    {
-      heading: "📊 Ringkasan Konsep",
-      body: [
-        "Partikel Datang",
-        "⬇️",
-        "Bertumbukan dengan Inti",
-        "⬇️",
-        "Reaksi Inti",
-        "⬇️",
-        "Inti Baru",
-        "⬇️",
-        "Energi"
-      ]
-    },
 
-    {
-      heading: "🔗 Hubungan dengan Materi Berikutnya",
-      body: [
-        "Salah satu reaksi inti yang paling banyak dimanfaatkan manusia adalah fisi nuklir.",
-        "",
-        "Pada proses ini, inti atom yang besar terbelah menjadi dua inti yang lebih kecil sambil melepaskan energi dalam jumlah besar."
-      ]
-    },
 
-    {
-      heading: "🧠 Inti Materi",
-      body: [
-        "Reaksi inti merupakan perubahan pada inti atom yang menghasilkan unsur baru dan dapat melepaskan energi yang sangat besar.",
-        "",
-        "Berbeda dengan reaksi kimia, perubahan pada reaksi inti terjadi langsung pada proton dan neutron di dalam inti atom."
-      ]
-    },
+      "⚛️ Definisi Reaksi Inti" }, { type: "paragraph", text: "Reaksi inti adalah proses perubahan inti atom akibat interaksi dengan partikel lain, seperti neutron, proton, atau inti atom lainnya." }, { type: "paragraph", text: "Reaksi ini dapat menghasilkan inti atom baru sekaligus melepaskan atau menyerap energi." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "🚀 Next Mission",
-      body: [
-        "Bagaimana sebuah inti uranium dapat terbelah dan menghasilkan energi yang cukup untuk menyalakan sebuah kota?",
-        "",
-        "➡️ Selanjutnya: Fisi Nuklir."
-      ]
-    }
-  ]
-}
 
-export default reaksiinti
+
+
+
+
+
+
+      "🧪 Reaksi Kimia vs Reaksi Inti" }, { type: "paragraph", text: "Pada reaksi kimia, yang berubah hanyalah susunan elektron di sekitar inti atom." }, { type: "paragraph", text: "Sebaliknya, pada reaksi inti yang berubah adalah susunan proton dan neutron di dalam inti atom." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "⚡ Mengapa Energinya Sangat Besar?" }, { type: "paragraph", text: "Energi yang tersimpan di dalam inti atom jauh lebih besar dibandingkan energi ikatan elektron pada reaksi kimia." }, { type: "paragraph", text: "Karena itu, perubahan kecil pada inti atom dapat menghasilkan energi yang sangat besar." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "📏 Hubungan dengan Persamaan Einstein" }, { type: "paragraph", text: "Pada beberapa reaksi inti, sebagian kecil massa berubah menjadi energi." }, { type: "paragraph", text: "Hubungan antara massa dan energi dijelaskan oleh persamaan Einstein yang terkenal." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🌍 Contoh Reaksi Inti" }, { type: "paragraph", text: "Reaksi inti terjadi di Matahari melalui proses fusi nuklir." }, { type: "paragraph", text: "Di pembangkit listrik tenaga nuklir (PLTN), energi dihasilkan melalui proses fisi nuklir." }, { type: "paragraph", text: "Selain itu, reaksi inti juga dimanfaatkan untuk menghasilkan radioisotop di laboratorium." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "🏥 Mengapa Reaksi Inti Penting?" }, { type: "paragraph", text: "Pemahaman tentang reaksi inti memungkinkan manusia mengembangkan teknologi di bidang energi, kesehatan, industri, dan penelitian." }, { type: "paragraph", text: "Namun teknologi tersebut juga harus digunakan secara bertanggung jawab karena melibatkan energi yang sangat besar." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "⚠️ Miskonsepsi yang Sering Terjadi" }, { type: "paragraph", text: "Tidak semua reaksi inti bersifat berbahaya." }, { type: "paragraph", text: "Banyak reaksi inti dimanfaatkan secara aman dalam bidang kedokteran, penelitian, dan produksi energi dengan pengawasan yang ketat." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "📊 Ringkasan Konsep" }, { type: "paragraph", text: "Partikel Datang" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Bertumbukan dengan Inti" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Reaksi Inti" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Inti Baru" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Energi" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "🔗 Hubungan dengan Materi Berikutnya" }, { type: "paragraph", text: "Salah satu reaksi inti yang paling banyak dimanfaatkan manusia adalah fisi nuklir." }, { type: "paragraph", text: "Pada proses ini, inti atom yang besar terbelah menjadi dua inti yang lebih kecil sambil melepaskan energi dalam jumlah besar." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🧠 Inti Materi" }, { type: "paragraph", text: "Reaksi inti merupakan perubahan pada inti atom yang menghasilkan unsur baru dan dapat melepaskan energi yang sangat besar." }, { type: "paragraph", text: "Berbeda dengan reaksi kimia, perubahan pada reaksi inti terjadi langsung pada proton dan neutron di dalam inti atom." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🚀 Next Mission" }, { type: "paragraph", text: "Bagaimana sebuah inti uranium dapat terbelah dan menghasilkan energi yang cukup untuk menyalakan sebuah kota?" }, { type: "paragraph", text: "➡️ Selanjutnya: Fisi Nuklir." }] }]
+
+
+
+
+
+
+
+};
+
+export default reaksiinti;

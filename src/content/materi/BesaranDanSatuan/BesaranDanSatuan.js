@@ -1,138 +1,138 @@
-import { caption, image, link } from "framer-motion/client"
-import besarandansatuanImg from "/src/assets/Materi/BesaranDanSatuan/BesaranDanSatuan1.jpg"
-import pengertianbesaranImg from "/src/assets/Materi/BesaranDanSatuan/BesaranDanSatuan2.jpg"
-import contohbesaranImg from "/src/assets/Materi/BesaranDanSatuan/BesaranDanSatuan3.jpg"
-import pengertiansatuanImg from "/src/assets/Materi/BesaranDanSatuan/BesaranDanSatuan4.jpg"
-import nextmissionsisteminternasionalImg from "/src/assets/Materi/BesaranDanSatuan/BesaranDanSatuan5.jpg"
+import { caption, image, link } from "framer-motion/client";
+import besarandansatuanImg from "/src/assets/Materi/BesaranDanSatuan/BesaranDanSatuan1.jpg";
+import pengertianbesaranImg from "/src/assets/Materi/BesaranDanSatuan/BesaranDanSatuan2.jpg";
+import contohbesaranImg from "/src/assets/Materi/BesaranDanSatuan/BesaranDanSatuan3.jpg";
+import pengertiansatuanImg from "/src/assets/Materi/BesaranDanSatuan/BesaranDanSatuan4.jpg";
+import nextmissionsisteminternasionalImg from "/src/assets/Materi/BesaranDanSatuan/BesaranDanSatuan5.jpg";
 
 const besarandansatuan = {
   title: "Besaran dan Satuan",
   slug: "besaran dan satuan",
   description: "Memahami bagaimana fisika menyatakan hasil pengamatan menggunakan besaran dan satuan yang terstandarisasi.",
   chapter: "📏 Pengukuran",
-  content: [
-    {
-      image: besarandansatuanImg,
-      caption: "Pengukuran dan satuan dalam fisika",
-      body: [
-        "Kalau ada seseorang yang berkata:",
-        "\"Meja ini panjang.\"",
-        "",
-        "Panjang… tapi seberapa panjang?",
-        "",
-        "Dalam fisika, pernyataan seperti itu belum lengkap.",
-        "Supaya informasi menjadi jelas, kita perlu menuliskannya dalam bentuk yang bisa diukur."
-      ]
-    },
+  content: [{ blocks: [{ type: "image", src:
 
-    {
-      image: pengertianbesaranImg,
-      caption: "Pengenalan besaran dalam fisika",
-      body: [
-        "Besaran adalah segala sesuatu yang dapat diukur dan dinyatakan dengan angka serta satuan.",
-        "",
-        "Artinya, suatu hal baru disebut besaran jika memiliki:",
-        "① Nilai (angka)",
-        "② Satuan"
-      ]
-    },
+      besarandansatuanImg, caption:
+      "Pengukuran dan satuan dalam fisika" }, { type: "paragraph", text: "Kalau ada seseorang yang berkata:" }, { type: "paragraph", text: "\"Meja ini panjang.\"" }, { type: "paragraph", text: "Panjang… tapi seberapa panjang?" }, { type: "paragraph", text: "Dalam fisika, pernyataan seperti itu belum lengkap." }, { type: "paragraph", text: "Supaya informasi menjadi jelas, kita perlu menuliskannya dalam bentuk yang bisa diukur." }] }, { blocks: [{ type: "image", src:
 
-    {
-      image: contohbesaranImg,
-      caption: "Contoh besarannya dalam fisika",
-      body: [
-        "🎯 Contoh Besaran",
-        "✔️ Panjang meja = 120 cm",
-        "✔️ Massa tas = 2 kg",
-        "✔️ Waktu belajar = 45 menit",
-        "",
-        "Angka menunjukkan hasil pengukuran.",
-        "Satuan menunjukkan standar ukur yang digunakan."
-      ]
-    },
 
-    {
-      heading: "🚫 Yang Bukan Besaran",
-      body: [
-        "Tidak semua hal bisa disebut besaran.",
-        "",
-        "Contoh:",
-        "❌ Cantik",
-        "❌ Enak",
-        "❌ Rajin",
-        "",
-        "Karena tidak dapat diukur dengan alat ukur yang memiliki satuan baku."
-      ]
-    },
 
-    {
-      heading: "📐 Apa Itu Satuan?",
-      body: [
-        "Satuan adalah pembanding atau standar yang digunakan dalam pengukuran.",
-        "",
-        "Tanpa satuan, angka tidak memiliki arti yang jelas.",
-        "",
-        "Contoh:",
-        "\"Tinggi pohon = 10\" ❌",
-        "\"Tinggi pohon = 10 meter\" ✅"
-      ]
-    },
 
-    {
-      image: pengertiansatuanImg,
-      caption: "Kenapa penting satuan yang sama?",
-      body: [
-        "Bayangkan kalau setiap negara memakai satuan berbeda tanpa aturan yang sama.",
-        "",
-        "Hasil pengukuran akan membingungkan dan sulit dibandingkan.",
-        "",
-        "Karena itu digunakan sistem satuan internasional (SI) agar pengukuran di seluruh dunia menggunakan standar yang sama."
-      ]
-    },
 
-    {
-      heading: "💡 Contoh di Kehidupan Sehari-hari",
-      body: [
-        "Saat membeli beras → kilogram",
-        "Saat mengukur tinggi badan → meter atau sentimeter",
-        "Saat menghitung durasi video → detik",
-        "",
-        "Ternyata tanpa sadar kita memakai konsep besaran dan satuan setiap hari."
-      ]
-    },
 
-    {
-      heading: "✨ Inti Materi",
-      body: [
-        "Besaran menjawab pertanyaan: berapa nilainya?",
-        "Satuan menjawab pertanyaan: diukur menggunakan apa?",
-        "",
-        "Keduanya selalu berjalan bersama dalam fisika."
-      ]
-    },
 
-    {
-      image: nextmissionsisteminternasionalImg,
-      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya.",
-      link: "/materi/sistem%20internasional",
-      body: [
-        "Kalau semua pengukuran harus punya standar…",
-        "apa saja satuan dasar yang dipakai seluruh dunia?",
-        "",
-        "➡️ Next, kita menuju portal: Sistem Internasional (SI)."
-      ]
-    },
 
-    {
-      heading: "Referensi:",
-      body: [
-        "Serway & Jewett. Physics for Scientists and Engineers.",
-        "Halliday, Resnick & Walker. Fundamentals of Physics.",
-        "BIPM. The International System of Units (SI Brochure).",
-        "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X."
-      ]
-    }
-  ]
-}
 
-export default besarandansatuan
+
+
+
+      pengertianbesaranImg, caption:
+      "Pengenalan besaran dalam fisika" }, { type: "paragraph", text: "Besaran adalah segala sesuatu yang dapat diukur dan dinyatakan dengan angka serta satuan." }, { type: "paragraph", text: "Artinya, suatu hal baru disebut besaran jika memiliki:" }, { type: "paragraph", text: "① Nilai (angka)" }, { type: "paragraph", text: "② Satuan" }] }, { blocks: [{ type: "image", src:
+
+
+
+
+
+
+
+
+
+
+      contohbesaranImg, caption:
+      "Contoh besarannya dalam fisika" }, { type: "paragraph", text: "🎯 Contoh Besaran" }, { type: "paragraph", text: "✔️ Panjang meja = 120 cm" }, { type: "paragraph", text: "✔️ Massa tas = 2 kg" }, { type: "paragraph", text: "✔️ Waktu belajar = 45 menit" }, { type: "paragraph", text: "Angka menunjukkan hasil pengukuran." }, { type: "paragraph", text: "Satuan menunjukkan standar ukur yang digunakan." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+      "🚫 Yang Bukan Besaran" }, { type: "paragraph", text: "Tidak semua hal bisa disebut besaran." }, { type: "paragraph", text: "Contoh:" }, { type: "paragraph", text: "❌ Cantik" }, { type: "paragraph", text: "❌ Enak" }, { type: "paragraph", text: "❌ Rajin" }, { type: "paragraph", text: "Karena tidak dapat diukur dengan alat ukur yang memiliki satuan baku." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+
+      "📐 Apa Itu Satuan?" }, { type: "paragraph", text: "Satuan adalah pembanding atau standar yang digunakan dalam pengukuran." }, { type: "paragraph", text: "Tanpa satuan, angka tidak memiliki arti yang jelas." }, { type: "paragraph", text: "Contoh:" }, { type: "paragraph", text: "\"Tinggi pohon = 10\" ❌" }, { type: "paragraph", text: "\"Tinggi pohon = 10 meter\" ✅" }] }, { blocks: [{ type: "image", src:
+
+
+
+
+
+
+
+
+
+
+
+
+      pengertiansatuanImg, caption:
+      "Kenapa penting satuan yang sama?" }, { type: "paragraph", text: "Bayangkan kalau setiap negara memakai satuan berbeda tanpa aturan yang sama." }, { type: "paragraph", text: "Hasil pengukuran akan membingungkan dan sulit dibandingkan." }, { type: "paragraph", text: "Karena itu digunakan sistem satuan internasional (SI) agar pengukuran di seluruh dunia menggunakan standar yang sama." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "💡 Contoh di Kehidupan Sehari-hari" }, { type: "paragraph", text: "Saat membeli beras → kilogram" }, { type: "paragraph", text: "Saat mengukur tinggi badan → meter atau sentimeter" }, { type: "paragraph", text: "Saat menghitung durasi video → detik" }, { type: "paragraph", text: "Ternyata tanpa sadar kita memakai konsep besaran dan satuan setiap hari." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "✨ Inti Materi" }, { type: "paragraph", text: "Besaran menjawab pertanyaan: berapa nilainya?" }, { type: "paragraph", text: "Satuan menjawab pertanyaan: diukur menggunakan apa?" }, { type: "paragraph", text: "Keduanya selalu berjalan bersama dalam fisika." }] }, {
+
+
+
+
+
+
+
+
+
+
+
+    link: "/materi/sistem%20internasional", blocks: [{ type: "image", src: nextmissionsisteminternasionalImg, caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya." }, { type: "paragraph", text: "Kalau semua pengukuran harus punya standar…" }, { type: "paragraph", text: "apa saja satuan dasar yang dipakai seluruh dunia?" }, { type: "paragraph", text: "➡️ Next, kita menuju portal: Sistem Internasional (SI)." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+      "Referensi:" }, { type: "paragraph", text: "Serway & Jewett. Physics for Scientists and Engineers." }, { type: "paragraph", text: "Halliday, Resnick & Walker. Fundamentals of Physics." }, { type: "paragraph", text: "BIPM. The International System of Units (SI Brochure)." }, { type: "paragraph", text: "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X." }] }]
+
+
+
+
+
+
+
+
+};
+
+export default besarandansatuan;

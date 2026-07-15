@@ -3,133 +3,133 @@ const pengantargerak = {
   slug: "pengantar gerak",
   description: "Memahami konsep dasar gerak, titik acuan, posisi, dan bagaimana fisika menjelaskan perubahan posisi suatu benda.",
   chapter: "🚗 Kinematika: Gerak Lurus",
-  content: [
-    {
-      heading: "🚀 Semua Benda Bisa Bergerak",
-      body: [
-        "Dalam kehidupan sehari-hari, kita melihat banyak benda bergerak.",
-        "",
-        "🚗 Mobil melaju di jalan",
-        "🏀 Bola dilempar ke udara",
-        "🌎 Bumi mengelilingi Matahari",
-        "",
-        "Namun, bagaimana fisika menjelaskan sebuah gerakan?"
-      ]
-    },
+  content: [{ blocks: [{ type: "heading", text:
 
-    {
-      heading: "🏃 Apa Itu Gerak?",
-      body: [
-        "Gerak adalah perubahan posisi suatu benda terhadap titik acuan dalam selang waktu tertentu.",
-        "",
-        "Sebuah benda dikatakan bergerak jika posisinya berubah terhadap pengamat atau acuan."
-      ]
-    },
+      "🚀 Semua Benda Bisa Bergerak" }, { type: "paragraph", text: "Dalam kehidupan sehari-hari, kita melihat banyak benda bergerak." }, { type: "paragraph", text: "🚗 Mobil melaju di jalan" }, { type: "paragraph", text: "🏀 Bola dilempar ke udara" }, { type: "paragraph", text: "🌎 Bumi mengelilingi Matahari" }, { type: "paragraph", text: "Namun, bagaimana fisika menjelaskan sebuah gerakan?" }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "📍 Titik Acuan",
-      body: [
-        "Untuk menentukan apakah suatu benda bergerak, kita membutuhkan titik acuan.",
-        "",
-        "Titik acuan adalah posisi yang dianggap tetap sebagai pembanding.",
-        "",
-        "Tanpa titik acuan, kita sulit menentukan apakah posisi suatu benda berubah."
-      ]
-    },
 
-    {
-      heading: "🚗 Contoh Titik Acuan",
-      body: [
-        "Seseorang duduk di dalam mobil yang bergerak.",
-        "",
-        "Menurut penumpang lain di dalam mobil:",
-        "orang tersebut diam.",
-        "",
-        "Menurut orang yang berada di pinggir jalan:",
-        "orang tersebut bergerak bersama mobil."
-      ]
-    },
 
-    {
-      heading: "🌎 Gerak Itu Relatif",
-      body: [
-        "Gerak bergantung pada siapa yang mengamati.",
-        "",
-        "Benda yang terlihat diam bagi satu pengamat dapat terlihat bergerak bagi pengamat lain.",
-        "",
-        "Konsep ini disebut gerak relatif."
-      ]
-    },
 
-    {
-      heading: "📐 Posisi Benda",
-      body: [
-        "Posisi menunjukkan letak suatu benda terhadap titik acuan.",
-        "",
-        "Dalam fisika, posisi dapat dinyatakan menggunakan koordinat.",
-        "",
-        "Contoh:",
-        "Sebuah benda berada 5 meter di sebelah kanan titik awal."
-      ]
-    },
 
-    {
-      heading: "⏱️ Perubahan Posisi dan Waktu",
-      body: [
-        "Gerak selalu berkaitan dengan waktu.",
-        "",
-        "Jika posisi benda berubah dalam suatu selang waktu, maka benda mengalami gerak.",
-        "",
-        "Hubungan antara posisi dan waktu menjadi dasar dalam mempelajari kinematika."
-      ]
-    },
 
-    {
-      heading: "🧠 Fisika Tidak Hanya Bertanya 'Apakah Bergerak?'",
-      body: [
-        "Fisika juga mempelajari:",
-        "",
-        "➡️ Seberapa jauh benda bergerak?",
-        "➡️ Seberapa cepat benda bergerak?",
-        "➡️ Apakah kecepatannya berubah?",
-        "",
-        "Pertanyaan-pertanyaan tersebut akan dijawab melalui konsep kinematika."
-      ]
-    },
 
-    {
-      heading: "🌍 Contoh Gerak dalam Kehidupan",
-      body: [
-        "Konsep gerak digunakan pada:",
-        "",
-        "🚗 Kendaraan",
-        "🚀 Roket",
-        "⚽ Olahraga",
-        "🌊 Aliran air",
-        "🌎 Pergerakan planet"
-      ]
-    },
 
-    {
-      heading: "✨ Inti Materi",
-      body: [
-        "Gerak adalah perubahan posisi terhadap titik acuan dalam waktu tertentu.",
-        "",
-        "Untuk memahami gerak, kita perlu memahami posisi, waktu, dan perubahan posisi."
-      ]
-    },
 
-    {
-      heading: "🚀 Next Mission",
-      body: [
-        "Sekarang kita tahu bahwa gerak berkaitan dengan perubahan posisi.",
-        "",
-        "Lalu bagaimana cara mengukur perubahan posisi tersebut?",
-        "",
-        "➡️ Selanjutnya: Jarak dan Perpindahan."
-      ]
-    }
-  ]
-}
 
-export default pengantargerak
+
+
+      "🏃 Apa Itu Gerak?" }, { type: "paragraph", text: "Gerak adalah perubahan posisi suatu benda terhadap titik acuan dalam selang waktu tertentu." }, { type: "paragraph", text: "Sebuah benda dikatakan bergerak jika posisinya berubah terhadap pengamat atau acuan." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "📍 Titik Acuan" }, { type: "paragraph", text: "Untuk menentukan apakah suatu benda bergerak, kita membutuhkan titik acuan." }, { type: "paragraph", text: "Titik acuan adalah posisi yang dianggap tetap sebagai pembanding." }, { type: "paragraph", text: "Tanpa titik acuan, kita sulit menentukan apakah posisi suatu benda berubah." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "🚗 Contoh Titik Acuan" }, { type: "paragraph", text: "Seseorang duduk di dalam mobil yang bergerak." }, { type: "paragraph", text: "Menurut penumpang lain di dalam mobil:" }, { type: "paragraph", text: "orang tersebut diam." }, { type: "paragraph", text: "Menurut orang yang berada di pinggir jalan:" }, { type: "paragraph", text: "orang tersebut bergerak bersama mobil." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+      "🌎 Gerak Itu Relatif" }, { type: "paragraph", text: "Gerak bergantung pada siapa yang mengamati." }, { type: "paragraph", text: "Benda yang terlihat diam bagi satu pengamat dapat terlihat bergerak bagi pengamat lain." }, { type: "paragraph", text: "Konsep ini disebut gerak relatif." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "📐 Posisi Benda" }, { type: "paragraph", text: "Posisi menunjukkan letak suatu benda terhadap titik acuan." }, { type: "paragraph", text: "Dalam fisika, posisi dapat dinyatakan menggunakan koordinat." }, { type: "paragraph", text: "Contoh:" }, { type: "paragraph", text: "Sebuah benda berada 5 meter di sebelah kanan titik awal." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+      "⏱️ Perubahan Posisi dan Waktu" }, { type: "paragraph", text: "Gerak selalu berkaitan dengan waktu." }, { type: "paragraph", text: "Jika posisi benda berubah dalam suatu selang waktu, maka benda mengalami gerak." }, { type: "paragraph", text: "Hubungan antara posisi dan waktu menjadi dasar dalam mempelajari kinematika." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "🧠 Fisika Tidak Hanya Bertanya 'Apakah Bergerak?'" }, { type: "paragraph", text: "Fisika juga mempelajari:" }, { type: "paragraph", text: "➡️ Seberapa jauh benda bergerak?" }, { type: "paragraph", text: "➡️ Seberapa cepat benda bergerak?" }, { type: "paragraph", text: "➡️ Apakah kecepatannya berubah?" }, { type: "paragraph", text: "Pertanyaan-pertanyaan tersebut akan dijawab melalui konsep kinematika." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+      "🌍 Contoh Gerak dalam Kehidupan" }, { type: "paragraph", text: "Konsep gerak digunakan pada:" }, { type: "paragraph", text: "🚗 Kendaraan" }, { type: "paragraph", text: "🚀 Roket" }, { type: "paragraph", text: "⚽ Olahraga" }, { type: "paragraph", text: "🌊 Aliran air" }, { type: "paragraph", text: "🌎 Pergerakan planet" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+
+      "✨ Inti Materi" }, { type: "paragraph", text: "Gerak adalah perubahan posisi terhadap titik acuan dalam waktu tertentu." }, { type: "paragraph", text: "Untuk memahami gerak, kita perlu memahami posisi, waktu, dan perubahan posisi." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🚀 Next Mission" }, { type: "paragraph", text: "Sekarang kita tahu bahwa gerak berkaitan dengan perubahan posisi." }, { type: "paragraph", text: "Lalu bagaimana cara mengukur perubahan posisi tersebut?" }, { type: "paragraph", text: "➡️ Selanjutnya: Jarak dan Perpindahan." }] }]
+
+
+
+
+
+
+
+
+
+};
+
+export default pengantargerak;

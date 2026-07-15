@@ -4,110 +4,110 @@ const jenistransformator = {
   description: "Memahami perbedaan transformator step-up dan step-down berdasarkan jumlah lilitan, tegangan, arus, serta penerapannya dalam kehidupan sehari-hari.",
   chapter: "⚡🧲 Transformator",
 
-  content: [
-    {
-      heading: "⚡ Mengapa Tegangan Listrik Bisa Naik atau Turun?",
-      body: [
-        "Salah satu keunggulan transformator adalah kemampuannya mengubah besar tegangan listrik.",
-        "",
-        "Berdasarkan fungsinya, transformator dibedakan menjadi dua jenis, yaitu transformator step-up dan transformator step-down."
-      ]
-    },
+  content: [{ blocks: [{ type: "heading", text:
 
-    {
-      heading: "⬆️ Transformator Step-Up",
-      body: [
-        "Transformator step-up berfungsi untuk menaikkan tegangan listrik dari kumparan primer ke kumparan sekunder.",
-        "",
-        "Transformator ini memiliki jumlah lilitan sekunder lebih banyak daripada jumlah lilitan primer.",
-        "",
-        "Karena daya hampir tetap, kenaikan tegangan menyebabkan arus listrik menjadi lebih kecil."
-      ]
-    },
+      "⚡ Mengapa Tegangan Listrik Bisa Naik atau Turun?" }, { type: "paragraph", text: "Salah satu keunggulan transformator adalah kemampuannya mengubah besar tegangan listrik." }, { type: "paragraph", text: "Berdasarkan fungsinya, transformator dibedakan menjadi dua jenis, yaitu transformator step-up dan transformator step-down." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "⬇️ Transformator Step-Down",
-      body: [
-        "Transformator step-down berfungsi menurunkan tegangan listrik.",
-        "",
-        "Jumlah lilitan sekunder lebih sedikit daripada jumlah lilitan primer.",
-        "",
-        "Akibatnya, tegangan turun tetapi arus listrik menjadi lebih besar."
-      ]
-    },
 
-    {
-      heading: "🔄 Perbandingan Step-Up dan Step-Down",
-      body: [
-        "Perbedaan utama kedua transformator terletak pada jumlah lilitan, perubahan tegangan, dan perubahan arus listrik.",
-        "",
-        "Meskipun demikian, keduanya bekerja menggunakan prinsip induksi elektromagnetik yang sama."
-      ]
-    },
 
-    {
-      heading: "🏭 Penerapan Transformator Step-Up",
-      body: [
-        "Transformator step-up digunakan di pembangkit listrik sebelum energi listrik dikirim melalui jaringan transmisi.",
-        "",
-        "Dengan menaikkan tegangan, arus menjadi kecil sehingga rugi-rugi daya pada kabel dapat dikurangi."
-      ]
-    },
 
-    {
-      heading: "🏠 Penerapan Transformator Step-Down",
-      body: [
-        "Transformator step-down digunakan di gardu distribusi dan adaptor elektronik.",
-        "",
-        "Tegangan tinggi dari jaringan listrik diturunkan menjadi tegangan yang aman untuk digunakan oleh rumah tangga dan peralatan elektronik."
-      ]
-    },
 
-    {
-      heading: "⚠️ Miskonsepsi yang Sering Terjadi",
-      body: [
-        "Banyak siswa mengira transformator dapat menambah energi listrik.",
-        "",
-        "Padahal transformator hanya mengubah besar tegangan dan arus. Energi listrik tetap mengikuti hukum kekekalan energi, sehingga daya ideal pada sisi primer dan sekunder dianggap sama."
-      ]
-    },
 
-    {
-      heading: "📊 Ringkasan Konsep",
-      body: [
-        "Transformator",
-        "⬇️",
-        "Step-Up → Tegangan Naik → Arus Turun",
-        "⬇️",
-        "Step-Down → Tegangan Turun → Arus Naik"
-      ]
-    },
 
-    {
-      heading: "🔗 Hubungan dengan Materi Berikutnya",
-      body: [
-        "Perbedaan step-up dan step-down dapat dijelaskan secara matematis menggunakan persamaan transformator yang melibatkan jumlah lilitan, tegangan, dan arus."
-      ]
-    },
 
-    {
-      heading: "🧠 Inti Materi",
-      body: [
-        "Transformator step-up digunakan untuk menaikkan tegangan listrik, sedangkan transformator step-down digunakan untuk menurunkan tegangan listrik.",
-        "",
-        "Perbedaan keduanya ditentukan oleh perbandingan jumlah lilitan primer dan sekunder."
-      ]
-    },
+      "⬆️ Transformator Step-Up" }, { type: "paragraph", text: "Transformator step-up berfungsi untuk menaikkan tegangan listrik dari kumparan primer ke kumparan sekunder." }, { type: "paragraph", text: "Transformator ini memiliki jumlah lilitan sekunder lebih banyak daripada jumlah lilitan primer." }, { type: "paragraph", text: "Karena daya hampir tetap, kenaikan tegangan menyebabkan arus listrik menjadi lebih kecil." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "🚀 Next Mission",
-      body: [
-        "Bagaimana hubungan matematis antara jumlah lilitan, tegangan, dan arus pada transformator?",
-        "",
-        "➡️ Selanjutnya: Persamaan Transformator."
-      ]
-    }
-  ]
-}
 
-export default jenistransformator
+
+
+
+
+
+
+
+
+      "⬇️ Transformator Step-Down" }, { type: "paragraph", text: "Transformator step-down berfungsi menurunkan tegangan listrik." }, { type: "paragraph", text: "Jumlah lilitan sekunder lebih sedikit daripada jumlah lilitan primer." }, { type: "paragraph", text: "Akibatnya, tegangan turun tetapi arus listrik menjadi lebih besar." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "🔄 Perbandingan Step-Up dan Step-Down" }, { type: "paragraph", text: "Perbedaan utama kedua transformator terletak pada jumlah lilitan, perubahan tegangan, dan perubahan arus listrik." }, { type: "paragraph", text: "Meskipun demikian, keduanya bekerja menggunakan prinsip induksi elektromagnetik yang sama." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🏭 Penerapan Transformator Step-Up" }, { type: "paragraph", text: "Transformator step-up digunakan di pembangkit listrik sebelum energi listrik dikirim melalui jaringan transmisi." }, { type: "paragraph", text: "Dengan menaikkan tegangan, arus menjadi kecil sehingga rugi-rugi daya pada kabel dapat dikurangi." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🏠 Penerapan Transformator Step-Down" }, { type: "paragraph", text: "Transformator step-down digunakan di gardu distribusi dan adaptor elektronik." }, { type: "paragraph", text: "Tegangan tinggi dari jaringan listrik diturunkan menjadi tegangan yang aman untuk digunakan oleh rumah tangga dan peralatan elektronik." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "⚠️ Miskonsepsi yang Sering Terjadi" }, { type: "paragraph", text: "Banyak siswa mengira transformator dapat menambah energi listrik." }, { type: "paragraph", text: "Padahal transformator hanya mengubah besar tegangan dan arus. Energi listrik tetap mengikuti hukum kekekalan energi, sehingga daya ideal pada sisi primer dan sekunder dianggap sama." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "📊 Ringkasan Konsep" }, { type: "paragraph", text: "Transformator" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Step-Up → Tegangan Naik → Arus Turun" }, { type: "paragraph", text: "⬇️" }, { type: "paragraph", text: "Step-Down → Tegangan Turun → Arus Naik" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "🔗 Hubungan dengan Materi Berikutnya" }, { type: "paragraph", text: "Perbedaan step-up dan step-down dapat dijelaskan secara matematis menggunakan persamaan transformator yang melibatkan jumlah lilitan, tegangan, dan arus." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "🧠 Inti Materi" }, { type: "paragraph", text: "Transformator step-up digunakan untuk menaikkan tegangan listrik, sedangkan transformator step-down digunakan untuk menurunkan tegangan listrik." }, { type: "paragraph", text: "Perbedaan keduanya ditentukan oleh perbandingan jumlah lilitan primer dan sekunder." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🚀 Next Mission" }, { type: "paragraph", text: "Bagaimana hubungan matematis antara jumlah lilitan, tegangan, dan arus pada transformator?" }, { type: "paragraph", text: "➡️ Selanjutnya: Persamaan Transformator." }] }]
+
+
+
+
+
+
+
+};
+
+export default jenistransformator;

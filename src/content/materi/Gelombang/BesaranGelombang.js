@@ -4,181 +4,181 @@ const besarangelombang = {
   chapter: "🌊 Gelombang",
   description: "Memahami besaran-besaran yang digunakan untuk mendeskripsikan karakteristik gelombang, seperti amplitudo, panjang gelombang, periode, frekuensi, dan cepat rambat gelombang.",
 
-  content: [
-    {
-      heading: "🌊 Bagaimana Cara Mendeskripsikan Gelombang?",
-      body: [
-        "Setiap gelombang memiliki bentuk dan karakteristik tertentu.",
-        "",
-        "Untuk mempelajarinya secara ilmiah, fisikawan menggunakan beberapa besaran yang dapat diukur."
-      ]
-    },
+  content: [{ blocks: [{ type: "heading", text:
 
-    {
-      heading: "📍 Besaran-Besaran Gelombang",
-      body: [
-        "Beberapa besaran penting dalam gelombang adalah:",
-        "",
-        "📏 Amplitudo (A)",
-        "🌊 Panjang Gelombang (λ)",
-        "⏱️ Periode (T)",
-        "🔄 Frekuensi (f)",
-        "🚀 Cepat Rambat Gelombang (v)"
-      ]
-    },
+      "🌊 Bagaimana Cara Mendeskripsikan Gelombang?" }, { type: "paragraph", text: "Setiap gelombang memiliki bentuk dan karakteristik tertentu." }, { type: "paragraph", text: "Untuk mempelajarinya secara ilmiah, fisikawan menggunakan beberapa besaran yang dapat diukur." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "📏 Amplitudo",
-      body: [
-        "Amplitudo adalah simpangan maksimum suatu titik pada medium dari posisi keseimbangannya.",
-        "",
-        "Semakin besar amplitudo, semakin besar energi yang dibawa gelombang."
-      ]
-    },
 
-    {
-      heading: "🌊 Panjang Gelombang",
-      body: [
-        "Panjang gelombang adalah jarak yang ditempuh gelombang untuk membentuk satu gelombang penuh.",
-        "",
-        "Biasanya dilambangkan dengan huruf Yunani lambda (λ)."
-      ]
-    },
 
-    {
-      heading: "🔄 Satu Gelombang Penuh",
-      body: [
-        "Satu panjang gelombang dapat diukur dari:",
-        "",
-        "🌊 Puncak ke puncak berikutnya",
-        "🌊 Lembah ke lembah berikutnya"
-      ]
-    },
 
-    {
-      heading: "⏱️ Periode",
-      body: [
-        "Periode adalah waktu yang diperlukan untuk menghasilkan satu getaran atau satu gelombang penuh.",
-        "",
-        "Satuan periode adalah sekon (s)."
-      ]
-    },
 
-    {
-      heading: "🔄 Frekuensi",
-      body: [
-        "Frekuensi adalah jumlah getaran yang terjadi setiap detik.",
-        "",
-        "Satuan frekuensi adalah Hertz (Hz)."
-      ]
-    },
 
-    {
-      heading: "🎸 Contoh Frekuensi",
-      body: [
-        "Jika sebuah senar bergetar 50 kali dalam satu detik, maka frekuensinya adalah 50 Hz."
-      ]
-    },
 
-    {
-      heading: "🔗 Hubungan Frekuensi dan Periode",
-      body: [
-        "Frekuensi dan periode saling berhubungan.",
-        "",
-        "Jika frekuensi meningkat, periode akan mengecil.",
-        "",
-        "Sebaliknya jika frekuensi menurun, periode akan membesar."
-      ]
-    },
 
-    {
-      heading: "🚀 Cepat Rambat Gelombang",
-      body: [
-        "Cepat rambat gelombang adalah kecepatan perambatan gangguan dari satu titik ke titik lainnya.",
-        "",
-        "Besaran ini menunjukkan seberapa cepat energi gelombang berpindah."
-      ]
-    },
+      "📍 Besaran-Besaran Gelombang" }, { type: "paragraph", text: "Beberapa besaran penting dalam gelombang adalah:" }, { type: "paragraph", text: "📏 Amplitudo (A)" }, { type: "paragraph", text: "🌊 Panjang Gelombang (λ)" }, { type: "paragraph", text: "⏱️ Periode (T)" }, { type: "paragraph", text: "🔄 Frekuensi (f)" }, { type: "paragraph", text: "🚀 Cepat Rambat Gelombang (v)" }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "🌊 Hubungan Panjang Gelombang dan Frekuensi",
-      body: [
-        "Cepat rambat gelombang dipengaruhi oleh panjang gelombang dan frekuensi.",
-        "",
-        "Ketiga besaran ini memiliki hubungan matematis yang sangat penting dalam fisika."
-      ]
-    },
 
-    {
-      heading: "📊 Membaca Grafik Gelombang",
-      body: [
-        "Melalui grafik gelombang, kita dapat menentukan amplitudo, panjang gelombang, periode, dan frekuensi."
-      ]
-    },
 
-    {
-      heading: "🎯 Mengapa Besaran Ini Penting?",
-      body: [
-        "Besaran-besaran gelombang digunakan untuk menjelaskan berbagai fenomena seperti bunyi, cahaya, gempa bumi, dan gelombang elektromagnetik."
-      ]
-    },
 
-    {
-      heading: "🌎 Penerapan dalam Kehidupan",
-      body: [
-        "Frekuensi digunakan dalam siaran radio.",
-        "Panjang gelombang digunakan dalam komunikasi nirkabel.",
-        "Amplitudo berkaitan dengan keras-lemahnya bunyi dan tinggi-rendahnya gelombang."
-      ]
-    },
 
-    {
-      heading: "⚠️ Miskonsepsi yang Sering Terjadi",
-      body: [
-        "Banyak siswa mengira amplitudo memengaruhi cepat rambat gelombang.",
-        "",
-        "Padahal pada banyak kasus, cepat rambat gelombang ditentukan oleh medium tempat gelombang merambat."
-      ]
-    },
 
-    {
-      heading: "📊 Ringkasan Besaran Gelombang",
-      body: [
-        "📏 Amplitudo → tinggi gelombang",
-        "🌊 Panjang gelombang → panjang satu siklus",
-        "⏱️ Periode → waktu satu siklus",
-        "🔄 Frekuensi → jumlah siklus per detik",
-        "🚀 Cepat rambat → kecepatan gelombang"
-      ]
-    },
 
-    {
-      heading: "🔗 Hubungan dengan Materi Berikutnya",
-      body: [
-        "Setelah mengenal besaran-besaran gelombang, kita dapat mulai mempelajari hubungan matematis antarbesaran tersebut melalui persamaan gelombang."
-      ]
-    },
 
-    {
-      heading: "🧠 Inti Materi",
-      body: [
-        "Gelombang memiliki beberapa besaran penting yaitu amplitudo, panjang gelombang, periode, frekuensi, dan cepat rambat.",
-        "",
-        "Besaran-besaran tersebut digunakan untuk mendeskripsikan karakteristik gelombang secara kuantitatif.",
-        "",
-        "Pemahaman terhadap besaran gelombang menjadi dasar dalam mempelajari berbagai fenomena gelombang."
-      ]
-    },
 
-    {
-      heading: "🚀 Next Mission",
-      body: [
-        "Bagaimana hubungan matematis antara posisi, waktu, dan bentuk gelombang?",
-        "",
-        "➡️ Selanjutnya: Persamaan Gelombang."
-      ]
-    }
-  ]
-}
 
-export default besarangelombang
+
+
+      "📏 Amplitudo" }, { type: "paragraph", text: "Amplitudo adalah simpangan maksimum suatu titik pada medium dari posisi keseimbangannya." }, { type: "paragraph", text: "Semakin besar amplitudo, semakin besar energi yang dibawa gelombang." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🌊 Panjang Gelombang" }, { type: "paragraph", text: "Panjang gelombang adalah jarak yang ditempuh gelombang untuk membentuk satu gelombang penuh." }, { type: "paragraph", text: "Biasanya dilambangkan dengan huruf Yunani lambda (λ)." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🔄 Satu Gelombang Penuh" }, { type: "paragraph", text: "Satu panjang gelombang dapat diukur dari:" }, { type: "paragraph", text: "🌊 Puncak ke puncak berikutnya" }, { type: "paragraph", text: "🌊 Lembah ke lembah berikutnya" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+      "⏱️ Periode" }, { type: "paragraph", text: "Periode adalah waktu yang diperlukan untuk menghasilkan satu getaran atau satu gelombang penuh." }, { type: "paragraph", text: "Satuan periode adalah sekon (s)." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🔄 Frekuensi" }, { type: "paragraph", text: "Frekuensi adalah jumlah getaran yang terjadi setiap detik." }, { type: "paragraph", text: "Satuan frekuensi adalah Hertz (Hz)." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🎸 Contoh Frekuensi" }, { type: "paragraph", text: "Jika sebuah senar bergetar 50 kali dalam satu detik, maka frekuensinya adalah 50 Hz." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "🔗 Hubungan Frekuensi dan Periode" }, { type: "paragraph", text: "Frekuensi dan periode saling berhubungan." }, { type: "paragraph", text: "Jika frekuensi meningkat, periode akan mengecil." }, { type: "paragraph", text: "Sebaliknya jika frekuensi menurun, periode akan membesar." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "🚀 Cepat Rambat Gelombang" }, { type: "paragraph", text: "Cepat rambat gelombang adalah kecepatan perambatan gangguan dari satu titik ke titik lainnya." }, { type: "paragraph", text: "Besaran ini menunjukkan seberapa cepat energi gelombang berpindah." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🌊 Hubungan Panjang Gelombang dan Frekuensi" }, { type: "paragraph", text: "Cepat rambat gelombang dipengaruhi oleh panjang gelombang dan frekuensi." }, { type: "paragraph", text: "Ketiga besaran ini memiliki hubungan matematis yang sangat penting dalam fisika." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "📊 Membaca Grafik Gelombang" }, { type: "paragraph", text: "Melalui grafik gelombang, kita dapat menentukan amplitudo, panjang gelombang, periode, dan frekuensi." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "🎯 Mengapa Besaran Ini Penting?" }, { type: "paragraph", text: "Besaran-besaran gelombang digunakan untuk menjelaskan berbagai fenomena seperti bunyi, cahaya, gempa bumi, dan gelombang elektromagnetik." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "🌎 Penerapan dalam Kehidupan" }, { type: "paragraph", text: "Frekuensi digunakan dalam siaran radio." }, { type: "paragraph", text: "Panjang gelombang digunakan dalam komunikasi nirkabel." }, { type: "paragraph", text: "Amplitudo berkaitan dengan keras-lemahnya bunyi dan tinggi-rendahnya gelombang." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "⚠️ Miskonsepsi yang Sering Terjadi" }, { type: "paragraph", text: "Banyak siswa mengira amplitudo memengaruhi cepat rambat gelombang." }, { type: "paragraph", text: "Padahal pada banyak kasus, cepat rambat gelombang ditentukan oleh medium tempat gelombang merambat." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "📊 Ringkasan Besaran Gelombang" }, { type: "paragraph", text: "📏 Amplitudo → tinggi gelombang" }, { type: "paragraph", text: "🌊 Panjang gelombang → panjang satu siklus" }, { type: "paragraph", text: "⏱️ Periode → waktu satu siklus" }, { type: "paragraph", text: "🔄 Frekuensi → jumlah siklus per detik" }, { type: "paragraph", text: "🚀 Cepat rambat → kecepatan gelombang" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "🔗 Hubungan dengan Materi Berikutnya" }, { type: "paragraph", text: "Setelah mengenal besaran-besaran gelombang, kita dapat mulai mempelajari hubungan matematis antarbesaran tersebut melalui persamaan gelombang." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "🧠 Inti Materi" }, { type: "paragraph", text: "Gelombang memiliki beberapa besaran penting yaitu amplitudo, panjang gelombang, periode, frekuensi, dan cepat rambat." }, { type: "paragraph", text: "Besaran-besaran tersebut digunakan untuk mendeskripsikan karakteristik gelombang secara kuantitatif." }, { type: "paragraph", text: "Pemahaman terhadap besaran gelombang menjadi dasar dalam mempelajari berbagai fenomena gelombang." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+      "🚀 Next Mission" }, { type: "paragraph", text: "Bagaimana hubungan matematis antara posisi, waktu, dan bentuk gelombang?" }, { type: "paragraph", text: "➡️ Selanjutnya: Persamaan Gelombang." }] }]
+
+
+
+
+
+
+
+};
+
+export default besarangelombang;

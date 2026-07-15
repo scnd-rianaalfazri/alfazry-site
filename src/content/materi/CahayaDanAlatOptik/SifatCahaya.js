@@ -3,186 +3,186 @@ const sifatcahaya = {
   slug: "sifat sifat cahaya",
   description: "Memahami berbagai sifat cahaya yang menjelaskan bagaimana cahaya merambat dan berinteraksi dengan benda di sekitarnya.",
   chapter: "🌈 Cahaya dan Alat Optik",
-    
-  content: [
-    {
-      heading: "💡 Mengapa Cahaya Sangat Istimewa?",
-      body: [
-        "Cahaya memungkinkan kita melihat dunia di sekitar.",
-        "",
-        "Selain itu, cahaya memiliki berbagai sifat unik yang menjelaskan banyak fenomena alam dan teknologi modern."
-      ]
-    },
 
-    {
-      heading: "📍 Apa yang Dimaksud Sifat Cahaya?",
-      body: [
-        "Sifat cahaya adalah karakteristik atau perilaku cahaya ketika merambat dan berinteraksi dengan medium maupun benda lain."
-      ]
-    },
+  content: [{ blocks: [{ type: "heading", text:
 
-    {
-      heading: "➡️ Cahaya Merambat Lurus",
-      body: [
-        "Dalam medium yang homogen, cahaya merambat dalam garis lurus.",
-        "",
-        "Sifat ini menjelaskan mengapa bayangan dapat terbentuk."
-      ]
-    },
+      "💡 Mengapa Cahaya Sangat Istimewa?" }, { type: "paragraph", text: "Cahaya memungkinkan kita melihat dunia di sekitar." }, { type: "paragraph", text: "Selain itu, cahaya memiliki berbagai sifat unik yang menjelaskan banyak fenomena alam dan teknologi modern." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "🌳 Contoh Cahaya Merambat Lurus",
-      body: [
-        "Bayangan pohon di bawah sinar Matahari terbentuk karena cahaya bergerak lurus dan terhalang oleh pohon."
-      ]
-    },
 
-    {
-      heading: "↩️ Cahaya Dapat Dipantulkan",
-      body: [
-        "Ketika mengenai permukaan tertentu, cahaya dapat dipantulkan kembali.",
-        "",
-        "Peristiwa ini disebut pemantulan cahaya."
-      ]
-    },
 
-    {
-      heading: "🪞 Contoh Pemantulan Cahaya",
-      body: [
-        "Kita dapat melihat bayangan pada cermin karena cahaya dipantulkan menuju mata."
-      ]
-    },
 
-    {
-      heading: "🔀 Cahaya Dapat Dibiaskan",
-      body: [
-        "Ketika melewati dua medium berbeda, arah rambat cahaya dapat berubah.",
-        "",
-        "Peristiwa ini disebut pembiasan cahaya."
-      ]
-    },
 
-    {
-      heading: "🥤 Contoh Pembiasan Cahaya",
-      body: [
-        "Sedotan yang dimasukkan ke dalam gelas berisi air tampak bengkok meskipun sebenarnya lurus."
-      ]
-    },
 
-    {
-      heading: "🌈 Cahaya Dapat Diuraikan",
-      body: [
-        "Cahaya putih sebenarnya tersusun atas berbagai warna.",
-        "",
-        "Peristiwa penguraian cahaya disebut dispersi."
-      ]
-    },
 
-    {
-      heading: "🌦️ Pelangi",
-      body: [
-        "Pelangi terbentuk ketika cahaya Matahari diuraikan oleh tetesan air hujan menjadi berbagai warna."
-      ]
-    },
 
-    {
-      heading: "⚡ Cahaya Membawa Energi",
-      body: [
-        "Cahaya dapat membawa energi dari sumbernya ke tempat lain.",
-        "",
-        "Energi cahaya dimanfaatkan dalam panel surya dan proses fotosintesis."
-      ]
-    },
+      "📍 Apa yang Dimaksud Sifat Cahaya?" }, { type: "paragraph", text: "Sifat cahaya adalah karakteristik atau perilaku cahaya ketika merambat dan berinteraksi dengan medium maupun benda lain." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "🌱 Cahaya dan Fotosintesis",
-      body: [
-        "Tumbuhan memanfaatkan energi cahaya Matahari untuk menghasilkan makanan melalui fotosintesis."
-      ]
-    },
 
-    {
-      heading: "🌌 Cahaya Dapat Merambat di Ruang Hampa",
-      body: [
-        "Tidak seperti bunyi, cahaya tidak memerlukan medium untuk merambat.",
-        "",
-        "Karena itu cahaya Matahari dapat mencapai Bumi melalui ruang angkasa."
-      ]
-    },
 
-    {
-      heading: "🚀 Cahaya Sangat Cepat",
-      body: [
-        "Cahaya merupakan salah satu fenomena tercepat di alam.",
-        "",
-        "Kecepatannya jauh lebih besar dibandingkan kecepatan bunyi."
-      ]
-    },
 
-    {
-      heading: "🔬 Mengapa Sifat Cahaya Penting?",
-      body: [
-        "Sifat-sifat cahaya menjadi dasar berbagai teknologi seperti kamera, mikroskop, teleskop, serat optik, dan laser."
-      ]
-    },
 
-    {
-      heading: "📱 Cahaya dalam Teknologi Modern",
-      body: [
-        "Internet serat optik, kamera smartphone, dan layar digital semuanya memanfaatkan sifat-sifat cahaya."
-      ]
-    },
 
-    {
-      heading: "⚠️ Miskonsepsi yang Sering Terjadi",
-      body: [
-        "Banyak siswa mengira cahaya selalu merambat lurus dalam semua kondisi.",
-        "",
-        "Padahal arah rambat cahaya dapat berubah ketika mengalami pemantulan atau pembiasan."
-      ]
-    },
+      "➡️ Cahaya Merambat Lurus" }, { type: "paragraph", text: "Dalam medium yang homogen, cahaya merambat dalam garis lurus." }, { type: "paragraph", text: "Sifat ini menjelaskan mengapa bayangan dapat terbentuk." }] }, { blocks: [{ type: "heading", text:
 
-    {
-      heading: "📊 Ringkasan Sifat Cahaya",
-      body: [
-        "➡️ Merambat Lurus",
-        "↩️ Dipantulkan",
-        "🔀 Dibiaskan",
-        "🌈 Diuraikan",
-        "⚡ Membawa Energi",
-        "🌌 Merambat di Ruang Hampa"
-      ]
-    },
 
-    {
-      heading: "🔗 Hubungan dengan Materi Berikutnya",
-      body: [
-        "Salah satu sifat paling penting dari cahaya adalah kemampuannya untuk merambat dengan kecepatan sangat tinggi.",
-        "",
-        "Kecepatan ini akan dibahas pada materi berikutnya."
-      ]
-    },
 
-    {
-      heading: "🧠 Inti Materi",
-      body: [
-        "Cahaya memiliki berbagai sifat penting seperti merambat lurus, dipantulkan, dibiaskan, diuraikan, membawa energi, dan dapat merambat di ruang hampa.",
-        "",
-        "Sifat-sifat inilah yang menjelaskan berbagai fenomena optik di alam maupun teknologi modern."
-      ]
-    },
 
-    {
-      heading: "🚀 Next Mission",
-      body: [
-        "Seberapa cepat cahaya merambat?",
-        "",
-        "Mengapa kita melihat kilat hampir seketika?",
-        "",
-        "➡️ Selanjutnya: Cepat Rambat Cahaya."
-      ]
-    }
-  ]
-}
 
-export default sifatcahaya
+
+
+
+      "🌳 Contoh Cahaya Merambat Lurus" }, { type: "paragraph", text: "Bayangan pohon di bawah sinar Matahari terbentuk karena cahaya bergerak lurus dan terhalang oleh pohon." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "↩️ Cahaya Dapat Dipantulkan" }, { type: "paragraph", text: "Ketika mengenai permukaan tertentu, cahaya dapat dipantulkan kembali." }, { type: "paragraph", text: "Peristiwa ini disebut pemantulan cahaya." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🪞 Contoh Pemantulan Cahaya" }, { type: "paragraph", text: "Kita dapat melihat bayangan pada cermin karena cahaya dipantulkan menuju mata." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "🔀 Cahaya Dapat Dibiaskan" }, { type: "paragraph", text: "Ketika melewati dua medium berbeda, arah rambat cahaya dapat berubah." }, { type: "paragraph", text: "Peristiwa ini disebut pembiasan cahaya." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🥤 Contoh Pembiasan Cahaya" }, { type: "paragraph", text: "Sedotan yang dimasukkan ke dalam gelas berisi air tampak bengkok meskipun sebenarnya lurus." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "🌈 Cahaya Dapat Diuraikan" }, { type: "paragraph", text: "Cahaya putih sebenarnya tersusun atas berbagai warna." }, { type: "paragraph", text: "Peristiwa penguraian cahaya disebut dispersi." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🌦️ Pelangi" }, { type: "paragraph", text: "Pelangi terbentuk ketika cahaya Matahari diuraikan oleh tetesan air hujan menjadi berbagai warna." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "⚡ Cahaya Membawa Energi" }, { type: "paragraph", text: "Cahaya dapat membawa energi dari sumbernya ke tempat lain." }, { type: "paragraph", text: "Energi cahaya dimanfaatkan dalam panel surya dan proses fotosintesis." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🌱 Cahaya dan Fotosintesis" }, { type: "paragraph", text: "Tumbuhan memanfaatkan energi cahaya Matahari untuk menghasilkan makanan melalui fotosintesis." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "🌌 Cahaya Dapat Merambat di Ruang Hampa" }, { type: "paragraph", text: "Tidak seperti bunyi, cahaya tidak memerlukan medium untuk merambat." }, { type: "paragraph", text: "Karena itu cahaya Matahari dapat mencapai Bumi melalui ruang angkasa." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🚀 Cahaya Sangat Cepat" }, { type: "paragraph", text: "Cahaya merupakan salah satu fenomena tercepat di alam." }, { type: "paragraph", text: "Kecepatannya jauh lebih besar dibandingkan kecepatan bunyi." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🔬 Mengapa Sifat Cahaya Penting?" }, { type: "paragraph", text: "Sifat-sifat cahaya menjadi dasar berbagai teknologi seperti kamera, mikroskop, teleskop, serat optik, dan laser." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "📱 Cahaya dalam Teknologi Modern" }, { type: "paragraph", text: "Internet serat optik, kamera smartphone, dan layar digital semuanya memanfaatkan sifat-sifat cahaya." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+      "⚠️ Miskonsepsi yang Sering Terjadi" }, { type: "paragraph", text: "Banyak siswa mengira cahaya selalu merambat lurus dalam semua kondisi." }, { type: "paragraph", text: "Padahal arah rambat cahaya dapat berubah ketika mengalami pemantulan atau pembiasan." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "📊 Ringkasan Sifat Cahaya" }, { type: "paragraph", text: "➡️ Merambat Lurus" }, { type: "paragraph", text: "↩️ Dipantulkan" }, { type: "paragraph", text: "🔀 Dibiaskan" }, { type: "paragraph", text: "🌈 Diuraikan" }, { type: "paragraph", text: "⚡ Membawa Energi" }, { type: "paragraph", text: "🌌 Merambat di Ruang Hampa" }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+
+
+
+      "🔗 Hubungan dengan Materi Berikutnya" }, { type: "paragraph", text: "Salah satu sifat paling penting dari cahaya adalah kemampuannya untuk merambat dengan kecepatan sangat tinggi." }, { type: "paragraph", text: "Kecepatan ini akan dibahas pada materi berikutnya." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🧠 Inti Materi" }, { type: "paragraph", text: "Cahaya memiliki berbagai sifat penting seperti merambat lurus, dipantulkan, dibiaskan, diuraikan, membawa energi, dan dapat merambat di ruang hampa." }, { type: "paragraph", text: "Sifat-sifat inilah yang menjelaskan berbagai fenomena optik di alam maupun teknologi modern." }] }, { blocks: [{ type: "heading", text:
+
+
+
+
+
+
+
+
+      "🚀 Next Mission" }, { type: "paragraph", text: "Seberapa cepat cahaya merambat?" }, { type: "paragraph", text: "Mengapa kita melihat kilat hampir seketika?" }, { type: "paragraph", text: "➡️ Selanjutnya: Cepat Rambat Cahaya." }] }]
+
+
+
+
+
+
+
+
+
+};
+
+export default sifatcahaya;
