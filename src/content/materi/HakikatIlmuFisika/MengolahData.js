@@ -1,3 +1,5 @@
+import { text } from "framer-motion/client";
+
 const mengolahdata = {
   title: "Mengolah dan Menafsirkan Data",
   slug: "mengolah dan menafsirkan data",
@@ -8,41 +10,67 @@ const mengolahdata = {
   content: [
   {
     blocks: [
-    {
-      type: "paragraph",
-      text: "Bayangkan kamu telah melakukan percobaan sebanyak sepuluh kali."
-    },
-    { type: "paragraph", text: "Semua hasil sudah dicatat." },
-    { type: "paragraph", text: "Apakah penelitianmu sudah selesai?" },
-    { type: "paragraph", text: "Belum." },
-    {
-      type: "paragraph",
-      text: "Data tersebut harus diolah dan dianalisis agar memiliki makna."
-    }]
-
+      {
+        type: "paragraph",
+        text: [
+          "Bayangkan kamu telah melakukan percobaan keren sebanyak sepuluh kali. Selesai nyatet semuanya di buku log.",
+          "",
+          "Apakah petualangan penelitianmu sudah beres sampai di situ?",
+          "",
+          "Eits, belum dong! 🛑 Data-data angka itu barulah baris misterius yang belum bersuara. Biar bermakna dan bisa nge-spill jawabannya, data mentah tersebut harus kita olah dan analisis terlebih dahulu!"
+        ]
+      }
+    ]
   },
-  { heading:
-
-    "📊 Mengapa Data Harus Diolah?", blocks: [{ type: "heading", text: "📊 Mengapa Data Harus Diolah?" },
-    { type: "paragraph", text: "Data mentah sering kali sulit dipahami." },
-    {
-      type: "paragraph",
-      text: "Dengan mengolah data, kita dapat menemukan pola, membandingkan hasil, dan membuat kesimpulan yang lebih tepat."
-    }]
-
+  { heading: "📊 Mengapa Data Harus Diolah?", 
+    blocks: [
+      { 
+        type: "paragraph", 
+        text: [
+          "Sering kali, data mentah itu kelihatan membingungkan—cuma tumpukan angka acak tanpa arah.",
+          "Dengan mengolah data (bisa dicari rata-ratanya, dihitung ketidakpastiannya, atau dikelompokkan), kita bisa dengan mudah menemukan pola tersembunyi, membandingkan hasil antar-variabel, dan membuat kesimpulan objektif yang no-cap alias akurat!"
+        ] 
+      }
+    ]
   },
-  { heading:
-
-    "📝 Menyajikan Data", blocks: [{ type: "heading", text: "📝 Menyajikan Data" },
-    {
-      type: "paragraph",
-      text: "Hasil eksperimen dapat disajikan dalam beberapa bentuk:"
-    },
-    { type: "paragraph", text: "📋 Tabel" },
-    { type: "paragraph", text: "📈 Grafik" },
-    { type: "paragraph", text: "📉 Diagram" },
-    { type: "paragraph", text: "📄 Narasi" }]
-
+  { heading: "📝 Menyajikan Data", 
+    blocks: [
+      { 
+        type: "paragraph", 
+        text: [
+          "Biar orang lain gak pusing pas baca hasil risetmu, kamu wajib menyajikannya dalam bentuk visual yang estetik dan informatif. Ada beberapa format penyajian data yang umum digunakan:",
+          "📋 Tabel — Untuk menyusun angka secara rapi dan presisi.",
+          "📈 Grafik — Untuk melihat tren naik-turun dan hubungan variabel.",
+          "📉 Diagram — Bagus untuk membandingkan porsi atau kategori data.",
+          "📄 Narasi — Penjelasan teks kasual untuk memperjelas visualnya."
+        ]
+      },
+      {
+        type: "list",
+        list: 
+          {
+            type: "unordered",
+            list: [
+              {
+                text : "Tabel",
+                description: "Untuk menyusun angka secara rapi dan presisi."
+              },
+              {
+                text: "Grafik",
+                description: "Untuk melihat tren naik-turun dan hubungan variabel."
+              },
+              {
+                text: "Diagram",
+                description: "Bagus untuk membandingkan porsi atau kategori data."
+              },
+              {
+                text: "Narasi",
+                description: "Penjelasan teks kasual untuk memperjelas visualnya."
+              }
+            ]
+          }
+      }
+    ]
   },
   { heading:
 

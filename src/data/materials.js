@@ -43,16 +43,16 @@ import MenentukanArahResultanVektor from "../content/materi/Vektor/MenentukanAra
 import PerkalianVektor from "../content/materi/Vektor/PerkalianVektor.js"
 import AplikasiVektor from "../content/materi/Vektor/AplikasiVektor.js"
 
-/* kinematika gerak lurus */ 
-import PengantarGerak from "../content/materi/KinematikaGerakLurus/PengantarGerak.js"
-import JarakDanPerpindahan from "../content/materi/KinematikaGerakLurus/JarakDanPerpindahan.js"
-import KelajuanDanKecepatan from "../content/materi/KinematikaGerakLurus/KelajuanDanKecepatan.js"
-import Percepatan from "../content/materi/KinematikaGerakLurus/Percepatan"
-import GerakLurusBeraturan from "../content/materi/KinematikaGerakLurus/GerakLurusBeraturan.js"
-import GerakLurusBerubahBeraturan from "../content/materi/KinematikaGerakLurus/GerakLurusBerubahBeraturan.js"
-import GerakJatuhBebas from "../content/materi/KinematikaGerakLurus/GerakJatuhBebas.js"
-import GerakVertikalAtas from "../content/materi/KinematikaGerakLurus/GerakVertikalAtas.js"
-import GerakVertikalBawah from "../content/materi/KinematikaGerakLurus/GerakVertikalBawah.js"
+/* kinematika gerak satu dimensi */ 
+import PengantarGerak from "../content/materi/KinematikaGerakSatuDimensi/PengantarGerak.js"
+import JarakDanPerpindahan from "../content/materi/KinematikaGerakSatuDimensi/JarakDanPerpindahan.js"
+import KelajuanDanKecepatan from "../content/materi/KinematikaGerakSatuDimensi/KelajuanDanKecepatan.js"
+import Percepatan from "../content/materi/KinematikaGerakSatuDimensi/Percepatan"
+import GerakLurusBeraturan from "../content/materi/KinematikaGerakSatuDimensi/GerakLurusBeraturan.js"
+import GerakLurusBerubahBeraturan from "../content/materi/KinematikaGerakSatuDimensi/GerakLurusBerubahBeraturan.js"
+import GerakJatuhBebas from "../content/materi/KinematikaGerakSatuDimensi/GerakJatuhBebas.js"
+import GerakVertikalAtas from "../content/materi/KinematikaGerakSatuDimensi/GerakVertikalAtas.js"
+import GerakVertikalBawah from "../content/materi/KinematikaGerakSatuDimensi/GerakVertikalBawah.js"
 
 /* kinematika gerak dua dimensi */
 import AnalisisSumbuXDanY from "../content/materi/KinematikaGerakDuaDimensi/AnalisisSumbuXDanY.js"
@@ -528,7 +528,7 @@ export const materials = [
   PerkalianVektor,
   AplikasiVektor,
 
-  /* Chapter : Kinematika Gerak Lurus */
+  /* Chapter : Kinematika Gerak Satu Dimensi */
   PengantarGerak,
   JarakDanPerpindahan,
   KelajuanDanKecepatan,

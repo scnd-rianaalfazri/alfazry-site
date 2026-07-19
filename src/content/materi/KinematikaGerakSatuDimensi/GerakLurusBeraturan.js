@@ -3,7 +3,7 @@ const geraklurusberaturan = {
   slug: "gerak lurus beraturan",
   description:
   "Memahami konsep gerak lurus beraturan, ciri-ciri, persamaan, dan grafik hubungan posisi, kecepatan, dan waktu.",
-  chapter: "🚗 Kinematika: Gerak Lurus",
+  chapter: "↔️↕️ Kinematika: Gerak Satu Dimensi",
   content: [
   { heading:
 

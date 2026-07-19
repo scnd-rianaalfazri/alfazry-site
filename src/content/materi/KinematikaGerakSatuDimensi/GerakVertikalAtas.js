@@ -3,7 +3,7 @@ const gerakvertikalatas = {
   slug: "gerak vertikal ke atas",
   description:
   "Memahami konsep gerak vertikal ke atas sebagai gerak lurus berubah beraturan dengan pengaruh gravitasi.",
-  chapter: "🚗 Kinematika: Gerak Lurus",
+  chapter: "↔️↕️ Kinematika: Gerak Satu Dimensi",
   content: [
   { heading:
 

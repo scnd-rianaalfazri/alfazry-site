@@ -272,15 +272,12 @@ export default function DetailMateri() {
   }
 
   // ============================================================
-  // Sistem BLOCKS — biar penempatan image/body/equation/explanation/
-  // table/list/quickCheck dalam satu section bisa bebas urutannya,
+  // Sistem BLOCKS — satu-satunya cara mengisi konten section.
+  // Penempatan image/paragraph/equation/explanation/table/list/
+  // quickCheck sepenuhnya bebas urutannya lewat array `blocks`,
   // bahkan bisa diulang beberapa kali (misal: paragraf → gambar →
   // paragraf lagi → tabel → paragraf lagi).
   // ============================================================
-  //
-  // Cara pakai (opsional, section tanpa `blocks` tetap jalan seperti
-  // biasa lewat field lama: image/body/equation/explanation/table/
-  // list/quickCheck, dengan urutan tampil tetap seperti sebelumnya):
   //
   //   {
   //     heading: "Judul Section",
@@ -288,7 +285,7 @@ export default function DetailMateri() {
   //       { type: "paragraph", text: "Paragraf pembuka." },
   //       { type: "image", src: fotoImg, caption: "Keterangan foto" },
   //       { type: "heading", text: "Sub-judul di tengah konten" },
-  //       { type: "paragraf", text: ["Paragraf 1", "Paragraf 2"] },
+  //       { type: "paragraph", text: ["Paragraf 1", "Paragraf 2"] },
   //       { type: "equation", equation: "F = ma" },
   //       { type: "table", table: { headers: [...], rows: [...] } },
   //       { type: "list", list: { type: "ordered", items: [...] } },
@@ -299,49 +296,30 @@ export default function DetailMateri() {
   //
   // Tipe block yang didukung: paragraph, image, heading, equation,
   // table, list, explanation, quickCheck.
+  //
+  // CATATAN: format lama (field langsung di section seperti `image:`,
+  // `body:`, dst di luar `blocks`) SUDAH TIDAK DIDUKUNG. Semua materi
+  // wajib pakai `blocks`.
   const sectionToBlocks = (section) => {
-    if (Array.isArray(section.blocks)) return section.blocks
-
-    // Section lama (tanpa `blocks`) -> dirakit otomatis dari field
-    // lama, urutannya persis seperti versi sebelumnya supaya semua
-    // materi yang sudah ada tetap tampil sama.
-    const blocks = []
-
-    if (section.image) {
-      blocks.push({
-        type: "image",
-        src: section.image,
-        caption: section.caption,
-        link: section.link,
-        alt: section.caption || section.heading,
-      })
+    if (
+      import.meta.env.DEV &&
+      !Array.isArray(section.blocks) &&
+      (section.image ||
+        section.body ||
+        section.equation ||
+        section.explanation ||
+        section.table ||
+        section.list ||
+        section.quickCheck)
+    ) {
+      console.warn(
+        `[DetailMateri] Section "${section.heading || "(tanpa heading)"}" ` +
+          `masih pakai field lama (image/body/dst) dan belum dimigrasi ` +
+          `ke "blocks" — kontennya TIDAK akan tampil.`
+      )
     }
 
-    if (section.body) {
-      blocks.push({ type: "paragraph", text: section.body })
-    }
-
-    if (section.equation) {
-      blocks.push({ type: "equation", equation: section.equation })
-    }
-
-    if (section.explanation) {
-      blocks.push({ type: "explanation", text: section.explanation })
-    }
-
-    if (section.table) {
-      blocks.push({ type: "table", table: section.table })
-    }
-
-    if (section.list) {
-      blocks.push({ type: "list", list: section.list })
-    }
-
-    if (section.quickCheck) {
-      blocks.push({ type: "quickCheck", data: section.quickCheck })
-    }
-
-    return blocks
+    return Array.isArray(section.blocks) ? section.blocks : []
   }
 
   const renderParagraphs = (text, className) =>

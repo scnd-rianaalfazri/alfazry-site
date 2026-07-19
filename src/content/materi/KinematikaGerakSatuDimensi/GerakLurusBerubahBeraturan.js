@@ -3,7 +3,7 @@ const geraklurusberubahberaturan = {
   slug: "gerak lurus beraturan",
   description:
   "Memahami konsep GLBB, hubungan kecepatan, percepatan, waktu, serta penerapannya dalam gerak benda.",
-  chapter: "🚗 Kinematika: Gerak Lurus",
+  chapter: "↔️↕️ Kinematika: Gerak Satu Dimensi",
   content: [
   { heading:
 

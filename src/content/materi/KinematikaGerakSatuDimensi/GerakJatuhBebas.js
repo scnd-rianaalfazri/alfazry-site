@@ -3,7 +3,7 @@ const gerakjatuhbebas = {
   slug: "gerak jatuh bebas",
   description:
   "Memahami konsep gerak jatuh bebas sebagai gerak lurus berubah beraturan akibat pengaruh gravitasi.",
-  chapter: "🚗 Kinematika: Gerak Lurus",
+  chapter: "↔️↕️ Kinematika: Gerak Satu Dimensi",
   content: [
   { heading:
 

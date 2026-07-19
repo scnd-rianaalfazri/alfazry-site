@@ -3,7 +3,7 @@ const percepatan = {
   slug: "percepatan",
   description:
   "Memahami konsep percepatan sebagai perubahan kecepatan terhadap waktu dalam gerak benda.",
-  chapter: "🚗 Kinematika: Gerak Lurus",
+  chapter: "↔️↕️ Kinematika: Gerak Satu Dimensi",
   content: [
   { heading:
 
