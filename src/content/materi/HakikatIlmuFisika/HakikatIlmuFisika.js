@@ -1,9 +1,6 @@
-import { caption, image } from "framer-motion/client";
+import { caption, image, text } from "framer-motion/client";
 import hakikatIlmuFisikaImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika1.jpg";
 import pilarilmufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika2.jpg";
-import fisikasbgprodukImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika3.jpg";
-import fisikasbgprosesImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika4.jpg";
-import fisikasbgsikapImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika5.jpg";
 import intimaterhakikatfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika6.jpg";
 import nextmissionfisikasebagaiprodukImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika7.jpg";
 import miskonsepsihakikatfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika8.jpg";
@@ -25,27 +22,23 @@ const hakikatimufisika = {
     },
     {
       type: "paragraph",
-      text: "Ketika mendengar kata fisika, banyak orang langsung membayangkan rumus-rumus yang sulit."
-    },
-    {
-      type: "paragraph",
-      text: "Padahal, hakikat fisika jauh lebih luas daripada sekadar menghitung."
-    },
-    {
-      type: "paragraph",
-      text: "Fisika adalah cara manusia memahami alam melalui pengamatan, eksperimen, dan penalaran."
+      text: [
+        "Banyak yang mengira kalau belajar fisika itu berarti siap-siap pusing ketemu kumpulan rumus matematis yang njelimet.",
+        "",
+        "Padahal, rumus itu cuma 'bahasa' buat menjelaskan sesuatu yang jauh lebih besar. Hakikat ilmu fisika sebenarnya adalah cara pandang untuk memahami bagaimana alam semesta ini bekerja.",
+        "",
+        "Para ilmuwan membagi hakikat fisika menjadi 3 pilar utama: Fisika sebagai Produk, Fisika sebagai Proses, dan Fisika sebagai Sikap. Let's spill the details!"
+      ]
     }]
-
   },
   { heading: "🌱 Apa yang Dimaksud Hakikat Ilmu Fisika?", 
     blocks: [
       {
         type: "paragraph",
-        text: "Hakikat ilmu fisika adalah karakter atau sifat dasar fisika sebagai ilmu pengetahuan."
-      },
-      {
-        type: "paragraph",
-        text: "Fisika tidak hanya menghasilkan pengetahuan, tetapi juga memiliki cara kerja dan sikap yang harus dimiliki seorang ilmuwan."
+        text: [
+          "Hakikat ilmu fisika adalah karakter atau sifat dasar fisika sebagai ilmu pengetahuan.",
+          "Fisika tidak hanya menghasilkan pengetahuan, tetapi juga memiliki cara kerja dan sikap yang harus dimiliki seorang ilmuwan."
+        ]
       }
     ]
   },
@@ -57,71 +50,71 @@ const hakikatimufisika = {
         caption: "Tiga pilar hakikat ilm fisika"
       },
       {
-        type: "paragraph",
-        text: "Hakikat ilmu fisika dapat dipahami melalui tiga pilar utama."
-      },
-      { type: "paragraph", 
-        text: "⚙️ Fisika sebagai Produk" 
-      },
-      { type: "paragraph", 
-        text: "🧪 Fisika sebagai Proses" 
-      },
-      { type: "paragraph", 
-        text: "🧠 Fisika sebagai Sikap Ilmiah" 
-      }
-    ]
-  },
-  { heading: "⚙️ Fisika sebagai Produk", 
-    blocks: [
-      {
-        type: "image",
-        src: fisikasbgprodukImg,
-        caption: "Fisika sebagai produk"
-      },
-      {
-        type: "paragraph",
-        text: "Fisika menghasilkan berbagai pengetahuan seperti fakta, konsep, hukum, prinsip, teori, dan model."
-      },
-      {
-        type: "paragraph",
-        text: "Semua pengetahuan tersebut diperoleh melalui proses ilmiah yang terus berkembang."
-      }
-    ]
-  },
-  { heading: "🧪 Fisika sebagai Proses", 
-    blocks: [
-      {
-        type: "image",
-        src: fisikasbgprosesImg,
-        caption: "Fisika sebagai proses"
-      },
-      {
-        type: "paragraph",
-        text: "Fisika berkembang melalui serangkaian kegiatan ilmiah."
-      },
-      {
-        type: "paragraph",
-        text: "Mulai dari mengamati fenomena, menyusun hipotesis, melakukan eksperimen, hingga menarik kesimpulan berdasarkan data."
-      }
-    ]
-  },
-  { heading: "🧠 Fisika sebagai Sikap", 
-    blocks: [
-      { type: "heading", 
-        text: "🧠 Fisika sebagai Sikap" 
-      },
-      {
-        type: "image",
-        src: fisikasbgsikapImg,
-        caption: "Fisika sebagai sikap"
-      },
-      {
-        type: "paragraph",
-        text: "Selain pengetahuan dan metode, fisika juga menanamkan sikap ilmiah."
-      },
-      {
-        type: "paragraph",
-        text: "Misalnya rasa ingin tahu, jujur terhadap data, berpikir kritis, teliti, terbuka terhadap bukti baru, dan bertanggung jawab."
+        type: "list",
+        list: {
+          type: "ordered",
+          items: [
+            {
+              text: "Fisika sebagai Produk (A Body of Knowledge)",
+              description: [
+                "Pilar pertama adalah kumpulan pengetahuan yang berhasil dikumpulkan oleh para ilmuwan selama berabad-abad.",
+                "Produk fisika ini gak asal tebak, tapi sudah teruji dan tersistematisasi dalam beberapa bentuk:"
+              ],
+              children: {
+                type: "unordered",
+                items: [
+                  {
+                    text: "Fakta"
+                  },
+                  {
+                    text: "Konsep"
+                  },
+                  {
+                    text: "Prinsip"
+                  },
+                  {
+                    text: "Hukum"
+                  },
+                  {
+                    text: "Prinsip"
+                  }
+                ]
+              }
+            },
+            {
+              text: "Fisika sebagai Proses (A Way of Investigating)",
+              description: [
+                "Fisika gak jatuh dari langit secara instan. Ada proses investigasi yang ketat di baliknya.",
+                "Pilar proses ini menggambarkan langkah-langkah metodologis atau metode ilmiah yang digunakan ilmuwan untuk membuktikan sesuatu.",
+                "Proses ini dimulai dari melakukan pengamatan (observasi), merumuskan masalah, menyusun hipotesis, melakukan eksperimen seru di lab, menganalisis data empiris, sampai akhirnya menarik kesimpulan. No data, no-cap!"
+              ]
+            },
+            {
+              text: "Fisika sebagai Sikap (A Way of Thinking)",
+              description: [
+                "Pilar terakhir dan yang paling penting adalah *mindset* atau sikap ilmiah.",
+                "Untuk bisa mengungkap rahasia alam, kamu harus punya karakteristik berpikir tertentu, di antaranya:"
+              ],
+              children: {
+                type: "unordered",
+                items: [
+                  {
+                    text: "Rasa ingin tahu yang tinggi (*curiosity* yang gak ada habisnya)."
+                  },
+                  {
+                    text: "Jujur dan objektif (mencatat data apa adanya, gak dimanipulasi demi konten atau hasil instan)."
+                  },
+                  {
+                    text: "Terbuka dan kritis (siap menerima kritik dan perubahan kalau ada bukti baru yang lebih valid)."
+                  },
+                  {
+                    text: "Tekun dan gak gampang menyerah walau eksperimen gagal berulang kali."
+                  }
+                ]
+              }
+            },
+          ]
+        }
       }
     ]
   },
@@ -129,12 +122,11 @@ const hakikatimufisika = {
     blocks: [
       {
         type: "paragraph",
-        text: "Dengan memahami hakikat fisika, kita tidak hanya mengetahui hasil akhir suatu penemuan."
+        text: [
+          "Dengan memahami hakikat fisika, kita tidak hanya mengetahui hasil akhir suatu penemuan.",
+          "Kita juga memahami bagaimana pengetahuan tersebut diperoleh dan mengapa hasilnya dapat dipercaya."
+        ]
       },
-      {
-        type: "paragraph",
-        text: "Kita juga memahami bagaimana pengetahuan tersebut diperoleh dan mengapa hasilnya dapat dipercaya."
-      }
     ]
   },
   { heading:  "💡 Tahukah Kamu?", 
@@ -146,11 +138,10 @@ const hakikatimufisika = {
       },
       {
         type: "paragraph",
-        text: "Banyak teori fisika yang kita gunakan saat ini telah mengalami penyempurnaan selama ratusan tahun."
-      },
-      {
-        type: "paragraph",
-        text: "Hal ini menunjukkan bahwa ilmu pengetahuan selalu berkembang ketika ditemukan bukti-bukti baru."
+        text: [
+          "Banyak teori fisika yang kita gunakan saat ini telah mengalami penyempurnaan selama ratusan tahun.",
+          "Hal ini menunjukkan bahwa ilmu pengetahuan selalu berkembang ketika ditemukan bukti-bukti baru."
+        ]
       }
     ]
   },
@@ -163,16 +154,12 @@ const hakikatimufisika = {
       },
       {
         type: "paragraph",
-        text: "Fisika bukan kumpulan rumus yang harus dihafal."
+        text: [
+          "Fisika bukan kumpulan rumus yang harus dihafal.",
+          "Rumus hanyalah alat untuk menjelaskan hubungan antarbesaran.",
+          "Yang lebih penting adalah memahami konsep dan cara berpikir ilmiah di baliknya."
+        ]
       },
-      {
-        type: "paragraph",
-        text: "Rumus hanyalah alat untuk menjelaskan hubungan antarbesaran."
-      },
-      {
-        type: "paragraph",
-        text: "Yang lebih penting adalah memahami konsep dan cara berpikir ilmiah di baliknya."
-      }
     ]
   },
   { heading: "📊 Ringkasan Konsep", 
@@ -209,12 +196,11 @@ const hakikatimufisika = {
       },
       {
         type: "paragraph",
-        text: "Hakikat ilmu fisika terdiri atas tiga aspek yang saling berkaitan, yaitu fisika sebagai produk, proses, dan sikap ilmiah."
+        text: [
+          "Hakikat ilmu fisika terdiri atas tiga aspek yang saling berkaitan, yaitu fisika sebagai produk, proses, dan sikap ilmiah.",
+          "Ketiga aspek inilah yang membentuk cara kerja ilmu pengetahuan."
+        ]
       },
-      {
-        type: "paragraph",
-        text: "Ketiga aspek inilah yang membentuk cara kerja ilmu pengetahuan."
-      }
     ]
   },
   { heading: "🎯 Quick Check", 
@@ -311,35 +297,24 @@ const hakikatimufisika = {
     },
     {
       type: "paragraph",
-      text: "Kita sudah mengenal tiga pilar hakikat fisika."
-    },
-    {
-      type: "paragraph",
-      text: "Sekarang kita akan mempelajari pilar pertama."
-    },
-    {
-      type: "paragraph",
-      text: "➡️ Next, kita menuju portal: Fisika sebagai Produk."
+      text: [
+        "Kita sudah mengenal tiga pilar hakikat fisika.",
+        "Sekarang kita akan mempelajari pilar pertama.",
+        "➡️ Next, kita menuju portal: Fisika sebagai Produk."
+      ]
     }]
   },
   { heading: "Referensi:", 
     blocks: [
       {
         type: "paragraph",
-        text: "Halliday, Resnick & Walker. Fundamentals of Physics."
+        text: [
+          "Halliday, Resnick & Walker. Fundamentals of Physics.",
+          "Serway & Jewett. Physics for Scientists and Engineers.",
+          "Young & Freedman. University Physics with Modern Physics.",
+          "Kemendikbudristek RI. Buku Fisika SMA/MA."
+        ]
       },
-      {
-        type: "paragraph",
-        text: "Serway & Jewett. Physics for Scientists and Engineers."
-      },
-      {
-        type: "paragraph",
-        text: "Young & Freedman. University Physics with Modern Physics."
-      },
-      {
-        type: "paragraph",
-        text: "Kemendikbudristek RI. Buku Fisika SMA/MA."
-      }
     ]
   }]
 };

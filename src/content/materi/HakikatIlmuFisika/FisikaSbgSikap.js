@@ -3,7 +3,7 @@ import FisikaSgbSikapImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebaga
 import PengertianSikapIlmiahImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiSikap2.jpg";
 import diagramsikapImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiSikap3.jpg";
 import sikapilmuanImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiSikap4.jpg";
-import contohdlmkehidupanImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiSIkap5.jpg"
+import contohdlmkehidupanImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiSikap5.jpg"
 
 const fisikasbgsikap = {
   title: "Fisika sebagai Sikap Ilmiah",
