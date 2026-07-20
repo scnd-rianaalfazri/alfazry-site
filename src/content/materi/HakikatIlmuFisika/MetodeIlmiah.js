@@ -2,7 +2,7 @@ import { text } from "framer-motion/client";
 
 const metodeilmiah = {
   title: "Metode Ilmiah",
-  slug: "metode ilmiah",
+  slug: "metode-ilmiah",
   description: "Memahami pengertian, tujuan, dan tahapan umum metode ilmiah sebagai cara memperoleh pengetahuan yang dapat dipercaya.",
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
 

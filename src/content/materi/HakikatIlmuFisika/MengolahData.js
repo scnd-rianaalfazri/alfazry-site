@@ -2,7 +2,7 @@ import { text } from "framer-motion/client";
 
 const mengolahdata = {
   title: "Mengolah dan Menafsirkan Data",
-  slug: "mengolah dan menafsirkan data",
+  slug: "mengolah-dan-menafsirkan-data",
   description:
   "Memahami cara mengolah, menyajikan, dan menafsirkan data hasil eksperimen agar dapat digunakan untuk menarik kesimpulan yang tepat.",
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",

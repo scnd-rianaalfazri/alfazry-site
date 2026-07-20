@@ -370,53 +370,58 @@ const apaitufisika = {
           {
             question: "Apa yang dipelajari dalam ilmu fisika?",
             options: [
-            "Hanya benda yang bergerak",
-            "Hanya planet dan bintang",
-            "Sejarah perkembangan kehidupan di Bumi.",
-            "Materi, energi, gerak, gaya, ruang, waktu, dan interaksinya",
-            "Makhluk hidup dan ekosistem"],
+              "Hanya benda yang bergerak",
+              "Hanya planet dan bintang",
+              "Sejarah perkembangan kehidupan di Bumi.",
+              "Materi, energi, gerak, gaya, ruang, waktu, dan interaksinya",
+              "Makhluk hidup dan ekosistem"
+            ],
             answerIndex: 3
           },
           {
             question:
             "Peristiwa berikut yang merupakan contoh fenomena fisika adalah....",
             options: [
-            "Daun membuat makanan melalui fotosintesis",
-            "Batu jatuh ke tanah karena gravitasi",
-            "Bunga mekar pada musim tertentu",
-            "Besi yang bereaksi dengan air akan membentuk karat",
-            "Jamur berkembang biak"],
+              "Daun membuat makanan melalui fotosintesis",
+              "Batu jatuh ke tanah karena gravitasi",
+              "Bunga mekar pada musim tertentu",
+              "Besi yang bereaksi dengan air akan membentuk karat",
+              "Jamur berkembang biak"
+            ],
             answerIndex: 1
           },
           {
             question: "Mengapa fisika sering disebut sebagai ilmu dasar?",
             options: [
-            "Karena hanya dipelajari di sekolah.",
-            "Karena menjadi dasar bagi banyak cabang ilmu pengetahuan dan teknologi.",
-            "Karena merupakan ilmu yang paling mudah dipelajari.",
-            "DKarena hanya membahas hukum Newton.",
-            "Karena hanya digunakan oleh para fisikawan."],
+              "Karena hanya dipelajari di sekolah.",
+              "Karena menjadi dasar bagi banyak cabang ilmu pengetahuan dan teknologi.",
+              "Karena merupakan ilmu yang paling mudah dipelajari.",
+              "DKarena hanya membahas hukum Newton.",
+              "Karena hanya digunakan oleh para fisikawan."
+            ],
             answerIndex: 1
           },
           {
             question: "Manakah yang bukan termasuk cabang ilmu fisika?",
             options: [
-            "Mekanika",
-            "Termodinamika",
-            "Optika",
-            "Botani",
-            "Elektronika"],
+              "Mekanika",
+              "Termodinamika",
+              "Optika",
+              "Botani",
+              "Elektronika"
+            ],
             answerIndex: 3
           },
           {
             question:
             "Pernyataan yang paling tepat mengenai fisika adalah....",
             options: [
-            "Fisika hanya mempelajari benda yang bergerak.",
-            "Fisika hanya digunakan di laboratorium.",
-            "Fisika membantu menjelaskan berbagai fenomena alam melalui hukum-hukum alam.",
-            "Fisika hanya berguna bagi ilmuwan.",
-            "Fisika hanya mempelajari benda-benda yang dapat dilihat secara langsung."],
+              "Fisika hanya mempelajari benda yang bergerak.",
+              "Fisika hanya digunakan di laboratorium.",
+              "Fisika membantu menjelaskan berbagai fenomena alam melalui hukum-hukum alam.",
+              "Fisika hanya berguna bagi ilmuwan.",
+              "Fisika hanya mempelajari benda-benda yang dapat dilihat secara langsung."
+            ],
             answerIndex: 2
           }],
           scoring: [

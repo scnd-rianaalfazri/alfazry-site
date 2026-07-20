@@ -1,10 +1,8 @@
-import { text } from "framer-motion/client";
-
 const keselamatanlaboratorium = {
   title: "Keselamatan Kerja Laboratorium",
-  slug: "keselamatan kerja laboratorium",
+  slug: "keselamatan-kerja-laboratorium",
   description: "Memahami pentingnya keselamatan kerja, penggunaan alat pelindung diri, simbol bahaya, dan prosedur dasar saat melakukan praktikum.[cite: 1]",
-  chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah[cite: 1]",
+  chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
 
   content: [
     { blocks: [

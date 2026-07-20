@@ -1,12 +1,7 @@
-import { body, text } from "framer-motion/client";
-import { List } from "lucide-react";
-import { Children } from "react";
-
 const ruanglingkupfisika = {
   title: "Ruang Lingkup Fisika",
-  slug: "ruang lingkup fisika",
-  description:
-  "Memahami berbagai bidang kajian fisika dan bagaimana semuanya saling berhubungan dalam menjelaskan alam semesta.",
+  slug: "ruang-lingkup-fisika",
+  description: "Memahami berbagai bidang kajian fisika dan bagaimana semuanya saling berhubungan dalam menjelaskan alam semesta.",
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
 
   content: [

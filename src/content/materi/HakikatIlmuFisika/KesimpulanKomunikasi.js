@@ -1,8 +1,7 @@
 const kesimpulankomunikasi = {
   title: "Kesimpulan & Komunikasi Ilmiah",
-  slug: "kesimpulan komunikasi ilmiah",
-  description:
-  "Memahami cara menyusun kesimpulan berdasarkan data serta mengomunikasikan hasil penelitian secara ilmiah.",
+  slug: "kesimpulan-komunikasi-ilmiah",
+  description: "Memahami cara menyusun kesimpulan berdasarkan data serta mengomunikasikan hasil penelitian secara ilmiah.",
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
 
   content: [

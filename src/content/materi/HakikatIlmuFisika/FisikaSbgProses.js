@@ -349,10 +349,8 @@ const fisikasbgproses = {
           title: "Ulangi Petualangan",
           message: "Tenang, ulangi petualanganmu dari awal."
         }]
-
       }
     }]
-
   },
   {
     link: "/materi/fisika-sebagai-sikap",

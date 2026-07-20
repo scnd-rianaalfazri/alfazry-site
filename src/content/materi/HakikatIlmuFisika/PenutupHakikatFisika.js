@@ -1,43 +1,79 @@
 const penutuphakikatilmufisika = {
   title: "Penutup Chapter",
   slug: "penutup hakikat fisika",
-  description:
-  "Merefleksikan perjalanan mempelajari hakikat ilmu fisika dan metode ilmiah sebagai fondasi dalam memahami alam semesta.",
+  description: "Merefleksikan perjalanan mempelajari hakikat ilmu fisika dan metode ilmiah sebagai fondasi dalam memahami alam semesta.",
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
 
   content: [
   {
     blocks: [
-    { type: "paragraph", text: "Selamat!" },
-    {
-      type: "paragraph",
-      text: "Kamu telah menyelesaikan chapter pertama di AlfazrySite."
-    },
-    {
-      type: "paragraph",
-      text: "Perjalanan ini bukan hanya tentang mengenal fisika, tetapi juga belajar bagaimana manusia memperoleh pengetahuan melalui cara berpikir ilmiah."
-    }]
-
+      { type: "paragraph", 
+        text: [
+          "🎉 Selamat!",
+          "Kamu telah menyelesaikan chapter pertama di Fisika Alfazrian 🚀",
+          "Perjalanan ini bukan hanya tentang mengenal fisika, tetapi juga belajar bagaimana manusia memperoleh pengetahuan melalui cara berpikir ilmiah."
+        ] 
+      }
+    ]
   },
-  { heading:
-
-    "🗺️ Perjalanan yang Telah Kamu Tempuh", blocks: [{ type: "heading", text: "🗺️ Perjalanan yang Telah Kamu Tempuh" },
-    { type: "paragraph", text: "Pada chapter ini kamu telah mempelajari:" },
-    { type: "paragraph", text: "🌍 Mengapa Belajar Fisika" },
-    { type: "paragraph", text: "🔬 Apa Itu Fisika" },
-    { type: "paragraph", text: "🧩 Hakikat Ilmu Fisika" },
-    { type: "paragraph", text: "⚙️ Fisika sebagai Produk" },
-    { type: "paragraph", text: "🧪 Fisika sebagai Proses" },
-    { type: "paragraph", text: "🧠 Sikap Ilmiah" },
-    { type: "paragraph", text: "🌌 Ruang Lingkup Fisika" },
-    { type: "paragraph", text: "🔍 Metode Ilmiah" },
-    { type: "paragraph", text: "🧪 Merancang Eksperimen" },
-    { type: "paragraph", text: "📊 Mengolah Data" },
-    { type: "paragraph", text: "📢 Komunikasi Ilmiah" },
-    { type: "paragraph", text: "🥽 Keselamatan Laboratorium" },
-    { type: "paragraph", text: "🌍 Sains dalam Kehidupan" },
-    { type: "paragraph", text: "🚀 Mini Project" }]
-
+  { heading: "🗺️ Perjalanan yang Telah Kamu Tempuh", 
+    blocks: [
+      { type: "paragraph", 
+        text: [
+          "Pada chapter ini kamu telah mempelajari:"
+        ] 
+      },
+      {
+        type: "list",
+        list: {
+          type: "unordered",
+          items: [
+            {
+              text: "[🌍 Mengapa Belajar Fisika](/materi/mengapa-belajar-fisika)"
+            },
+            {
+              text: "[🔬 Apa Itu Fisika](/materi/apa-itu-fisika)"
+            },
+            {
+              text: "[🧩 Hakikat Ilmu Fisika](/materi/hakikat-ilmu-fisika)"
+            },
+            {
+              text: "[⚙️ Fisika sebagai Produk](/materi/fisika-sebagai-produk)"
+            },
+            {
+              text: "[🧪 Fisika sebagai Proses](/materi/fisika-sebagai-proses)"
+            },
+            {
+              text: "[🧠 Fisika sebagai Sikap](/materi/fisika-sebagai-sikap-ilmiah)"
+            },
+            {
+              text: "[🌌 Ruang Lingkup Fisika](/materi/ruang-lingkup-fisika)"
+            },
+            {
+              text: "[🔍 Metode Ilmiah](/materi/metode-ilmiah)"
+            },
+            {
+              text: "[🧪 Merancang Eksperimen](/materi/merancang-eksperimen)"
+            },
+            {
+              text: "[📊 Mengolah Data](/materi/mengolah-dan-menafsirkan-data)"
+            },
+            {
+              text: "[📢 Komunikasi Ilmiah](/materi/kesimpulan-komunikasi-ilmiah)"
+            },
+            {
+              text: "[🥽 Keselamatan Laboratorium](/materi/keselamatan-kerja-laboratorium)"
+            },
+            {
+              text: "[🌍 Sains dalam Kehidupan](/materi/sains-dalam-kehidupan)"
+            },
+            {
+              text: "[🚀 Mini Project](/materi/mini-project-hakikat-ilmu-fisika)"
+            }
+          ]
+        }
+      },
+    ]
   },
   { heading:
 
@@ -90,17 +126,6 @@ const penutuphakikatilmufisika = {
     {
       type: "paragraph",
       text: "Fisika adalah cara memahami alam, berpikir logis, menguji ide, dan mengambil keputusan berdasarkan bukti."
-    }]
-
-  },
-  { heading:
-
-    "🏅 Achievement Unlocked", blocks: [{ type: "heading", text: "🏅 Achievement Unlocked" },
-    { type: "paragraph", text: "🎖️ Young Scientist" },
-    { type: "paragraph", text: "Selamat!" },
-    {
-      type: "paragraph",
-      text: "Kamu telah menyelesaikan chapter pertama dan memahami dasar-dasar cara kerja sains."
     }]
 
   },

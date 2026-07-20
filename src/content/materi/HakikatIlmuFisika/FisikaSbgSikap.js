@@ -7,7 +7,7 @@ import contohdlmkehidupanImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSe
 
 const fisikasbgsikap = {
   title: "Fisika sebagai Sikap Ilmiah",
-  slug: "fisika sebagai sikap ilmiah",
+  slug: "fisika-sebagai-sikap-ilmiah",
   description:
   "Memahami sikap ilmiah yang perlu dimiliki dalam mempelajari fisika dan melakukan penyelidikan ilmiah.",
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
