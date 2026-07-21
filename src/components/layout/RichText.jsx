@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom"
+import { InlineMath } from "react-katex"
 
 // ============================================================
 // RichText — render teks dengan format bold/italic/underline/link
-// pakai sintaks ringan ala markdown, langsung di dalam string.
+// + rumus matematika inline, pakai sintaks ringan ala markdown,
+// langsung di dalam string.
 // ============================================================
 //
 // Sintaks yang didukung:
@@ -10,6 +12,7 @@ import { Link } from "react-router-dom"
 //   __teks garis bawah__ -> <u>
 //   *teks miring*        -> <em>
 //   [teks](url)          -> hyperlink (bisa diklik)
+//   $rumus$               -> rumus matematika inline (KaTeX)
 //
 // Link internal vs eksternal ditentukan otomatis dari urlnya:
 //   [Lihat materi Vektor](/materi/vektor)   -> internal, pakai
@@ -26,7 +29,9 @@ import { Link } from "react-router-dom"
 // Contoh:
 //   "Fisika itu **penting** banget, apalagi kalau *dipahami*
 //    bukan cuma __dihafal__. Baca juga [materi Vektor](/materi/vektor)
-//    atau [Wikipedia](https://wikipedia.org)."
+//    atau [Wikipedia](https://wikipedia.org). Kecepatan didefinisikan
+//    sebagai $v = \\frac{d}{t}$, jadi tidak perlu block equation
+//    terpisah kalau cuma menyisipkan simbol di tengah kalimat."
 //
 // Catatan:
 //   - Formatnya sengaja tidak mendukung nested (misal bold di
@@ -34,10 +39,29 @@ import { Link } from "react-router-dom"
 //     simpel & aman dari bug.
 //   - Kalau `text` bukan string (sudah berupa angka/null/elemen
 //     React lain), langsung ditampilkan apa adanya.
+//   - Untuk rumus yang berdiri sendiri sebagai satu baris penuh
+//     (display mode, lebih besar & di tengah), tetap pakai block
+//     { type: "equation" } + <MathEquation />. $...$ di sini khusus
+//     rumus pendek yang menyatu di tengah kalimat.
 // ============================================================
 
 const PATTERN =
-  /\[(.+?)\]\((.+?)\)|\*\*(.+?)\*\*|__(.+?)__|\*(.+?)\*/g
+  /\[(.+?)\]\((.+?)\)|\*\*(.+?)\*\*|__(.+?)__|\*(.+?)\*|\$(.+?)\$/g
+
+// Fallback saat sintaks rumus inline tidak valid — tampilkan
+// rumus mentahnya dengan gaya redup, konsisten dengan MathEquation.jsx.
+function renderInlineMathError(rawSource) {
+  return function () {
+    return (
+      <span
+        className="border-b border-dashed border-amber-400/50 text-amber-200/90 font-mono text-sm"
+        title="Rumus tidak dapat ditampilkan, periksa kembali sintaksnya"
+      >
+        {rawSource}
+      </span>
+    )
+  }
+}
 
 const isInternalLink = (url) => url.startsWith("/")
 
@@ -63,7 +87,7 @@ export default function RichText({ text }) {
       nodes.push(text.slice(lastIndex, match.index))
     }
 
-    const [, linkText, linkUrl, bold, underline, italic] = match
+    const [, linkText, linkUrl, bold, underline, italic, math] = match
 
     if (linkText !== undefined) {
       if (isInternalLink(linkUrl)) {
@@ -105,6 +129,14 @@ export default function RichText({ text }) {
         <em key={key++} className="italic text-violet-200">
           {italic}
         </em>
+      )
+    } else if (math !== undefined) {
+      nodes.push(
+        <InlineMath
+          key={key++}
+          math={math}
+          renderError={renderInlineMathError(match[0])}
+        />
       )
     }
 

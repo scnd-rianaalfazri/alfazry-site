@@ -211,6 +211,100 @@ const kesimpulankomunikasi = {
       }
     ]
   },
+  { heading: "🎯 Quick Check", 
+    blocks: [
+      {
+        type: "quickCheck",
+        data: {
+          questions: [
+          {
+            question: "Kesimpulan dalam sebuah penelitian adalah....",
+            options: [
+              "pendapat pribadi peneliti tentang hasil percobaan.",
+              "ringkasan semua teori yang dipelajari sebelum eksperimen.",
+              "jawaban terhadap rumusan masalah yang didasarkan pada hasil analisis data.",
+              "daftar alat dan bahan yang digunakan selama penelitian.",
+              "dugaan awal yang dibuat sebelum eksperimen dilakukan."
+            ],
+            answerIndex: 2
+          },
+          {
+            question: "Manakah yang merupakan ciri kesimpulan yang baik?",
+            options: [
+              "Disusun berdasarkan pendapat mayoritas.",
+              "Menyesuaikan hasil agar sesuai dengan hipotesis.",
+              "Berisi sebanyak mungkin teori pendukung.",
+              "Berdasarkan data, menjawab tujuan penelitian, dan tidak melebih-lebihkan hasil.",
+              "Ditulis sepanjang mungkin agar terlihat ilmiah."
+            ],
+            answerIndex: 3
+          },
+          {
+            question: "Mengapa hasil penelitian perlu dikomunikasikan kepada orang lain?",
+            options: [
+              "Agar peneliti mendapatkan nilai yang tinggi.",
+              "Agar hasil penelitian dapat dipelajari, diuji kembali, dan dikembangkan oleh peneliti lain.",
+              "Agar penelitian tidak perlu diulang lagi.",
+              "Agar semua orang langsung percaya pada hasil penelitian.",
+              "Agar eksperimen menjadi lebih mudah dilakukan."
+            ],
+            answerIndex: 1
+          },
+          {
+            question: "Berikut ini yang bukan merupakan bentuk komunikasi ilmiah adalah....",
+            options: [
+              "laporan praktikum.",
+              "presentasi.",
+              "kumpulan poster ilmiah.",
+              "artikel ilmiah.",
+              "cerita fiksi tanpa didukung data penelitian."
+            ],
+            answerIndex: 4
+          },
+          {
+            question: "Sebelum dipublikasikan di jurnal ilmiah, hasil penelitian biasanya melalui proses...",
+            options: [
+              "promosi ilmiah.",
+              "peer review oleh ilmuwan lain.",
+              "voting masyarakat umum.",
+              "penilaian berdasarkan jumlah pembaca.",
+              "persetujuan dari media sosial."
+              ],
+            answerIndex: 1
+          }],
+          scoring: [
+          {
+            min: 5,
+            max: 5,
+            emoji: "🏆",
+            title: "Mission Complete!",
+            message: "Kamu siap memasuki portal berikutnya."
+          },
+          {
+            min: 4,
+            max: 4,
+            emoji: "🚀",
+            title: "Hampir Sempurna",
+            message: "Pemahamanmu sudah sangat baik."
+          },
+          {
+            min: 2,
+            max: 3,
+            emoji: "🔄",
+            title: "Perlu Sedikit Lagi",
+            message: "Coba eksplorasi lagi bagian inti materi."
+          },
+          {
+            min: 0,
+            max: 1,
+            emoji: "📖",
+            title: "Ulangi Petualangan",
+            message: "Tenang, ulangi petualanganmu dari awal."
+          }]
+        }
+      }
+    ]
+  },
   {
     link: "/materi/keselamatan-kerja-laboratorium",
     blocks: [

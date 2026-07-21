@@ -273,10 +273,10 @@ export default function DetailMateri() {
 
   // ============================================================
   // Sistem BLOCKS — satu-satunya cara mengisi konten section.
-  // Penempatan image/paragraph/equation/explanation/table/list/
-  // quickCheck sepenuhnya bebas urutannya lewat array `blocks`,
-  // bahkan bisa diulang beberapa kali (misal: paragraf → gambar →
-  // paragraf lagi → tabel → paragraf lagi).
+  // Penempatan image/paragraph/equation/table/list/quickCheck
+  // sepenuhnya bebas urutannya lewat array `blocks`, bahkan bisa
+  // diulang beberapa kali (misal: paragraf → gambar → paragraf
+  // lagi → tabel → paragraf lagi).
   // ============================================================
   //
   //   {
@@ -289,13 +289,16 @@ export default function DetailMateri() {
   //       { type: "equation", equation: "F = ma" },
   //       { type: "table", table: { headers: [...], rows: [...] } },
   //       { type: "list", list: { type: "ordered", items: [...] } },
-  //       { type: "explanation", text: "Catatan tambahan." },
   //       { type: "quickCheck", data: { questions: [...] } },
   //     ],
   //   }
   //
   // Tipe block yang didukung: paragraph, image, heading, equation,
-  // table, list, explanation, quickCheck.
+  // table, list, quickCheck.
+  //
+  // CATATAN: type "explanation" sudah dihapus — dulu perilakunya
+  // identik dengan "paragraph", jadi sekarang cukup pakai
+  // { type: "paragraph", ... } untuk catatan/penjelasan tambahan.
   //
   // CATATAN: format lama (field langsung di section seperti `image:`,
   // `body:`, dst di luar `blocks`) SUDAH TIDAK DIDUKUNG. Semua materi
@@ -307,7 +310,6 @@ export default function DetailMateri() {
       (section.image ||
         section.body ||
         section.equation ||
-        section.explanation ||
         section.table ||
         section.list ||
         section.quickCheck)
@@ -393,13 +395,6 @@ export default function DetailMateri() {
         )
 
       case "paragraph":
-        return (
-          <div key={key} className="space-y-4">
-            {renderParagraphs(block.text, "text-white/70 leading-relaxed")}
-          </div>
-        )
-
-      case "explanation":
         return (
           <div key={key} className="space-y-4">
             {renderParagraphs(block.text, "text-white/70 leading-relaxed")}

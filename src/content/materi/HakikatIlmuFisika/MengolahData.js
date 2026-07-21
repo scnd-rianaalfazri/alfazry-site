@@ -3,8 +3,7 @@ import { text } from "framer-motion/client";
 const mengolahdata = {
   title: "Mengolah dan Menafsirkan Data",
   slug: "mengolah-dan-menafsirkan-data",
-  description:
-  "Memahami cara mengolah, menyajikan, dan menafsirkan data hasil eksperimen agar dapat digunakan untuk menarik kesimpulan yang tepat.",
+  description: "Memahami cara mengolah, menyajikan, dan menafsirkan data hasil eksperimen agar dapat digunakan untuk menarik kesimpulan yang tepat.",
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
 
   content: [
@@ -72,118 +71,108 @@ const mengolahdata = {
       }
     ]
   },
-  { heading:
-
-    "📋 Tabel", blocks: [{ type: "heading", text: "📋 Tabel" },
-    {
-      type: "paragraph",
-      text: "Tabel membantu menyusun data secara rapi sehingga mudah dibaca dan dibandingkan."
-    },
-    {
-      type: "paragraph",
-      text: "Pastikan setiap kolom memiliki judul dan satuan yang jelas."
-    }]
-
+  { heading: "📋 Tabel", 
+    blocks: [
+      {
+        type: "paragraph",
+        text: [
+          "Tabel adalah fondasi awal penyajian data. Dengan tabel, kamu menyimpan data observasi berdasarkan variabel bebas dan terikat secara tertata.",
+          "💡 Tips bikin tabel yang *proper*:\n1. Beri judul tabel yang jelas.\n2. Pastikan setiap kolom memiliki nama variabel beserta **satuan SI** yang dipakai (misal: Waktu ($t$) dalam sekon, Jarak ($s$) dalam meter).\n3. Tuliskan batas ketidakpastian alat ukur jika diperlukan."
+        ]
+      }
+    ]
   },
-  { heading:
-
-    "📈 Grafik", blocks: [{ type: "heading", text: "📈 Grafik" },
-    {
-      type: "paragraph",
-      text: "Grafik memudahkan kita melihat hubungan antarvariabel."
-    },
-    {
-      type: "paragraph",
-      text: "Misalnya hubungan antara waktu dan jarak, atau suhu dan volume."
-    }]
-
+  { heading: "📈 Grafik dan Hubungan Variabel", 
+    blocks: [
+      {
+        type: "paragraph",
+        text: [
+          "Grafik membuat data angkamu 'berbicara'. Dalam Fisika, grafik mempermudah kita melihat hubungan antarvariabel secara langsung:",
+          "• **Sumbu X (Horizontal):** Diisi oleh Variabel Bebas (yang kamu ubah-ubah, misal: masa beban, panjang tali).\n• **Sumbu Y (Vertikal):** Diisi oleh Variabel Terikat (yang diukur responsnya, misal: pertambahan panjang, periode ayunan).",
+          "Jenis hubungan yang sering muncul pada grafik:\n1. **Linear Berbanding Lurus:** Sumbu Y naik seiring bertambahnya Sumbu X.\n2. **Berbanding Terbalik:** Sumbu Y justru makin kecil saat Sumbu X makin besar.\n3. **Kuadratik/Eksponensial:** Grafik membentuk kurva melengkung secara signifikan."
+        ]
+      }
+    ]
   },
-  { heading:
-
-    "🔍 Menemukan Pola", blocks: [{ type: "heading", text: "🔍 Menemukan Pola" },
-    {
-      type: "paragraph",
-      text: "Setelah data disajikan, langkah berikutnya adalah mencari pola."
-    },
-    { type: "paragraph", text: "Contohnya:" },
-    { type: "paragraph", text: "• Apakah nilainya terus meningkat?" },
-    { type: "paragraph", text: "• Apakah nilainya menurun?" },
-    {
-      type: "paragraph",
-      text: "• Apakah perubahan berlangsung secara tetap?"
-    }]
-
+  { heading: "🔍 Menemukan Pola", 
+    blocks: [
+      {
+        type: "paragraph",
+        text: [
+          "Setelah data terpasang di grafik atau tabel, detektif fisika di dalam dirimu harus beraksi! Cari pola yang konsisten dari percobaanmu.",
+          "Coba tanyakan hal berikut pada datamu:\n• Apakah nilainya terus meningkat secara konstan?\n• Apakah ada fluktuasi naik-turun yang drastis?\n• Apakah ada *outlier* (data 'aneh' yang nilainya melenceng jauh dibanding data lainnya)?"
+        ]
+      }
+    ]
   },
-  { heading:
-
-    "📖 Menafsirkan Data", blocks: [{ type: "heading", text: "📖 Menafsirkan Data" },
-    {
-      type: "paragraph",
-      text: "Menafsirkan data berarti menjelaskan apa arti pola yang ditemukan."
-    },
-    {
-      type: "paragraph",
-      text: "Interpretasi harus berdasarkan data, bukan pendapat pribadi."
-    }]
-
+  { heading: "📖 Menafsirkan Data", 
+    blocks: [
+      {
+        type: "paragraph",
+        text: [
+          "Menafsirkan data berarti menjelaskan **makna di balik pola** tersebut. Apa alasannya grafikmu berbentuk konstan atau melengkung?",
+          "⚠️ **Aturan Emas:** Interpretasi harus MURNI berbasis data yang diperoleh, bukan asumsi, opini pribadi, atau sekadar tebak-tebakan!"
+        ]
+      }
+    ]
   },
-  { heading:
-
-    "🌍 Contoh Sederhana", blocks: [{ type: "heading", text: "🌍 Contoh Sederhana" },
-    {
-      type: "paragraph",
-      text: "Jika semakin panjang tali bandul menghasilkan periode ayunan yang semakin besar, maka data menunjukkan adanya hubungan antara panjang tali dan periode ayunan."
-    },
-    {
-      type: "paragraph",
-      text: "Kesimpulan tersebut harus didasarkan pada hasil pengamatan yang diperoleh."
-    }]
-
+  { heading: "🌍 Contoh Sederhana", 
+    blocks: [
+      {
+        type: "paragraph",
+        text: [
+          "Kamu menguji apakah panjang tali mempengaruhi periode ayunan ($T$). Data menunjukkan saat panjang tali ($l$) ditambah, periode ($T$) ikut membesar secara melengkung (non-linear).",
+          "• **Interpretasi:** Periode ayunan berbanding lurus dengan akar kuadrat panjang tali ($T \\propto \\sqrt{l}$).\n• **Kesimpulan:** Panjang tali terbukti mempengaruhi periode ayunan bandul secara signifikan."
+        ]
+      }
+    ]
   },
-  { heading:
-
-    "💡 Tahukah Kamu?", blocks: [{ type: "heading", text: "💡 Tahukah Kamu?" },
-    {
-      type: "paragraph",
-      text: "Ilmuwan sering menggunakan perangkat lunak komputer untuk menganalisis data dalam jumlah sangat besar, misalnya data cuaca, gempa bumi, atau hasil pengamatan teleskop."
-    }]
-
+  { heading: "💡 Tahukah Kamu?", 
+    blocks: [
+      {
+        type: "paragraph",
+        text: [
+          "Di zaman modern ini, ilmuwan Fisika tidak lagi menghitung ribuan data secara manual! Mereka menggunakan tools AI, pemrograman Python, atau software seperti MATLAB untuk menganalisis terabita data simulasi partikel di CERN hingga sinyal gelombang gravitasi dari luar angkasa."
+        ]
+      }
+    ]
   },
-  { heading:
-
-    "⚠️ Miskonsepsi", blocks: [{ type: "heading", text: "⚠️ Miskonsepsi" },
-    {
-      type: "paragraph",
-      text: "Grafik yang menarik belum tentu menunjukkan kesimpulan yang benar."
-    },
-    {
-      type: "paragraph",
-      text: "Yang terpenting adalah apakah grafik tersebut dibuat dari data yang valid dan diinterpretasikan dengan tepat."
-    }]
-
+  { heading: "⚠️ Miskonsepsi", 
+      blocks: [
+      {
+        type: "paragraph",
+        text: [
+          "❌ *'Grafik estetik dan bagus pasti bikin riset kita terbukti benar.'*\n\n✔️ **Fakta:** Grafik yang estetik tidak menjamin riset benar jika datanya tidak valid, alat ukurnya rusak, atau interpretasinya dipaksakan (bias) demi mencocok-cocokkan dengan teori!"
+        ]
+      }
+    ]
   },
-  { heading:
-
-    "📊 Ringkasan Konsep", blocks: [{ type: "heading", text: "📊 Ringkasan Konsep" },
-    { type: "paragraph", text: "Data Mentah" },
-    { type: "paragraph", text: "⬇️" },
-    { type: "paragraph", text: "Tabel / Grafik" },
-    { type: "paragraph", text: "⬇️" },
-    { type: "paragraph", text: "Mencari Pola" },
-    { type: "paragraph", text: "⬇️" },
-    { type: "paragraph", text: "Interpretasi" },
-    { type: "paragraph", text: "⬇️" },
-    { type: "paragraph", text: "Kesimpulan" }]
-
+  { heading: "📊 Ringkasan Konsep", 
+    blocks: [
+      { type: "paragraph", 
+        text: [
+          "Data Mentah",
+          "⬇️",
+          "Tabel / Grafik",
+          "⬇️",
+          "Mencari Pola",
+          "⬇️",
+          "Interpretasi",
+          "⬇️",
+          "Kesimpulan"
+        ]
+      }
+    ]
   },
-  { heading:
-
-    "✨ Inti Materi", blocks: [{ type: "heading", text: "✨ Inti Materi" },
-    {
-      type: "paragraph",
-      text: "Data hasil eksperimen perlu diolah dan dianalisis agar dapat digunakan untuk menjawab pertanyaan penelitian secara objektif."
-    }]
-
+  { heading: "✨ Inti Materi (Takeaway Message)", 
+    blocks: [
+      {
+        type: "paragraph",
+        text: [
+          "Data eksperimen adalah kunci utama Metode Ilmiah. Mengolah data dengan jujur, objektif, dan sistematis adalah satu-satunya cara untuk menemukan kebenaran ilmiah tanpa prasangka."
+        ]
+      }
+    ]
   },
   { heading:
 
@@ -195,67 +184,58 @@ const mengolahdata = {
         {
           question: "Mengapa data hasil eksperimen perlu diolah?",
           options: [
-          "Agar data terlihat lebih banyak.",
-          "Agar hasil eksperimen selalu sesuai dengan hipotesis.",
-          "Agar tidak perlu membuat laporan penelitian.",
-          "Agar data dapat diubah sesuai keinginan peneliti.",
-          "Agar lebih mudah menemukan pola dan menarik kesimpulan yang tepat."],
-
-
+            "Agar data terlihat lebih banyak.",
+            "Agar hasil eksperimen selalu sesuai dengan hipotesis.",
+            "Agar tidak perlu membuat laporan penelitian.",
+            "Agar data dapat diubah sesuai keinginan peneliti.",
+            "Agar lebih mudah menemukan pola dan menarik kesimpulan yang tepat."
+          ],
           answerIndex: 4
         },
         {
-          question:
-          "Manakah yang bukan merupakan cara menyajikan data hasil eksperimen?",
+          question: "Manakah yang bukan merupakan cara menyajikan data hasil eksperimen?",
           options: [
-          "Tabel.",
-          "Grafik.",
-          "Diagram.",
-          "Narasi.",
-          "Hipotesis."],
-
-
+            "Tabel.",
+            "Grafik.",
+            "Diagram.",
+            "Narasi.",
+            "Hipotesis."
+          ],
           answerIndex: 4
         },
         {
           question: "Fungsi utama grafik dalam penyajian data adalah....",
           options: [
-          "Menambah jumlah data hasil eksperimen.",
-          "Menggantikan proses pengamatan.",
-          "Memudahkan melihat hubungan antarvariabel dan kecenderungan data.",
-          "Membuktikan bahwa hipotesis selalu benar.",
-          "Menghilangkan kesalahan pengukuran."],
-
-
+            "Menambah jumlah data hasil eksperimen.",
+            "Menggantikan proses pengamatan.",
+            "Memudahkan melihat hubungan antarvariabel dan kecenderungan data.",
+            "Membuktikan bahwa hipotesis selalu benar.",
+            "Menghilangkan kesalahan pengukuran."
+          ],
           answerIndex: 2
         },
         {
           question: "Menafsirkan data berarti....",
           options: [
-          "Mengubah data agar sesuai dengan harapan.",
-          "Menjelaskan makna pola yang ditemukan berdasarkan data hasil eksperimen.",
-          "Menyalin semua data ke dalam tabel.",
-          "Menghapus data yang dianggap tidak sesuai.",
-          "Membuat grafik tanpa melakukan analisis."],
-
-
+            "Mengubah data agar sesuai dengan harapan.",
+            "Menjelaskan makna pola yang ditemukan berdasarkan data hasil eksperimen.",
+            "Menyalin semua data ke dalam tabel.",
+            "Menghapus data yang dianggap tidak sesuai.",
+            "Membuat grafik tanpa melakukan analisis."
+          ],
           answerIndex: 1
         },
         {
-          question:
-          "Pernyataan yang benar mengenai pengolahan data adalah....",
+          question: "Pernyataan yang benar mengenai pengolahan data adalah....",
           options: [
-          "Grafik yang menarik selalu menghasilkan kesimpulan yang benar.",
-          "Kesimpulan harus didasarkan pada pendapat peneliti.",
-          "Data yang valid perlu dianalisis secara objektif sebelum ditarik kesimpulan.",
-          "Data mentah tidak perlu disajikan dalam bentuk tabel atau grafik.",
-          "Semua hasil eksperimen pasti menunjukkan pola yang sama."],
-
-
+            "Grafik yang menarik selalu menghasilkan kesimpulan yang benar.",
+            "Kesimpulan harus didasarkan pada pendapat peneliti.",
+            "Data yang valid perlu dianalisis secara objektif sebelum ditarik kesimpulan.",
+            "Data mentah tidak perlu disajikan dalam bentuk tabel atau grafik.",
+            "Semua hasil eksperimen pasti menunjukkan pola yang sama."
+          ],
           answerIndex: 2
         }],
-
-
         scoring: [
         {
           min: 5,
@@ -288,39 +268,30 @@ const mengolahdata = {
 
       }
     }]
-
   },
-  {
-    link: "/materi/kesimpulan-dan-komunikasi-ilmiah",
+  { link: "/materi/kesimpulan-dan-komunikasi-ilmiah",
     blocks: [
-    {
-      type: "paragraph",
-      text: "Setelah data berhasil dianalisis, saatnya menyusun kesimpulan dan mengomunikasikan hasil penelitian."
-    },
-    {
-      type: "paragraph",
-      text: "➡️ Next, kita menuju portal: Kesimpulan & Komunikasi Ilmiah."
-    }]
-
+      {
+        type: "paragraph",
+        text: [
+          "Setelah data berhasil dianalisis, saatnya menyusun kesimpulan dan mengomunikasikan hasil penelitian.",
+          "➡️ Next, kita menuju portal: Kesimpulan & Komunikasi Ilmiah."
+        ]
+      }
+    ]
   },
-  { heading:
-
-    "Referensi:", blocks: [{ type: "heading", text: "Referensi:" },
-    {
-      type: "paragraph",
-      text: "Kemendikbudristek RI. Buku Fisika SMA/MA."
-    },
-    {
-      type: "paragraph",
-      text: "Halliday, Resnick & Walker. Fundamentals of Physics."
-    },
-    {
-      type: "paragraph",
-      text: "Serway & Jewett. Physics for Scientists and Engineers."
-    }]
-
+  { heading: "Referensi:", 
+    blocks: [
+      {
+        type: "paragraph",
+        text: [
+          "Kemendikbudristek RI. Buku Fisika SMA/MA.",
+          "Halliday, Resnick & Walker. Fundamentals of Physics.",
+          "Serway & Jewett. Physics for Scientists and Engineers."
+        ]
+      }
+    ]
   }]
-
 };
 
 export default mengolahdata;

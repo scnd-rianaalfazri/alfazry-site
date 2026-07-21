@@ -280,35 +280,35 @@ const mengapabelajarfisika = {
           type: "unordered",
           items: [
             {
-              text: "🔬 Apa itu Fisika?",
+              text: "🔬 [Apa Itu Fisika](/materi/apa-itu-fisika)",
               description: "Gerbang awal mengenal objek sains"
             },
             {
-              text: "🧩 Hakikat Ilmu Fisika",
+              text: "🧩 [Hakikat Ilmu Fisika](/materi/hakikat-ilmu-fisika)",
               description: "Memahami 3 pilar utama fisika"
             },
             {
-              text: "🌌 Ruang Lingkup Fisika",
+              text: "🌌 [Ruang Lingkup Fisika](/materi/ruang-lingkup-fisika)",
               description: "Menjelajahi skala klasik hingga modern"
             },
             {
-              text: "⚙️ Fisika sebagai Produk",
+              text: "⚙️ [Fisika sebagai Produk](/materi/fisika-sebagai-produk)",
               description: "Kumpulan hasil pengetahuan ilmiah"
             },
             {
-              text: "🧪 Fisika sebagai Proses",
+              text: "🧪 [Fisika sebagai Proses](/materi/fisika-sebagai-proses)",
               description: "Bagaimana cara ilmuwan bekerja?"
             },
             {
-              text: "🧠 Fisika sebagai Sikap",
+              text: "🧠 [Fisika sebagai Sikap](/materi/fisika-sebagai-sikap-ilmiah)p",
               description: "Karakter ilmiah yang wajib dimiliki"
             },
             {
-              text: "🔍 Metode Ilmiah",
+              text: "🔍 [Metode Ilmiah](/materi/metode-ilmiah)",
               description: "Langkah-langkah sistematis penelitian"
             },
             {
-              text: "🥽 Keselamatan Laboratorium",
+              text: "🥽 [Keselamatan Laboratorium](/materi/keselamatan-kerja-laboratorium)",
               description: "Aturan main aman saat bereksperimen"
             }
           ]
@@ -342,55 +342,60 @@ const mengapabelajarfisika = {
           {
             question: "Mengapa manusia mempelajari fisika?",
             options: [
-            "Untuk menghafal sebanyak mungkin rumus",
-            "Agar dapat menyelesaikan soal hitungan dengan cepat.",
-            "Agar dapat menghitung lebih cepat daripada komputer",
-            "Supaya bisa membuat semua teknologi sendiri",
-            "Untuk memahami bagaimana alam bekerja melalui pengamatan dan penalaran ilmiah"],
+              "Untuk menghafal sebanyak mungkin rumus",
+              "Agar dapat menyelesaikan soal hitungan dengan cepat.",
+              "Agar dapat menghitung lebih cepat daripada komputer",
+              "Supaya bisa membuat semua teknologi sendiri",
+              "Untuk memahami bagaimana alam bekerja melalui pengamatan dan penalaran ilmiah"
+            ],
             answerIndex: 4
           },
           {
             question:
             "Manakah kegiatan berikut yang merupakan contoh penerapan fisika dalam kehidupan sehari-hari?",
             options: [
-            "Menggunakan GPS saat bepergian",
-            "Menonton film kartun",
-            "Menghafal nama-nama negara",
-            "Menulis cerita fiksi.",
-            "Menggambar pemandangan"],
+              "Menggunakan GPS saat bepergian",
+              "Menonton film kartun",
+              "Menghafal nama-nama negara",
+              "Menulis cerita fiksi.",
+              "Menggambar pemandangan"
+            ],
             answerIndex: 0
           },
           {
             question:
             "Pernyataan yang paling tepat tentang fisika adalah....",
             options: [
-            "Ilmu yang hanya dipelajari di laboratorium.",
-            "Ilmu yang mempelajari gejala alam dan hukum-hukum yang mengaturnya.",
-            "Ilmu yang hanya membahas perhitungan matematika.",
-            "Ilmu yang hanya digunakan oleh ilmuwan.",
-            "Ilmu yang mempelajari makhluk hidup dan lingkungannya."],
+              "Ilmu yang hanya dipelajari di laboratorium.",
+              "Ilmu yang mempelajari gejala alam dan hukum-hukum yang mengaturnya.",
+              "Ilmu yang hanya membahas perhitungan matematika.",
+              "Ilmu yang hanya digunakan oleh ilmuwan.",
+              "Ilmu yang mempelajari makhluk hidup dan lingkungannya."
+            ],
             answerIndex: 1
           },
           {
             question:
             "Manakah kemampuan berikut yang dilatih ketika belajar fisika?",
             options: [
-            "Berpikir logis dan memecahkan masalah",
-            "Menghafal tanpa memahami konsep",
-            "Menebak jawaban tanpa alasan",
-            "Mengingat semua rumus tanpa latihan",
-            "Mengandalkan intuisi tanpa melakukan pengamatan."],
+              "Berpikir logis dan memecahkan masalah",
+              "Menghafal tanpa memahami konsep",
+              "Menebak jawaban tanpa alasan",
+              "Mengingat semua rumus tanpa latihan",
+              "Mengandalkan intuisi tanpa melakukan pengamatan."
+            ],
             answerIndex: 0
           },
           {
             question:
             "Banyak orang menganggap fisika sulit karena penuh rumus. Menurut materi ini, pernyataan yang benar adalah....",
             options: [
-            "Rumus adalah tujuan utama belajar fisika.",
-            "Rumus hanyalah alat untuk memahami alam.",
-            "Fisika hanya digunakan di sekolah.",
-            "Semua fenomena alam tidak dapat dijelaskan dengan fisika.",
-            "Belajar fisika cukup dengan menghafal semua persamaan."],
+              "Rumus adalah tujuan utama belajar fisika.",
+              "Rumus hanyalah alat untuk memahami alam.",
+              "Fisika hanya digunakan di sekolah.",
+              "Semua fenomena alam tidak dapat dijelaskan dengan fisika.",
+              "Belajar fisika cukup dengan menghafal semua persamaan."
+            ],
             answerIndex: 1
           }],
           scoring: [
