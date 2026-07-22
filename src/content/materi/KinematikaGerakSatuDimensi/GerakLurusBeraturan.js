@@ -1,160 +1,246 @@
+import { text } from "framer-motion/client";
+
 const geraklurusberaturan = {
   title: "Gerak Lurus Beraturan",
-  slug: "gerak lurus beraturan",
-  description:
-  "Memahami konsep gerak lurus beraturan, ciri-ciri, persamaan, dan grafik hubungan posisi, kecepatan, dan waktu.",
+  slug: "gerak-lurus-beraturan",
+  description: "Memahami konsep gerak lurus beraturan (GLB), ciri-ciri utama, persamaan matematika, analisis grafik v-t & s-t, serta penerapannya.",
   chapter: "↔️↕️ Kinematika: Gerak Satu Dimensi",
+
   content: [
-  { heading:
-
-    "🚗 Gerak dengan Kecepatan Tetap", blocks: [{ type: "heading", text: "🚗 Gerak dengan Kecepatan Tetap" },
     {
-      type: "paragraph",
-      text: "Tidak semua gerakan mengalami perubahan kecepatan."
+      heading: "🚗 Gerak dengan Kecepatan Tetap",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Tidak semua benda yang bergerak mengalami perubahan kecepatan (akselerasi/pengereman).",
+            "Bayangkan kamu naik mobil di jalan tol lurus yang sepi dengan mengaktifkan fitur *cruise control* pada $80\\text{ km/jam}$. Jarum speedometer akan terus berada di angka yang sama!",
+            "Dalam fisika, gerak lintasan lurus dengan kecepatan yang konstan ini disebut **Gerak Lurus Beraturan (GLB)**."
+          ]
+        },
+      ]
+    },
+
+    {
+      heading: "📍 Apa Itu GLB?",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Gerak Lurus Beraturan (GLB) adalah gerak suatu benda pada lintasan lurus dengan kecepatan yang selalu konstan (tetap) dari waktu ke waktu.",
+            "Konsekuensinya, benda menempuh jarak yang sama untuk setiap selang waktu yang sama."
+          ]
+        }
+      ]
+    },
+
+    {
+      heading: "✨ Ciri-Ciri Utama GLB",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Sebuah gerakan dikategorikan sebagai GLB jika memenuhi syarat-syarat berikut:"
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "**Lintasan lurus**",
+                description: "Arah gerak tidak berubah-ubah."
+              },
+              {
+                text: "**Kecepatan konstan $(v = tetap/konstan)$**",
+                description: "Besarnya kecepatan maupun arahnya tidak bertambah atau berkurang."
+              },
+              {
+                text: "**Percepatan nol $(a = 0)$**",
+                description: "Karena kecepatannya tidak berubah, maka tidak ada percepatan sama sekali."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Ada jenis gerak di mana benda bergerak lurus dengan kecepatan yang tetap."
+      heading: "📐 Formulasi Matematika (Rumus GLB)",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Hubungan antara posisi/jarak, kecepatan, dan waktu pada GLB dirumuskan secara sederhana:",
+            "$s = v \\times t$",
+            "Atau jika memperhitungkan posisi awal ($s_0$):",
+            "$s(t) = s_0 + (v \\times t)$",
+            "Keterangan:"
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "$s$ = Posisi / Jarak tempuh (m)"
+              },
+              {
+                text: "$s_0$ = Posisi awal (m)"
+              },
+              {
+                text: "$v$ = Kecepatan (m/s)"
+              },
+              {
+                text: "$t$ = Waktu (s)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      heading: "📊 Analisis Grafik GLB",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "GLB memiliki dua bentuk grafik dasar yang sering keluar di soal-soal fisika:"
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "**Grafik Kecepatan terhadap Waktu ($v - t$)**",
+                description: [
+                  "Berupa garis lurus horizontal mendatar.",
+                  "Luas daerah di bawah grafik $v - t$ merepresentasikan **jarak tempuh ($s$)**."
+                ]
+              },
+              {
+                text: "**Grafik Posisi terhadap Waktu ($s - t$)**",
+                description: [
+                  "Berupa garis miring miring ke atas linear.",
+                  "Kemiringan (gradien) garis menunjukkan nilai **kecepatan ($v$)**.",
+                ]
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Gerak tersebut disebut Gerak Lurus Beraturan (GLB)."
-    }]
-
-  },
-  { heading:
-
-    "📍 Apa Itu GLB?", blocks: [{ type: "heading", text: "📍 Apa Itu GLB?" },
-    {
-      type: "paragraph",
-      text: "Gerak Lurus Beraturan adalah gerak suatu benda pada lintasan lurus dengan kecepatan tetap."
-    },
-    { type: "paragraph", text: "Artinya:" },
-    {
-      type: "paragraph",
-      text: "Benda menempuh jarak yang sama dalam selang waktu yang sama."
-    }]
-
-  },
-  { heading:
-
-    "✨ Ciri-Ciri GLB", blocks: [{ type: "heading", text: "✨ Ciri-Ciri GLB" },
-    { type: "paragraph", text: "Beberapa ciri GLB:" },
-    { type: "paragraph", text: "➡️ Lintasan berbentuk garis lurus" },
-    { type: "paragraph", text: "➡️ Kecepatan tetap" },
-    { type: "paragraph", text: "➡️ Percepatan bernilai nol" },
-    { type: "paragraph", text: "➡️ Jarak bertambah secara teratur" }]
-
-  },
-  { heading:
-
-    "🚶 Contoh GLB", blocks: [{ type: "heading", text: "🚶 Contoh GLB" },
-    { type: "paragraph", text: "Contoh sederhana:" },
-    {
-      type: "paragraph",
-      text: "Sebuah mobil bergerak lurus dengan kecepatan 40 km/jam tanpa perubahan kecepatan."
+      heading: "✍️ Contoh Soal & Pembahasan",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "**Soal:**",
+            "Sebuah kereta cepat bergerak lurus dengan kecepatan konstan $72\\text{ km/jam}$. Hitunglah jarak yang ditempuh kereta tersebut dalam waktu $10\\text{ detik}$!",
+            "**Pembahasan & Konversi Satuan:**"
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "Kecepatan ($v$) = $72\\text{ km/jam} = \\frac{72.000\\text{ m}}{3.600\\text{ s}} = 20\\text{ m/s}$"
+              },
+              {
+                text: "Waktu ($t$) = $10\\text{ s}$"
+              }
+            ]
+          }
+        },
+        {
+          type: "paragraph",
+          text: [
+            "**Jawab:**",
+            "$s = v \\times t = 20\\text{ m/s} \\times 10\\text{ s} = 200\\text{ meter}$",     
+            "**Kesimpulan:**",
+            "Dalam waktu $10\\text{ detik}$, kereta telah menempuh jarak sejauh $200\\text{ meter}$."
+          ] 
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Setiap waktu tertentu, mobil menempuh jarak yang sama."
-    }]
+      heading: "⚠️ Miskonsepsi Populer",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "*'Benda yang kecepatannya besar pasti memiliki percepatan yang besar juga.'*❌",
+            "Namun faktanya, Pada GLB mau seberapa pun besarnya kecepatan suatu benda (misalnya $1.000\\text{ km/jam}$), jika nilainya tetap konstan, maka percepatannya adalah **NOL** ($a = 0$). ✔️"
+          ]
+        }
+      ]
+    },
 
-  },
-  { heading:
-
-    "⏱️ Hubungan Jarak dan Waktu", blocks: [{ type: "heading", text: "⏱️ Hubungan Jarak dan Waktu" },
     {
-      type: "paragraph",
-      text: "Pada GLB, semakin lama waktu bergerak, semakin besar jarak yang ditempuh."
+      heading: "🌟 Contoh Nyata GLB di Dunia Nyata",
+      blocks: [
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "🚆 Kereta maglev saat melaju stabil di lintasan lurus lurus."
+              },
+              {
+                text: "🏭 Barang yang berjalan di atas sistem pita konveyor (*conveyor belt*) pabrik."
+              },
+              {
+                text: "🚀 Pesawat luar angkasa di ruang hampa udara saat mesinnya dimatikan (mempertahankan kecepatan konstan sesuai Hukum I Newton)."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Karena kecepatannya tetap, hubungan jarak dan waktu bersifat teratur."
-    }]
-
-  },
-  { heading:
-
-    "📐 Persamaan GLB", blocks: [{ type: "heading", text: "📐 Persamaan GLB" },
-    {
-      type: "paragraph",
-      text: "Dalam GLB, posisi benda dapat ditentukan berdasarkan posisi awal, kecepatan, dan waktu."
+      heading: "✨  Inti Materi *(Takeaway Message)*",
+      blocks: [
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "GLB adalah gerak lintasan lurus dengan kecepatan konstan."
+              },
+              {
+                text: "Pada GLB, percepatan selalu bernilai nol ($a = 0$)"
+              },
+              {
+                text: "Persamaan utama GLB: $s = v \\times t$."
+              }
+            ]
+          }
+        }
+      ]
     },
-    { type: "paragraph", text: "Konsep utamanya:" },
+
     {
-      type: "paragraph",
-      text: "Posisi akhir = posisi awal + perubahan posisi"
-    }]
-
-  },
-  { heading:
-
-    "📈 Grafik pada GLB", blocks: [{ type: "heading", text: "📈 Grafik pada GLB" },
-    { type: "paragraph", text: "GLB dapat digambarkan melalui grafik:" },
-    { type: "paragraph", text: "Grafik posisi terhadap waktu:" },
-    { type: "paragraph", text: "berbentuk garis lurus miring." },
-    { type: "paragraph", text: "Grafik kecepatan terhadap waktu:" },
-    {
-      type: "paragraph",
-      text: "berbentuk garis horizontal karena kecepatannya tetap."
-    }]
-
-  },
-  { heading:
-
-    "🛣️ Contoh dalam Kehidupan", blocks: [{ type: "heading", text: "🛣️ Contoh dalam Kehidupan" },
-    { type: "paragraph", text: "Beberapa contoh yang mendekati GLB:" },
-    {
-      type: "paragraph",
-      text: "🚆 Kereta bergerak lurus dengan kecepatan konstan"
-    },
-    {
-      type: "paragraph",
-      text: "🚗 Kendaraan dengan kecepatan tetap di jalan lurus"
-    },
-    { type: "paragraph", text: "🏭 Sistem konveyor bergerak stabil" }]
-
-  },
-  { heading:
-
-    "🧠 Perbedaan GLB dan Gerak Biasa", blocks: [{ type: "heading", text: "🧠 Perbedaan GLB dan Gerak Biasa" },
-    {
-      type: "paragraph",
-      text: "Pada gerak biasa, kecepatan bisa berubah."
-    },
-    { type: "paragraph", text: "Pada GLB:" },
-    { type: "paragraph", text: "Kecepatan selalu tetap." },
-    { type: "paragraph", text: "Percepatan = 0." },
-    { type: "paragraph", text: "Sehingga gerak lebih mudah diprediksi." }]
-
-  },
-  { heading:
-
-    "✨ Inti Materi", blocks: [{ type: "heading", text: "✨ Inti Materi" },
-    {
-      type: "paragraph",
-      text: "GLB adalah gerak lurus dengan kecepatan konstan."
-    },
-    {
-      type: "paragraph",
-      text: "Karena tidak ada perubahan kecepatan, maka percepatan benda bernilai nol."
-    }]
-
-  },
-  { heading:
-
-    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
-    {
-      type: "paragraph",
-      text: "Bagaimana jika sebuah benda bergerak lurus tetapi kecepatannya berubah?"
-    },
-    {
-      type: "paragraph",
-      text: "➡️ Selanjutnya: Gerak Lurus Berubah Beraturan (GLBB)."
-    }]
-
-  }]
-
+      heading: "🚀 Next Mission",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Bagaimana jika suatu benda bergerak lurus tetapi kecepatannya berubah secara teratur karena ada percepatan tetap?",
+            "➡️ Next, menuju portal: **[Gerak Lurus Berubah Beraturan (GLBB).](/materi/gerak-lurus-berubah-beraturan)**"
+          ]
+        }
+      ]
+    }
+  ]
 };
 
 export default geraklurusberaturan;

@@ -1,4 +1,3 @@
-import { caption, image, text } from "framer-motion/client";
 import herohakikatilmufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika1.jpg";
 import pertanyaanfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika2.jpg";
 import pengertianfisika from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika3.jpg";
@@ -9,6 +8,7 @@ import tahukahkamuImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika7.
 import intimaterimengapabelajarfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika8.png";
 import miskonsepsimengapafisika from "/src/assets/Materi/HakikatIlmuFisika/Mengapafisika9.jpg";
 import nextmissionapaitufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika10.jpg";
+import { link } from "framer-motion/client";
 
 const mengapabelajarfisika = {
   title: "Mengapa Belajar Fisika?",
@@ -172,7 +172,7 @@ const mengapabelajarfisika = {
     ]
   },
   { heading:
-    "🌟 Fisika Mengubah Dunia (The Tech Trigger)", 
+    "🌟 Fisika Mengubah Dunia *(The Tech Trigger)*", 
     blocks: [
       {
         type: "image",
@@ -212,7 +212,7 @@ const mengapabelajarfisika = {
             "Mengubah cahaya matahari jadi listrik lewat efek fotolistrik."
           },
           {
-            text: "🏥 Mesin MRI",
+            text: "🏥 Mesin MRI *(Magnetic Resonance Imaging)*",
             description:
             "Memindai bagian dalam tubuh di rumah sakit memanfaatkan medan magnetik dan fisika inti."
           }]
@@ -235,11 +235,11 @@ const mengapabelajarfisika = {
       },
       {
         type: "paragraph",
-        text: "Saat membuka Google Maps, mengambil foto dengan kamera ponsel, atau menghubungkan perangkat melalui Bluetooth, kamu sedang menikmati hasil perkembangan ilmu fisika."
+        text: "Saat membuka Google Maps, mengambil foto dengan kamera ponsel, atau menghubungkan perangkat melalui *bluetooth*, kamu sedang menikmati hasil perkembangan ilmu fisika."
       }
     ]
   },
-  { heading: "⚠️ Miskonsepsi", 
+  { heading: "⚠️ Miskonsepsi Populer", 
     blocks: [
       {
         type: "image",
@@ -248,23 +248,12 @@ const mengapabelajarfisika = {
       },
       {
         type: "paragraph",
-        text: "'Fisika itu kan cuma ilmu menyeramkan yang isinya kumpulan rumus ribet dan bikin pusing?' ❌."
-      },
-      { type: "paragraph", 
-        text: "Gak, gitu!" 
-      },
-      { type: "paragraph", 
-        text: "Mari kita ubah mindset" 
-      },
-      { type: "paragraph", 
-        text: "Rumus dalam fisika itu bukanlah tujuan utama, melainkan hanyalah sebuah alat bantu atau bahasa universal untuk menyederhanakan cara alam bekerja agar bisa dihitung oleh manusia." 
-      },
-      { type: "paragraph", 
-        text: "Padahal rumus hanyalah alat." 
-      },
-      {
-        type: "paragraph",
-        text: "Inti dari fisika adalah cerita di balik rumus tersebut, yaitu memahami polah tingkah alam semesta.."
+        text: [
+          "*'Fisika itu kan cuma ilmu menyeramkan yang isinya kumpulan rumus ribet dan bikin pusing?'* ❌.",
+          "Gak, gitu!",
+          "Rumus dalam fisika itu bukanlah tujuan utama, melainkan hanyalah sebuah alat bantu atau bahasa universal untuk menyederhanakan cara alam bekerja agar bisa dihitung oleh manusia. Padahal rumus hanyalah alat. ✔️",
+          "Inti dari fisika adalah cerita di balik rumus tersebut, yaitu memahami polah tingkah alam semesta.."
+        ]
       }
     ]
   },
@@ -316,7 +305,7 @@ const mengapabelajarfisika = {
       }
     ]
   },
-  { heading: "✨ Inti Materi (Takeaway Message)", 
+  { heading: "✨ Inti Materi *(Takeaway Message)*", 
     blocks: [
       {
         type: "image",
@@ -325,13 +314,12 @@ const mengapabelajarfisika = {
       },
       {
         type: "paragraph",
-        text: "Fisika adalah ilmu yang membantu manusia memahami alam melalui pengamatan, eksperimen, dan penalaran ilmiah yang valid."
-      },
-      {
-        type: "paragraph",
-        text: "Belajar fisika berarti belajar memahami dunia dan lingkungan yang ada di sekitar kita."
-      }]
-
+        text: [
+          "Fisika adalah ilmu yang membantu manusia memahami alam melalui pengamatan, eksperimen, dan penalaran ilmiah yang valid.",
+          "Belajar fisika berarti belajar memahami dunia dan lingkungan yang ada di sekitar kita."
+        ]
+      }
+    ]
   },
   { heading: "🎯 Quick Check", 
     blocks: [
@@ -431,8 +419,7 @@ const mengapabelajarfisika = {
       }
     ]
   },
-  {
-    link: "/materi/apa-itu-fisika",
+  { link: "/materi/apa-itu-fisika",
     blocks: [
     {
       type: "image",
@@ -445,7 +432,7 @@ const mengapabelajarfisika = {
         "Sekarang kita udah tau kan? Secara tidak sadar fisika juga ada disekitar kita.",
         "Lalu sebenarnya...",
         "Apa yang dipelajari dalam fisika?",
-        "➡️ Next, kita menuju portal: Apa Itu Fisika?"
+        "➡️ Next, kita menuju portal: [Apa Itu Fisika?](/materi/apa-itu-fisika)"
       ]
     }]
   },

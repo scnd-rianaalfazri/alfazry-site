@@ -1,6 +1,6 @@
 const pengantargerak = {
   title: "Pengantar Gerak",
-  slug: "pengantar gerak",
+  slug: "pengantar-gerak",
   description:  "Mengenal konsep dasar gerak, titik acuan, serta pentingnya mempelajari gerak dalam kehidupan sehari-hari.",
 
   chapter: "↔️↕️ Kinematika: Gerak Satu Dimensi",
@@ -209,7 +209,7 @@ const pengantargerak = {
             "Sekarang kita udah paham, kan? Kalau gerak itu intinya tentang perubahan posisi yang relatif. ",
             "Sekarang pertanyaannya, begini! Gimana cara kita mengukur seberapa jauh perubahan posisi itu secara akurat?",
             "Terus, apakah jarak tempuh lo sama dengan perpindahan lo? Jangan sampai ketuker, ya!",
-            "➡️ Next, kita menuju portal: Jarak dan Perpindahan."
+            "➡️ Next, kita menuju portal: [Jarak dan Perpindahan.](/materi/jarak-dan-perpindahan)"
           ]
         }
       ]

@@ -214,7 +214,7 @@ const metodeilmiah = {
       }
     ]
   },
-  { heading: "✨ Inti Materi", 
+  { heading: "✨ Inti Materi *(Takeaway Message)*", 
     blocks: [
       {
         type: "paragraph",
