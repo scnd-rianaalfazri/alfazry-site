@@ -177,7 +177,8 @@ const geraklurusberaturan = {
           type: "paragraph",
           text: [
             "*'Benda yang kecepatannya besar pasti memiliki percepatan yang besar juga.'*❌",
-            "Namun faktanya, Pada GLB mau seberapa pun besarnya kecepatan suatu benda (misalnya $1.000\\text{ km/jam}$), jika nilainya tetap konstan, maka percepatannya adalah **NOL** ($a = 0$). ✔️"
+            "Gak, gitu!",
+            "Faktanya, pada GLB mau seberapa pun besarnya kecepatan suatu benda (misalnya $1.000\\text{ km/jam}$), jika nilainya tetap konstan, maka percepatannya adalah **NOL** ($a = 0$). ✔️"
           ]
         }
       ]
@@ -206,7 +207,7 @@ const geraklurusberaturan = {
       ]
     },
     {
-      heading: "✨  Inti Materi *(Takeaway Message)*",
+      heading: "✨ Inti Materi *(Takeaway Message)*",
       blocks: [
         {
           type: "list",
@@ -227,7 +228,100 @@ const geraklurusberaturan = {
         }
       ]
     },
-
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+            {
+              question: "Sebuah benda dikatakan mengalami Gerak Lurus Beraturan (GLB) apabila....",
+              options: [
+                "bergerak lurus dengan kecepatan yang selalu konstan.",
+                "bergerak pada lintasan melingkar dengan kelajuan tetap.",
+                "bergerak lurus dengan percepatan yang selalu bertambah.",
+                "bergerak dengan kecepatan yang berubah-ubah setiap saat.",
+                "bergerak bolak-balik pada lintasan yang sama."
+              ],
+              answerIndex: 0
+            },
+            {
+              question: "Manakah yang merupakan ciri utama GLB?",
+              options: [
+                "kecepatan berubah secara teratur.",
+                "percepatan bernilai positif.",
+                "percepatan bernilai nol karena kecepatan tetap.",
+                "jarak tempuh selalu lebih kecil dari perpindahan.",
+                "arah gerak selalu berubah."
+              ],
+              answerIndex: 2
+            },
+            {
+              question: "Sebuah kereta bergerak dengan kecepatan tetap 20 m/s selama 10 sekon. Jarak yang ditempuh kereta adalah....",
+              options: [
+                "20 meter.",
+                "100 meter.",
+                "200 meter.",
+                "300 meter.",
+                "400 meter."
+              ],
+              answerIndex: 2
+            },
+            {
+              question: "Bentuk grafik kecepatan terhadap waktu (v–t) pada Gerak Lurus Beraturan adalah....",
+              options: [
+                "garis lurus menurun.",
+                "kurva parabola.",
+                "garis lurus horizontal.",
+                "garis zig-zag.",
+                "kurva melengkung ke atas."
+              ],
+              answerIndex: 2
+            },
+            {
+              question: "Pernyataan yang benar mengenai grafik posisi terhadap waktu (s–t) pada GLB adalah....",
+              options: [
+                "garis horizontal menunjukkan kecepatan konstan.",
+                "luas di bawah grafik menunjukkan percepatan.",
+                "grafik selalu berbentuk parabola.",
+                "grafik hanya dapat digunakan untuk benda yang diam.",
+                "grafik berbentuk garis lurus, dan kemiringan (gradien) garis menunjukkan besar kecepatan.",
+                ],
+              answerIndex: 3
+            }],
+            scoring: [
+            {
+              min: 5,
+              max: 5,
+              emoji: "🏆",
+              title: "Mission Complete!",
+              message: "Kamu siap memasuki portal berikutnya."
+            },
+            {
+              min: 4,
+              max: 4,
+              emoji: "🚀",
+              title: "Hampir Sempurna",
+              message: "Pemahamanmu sudah sangat baik."
+            },
+            {
+              min: 2,
+              max: 3,
+              emoji: "🔄",
+              title: "Perlu Sedikit Lagi",
+              message: "Coba eksplorasi lagi bagian inti materi."
+            },
+            {
+              min: 0,
+              max: 1,
+              emoji: "📖",
+              title: "Ulangi Petualangan",
+              message: "Tenang, ulangi petualanganmu dari awal."
+            }]
+          }
+        }
+      ]
+    },
     {
       heading: "🚀 Next Mission",
       blocks: [
@@ -235,7 +329,7 @@ const geraklurusberaturan = {
           type: "paragraph",
           text: [
             "Bagaimana jika suatu benda bergerak lurus tetapi kecepatannya berubah secara teratur karena ada percepatan tetap?",
-            "➡️ Next, menuju portal: **[Gerak Lurus Berubah Beraturan (GLBB).](/materi/gerak-lurus-berubah-beraturan)**"
+            "➡️ *Next*, menuju portal: **[Gerak Lurus Berubah Beraturan (GLBB).](/materi/gerak-lurus-berubah-beraturan)**"
           ]
         }
       ]

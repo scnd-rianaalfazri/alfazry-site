@@ -186,7 +186,7 @@ const percepatan = {
       ]
     },
     {
-      heading: "🧠 Inti Materi (*Takeaway Message*)",
+      heading: "✨ Inti Materi (*Takeaway Message*)",
       blocks: [
         {
           type: "list",
@@ -308,7 +308,7 @@ const percepatan = {
           type: "paragraph",
           text: [
             "Bagaimana jika sebuah benda bergerak lurus dengan kecepatan yang selalu tetap tanpa ada percepatan sama sekali?",
-            "➡️ Next, menuju portal: **[Gerak Lurus Beraturan (GLB).](/materi/gerak-lurus-beraturan)**"
+            "➡️ *Next*, menuju portal: **[Gerak Lurus Beraturan (GLB).](/materi/gerak-lurus-beraturan)**"
           ]
         }
       ]

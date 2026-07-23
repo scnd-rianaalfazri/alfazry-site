@@ -1,6 +1,6 @@
 const gerakvertikalbawah = {
   title: "Gerak Vertikal ke Bawah",
-  slug: "gerak vertikal ke bawah",
+  slug: "gerak-vertikal-bawah",
   description:
   "Memahami konsep gerak vertikal ke bawah dan hubungan gerak naik turun dalam pengaruh gravitasi.",
   chapter: "↔️↕️ Kinematika: Gerak Satu Dimensi",

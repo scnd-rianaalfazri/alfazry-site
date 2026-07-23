@@ -1,5 +1,3 @@
-import { text } from "framer-motion/client";
-
 const geraklurusberubahberaturan = {
   title: "Gerak Lurus Berubah Beraturan (GLBB)",
   slug: "gerak-lurus-berubah-beraturan",
@@ -147,7 +145,9 @@ const geraklurusberubahberaturan = {
         },
         {
           type: "paragraph",
-          text: "Keterangan Variabel:"
+          text: [
+            "Keterangan Variabel:"
+          ]
         },
         {
           type: "list",
@@ -171,6 +171,23 @@ const geraklurusberubahberaturan = {
               }
             ]
           }
+        }
+      ]
+    },
+    {
+      heading: "🎯 Visualisasi Konsep",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Sebuah mobil mulai bergerak dari keadaan diam.",
+            "Setiap detik kecepatannya bertambah $2 m/s$.",
+            "Detik ke-1 → $2 m/s$",
+            "detik ke-2 → $4 m/s$",
+            "detik ke-3 → $6 m/s$",
+            "dan seterusnya.",
+            "Itu artinya, perubahan kecepatannya selalu sama setiap detik, mobil mengalami **GLBB (Gerak Lurus Berubah Beraturan).**"
+          ]
         }
       ]
     },
@@ -208,145 +225,237 @@ const geraklurusberubahberaturan = {
         }
       ]
     },
-
     {
       heading: "🧮 Contoh Soal & Pembahasan",
       blocks: [
         {
-          type: "heading",
-          text: "🧮 Contoh Soal & Pembahasan"
+          type: "paragraph",
+          text: [
+            "📌 **Kasus Pengereman Mobil**",
+            "Sebuah mobil melaju dengan kecepatan awal $20\\text{ m/s}$. Tiba-tiba pengemudi melihat halangan di depan dan menginjak rem, sehingga mobil mengalami perlambatan konstan sebesar $4\\text{ m/s}^2$ hingga berhenti.",
+            "Hitunglah:"
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Waktu yang dibutuhkan mobil sampai benar-benar berhenti."
+              },
+              {
+                text: "Jarak pengereman total sejak rem diinjak sampai mobil berhenti."
+              }
+            ]
+          } 
         },
         {
           type: "paragraph",
-          text: "📌 **Kasus Pengereman Mobil**"
+          text: [
+            "💡 **Penyelesaian:**",
+            "Diketahui:"
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "$v_0 = 20\\text{ m/s}$"
+              },
+              {
+                text: "$v_t = 0\\text{ m/s}$ (karena mobil berhenti)"
+              },
+              {
+                text: "$a = -4\\text{ m/s}^2$ (bernilai negatif karena diperlambat/rem)"
+              }
+            ]
+          }
+        },
+        {
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Menghitung waktu berhenti $(t)$",
+                description: [
+                  "$v_t = v_0 + a \\cdot t$",
+                  "$0 = 20 + (-4) \\cdot t$",
+                  "$4t = 20 \\implies t = 5\\text{ detik}$"
+                ]
+              },
+              {
+                text: "Menghitung jarak pengereman $(s)$",
+                description: [
+                  "$v_t^2 = v_0^2 + 2 \\cdot a \\cdot s$",
+                  "$0^2 = 20^2 + 2 \\cdot (-4) \\cdot s$",
+                  "$0 = 400 - 8s$",
+                  "$8s = 400 \\implies s = 50\\text{ meter}$"
+                ]
+              }
+            ]
+          }
         },
         {
           type: "paragraph",
-          text: "Sebuah mobil melaju dengan kecepatan awal $20\\text{ m/s}$. Tiba-tiba pengemudi melihat halangan di depan dan menginjak rem, sehingga mobil mengalami perlambatan konstan sebesar $4\\text{ m/s}^2$ hingga berhenti. Hitunglah:"
-        },
-        {
-          type: "paragraph",
-          text: "a. Waktu yang dibutuhkan mobil sampai benar-benar berhenti."
-        },
-        {
-          type: "paragraph",
-          text: "b. Jarak pengereman total sejak rem diinjak sampai mobil berhenti."
-        },
-        {
-          type: "paragraph",
-          text: "💡 **Penyelesaian:**"
-        },
-        {
-          type: "paragraph",
-          text: "Diketahui:"
-        },
-        {
-          type: "paragraph",
-          text: "• $v_0 = 20\\text{ m/s}$"
-        },
-        {
-          type: "paragraph",
-          text: "• $v_t = 0\\text{ m/s}$ (karena mobil berhenti)"
-        },
-        {
-          type: "paragraph",
-          text: "• $a = -4\\text{ m/s}^2$ (bernilai negatif karena diperlambat/rem)"
-        },
-        {
-          type: "paragraph",
-          text: "a. Menghitung waktu berhenti ($t$):"
-        },
-        {
-          type: "paragraph",
-          text: "$$v_t = v_0 + a \\cdot t$$"
-        },
-        {
-          type: "paragraph",
-          text: "$$0 = 20 + (-4) \\cdot t$$"
-        },
-        {
-          type: "paragraph",
-          text: "$$4t = 20 \\implies t = 5\\text{ detik}$$"
-        },
-        {
-          type: "paragraph",
-          text: "b. Menghitung jarak pengereman ($s$):"
-        },
-        {
-          type: "paragraph",
-          text: "$$v_t^2 = v_0^2 + 2 \\cdot a \\cdot s$$"
-        },
-        {
-          type: "paragraph",
-          text: "$$0^2 = 20^2 + 2 \\cdot (-4) \\cdot s$$"
-        },
-        {
-          type: "paragraph",
-          text: "$$0 = 400 - 8s$$"
-        },
-        {
-          type: "paragraph",
-          text: "$$8s = 400 \\implies s = 50\\text{ meter}$$"
-        },
-        {
-          type: "paragraph",
-          text: "Jadi, mobil memerlukan waktu **5 detik** dan jarak sejauh **50 meter** untuk berhenti secara aman."
+          text: [
+            "Jadi, mobil memerlukan waktu **5 detik** dan jarak sejauh **50 meter** untuk berhenti secara aman."
+          ]
         }
       ]
     },
-
     {
-      heading: "⚠️ Miskonsepsi Fisika",
+      heading: "⚠️ Miskonsepsi Populer",
       blocks: [
         {
           type: "paragraph",
-          text: "❌ **Miskonsepsi:** Mengira GLBB hanya terjadi pada benda yang bergerak makin cepat (akselerasi)."
+          text: [
+            "Banyak yang mengira GLBB hanya terjadi pada benda yang bergerak makin cepat (akselerasi). ❌",
+            "Gak, gitu!",
+            "Fakta Sebenarnya, GLBB juga mencakup gerak diperlambat! Selama perubahan kecepatannya konstan (berarah tetap & teratur), gerak tersebut tergolong GLBB. ✔️"
+          ]
         },
-        {
-          type: "paragraph",
-          text: "✔️ **Fakta Sebenarnya:** GLBB juga mencakup gerak diperlambat! Selama perubahan kecepatannya konstan (berarah tetap & teratur), gerak tersebut tergolong GLBB."
-        }
       ]
     },
-
     {
       heading: "🌟 Fun Fact",
       blocks: [
         {
           type: "paragraph",
-          text: "Saat pesawat terbang akan lepas landas di *runway*, pilot melakukan GLBB dipercepat dengan menggenjot mesin hingga mencapai *take-off speed* (sekitar 240–285 km/jam) hanya dalam lintasan sepanjang beberapa ratus meter!"
+          text: [
+            "Saat pesawat terbang akan lepas landas di *runway*, pilot melakukan GLBB dipercepat dengan menggenjot mesin hingga mencapai *take-off speed* (sekitar 240–285 km/jam) hanya dalam lintasan sepanjang beberapa ratus meter!"
+          ]
         }
       ]
     },
-
     {
-      heading: "🧠 Inti Materi",
+      heading: "✨  Inti Materi *(Takeaway Message)*",
       blocks: [
         {
-          type: "paragraph",
-          text: "• GLBB adalah gerak lurus dengan percepatan konstan ($a = \\text{konstan}$)."
-        },
-        {
-          type: "paragraph",
-          text: "• Pada GLBB dipercepat ($a > 0$), kecepatan bertambah teratur. Pada GLBB diperlambat ($a < 0$), kecepatan berkurang teratur."
-        },
-        {
-          type: "paragraph",
-          text: "• Luas area di bawah grafik $v-t$ menyatakan besarnya jarak tempuh ($s$)."
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "GLBB adalah gerak lurus dengan percepatan konstan ($a = \\text{konstan}$)."
+              },
+              {
+                text: "Pada GLBB dipercepat ($a > 0$), kecepatan bertambah teratur. Pada GLBB diperlambat ($a < 0$), kecepatan berkurang teratur."
+              },
+              {
+                text: "Luas area di bawah grafik $v-t$ menyatakan besarnya jarak tempuh ($s$)."
+              }
+            ]
+          }
         }
       ]
     },
-
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+            {
+              question: "Sebuah benda dikatakan mengalami Gerak Lurus Berubah Beraturan (GLBB) apabila....",
+              options: [
+                "bergerak melingkar dengan kelajuan tetap.",
+                "bergerak lurus dengan percepatan yang konstan sehingga kecepatannya berubah secara teratur.",
+                "bergerak lurus dengan kecepatan tetap.",
+                "bergerak bolak-balik tanpa perubahan kecepatan.",
+                "bergerak dengan lintasan melengkung."
+              ],
+              answerIndex: 1
+            },
+            {
+              question: "Manakah yang merupakan contoh GLBB diperlambat?",
+              options: [
+                "Mobil yang terus menambah kecepatan setelah lampu hijau.",
+                "Buah yang jatuh bebas dari pohon.",
+                "Kendaraan yang direm hingga berhenti.",
+                "Kereta yang melaju dengan kecepatan tetap.",
+                "Ban berjalan (conveyor belt) di pabrik dengan kecepatan konstan."
+              ],
+              answerIndex: 2
+            },
+            {
+              question: "Sebuah mobil memiliki kecepatan awal 10 m/s dan mengalami percepatan tetap 2 m/s² selama 5 sekon. Kecepatan akhir mobil adalah....",
+              options: [
+                "12 m/s.",
+                "15 m/s.",
+                "18 m/s.",
+                "20 m/s.",
+                "25 m/s."
+              ],
+              answerIndex: 3
+            },
+            {
+              question: "Pada grafik kecepatan terhadap waktu (v–t) untuk GLBB, luas daerah di bawah grafik menunjukkan....",
+              options: [
+                "percepatan benda.",
+                "waktu tempuh.",
+                "kecepatan awal benda.",
+                "gaya yang bekerja pada benda.",
+                "jarak tempuh benda."
+              ],
+              answerIndex: 4
+            },
+            {
+              question: "Pernyataan yang benar mengenai GLBB adalah....",
+              options: [
+                "GLBB hanya terjadi jika benda bergerak semakin cepat.",
+                "pada GLBB, percepatan selalu bernilai nol.",
+                "GLBB dapat berupa gerak dipercepat maupun diperlambat, asalkan percepatannya konstan.",
+                "kecepatan pada GLBB selalu tetap.",
+                "grafik posisi terhadap waktu pada GLBB berbentuk garis lurus."
+                ],
+              answerIndex: 3
+            }],
+            scoring: [
+            {
+              min: 5,
+              max: 5,
+              emoji: "🏆",
+              title: "Mission Complete!",
+              message: "Kamu siap memasuki portal berikutnya."
+            },
+            {
+              min: 4,
+              max: 4,
+              emoji: "🚀",
+              title: "Hampir Sempurna",
+              message: "Pemahamanmu sudah sangat baik."
+            },
+            {
+              min: 2,
+              max: 3,
+              emoji: "🔄",
+              title: "Perlu Sedikit Lagi",
+              message: "Coba eksplorasi lagi bagian inti materi."
+            },
+            {
+              min: 0,
+              max: 1,
+              emoji: "📖",
+              title: "Ulangi Petualangan",
+              message: "Tenang, ulangi petualanganmu dari awal."
+            }]
+          }
+        }
+      ]
+    },
     {
       heading: "🚀 Next Mission",
       blocks: [
         {
           type: "paragraph",
-          text: "Tahukah kamu bahwa benda yang jatuh secara bebas tanpa didorong juga merupakan contoh GLBB akibat pengaruh gravitasi Bumi?"
-        },
-        {
-          type: "paragraph",
-          text: "➡️ Selanjutnya: Gerak Jatuh Bebas (GJB)."
+          text: [
+            "Tahukah kamu bahwa benda yang jatuh secara bebas tanpa didorong juga merupakan contoh GLBB akibat pengaruh gravitasi Bumi?",
+            "➡️ *Next*, kita menuju portal: **[Gerak Jatuh Bebas (GJB)](/materi/gerak-jatuh-bebas).**"
+          ]
         }
       ]
     }
