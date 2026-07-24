@@ -1,5 +1,3 @@
-import { text } from "framer-motion/client";
-
 const gerakjatuhbebas = {
   title: "Gerak Jatuh Bebas",
   slug: "gerak-jatuh-bebas",
@@ -21,7 +19,6 @@ const gerakjatuhbebas = {
         }
       ]
     },
-
     {
       heading: "❓ Pertanyaan Besar",
       blocks: [
@@ -34,7 +31,6 @@ const gerakjatuhbebas = {
         }
       ]
     },
-
     {
       heading: "🍎 Apa Itu Gerak Jatuh Bebas?",
       blocks: [
@@ -47,7 +43,6 @@ const gerakjatuhbebas = {
         }
       ]
     },
-
     {
       heading: "⭐ Ciri-Ciri Gerak Jatuh Bebas",
       blocks: [
@@ -73,7 +68,6 @@ const gerakjatuhbebas = {
         }
       ]
     },
-
     {
       heading: "📐 Persamaan Gerak Jatuh Bebas",
       blocks: [
@@ -185,7 +179,6 @@ const gerakjatuhbebas = {
         }
       ]
     },
-
     {
       heading: "🧮 Contoh Soal & Pembahasan",
       blocks: [
@@ -252,7 +245,6 @@ const gerakjatuhbebas = {
         }
       ]
     },
-
     {
       heading: "🌎 Contoh dalam Kehidupan",
       blocks: [
@@ -321,7 +313,100 @@ const gerakjatuhbebas = {
         }
       ]
     },
-
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+            {
+              question: "Gerak Jatuh Bebas (GJB) adalah....",
+              options: [
+                "gerak benda yang dilempar ke atas dengan kecepatan awal tertentu.",
+                "gerak benda yang dijatuhkan tanpa kecepatan awal dan hanya dipengaruhi oleh gaya gravitasi.",
+                "gerak benda pada lintasan melingkar dengan kecepatan tetap.",
+                "gerak benda dengan percepatan nol.",
+                "gerak benda yang dipengaruhi oleh gaya dorong mesin."
+              ],
+              answerIndex: 1
+            },
+            {
+              question: "Manakah yang merupakan ciri-ciri Gerak Jatuh Bebas?",
+              options: [
+                "Kecepatan awal tidak nol dan lintasan melingkar.",
+                "Kecepatan awal nol, lintasan vertikal ke bawah, serta hanya dipengaruhi gravitasi.",
+                "Kecepatan selalu tetap sepanjang gerak.",
+                "Percepatan bernilai nol.",
+                "Benda bergerak dengan lintasan horizontal."
+              ],
+              answerIndex: 1
+            },
+            {
+              question: "Sebuah bola dijatuhkan dari keadaan diam. Jika percepatan gravitasi 10 m/s², berapakah kecepatan bola setelah 3 sekon?",
+              options: [
+                "10 m/s.",
+                "20 m/s.",
+                "25 m/s.",
+                "30 m/s.",
+                "40 m/s."
+              ],
+              answerIndex: 3
+            },
+            {
+              question: "Mengapa bola besi dan bulu ayam dapat jatuh bersamaan di ruang hampa udara?",
+              options: [
+                "Karena massa keduanya sama.",
+                "Karena gaya gravitasi tidak bekerja di ruang hampa.",
+                "Karena hambatan udara tidak ada sehingga massa tidak memengaruhi waktu jatuh.",
+                "Karena bulu ayam memiliki percepatan lebih besar.",
+                "Karena benda yang ringan selalu dipercepat lebih besar."
+              ],
+              answerIndex: 2
+            },
+            {
+              question: "Pernyataan yang benar mengenai Gerak Jatuh Bebas adalah....",
+              options: [
+                "semakin berat benda, semakin cepat benda jatuh dalam semua kondisi.",
+                "gerak Jatuh Bebas merupakan salah satu bentuk GLBB dengan percepatan gravitasi yang konstan.",
+                "gerak Jatuh Bebas memiliki percepatan nol.",
+                "gerak Jatuh Bebas hanya terjadi jika ada gaya dorong dari luar.",
+                "kecepatan benda selalu tetap selama jatuh."
+                ],
+              answerIndex: 1
+            }],
+            scoring: [
+            {
+              min: 5,
+              max: 5,
+              emoji: "🏆",
+              title: "Mission Complete!",
+              message: "Kamu siap memasuki portal berikutnya."
+            },
+            {
+              min: 4,
+              max: 4,
+              emoji: "🚀",
+              title: "Hampir Sempurna",
+              message: "Pemahamanmu sudah sangat baik."
+            },
+            {
+              min: 2,
+              max: 3,
+              emoji: "🔄",
+              title: "Perlu Sedikit Lagi",
+              message: "Coba eksplorasi lagi bagian inti materi."
+            },
+            {
+              min: 0,
+              max: 1,
+              emoji: "📖",
+              title: "Ulangi Petualangan",
+              message: "Tenang, ulangi petualanganmu dari awal."
+            }]
+          }
+        }
+      ]
+    },
     {
       heading: "🚀 Next Mission",
       blocks: [

@@ -53,6 +53,7 @@ import GerakLurusBerubahBeraturan from "../content/materi/KinematikaGerakSatuDim
 import GerakJatuhBebas from "../content/materi/KinematikaGerakSatuDimensi/GerakJatuhBebas.js"
 import GerakVertikalAtas from "../content/materi/KinematikaGerakSatuDimensi/GerakVertikalAtas.js"
 import GerakVertikalBawah from "../content/materi/KinematikaGerakSatuDimensi/GerakVertikalBawah.js"
+import PenutupGerakSatuDimensi from "../content/materi/KinematikaGerakSatuDimensi/PenutupGerakSatuDimensi.js"
 
 /* kinematika gerak dua dimensi */
 import AnalisisSumbuXDanY from "../content/materi/KinematikaGerakDuaDimensi/AnalisisSumbuXDanY.js"
@@ -538,6 +539,7 @@ export const materials = [
   GerakJatuhBebas,
   GerakVertikalAtas,
   GerakVertikalBawah,
+  PenutupGerakSatuDimensi,
 
   /* Chapter : Kinematika Gerak Dua Dimensi */
   AnalisisSumbuXDanY,

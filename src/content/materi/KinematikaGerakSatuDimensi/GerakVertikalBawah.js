@@ -1,169 +1,221 @@
+import { text } from "framer-motion/client";
+
 const gerakvertikalbawah = {
   title: "Gerak Vertikal ke Bawah",
   slug: "gerak-vertikal-bawah",
-  description:
-  "Memahami konsep gerak vertikal ke bawah dan hubungan gerak naik turun dalam pengaruh gravitasi.",
+  description: "Memahami konsep gerak vertikal ke bawah sebagai gerak lurus berubah beraturan (GLBB) dipercepat yang memiliki kecepatan awal.",
   chapter: "↔️↕️ Kinematika: Gerak Satu Dimensi",
+
   content: [
-  { heading:
-
-    "⬇️ Benda yang Bergerak Turun", blocks: [{ type: "heading", text: "⬇️ Benda yang Bergerak Turun" },
     {
-      type: "paragraph",
-      text: "Tidak semua benda jatuh mulai dari keadaan diam."
+      heading: "⬇️ Benda yang Bergerak Turun",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Tidak semua benda yang bergerak ke bawah atau jatuh itu berawal dari keadaan diam.",
+            "Bayangkan kamu melempar bola kriket ke bawah dari lantai dua rumahmu, atau memukul bola smash saat bermain bulu tangkis ke arah tanah.",
+            "Benda-benda tersebut sudah diberi dorongan awal (kecepatan awal) menuju ke bawah, lalu gerakannya makin cepat akibat ditarik gaya gravitasi.",
+            "Gerakan seperti ini disebut Gerak Vertikal ke Bawah (GVB)."
+          ]
+        }
+      ]
+    },
+
+    {
+      heading: "📍 Apa Itu Gerak Vertikal ke Bawah?",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Gerak Vertikal ke Bawah (GVB) adalah gerak suatu benda pada lintasan lurus vertikal mengarah ke bawah dengan memiliki kecepatan awal $(v_0 > 0)$ dan dipengaruhi oleh percepatan gravitasi Bumi.",
+            "Karena arah gerak benda searah dengan arah gaya gravitasi Bumi, benda mengalami percepatan konstan positif $(a = +g)$.",
+            "Oleh sebab itu, GVB merupakan bentuk dari Gerak Lurus Berubah Beraturan (GLBB) dipercepat."
+          ]
+        }
+      ]
+    },
+
+    {
+      heading: "⚡ Perbedaan GVB vs Gerak Jatuh Bebas (GJB)",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Sering bingung bedain GVB dan GJB? Kunci utamanya ada pada kecepatan awal $(v_0)$:"
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "**Gerak Jatuh Bebas (GJB).**",
+                description: "Benda dilepas begitu saja tanpa dorongan sama sekali $(v_0 = 0)$"
+              },
+              {
+                text: "**Gerak Vertikal ke Bawah (GVB)**",
+                description: "Benda dilempar atau didorong ke bawah sehingga sudah punya kecepatan awal $(v_0 > 0)$."
+              }
+            ]
+          } 
+        }
+      ]
+    },
+
+    {
+      heading: "📐 Persamaan Gerak Vertikal ke Bawah",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Rumus GVB diturunkan langsung dari persamaan GLBB dipercepat $(a = +g)$:",
+            "$v_t = v_0 + gt$",
+            "$h = v_0 t + \\frac{1}{2}gt^2$",
+            "$v_t^2 = v_0^2 + 2gh$"
+          ]
+        },
+        {
+          type: "paragraph",
+          text: [
+            "Keterangan:"
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "$v_0$ = Kecepatan awal $(m/s)$"
+              },
+              {
+                text: "$v_t$ = Kecepatan pada waktu $t$ $(m/s)$"
+              },
+              {
+                text: "$g$ = Percepatan gravitasi $(m/s^2)$"
+              },
+              {
+                text: "$h$ = Ketinggian / jarak tempuh vertikal $(m)$"
+              },
+              {
+                text: "$t$ = Waktu tempuh $(s)$"
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Ada benda yang sudah memiliki kecepatan awal ketika bergerak ke bawah."
+      heading: "🧮 Contoh Soal & Pembahasan",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "**Soal**",
+            "Seorang anak melempar batu lurus ke bawah dari atap gedung berketinggian $20\\text{ meter}$ dengan kecepatan awal $5\\text{ m/s}$. Jika percepatan gravitasi $g = 10\\text{ m/s}^2$, berapa kecepatan batu tepat saat menyentuh tanah?",
+            "**Pembahasan:**",
+            "Diketahui:",
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "$v_0 = 5\\text{ m/s}$"
+              },
+              {
+                text: "$h = 20\\text{ m}$"
+              },
+              {
+                text: "$g = 10\\text{ m/s}^2$"
+              }
+            ]
+          }
+        },
+        {
+          type: "paragraph",
+          text: [
+            "Gunakan rumus kecepatan akhir tanpa variabel waktu, yaitu $(v_t^2 = v_0^2 + 2gh)$:",
+            "$v_t^2 = (5)^2 + 2(10)(20)$",
+            "$v_t^2 = 25 + 400 = 425$",
+            "$v_t = \\sqrt{425} \\approx 20,62\\text{ m/s}$",
+            "Jadi, kecepatan batu tepat sebelum menyentuh tanah adalah sekitar **$20,62\\text{ m/s}$**."
+          ]
+        }
+      ]
+    },
+
+    {
+      heading: "🌍 Penerapan dalam Kehidupan",
+      blocks: [
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              "🏀 Lemparan bola basket ke lantai saat melakukan *bounce pass*.",
+              "🏐 Pukulan *spike* atau *smash* bola voli ke arah bawah.",
+              "💧 Semburan air dari pompa air atau selang yang diarahkan langsung ke bawah.",
+              "🎯 Melempar anak panah atau kelereng lurus ke bawah."
+            ]
+          } 
+        }
+      ]
+    },
+
+    {
+      heading: "🧠 Miskonsepsi yang Sering Terjadi",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "*'Semua benda yang bergerak jatuh ke bawah itu dinamakan Gerak Jatuh Bebas (GJB).'* ❌",,
+            "Gak, gitu!",
+            "Faktanya, tidak semua gerak ke bawah adalah GJB! Jika benda diberi dorongan atau leparan awal $(v_0 > 0)$, gerakannya dikategorikan sebagai Gerak Vertikal ke Bawah (GVB). Sebutan 'bebas' pada GJB berarti bebas dari dorongan awal."
+          ]
+        }
+      ]
+    },
+
+    {
+      heading: "✨ Inti Materi *(Takeaway Message)*",
+      blocks: [
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "GVB adalah GLBB dipercepat searah gravitasi Bumi dengan tanda $+g$."
+              },
+              {
+                text: "Ciri khas utama GVB adalah memiliki kecepatan awal wajib $(v_0 > 0)$."
+              },
+              {
+                text: "Kecepatan benda terus bertambah besar seiring berkurangnya ketinggian."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Gerak seperti ini disebut Gerak Vertikal ke Bawah (GVB)."
-    }]
-
-  },
-  { heading:
-
-    "📍 Apa Itu Gerak Vertikal ke Bawah?", blocks: [{ type: "heading", text: "📍 Apa Itu Gerak Vertikal ke Bawah?" },
-    {
-      type: "paragraph",
-      text: "Gerak vertikal ke bawah adalah gerak benda pada lintasan lurus vertikal dengan kecepatan awal menuju arah bawah dan dipengaruhi gravitasi."
-    },
-    {
-      type: "paragraph",
-      text: "Gerak ini termasuk GLBB karena memiliki percepatan tetap."
-    }]
-
-  },
-  { heading:
-
-    "🌎 Pengaruh Gravitasi", blocks: [{ type: "heading", text: "🌎 Pengaruh Gravitasi" },
-    {
-      type: "paragraph",
-      text: "Pada gerak vertikal ke bawah, arah gerak benda sama dengan arah gravitasi."
-    },
-    { type: "paragraph", text: "Akibatnya:" },
-    { type: "paragraph", text: "⬇️ Kecepatan benda semakin besar" },
-    {
-      type: "paragraph",
-      text: "⬇️ Percepatan gravitasi mempercepat gerakan benda"
-    }]
-
-  },
-  { heading:
-
-    "⚡ Ciri-Ciri GVB", blocks: [{ type: "heading", text: "⚡ Ciri-Ciri GVB" },
-    { type: "paragraph", text: "Ciri-ciri gerak vertikal ke bawah:" },
-    { type: "paragraph", text: "⬇️ Bergerak ke arah bawah" },
-    { type: "paragraph", text: "⬇️ Memiliki kecepatan awal" },
-    { type: "paragraph", text: "⬇️ Kecepatan bertambah" },
-    { type: "paragraph", text: "🌎 Percepatan tetap sebesar gravitasi" }]
-
-  },
-  { heading:
-
-    "🏀 Contoh Sederhana", blocks: [{ type: "heading", text: "🏀 Contoh Sederhana" },
-    {
-      type: "paragraph",
-      text: "Sebuah bola dilempar ke bawah dari ketinggian tertentu."
-    },
-    { type: "paragraph", text: "Saat awal dilempar:" },
-    { type: "paragraph", text: "bola sudah memiliki kecepatan." },
-    { type: "paragraph", text: "Ketika bergerak turun:" },
-    {
-      type: "paragraph",
-      text: "gravitasi membuat kecepatannya semakin besar."
-    }]
-
-  },
-  { heading:
-
-    "⚖️ Perbedaan GJB dan GVB", blocks: [{ type: "heading", text: "⚖️ Perbedaan GJB dan GVB" },
-    { type: "paragraph", text: "Gerak Jatuh Bebas (GJB):" },
-    { type: "paragraph", text: "Benda dilepas tanpa kecepatan awal." },
-    { type: "paragraph", text: "Gerak Vertikal ke Bawah (GVB):" },
-    { type: "paragraph", text: "Benda memiliki kecepatan awal ke bawah." }]
-
-  },
-  { heading:
-
-    "🔄 Gabungan Gerak Vertikal", blocks: [{ type: "heading", text: "🔄 Gabungan Gerak Vertikal" },
-    {
-      type: "paragraph",
-      text: "Dalam banyak kasus, gerak vertikal tidak hanya terjadi satu arah."
-    },
-    { type: "paragraph", text: "Benda dapat mengalami fase:" },
-    { type: "paragraph", text: "⬆️ Bergerak naik" },
-    { type: "paragraph", text: "⏸️ Berhenti sesaat di titik tertinggi" },
-    { type: "paragraph", text: "⬇️ Bergerak turun" },
-    {
-      type: "paragraph",
-      text: "Keseluruhan gerak ini dipengaruhi gravitasi."
-    }]
-
-  },
-  { heading:
-
-    "🚀 Contoh Gabungan Gerak Vertikal", blocks: [{ type: "heading", text: "🚀 Contoh Gabungan Gerak Vertikal" },
-    { type: "paragraph", text: "Sebuah bola dilempar ke atas." },
-    { type: "paragraph", text: "Fase 1:" },
-    { type: "paragraph", text: "Bola naik dan kecepatannya berkurang." },
-    { type: "paragraph", text: "Fase 2:" },
-    { type: "paragraph", text: "Bola mencapai titik tertinggi." },
-    { type: "paragraph", text: "Fase 3:" },
-    { type: "paragraph", text: "Bola turun dan kecepatannya bertambah." }]
-
-  },
-  { heading:
-
-    "📊 Pola Perubahan Kecepatan", blocks: [{ type: "heading", text: "📊 Pola Perubahan Kecepatan" },
-    { type: "paragraph", text: "Saat naik:" },
-    {
-      type: "paragraph",
-      text: "Kecepatan berkurang karena melawan gravitasi."
-    },
-    { type: "paragraph", text: "Saat turun:" },
-    {
-      type: "paragraph",
-      text: "Kecepatan bertambah karena dibantu gravitasi."
-    }]
-
-  },
-  { heading:
-
-    "🌍 Penerapan dalam Kehidupan", blocks: [{ type: "heading", text: "🌍 Penerapan dalam Kehidupan" },
-    { type: "paragraph", text: "Konsep gerak vertikal digunakan pada:" },
-    { type: "paragraph", text: "🏀 Bola olahraga" },
-    { type: "paragraph", text: "⛲ Air mancur" },
-    { type: "paragraph", text: "🚀 Peluncuran benda" },
-    { type: "paragraph", text: "🎯 Gerakan benda yang dilempar" }]
-
-  },
-  { heading:
-
-    "🧠 Inti Materi", blocks: [{ type: "heading", text: "🧠 Inti Materi" },
-    {
-      type: "paragraph",
-      text: "GVB adalah GLBB dengan arah gerak searah gravitasi."
-    },
-    {
-      type: "paragraph",
-      text: "Gerak vertikal gabungan menunjukkan bagaimana benda dapat naik dan turun akibat pengaruh gravitasi."
-    }]
-
-  },
-  { heading:
-
-    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
-    { type: "paragraph", text: "Gerak satu dimensi sudah dipahami." },
-    {
-      type: "paragraph",
-      text: "Bagaimana jika benda bergerak membentuk lintasan melengkung?"
-    },
-    { type: "paragraph", text: "➡️ Selanjutnya: Gerak Parabola." }]
-
-  }]
-
+      heading: "🚀 Next Mission",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Selamat! Kamu telah menyelesaikan seluruh rangkaian pembahasan gerak lurus satu dimensi (GLB, GLBB, GJB, GVA, dan GVB).",
+            "➡️ Next, kita menuju portal: Penutup Gerak Satu Dimensi"
+          ]
+        }
+      ]
+    }
+  ]
 };
 
 export default gerakvertikalbawah;

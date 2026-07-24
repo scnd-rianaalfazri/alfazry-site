@@ -268,7 +268,7 @@ const jarakdanperpindahan = {
           text: [
             "Kita udah berhasil mecahin teka-teki cara ngitung lintasan lewat jarak dan perpindahan.",
             "Nah, tantangan selanjutnya, gimana kalau lintasan-lintasan tadi kita bagi dengan waktu? Seberapa ngebut pergerakan objek tersebut?",
-            "➡️ Next, kita menuju portal: Kelajuan dan Kecepatan."
+            "➡️ *Next*, kita menuju portal: [**Kelajuan dan Kecepatan**](/materi/kelajuan-dan-kecepatan)."
           ]
         }
       ]

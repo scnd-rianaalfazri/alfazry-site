@@ -453,7 +453,7 @@ const kelajuandankecepatan = {
         },
         {
           type: "paragraph",
-          text: "➡️ **Materi Selanjutnya:** Percepatan (Acceleration)."
+          text: "➡️ *Next*, kita menuju portal: [**Percepatan (Acceleration)**](/materi/percepatan)."
         }
       ]
     }

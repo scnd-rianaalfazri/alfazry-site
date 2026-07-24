@@ -209,7 +209,7 @@ const pengantargerak = {
             "Sekarang kita udah paham, kan? Kalau gerak itu intinya tentang perubahan posisi yang relatif. ",
             "Sekarang pertanyaannya, begini! Gimana cara kita mengukur seberapa jauh perubahan posisi itu secara akurat?",
             "Terus, apakah jarak tempuh lo sama dengan perpindahan lo? Jangan sampai ketuker, ya!",
-            "➡️ Next, kita menuju portal: [Jarak dan Perpindahan.](/materi/jarak-dan-perpindahan)"
+            "➡️ Next, kita menuju portal: [**Jarak dan Perpindahan.**](/materi/jarak-dan-perpindahan)"
           ]
         }
       ]

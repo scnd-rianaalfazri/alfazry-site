@@ -234,6 +234,100 @@ const gerakvertikalatas = {
         }
       ]
     },
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+            {
+              question: "Gerak Vertikal ke Atas (GVA) adalah....",
+              options: [
+                "gerak benda yang dilempar lurus ke atas dengan kecepatan awal sehingga mengalami perlambatan akibat gravitasi.",
+                "gerak benda yang dijatuhkan tanpa kecepatan awal.",
+                "gerak benda yang dilempar mendatar dengan kecepatan tetap.",
+                "gerak benda pada lintasan melingkar dengan percepatan tetap.",
+                "gerak benda yang selalu dipercepat ke atas."
+              ],
+              answerIndex: 2
+            },
+            {
+              question: "Ketika sebuah bola mencapai titik tertinggi, keadaan yang benar adalah....",
+              options: [
+                "kecepatan dan percepatan sama-sama nol.",
+                "kecepatan nol, tetapi percepatan gravitasi tetap bekerja ke bawah.",
+                "kecepatan maksimum dan percepatan nol.",
+                "gravitasi berhenti bekerja sehingga bola melayang.",
+                "bola bergerak dengan kecepatan konstan."
+              ],
+              answerIndex: 1
+            },
+            {
+              question: "Sebuah bola dilempar vertikal ke atas dengan kecepatan awal 30 m/s. Jika percepatan gravitasi 10 m/s², waktu yang diperlukan untuk mencapai titik tertinggi adalah....",
+              options: [
+                "2 sekon.",
+                "3 sekon.",
+                "4 sekon.",
+                "5 sekon.",
+                "6 sekon."
+              ],
+              answerIndex: 1
+            },
+            {
+              question: "Manakah yang merupakan contoh Gerak Vertikal ke Atas dalam kehidupan sehari-hari?",
+              options: [
+                "buah kelapa yang jatuh dari pohon.",
+                "mobil yang melaju di jalan tol.",
+                "bola basket yang dilempar lurus ke atas saat melakukan jump shot.",
+                "kereta yang bergerak di rel lurus.",
+                "kapal yang berlayar di laut."
+              ],
+              answerIndex: 2
+            },
+            {
+              question: "Pernyataan yang benar mengenai Gerak Vertikal ke Atas adalah....",
+              options: [
+                "kecepatan benda bertambah selama bergerak ke atas.",
+                "percepatan benda bernilai nol selama gerak berlangsung.",
+                "waktu yang diperlukan benda untuk naik ke titik tertinggi sama dengan waktu yang diperlukan untuk kembali ke posisi awal (dengan hambatan udara diabaikan).",
+                "Gerak Vertikal ke Atas tidak dipengaruhi oleh gravitasi.",
+                "Kecepatan awal benda harus nol."
+                ],
+              answerIndex: 2
+            }],
+            scoring: [
+            {
+              min: 5,
+              max: 5,
+              emoji: "🏆",
+              title: "Mission Complete!",
+              message: "Kamu siap memasuki portal berikutnya."
+            },
+            {
+              min: 4,
+              max: 4,
+              emoji: "🚀",
+              title: "Hampir Sempurna",
+              message: "Pemahamanmu sudah sangat baik."
+            },
+            {
+              min: 2,
+              max: 3,
+              emoji: "🔄",
+              title: "Perlu Sedikit Lagi",
+              message: "Coba eksplorasi lagi bagian inti materi."
+            },
+            {
+              min: 0,
+              max: 1,
+              emoji: "📖",
+              title: "Ulangi Petualangan",
+              message: "Tenang, ulangi petualanganmu dari awal."
+            }]
+          }
+        }
+      ]
+    },
     {
       heading: "🚀 Next Mission",
       blocks: [
