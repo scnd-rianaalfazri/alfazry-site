@@ -56,6 +56,7 @@ import GerakVertikalBawah from "../content/materi/KinematikaGerakSatuDimensi/Ger
 import PenutupGerakSatuDimensi from "../content/materi/KinematikaGerakSatuDimensi/PenutupGerakSatuDimensi.js"
 
 /* kinematika gerak dua dimensi */
+import PengantarGerakDuaDimensi from "../content/materi/KinematikaGerakDuaDimensi/PengantarGerakDuaDimensi.js"
 import AnalisisSumbuXDanY from "../content/materi/KinematikaGerakDuaDimensi/AnalisisSumbuXDanY.js"
 import GerakParabola from "../content/materi/KinematikaGerakDuaDimensi/GerakParabola.js"
 import GerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi/GerakMelingkar.js"
@@ -542,6 +543,7 @@ export const materials = [
   PenutupGerakSatuDimensi,
 
   /* Chapter : Kinematika Gerak Dua Dimensi */
+  PengantarGerakDuaDimensi,
   AnalisisSumbuXDanY,
   GerakParabola,
   GerakMelingkar,

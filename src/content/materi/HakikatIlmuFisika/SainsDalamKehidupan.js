@@ -266,7 +266,7 @@ const sainsdalamkehidupan = {
         type: "paragraph",
         text: [
           "Sekarang saatnya menerapkan semua yang telah dipelajari.",
-          "➡️ Next, kita menuju portal: Mini Project."
+          "➡️ Next, kita menuju portal: [**Mini Project**](/materi/mini-project-hakikat-ilmu-fisika)."
         ]
       }
     ]

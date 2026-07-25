@@ -1,6 +1,6 @@
 const penutuphakikatilmufisika = {
   title: "Penutup Chapter",
-  slug: "penutup hakikat fisika",
+  slug: "penutup-hakikat-fisika",
   description: "Merefleksikan perjalanan mempelajari hakikat ilmu fisika dan metode ilmiah sebagai fondasi dalam memahami alam semesta.",
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
 

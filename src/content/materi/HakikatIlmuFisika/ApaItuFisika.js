@@ -8,6 +8,7 @@ import pengertianfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisi
 import nextmissionhakikatilmufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika8.jpg";
 import cobatemukanImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika9.jpg";
 import { body, text } from "framer-motion/client";
+import { m } from "framer-motion";
 
 const apaitufisika = {
   title: "Apa Itu Fisika?",
@@ -21,9 +22,6 @@ const apaitufisika = {
       { type: "image", 
         src: apaitufisikaImg, 
         caption: "Apa itu fisika?" },
-      { type: "paragraph", 
-        text: "📸 Gerbang Utama Menuju Rahasia Semesta" 
-      },
       {
         type: "paragraph",
         text: "Coba sejenak kamu pause kesibukanmu dan perhatikan sekelilingmu. (ILUSTRASI 👇)"
@@ -33,18 +31,19 @@ const apaitufisika = {
         list: {
           type: "unordered",
           items: [
-          {
-            text: "Mengapa saat kamu melepaskan pulpen, benda itu selalu jatuh ke tanah?"
-          },
-          {
-            text: "Mengapa air selalu mengalir dari tempat tinggi ke tempat yang lebih rendah?"
-          },
-          {
-            text: "Mengapa lampu di kamarmu bisa langsung menyala begitu sakelar ditekan?"
-          },
-          {
-            text: "Bagaimana bisa suara musik dari earphone temanmu terdengar sampai ke tempatmu duduk?"
-          }]
+            {
+              text: "Mengapa saat kamu melepaskan pulpen, benda itu selalu jatuh ke tanah?"
+            },
+            {
+              text: "Mengapa air selalu mengalir dari tempat tinggi ke tempat yang lebih rendah?"
+            },
+            {
+              text: "Mengapa lampu di kamarmu bisa langsung menyala begitu sakelar ditekan?"
+            },
+            {
+              text: "Bagaimana bisa suara musik dari earphone temanmu terdengar sampai ke tempatmu duduk?"
+            }
+          ]
         }
       },
       {
@@ -82,15 +81,11 @@ const apaitufisika = {
       },
       {
         type: "paragraph",
-        text: "Secara ilmiah, Fisika adalah cabang ilmu pengetahuan alam (sains) yang mempelajari materi, energi, gerak, gaya, ruang, waktu, beserta interaksi kompleks di antara semuanya."
-      },
-      {
-        type: "paragraph",
-        text: "Melalui fisika, manusia berusaha menguraikan source code alias cara kerja alam semesta."
-      },
-      {
-        type: "paragraph",
-        text: "Kita tidak tebak-tebakan, melainkan menggunakan fondasi kuat berupa pengamatan yang presisi, eksperimen yang terukur, serta penalaran ilmiah yang logis."
+        text: [
+          "Secara ilmiah, Fisika adalah cabang ilmu pengetahuan alam (sains) yang mempelajari materi, energi, gerak, gaya, ruang, waktu, beserta interaksi kompleks di antara semuanya.",
+          "Melalui fisika, manusia berusaha menguraikan source code alias cara kerja alam semesta.",
+          "Kita tidak tebak-tebakan, melainkan menggunakan fondasi kuat berupa pengamatan yang presisi, eksperimen yang terukur, serta penalaran ilmiah yang logis."
+        ]
       }
     ]
   },
@@ -139,11 +134,10 @@ const apaitufisika = {
       },
       {
         type: "paragraph",
-        text: "Agar pembahasannya tidak tumpang tindih, ilmu fisika dibagi ke dalam beberapa era dan disiplin."
-      },
-      {
-        type: "paragraph",
-        text: "Berikut adalah peta cabang fisika yang dijamin bikin kita makin kagum sama cara kerja semesta:"
+        text: [
+          "Agar pembahasannya tidak tumpang tindih, ilmu fisika dibagi ke dalam beberapa era dan disiplin.",
+          "Berikut adalah peta cabang fisika yang dijamin bikin kita makin kagum sama cara kerja semesta:"
+        ]
       },
       {
         type: "list",
@@ -157,93 +151,89 @@ const apaitufisika = {
             children: {
               type: "unordered",
               items: [
-              {
-                text: "Mekanika Klasik",
-                description:
-                "Rajanya hukum gerak. Cabang ini membedah bagaimana benda bergerak, gaya-gaya yang memengaruhinya, dan keseimbangan benda. Rumah bagi Hukum Newton."
-              },
-              {
-                text: "Termodinamika",
-                description:
-                "Cabang yang puitis tentang bagaimana kalor (panas) berpindah, berdansa, dan berubah wujud menjadi energi lain, termasuk membahas konsep entropi yang misterius."
-              },
-              {
-                text: "Elektromagnetisme",
-                description:
-                "Ilmu yang menyatukan fenomena kelistrikan dan kemagnetan. Inilah alasan mengapa gadget-mu bisa dicharge dan kompas bisa menunjuk arah utara."
-              },
-              {
-                text: "Optika",
-                description:
-                "Ilmu yang khusus mempelajari cahaya, lensa, pantulan, dan bagaimana mata atau kamera menangkap keindahan visual dunia."
-              },
-              {
-                text: "Akustik (Fisika Gelombang & Bunyi)",
-                description:
-                "Mempelajari bagaimana gelombang mekanik merambat, bergetar, dan menghasilkan suara—mulai dari petikan dawai gitar hingga gelombang ultrasonik medis."
-              }]
+                {
+                  text: "Mekanika Klasik",
+                  description: "Rajanya hukum gerak. Cabang ini membedah bagaimana benda bergerak, gaya-gaya yang memengaruhinya, dan keseimbangan benda. Rumah bagi Hukum Newton."
+                },
+                {
+                  text: "Termodinamika",
+                  description: "Cabang yang puitis tentang bagaimana kalor (panas) berpindah, berdansa, dan berubah wujud menjadi energi lain, termasuk membahas konsep entropi yang misterius."
+                },
+                {
+                  text: "Elektromagnetisme",
+                  description: "Ilmu yang menyatukan fenomena kelistrikan dan kemagnetan. Inilah alasan mengapa gadget-mu bisa dicharge dan kompas bisa menunjuk arah utara."
+                },
+                {
+                  text: "Optika",
+                  description: "Ilmu yang khusus mempelajari cahaya, lensa, pantulan, dan bagaimana mata atau kamera menangkap keindahan visual dunia."
+                },
+                {
+                  text: "Akustik (Fisika Gelombang & Bunyi)",
+                  description: "Mempelajari bagaimana gelombang mekanik merambat, bergetar, dan menghasilkan suara—mulai dari petikan dawai gitar hingga gelombang ultrasonik medis."
+                }
+              ]
             }
           },
           {
             text: "Fisika Modern (The Frontier)",
-            description:
-            "Ketika teknologi berkembang dan para ilmuwan mulai masuk ke skala ekstrem—super cepat (mendekati kecepatan cahaya) atau super kecil (dunia atom)—hukum fisika klasik mulai runtuh. Dari sanalah lahir era baru setelah abad ke-20 yang penuh kejutan.",
+            description:  "Ketika teknologi berkembang dan para ilmuwan mulai masuk ke skala ekstrem—super cepat (mendekati kecepatan cahaya) atau super kecil (dunia atom)—hukum fisika klasik mulai runtuh. Dari sanalah lahir era baru setelah abad ke-20 yang penuh kejutan.",
             children: {
               type: "unordered",
               items: [
               {
                 text: "Mekanika Kuantum.",
                 description: [
-                "Selamat datang di dunia sub-atomik yang liar!",
-                "Di skala atom dan elektron, partikel bisa bertingkah seperti gelombang, dan suatu benda bisa berada di dua kondisi sekaligus (probabilitas)."]
+                  "Selamat datang di dunia sub-atomik yang liar!",
+                  "Di skala atom dan elektron, partikel bisa bertingkah seperti gelombang, dan suatu benda bisa berada di dua kondisi sekaligus (probabilitas)."
+                ]
               },
               {
                 text: "Teori Relativitas (Einstein)",
                 description: [
-                "Mengubah total cara kita memandang ruang dan waktu.",
-                "Einstein membuktikan bahwa gravitasi bukanlah gaya tarik gaib biasa, melainkan kelengkungan ruang-waktu akibat adanya massa yang besar (seperti planet atau bintang)."]
+                  "Mengubah total cara kita memandang ruang dan waktu.",
+                  "Einstein membuktikan bahwa gravitasi bukanlah gaya tarik gaib biasa, melainkan kelengkungan ruang-waktu akibat adanya massa yang besar (seperti planet atau bintang)."
+                ]
               },
               {
                 text: "Fisika Inti (Nuklir)",
                 description: [
-                "Fokus meneliti 'jantung' dari atom, yaitu nukleus.",
-                "Mempelajari gaya kuat yang mengikat proton dan neutron, serta pemanfaatan reaksi fisi dan fusi."]
+                  "Fokus meneliti 'jantung' dari atom, yaitu nukleus.",
+                  "Mempelajari gaya kuat yang mengikat proton dan neutron, serta pemanfaatan reaksi fisi dan fusi."
+                ]
               },
               {
                 text: "Fisika Partikel",
-                description:
-                "Berburu partikel paling fundamental yang menyusun alam semesta (seperti Quark dan Higgs Boson) menggunakan mesin akselerator raksasa."
+                description: "Berburu partikel paling fundamental yang menyusun alam semesta (seperti Quark dan Higgs Boson) menggunakan mesin akselerator raksasa."
               }]
             }
           },
           {
             text: "Fisika Terapan & Interdisipliner (The Innovation)",
-            description:
-            "Fisika tidak cuma berdiam diri di lab, tapi juga berkolaborasi dengan bidang ilmu lain untuk melahirkan inovasi masa depan.",
+            description: "Fisika tidak cuma berdiam diri di lab, tapi juga berkolaborasi dengan bidang ilmu lain untuk melahirkan inovasi masa depan.",
             children: {
               type: "unordered",
               items: [
               {
                 text: "Astrofisika & Kosmologi",
                 description: [
-                "Fisika yang menatap langit.",
-                "Mempelajari sifat fisik benda-benda langit, jalannya bintang, hingga bagaimana alam semesta ini bermula (Big Bang) dan bagaimana ia akan berakhir."]
+                  "Fisika yang menatap langit.",
+                  "Mempelajari sifat fisik benda-benda langit, jalannya bintang, hingga bagaimana alam semesta ini bermula (Big Bang) dan bagaimana ia akan berakhir."
+                ]
               },
               {
                 text: "Biofisika",
                 description: [
-                "Jembatan antara fisika dan biologi.",
-                "Menganalisis fenomena biologis makhluk hidup (seperti mekanisme kerja sel atau aliran impuls saraf di otak) menggunakan prinsip-prinsip fisika."]
+                  "Jembatan antara fisika dan biologi.",
+                  "Menganalisis fenomena biologis makhluk hidup (seperti mekanisme kerja sel atau aliran impuls saraf di otak) menggunakan prinsip-prinsip fisika."
+                ]
               },
               {
                 text: "Geofisika",
-                description:
-                "Menggunakan metode fisik (seperti gelombang seismik) untuk mengintip isi perut bumi dan memetakan potensi gempa atau struktur geologi."
+                description: "Menggunakan metode fisik (seperti gelombang seismik) untuk mengintip isi perut bumi dan memetakan potensi gempa atau struktur geologi."
               },
               {
                 text: "Fisika Komputasi",
-                description:
-                "Ketika rumus matematika fisika sudah terlalu rumit untuk dihitung manual, baris-baris kode (coding) dan simulasi komputer mengambil alih untuk memprediksi fenomena kompleks."
+                description: "Ketika rumus matematika fisika sudah terlalu rumit untuk dihitung manual, baris-baris kode (coding) dan simulasi komputer mengambil alih untuk memprediksi fenomena kompleks."
               }]
             }
           }]
@@ -260,15 +250,16 @@ const apaitufisika = {
         list: {
           type: "ordered",
           items: [
-          {
-            text: "Ilmu Kimia memerlukan konsep struktur atom dan energi ikatan (Fisika)."
-          },
-          {
-            text: "Ilmu Biologi menggunakan prinsip mekanika dan fluida pada sistem peredaran darah serta kerja otot tubuh."
-          },
-          {
-            text: "Ilmu Teknik/Rekayasa menerapkan hukum-hukum fisika untuk merancang gedung, jembatan, mesin, hingga roket."
-          }]
+            {
+              text: "Ilmu Kimia memerlukan konsep struktur atom dan energi ikatan (Fisika)."
+            },
+            {
+              text: "Ilmu Biologi menggunakan prinsip mekanika dan fluida pada sistem peredaran darah serta kerja otot tubuh."
+            },
+            {
+              text: "Ilmu Teknik/Rekayasa menerapkan hukum-hukum fisika untuk merancang gedung, jembatan, mesin, hingga roket."
+            }
+          ]
         }
       }
     ]
@@ -284,27 +275,23 @@ const apaitufisika = {
         list: {
           type: "unordered",
           items: [
-          {
-            text: "📱 Smartphone & Internet",
-            description:
-            "Berbasis mekanika kuantum pada semikonduktor chip-nya."
-          },
-          {
-            text: "🚗 Kendaraan Listrik",
-            description:
-            "Memanfaatkan prinsip elektromagnetisme dan konversi energi."
-          },
-          {
-            text: "🏥 Dunia Medis (MRI & X-Ray",
-            description:
-            "Menggunakan teknologi fisika inti dan gelombang untuk memindai bagian dalam tubuh manusia tanpa pembedahan."
-          },
-          {
-            text: "☀️ Panel Surya & Satelit:",
-            description:
-            "Menggunakan efek fotolistrik dan mekanika orbital."
-          }]
-
+            {
+              text: "📱 Smartphone & Internet",
+              description: "Berbasis mekanika kuantum pada semikonduktor chip-nya."
+            },
+            {
+              text: "🚗 Kendaraan Listrik",
+              description: "Memanfaatkan prinsip elektromagnetisme dan konversi energi."
+            },
+            {
+              text: "🏥 Dunia Medis (MRI & X-Ray",
+              description: "Menggunakan teknologi fisika inti dan gelombang untuk memindai bagian dalam tubuh manusia tanpa pembedahan."
+            },
+            {
+              text: "☀️ Panel Surya & Satelit:",
+              description: "Menggunakan efek fotolistrik dan mekanika orbital."
+            }
+          ]
         }
       }
     ]
@@ -318,12 +305,11 @@ const apaitufisika = {
       },
       {
         type: "paragraph",
-        text: "Fisikawan itu tidak selalu berakhir menjadi profesor berkacamata tebal yang mengurung diri di laboratorium, lho!"
+        text: [
+          "Fisikawan itu tidak selalu berakhir menjadi profesor berkacamata tebal yang mengurung diri di laboratorium, lho!",
+          "Kemampuan problem solving dan pemodelan matematis anak fisika membuat mereka banyak dicari di berbagai industri kreatif, perusahaan teknologi raksasa (Tech Giants), lembaga antariksa (seperti NASA/BRIN), dunia finansial, hingga pengembangan Artificial Intelligence (AI)."
+        ]
       },
-      {
-        type: "paragraph",
-        text: "Kemampuan problem solving dan pemodelan matematis anak fisika membuat mereka banyak dicari di berbagai industri kreatif, perusahaan teknologi raksasa (Tech Giants), lembaga antariksa (seperti NASA/BRIN), dunia finansial, hingga pengembangan Artificial Intelligence (AI)."
-      }
     ]
   },
   { heading: "⚠️ Miskonsepsi", 
@@ -348,7 +334,9 @@ const apaitufisika = {
     blocks: [
       {
         type: "paragraph",
-        text: "Fisika adalah ilmu yang mempelajari hukum-hukum fundamental alam semesta untuk menjelaskan berbagai fenomena, mulai dari skala sub-atomik (mikroskopis) yang tak kasat mata hingga skala kosmik (makroskopis) yang megah."
+        text: [
+          "Fisika adalah ilmu yang mempelajari hukum-hukum fundamental alam semesta untuk menjelaskan berbagai fenomena, mulai dari skala sub-atomik (mikroskopis) yang tak kasat mata hingga skala kosmik (makroskopis) yang megah."
+        ]
       }
     ]
   },
@@ -379,8 +367,7 @@ const apaitufisika = {
             answerIndex: 3
           },
           {
-            question:
-            "Peristiwa berikut yang merupakan contoh fenomena fisika adalah....",
+            question: "Peristiwa berikut yang merupakan contoh fenomena fisika adalah....",
             options: [
               "Daun membuat makanan melalui fotosintesis",
               "Batu jatuh ke tanah karena gravitasi",
@@ -413,8 +400,7 @@ const apaitufisika = {
             answerIndex: 3
           },
           {
-            question:
-            "Pernyataan yang paling tepat mengenai fisika adalah....",
+            question: "Pernyataan yang paling tepat mengenai fisika adalah....",
             options: [
               "Fisika hanya mempelajari benda yang bergerak.",
               "Fisika hanya digunakan di laboratorium.",
@@ -460,41 +446,31 @@ const apaitufisika = {
   {
     link: "/materi/hakikat-ilmu-fisika",
     blocks: [
-    {
-      type: "image",
-      src: nextmissionhakikatilmufisikaImg,
-      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya."
-    },
-    {
-      type: "paragraph",
-      text: "Mungkin, sekarang kamu sudah apa itu fisika serta cabang-cabang serunya."
-    },
-    {
-      type: "paragraph",
-      text: "Namun, setelah tahu objek kajiannya, apa sebenarnya esensi atau 'Hakikat' dari ilmu fisika itu sendiri bagi peradaban?"
-    },
-    {
-      type: "paragraph",
-      text: "➡️ Next, kita menuju portal: Hakikat Ilmu Fisika."
-    }]
+      {
+        type: "image",
+        src: nextmissionhakikatilmufisikaImg,
+        caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya."
+      },
+      {
+        type: "paragraph",
+        text: [
+          "Mungkin, sekarang kamu sudah apa itu fisika serta cabang-cabang serunya.",
+          "Namun, setelah tahu objek kajiannya, apa sebenarnya esensi atau 'Hakikat' dari ilmu fisika itu sendiri bagi peradaban?",
+          "➡️ Next, kita menuju portal: [**Hakikat Ilmu Fisika.**](/materi/hakikat-ilmu-fisika)"
+        ]
+      }
+    ]
   },
   { heading: "Referensi:", 
     blocks: [
       {
         type: "paragraph",
-        text: "Halliday, Resnick & Walker. Fundamentals of Physics."
-      },
-      {
-        type: "paragraph",
-        text: "Serway & Jewett. Physics for Scientists and Engineers."
-      },
-      {
-        type: "paragraph",
-        text: "Young & Freedman. University Physics with Modern Physics."
-      },
-      {
-        type: "paragraph",
-        text: "Kemendikbudristek RI. Buku Fisika SMA/MA."
+        text: [
+          "Halliday, Resnick & Walker. Fundamentals of Physics.",
+          "Serway & Jewett. Physics for Scientists and Engineers.",
+          "Young & Freedman. University Physics with Modern Physics.",
+          "Kemendikbudristek RI. Buku Fisika SMA/MA."
+        ]
       }
     ]
   }]

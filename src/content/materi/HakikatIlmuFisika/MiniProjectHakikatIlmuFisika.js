@@ -267,12 +267,12 @@ const miniprojecthakikatilmufisika = {
     blocks: [
     {
       type: "paragraph",
-      text: "Selamat! Kamu telah menyelesaikan proyek pertamamu."
-    },
-    {
-      type: "paragraph",
-      text: "➡️ Next, kita menuju portal terakhir: Penutup Chapter."
-    }]
+      text: [
+        "Selamat! Kamu telah menyelesaikan proyek pertamamu.",
+        "➡️ Next, kita menuju portal terakhir: [Penutup Chapter](/materi/penutup-hakikat-fisika)."
+      ]
+    }
+  ]
 
   },
   { heading: "Referensi:", 

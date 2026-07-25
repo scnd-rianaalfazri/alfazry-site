@@ -186,31 +186,17 @@ const metodeilmiah = {
   { heading: "📊 Ringkasan Konsep", 
     blocks: [
       { type: "paragraph", 
-        text: "Pertanyaan" 
-      },
-      { type: "paragraph", 
-        text: "⬇️" 
-      },
-      { type: "paragraph", 
-        text: "Penyelidikan" 
-      },
-      { type: "paragraph", 
-        text: "⬇️" 
-      },
-      { type: "paragraph", 
-        text: "Data" 
-      },
-      { type: "paragraph", 
-        text: "⬇️" 
-      },
-      { type: "paragraph", 
-        text: "Kesimpulan" 
-      },
-      { type: "paragraph", 
-        text: "⬇️" 
-      },
-      { type: "paragraph", 
-        text: "Pengetahuan Baru" 
+        text: [
+          "Pertanyaan",
+          "⬇️",
+          "Penyelidikan",
+          "⬇️",
+          "Data",
+          "⬇️",
+          "Kesimpulan",
+          "⬇️",
+          "Pengetahuan Baru"
+        ]
       }
     ]
   },
@@ -231,51 +217,56 @@ const metodeilmiah = {
           {
             question: "Yang dimaksud metode ilmiah adalah....",
             options: [
-            "Cara menghafal teori dan rumus fisika.",
-            "Cara kerja yang sistematis untuk memperoleh pengetahuan berdasarkan pengamatan, bukti, dan penalaran logis.",
-            "Proses membuat alat-alat laboratorium.",
-            "Cara menyelesaikan soal fisika tanpa melakukan pengamatan.",
-            "Metode yang hanya digunakan oleh ilmuwan di laboratorium."],
+              "Cara menghafal teori dan rumus fisika.",
+              "Cara kerja yang sistematis untuk memperoleh pengetahuan berdasarkan pengamatan, bukti, dan penalaran logis.",
+              "Proses membuat alat-alat laboratorium.",
+              "Cara menyelesaikan soal fisika tanpa melakukan pengamatan.",
+              "Metode yang hanya digunakan oleh ilmuwan di laboratorium."
+            ],
             answerIndex: 1
           },
           {
             question: "Mengapa metode ilmiah diperlukan dalam penelitian?",
             options: [
-            "Agar hasil penelitian selalu sesuai dengan hipotesis.",
-            "Agar kesimpulan didasarkan pada dugaan pribadi.",
-            "Agar kesimpulan didukung oleh data yang dapat diuji dan diulang.",
-            "Agar penelitian dapat selesai lebih cepat.",
-            "Agar eksperimen tidak perlu dilakukan."],
+              "Agar hasil penelitian selalu sesuai dengan hipotesis.",
+              "Agar kesimpulan didasarkan pada dugaan pribadi.",
+              "Agar kesimpulan didukung oleh data yang dapat diuji dan diulang.",
+              "Agar penelitian dapat selesai lebih cepat.",
+              "Agar eksperimen tidak perlu dilakukan."
+            ],
             answerIndex: 2
           },
           {
             question: "Manakah urutan tahapan metode ilmiah yang paling tepat?",
             options: [
-            "Hipotesis → Kesimpulan → Observasi → Eksperimen → Analisis.",
-            "Observasi → Merumuskan masalah → Hipotesis → Eksperimen → Analisis → Kesimpulan → Mengomunikasikan hasil.",
-            "Eksperimen → Observasi → Hipotesis → Kesimpulan → Analisis.",
-            "Merumuskan masalah → Kesimpulan → Eksperimen → Hipotesis.",
-            "Analisis → Observasi → Eksperimen → Kesimpulan → Hipotesis."],
+              "Hipotesis → Kesimpulan → Observasi → Eksperimen → Analisis.",
+              "Observasi → Merumuskan masalah → Hipotesis → Eksperimen → Analisis → Kesimpulan → Mengomunikasikan hasil.",
+              "Eksperimen → Observasi → Hipotesis → Kesimpulan → Analisis.",
+              "Merumuskan masalah → Kesimpulan → Eksperimen → Hipotesis.",
+              "Analisis → Observasi → Eksperimen → Kesimpulan → Hipotesis."
+            ],
             answerIndex: 1
           },
           {
             question: "Jika hasil eksperimen tidak mendukung hipotesis, seorang ilmuwan sebaiknya....",
             options: [
-            "Mengubah data agar sesuai dengan hipotesis.",
-            "Mengabaikan hasil eksperimen dan tetap mempertahankan hipotesis.",
-            "Memperbaiki hipotesis atau merancang eksperimen baru berdasarkan hasil yang diperoleh.",
-            "Menghentikan penelitian karena dianggap gagal.",
-            "Menyalin hasil penelitian orang lain."],
+              "Mengubah data agar sesuai dengan hipotesis.",
+              "Mengabaikan hasil eksperimen dan tetap mempertahankan hipotesis.",
+              "Memperbaiki hipotesis atau merancang eksperimen baru berdasarkan hasil yang diperoleh.",
+              "Menghentikan penelitian karena dianggap gagal.",
+              "Menyalin hasil penelitian orang lain."
+            ],
             answerIndex: 2
           },
           {
             question: "Pernyataan yang benar mengenai metode ilmiah adalah....",
             options: [
-            "Metode ilmiah hanya digunakan dalam pelajaran fisika.",
-            "Metode ilmiah merupakan aturan yang kaku dan tidak dapat disesuaikan.",
-            "Metode ilmiah digunakan untuk memperoleh pengetahuan yang objektif berdasarkan bukti.",
-            "Metode ilmiah bertujuan membuktikan bahwa hipotesis selalu benar.",
-            "Metode ilmiah hanya dilakukan oleh ilmuwan profesional."],
+              "Metode ilmiah hanya digunakan dalam pelajaran fisika.",
+              "Metode ilmiah merupakan aturan yang kaku dan tidak dapat disesuaikan.",
+              "Metode ilmiah digunakan untuk memperoleh pengetahuan yang objektif berdasarkan bukti.",
+              "Metode ilmiah bertujuan membuktikan bahwa hipotesis selalu benar.",
+              "Metode ilmiah hanya dilakukan oleh ilmuwan profesional."
+            ],
             answerIndex: 2
           }],
           scoring: [

@@ -155,12 +155,10 @@ const merancangEksperimen = {
   },
   { heading: "🌍 Contoh Rancangan Eksperimen", 
     blocks: [
-      { type: "paragraph", 
-        text: "Pertanyaan:" 
-      },
       {
         type: "paragraph",
         text: [
+          "Pertanyaan:",
           "Apakah panjang tali memengaruhi periode bandul?",
           "Mari kita breakdown rencana pengujian kita ke dalam struktur rancangan yang rapi:"
         ],
@@ -221,31 +219,17 @@ const merancangEksperimen = {
   { heading: "📊 Ringkasan Konsep", 
     blocks: [
       { type: "paragraph", 
-        text: "Hipotesis" 
-      },
-      { type: "paragraph", 
-        text: "⬇️" 
-      },
-      { type: "paragraph", 
-        text: "Menentukan Variabel" 
-      },
-      { type: "paragraph", 
-        text: "⬇️" 
-      },
-      { type: "paragraph", 
-        text: "Menyusun Prosedur" 
-      },
-      { type: "paragraph", 
-        text: "⬇️" 
-      },
-      { type: "paragraph", 
-        text: "Melakukan Percobaan" 
-      },
-      { type: "paragraph", 
-        text: "⬇️" 
-      },
-      { type: "paragraph", 
-        text: "Mengumpulkan Data" 
+        text: [
+          "Hipotesis",
+          "⬇️",
+          "Menentukan Variabel",
+          "⬇️",
+          "Menyusun Prosedur",
+          "⬇️",
+          "Melakukan Percobaan",
+          "⬇️",
+          "Mengumpulkan Data"
+        ]
       }
     ]
   },
@@ -266,85 +250,88 @@ const merancangEksperimen = {
           {
             question: "Tujuan utama melakukan eksperimen adalah....",
             options: [
-            "Menghafal langkah-langkah praktikum.",
-            "Menguji hipotesis melalui percobaan yang terencana.",
-            "Membuktikan bahwa semua hipotesis pasti benar.",
-            "Menghasilkan alat laboratorium baru.",
-            "Mengurangi jumlah data yang dikumpulkan."],
+              "Menghafal langkah-langkah praktikum.",
+              "Menguji hipotesis melalui percobaan yang terencana.",
+              "Membuktikan bahwa semua hipotesis pasti benar.",
+              "Menghasilkan alat laboratorium baru.",
+              "Mengurangi jumlah data yang dikumpulkan."
+            ],
             answerIndex: 1
           },
           {
-            question:
-            "Dalam eksperimen tentang pengaruh panjang tali terhadap periode ayunan bandul, variabel bebas adalah....",
+            question: "Dalam eksperimen tentang pengaruh panjang tali terhadap periode ayunan bandul, variabel bebas adalah....",
             options: [
-            "Massa bandul.",
-            "Sudut awal ayunan.",
-            "Periode ayunan bandul.",
-            "Panjang tali bandul.",
-            "Lokasi percobaan."],
+              "Massa bandul.",
+              "Sudut awal ayunan.",
+              "Periode ayunan bandul.",
+              "Panjang tali bandul.",
+              "Lokasi percobaan."
+            ],
             answerIndex: 3
           },
           {
-            question:
-            "Manakah yang merupakan variabel terikat pada eksperimen bandul?",
+            question: "Manakah yang merupakan variabel terikat pada eksperimen bandul?",
             options: [
-            "Panjang tali.",
-            "Massa bandul.",
-            "Periode ayunan bandul.",
-            "Jenis tali yang digunakan.",
-            "Suhu ruangan."],
+              "Panjang tali.",
+              "Massa bandul.",
+              "Periode ayunan bandul.",
+              "Jenis tali yang digunakan.",
+              "Suhu ruangan."
+            ],
             answerIndex: 2
           },
           {
-            question:
-            "Mengapa variabel kontrol perlu dijaga tetap selama eksperimen?",
+            question: "Mengapa variabel kontrol perlu dijaga tetap selama eksperimen?",
             options: [
-            "Agar percobaan selesai lebih cepat.",
-            "Agar hasil percobaan terlihat lebih menarik.",
-            "Agar pengaruh variabel bebas terhadap hasil dapat diamati dengan adil.",
-            "Agar tidak perlu melakukan pengukuran.",
-            "Agar semua hipotesis terbukti benar."],
+              "Agar percobaan selesai lebih cepat.",
+              "Agar hasil percobaan terlihat lebih menarik.",
+              "Agar pengaruh variabel bebas terhadap hasil dapat diamati dengan adil.",
+              "Agar tidak perlu melakukan pengukuran.",
+              "Agar semua hipotesis terbukti benar."]
+              ,
             answerIndex: 2
           },
           {
             question: "Pernyataan yang benar mengenai fair test adalah....",
             options: [
-            "Semua variabel harus diubah secara bersamaan.",
-            "Variabel terikat harus dibuat tetap.",
-            "Eksperimen cukup dilakukan satu kali tanpa pengulangan.",
-            "Hasil eksperimen harus selalu sesuai dengan hipotesis.",
-            "Hanya satu variabel bebas yang diubah, sedangkan variabel lainnya dikendalikan."],
+              "Semua variabel harus diubah secara bersamaan.",
+              "Variabel terikat harus dibuat tetap.",
+              "Eksperimen cukup dilakukan satu kali tanpa pengulangan.",
+              "Hasil eksperimen harus selalu sesuai dengan hipotesis.",
+              "Hanya satu variabel bebas yang diubah, sedangkan variabel lainnya dikendalikan."
+            ],
             answerIndex: 4
           }],
           scoring: [
-          {
-            min: 5,
-            max: 5,
-            emoji: "🏆",
-            title: "Mission Complete!",
-            message: "Kamu siap memasuki portal berikutnya."
-          },
-          {
-            min: 4,
-            max: 4,
-            emoji: "🚀",
-            title: "Hampir Sempurna",
-            message: "Pemahamanmu sudah sangat baik."
-          },
-          {
-            min: 2,
-            max: 3,
-            emoji: "🔄",
-            title: "Perlu Sedikit Lagi",
-            message: "Coba eksplorasi lagi bagian inti materi."
-          },
-          {
-            min: 0,
-            max: 1,
-            emoji: "📖",
-            title: "Ulangi Petualangan",
-            message: "Tenang, ulangi petualanganmu dari awal."
-          }]
+            {
+              min: 5,
+              max: 5,
+              emoji: "🏆",
+              title: "Mission Complete!",
+              message: "Kamu siap memasuki portal berikutnya."
+            },
+            {
+              min: 4,
+              max: 4,
+              emoji: "🚀",
+              title: "Hampir Sempurna",
+              message: "Pemahamanmu sudah sangat baik."
+            },
+            {
+              min: 2,
+              max: 3,
+              emoji: "🔄",
+              title: "Perlu Sedikit Lagi",
+              message: "Coba eksplorasi lagi bagian inti materi."
+            },
+            {
+              min: 0,
+              max: 1,
+              emoji: "📖",
+              title: "Ulangi Petualangan",
+              message: "Tenang, ulangi petualanganmu dari awal."
+            }
+          ]
         }
       }
     ]
@@ -352,14 +339,14 @@ const merancangEksperimen = {
   {
     link: "/materi/mengolah-data",
     blocks: [
-    {
-      type: "paragraph",
-      text: "Setelah eksperimen selesai dilakukan, data yang diperoleh harus diolah dan dianalisis."
-    },
-    {
-      type: "paragraph",
-      text: "➡️ Next, kita menuju portal: Mengolah & Menafsirkan Data."
-    }]
+      {
+        type: "paragraph",
+        text: [
+          "Setelah eksperimen selesai dilakukan, data yang diperoleh harus diolah dan dianalisis.",
+          "➡️ Next, kita menuju portal: [**Mengolah & Menafsirkan Data**](/materi/mengolah-dan-menafsirkan-data)."
+        ] 
+      }
+    ]
   },
   { heading: "Referensi:", 
     blocks: [

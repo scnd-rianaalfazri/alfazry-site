@@ -300,7 +300,7 @@ const hakikatimufisika = {
       text: [
         "Kita sudah mengenal tiga pilar hakikat fisika.",
         "Sekarang kita akan mempelajari pilar pertama.",
-        "➡️ Next, kita menuju portal: Fisika sebagai Produk."
+        "➡️ Next, kita menuju portal: [**Fisika sebagai Produk.**](/materi/fisika-sebagai-produk)"
       ]
     }]
   },

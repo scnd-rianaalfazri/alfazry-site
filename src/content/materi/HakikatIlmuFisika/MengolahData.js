@@ -13,9 +13,7 @@ const mengolahdata = {
         type: "paragraph",
         text: [
           "Bayangkan kamu telah melakukan percobaan keren sebanyak sepuluh kali. Selesai nyatet semuanya di buku log.",
-          "",
           "Apakah petualangan penelitianmu sudah beres sampai di situ?",
-          "",
           "Eits, belum dong! 🛑 Data-data angka itu barulah baris misterius yang belum bersuara. Biar bermakna dan bisa nge-spill jawabannya, data mentah tersebut harus kita olah dan analisis terlebih dahulu!"
         ]
       }
@@ -275,7 +273,7 @@ const mengolahdata = {
         type: "paragraph",
         text: [
           "Setelah data berhasil dianalisis, saatnya menyusun kesimpulan dan mengomunikasikan hasil penelitian.",
-          "➡️ Next, kita menuju portal: Kesimpulan & Komunikasi Ilmiah."
+          "➡️ Next, kita menuju portal: [**Kesimpulan & Komunikasi Ilmiah**](/materi/kesimpulan-komunikasi-ilmiah)."
         ]
       }
     ]

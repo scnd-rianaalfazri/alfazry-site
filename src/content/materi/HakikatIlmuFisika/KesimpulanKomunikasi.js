@@ -314,7 +314,7 @@ const kesimpulankomunikasi = {
     },
     {
       type: "paragraph",
-      text: "➡️ Next, kita menuju portal: Keselamatan Kerja Laboratorium."
+      text: "➡️ Next, kita menuju portal: [**Keselamatan Kerja Laboratorium**](/materi/keselamatan-kerja-laboratorium)."
     }]
 
   },

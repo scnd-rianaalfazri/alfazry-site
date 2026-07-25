@@ -444,16 +444,11 @@ const kelajuandankecepatan = {
       heading: "🚀 Next Mission",
       blocks: [
         {
-          type: "heading",
-          text: "🚀 Next Mission"
-        },
-        {
           type: "paragraph",
-          text: "Bagaimana jika kelajuan atau kecepatan suatu benda tidak konstan alias berubah-ubah seiring waktu? Bikin makin cepat atau makin lambat?"
-        },
-        {
-          type: "paragraph",
-          text: "➡️ *Next*, kita menuju portal: [**Percepatan (Acceleration)**](/materi/percepatan)."
+          text: [
+            "Bagaimana jika kelajuan atau kecepatan suatu benda tidak konstan alias berubah-ubah seiring waktu? Bikin makin cepat atau makin lambat?",
+            "➡️ *Next*, kita menuju portal: [**Percepatan (Acceleration)**](/materi/percepatan)."
+          ] 
         }
       ]
     }

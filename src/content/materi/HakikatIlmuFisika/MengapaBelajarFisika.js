@@ -432,7 +432,7 @@ const mengapabelajarfisika = {
         "Sekarang kita udah tau kan? Secara tidak sadar fisika juga ada disekitar kita.",
         "Lalu sebenarnya...",
         "Apa yang dipelajari dalam fisika?",
-        "➡️ Next, kita menuju portal: [Apa Itu Fisika?](/materi/apa-itu-fisika)"
+        "➡️ Next, kita menuju portal: [**Apa Itu Fisika?**](/materi/apa-itu-fisika)"
       ]
     }]
   },

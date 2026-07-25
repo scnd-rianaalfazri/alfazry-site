@@ -231,7 +231,7 @@ const keselamatanlaboratorium = {
           type: "paragraph",
           text: [
             "Cara berpikir ilmiah tidak berhenti di laboratorium.",
-            "➡️ Next, kita menuju portal: Sains dalam Kehidupan Sehari-hari."
+            "➡️ Next, kita menuju portal: [**Sains dalam Kehidupan Sehari-hari**](/materi/sains-dalam-kehidupan)."
           ]
         },
       ]

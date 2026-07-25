@@ -203,6 +203,100 @@ const gerakvertikalbawah = {
         }
       ]
     },
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+            {
+              question: "Gerak Vertikal ke Bawah (GVB) adalah....",
+              options: [
+                "gerak benda yang dijatuhkan tanpa kecepatan awal.",
+                "gerak benda yang dilempar ke atas dengan kecepatan awal tertentu.",
+                "gerak benda yang bergerak vertikal ke bawah dengan kecepatan awal dan dipengaruhi oleh gravitasi.",
+                "gerak benda yang bergerak horizontal dengan kecepatan tetap.",
+                "gerak benda yang memiliki percepatan nol."
+              ],
+              answerIndex: 2
+            },
+            {
+              question: "Perbedaan utama antara Gerak Vertikal ke Bawah (GVB) dan Gerak Jatuh Bebas (GJB) adalah....",
+              options: [
+                "GVB memiliki kecepatan awal, sedangkan GJB dimulai dari keadaan diam.",
+                "GVB tidak dipengaruhi gravitasi, sedangkan GJB dipengaruhi gravitasi.",
+                "GVB memiliki percepatan nol, sedangkan GJB memiliki percepatan tetap.",
+                "GVB bergerak ke atas, sedangkan GJB bergerak ke bawah.",
+                "GVB memiliki kecepatan tetap, sedangkan GJB memiliki kecepatan yang berubah."
+              ],
+              answerIndex: 0
+            },
+            {
+              question: "Sebuah batu dilempar vertikal ke bawah dengan kecepatan awal 5 m/s. Jika percepatan gravitasi 10 m/s², berapakah kecepatan batu setelah 2 sekon?",
+              options: [
+                "10 m/s.",
+                "15 m/s.",
+                "20 m/s.",
+                "25 m/s.",
+                "30 m/s."
+              ],
+              answerIndex: 3
+            },
+            {
+              question: "Sebuah benda dilempar ke bawah dengan kecepatan awal 5 m/s dari ketinggian 20 meter. Jika g = 10 m/s², kecepatan benda sesaat sebelum menyentuh tanah adalah sekitar....",
+              options: [
+                "15,62 m/s.",
+                "18,25 m/s.",
+                "20,62 m/s.",
+                "25,00 m/s.",
+                "30,62 m/s."
+              ],
+              answerIndex: 2
+            },
+            {
+              question: "Pernyataan yang benar mengenai Gerak Vertikal ke Bawah adalah....",
+              options: [
+                "semua benda yang bergerak ke bawah pasti mengalami Gerak Jatuh Bebas.",
+                "GVB memiliki kecepatan awal nol, sedangkan GJB memiliki kecepatan awal tertentu.",
+                "GVB merupakan GLBB dipercepat karena arah gerak benda searah dengan gravitasi.",
+                "pada GVB, kecepatan benda selalu tetap selama bergerak.",
+                "GVB tidak dipengaruhi oleh percepatan gravitasi."
+                ],
+              answerIndex: 2
+            }],
+            scoring: [
+            {
+              min: 5,
+              max: 5,
+              emoji: "🏆",
+              title: "Mission Complete!",
+              message: "Kamu siap memasuki portal berikutnya."
+            },
+            {
+              min: 4,
+              max: 4,
+              emoji: "🚀",
+              title: "Hampir Sempurna",
+              message: "Pemahamanmu sudah sangat baik."
+            },
+            {
+              min: 2,
+              max: 3,
+              emoji: "🔄",
+              title: "Perlu Sedikit Lagi",
+              message: "Coba eksplorasi lagi bagian inti materi."
+            },
+            {
+              min: 0,
+              max: 1,
+              emoji: "📖",
+              title: "Ulangi Petualangan",
+              message: "Tenang, ulangi petualanganmu dari awal."
+            }]
+          }
+        }
+      ]
+    },
     {
       heading: "🚀 Next Mission",
       blocks: [
