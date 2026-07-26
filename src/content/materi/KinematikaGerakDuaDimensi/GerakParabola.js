@@ -2,7 +2,7 @@ const gerakParabola = {
   title: "Gerak Parabola",
   slug: "gerak-parabola",
   description: "Memahami konsep dasar gerak parabola sebagai gabungan gerak horizontal dan vertikal yang menghasilkan lintasan melengkung.",
-  chapter: "🌌 Kinematika: Gerak Dua Dimensi",
+  chapter: "🏀 Kinematika: Gerak Dua Dimensi",
   content: [
     {
       heading: "🏀 Mengapa Bola Bisa Terbang Membentuk Lintasan Melengkung?",

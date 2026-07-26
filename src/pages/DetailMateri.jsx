@@ -207,6 +207,20 @@ export default function DetailMateri() {
                 </div>
               )}
 
+              {/* Equation milik item ini (opsional, boleh satu atau beberapa) */}
+              {item.equation && (
+                <div className="pl-8 md:pl-9 mt-2">
+                  <MathEquation equation={item.equation} variant="compact" />
+                </div>
+              )}
+
+              {/* Tabel milik item ini (opsional) */}
+              {item.table && (
+                <div className="pl-8 md:pl-9 mt-2">
+                  {renderTable(item.table)}
+                </div>
+              )}
+
               {/* Sub-list (list bercabang) — indent ke kanan tiap level */}
               {item.children && (
                 <div className="pl-8 md:pl-9 mt-2">
@@ -226,10 +240,16 @@ export default function DetailMateri() {
   //   list: "teks biasa"                         -> paragraf (fallback)
   //
   //   List bercabang + penjelasan per item: tiap item di `items` boleh
-  //   diganti object { text, description, children }:
+  //   diganti object { text, description, equation, table, children }:
   //     - text        -> teks poinnya (wajib kalau pakai object)
   //     - description -> paragraf penjelasan di bawah poin itu (opsional,
   //                      boleh string atau array of string buat banyak paragraf)
+  //     - equation    -> rumus di bawah poin itu (opsional, boleh satu
+  //                      string, atau array of string buat beberapa rumus;
+  //                      dirender ringkas/compact biar proporsional sebagai
+  //                      "anak" dari poin, bukan sebesar equation block biasa)
+  //     - table       -> tabel di bawah poin itu (opsional, format sama
+  //                      persis kayak block "table": { headers, rows })
   //     - children    -> sub-list di bawah paragraf (opsional, format sama
   //                      persis kayak `list`, jadi bisa berlapis-lapis)
   //
@@ -242,8 +262,16 @@ export default function DetailMateri() {
   //         description: "Penjelasan singkat soal langkah pertama.",
   //       },
   //       {
-  //         text: "Langkah kedua (punya sub-langkah)",
+  //         text: "Langkah kedua (ada rumus & tabel pendukung)",
   //         description: "Penjelasan langkah kedua.",
+  //         equation: "V_p / V_s = N_p / N_s",
+  //         table: {
+  //           headers: ["Variabel", "Arti"],
+  //           rows: [
+  //             ["V_p", "Tegangan primer"],
+  //             ["V_s", "Tegangan sekunder"],
+  //           ],
+  //         },
   //         children: {
   //           type: "unordered",
   //           items: [

@@ -155,7 +155,7 @@ const pengantarGerakDuaDimensi = {
           type: "paragraph",
           text: [
             "*'Gerak horizontal dan vertikal saling mempengaruhi dan mengubah satu sama lain.'* ❌ ",
-            "Faktanya, dalam kondisi ideal (tanpa hambatan udara), gerak horizontal dan vertikal bersifat independen (saling bebas)! Gravitasi hanya mempengaruhi komponen vertikal (Sumbu Y), sedangkan kecepatan horizontal (Sumbu X) akan tetap konstan.  ✔️"
+            "Faktanya, dalam kondisi ideal (tanpa hambatan udara), gerak horizontal dan vertikal bersifat independen (saling bebas)! Gravitasi hanya mempengaruhi komponen vertikal (Sumbu Y), sedangkan kecepatan horizontal (Sumbu X) akan tetap konstan. ✔️"
           ]
         },
       ]

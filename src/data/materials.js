@@ -60,6 +60,7 @@ import PengantarGerakDuaDimensi from "../content/materi/KinematikaGerakDuaDimens
 import AnalisisSumbuXDanY from "../content/materi/KinematikaGerakDuaDimensi/AnalisisSumbuXDanY.js"
 import GerakParabola from "../content/materi/KinematikaGerakDuaDimensi/GerakParabola.js"
 import GerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi/GerakMelingkar.js"
+import HorizontalVertikalParabola from "../content/materi/KinematikaGerakDuaDimensi/HorizontalVertikalParabola.js"
 
 /* dinamika dasar */
 import PengantarDinamika from "../content/materi/DinamikaGayaDanHukumNewton/PengantarDinamika.js"
@@ -546,6 +547,7 @@ export const materials = [
   PengantarGerakDuaDimensi,
   AnalisisSumbuXDanY,
   GerakParabola,
+  HorizontalVertikalParabola,
   GerakMelingkar,
 
   /* Chapter : Dinamika Dasar */

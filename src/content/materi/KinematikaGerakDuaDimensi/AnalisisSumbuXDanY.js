@@ -46,10 +46,10 @@ const analisissumbuxdany = {
             type: "unordered",
             items: [
               {
-                text: "Sumbu X digunakan untuk menunjukkan posisi horizontal."
+                text: "Sumbu $x$ digunakan untuk menunjukkan posisi horizontal."
               },
               {
-                text: "Sumbu Y digunakan untuk menunjukkan posisi vertikal."
+                text: "Sumbu $y$ digunakan untuk menunjukkan posisi vertikal."
               }
             ]
           }
@@ -57,7 +57,7 @@ const analisissumbuxdany = {
         {
           type: "paragraph",
           text: [
-            "Posisi sebuah benda dapat dituliskan sebagai pasangan koordinat (x, y).",
+            "Posisi sebuah benda dapat dituliskan sebagai pasangan koordinat $(x, y)$.",
             "Contohnya, posisi P(4, 3) berarti benda berada 4 satuan ke arah horizontal dan 3 satuan ke arah vertikal dari titik acuan."
           ]
         }
@@ -78,16 +78,16 @@ const analisissumbuxdany = {
           items: {
             items: [
               {
-                text: "➡️ Arah kanan dianggap positif pada sumbu X."
+                text: "➡️ Arah kanan dianggap positif pada sumbu $x$."
               },
               {
-                text: "⬅️ Arah kiri dianggap negatif pada sumbu X."
+                text: "⬅️ Arah kiri dianggap negatif pada sumbu $x$."
               },
               {
-                text: "⬆️ Arah atas dianggap positif pada sumbu Y."
+                text: "⬆️ Arah atas dianggap positif pada sumbu $y$."
               },
               {
-                text : "⬇️ Arah bawah dianggap negatif pada sumbu Y."
+                text : "⬇️ Arah bawah dianggap negatif pada sumbu $y$."
               }
             ]
           }
@@ -126,18 +126,11 @@ const analisissumbuxdany = {
           ]
         },
         {
-          type: "list",
-          list: {
-            type: "unordered",
-            items: [
-              {
-                text: "$v_{0x} = v_0 \\cos\\theta$"
-              },
-              {
-                text: "$v_{0y} = v_0 \\sin\\theta$"
-              }
-            ]
-          }
+          type: "equation",
+          equation: [
+            "v_{0x} = v_0 \\cos\\theta",
+            "v_{0y} = v_0 \\sin\\theta"
+          ]
         },
         {
           type: "paragraph",
@@ -261,8 +254,18 @@ const analisissumbuxdany = {
           ]
         },
         {
-          type: "paragraph",
-          text: "Diketahui: v₀ = 20 m/s, θ = 30°"
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "$v_0 = 20 m/s$"
+              },
+              {
+                text: "$\\theta = 30\\degree$"
+              }
+            ]
+          }
         },
         {
           type: "list",
@@ -270,12 +273,12 @@ const analisissumbuxdany = {
             type: "ordered",
             items: [
               {
-                text: "Komponen Sumbu X (Horizontal):",
-                description: "$v_{0x} = v_0 \\cos 30^\\circ = 20 \\times \\frac{\\sqrt{3}}{2} = 10\\sqrt{3} \\text{ m/s} \\approx 17.32 \\text{ m/s}$"
+                text: "Komponen Sumbu $x$ (Horizontal):",
+                equation: "v_{0x} = v_0 \\cos 30^\\circ = 20 \\times \\frac{\\sqrt{3}}{2} = 10\\sqrt{3} \\text{ m/s} \\approx 17.32 \\text{ m/s}"
               },
               {
-                text: "2. Komponen Sumbu Y (Vertikal):",
-                description: "$v_{0y} = v_0 \\sin 30^\\circ = 20 \\times \\frac{1}{2} = 10 \\text{ m/s}$"
+                text: "2. Komponen Sumbu $y$ (Vertikal):",
+                equation: "v_{0y} = v_0 \\sin 30^\\circ = 20 \\times \\frac{1}{2} = 10 \\text{ m/s}"
               }
             ]
           }
@@ -290,7 +293,7 @@ const analisissumbuxdany = {
           type: "paragraph",
           text: [
             "Banyak siswa mengira bahwa komponen vektor adalah dua gerakan tambahan yang benar-benar terpisah dari gerak benda.",
-            "Sebenarnya, komponen X dan Y hanyalah cara matematis untuk merepresentasikan satu vektor dalam dua arah yang saling tegak lurus.",
+            "Sebenarnya, komponen $x$ dan $y$ hanyalah cara matematis untuk merepresentasikan satu vektor dalam dua arah yang saling tegak lurus.",
             "Jika kedua komponen digabungkan kembali, kita mendapatkan vektor awal yang sama."
           ]
         }

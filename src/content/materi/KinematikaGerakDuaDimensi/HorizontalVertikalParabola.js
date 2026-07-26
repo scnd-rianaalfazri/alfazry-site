@@ -1,418 +1,226 @@
+import { text } from "framer-motion/client";
+
 const gerakHorizontalDanVertikal = {
   title: "Gerak Horizontal dan Gerak Vertikal pada Gerak Parabola",
   slug: "gerak-horizontal-dan-vertikal-pada-gerakparabola",
-  description: "Memahami bagaimana gerak horizontal dan gerak vertikal bekerja secara bersamaan dalam membentuk lintasan parabola.",
-  chapter: "🌌 Kinematika: Gerak Dua Dimensi",
+  description: "Memahami bagaimana gerak horizontal dan gerak vertikal bekerja secara bersamaan dan independen dalam membentuk lintasan parabola.",
+  chapter: "🏀 Kinematika: Gerak Dua Dimensi",
 
   content: [
     {
       heading: "🧩 Satu Gerak, Dua Arah",
       blocks: [
         {
-          type: "heading",
-          text: "🧩 Satu Gerak, Dua Arah"
+          type: "paragraph",
+          text: [
+            "Bayangkan sebuah bola dilempar miring ke udara.",
+            "Dalam waktu yang sama, bola bergerak ke depan (horizontal) sekaligus bergerak naik dan turun (vertikal).",
+            "Kalau kita melihatnya sebagai satu gerakan utuh, lintasannya terlihat melengkung dan rumit.",
+            "Namun, fisika punya trik rahasia: kita pecah gerakan tersebut menjadi dua komponen terpisah!"
+          ]
         },
         {
-          type: "paragraph",
-          text: "Bayangkan sebuah bola dilempar miring ke udara."
-        },
-        {
-          type: "paragraph",
-          text: "Dalam waktu yang sama, bola bergerak ke depan dan bergerak naik atau turun."
-        },
-        {
-          type: "paragraph",
-          text: "Kalau kita melihatnya sebagai satu gerakan, lintasannya terlihat cukup rumit."
-        },
-        {
-          type: "paragraph",
-          text: "Namun, ada sebuah trik sederhana: kita pecah gerakan tersebut menjadi dua arah."
-        },
-        {
-          type: "paragraph",
-          text: "➡️ Gerak horizontal pada sumbu X."
-        },
-        {
-          type: "paragraph",
-          text: "⬆️ Gerak vertikal pada sumbu Y."
-        },
-        {
-          type: "paragraph",
-          text: "Dengan cara ini, gerak parabola menjadi jauh lebih mudah dianalisis."
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "➡️ Gerak horizontal pada Sumbu $x$."
+              },
+              {
+                text: "⬆️ Gerak vertikal pada Sumbu $y$."
+              }
+            ]
+          }
         }
       ]
     },
-
     {
       heading: "❓ Pertanyaan Besar",
       blocks: [
         {
-          type: "heading",
-          text: "❓ Pertanyaan Besar"
+          type: "paragraph",
+          text: [
+            "Apakah gerak ke depan dipengaruhi oleh gaya gravitasi?",
+            "Mengapa kecepatan horizontal bola tetap konstan selama terbang, sedangkan kecepatan vertikalnya terus berubah?"
+          ]
+        }
+      ]
+    },
+    {
+      heading: "➡️ Komponen Horizontal (Sumbu $x$): Gerak Lurus Beraturan (GLB)",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Pada arah horizontal (Sumbu $x$), tidak ada gaya luar yang bekerja pada benda jika kita mengabaikan gesekan udara.",
+            "Sesuai Hukum I Newton, karena percepatan pada arah horizontal sama dengan nol \$(a_{x} = 0)$, maka kecepatan horizontal benda selalu konstan dari awal hingga akhir."
+          ]
         },
         {
           type: "paragraph",
-          text: "Jika sebuah benda bergerak maju sekaligus naik dan turun, apakah gerak pada arah horizontal memengaruhi gerak vertikal?"
-        },
+          text: "Artinya, gerak pada Sumbu $x$ berlaku Hukum Gerak Lurus Beraturan (GLB)."
+        }
+      ]
+    },
+    {
+      heading: "⬆️ Komponen Vertikal (Sumbu $y$): Gerak Lurus Berubah Beraturan (GLBB)",
+      blocks: [
         {
           type: "paragraph",
-          text: "Apa yang terjadi pada kecepatan benda pada masing-masing arah?"
-        },
-        {
-          type: "paragraph",
-          text: "Dan mengapa kita bisa menganalisis kedua gerak tersebut secara terpisah?"
+          text: [
+            "Berbeda dengan arah horizontal, pada arah vertikal (Sumbu $y$) bekerja gaya gravitasi Bumi yang mengarah ke bawah.",
+            "Gaya ini memberikan percepatan konstan berupa percepatan gravitasi $(a_{y} = -g)$.",
+            "Saat benda bergerak naik, kecepatannya melambat hingga bernilai nol di titik tertinggi. Saat turun kembali, kecepatannya bertambah searah gravitasi.",
+            "Artinya, gerak pada Sumbu $y$ berlaku Hukum Gerak Lurus Berubah Beraturan (GLBB)."
+          ]
         }
       ]
     },
 
     {
-      heading: "➡️ Gerak pada Arah Horizontal",
+      heading: "⚖️ Prinsip Independensi Gerak",
       blocks: [
         {
-          type: "heading",
-          text: "➡️ Gerak pada Arah Horizontal"
-        },
-        {
           type: "paragraph",
-          text: "Pada arah horizontal atau sumbu X, benda bergerak ke depan."
-        },
-        {
-          type: "paragraph",
-          text: "Dalam model ideal, hambatan udara diabaikan dan tidak ada gaya horizontal yang bekerja pada benda."
-        },
-        {
-          type: "paragraph",
-          text: "Akibatnya, tidak ada percepatan horizontal."
-        },
-        {
-          type: "paragraph",
-          text: "Artinya, kecepatan horizontal benda tetap konstan selama gerak berlangsung."
-        },
-        {
-          type: "paragraph",
-          text: "Jadi, gerak horizontal pada gerak parabola dapat dianalisis seperti Gerak Lurus Beraturan (GLB)."
+          text: [
+            "Prinsip paling krusial dalam gerak parabola adalah Independensi Gerak (Saling Bebas).",
+            "Gerak horizontal (Sumbu $x$) dan gerak vertikal (Sumbu $y$) terjadi secara bersamaan, tetapi sama sekali TIDAK saling mempengaruhi.",
+            "Satu-satunya besaran yang menghubungkan kedua sumbu ini adalah **Waktu $(t)$**."
+          ]
         }
       ]
     },
 
     {
-      heading: "📐 Komponen Kecepatan Horizontal",
+      heading: "📐 Persamaan dan Formulasi Penting",
       blocks: [
         {
-          type: "heading",
-          text: "📐 Komponen Kecepatan Horizontal"
-        },
-        {
-          type: "paragraph",
-          text: "Jika benda diluncurkan dengan kecepatan awal v₀ pada sudut θ terhadap horizontal, maka sebagian dari kecepatan awal tersebut bekerja pada arah X."
-        },
-        {
-          type: "equation",
-          latex: "v_{0x}=v_0\\cos\\theta"
-        },
-        {
-          type: "paragraph",
-          text: "Karena percepatan horizontal bernilai nol, maka:"
-        },
-        {
-          type: "equation",
-          latex: "a_x=0"
-        },
-        {
-          type: "paragraph",
-          text: "Akibatnya, kecepatan horizontal tetap:"
-        },
-        {
-          type: "equation",
-          latex: "v_x=v_{0x}"
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Kecepatan Awal Komponen X dan Y:",
+                equation: [
+                  "v_{0x} = v_0 \\cos\\theta",
+                  "v_{0y} = v_0 \\sin\\theta"
+                ]
+              },
+              {
+                text: "2. Kecepatan dan Posisi Horizontal pada waktu t (GLB):",
+                equation: [
+                  "v_x(t) = v_{0x} = v_0 \\cos\\theta",
+                  "x(t) = v_{0x} \\cdot t = (v_0 \\cos\\theta) \\cdot t"
+                ]
+              },
+              {
+                text: "3. Kecepatan dan Posisi Vertikal pada waktu t (GLBB):",
+                equation: [
+                  "v_y(t) = v_{0y} - g \\cdot t = v_0 \\sin\\theta - g \\cdot t",
+                  "y(t) = v_{0y} \\cdot t - \\frac{1}{2} g t^2 = (v_0 \\sin\\theta) \\cdot t - \\frac{1}{2} g t^2"
+                ]
+              }
+            ]
+          }
         }
       ]
     },
-
     {
-      heading: "⬆️ Gerak pada Arah Vertikal",
+      heading: "💡 Contoh Soal & Pembahasan",
       blocks: [
         {
-          type: "heading",
-          text: "⬆️ Gerak pada Arah Vertikal"
+          type: "paragraph",
+          text: [
+            "Sebuah peluru ditembakkan dengan kecepatan awal $v_0 = 50 m/s$ pada sudut elevasi $\\theta = 37\\degree (\\cos 37\\degree = 0.8, \\sin 37\\degree = 0.6)$. Jika percepatan gravitasi $g = 10 m/s^2$, tentukan posisi peluru $(x, y)$ setelah bergerak selama $t = 2$ detik!",
+            "📌 **Pembahasan:**"
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "Langkah 1: Cari komponen kecepatan awal:",
+                equation: [
+                  "v_{0x} = 50 \\times 0.8 = 40 \\text{ m/s}",
+                  "v_{0y} = 50 \\times 0.6 = 30 \\text{ m/s}"
+                ]
+              },
+              {
+                text: "Langkah 2: Hitung posisi horizontal $(x)$ pada $t = 2 s$:",
+                equation: [
+                  "x = v_{0x} \\cdot t = 40 \\times 2 = 80 \\text{ meter}",
+                ]
+              },
+              {
+                text: "Langkah 3: Hitung posisi vertikal $(y)$ pada $t = 2 s$:",
+                equation: [
+                  "y = v_{0y} \\cdot t - \\frac{1}{2} g t^2 = (30 \\times 2) - \\left(\\frac{1}{2} \\times 10 \\times 2^2\\right) = 60 - 20 = 40 \\text{ meter}"
+                ]
+              }
+            ]
+          }
         },
         {
           type: "paragraph",
-          text: "Pada arah vertikal atau sumbu Y, benda mengalami pengaruh gravitasi."
-        },
-        {
-          type: "paragraph",
-          text: "Ketika benda bergerak naik, gravitasi bekerja berlawanan arah dengan gerak sehingga kecepatan vertikal semakin berkurang."
-        },
-        {
-          type: "paragraph",
-          text: "Di titik tertinggi, kecepatan vertikal sesaat menjadi nol."
-        },
-        {
-          type: "paragraph",
-          text: "Setelah itu, benda mulai bergerak turun dan kecepatan vertikalnya semakin besar ke arah bawah."
-        },
-        {
-          type: "paragraph",
-          text: "Gerak vertikal ini dapat dianalisis seperti Gerak Lurus Berubah Beraturan (GLBB)."
+          text: [
+            "Jadi, posisi peluru setelah 2 detik berada pada koordinat $(80 m, 40 m)$."
+          ]
         }
       ]
     },
-
     {
-      heading: "📐 Komponen Kecepatan Vertikal",
+      heading: "⚠️ Miskonsepsi Umum",
       blocks: [
         {
-          type: "heading",
-          text: "📐 Komponen Kecepatan Vertikal"
-        },
-        {
           type: "paragraph",
-          text: "Komponen kecepatan awal pada arah vertikal adalah:"
-        },
-        {
-          type: "equation",
-          latex: "v_{0y}=v_0\\sin\\theta"
-        },
-        {
-          type: "paragraph",
-          text: "Jika arah ke atas dianggap positif, maka percepatan gravitasi bernilai negatif:"
-        },
-        {
-          type: "equation",
-          latex: "a_y=-g"
-        },
-        {
-          type: "paragraph",
-          text: "Kecepatan vertikal pada waktu tertentu dapat ditentukan dengan persamaan GLBB:"
-        },
-        {
-          type: "equation",
-          latex: "v_y=v_{0y}-gt"
+          text: [
+            "*'Di titik tertinggi lintasan parabola, kecepatan benda sama dengan nol, kan?'* ❌",
+            "Gak, gitu!",
+            "Namun faktanya, di titik tertinggi hanya kecepatan vertikal $(v_{y})$ yang bernilai nol! Kecepatan horizontal $(v_{x})$ masih tetap bernilai $v_0 \\cos\\theta$. Jadi benda tidak berhenti bergerak melainkan terus maju ke depan. ✔️"
+          ]
         }
       ]
     },
-
     {
-      heading: "🔄 Dua Gerak yang Berjalan Bersamaan",
+      heading: "🌟 *Fun Fact*",
       blocks: [
         {
-          type: "heading",
-          text: "🔄 Dua Gerak yang Berjalan Bersamaan"
-        },
-        {
           type: "paragraph",
-          text: "Inilah bagian paling menarik dari gerak parabola."
-        },
-        {
-          type: "paragraph",
-          text: "Gerak horizontal dan vertikal berlangsung pada waktu yang sama, tetapi masing-masing memiliki karakteristik yang berbeda."
-        },
-        {
-          type: "paragraph",
-          text: "➡️ Horizontal: kecepatan konstan."
-        },
-        {
-          type: "paragraph",
-          text: "⬆️ Vertikal: kecepatan berubah akibat gravitasi."
-        },
-        {
-          type: "paragraph",
-          text: "Keduanya menggunakan waktu yang sama. Pada setiap saat, posisi benda dapat ditentukan dari posisi horizontal dan posisi vertikalnya."
+          text: [
+            "Eksperimen Galileo Galilei membuktikan bahwa jika kamu menjatuhkan sebuah bola secara bebas vertikal dan menembakkan bola lain secara horizontal dari ketinggian yang sama pada waktu yang tepat bersamaan, kedua bola akan menyentuh tanah di detik yang persis sama!"
+          ]
         }
       ]
     },
-
     {
-      heading: "⏱️ Waktu sebagai Penghubung",
+      heading: "✨ Inti Materi *(Takeaway Message)*",
       blocks: [
         {
-          type: "heading",
-          text: "⏱️ Waktu sebagai Penghubung"
-        },
-        {
           type: "paragraph",
-          text: "Meskipun gerak horizontal dan vertikal dianalisis secara terpisah, keduanya tetap terjadi pada waktu yang sama."
-        },
-        {
-          type: "paragraph",
-          text: "Misalnya, setelah 2 detik:"
-        },
-        {
-          type: "paragraph",
-          text: "➡️ Benda sudah berpindah sejauh tertentu pada arah horizontal."
-        },
-        {
-          type: "paragraph",
-          text: "⬆️ Pada saat yang sama, benda juga sudah berada pada ketinggian tertentu."
-        },
-        {
-          type: "paragraph",
-          text: "Jadi, waktu menjadi penghubung antara gerak X dan gerak Y."
+          text: [
+            "Gerak parabola dianalisis dengan memisahkan komponen horizontal (Sumbu $x$) dan vertikal (Sumbu $y$).",
+            "Sumbu $x$ bergerak secara GLB (kecepatan konstan, $a = 0$).",
+            "Sumbu $y$ bergerak secara GLBB (kecepatan berubah akibat percepatan gravitasi, $a = -g$).",
+            "Kedua gerak terjadi secara bersamaan dan dihubungkan oleh variabel waktu $(t)$."
+          ]
         }
       ]
     },
-
-    {
-      heading: "🎯 Visualisasi Konsep",
-      blocks: [
-        {
-          type: "heading",
-          text: "🎯 Visualisasi Konsep"
-        },
-        {
-          type: "paragraph",
-          text: "Bayangkan sebuah bola bergerak dari titik A menuju titik B."
-        },
-        {
-          type: "paragraph",
-          text: "Pada setiap waktu tertentu, posisi bola dapat dibayangkan sebagai gabungan dua informasi:"
-        },
-        {
-          type: "paragraph",
-          text: "📏 Seberapa jauh bola telah bergerak ke samping."
-        },
-        {
-          type: "paragraph",
-          text: "📐 Seberapa tinggi atau rendah posisi bola."
-        },
-        {
-          type: "paragraph",
-          text: "Ketika kedua posisi tersebut digabungkan pada bidang X-Y, terbentuklah titik-titik yang membentuk lintasan parabola."
-        }
-      ]
-    },
-
-    {
-      heading: "🏀 Contoh dalam Kehidupan",
-      blocks: [
-        {
-          type: "heading",
-          text: "🏀 Contoh dalam Kehidupan"
-        },
-        {
-          type: "paragraph",
-          text: "Bayangkan seorang pemain basket melakukan shooting."
-        },
-        {
-          type: "paragraph",
-          text: "Bola memiliki kecepatan horizontal yang membuatnya bergerak menuju ring."
-        },
-        {
-          type: "paragraph",
-          text: "Pada saat yang sama, bola memiliki kecepatan vertikal yang membuatnya bergerak naik sebelum akhirnya turun menuju ring."
-        },
-        {
-          type: "paragraph",
-          text: "Jika sudut dan kecepatan awal tepat, lintasan bola akan membawa bola melewati ring."
-        }
-      ]
-    },
-
-    {
-      heading: "⚠️ Miskonsepsi",
-      blocks: [
-        {
-          type: "heading",
-          text: "⚠️ Miskonsepsi"
-        },
-        {
-          type: "paragraph",
-          text: "❌ Miskonsepsi 1: Kecepatan horizontal semakin kecil saat benda naik."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Faktanya: Dalam kondisi ideal tanpa hambatan udara, kecepatan horizontal tetap konstan."
-        },
-        {
-          type: "paragraph",
-          text: "❌ Miskonsepsi 2: Ketika benda mencapai titik tertinggi, benda berhenti."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Faktanya: Kecepatan vertikal memang nol sesaat, tetapi kecepatan horizontal tetap ada."
-        },
-        {
-          type: "paragraph",
-          text: "❌ Miskonsepsi 3: Gerak horizontal dan vertikal tidak berhubungan sama sekali."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Faktanya: Keduanya dapat dianalisis secara independen, tetapi tetap terjadi pada waktu yang sama dan bersama-sama menentukan posisi benda."
-        }
-      ]
-    },
-
-    {
-      heading: "🌟 Fun Fact",
-      blocks: [
-        {
-          type: "heading",
-          text: "🌟 Fun Fact"
-        },
-        {
-          type: "paragraph",
-          text: "Gerak parabola dapat dipahami sebagai 'dua cerita gerak' yang berlangsung dalam satu waktu."
-        },
-        {
-          type: "paragraph",
-          text: "Satu cerita berlangsung di arah horizontal, sementara cerita lainnya berlangsung di arah vertikal. Ketika keduanya digabungkan, kita melihat satu lintasan parabola."
-        }
-      ]
-    },
-
-    {
-      heading: "🧠 Inti Materi",
-      blocks: [
-        {
-          type: "heading",
-          text: "🧠 Inti Materi"
-        },
-        {
-          type: "paragraph",
-          text: "Gerak parabola dapat dianalisis dengan memisahkan gerak menjadi komponen horizontal dan vertikal."
-        },
-        {
-          type: "paragraph",
-          text: "Pada arah horizontal, benda bergerak dengan kecepatan konstan dalam kondisi ideal."
-        },
-        {
-          type: "paragraph",
-          text: "Pada arah vertikal, benda mengalami percepatan gravitasi sehingga kecepatannya berubah."
-        },
-        {
-          type: "paragraph",
-          text: "Kedua gerak terjadi secara bersamaan dan memiliki waktu yang sama."
-        }
-      ]
-    },
-
     {
       heading: "🚀 Next Mission",
       blocks: [
         {
-          type: "heading",
-          text: "🚀 Next Mission"
-        },
-        {
           type: "paragraph",
-          text: "Sekarang kita sudah memahami bagaimana gerak horizontal dan vertikal bekerja secara bersamaan."
-        },
-        {
-          type: "paragraph",
-          text: "Saatnya mengubah pemahaman tersebut menjadi persamaan matematika."
-        },
-        {
-          type: "paragraph",
-          text: "Bagaimana menentukan posisi benda setelah beberapa detik?"
-        },
-        {
-          type: "paragraph",
-          text: "Bagaimana menentukan posisi horizontal dan vertikalnya?"
-        },
-        {
-          type: "paragraph",
-          text: "➡️ Selanjutnya: Persamaan Gerak Parabola."
+          text: [
+            "Sekarang kamu sudah memahami bagaimana gerak horizontal dan vertikal bekerja secara bersamaan dalam membentuk lintasan parabola.",
+            "Saatnya mengubah pemahaman tersebut menjadi kalkulasi tingkat lanjut!",
+            "Bagaimana cara menentukan tinggi maksimum yang bisa dicapai benda?",
+            "Berapa jarak terjauh yang sanggup ditempuh sebelum menyentuh tanah?",
+            "➡️ *Next*, kita menuju portal: Persamaan dan Fitur Khusus Gerak Parabola."
+          ]
         }
       ]
     }
