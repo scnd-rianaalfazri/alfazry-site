@@ -1,19 +1,13 @@
 const penerapanGerakMelingkar = {
   title: "Penerapan Gerak Melingkar",
   slug: "penerapan-gerak-melingkar",
-  description:
-    "Menjelajahi berbagai penerapan gerak melingkar dalam kehidupan sehari-hari, teknologi modern, olahraga, dan eksplorasi antariksa.",
-
-  chapter: "🌌 Kinematika: Gerak Dua Dimensi",
+  description: "Menjelajahi berbagai penerapan gerak melingkar dalam kehidupan sehari-hari, teknologi modern, olahraga, dan eksplorasi antariksa.",
+  chapter: "🏀 Kinematika: Gerak Dua Dimensi",
 
   content: [
     {
       heading: "🌍 Gerak Melingkar Ada di Sekitar Kita",
       blocks: [
-        {
-          type: "heading",
-          text: "🌍 Gerak Melingkar Ada di Sekitar Kita"
-        },
         {
           type: "paragraph",
           text: "Setelah mempelajari berbagai konsep gerak melingkar, mungkin kamu mulai menyadari bahwa gerakan ini ternyata sangat sering kita temui."
@@ -28,14 +22,9 @@ const penerapanGerakMelingkar = {
         }
       ]
     },
-
     {
       heading: "❓ Pertanyaan Besar",
       blocks: [
-        {
-          type: "heading",
-          text: "❓ Pertanyaan Besar"
-        },
         {
           type: "paragraph",
           text: "Mengapa konsep gerak melingkar begitu penting dalam kehidupan sehari-hari?"

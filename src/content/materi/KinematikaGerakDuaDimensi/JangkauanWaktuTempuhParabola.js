@@ -1,435 +1,355 @@
+import { text } from "framer-motion/client";
+
 const jangkauanDanWaktuTempuh = {
   title: "Jangkauan Maksimum dan Waktu Tempuh Gerak Parabola",
-  slug: "jangkauan maksimum dan waktu tempuh gerak parabola",
-  description:
-    "Menganalisis jarak horizontal yang dapat dicapai benda dan waktu yang dibutuhkan benda selama bergerak dalam lintasan parabola.",
-
-  chapter: "🌌 Kinematika: Gerak Dua Dimensi",
+  slug: "jangkauan-maksimum-dan-waktu-tempuh-gerak-parabola",
+  description: "Menganalisis jarak horizontal yang dapat dicapai benda dan waktu yang dibutuhkan benda selama bergerak dalam lintasan parabola secara mendalam.",
+  chapter: "🏀 Kinematika: Gerak Dua Dimensi",
 
   content: [
     {
       heading: "🎯 Seberapa Jauh Benda Bisa Terbang?",
       blocks: [
         {
-          type: "heading",
-          text: "🎯 Seberapa Jauh Benda Bisa Terbang?"
+          type: "paragraph",
+          text: [
+            "Bayangkan kamu menendang bola ke depan dengan sudut tertentu. Bola akan bergerak melengkung naik, mencapai titik tertinggi, lalu meluncur turun hingga kembali menyentuh tanah.",
+            "Saat mengamati lintasan tersebut, dua pertanyaan utama yang sering muncul adalah:"
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "⏱️ **Berapa lama** bola melayang di udara?"
+              },
+              {
+                text: "📏 **Seberapa jauh** jarak mendatar dari titik awal hingga bola mendarat?"
+              }
+            ]
+          }
         },
         {
           type: "paragraph",
-          text: "Bayangkan kamu menendang bola ke depan dengan sudut tertentu."
-        },
-        {
-          type: "paragraph",
-          text: "Bola akan bergerak naik, mencapai titik tertinggi, lalu turun kembali ke permukaan."
-        },
-        {
-          type: "paragraph",
-          text: "Sekarang kita punya dua pertanyaan baru:"
-        },
-        {
-          type: "paragraph",
-          text: "⏱️ Berapa lama bola berada di udara?"
-        },
-        {
-          type: "paragraph",
-          text: "📏 Seberapa jauh bola bergerak dari titik awal?"
-        },
-        {
-          type: "paragraph",
-          text: "Dua besaran inilah yang akan kita eksplorasi pada page ini."
+          text: [
+            "Dua besaran ini—**Waktu Tempuh ($T$)** dan **Jangkauan Maksimum ($R$)**—merupakan kunci utama dalam menguasai analisis gerak dua dimensi."
+          ]
         }
       ]
     },
-
     {
-      heading: "❓ Pertanyaan Besar",
+      heading: "❓ Pertanyaan Utama",
       blocks: [
         {
-          type: "heading",
-          text: "❓ Pertanyaan Besar"
-        },
-        {
-          type: "paragraph",
-          text: "Bagaimana cara menentukan waktu total sebuah benda berada di udara?"
-        },
-        {
-          type: "paragraph",
-          text: "Bagaimana cara menentukan jarak horizontal yang berhasil ditempuh benda?"
-        },
-        {
-          type: "paragraph",
-          text: "Apakah sudut peluncuran tertentu dapat membuat benda mencapai jarak paling jauh?"
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Bagaimana cara menghitung total waktu benda berada di udara dari kecepatan awal dan sudut lemparan?"
+              },
+              {
+                text: "Bagaimana memprediksi jarak horizontal total yang dicapai oleh benda?"
+              },
+              {
+                text: "Berapa sudut peluncuran optimal agar jangkauan horizontal menjadi sejauh mungkin?"
+              }
+            ]
+          }
         }
       ]
     },
-
     {
-      heading: "⏱️ Apa Itu Waktu Tempuh?",
+      heading: "⏱️ Waktu Tempuh Total (Total Time of Flight)",
       blocks: [
         {
-          type: "heading",
-          text: "⏱️ Apa Itu Waktu Tempuh?"
-        },
-        {
           type: "paragraph",
-          text: "Waktu tempuh adalah total waktu yang dibutuhkan benda sejak diluncurkan hingga mencapai titik akhir atau kembali ke permukaan."
-        },
-        {
-          type: "paragraph",
-          text: "Jika benda diluncurkan dan mendarat pada ketinggian yang sama, gerak vertikalnya memiliki pola yang simetris."
-        },
-        {
-          type: "paragraph",
-          text: "Waktu total di udara dapat dipandang sebagai gabungan:"
-        },
-        {
-          type: "paragraph",
-          text: "⬆️ Waktu untuk naik ke titik tertinggi."
-        },
-        {
-          type: "paragraph",
-          text: "⬇️ Waktu untuk turun kembali ke ketinggian awal."
-        }
-      ]
-    },
-
-    {
-      heading: "📐 Menentukan Waktu Tempuh",
-      blocks: [
-        {
-          type: "heading",
-          text: "📐 Menentukan Waktu Tempuh"
-        },
-        {
-          type: "paragraph",
-          text: "Untuk kasus ketika benda kembali mendarat pada ketinggian yang sama dengan titik peluncuran, waktu total di udara dapat ditentukan dari komponen kecepatan awal vertikal."
+          text: [
+            "Waktu tempuh total $(T)$ adalah durasi dari saat benda mulai dilemparkan hingga menyentuh dasar kembali pada ketinggian yang sama $(y = 0)$.",
+            "Karena sifat simetri gerak parabola (tanpa gesekan udara):"
+          ]
         },
         {
           type: "equation",
-          latex: "T=\\frac{2v_0\\sin\\theta}{g}"
+          equation: "t_{\\text{puncak}} = \\frac{v_0 \\sin\\theta}{g}"
         },
         {
           type: "paragraph",
-          text: "Persamaan ini menunjukkan bahwa waktu tempuh dipengaruhi oleh kecepatan awal, sudut peluncuran, dan percepatan gravitasi."
-        },
-        {
-          type: "paragraph",
-          text: "Semakin besar komponen kecepatan awal ke arah vertikal, semakin lama benda berada di udara."
-        }
-      ]
-    },
-
-    {
-      heading: "📏 Apa Itu Jangkauan?",
-      blocks: [
-        {
-          type: "heading",
-          text: "📏 Apa Itu Jangkauan?"
-        },
-        {
-          type: "paragraph",
-          text: "Jangkauan atau range adalah jarak horizontal antara titik peluncuran dan titik pendaratan benda."
-        },
-        {
-          type: "paragraph",
-          text: "Jangkauan menunjukkan seberapa jauh benda berpindah pada arah horizontal selama berada di udara."
-        },
-        {
-          type: "paragraph",
-          text: "Karena gerak horizontal memiliki kecepatan konstan dalam kondisi ideal, jangkauan dapat ditentukan dari kecepatan horizontal dan waktu tempuh."
-        }
-      ]
-    },
-
-    {
-      heading: "🧮 Menentukan Jangkauan",
-      blocks: [
-        {
-          type: "heading",
-          text: "🧮 Menentukan Jangkauan"
-        },
-        {
-          type: "paragraph",
-          text: "Persamaan posisi horizontal adalah:"
+          text: [
+            "Waktu total di udara ($T$) adalah dua kali waktu untuk mencapai puncak ($t_{\\text{puncak}}$):"
+          ]
         },
         {
           type: "equation",
-          latex: "x=v_0\\cos\\theta\\,t"
+          equation: "T = 2 \\times t_{\\text{puncak}} = \\frac{2 v_0 \\sin\\theta}{g}"
         },
         {
           type: "paragraph",
-          text: "Untuk menentukan jangkauan, kita gunakan waktu total benda berada di udara."
+          text: "Keterangan Variabel:"
         },
         {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "$T$ = Waktu total di udara $(\\text{s})$"
+              },
+              {
+                text: "$v_0$ = Kecepatan awal $(\\text{m/s})$"
+              },
+              {
+                text: "$\\theta$ = Sudut elevasi terhadap sumbu horizontal"
+              },
+              {
+                text: "$g$ = Percepatan gravitasi $(\\text{m/s}^2)$"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      heading: "📏 Jangkauan Horizontal *(Range)*",
+      blocks: [
+        {
           type: "paragraph",
-          text: "Jika benda kembali ke ketinggian awal, diperoleh:"
+          text: [
+            "Jangkauan mendatar ($R$ atau $X_{\\text{maks}}$) didefinisikan sebagai total jarak horizontal dari titik asal peluncuran ke lokasi pendaratan.",
+            "Karena sumbu horizontal tidak mengalami percepatan ($a_x = 0$, Gerak Lurus Beraturan), jarak horizontal dirumuskan sebagai:"
+          ]
         },
         {
           type: "equation",
-          latex: "R=\\frac{v_0^2\\sin(2\\theta)}{g}"
+          equation: "R = v_x \\cdot T = (v_0 \\cos\\theta) \\cdot \\left(\\frac{2 v_0 \\sin\\theta}{g}\\right)"
         },
         {
           type: "paragraph",
-          text: "Persamaan ini menunjukkan bahwa jangkauan dipengaruhi oleh kecepatan awal, sudut peluncuran, dan gravitasi."
-        }
-      ]
-    },
-
-    {
-      heading: "🎯 Sudut untuk Jangkauan Maksimum",
-      blocks: [
-        {
-          type: "heading",
-          text: "🎯 Sudut untuk Jangkauan Maksimum"
-        },
-        {
-          type: "paragraph",
-          text: "Sekarang muncul pertanyaan menarik: jika kecepatan awal tetap, pada sudut berapa benda dapat mencapai jarak horizontal paling jauh?"
-        },
-        {
-          type: "paragraph",
-          text: "Dalam kondisi ideal, ketika titik peluncuran dan titik pendaratan berada pada ketinggian yang sama dan hambatan udara diabaikan, jangkauan maksimum terjadi ketika:"
+          text: [
+            "Dengan mengaplikasikan identitas trigonometri $2 \\sin\\theta \\cos\\theta = \\sin(2\\theta)$, kita mendapatkan rumus praktis jangkauan:"
+          ]
         },
         {
           type: "equation",
-          latex: "\\theta=45^\\circ"
-        },
-        {
-          type: "paragraph",
-          text: "Pada sudut ini, komponen horizontal dan vertikal dari kecepatan awal memiliki kombinasi yang menghasilkan jangkauan horizontal maksimum."
+          equation: "R = \\frac{v_0^2 \\sin(2\\theta)}{g}"
         }
       ]
     },
-
     {
-      heading: "🔄 Sudut yang Berbeda, Jangkauan yang Sama",
+      heading: "🎯 Analisis Sudut Maksimum & Sudut Komplementer",
       blocks: [
         {
-          type: "heading",
-          text: "🔄 Sudut yang Berbeda, Jangkauan yang Sama"
-        },
-        {
-          type: "paragraph",
-          text: "Ada hal menarik lainnya."
-        },
-        {
-          type: "paragraph",
-          text: "Dalam kondisi ideal, dua sudut yang saling melengkapi dapat menghasilkan jangkauan yang sama."
-        },
-        {
-          type: "paragraph",
-          text: "Contohnya:"
-        },
-        {
-          type: "paragraph",
-          text: "30° dan 60°"
-        },
-        {
-          type: "paragraph",
-          text: "20° dan 70°"
-        },
-        {
-          type: "paragraph",
-          text: "Hal ini terjadi karena nilai sin(2θ) untuk pasangan sudut tersebut sama."
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "**Jangkauan Maksimum ($\\theta = 45^\\circ$)**\nNilai trigonometri $\\sin(2\\theta)$ memiliki nilai maksimum $1$ ketika $2\\theta = 90^\\circ$, sehingga $\\theta = 45^\\circ$. Oleh karena itu, pada kondisi ideal, sudut peluncuran $45^\\circ$ menghasilkan jangkauan paling jauh:" ,
+                equation: "R_{\\text{maks}} = \\frac{v_0^2}{g}"
+              },
+              {
+                text: "**Pasangan Sudut Komplementer**\nPasangan sudut peluncuran yang berjumlah $90^\\circ$ (seperti $30^\\circ$ dan $60^\\circ$, atau $15^\\circ$ dan $75^\\circ$) akan menghasilkan jangkauan horizontal yang **sama persis**, karena $\\sin(2 \\times 30^\\circ) = \\sin(120^\\circ) = \\sin(60^\\circ)$."
+              }
+            ]
+          }
         }
       ]
     },
-
     {
-      heading: "🧩 Hubungan Tiga Besaran",
+      heading: "🏀 Contoh Aplikasi dalam Kehidupan",
       blocks: [
         {
-          type: "heading",
-          text: "🧩 Hubungan Tiga Besaran"
-        },
-        {
-          type: "paragraph",
-          text: "Pada gerak parabola, kita dapat melihat hubungan antara:"
-        },
-        {
-          type: "paragraph",
-          text: "⏱️ Waktu tempuh → menentukan berapa lama benda berada di udara."
-        },
-        {
-          type: "paragraph",
-          text: "📏 Jangkauan → menentukan seberapa jauh benda bergerak secara horizontal."
-        },
-        {
-          type: "📐 Sudut peluncuran → memengaruhi distribusi kecepatan horizontal dan vertikal."
-        },
-        {
-          type: "paragraph",
-          text: "Ketiga konsep ini saling berhubungan dan dapat digunakan untuk menganalisis lintasan benda."
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "⚽ **Sepak Bola**: Kiper yang melakukan *goal kick* memperhitungkan sudut agar bola jatuh sejauh mungkin di wilayah lawan."
+              },
+              {
+                text: "🎯 **Olahraga Lempar Lembing & Tolak Peluru**: Atlet menyesuaikan sudut lemparan mendekati sudut optimal untuk memaksimalkan jarak jangkauan."
+              },
+              {
+                text: "💦 **Sistem Irigasi Air**: Pemadam kebakaran dan penyiram tanaman mengandalkan pengubahan sudut semprotan untuk memperluas jangkauan siraman."
+              }
+            ]
+          }
         }
       ]
     },
-
     {
-      heading: "🎯 Contoh Analisis",
+      heading: "⚠️ Miskonsepsi Umum",
       blocks: [
         {
-          type: "heading",
-          text: "🎯 Contoh Analisis"
-        },
-        {
-          type: "paragraph",
-          text: "Sebuah bola dilempar dengan kecepatan awal v₀ dan sudut θ dari permukaan tanah, kemudian mendarat kembali pada ketinggian yang sama."
-        },
-        {
-          type: "paragraph",
-          text: "Untuk menentukan waktu tempuh:"
-        },
-        {
-          type: "paragraph",
-          text: "1️⃣ Tentukan komponen kecepatan awal vertikal."
-        },
-        {
-          type: "paragraph",
-          text: "2️⃣ Gunakan kondisi posisi vertikal saat kembali ke titik awal."
-        },
-        {
-          type: "paragraph",
-          text: "3️⃣ Tentukan waktu total benda di udara."
-        },
-        {
-          type: "paragraph",
-          text: "Untuk menentukan jangkauan:"
-        },
-        {
-          type: "paragraph",
-          text: "4️⃣ Tentukan komponen kecepatan awal horizontal."
-        },
-        {
-          type: "paragraph",
-          text: "5️⃣ Kalikan dengan waktu tempuh."
-        },
-        {
-          type: "paragraph",
-          text: "Dengan demikian, kita dapat mengetahui seberapa jauh bola bergerak sebelum kembali ke permukaan."
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "Miakonsepsi 1",
+                description: [
+                  "Semakin besar sudut peluncuran, semakin jauh bola mendarat. ❌",
+                  "Gak, gitu!",
+                  "Faktanya, makin besar sudut, makin tinggi lintasan dan lama di udara, tetapi jangkauan mendatarnya menyempit setelah melewati $45^\\circ$. ✔️"
+                ]
+              },
+              {
+                text: "Miskonsepsi 2",
+                description: [
+                  "Sudut $45^\\circ$ selalu menjadi sudut terbaik di semua keadaan nyata ❌",
+                  "aktanya, di dunia nyata, gesekan udara dan titik pelepasan yang lebih tinggi dari tanah (misalnya lemparan atlet) menggeser sudut optimal menjadi sedikit lebih kecil dari $45^\\circ$ (sekitar $35^\\circ - 42^\\circ$). ✔️"
+                ]
+              }
+            ]
+          }
         }
       ]
     },
-
     {
-      heading: "📊 Membaca Hubungan Sudut dan Jangkauan",
+      heading: "🧮 Latihan Soal & Pembahasan",
       blocks: [
         {
-          type: "heading",
-          text: "📊 Membaca Hubungan Sudut dan Jangkauan"
+          type: "paragraph",
+          text: [
+            "**Contoh Soal 1**",
+            "Sebuah bola ditendang dengan kecepatan awal $20\\text{ m/s}$ dan sudut elevasi $30^\\circ$. Jika percepatan gravitasi $g = 10\\text{ m/s}^2$.",
+            "Tentukan!"
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Waktu total bola melayang di udara $(T)$"
+              },
+              {
+                text: "Jangkauan mendatar bola $(R)$"
+              }
+            ]
+          }
         },
         {
           type: "paragraph",
-          text: "Jika kecepatan awal tetap, perubahan sudut peluncuran akan mengubah jangkauan benda."
+          text: [
+            "Diketahui:"
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "$v_0 = 20\\text{ m/s}$"
+              },
+              {
+                text: "$\\theta = 30^\\circ$"
+              },
+              {
+                text: "$g = 10\\text{ m/s}^2$"
+              }
+            ]
+          }
         },
         {
           type: "paragraph",
-          text: "Pada sudut kecil, benda memiliki kecepatan horizontal besar tetapi waktu di udara relatif singkat."
+          text: [
+            "**Pembahasan**"
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Menghitung Waktu Tempuh Total $(T)$:",
+                equation: "T = \\frac{2 v_0 \\sin\\theta}{g} = \\frac{2 (20) \\sin(30^\\circ)}{10} = \\frac{40 \\times 0{,}5}{10} = 2\\text{ detik}"
+              },
+              {
+                text: "Menghitung Jangkauan $(R)$:",
+                equation: "R = \\frac{v_0^2 \\sin(2\\theta)}{g} = \\frac{20^2 \\cdot \\sin(60^\\circ)}{10} = \\frac{400 \\cdot \\frac{1}{2}\\sqrt{3}}{10} = 20\\sqrt{3}\\text{ meter} \\approx 34{,}64\\text{ m}"
+              }
+            ]
+          }
         },
         {
           type: "paragraph",
-          text: "Pada sudut besar, benda memiliki komponen kecepatan vertikal yang lebih besar tetapi komponen horizontal lebih kecil."
+          text: "---------------------------------------------------------------------------------------------------------------------------------------------------------"
         },
         {
           type: "paragraph",
-          text: "Di antara kedua kondisi tersebut terdapat sudut yang menghasilkan jangkauan maksimum."
+          text: [
+            "**Soal 2**"
+          ]
+        },
+        {
+          type: "paragraph",
+          text: [
+            "Dua buah peluru A dan B ditembakkan dengan kecepatan awal yang sama $v_0$. Peluru A ditembakkan dengan sudut $35^\\circ$, sedangkan peluru B dengan sudut $55^\\circ$. Bandingkan jangkauan horizontal kedua peluru tersebut!",,
+            "**Pembahasan**"
+          ]
+        },
+        {
+          type: "paragraph",
+          text: [
+            "Kedua sudut merupakan pasangan sudut komplementer karena $35^\\circ + 55^\\circ = 90^\\circ$.\n",   
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "Untuk Peluru A:",
+                equation: "\\sin(2 \\times 35^\\circ) = \\sin(70^\\circ)"
+              },
+              {
+                text: "Untuk Peluru B:",
+                equation: "\\sin(2 \\times 55^\\circ) = \\sin(110^\\circ) = \\sin(180^\\circ - 70^\\circ) = \\sin(70^\\circ)",
+              }
+            ]
+          }
+        },
+        {
+          type: "paragraph",
+          text: [
+            "Karena nilai $\\sin(2\\theta)$ bernilai sama, maka **Jangkauan Peluru A = Jangkauan Peluru B** $(R_A = R_B)$."
+          ]
         }
       ]
     },
-
     {
-      heading: "🏀 Contoh dalam Kehidupan",
+      heading: "✨ Inti Materi *(Takeaway Message)*",
       blocks: [
         {
-          type: "heading",
-          text: "🏀 Contoh dalam Kehidupan"
-        },
-        {
-          type: "paragraph",
-          text: "🏀 Pemain basket harus mengatur sudut dan kecepatan lemparan agar bola mencapai ring."
-        },
-        {
-          type: "paragraph",
-          text: "⚽ Pemain sepak bola mengatur sudut tendangan untuk menentukan seberapa jauh bola melambung."
-        },
-        {
-          type: "🏹 Dalam olahraga panahan, sudut peluncuran memengaruhi lintasan dan jarak tempuh anak panah."
-        },
-        {
-          type: "💦 Pancaran air dari selang dapat memiliki jangkauan berbeda tergantung sudut arah semprotan."
-        }
-      ]
-    },
-
-    {
-      heading: "⚠️ Miskonsepsi",
-      blocks: [
-        {
-          type: "heading",
-          text: "⚠️ Miskonsepsi"
-        },
-        {
-          type: "paragraph",
-          text: "❌ Miskonsepsi 1: Semakin besar sudut peluncuran, semakin jauh jangkauan benda."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Faktanya: Jangkauan maksimum dalam kondisi ideal terjadi pada sudut 45° jika titik peluncuran dan pendaratan berada pada ketinggian yang sama."
-        },
-        {
-          type: "paragraph",
-          text: "❌ Miskonsepsi 2: Sudut 90° menghasilkan jangkauan paling jauh."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Faktanya: Pada sudut 90°, benda bergerak vertikal sehingga perpindahan horizontalnya nol."
-        },
-        {
-          type: "paragraph",
-          text: "❌ Miskonsepsi 3: Sudut 30° dan 60° selalu menghasilkan jangkauan yang sama."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Faktanya: Hal ini berlaku pada kondisi ideal ketika titik peluncuran dan pendaratan berada pada ketinggian yang sama serta hambatan udara diabaikan."
-        }
-      ]
-    },
-
-    {
-      heading: "🌟 Fun Fact",
-      blocks: [
-        {
-          type: "heading",
-          text: "🌟 Fun Fact"
-        },
-        {
-          type: "paragraph",
-          text: "Dalam kondisi ideal, sudut 45° menghasilkan jangkauan maksimum. Namun, dalam olahraga nyata seperti lempar lembing atau tendangan sepak bola, sudut terbaik tidak selalu 45°."
-        },
-        {
-          type: "paragraph",
-          text: "Mengapa? Karena kondisi nyata melibatkan hambatan udara, ketinggian pelepasan, bentuk benda, dan teknik manusia."
-        }
-      ]
-    },
-
-    {
-      heading: "🧠 Inti Materi",
-      blocks: [
-        {
-          type: "heading",
-          text: "🧠 Inti Materi"
-        },
-        {
-          type: "paragraph",
-          text: "Waktu tempuh menunjukkan berapa lama benda berada di udara, sedangkan jangkauan menunjukkan seberapa jauh benda berpindah pada arah horizontal."
-        },
-        {
-          type: "paragraph",
-          text: "Untuk benda yang diluncurkan dan mendarat pada ketinggian yang sama, jangkauan maksimum secara ideal terjadi pada sudut 45°."
-        },
-        {
-          type: "paragraph",
-          text: "Jangkauan dan waktu tempuh sangat dipengaruhi oleh kecepatan awal dan sudut peluncuran."
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "**Waktu Melayang Total**:",
+                equation: "T = \\frac{2v_0\\sin\\theta}{g}"
+              },
+              {
+                text: "**Jangkauan Mendatar**",
+                equation: "R = \\frac{v_0^2\\sin(2\\theta)}{g}"
+              },
+              {
+                text: "**Sudut Maksimum Ideal**",
+                description: "$\\theta = 45^\\circ$ menghasilkan jangkauan terjauh."
+              },
+              {
+                text: "**Sudut Komplementer**",
+                description: "Pasangan sudut yang jumlahnya $90^\\circ$ menghasilkan jangkauan sejauh yang sama."
+              }
+            ]
+          }
         }
       ]
     },
@@ -438,24 +358,12 @@ const jangkauanDanWaktuTempuh = {
       heading: "🚀 Next Mission",
       blocks: [
         {
-          type: "heading",
-          text: "🚀 Next Mission"
-        },
-        {
           type: "paragraph",
-          text: "Kita sudah berhasil membongkar hampir seluruh rahasia gerak parabola."
-        },
-        {
-          type: "paragraph",
-          text: "Kita tahu bagaimana benda bergerak, seberapa tinggi benda dapat mencapai, berapa lama benda berada di udara, dan seberapa jauh benda dapat melaju."
-        },
-        {
-          type: "paragraph",
-          text: "Sekarang saatnya melihat bagaimana konsep ini bekerja di dunia nyata."
-        },
-        {
-          type: "paragraph",
-          text: "➡️ Selanjutnya: Penerapan Gerak Parabola dalam Kehidupan dan Teknologi."
+          text: [
+            "Kamu telah berhasil menguasai seluruh persamaan dasar kinematika gerak parabola!",
+            "Selanjutnya, mari kita telusuri bagaimana hukum-hukum ini bekerja pada aplikasi kehidupan nyata serta teknologi canggih masa kini.",
+            "➡️ *Next*, kita menuju portal: Penerapan Gerak Parabola dalam Kehidupan dan Teknologi."
+          ]
         }
       ]
     }

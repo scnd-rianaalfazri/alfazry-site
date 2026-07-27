@@ -209,6 +209,100 @@ const gerakHorizontalDanVertikal = {
         }
       ]
     },
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+            {
+              question: "Pada gerak parabola, gerak benda pada sumbu X merupakan....",
+              options: [
+                "gerak Lurus Berubah Beraturan (GLBB).",
+                "gerak Jatuh Bebas (GJB).",
+                "gerak Lurus Beraturan (GLB).",
+                "gerak Melingkar Beraturan (GMB).",
+                "gerak Vertikal ke Atas (GVA)."
+              ],
+              answerIndex: 2
+            },
+            {
+              question: "Mengapa kecepatan benda pada arah horizontal tetap konstan selama gerak parabola (tanpa hambatan udara)?",
+              options: [
+                "karena gaya gravitasi bekerja ke arah horizontal.",
+                "karena tidak ada percepatan pada arah horizontal $(a_{x} = 0)$.",
+                "karena kecepatan horizontal selalu bertambah.",
+                "karena gaya gravitasi menghilang saat benda bergerak.",
+                "karena benda berhenti sesaat di titik tertinggi."
+              ],
+              answerIndex: 1
+            },
+            {
+              question: "Prinsip Independensi Gerak pada gerak parabola menyatakan bahwa....",
+              options: [
+                "gerak horizontal menentukan gerak vertikal.",
+                "gerak vertikal menentukan gerak horizontal.",
+                "gerak horizontal dan vertikal saling memengaruhi setiap saat.",
+                "gerak horizontal dan vertikal dapat dianalisis secara terpisah, tetapi dihubungkan oleh waktu.",
+                "gerak horizontal hanya terjadi saat benda naik."
+              ],
+              answerIndex: 3
+            },
+            {
+              question: "Sebuah benda memiliki komponen kecepatan horizontal sebesar 40 m/s. Berapakah posisi horizontal benda setelah 3 detik?",
+              options: [
+                "40 m.",
+                "80 m.",
+                "100 m.",
+                "120 m.",
+                "160 m."
+              ],
+              answerIndex: 3
+            },
+            {
+              question: "Di titik tertinggi lintasan parabola, keadaan yang benar adalah....",
+              options: [
+                "kecepatan horizontal dan vertikal sama-sama nol.",
+                "hanya kecepatan horizontal yang bernilai nol.",
+                "hanya kecepatan vertikal yang bernilai nol, sedangkan kecepatan horizontal tetap ada.",
+                "gravitasi berhenti bekerja sesaat.",
+                "benda berhenti total sebelum jatuh kembali."
+                ],
+              answerIndex: 2
+            }],
+            scoring: [
+            {
+              min: 5,
+              max: 5,
+              emoji: "🏆",
+              title: "Mission Complete!",
+              message: "Kamu siap memasuki portal berikutnya."
+            },
+            {
+              min: 4,
+              max: 4,
+              emoji: "🚀",
+              title: "Hampir Sempurna",
+              message: "Pemahamanmu sudah sangat baik."
+            },
+            {
+              min: 2,
+              max: 3,
+              emoji: "🔄",
+              title: "Perlu Sedikit Lagi",
+              message: "Coba eksplorasi lagi bagian inti materi."
+            },
+            {
+              min: 0,
+              max: 1,
+              emoji: "📖",
+              title: "Ulangi Petualangan",
+              message: "Tenang, ulangi petualanganmu dari awal."
+            }]
+          }
+        }
+      ]
+    },
     {
       heading: "🚀 Next Mission",
       blocks: [
