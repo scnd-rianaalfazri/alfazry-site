@@ -353,7 +353,100 @@ const jangkauanDanWaktuTempuh = {
         }
       ]
     },
-
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+            {
+              question: "Waktu tempuh total $(T)$ pada gerak parabola adalah.....",
+              options: [
+                "waktu yang dibutuhkan benda untuk mencapai titik tertinggi saja.",
+                "waktu sejak benda dilempar hingga kembali menyentuh tanah pada ketinggian yang sama.",
+                "waktu yang dibutuhkan benda bergerak secara horizontal.",
+                "waktu yang dibutuhkan benda untuk berhenti bergerak.",
+                "selisih waktu antara fase naik dan fase turun."
+              ],
+              answerIndex: 1
+            },
+            {
+              question: "Sebuah bola ditendang dengan kecepatan awal $20 \\: m/s$ dan sudut elevasi \\: $30\\degree$. Jika percepatan gravitasi $10 \\: m/s^2$, maka waktu total bola berada di udara adalah....",
+              options: [
+                "1 detik",
+                "2 detik",
+                "3 detik",
+                "4 detik",
+                "5 detik."
+              ],
+              answerIndex: 1
+            },
+            {
+              question: "Pada kondisi ideal (tanpa hambatan udara), sudut peluncuran yang menghasilkan jangkauan horizontal maksimum adalah....",
+              options: [
+                "30\\degree",
+                "35\\degree",
+                "45\\degree",
+                "60\\degree",
+                "90\\degree"
+              ],
+              answerIndex: 2
+            },
+            {
+              question: "Dua benda ditembakkan dengan kecepatan awal yang sama. Benda A memiliki sudut peluncuran 30\\degree, sedangkan benda B 60°. Pernyataan yang benar adalah....",
+              options: [
+                "jangkauan A lebih jauh daripada B.",
+                "jangkauan B lebih jauh daripada A.",
+                "keduanya memiliki jangkauan horizontal yang sama.",
+                "waktu tempuh keduanya sama persis.",
+                "benda A memiliki tinggi maksimum yang lebih besar."
+              ],
+              answerIndex: 2
+            },
+            {
+              question: "Pernyataan yang benar mengenai hubungan sudut peluncuran dan jangkauan horizontal adalah....",
+              options: [
+                "semakin besar sudut peluncuran, semakin jauh jangkauannya tanpa batas.",
+                "sudut $90\\degree$ menghasilkan jangkauan paling jauh.",
+                "setelah melewati sudut 45\\degree, jangkauan horizontal mulai berkurang pada kondisi ideal.",
+                "semua sudut menghasilkan jangkauan yang sama jika kecepatan awalnya sama.",
+                "sudut 0\\degree menghasilkan jangkauan maksimum."
+                ],
+              answerIndex: 2
+            }],
+            scoring: [
+            {
+              min: 5,
+              max: 5,
+              emoji: "🏆",
+              title: "Mission Complete!",
+              message: "Kamu siap memasuki portal berikutnya."
+            },
+            {
+              min: 4,
+              max: 4,
+              emoji: "🚀",
+              title: "Hampir Sempurna",
+              message: "Pemahamanmu sudah sangat baik."
+            },
+            {
+              min: 2,
+              max: 3,
+              emoji: "🔄",
+              title: "Perlu Sedikit Lagi",
+              message: "Coba eksplorasi lagi bagian inti materi."
+            },
+            {
+              min: 0,
+              max: 1,
+              emoji: "📖",
+              title: "Ulangi Petualangan",
+              message: "Tenang, ulangi petualanganmu dari awal."
+            }]
+          }
+        }
+      ]
+    },
     {
       heading: "🚀 Next Mission",
       blocks: [

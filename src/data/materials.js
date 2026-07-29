@@ -59,11 +59,13 @@ import PenutupGerakSatuDimensi from "../content/materi/KinematikaGerakSatuDimens
 import PengantarGerakDuaDimensi from "../content/materi/KinematikaGerakDuaDimensi/PengantarGerakDuaDimensi.js"
 import AnalisisSumbuXDanY from "../content/materi/KinematikaGerakDuaDimensi/AnalisisSumbuXDanY.js"
 import GerakParabola from "../content/materi/KinematikaGerakDuaDimensi/GerakParabola.js"
-import GerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi/GerakMelingkar.js"
 import HorizontalVertikalParabola from "../content/materi/KinematikaGerakDuaDimensi/HorizontalVertikalParabola.js"
 import PersamaanGerakParabola from "../content/materi/KinematikaGerakDuaDimensi/PersamaanGerakParabola.js"
 import JangkauanWaktuTempuhParabola from "../content/materi/KinematikaGerakDuaDimensi/JangkauanWaktuTempuhParabola.js"
 import PenerapanGerakParabola from "../content/materi/KinematikaGerakDuaDimensi/PenerapanGerakParabola.js"
+import PengertianGerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi/PengertianGerakMelingkar.js"
+import BesaranGerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi/BesaranGerakMelingkar.js"
+import KecepatanLinierDanSudut from "../content/materi/KinematikaGerakDuaDimensi/KecepatanLinearDanSudut.js"
 
 /* dinamika dasar */
 import PengantarDinamika from "../content/materi/DinamikaGayaDanHukumNewton/PengantarDinamika.js"
@@ -89,7 +91,6 @@ import SistemBendaTerhubung from "../content/materi/DinamikaGerakLurus/SistemBen
 
 /* dinamika gerak melingkar */
 import PengertianDinamikaGerakMelingkar from "../content/materi/DinamikaGerakMelingkar/PengertianDinamikaGerakMelingkar.js"
-import BesaranGerakMelingkar from "../content/materi/DinamikaGerakMelingkar/BesaranGerakMelingkar.js"
 import PercepatanSentripetal from "../content/materi/DinamikaGerakMelingkar/PercepatanSentripetal.js"
 import GayaSentripetal from "../content/materi/DinamikaGerakMelingkar/GayaSentripetal.js"
 import AplikasiDinamikaGerakMelingkar from "../content/materi/DinamikaGerakMelingkar/AplikasiDinamikaGerakMelingkar"
@@ -487,6 +488,7 @@ import WhiteDwarf from "/src/content/materi/Astrofisika/WhiteDwarf"
 import NeutronStars from "/src/content/materi/Astrofisika/NeutronStars"
 import BlackHole from "/src/content/materi/Astrofisika/BlackHole"
 import Galaksi from "/src/content/materi/Astrofisika/Galaksi"
+import besaranGerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi/BesaranGerakMelingkar.js"
 
 /* EKSPORT CONTENT */
 export const materials = [
@@ -552,9 +554,11 @@ export const materials = [
   GerakParabola,
   HorizontalVertikalParabola,
   PersamaanGerakParabola,
-  GerakMelingkar,
   JangkauanWaktuTempuhParabola,
   PenerapanGerakParabola,
+  PengertianGerakMelingkar,
+  BesaranGerakMelingkar,
+  KecepatanLinierDanSudut,
 
   /* Chapter : Dinamika Dasar */
   PengantarDinamika,
@@ -578,7 +582,6 @@ export const materials = [
   
   /* Chapter : Dinamika Gerak Melingkar */
   PengertianDinamikaGerakMelingkar,
-  BesaranGerakMelingkar,
   PercepatanSentripetal,
   GayaSentripetal,
   AplikasiDinamikaGerakMelingkar,

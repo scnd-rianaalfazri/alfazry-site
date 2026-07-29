@@ -1,292 +1,287 @@
 const kecepatanLinearDanSudut = {
   title: "Kecepatan Linear dan Kecepatan Sudut",
   slug: "kecepatan-linear-dan-kecepatan-sudut",
-  description:
-    "Memahami perbedaan kecepatan linear dan kecepatan sudut serta hubungan keduanya dalam gerak melingkar.",
-
-  chapter: "🌌 Kinematika: Gerak Dua Dimensi",
+  description: "Memahami perbedaan kecepatan linear dan kecepatan sudut serta hubungan keduanya dalam gerak melingkar.",
+  chapter: "🏀 Kinematika: Gerak Dua Dimensi",
 
   content: [
     {
       heading: "⚙️ Dua Cara Mengukur Kecepatan",
       blocks: [
         {
-          type: "heading",
-          text: "⚙️ Dua Cara Mengukur Kecepatan"
+          type: "paragraph",
+          text: [
+            "Saat sebuah mobil melaju di jalan lurus, kita cukup menyatakan kecepatannya dalam satuan meter per sekon $(m/s$).",
+            "Namun pada gerak melingkar, kita dapat melihat gerakan tersebut dari dua sudut pandang yang berbeda:"
+          ]
         },
         {
-          type: "paragraph",
-          text: "Saat sebuah mobil melaju di jalan lurus, kita cukup menyatakan kecepatannya dalam satuan meter per sekon."
-        },
-        {
-          type: "paragraph",
-          text: "Namun pada gerak melingkar, kita dapat melihat gerakan tersebut dari dua sudut pandang yang berbeda."
-        },
-        {
-          type: "paragraph",
-          text: "Kita dapat mengukur seberapa cepat benda menempuh lintasan lingkaran atau seberapa cepat sudutnya berubah."
-        },
-        {
-          type: "paragraph",
-          text: "Karena itu, gerak melingkar memiliki dua jenis kecepatan, yaitu kecepatan linear dan kecepatan sudut."
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Mengukur seberapa cepat benda menempuh lintasan lingkaran secara fisik (Kecepatan Linear)."
+              },
+              {
+                text: "Mengukur seberapa cepat sudut putarannya berubah terhadap waktu (Kecepatan Sudut)."
+              }
+            ]
+          }
         }
       ]
     },
-
     {
       heading: "❓ Pertanyaan Besar",
       blocks: [
         {
-          type: "heading",
-          text: "❓ Pertanyaan Besar"
-        },
-        {
           type: "paragraph",
-          text: "Mengapa dua titik pada roda yang sama dapat memiliki kecepatan yang berbeda?"
-        },
-        {
-          type: "paragraph",
-          text: "Mengapa bagian tepi kipas bergerak jauh lebih cepat daripada bagian dekat porosnya?"
+          text: [
+            "Mengapa dua titik pada roda yang sama dapat memiliki kecepatan linear yang berbeda?",
+            "Mengapa bagian tepi kipas angin terasa 'ngebut' banget, sedangkan bagian dekat porosnya berputar santai?"
+          ]
         }
       ]
     },
-
     {
-      heading: "🚗 Apa Itu Kecepatan Linear?",
+      heading: "🚗 Apa Itu Kecepatan Linear $(v)$?",
       blocks: [
         {
-          type: "heading",
-          text: "🚗 Apa Itu Kecepatan Linear?"
-        },
-        {
           type: "paragraph",
-          text: "Kecepatan linear adalah kecepatan benda saat bergerak sepanjang lintasan lingkaran."
-        },
-        {
-          type: "paragraph",
-          text: "Arah kecepatan linear selalu menyinggung lintasan lingkaran sehingga disebut juga kecepatan tangensial."
+          text: [
+            "Kecepatan linear (kecepatan tangensial) adalah kecepatan benda saat bergerak sepanjang lintasan melingkar.",
+            "Arah kecepatan linear selalu menyinggung lintasan lingkaran (tegak lurus terhadap jari-jari)."
+          ]
         },
         {
           type: "equation",
-          latex: "v=\\frac{s}{t}"
+          equation: "v = \frac{s}{t}"
         },
         {
           type: "paragraph",
-          text: "Satuan kecepatan linear adalah meter per sekon (m/s)."
-        }
-      ]
-    },
-
-    {
-      heading: "🌀 Apa Itu Kecepatan Sudut?",
-      blocks: [
+          text: [
+            "Keterangan:"
+          ]
+        },
         {
-          type: "heading",
-          text: "🌀 Apa Itu Kecepatan Sudut?"
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "v = kecepatan linear $(m/s)$"
+              },
+              {
+                text: "s = panjang busur lintasan $(m)$"
+              },
+              {
+                text: "t = waktu $(s)$"
+              }
+            ]
+          }
         },
         {
           type: "paragraph",
-          text: "Kecepatan sudut menyatakan seberapa cepat sudut benda berubah terhadap waktu."
+          text: [
+            "Jika benda menempuh satu putaran penuh $(s = \\frac{2}{\\pi}r)$ dalam waktu satu periode $(T)$, kecepatannya juga dapat dirumuskan:"
+          ]
         },
         {
           type: "equation",
-          latex: "\\omega=\\frac{\\Delta\\theta}{\\Delta t}"
-        },
-        {
-          type: "paragraph",
-          text: "Simbol kecepatan sudut adalah ω (omega)."
-        },
-        {
-          type: "paragraph",
-          text: "Satuan SI untuk kecepatan sudut adalah radian per sekon (rad/s)."
+          equation: "v = \frac{2\pi r}{T} = 2\pi f r"
         }
       ]
     },
-
+    {
+      heading: "🌀 Apa Itu Kecepatan Sudut $(\\omega)$?",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Kecepatan sudut *(angular velocity)* menyatakan seberapa cepat sudut yang dibentuk benda berubah terhadap waktu.",
+            "Simbol kecepatan sudut adalah $\\omega$ (omega) dengan satuan SI radian per sekon $(rad/s)$"
+          ]
+        },
+        {
+          type: "equation",
+          equation: "\\omega = \\frac{\\Delta\\theta}{\\Delta t}"
+        },
+        {
+          type: "paragraph",
+          text: [
+            "Dalam satu putaran penuh, perubahan sudut $\\Delta\\theta = 2\\pi \\text{ rad}$, sehingga:"
+          ]
+        },
+        {
+          type: "equation",
+          latex: "\omega = \frac{2\pi}{T} = 2\pi f"
+        }
+      ]
+    },
     {
       heading: "🔗 Hubungan Kecepatan Linear dan Kecepatan Sudut",
       blocks: [
         {
-          type: "heading",
-          text: "🔗 Hubungan Kecepatan Linear dan Kecepatan Sudut"
-        },
-        {
           type: "paragraph",
-          text: "Kecepatan linear bergantung pada jari-jari lintasan dan kecepatan sudut."
+          text: [
+            "Jembatan penghubung antara kecepatan linear $(v)$ dan kecepatan sudut $(\\omega)$ adalah jari-jari lintasan $(r)$."
+          ]
         },
         {
           type: "equation",
-          latex: "v=\\omega r"
+          equation: "v = \omega \cdot r"
         },
         {
           type: "paragraph",
-          text: "Semakin besar jari-jari, semakin besar pula kecepatan linearnya jika kecepatan sudut tetap."
+          text: [
+            "Persamaan ini menunjukkan bahwa kecepatan linear berbanding lurus dengan jarak titik dari pusat putaran $(r)$."
+          ]
         }
       ]
     },
-
     {
       heading: "🎡 Mengapa Bagian Tepi Lebih Cepat?",
       blocks: [
         {
-          type: "heading",
-          text: "🎡 Mengapa Bagian Tepi Lebih Cepat?"
+          type: "paragraph",
+          text: [
+            "Bayangkan dua anak naik komidi putar:"
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "Anak A duduk dekat poros ($r$ kecil)"
+              },
+              {
+                text: "Anak B di bagian tepi ($r$ besar)"
+              }
+            ]
+          }
         },
         {
           type: "paragraph",
-          text: "Bayangkan sebuah komidi putar."
-        },
-        {
-          type: "paragraph",
-          text: "Anak yang duduk di dekat pusat hanya menempuh lintasan kecil setiap putaran."
-        },
-        {
-          type: "paragraph",
-          text: "Sebaliknya, anak yang duduk di tepi harus menempuh lintasan yang jauh lebih panjang dalam waktu yang sama."
-        },
-        {
-          type: "paragraph",
-          text: "Akibatnya, kecepatan linear di bagian tepi lebih besar meskipun keduanya memiliki kecepatan sudut yang sama."
+          text: [
+            "Kedua anak menyelesaikannya dalam waktu yang sama, sehingga kecepatan sudut $(\\omega)$ mereka SAMA.",
+            "Namun, anak B di tepi harus menempuh keliling lingkaran yang jauh lebih besar dibanding anak A. Oleh karena itu, kecepatan linear $(v)$ anak B jauh lebih BESAR."
+          ]
         }
       ]
     },
-
     {
-      heading: "🌍 Contoh dalam Kehidupan",
+      heading: "⚠️ Miskonsepsi Populer",
       blocks: [
         {
-          type: "heading",
-          text: "🌍 Contoh dalam Kehidupan"
-        },
-        {
-          type: "paragraph",
-          text: "• Ujung baling-baling kipas bergerak lebih cepat daripada bagian dekat poros."
-        },
-        {
-          type: "paragraph",
-          text: "• Ban mobil bagian luar memiliki kecepatan linear lebih besar daripada titik yang lebih dekat ke pusat roda."
-        },
-        {
-          type: "paragraph",
-          text: "• Saat melempar palu atletik, bagian bola bergerak jauh lebih cepat dibanding tangan atlet."
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Miskonsepsi 1",
+                description: [
+                  "Semua titik pada benda yang berputar memiliki kecepatan linear yang sama. ❌",
+                  "Gak, gitu!",
+                  "Faktanya, kecepatan sudut $(\\omega)$ memang sama untuk seluruh titik, tetapi kecepatan linear $(v)$ berbeda tergantung jaraknya ke pusat $(r)$. ✔️"
+                ]
+              },
+              {
+                text: "Miskonsepsi 2",
+                description: [
+                  "Satuan Kecepatan Sudut adalah m/s. ❌ ",
+                  "Faktanya, satuan SI untuk kecepatan sudut adalah $rad/s$. Satuan $m/s$ khusus untuk kecepatan linear. ✔️"
+                ]
+              }
+            ]
+          }
         }
       ]
     },
-
     {
-      heading: "🧪 Contoh Perhitungan",
+      heading: "🌟 *Fun Fact!*",
       blocks: [
         {
-          type: "heading",
-          text: "🧪 Contoh Perhitungan"
-        },
+          type: "paragraph",
+          text: [
+            "Ujung baling-baling helikopter dapat berputar dengan kecepatan linear hingga ratusan meter per sekon, bahkan mendekati kecepatan suara!",
+            "Karena itu, perancangan struktur ujung baling-baling membutuhkan presisi tinggi agar tidak patah akibat gaya mekanis yang sangat besar."
+          ]
+        }
+      ]
+    },
+    {
+      heading: "🧪 Contoh Soal & Pembahasan",
+      blocks: [
         {
           type: "paragraph",
-          text: "Sebuah roda memiliki jari-jari 0,4 meter dan berputar dengan kecepatan sudut 15 rad/s."
+          text: [
+            "Sebuah roda berjari-jari 0,5 meter berputar dengan kecepatan sudut konstan 20 rad/s. Hitunglah kecepatan linear suatu titik di tepi roda!",
+            "**Pembahasan:**",
+            "Diketahui:"
+          ]
         },
         {
-          type: "paragraph",
-          text: "Kecepatan linearnya dapat dihitung menggunakan persamaan:"
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "$r$ = 0,5 m"
+              },
+              {
+                text: "$\\omega$ = 20 rad/s."
+              }
+            ]
+          }
         },
         {
           type: "equation",
-          latex: "v=\\omega r"
+          equation: "v = \\omega \\cdot r = 20 \\times 0,5 = 10 \\text{ m/s}"
         },
         {
           type: "paragraph",
-          text: "v = 15 × 0,4 = 6 m/s."
+          text: [
+            "**Kesimpulan:**",
+            "Jadi, kecepatan linear titik di tepi roda tersebut adalah 10 m/s."
+          ]
         }
       ]
     },
-
     {
-      heading: "⚠️ Miskonsepsi",
+      heading: "✨ Inti Materi *(Takeaway Message)*",
       blocks: [
         {
-          type: "heading",
-          text: "⚠️ Miskonsepsi"
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "Kecepatan Linear $(v)$",
+                description: "Seberapa cepat benda mengelilingi lintasan (satuan: m/s)"
+              },
+              {
+                text: "Kecepatan Sudut $(\\omega)$",
+                description: "Seberapa cepat sudut putaran bertambah (satuan: rad/s)"
+              },
+              {
+                text: "Hubungan keduanya dihubungkan oleh jari-jari",
+                equation: "v = \\omega r"
+              }
+            ]
+          }
         },
-        {
-          type: "paragraph",
-          text: "❌ Semua titik pada roda memiliki kecepatan linear yang sama."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Faktanya, hanya kecepatan sudutnya yang sama. Kecepatan linear bergantung pada jari-jari."
-        },
-        {
-          type: "paragraph",
-          text: "❌ Kecepatan linear selalu mengarah ke pusat lingkaran."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Faktanya, arah kecepatan linear selalu menyinggung lintasan lingkaran."
-        },
-        {
-          type: "paragraph",
-          text: "❌ Kecepatan sudut menggunakan satuan m/s."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Faktanya, satuan kecepatan sudut adalah rad/s."
-        }
       ]
     },
-
-    {
-      heading: "🌟 Fun Fact",
-      blocks: [
-        {
-          type: "heading",
-          text: "🌟 Fun Fact"
-        },
+    { blocks: [
         {
           type: "paragraph",
-          text: "Ujung baling-baling helikopter dapat bergerak hingga ratusan meter per sekon. Karena itulah desain baling-baling harus sangat presisi agar tetap aman saat berputar dengan kecepatan tinggi."
-        }
-      ]
-    },
-
-    {
-      heading: "🧠 Inti Materi",
-      blocks: [
-        {
-          type: "heading",
-          text: "🧠 Inti Materi"
-        },
-        {
-          type: "paragraph",
-          text: "Gerak melingkar memiliki dua jenis kecepatan."
-        },
-        {
-          type: "paragraph",
-          text: "Kecepatan linear menyatakan seberapa cepat benda bergerak sepanjang lintasan, sedangkan kecepatan sudut menyatakan seberapa cepat sudut berubah terhadap waktu."
-        },
-        {
-          type: "paragraph",
-          text: "Keduanya dihubungkan oleh persamaan v = ωr."
-        }
-      ]
-    },
-
-    {
-      heading: "🚀 Next Mission",
-      blocks: [
-        {
-          type: "heading",
-          text: "🚀 Next Mission"
-        },
-        {
-          type: "paragraph",
-          text: "Walaupun besar kecepatan sebuah benda bisa tetap, ternyata arah kecepatannya terus berubah ketika bergerak melingkar."
-        },
-        {
-          type: "paragraph",
-          text: "Perubahan arah ini menyebabkan munculnya percepatan yang selalu mengarah ke pusat lingkaran."
-        },
-        {
-          type: "paragraph",
-          text: "Pada misi berikutnya, kita akan mempelajari Percepatan Sentripetal dan Gaya Sentripetal serta alasan mengapa benda dapat tetap bergerak pada lintasan melingkar."
+          text: [
+            "Walaupun besar kecepatan sebuah benda bisa tetap, ternyata arah kecepatannya terus berubah ketika bergerak melingkar.",
+            "Perubahan arah ini menyebabkan munculnya percepatan yang selalu mengarah ke pusat lingkaran.",
+            "*Next,* portal selanjutnya: [**Percepatan Sentripetal**](/materi/percepatan-sentripetal)"
+          ]
         }
       ]
     }

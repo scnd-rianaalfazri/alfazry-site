@@ -1,34 +1,30 @@
 const percepatanSentripetal = {
-  title: "Percepatan Sentripetal dan Gaya Sentripetal",
-  slug: "percepatan-sentripetal-dan-gaya-sentripetal",
+  title: "Percepatan Sentripetal",
+  slug: "percepatan-sentripetal",
   description:
-    "Memahami mengapa benda yang bergerak melingkar tetap mengalami percepatan serta mengenal gaya sentripetal yang mempertahankan lintasan melingkar.",
+    "Memahami mengapa benda yang bergerak melingkar tetap mengalami percepatan meskipun kelajuannya konstan, serta cara menghitungnya.",
 
   chapter: "🌌 Kinematika: Gerak Dua Dimensi",
 
   content: [
     {
-      heading: "🎢 Mengapa Belokan Terasa Mendorong Tubuh?",
+      heading: "🎢 Kelajuan Konstan, tapi Kok Berkelajuan?",
       blocks: [
         {
           type: "heading",
-          text: "🎢 Mengapa Belokan Terasa Mendorong Tubuh?"
+          text: "🎢 Kelajuan Konstan, tapi Kok Berkelajuan?"
         },
         {
           type: "paragraph",
-          text: "Pernahkah kamu menaiki mobil yang berbelok tajam atau wahana roller coaster?"
+          text: "Pernahkah kamu menaiki komidi putar atau kendaraan yang berbelok mulus dengan kecepatan speedometer yang stabil?"
         },
         {
           type: "paragraph",
-          text: "Saat kendaraan berbelok, tubuhmu terasa terdorong ke samping meskipun kecepatannya hampir tidak berubah."
+          text: "Meskipun jarum speedometer menunjukkan angka yang konstan, secara fisika tubuhmu sebenarnya sedang mengalami percepatan!"
         },
         {
           type: "paragraph",
-          text: "Mengapa hal itu bisa terjadi?"
-        },
-        {
-          type: "paragraph",
-          text: "Jawabannya bukan karena besar kecepatannya berubah, tetapi karena arah kecepatannya terus berubah."
+          text: "Mengapa hal itu bisa terjadi? Mari kita usut alasannya."
         }
       ]
     },
@@ -42,137 +38,89 @@ const percepatanSentripetal = {
         },
         {
           type: "paragraph",
-          text: "Jika kelajuan benda tetap, mengapa benda masih mengalami percepatan?"
+          text: "Jika angka pada speedometer tidak berubah, mengapa benda yang bergerak melingkar tetap dikatakan mengalami percepatan?"
         },
         {
           type: "paragraph",
-          text: "Gaya apa yang membuat benda tetap bergerak mengikuti lintasan melingkar?"
+          text: "Ke arah manakah vektor percepatan tersebut mengarah?"
         }
       ]
     },
 
     {
-      heading: "🚀 Mengapa Ada Percepatan?",
+      heading: "🚀 Rahasia Vektor Kecepatan",
       blocks: [
         {
           type: "heading",
-          text: "🚀 Mengapa Ada Percepatan?"
+          text: "🚀 Rahasia Vektor Kecepatan"
         },
         {
           type: "paragraph",
-          text: "Percepatan adalah perubahan kecepatan. Ingat, kecepatan memiliki dua komponen, yaitu besar dan arah."
+          text: "Ingat kembali bahwa kecepatan adalah besaran vektor yang memiliki dua komponen: besar (kelajuan) dan arah."
         },
         {
           type: "paragraph",
-          text: "Pada gerak melingkar beraturan, besar kecepatan tetap, tetapi arahnya berubah setiap saat."
+          text: "Percepatan didefinisikan sebagai perubahan kecepatan terhadap waktu."
         },
         {
           type: "paragraph",
-          text: "Karena arah berubah terus-menerus, benda tetap mengalami percepatan."
+          text: "Pada gerak melingkar beraturan, nilai besar kecepatannya memang tetap, tetapi arah kecepatannya terus berubah setiap milidetik menyinggung lintasan."
+        },
+        {
+          type: "paragraph",
+          text: "Karena arahnya terus berubah, maka nilai perubahan kecepatannya tidak nol. Inilah mengapa timbul percepatan!"
         }
       ]
     },
 
     {
-      heading: "🎯 Percepatan Sentripetal",
+      heading: "🎯 Apa itu Percepatan Sentripetal?",
       blocks: [
         {
           type: "heading",
-          text: "🎯 Percepatan Sentripetal"
+          text: "🎯 Apa itu Percepatan Sentripetal?"
         },
         {
           type: "paragraph",
-          text: "Percepatan yang selalu mengarah ke pusat lingkaran disebut percepatan sentripetal."
+          text: "Percepatan yang bertugas khusus untuk mengubah arah kecepatan (bukan besarnya) dan selalu mengarah ke pusat lingkaran disebut percepatan sentripetal."
         },
         {
           type: "paragraph",
-          text: "Kata sentripetal berasal dari bahasa Latin yang berarti 'menuju pusat'."
+          text: "Istilah 'sentripetal' berasal dari bahasa Latin: centrum (pusat) dan petere (menuju/mencari), yang berarti 'mencari pusat'."
         },
         {
           type: "equation",
-          latex: "a_c=\\frac{v^2}{r}"
+          latex: "a_c = \\frac{v^2}{r}"
         },
         {
           type: "paragraph",
-          text: "Persamaan ini menunjukkan bahwa percepatan sentripetal akan semakin besar jika kecepatan semakin tinggi atau jari-jari lintasan semakin kecil."
+          text: "Persamaan di atas menunjukkan bahwa nilai percepatan sentripetal (a_c) bertambah besar jika kelajuan linear (v) makin tinggi atau radius lintasan (r) makin sempit."
         }
       ]
     },
 
     {
-      heading: "🌀 Bentuk Persamaan Lain",
+      heading: "🌀 Hubungan dengan Kecepatan Sudut",
       blocks: [
         {
           type: "heading",
-          text: "🌀 Bentuk Persamaan Lain"
+          text: "🌀 Hubungan dengan Kecepatan Sudut"
         },
         {
           type: "paragraph",
-          text: "Karena kecepatan linear berhubungan dengan kecepatan sudut melalui persamaan v = ωr, maka percepatan sentripetal juga dapat dituliskan sebagai:"
+          text: "Jika kamu lebih sering menggunakan kecepatan sudut (ω) daripada kecepatan linear (v), kita bisa menyubstitusikan persamaan v = ωr ke dalam rumus utama."
+        },
+        {
+          type: "paragraph",
+          text: "Sehingga diperoleh bentuk persamaan alternatif:"
         },
         {
           type: "equation",
-          latex: "a_c=\\omega^2r"
+          latex: "a_c = \\omega^2 r"
         },
         {
           type: "paragraph",
-          text: "Kedua persamaan tersebut memiliki makna yang sama dan dapat digunakan sesuai informasi yang diketahui pada soal."
-        }
-      ]
-    },
-
-    {
-      heading: "🧲 Gaya Sentripetal",
-      blocks: [
-        {
-          type: "heading",
-          text: "🧲 Gaya Sentripetal"
-        },
-        {
-          type: "paragraph",
-          text: "Agar benda dapat terus bergerak melingkar, harus ada gaya yang selalu menarik atau mendorong benda menuju pusat lintasan."
-        },
-        {
-          type: "paragraph",
-          text: "Gaya inilah yang disebut gaya sentripetal."
-        },
-        {
-          type: "equation",
-          latex: "F_c=ma_c"
-        },
-        {
-          type: "equation",
-          latex: "F_c=\\frac{mv^2}{r}"
-        },
-        {
-          type: "paragraph",
-          text: "Gaya sentripetal bukan jenis gaya baru. Gaya ini dapat berasal dari gaya gesek, gaya gravitasi, gaya tegangan tali, atau gaya normal, tergantung situasinya."
-        }
-      ]
-    },
-
-    {
-      heading: "🌍 Contoh dalam Kehidupan",
-      blocks: [
-        {
-          type: "heading",
-          text: "🌍 Contoh dalam Kehidupan"
-        },
-        {
-          type: "paragraph",
-          text: "• Satelit tetap mengorbit Bumi karena gaya gravitasi bertindak sebagai gaya sentripetal."
-        },
-        {
-          type: "paragraph",
-          text: "• Batu yang diputar menggunakan tali tetap bergerak melingkar karena tarikan tali menjadi gaya sentripetal."
-        },
-        {
-          type: "paragraph",
-          text: "• Mobil dapat berbelok karena gaya gesek antara ban dan jalan menyediakan gaya sentripetal."
-        },
-        {
-          type: "paragraph",
-          text: "• Roller coaster tetap mengikuti rel melingkar karena adanya gaya normal dari lintasan."
+          text: "Kedua formula ini memberikan hasil yang identik, tinggal disesuaikan dengan variabel yang diketahui pada kasus yang kamu hadapi."
         }
       ]
     },
@@ -186,53 +134,45 @@ const percepatanSentripetal = {
         },
         {
           type: "paragraph",
-          text: "Sebuah mobil melaju dengan kecepatan 20 m/s pada tikungan berjari-jari 50 m."
+          text: "Sebuah mobil melaju dengan kelajuan konstan 20 m/s saat melintasi tikungan bundaran berjari-jari 50 m."
         },
         {
           type: "paragraph",
-          text: "Percepatan sentripetalnya adalah:"
+          text: "Besar percepatan sentripetal yang dialami mobil dapat dihitung sebagai berikut:"
         },
         {
           type: "equation",
-          latex: "a_c=\\frac{20^2}{50}=8\\;m/s^2"
+          latex: "a_c = \\frac{20^2}{50} = \\frac{400}{50} = 8 \\text{ m/s}^2"
         },
         {
           type: "paragraph",
-          text: "Artinya, mobil mengalami percepatan sebesar 8 m/s² yang selalu mengarah ke pusat tikungan."
+          text: "Artinya, meskipun kelajuannya tidak bertambah, mobil tersebut terus mengalami percepatan sebesar 8 m/s² yang selalu mengarah ke titik pusat bundaran."
         }
       ]
     },
 
     {
-      heading: "⚠️ Miskonsepsi",
+      heading: "⚠️ Miskonsepsi Populer",
       blocks: [
         {
           type: "heading",
-          text: "⚠️ Miskonsepsi"
+          text: "⚠️ Miskonsepsi Populer"
         },
         {
           type: "paragraph",
-          text: "❌ Jika kelajuan tetap, maka percepatan pasti nol."
+          text: "❌ Jika kelajuan konstan, maka percepatan pasti sama dengan nol."
         },
         {
           type: "paragraph",
-          text: "✅ Faktanya, arah kecepatan terus berubah sehingga tetap ada percepatan."
+          text: "✅ Faktanya, percepatan nol hanya berlaku jika besar DAN arah kecepatan tidak berubah (gerak lurus beraturan)."
         },
         {
           type: "paragraph",
-          text: "❌ Gaya sentripetal adalah jenis gaya baru."
+          text: "❌ Percepatan sentripetal arahnya searah dengan laju kendaraan."
         },
         {
           type: "paragraph",
-          text: "✅ Faktanya, gaya sentripetal hanyalah peran dari gaya-gaya yang sudah ada, seperti gravitasi, gesek, tegangan tali, atau gaya normal."
-        },
-        {
-          type: "paragraph",
-          text: "❌ Percepatan sentripetal mengarah searah gerak benda."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Faktanya, percepatan sentripetal selalu mengarah ke pusat lingkaran, sedangkan kecepatan linear menyinggung lintasan."
+          text: "✅ Faktanya, arah percepatan sentripetal tegak lurus terhadap arah kecepatan linear—yaitu selalu mengarah ke pusat lingkaran."
         }
       ]
     },
@@ -246,7 +186,7 @@ const percepatanSentripetal = {
         },
         {
           type: "paragraph",
-          text: "Astronaut di Stasiun Luar Angkasa Internasional (ISS) sebenarnya terus mengalami percepatan sentripetal akibat gravitasi Bumi. Mereka tampak melayang karena ISS dan seluruh isinya berada dalam keadaan jatuh bebas mengelilingi Bumi."
+          text: "Para pembalap Formula 1 harus melatih otot leher mereka secara ekstrim! Saat melibas tikungan tajam pada kecepatan tinggi, mereka mengalami percepatan sentripetal hingga 5G hingga 6G (5–6 kali percepatan gravitasi bumi), yang membuat kepala terasa 5 kali lebih berat ke arah luar lintasan."
         }
       ]
     },
@@ -260,11 +200,11 @@ const percepatanSentripetal = {
         },
         {
           type: "paragraph",
-          text: "Pada gerak melingkar, arah kecepatan selalu berubah sehingga benda mengalami percepatan sentripetal yang mengarah ke pusat lingkaran."
+          text: "Benda yang bergerak melingkar selalu mengalami percepatan sentripetal akibat perubahan arah kecepatan linearnya."
         },
         {
           type: "paragraph",
-          text: "Agar benda tetap berada pada lintasan melingkar, diperlukan gaya sentripetal yang dapat berasal dari berbagai jenis gaya, seperti gravitasi, gesekan, tegangan tali, atau gaya normal."
+          text: "Vektor percepatan sentripetal selalu tegak lurus terhadap kecepatan linear dan konsisten mengarah ke pusat lintasan melingkar."
         }
       ]
     },
@@ -278,11 +218,11 @@ const percepatanSentripetal = {
         },
         {
           type: "paragraph",
-          text: "Sekarang kamu sudah memahami mengapa benda dapat bergerak mengikuti lintasan melingkar."
+          text: "Pada misi berikutnya, kita akan mengeksplorasi berbagai penerapan gerak melingkar dalam kehidupan sehari-hari, teknologi modern, hingga eksplorasi antariksa."
         },
         {
           type: "paragraph",
-          text: "Pada misi berikutnya, kita akan mengeksplorasi berbagai penerapan gerak melingkar dalam kehidupan sehari-hari, teknologi modern, hingga eksplorasi antariksa."
+          text: ""
         }
       ]
     }
@@ -290,3 +230,4 @@ const percepatanSentripetal = {
 };
 
 export default percepatanSentripetal;
+
