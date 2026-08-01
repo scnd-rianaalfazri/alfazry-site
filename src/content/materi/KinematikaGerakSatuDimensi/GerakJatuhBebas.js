@@ -1,4 +1,4 @@
-const gerakjatuhbebas = {
+const gerakJatuhBebas = {
   title: "Gerak Jatuh Bebas",
   slug: "gerak-jatuh-bebas",
   description: "Memahami Gerak Jatuh Bebas sebagai salah satu bentuk Gerak Lurus Berubah Beraturan yang dipengaruhi oleh gravitasi Bumi.",
@@ -422,4 +422,4 @@ const gerakjatuhbebas = {
   ]
 };
 
-export default gerakjatuhbebas;
+export default gerakJatuhBebas;

@@ -1,6 +1,4 @@
-import { text } from "framer-motion/client";
-
-const metodeilmiah = {
+const metodeIlmiah = {
   title: "Metode Ilmiah",
   slug: "metode-ilmiah",
   description: "Memahami pengertian, tujuan, dan tahapan umum metode ilmiah sebagai cara memperoleh pengetahuan yang dapat dipercaya.",
@@ -328,4 +326,4 @@ const metodeilmiah = {
   }]
 };
 
-export default metodeilmiah;
+export default metodeIlmiah;

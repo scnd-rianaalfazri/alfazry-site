@@ -1,160 +1,227 @@
-const hukumnewtonsatu = {
-  title: "Hukum Newton I",
-  slug: "hukum newton 1",
-  description:
-  "Memahami konsep kelembaman atau inersia serta hubungan gaya total dengan keadaan gerak benda.",
-  chapter: "🚀 Dinamika: Konsep Dasar",
+const hukumNewtonSatu = {
+  title: "Hukum Newton I (Hukum Inersia)",
+  slug: "hukum-newton-satu",
+  description: "Memahami Hukum Newton I dan konsep inersia sebagai kecenderungan alami benda mempertahankan keadaan geraknya.",
+  chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
   content: [
-  { heading:
-
-    "🚗 Mengapa Benda Bisa Tetap Diam?", blocks: [{ type: "heading", text: "🚗 Mengapa Benda Bisa Tetap Diam?" },
-    { type: "paragraph", text: "Pernah melihat bola yang diam di lantai?" },
     {
-      type: "paragraph",
-      text: "Bola tersebut tidak akan bergerak jika tidak ada gaya yang bekerja padanya."
+      heading: "🚌 Mengapa Tubuh Terdorong Saat Kendaraan Berhenti?",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Pernahkah kamu naik bus atau mobil yang tiba-tiba mengerem mendadak?",
+            "Meskipun kendaraan berhenti, tubuhmu justru terasa terdorong ke depan.",
+            "Sebaliknya, ketika kendaraan mulai bergerak secara tiba-tiba, tubuhmu terasa tertarik ke belakang.",
+            "Mengapa hal itu bisa terjadi? Apakah ada gaya misterius yang mendadak mendorong tubuhmu?"
+          ]
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Fenomena ini berkaitan dengan Hukum Newton I."
-    }]
-
-  },
-  { heading:
-
-    "📍 Bunyi Hukum Newton I", blocks: [{ type: "heading", text: "📍 Bunyi Hukum Newton I" },
-    { type: "paragraph", text: "Hukum Newton I menyatakan:" },
-    {
-      type: "paragraph",
-      text: "Suatu benda akan tetap diam atau bergerak lurus beraturan jika resultan gaya yang bekerja pada benda tersebut sama dengan nol."
+      heading: "❓ Pertanyaan Besar",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Mengapa benda cenderung mempertahankan keadaan geraknya?",
+            "Apa yang terjadi jika resultan gaya (\\\\Sigma F) yang bekerja pada benda bernilai nol?"
+          ]
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Artinya, benda cenderung mempertahankan keadaan geraknya."
-    }]
-
-  },
-  { heading:
-
-    "🧠 Konsep Inersia (Kelembaman)", blocks: [{ type: "heading", text: "🧠 Konsep Inersia (Kelembaman)" },
-    {
-      type: "paragraph",
-      text: "Kecenderungan benda untuk mempertahankan keadaan geraknya disebut inersia atau kelembaman."
-    },
-    { type: "paragraph", text: "Benda yang diam cenderung tetap diam." },
-    {
-      type: "paragraph",
-      text: "Benda yang bergerak cenderung tetap bergerak."
-    }]
-
-  },
-  { heading:
-
-    "⚖️ Resultan Gaya Nol", blocks: [{ type: "heading", text: "⚖️ Resultan Gaya Nol" },
-    {
-      type: "paragraph",
-      text: "Ketika semua gaya yang bekerja saling menyeimbangkan:"
-    },
-    { type: "paragraph", text: "ΣF = 0" },
-    { type: "paragraph", text: "Maka:" },
-    { type: "paragraph", text: "➡️ Benda diam tetap diam" },
-    {
-      type: "paragraph",
-      text: "➡️ Benda bergerak tetap bergerak lurus dengan kecepatan tetap"
-    }]
-
-  },
-  { heading:
-
-    "🚍 Contoh dalam Kehidupan", blocks: [{ type: "heading", text: "🚍 Contoh dalam Kehidupan" },
-    { type: "paragraph", text: "Saat bus tiba-tiba bergerak maju:" },
-    {
-      type: "paragraph",
-      text: "Tubuh penumpang terasa terdorong ke belakang."
+      heading: "📖 Bunyi Hukum Newton I",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Hukum Newton I menyatakan bahwa:"
+          ]
+        },
+        {
+          type: "quote",
+          text: "Suatu benda akan tetap diam atau bergerak lurus beraturan selama resultan gaya yang bekerja padanya sama dengan nol."
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Hal ini terjadi karena tubuh cenderung mempertahankan keadaan diam."
-    }]
-
-  },
-  { heading:
-
-    "🛑 Contoh Pengereman", blocks: [{ type: "heading", text: "🛑 Contoh Pengereman" },
-    {
-      type: "paragraph",
-      text: "Saat kendaraan yang melaju tiba-tiba berhenti:"
+      heading: "⚖️ Resultan Gaya Nol $(\\Sigma F = 0)$",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Pada materi sebelumnya, kita tahu bahwa gaya bekerja dari berbagai arah.",
+            "Jika semua gaya yang bekerja saling menyeimbangkan, maka resultan gayanya sama dengan nol:"
+          ]
+        },
+        {
+          type: "equation",
+          equation: "Sigma F = 0"
+        },
+        {
+          type: "paragraph",
+          text: [
+            "Dalam kondisi ini, benda tidak mengalami percepatan (a = 0). Artinya:",
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+            "Jika benda awalnya diam (v = 0), benda akan TETAP DIAM.",
+            "Jika benda awalnya bergerak dengan kecepatan v, benda akan TETAP BERGERAK LURUS BERATURAN (GLB) dengan kecepatan konstan."
+            ]
+          }
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Tubuh penumpang cenderung bergerak ke depan."
+      heading: "🪨 Apa Itu Inersia (Kelembaman)?",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Inersia atau kelembaman adalah sifat alami setiap benda untuk 'kemalasannya' mengubah keadaan gerak.",
+            "Benda cenderung mempertahankan posisinya:",
+          ]
+        },
+        {
+          type: "unordered",
+          list: {
+            type: "unordered",
+            items: [
+              "• Benda diam ingin tetap diam.",
+              "• Benda bergerak ingin tetap bergerak lurus.",
+            ]
+          }
+        },
+        {
+          type: "paragraph",
+          text: [
+            "Agar keadaan gerak benda berubah, harus ada resultan gaya luar yang bekerja pada benda tersebut."
+          ]
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Karena tubuh masih mempertahankan gerakan sebelumnya."
-    }]
-
-  },
-  { heading:
-
-    "📦 Massa dan Inersia", blocks: [{ type: "heading", text: "📦 Massa dan Inersia" },
-    {
-      type: "paragraph",
-      text: "Semakin besar massa benda, semakin besar sifat inersianya."
+      heading: "🏋️ Faktor yang Mempengaruhi Inersia",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Besarnya kelembaman suatu benda sangat bergantung pada massanya $(m)$.",
+            "Semakin besar massa suatu benda, semakin besar pula inersianya, sehingga semakin sulit untuk mengubah keadaan geraknya.",
+            "Contohnya: Mendorong truk yang mogok jauh lebih berat daripada mendorong sepeda mini. Truk bukan 'malas', tetapi memiliki massa dan kelembaman yang sangat besar!"
+          ]
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Artinya benda bermassa besar lebih sulit mengubah keadaan geraknya."
-    }]
-
-  },
-  { heading:
-
-    "🌎 Penerapan Hukum Newton I", blocks: [{ type: "heading", text: "🌎 Penerapan Hukum Newton I" },
-    { type: "paragraph", text: "Contoh penerapan:" },
-    { type: "paragraph", text: "🚗 Sabuk pengaman kendaraan" },
-    { type: "paragraph", text: "🛒 Troli belanja" },
-    { type: "paragraph", text: "⚽ Bola yang diam" },
-    { type: "paragraph", text: "🚀 Pergerakan benda di luar angkasa" }]
-
-  },
-  { heading:
-
-    "🧩 Hubungan dengan Keseimbangan", blocks: [{ type: "heading", text: "🧩 Hubungan dengan Keseimbangan" },
-    {
-      type: "paragraph",
-      text: "Hukum Newton I juga menjelaskan kondisi keseimbangan benda."
+      heading: "🌍 Contoh Fenomena Inersia dalam Kehidupan",
+      blocks: [
+        {
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "🚌 Bus Mengerem Mendadak",
+                description: "Tubuh terdorong ke depan karena mempertahankan kecepatan awal saat bus melaju."
+              },
+              {
+                text: "🪙 Trik Koin dan Gelas",
+                description: "Jika kartu di bawah koin ditarik dengan sangat cepat, koin akan tetap di posisinya dan jatuh tepat ke dalam gelas."
+              },
+              {
+                text: "🚗 Sabuk Pengaman (Seatbelt)",
+                description: "Menahan tubuh dari inersia ke depan saat mobil bertabrakan atau mengerem mendadak."
+              },
+              {
+                text: "🏒 Keping Hoki Es",
+                description: "Keping hoki yang dipukul di atas es licin meluncur sangat jauh karena gaya gesek yang hampir nol."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Benda dapat berada dalam keadaan seimbang ketika gaya-gaya yang bekerja saling meniadakan."
-    }]
-
-  },
-  { heading:
-
-    "✨ Inti Materi", blocks: [{ type: "heading", text: "✨ Inti Materi" },
-    {
-      type: "paragraph",
-      text: "Hukum Newton I menjelaskan bahwa benda mempertahankan keadaan geraknya jika tidak ada resultan gaya."
+      heading: "🔬 Mengapa Sabuk Pengaman Penting?",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Saat mobil melaju kencang dan mendadak berhenti, tubuh penumpang masih melaju dengan kecepatan mobil sebelum pengereman akibat sifat inersia.",
+            "Di sinilah sabuk pengaman bekerja—ia memberikan gaya eksternal penahan agar tubuh berhenti secara aman dan terhindar dari benturan keras dengan kaca depan atau dashboard."
+          ]
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Sifat mempertahankan gerak ini disebut inersia."
-    }]
-
-  },
-  { heading:
-
-    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
-    {
-      type: "paragraph",
-      text: "Jika gaya tidak seimbang bekerja pada benda, apa yang terjadi?"
+      heading: "⚠️ Miskonsepsi Fisika",
+      blocks: [
+        {
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Miskonsepsi 1",
+                description: [
+                  "Agar benda tetap bergerak lurus, harus selalu ada gaya yang terus mendorongnya. ❌",
+                  "Jika resultan gaya bernilai nol (\\\\Sigma F = 0), benda akan terus bergerak lurus dengan kecepatan tetap tanpa perlu dorongan terus-menerus. ✔️"
+                ]
+              },
+              {
+                text: "Miskonsepsi 2",
+                description: [
+                  "Benda yang diam berarti tidak ada gaya sama sekali yang bekerja padanya. ❌",
+                  "Benda diam bisa saja dialiri banyak gaya (misal: gaya berat dan gaya normal), namun semua gaya tersebut saling menyeimbangkan sehingga \\\\Sigma F = 0. ✔️"
+                ]
+              }
+            ]
+          }
+        }
+      ]
     },
-    { type: "paragraph", text: "➡️ Selanjutnya: Hukum Newton II." }]
-
-  }]
-
+    {
+      heading: "🌟 *Fun Fact*",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "🚀 Di ruang hampa udara luar angkasa, pesawat luar angkasa seperti Voyager dapat terus meluncur tanpa perlu menyalakan mesin selamanya, selama tidak ada resultan gaya luar (seperti gravitasi planet lain) yang menghentikannya!"
+          ]
+        }
+      ]
+    },
+    {
+      heading: "✨ Inti Materi *(Takeaway Message)*",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Hukum Newton I menjelaskan bahwa benda akan mempertahankan keadaan diam atau bergerak lurus beraturan jika resultan gaya yang bekerja padanya sama dengan nol. Sifat mempertahankan keadaan gerak ini disebut inersia atau kelembaman."
+          ]
+        }
+      ]
+    },
+    { blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Sekarang apakah kamu sudah paham apa yang terjadi ketika resultan gaya sama dengan nol $(\\Sigma F = 0)$?",
+            "Lalu, apa yang terjadi jika resultan gaya nilainya TIDAK NOL $(\\Sigma F \\neq 0)$?",
+            "Pada materi berikutnya, kita akan mempelajari Hukum Newton II dan melihat bagaimana resultan gaya menentukan besar percepatan suatu benda!",
+            "➡️ *Next,* kita menuju portal:[**Hukum Newton II**](hukum-newton-dua)"
+          ]
+        }
+      ]
+    }
+  ]
 };
 
-export default hukumnewtonsatu;
+export default hukumNewtonSatu;

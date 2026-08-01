@@ -7,10 +7,8 @@ import miskonsepsiaoaitufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/Apa
 import pengertianfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika7.jpg";
 import nextmissionhakikatilmufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika8.jpg";
 import cobatemukanImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika9.jpg";
-import { body, text } from "framer-motion/client";
-import { m } from "framer-motion";
 
-const apaitufisika = {
+const apaItuFisika = {
   title: "Apa Itu Fisika?",
   slug: "apa-itu-fisika",
   description: "Memahami pengertian fisika, objek kajiannya, dan perannya dalam memahami alam semesta.",
@@ -476,4 +474,4 @@ const apaitufisika = {
   }]
 };
 
-export default apaitufisika;
+export default apaItuFisika;

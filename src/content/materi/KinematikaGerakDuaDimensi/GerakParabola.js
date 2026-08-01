@@ -1,6 +1,6 @@
-const gerakParabola = {
-  title: "Gerak Parabola",
-  slug: "gerak-parabola",
+const pengertianGerakParabola = {
+  title: "Pengertian Gerak Parabola",
+  slug: "pengertian-gerak-parabola",
   description: "Memahami konsep dasar gerak parabola sebagai gabungan gerak horizontal dan vertikal yang menghasilkan lintasan melengkung.",
   chapter: "🏀 Kinematika: Gerak Dua Dimensi",
   content: [
@@ -380,4 +380,4 @@ const gerakParabola = {
   ]
 };
 
-export default gerakParabola;
+export default pengertianGerakParabola;

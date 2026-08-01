@@ -1,5 +1,3 @@
-import { text } from "framer-motion/client";
-
 const gerakHorizontalDanVertikal = {
   title: "Gerak Horizontal dan Gerak Vertikal pada Gerak Parabola",
   slug: "gerak-horizontal-dan-vertikal-pada-gerakparabola",

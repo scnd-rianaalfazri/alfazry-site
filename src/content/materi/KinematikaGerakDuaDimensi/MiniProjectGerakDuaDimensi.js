@@ -1,9 +1,7 @@
 const miniProjectGerakDuaDimensi = {
   title: "Mini Project: Physics Motion Challenge",
   slug: "mini-project-gerak-dua-dimensi",
-  description:
-    "Merancang permainan sederhana yang memanfaatkan konsep gerak parabola dan gerak melingkar.",
-
+  description: "Merancang permainan sederhana yang memanfaatkan konsep gerak parabola dan gerak melingkar.",
   chapter: "🌌 Kinematika: Gerak Dua Dimensi",
 
   content: [
@@ -164,41 +162,6 @@ const miniProjectGerakDuaDimensi = {
         }
       ]
     },
-
-    {
-      heading: "🏆 Badge",
-      blocks: [
-        {
-          type: "heading",
-          text: "🏆 Badge Reward"
-        },
-        {
-          type: "paragraph",
-          text: "🥉 Motion Observer"
-        },
-        {
-          type: "paragraph",
-          text: "Diberikan jika berhasil mengidentifikasi jenis gerak dengan benar."
-        },
-        {
-          type: "paragraph",
-          text: "🥈 Motion Analyst"
-        },
-        {
-          type: "paragraph",
-          text: "Diberikan jika mampu menjelaskan konsep fisika yang bekerja."
-        },
-        {
-          type: "paragraph",
-          text: "🥇 Physics Explorer"
-        },
-        {
-          type: "paragraph",
-          text: "Diberikan jika analisis lengkap disertai gambar, rumus, dan penjelasan yang benar."
-        }
-      ]
-    },
-
     {
       heading: "💡 Challenge Plus",
       blocks: [

@@ -1,4 +1,4 @@
-const keselamatanlaboratorium = {
+const keselamatanKerjaLaboratorium = {
   title: "Keselamatan Kerja Laboratorium",
   slug: "keselamatan-kerja-laboratorium",
   description: "Memahami pentingnya keselamatan kerja, penggunaan alat pelindung diri, simbol bahaya, dan prosedur dasar saat melakukan praktikum.[cite: 1]",
@@ -252,4 +252,4 @@ const keselamatanlaboratorium = {
   ]
 };
 
-export default keselamatanlaboratorium;
+export default keselamatanKerjaLaboratorium;

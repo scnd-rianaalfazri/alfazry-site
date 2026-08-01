@@ -1,4 +1,4 @@
-const sainsdalamkehidupan = {
+const sainsDalamKehidupan = {
   title: "Sains dalam Kehidupan Sehari-hari",
   slug: "sains-dalam-kehidupan",
   description: "Memahami bahwa cara berpikir ilmiah dapat diterapkan dalam berbagai aktivitas sehari-hari untuk mengambil keputusan yang lebih tepat.",
@@ -285,4 +285,4 @@ const sainsdalamkehidupan = {
   }]
 };
 
-export default sainsdalamkehidupan;
+export default sainsDalamKehidupan;

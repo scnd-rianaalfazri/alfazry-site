@@ -1,4 +1,3 @@
-import { caption, image, text } from "framer-motion/client";
 import hakikatIlmuFisikaImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika1.jpg";
 import pilarilmufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika2.jpg";
 import intimaterhakikatfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika6.jpg";
@@ -6,7 +5,7 @@ import nextmissionfisikasebagaiprodukImg from "/src/assets/Materi/HakikatIlmuFis
 import miskonsepsihakikatfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika8.jpg";
 import tahukahkamuImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika9.jpg";
 
-const hakikatimufisika = {
+const hakikatIlmuFisika = {
   title: "Hakikat Ilmu Fisika",
   slug: "hakikat-ilmu-fisika",
   description:  "Memahami hakikat ilmu fisika sebagai produk, proses, dan sikap ilmiah dalam mempelajari alam.",
@@ -319,4 +318,4 @@ const hakikatimufisika = {
   }]
 };
 
-export default hakikatimufisika;
+export default hakikatIlmuFisika;

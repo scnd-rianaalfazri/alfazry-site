@@ -1,6 +1,6 @@
 const jenisjenisgaya = {
   title: "Jenis-jenis Gaya",
-  slug: "jenis-jenis gaya",
+  slug: "jenis-jenis-gaya",
   description:
   "Memahami berbagai jenis gaya yang bekerja pada benda dalam kehidupan sehari-hari.",
   chapter: "🚀 Dinamika: Konsep Dasar",

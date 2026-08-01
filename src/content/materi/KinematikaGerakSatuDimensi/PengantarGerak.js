@@ -1,4 +1,4 @@
-const pengantargerak = {
+const pengantarGerak = {
   title: "Pengantar Gerak",
   slug: "pengantar-gerak",
   description:  "Mengenal konsep dasar gerak, titik acuan, serta pentingnya mempelajari gerak dalam kehidupan sehari-hari.",
@@ -217,4 +217,4 @@ const pengantargerak = {
   ]
 };
 
-export default pengantargerak;
+export default pengantarGerak;

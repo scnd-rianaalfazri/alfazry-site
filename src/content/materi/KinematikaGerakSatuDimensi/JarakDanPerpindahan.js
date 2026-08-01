@@ -1,4 +1,4 @@
-const jarakdanperpindahan = {
+const jarakDanPerpindahan = {
   title: "Jarak dan Perpindahan",
   slug: "jarak-dan-perpindahan",
   description: "Membongkar perbedaan mendasar antara jarak dan perpindahan. Awas ketuker, yang satu skalar, yang satu vektor!",
@@ -276,4 +276,4 @@ const jarakdanperpindahan = {
   ]
 };
 
-export default jarakdanperpindahan;
+export default jarakDanPerpindahan;

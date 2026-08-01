@@ -1,4 +1,4 @@
-const penutupgeraksatudimensi = {
+const penutupGerakSatuDimensi = {
   title: "Penutup Chapter",
   slug: "penutup-gerak-satu-dimensi",
   description: "Menyimpulkan seluruh konsep Gerak Satu Dimensi dan mempersiapkan diri untuk memasuki bab Kinematika Gerak Dua Dimensi.",
@@ -102,4 +102,4 @@ const penutupgeraksatudimensi = {
   ]
 };
 
-export default penutupgeraksatudimensi;
+export default penutupGerakSatuDimensi;

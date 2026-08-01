@@ -1,182 +1,355 @@
-const pengertiangaya = {
+import { text } from "framer-motion/client";
+
+const pengertianGaya = {
   title: "Pengertian Gaya",
-  slug: "pengertian gaya",
-  description:
-  "Memahami konsep gaya sebagai interaksi yang menyebabkan perubahan gerak atau bentuk benda.",
-  chapter: "🚀 Dinamika: Konsep Dasar",
+  slug: "pengertian-gaya",
+  description: "Memahami konsep gaya sebagai interaksi berupa tarikan atau dorongan yang dapat mengubah keadaan gerak maupun bentuk suatu benda.",
+  chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
   content: [
-  { heading:
-
-    "💪 Dorongan dan Tarikan di Sekitar Kita", blocks: [{ type: "heading", text: "💪 Dorongan dan Tarikan di Sekitar Kita" },
-    {
-      type: "paragraph",
-      text: "Dalam kehidupan sehari-hari, kita sering melakukan gaya tanpa sadar."
-    },
-    { type: "paragraph", text: "Contoh:" },
-    { type: "paragraph", text: "🖐️ Mendorong pintu" },
-    { type: "paragraph", text: "🏀 Menendang bola" },
-    { type: "paragraph", text: "🛒 Menarik benda" },
-    {
-      type: "paragraph",
-      text: "Semua aktivitas tersebut melibatkan gaya."
-    }]
-
-  },
-  { heading:
-
-    "📍 Apa Itu Gaya?", blocks: [{ type: "heading", text: "📍 Apa Itu Gaya?" },
-    {
-      type: "paragraph",
-      text: "Gaya adalah interaksi berupa dorongan atau tarikan yang dapat memengaruhi keadaan suatu benda."
-    },
-    { type: "paragraph", text: "Gaya dapat menyebabkan benda:" },
-    { type: "paragraph", text: "➡️ Bergerak" },
-    { type: "paragraph", text: "➡️ Berhenti" },
-    { type: "paragraph", text: "➡️ Berubah kecepatan" },
-    { type: "paragraph", text: "➡️ Berubah arah" },
-    { type: "paragraph", text: "➡️ Berubah bentuk" }]
-
-  },
-  { heading:
-
-    "⚡ Gaya Mengubah Gerak", blocks: [{ type: "heading", text: "⚡ Gaya Mengubah Gerak" },
-    {
-      type: "paragraph",
-      text: "Sebuah benda tidak akan mengalami perubahan gerak tanpa adanya gaya yang bekerja."
-    },
-    { type: "paragraph", text: "Contoh:" },
-    {
-      type: "paragraph",
-      text: "Bola diam → diberi tendangan → bola bergerak"
+    { blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Pernahkah kamu mendorong meja, menendang bola ke gawang, atau sekadar menarik koper saat liburan?",
+            "Semua aktivitas seru itu punya satu kesamaan: ada interaksi fisik yang dinamakan **Gaya**.",
+            "Tanpa adanya gaya, dunia kita bakal stagnan—nggak ada benda yang bisa jalan, belok, atau berhenti!"
+          ]
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Tendangan tersebut adalah gaya yang mengubah keadaan bola."
-    }]
+      heading: "❓ Pertanyaan Besar",
+      blocks: [
 
-  },
-  { heading:
-
-    "📐 Gaya sebagai Besaran Vektor", blocks: [{ type: "heading", text: "📐 Gaya sebagai Besaran Vektor" },
-    { type: "paragraph", text: "Gaya termasuk besaran vektor." },
-    { type: "paragraph", text: "Karena gaya memiliki:" },
-    { type: "paragraph", text: "📏 Besar gaya" },
-    { type: "paragraph", text: "🧭 Arah gaya" },
-    {
-      type: "paragraph",
-      text: "Dua gaya dengan besar sama dapat memberikan efek berbeda jika arahnya berbeda."
-    }]
-
-  },
-  { heading:
-
-    "🔢 Satuan Gaya", blocks: [{ type: "heading", text: "🔢 Satuan Gaya" },
-    {
-      type: "paragraph",
-      text: "Dalam Sistem Internasional (SI), satuan gaya adalah Newton (N)."
+        {
+          type: "paragraph",
+          text: [
+            "Apa sebenarnya definisi gaya secara saintifik?",
+            "Bagaimana sebuah tarikan atau dorongan sederhana bisa bikin mobil ngebut, menghentikan smash bola voli, sampai mengubah bentuk kaleng bekas?"
+          ]
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Satu Newton adalah gaya yang diperlukan untuk memberikan percepatan tertentu pada benda bermassa tertentu."
-    }]
-
-  },
-  { heading:
-
-    "🧲 Gaya Kontak dan Nonkontak", blocks: [{ type: "heading", text: "🧲 Gaya Kontak dan Nonkontak" },
-    {
-      type: "paragraph",
-      text: "Berdasarkan cara bekerjanya, gaya dapat dibagi menjadi dua:"
-    },
-    { type: "paragraph", text: "1. Gaya kontak" },
-    { type: "paragraph", text: "Terjadi ketika benda bersentuhan." },
-    { type: "paragraph", text: "Contoh:" },
-    { type: "paragraph", text: "gaya dorong, gaya gesek, gaya pegas" },
-    { type: "paragraph", text: "2. Gaya nonkontak" },
-    { type: "paragraph", text: "Terjadi tanpa sentuhan langsung." },
-    { type: "paragraph", text: "Contoh:" },
-    { type: "paragraph", text: "gaya gravitasi, gaya magnet" }]
-
-  },
-  { heading:
-
-    "🌎 Contoh Jenis Gaya", blocks: [{ type: "heading", text: "🌎 Contoh Jenis Gaya" },
-    { type: "paragraph", text: "Beberapa gaya yang sering ditemukan:" },
-    { type: "paragraph", text: "🌎 Gaya gravitasi" },
-    { type: "paragraph", text: "Menarik benda menuju pusat bumi." },
-    { type: "paragraph", text: "🖐️ Gaya normal" },
-    { type: "paragraph", text: "Gaya dari permukaan yang menopang benda." },
-    { type: "paragraph", text: "🧱 Gaya gesek" },
-    { type: "paragraph", text: "Menghambat gerakan benda." }]
-
-  },
-  { heading:
-
-    "⚖️ Resultan Gaya", blocks: [{ type: "heading", text: "⚖️ Resultan Gaya" },
-    {
-      type: "paragraph",
-      text: "Dalam suatu benda, bisa terdapat lebih dari satu gaya yang bekerja."
+      heading: "📍 Apa Itu Gaya?",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Dalam Fisika, **Gaya** adalah interaksi berupa **dorongan** atau **tarikan** yang bekerja pada suatu benda.",
+            "Interaksi ini bisa memicu perubahan status gerak (kecepatan dan arah) ataupun bentuk fisik dari benda tersebut.",
+            "Kuncinya: Gaya **tidak bisa berdiri sendiri**. Harus ada minimal dua benda yang saling berinteraksi (misal: kakimu dan bola)."
+          ] 
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Gabungan seluruh gaya yang bekerja disebut resultan gaya."
+      heading: "🌟 Mengapa Gaya Penting?",
+      blocks: [
+        {
+          type: "heading",
+          text: "🌟 Mengapa Gaya Penting?"
+        },
+        {
+          type: "paragraph",
+          text: "Gaya adalah fondasi utama dalam cabang fisika yang dinamakan **Dinamika** (ilmu yang mempelajari gerak dan penyebabnya)."
+        },
+        {
+          type: "paragraph",
+          text: "Lewat pemahaman tentang gaya, para *engineer* bisa merancang mobil F1 yang stabil, pesawat komersial, hingga meroketkan wahana antariksa menuju Mars!"
+        }
+      ]
+    },
+
+    {
+      heading: "📐 Karakteristik Gaya",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Gaya adalah **Besaran Vektor**. Artinya, gaya tidak hanya punya nilai (besar), tapi juga **punya arah**.",
+            "Karakteristik utamanya meliputi:"
+          ] 
+        },
+        {
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "**Besar Gaya $(F)$**",
+                description: "Seberapa kuat dorongan/tarikannya."
+              },
+              {
+                text: "**Arah Gaya**",
+                description: "Ke mana gaya tersebut ditujukan (ke kanan, atas, barat, dsb.)."
+              },
+              {
+                text: "**Titik Tangkap**",
+                description: "Lokasi spesifik di mana gaya bekerja pada benda."
+              }
+            ]
+          }
+        },
+        {
+          type: "paragraph",
+          text: [
+            "⚠️ *Ingat! Dua gaya yang nilainya sama $(10\text{ N})$ bakal menghasilkan efek beda total kalau arahnya berlawanan!*"
+          ]
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Resultan gaya menentukan apakah gerak benda berubah atau tidak."
-    }]
-
-  },
-  { heading:
-
-    "🚗 Contoh dalam Kehidupan", blocks: [{ type: "heading", text: "🚗 Contoh dalam Kehidupan" },
-    { type: "paragraph", text: "Saat mobil bergerak:" },
-    { type: "paragraph", text: "Gaya mesin mendorong mobil ke depan." },
-    {
-      type: "paragraph",
-      text: "Gaya gesek dan hambatan udara melawan gerakan."
+      heading: "📏 Satuan & Formulasi Sederhana",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Dalam **Sistem Internasional (SI)**, satuan gaya adalah **Newton** $(\text{N})$, yang diambil dari nama fisikawan terkenal *Sir Isaac Newton*."
+          ]
+        },
+        {
+          type: "equation",
+          equation: "1\\text{ N} = 1\\text{ kg} \\cdot \\text{m/s}^2"
+        },
+        {
+          type: "paragraph",
+          text: [
+            "Secara matematis sederhana, $1\\text{ N}$ didefinisikan sebagai gaya yang dibutuhkan untuk memberikan percepatan $1\\text{ m/s}^2$ pada benda bermassa $1\\text{ kg}$."
+          ]
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Interaksi gaya tersebut menentukan gerak mobil."
-    }]
-
-  },
-  { heading:
-
-    "🧠 Hubungan dengan Hukum Newton", blocks: [{ type: "heading", text: "🧠 Hubungan dengan Hukum Newton" },
-    {
-      type: "paragraph",
-      text: "Konsep gaya menjadi dasar untuk memahami Hukum Newton."
+      heading: "⚡ Pengaruh Gaya Pada Benda",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Ketika gaya bekerja pada suatu benda, inilah hal-hal yang bisa terjadi:"
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "**Benda Diam Jadi Bergerak**",
+                description: "Mendorong troli belanjaan yang tadinya parkir."
+              },
+              {
+                text: "**Benda Bergerak Jadi Diam**",
+                description: "Menginjak rem mobil hingga berhenti di lampu merah."
+              },
+              {
+                text: "**Mengubah Kecepatan**",
+                description: "Menekan pedal gas untuk mempercepat laju motor."
+              },
+              {
+                text: "**Mengubah Arah Gerak**",
+                description: "Memukul balik bola badminton yang datang dari lawan."
+              },
+              {
+                text: "**Mengubah Bentuk Benda**",
+                description: "Meremas kaleng minuman atau menekan adonan kue."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Newton menjelaskan bagaimana gaya dapat memengaruhi gerak benda."
-    }]
-
-  },
-  { heading:
-
-    "✨ Inti Materi", blocks: [{ type: "heading", text: "✨ Inti Materi" },
-    {
-      type: "paragraph",
-      text: "Gaya adalah dorongan atau tarikan yang dapat mengubah keadaan benda."
+      heading: "🌍 Contoh dalam Kehidupan Sehari-hari",
+      blocks: [
+        {
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "⚽ **Menendang Bola**",
+                description: "Gaya otot kaki memberikan impuls awal sehingga bola meluncur."
+              },
+              {
+                text: "🚗 **Pengereman Kendaraan**",
+                description: "Gaya gesek antara kampas rem dan roda memperlambat laju kendaraan."
+              },
+              {
+                text: "🪂 **Penerjun Payung**",
+                description: "Gaya gesek udara (hambatan udara) menahan gaya gravitasi agar terjun bebas tetap aman."
+              },
+              {
+                text: "🧲 **Tempelan Kulkas**",
+                description: "Gaya magnet menarik permukaannya hingga menempel tanpa perekat."
+              }
+            ]
+          }
+        }
+      ]
     },
     {
-      type: "paragraph",
-      text: "Gaya memiliki besar dan arah sehingga termasuk besaran vektor."
-    }]
+      heading: "⚠️ Miskonsepsi Populer",
+      blocks: [
+        {
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Miskonsepsi 1",
+                description: [
+                  "Gaya hanya ada kalau bendanya bergerak. ❌",
+                  "Gak, gitu!",
+                  "Faktanya, benda diam pun bisa memiliki gaya yang bekerja padanya! Contohnya laptop di atas meja—ia mengalami gaya berat (gravitasi) ke bawah dan gaya normal dari meja ke atas. ✔️"
+                ]
+              },
+              {
+                text: "Miskonsepsi 2",
+                description: [
+                  "Semua gaya pasti bikin benda berpindah tempat. ❌",
+                  "Gak, gitu!",
+                  "Faktanya, kalau gaya-gaya yang bekerja seimbang (total gaya $F_{\\text{net}} = 0$), benda bakal tetap diam atau mempertahankan kecepatan konstan. ✔️"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
 
-  },
-  { heading:
-
-    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
-    { type: "paragraph", text: "Gaya dapat muncul dalam berbagai bentuk." },
-    { type: "paragraph", text: "➡️ Selanjutnya: Jenis-Jenis Gaya." }]
-
-  }]
-
+    {
+      heading: "🌟*Fun Fact*",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Di Stasiun Luar Angkasa Internasional (ISS), jika seorang astronot mendorong dinding ISS, tubuh astronot tersebut justru akan terdorong ke belakang!",
+            "Hal ini terjadi karena tidak adanya gaya gesek udara/lantai yang signifikan untuk menahannya, serta berlakunya Hukum III Newton (Aksi-Reaksi)."
+          ]
+        }
+      ]
+    },
+    {
+      heading: "✨ Inti Materi *(Takeaway Message)*",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Gaya adalah dorongan atau tarikan akibat interaksi antar benda yang dapat mengubah kecepatan, arah, maupun bentuk benda. Karena memiliki besar ($F$) dan arah, gaya tergolong besaran vektor dengan satuan Newton ($\text{N}$)."
+          ]
+        }
+      ]
+    },
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Dalam fisika, gaya didefinisikan sebagai....",
+                options: [
+                  "interaksi berupa dorongan atau tarikan yang bekerja pada suatu benda.",
+                  "besaran yang menunjukkan banyaknya massa suatu benda.",
+                  "kemampuan suatu benda untuk melakukan usaha.",
+                  "kecepatan benda saat bergerak.",
+                  "perubahan posisi suatu benda terhadap waktu."
+                ],
+                answerIndex: 0
+              },
+              {
+                question: "Mengapa gaya dikatakan sebagai besaran vektor?",
+                options: [
+                  "Karena hanya memiliki satuan Newton $(N)$.",
+                  "Karena hanya memiliki besar tanpa arah.",
+                  "Karena memiliki besar, arah, dan titik tangkap.",
+                  "Karena selalu menyebabkan benda bergerak.",
+                  "Karena hanya bekerja pada benda yang bergerak."
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Berikut ini yang bukan merupakan pengaruh gaya terhadap suatu benda adalah....",
+                options: [
+                  "membuat benda diam menjadi bergerak.",
+                  "mengubah arah gerak benda.",
+                  "mengubah bentuk benda.",
+                  "mengubah massa benda.",
+                  "mempercepat atau memperlambat gerak benda."
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Sebuah buku diletakkan di atas meja dan tetap diam. Berdasarkan materi, pernyataan yang benar adalah....",
+                options: [
+                  "tidak ada gaya yang bekerja pada buku.",
+                  "buku hanya mengalami gaya gravitasi.",
+                  "buku mengalami gaya berat ke bawah dan gaya normal dari meja ke atas sehingga tetap diam.",
+                  "buku tetap diam karena massanya nol.",
+                  "buku tidak dapat mengalami gaya jika tidak bergerak."
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Satuan gaya dalam Sistem Internasional (SI) adalah....",
+                options: [
+                  "Joule (J).",
+                  "Watt (W).",
+                  "Pascal (Pa).",
+                  "Newton (N).",
+                  "Meter per sekon (m/s)."
+                ],
+                answerIndex: 3
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    { blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Selamat! Kamu sudah paham konsep dasar dari Gaya.",
+            "Di misi selanjutnya, kita bakal bedah **Jenis-jenis Gaya**—mulai dari gaya sentuh (gesek, normal, tegangan tali) sampai gaya tak sentuh (gravitasi, magnet, listrik)!",
+            "➡️ *Next,* kita menuju portal: [Jenis-jenis Gaya](/materi/jenis-jenis-gaya)"
+          ]
+        }
+      ]
+    }
+  ]
 };
 
-export default pengertiangaya;
+export default pengertianGaya;

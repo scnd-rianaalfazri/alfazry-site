@@ -11,9 +11,8 @@ import pentingnyafisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSeba
 import tahukahkamuImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk12.jpg";
 import miskonsepsiImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk13.jpg";
 import intimateriImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk14.jpg";
-import { List } from "lucide-react";
 
-const fisikasebagaiproduk = {
+const fisikaSebagaiProduk = {
   title: "Fisika sebagai Produk",
   slug: "fisika-sebagai-produk",
   description: "Memahami bahwa fisika menghasilkan berbagai bentuk pengetahuan ilmiah seperti fakta, konsep, hukum, prinsip, teori, dan model.",
@@ -447,4 +446,4 @@ const fisikasebagaiproduk = {
   }]
 };
 
-export default fisikasebagaiproduk;
+export default fisikaSebagaiProduk;

@@ -1,4 +1,4 @@
-const geraklurusberubahberaturan = {
+const gerakLurusBerubahBeraturan = {
   title: "Gerak Lurus Berubah Beraturan (GLBB)",
   slug: "gerak-lurus-berubah-beraturan",
   description: "Memahami konsep Gerak Lurus Berubah Beraturan (GLBB), ciri-ciri, persamaan gerak, analisis grafik, serta penerapannya dalam kehidupan sehari-hari.",
@@ -462,4 +462,4 @@ const geraklurusberubahberaturan = {
   ]
 };
 
-export default geraklurusberubahberaturan;
+export default gerakLurusBerubahBeraturan;

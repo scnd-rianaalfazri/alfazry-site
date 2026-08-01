@@ -17,7 +17,7 @@ import SainsDalamKehidupan from "../content/materi/HakikatIlmuFisika/SainsDalamK
 import MiniProjectHakikatIlmuFisika from "../content/materi/HakikatIlmuFisika/MiniProjectHakikatIlmuFisika.js"
 import PenutupChapterHakikatIlmuFisika from "../content/materi/HakikatIlmuFisika/PenutupHakikatFisika.js"
 
-/* besaran dan satua */
+/* besaran dan satuan */
 import PengantarBesaranDanSatuan from "../content/materi/BesaranDanSatuan/PengantarBesaranDanSatuan.js"
 import BesaranDanSatuan from "../content/materi/BesaranDanSatuan/BesaranDanSatuan.js"
 import SistemInternasional from "../content/materi/BesaranDanSatuan/SistemInternasional.js"
@@ -66,10 +66,13 @@ import PenerapanGerakParabola from "../content/materi/KinematikaGerakDuaDimensi/
 import PengertianGerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi/PengertianGerakMelingkar.js"
 import BesaranGerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi/BesaranGerakMelingkar.js"
 import KecepatanLinierDanSudut from "../content/materi/KinematikaGerakDuaDimensi/KecepatanLinearDanSudut.js"
+import PercepatanSentripetal from "../content/materi/KinematikaGerakDuaDimensi/PercepatanSentripetal.js"
+import PenerapanGerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi/PenerapanGerakMelingkar.js"
 
-/* dinamika dasar */
+/* dinamika gaya dan hukum newton */
 import PengantarDinamika from "../content/materi/DinamikaGayaDanHukumNewton/PengantarDinamika.js"
 import PengertianGaya from "../content/materi/DinamikaGayaDanHukumNewton/PengertianGaya.js"
+import ResultanGaya from "../content/materi/DinamikaGayaDanHukumNewton/ResultanGaya.js"
 import JenisjenisGaya from "../content/materi/DinamikaGayaDanHukumNewton/Jenisjenisgaya.js"
 import GayaGravitasiDanGayaBerat from "../content/materi/DinamikaGayaDanHukumNewton/GayaGravitasiDanGayaBerat.js"
 import GayaNormal from "../content/materi/DinamikaGayaDanHukumNewton/GayaNormal.js"
@@ -91,7 +94,6 @@ import SistemBendaTerhubung from "../content/materi/DinamikaGerakLurus/SistemBen
 
 /* dinamika gerak melingkar */
 import PengertianDinamikaGerakMelingkar from "../content/materi/DinamikaGerakMelingkar/PengertianDinamikaGerakMelingkar.js"
-import PercepatanSentripetal from "../content/materi/DinamikaGerakMelingkar/PercepatanSentripetal.js"
 import GayaSentripetal from "../content/materi/DinamikaGerakMelingkar/GayaSentripetal.js"
 import AplikasiDinamikaGerakMelingkar from "../content/materi/DinamikaGerakMelingkar/AplikasiDinamikaGerakMelingkar"
 
@@ -559,16 +561,19 @@ export const materials = [
   PengertianGerakMelingkar,
   BesaranGerakMelingkar,
   KecepatanLinierDanSudut,
+  PercepatanSentripetal,
+  PenerapanGerakMelingkar,
 
-  /* Chapter : Dinamika Dasar */
+  /* Chapter : Dinamika Gaya dan Hukum Newton */
   PengantarDinamika,
   PengertianGaya,
+  ResultanGaya,
+  HukumNewtonSatu,
   JenisjenisGaya,
   GayaGravitasiDanGayaBerat,
   GayaNormal,
   GayaGesek,
   GayaTeganganTali,
-  HukumNewtonSatu,
   HukumNewtonDua,
   HukumnewtonTiga,
   DiagramGaya,
@@ -582,7 +587,6 @@ export const materials = [
   
   /* Chapter : Dinamika Gerak Melingkar */
   PengertianDinamikaGerakMelingkar,
-  PercepatanSentripetal,
   GayaSentripetal,
   AplikasiDinamikaGerakMelingkar,
 

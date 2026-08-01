@@ -1,6 +1,4 @@
-import { text } from "framer-motion/client";
-
-const geraklurusberaturan = {
+const gerakLurusBeraturan = {
   title: "Gerak Lurus Beraturan",
   slug: "gerak-lurus-beraturan",
   description: "Memahami konsep gerak lurus beraturan (GLB), ciri-ciri utama, persamaan matematika, analisis grafik v-t & s-t, serta penerapannya.",
@@ -337,4 +335,4 @@ const geraklurusberaturan = {
   ]
 };
 
-export default geraklurusberaturan;
+export default gerakLurusBeraturan;

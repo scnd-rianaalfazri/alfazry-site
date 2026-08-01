@@ -1,11 +1,10 @@
-import { caption, image, text } from "framer-motion/client";
 import FisikaSgbSikapImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiSikap1.jpg";
 import PengertianSikapIlmiahImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiSikap2.jpg";
 import diagramsikapImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiSikap3.jpg";
 import sikapilmuanImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiSikap4.jpg";
 import contohdlmkehidupanImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiSikap5.jpg"
 
-const fisikasbgsikap = {
+const fisikaSebagaiSikap = {
   title: "Fisika sebagai Sikap Ilmiah",
   slug: "fisika-sebagai-sikap-ilmiah",
   description: "Memahami sikap ilmiah yang perlu dimiliki dalam mempelajari fisika dan melakukan penyelidikan ilmiah.",
@@ -347,4 +346,4 @@ const fisikasbgsikap = {
   ]
 };
 
-export default fisikasbgsikap;
+export default fisikaSebagaiSikap;

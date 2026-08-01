@@ -1,6 +1,4 @@
-import { text } from "framer-motion/client";
-
-const gerakvertikalatas = {
+const gerakVertikalAtas = {
   title: "Gerak Vertikal ke Atas",
   slug: "gerak-vertikal-atas",
   description: "Memahami konsep gerak vertikal ke atas sebagai gerak lurus berubah beraturan (GLBB) yang diperlambat oleh gaya gravitasi Bumi.",
@@ -343,4 +341,4 @@ const gerakvertikalatas = {
   ]
 };
 
-export default gerakvertikalatas;
+export default gerakVertikalAtas;

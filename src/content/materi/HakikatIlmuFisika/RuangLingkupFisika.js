@@ -1,4 +1,4 @@
-const ruanglingkupfisika = {
+const ruangLingkupFisika = {
   title: "Ruang Lingkup Fisika",
   slug: "ruang-lingkup-fisika",
   description: "Memahami berbagai bidang kajian fisika dan bagaimana semuanya saling berhubungan dalam menjelaskan alam semesta.",
@@ -334,4 +334,4 @@ const ruanglingkupfisika = {
   }]
 };
 
-export default ruanglingkupfisika;
+export default ruangLingkupFisika;

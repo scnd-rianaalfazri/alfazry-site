@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useParams, Link } from "react-router-dom"
 import { motion, AnimatePresence } from "framer-motion"
-import { ChevronDown } from "lucide-react"
+import { ChevronDown, Quote } from "lucide-react"
 import { materials } from "../data/materials"
 
 import Navbar from "../components/layout/Navbar"
@@ -136,12 +136,112 @@ export default function DetailMateri() {
     )
   }
 
+  // Helper: ubah nomor urut (1, 2, 3, ...) jadi format penanda ordered list.
+  // Dipakai bareng `block.style` di renderListBlock. Support sampai lewat
+  // 26 item buat huruf (jadi aa, ab, ac, ... kayak kolom spreadsheet).
+  const numberToAlpha = (num, upper) => {
+    let n = num
+    let result = ""
+    while (n > 0) {
+      n -= 1
+      result = String.fromCharCode(97 + (n % 26)) + result
+      n = Math.floor(n / 26)
+    }
+    return upper ? result.toUpperCase() : result
+  }
+
+  const numberToRoman = (num) => {
+    const map = [
+      [1000, "M"], [900, "CM"], [500, "D"], [400, "CD"],
+      [100, "C"], [90, "XC"], [50, "L"], [40, "XL"],
+      [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"],
+    ]
+    let n = num
+    let result = ""
+    for (const [value, numeral] of map) {
+      while (n >= value) {
+        result += numeral
+        n -= value
+      }
+    }
+    return result
+  }
+
+  const GREEK_LETTERS = [
+    "α", "β", "γ", "δ", "ε", "ζ", "η", "θ", "ι", "κ", "λ", "μ",
+    "ν", "ξ", "ο", "π", "ρ", "σ", "τ", "υ", "φ", "χ", "ψ", "ω",
+  ]
+  const numberToGreek = (num) => {
+    let n = num
+    let result = ""
+    while (n > 0) {
+      n -= 1
+      result = GREEK_LETTERS[n % 24] + result
+      n = Math.floor(n / 24)
+    }
+    return result
+  }
+
+  // U+2460..U+2473 -> ①..⑳ (cuma tersedia 1-20 di Unicode), lewat dari
+  // itu jatuhkan ke format "(21)" biar tetap kebaca jelas
+  const numberToCircled = (num) => {
+    if (num >= 1 && num <= 20) {
+      return String.fromCodePoint(0x2460 + (num - 1))
+    }
+    return `(${num})`
+  }
+
+  // Gaya penomoran ordered list: "number" (default), "upperAlpha",
+  // "lowerAlpha", "upperRoman", "lowerRoman", "decimalLeadingZero",
+  // "lowerGreek", "circled"
+  const getOrderedMarker = (index, style) => {
+    const orderNumber = index + 1
+    switch (style) {
+      case "upperAlpha":
+        return numberToAlpha(orderNumber, true)
+      case "lowerAlpha":
+        return numberToAlpha(orderNumber, false)
+      case "upperRoman":
+        return numberToRoman(orderNumber)
+      case "lowerRoman":
+        return numberToRoman(orderNumber).toLowerCase()
+      case "decimalLeadingZero":
+        return String(orderNumber).padStart(2, "0")
+      case "lowerGreek":
+        return numberToGreek(orderNumber)
+      case "circled":
+        return numberToCircled(orderNumber)
+      case "number":
+      default:
+        return String(orderNumber)
+    }
+  }
+
   // Marker kustom (bukan bullet/angka bawaan browser) biar konsisten
   // sama tema HUD ungu-cyan di seluruh situs. Mendukung list bercabang:
   // tiap item boleh punya `children` (sub-list) yang otomatis di-indent
   // dan bisa dicampur ordered/unordered sesuka hati, berapa level pun.
+  //
+  //   Gaya penomoran ordered list diatur lewat `block.style` (opsional,
+  //   default "number" kalau tidak diisi):
+  //     - "number"             -> 1, 2, 3, ...
+  //     - "upperAlpha"         -> A, B, C, ...
+  //     - "lowerAlpha"         -> a, b, c, ...
+  //     - "upperRoman"         -> I, II, III, ...
+  //     - "lowerRoman"         -> i, ii, iii, ...
+  //     - "decimalLeadingZero" -> 01, 02, 03, ...
+  //     - "lowerGreek"         -> α, β, γ, ...
+  //     - "circled"            -> ①, ②, ③, ... (item ke-21 dst jadi "(21)")
+  //
+  //   Contoh:
+  //   list: {
+  //     type: "ordered",
+  //     style: "upperRoman",
+  //     items: ["Poin pertama", "Poin kedua", "Poin ketiga"],
+  //   }
   const renderListBlock = (block, depth = 0) => {
     const type = block?.type === "ordered" ? "ordered" : "unordered"
+    const orderedStyle = block?.style || "number"
     const items = block?.items || []
     const Tag = type === "ordered" ? "ol" : "ul"
 
@@ -159,7 +259,8 @@ export default function DetailMateri() {
                     className="
                       mt-0.5
                       shrink-0
-                      w-6 h-6
+                      min-w-6 h-6
+                      px-1.5
                       rounded-full
                       bg-violet-500/15
                       border border-violet-400/40
@@ -168,7 +269,7 @@ export default function DetailMateri() {
                       flex items-center justify-center
                     "
                   >
-                    {index + 1}
+                    {getOrderedMarker(index, orderedStyle)}
                   </span>
                 ) : (
                   <span
@@ -365,6 +466,21 @@ export default function DetailMateri() {
       </p>
     )
 
+  // Block type "quote": kutipan yang ditonjolkan secara visual, cocok
+  // buat quote tokoh fisika, motivasi belajar, atau highlight kalimat
+  // penting di tengah materi. Properti:
+  //   - text    -> isi kutipan (wajib). Boleh string tunggal, atau array
+  //                of string buat kutipan beberapa baris/paragraf.
+  //   - author  -> nama pengucap (opsional)
+  //   - source  -> keterangan tambahan, misal jabatan/buku/tahun (opsional)
+  //
+  //   Contoh:
+  //   {
+  //     type: "quote",
+  //     text: "Jika saya telah melihat lebih jauh, itu karena saya berdiri di atas bahu raksasa.",
+  //     author: "Isaac Newton",
+  //     source: "Surat untuk Robert Hooke, 1675",
+  //   }
   const renderBlock = (block, key) => {
     if (!block || !block.type) return null
 
@@ -410,6 +526,96 @@ export default function DetailMateri() {
               </figcaption>
             )}
           </figure>
+        )
+
+      case "quote":
+        return (
+          <blockquote
+            key={key}
+            className="
+              group
+              relative
+              overflow-hidden
+              rounded-2xl
+              border border-violet-400/25
+              bg-gradient-to-br from-violet-500/[0.10] via-slate-950/60 to-cyan-500/[0.08]
+              px-5 py-6 md:px-8 md:py-7
+              shadow-lg shadow-violet-500/10
+              transition-all duration-300
+              hover:border-violet-300/40
+              hover:shadow-violet-400/20
+            "
+          >
+            {/* Tanda kutip raksasa sebagai dekorasi latar, khas kartu quote ala Gen-Z */}
+            <Quote
+              className="
+                pointer-events-none
+                absolute -top-2 -left-1
+                w-16 h-16 md:w-20 md:h-20
+                text-violet-400/10
+                -scale-x-100
+                transition-colors duration-300
+                group-hover:text-violet-400/15
+              "
+              fill="currentColor"
+              strokeWidth={0}
+            />
+
+            {/* Aksen garis gradasi di kiri, nyambung sama tema HUD ungu-cyan */}
+            <span
+              className="
+                absolute left-0 top-4 bottom-4
+                w-[3px] rounded-full
+                bg-gradient-to-b from-violet-400 via-fuchsia-400 to-cyan-400
+              "
+            />
+
+            <div className="relative pl-4 md:pl-5 space-y-3">
+              {Array.isArray(block.text) ? (
+                block.text.map((line, index) => (
+                  <p
+                    key={index}
+                    className="
+                      font-display
+                      text-base md:text-xl
+                      italic font-medium
+                      text-white/90
+                      leading-relaxed
+                    "
+                  >
+                    <RichText text={line} />
+                  </p>
+                ))
+              ) : (
+                <p
+                  className="
+                    font-display
+                    text-base md:text-xl
+                    italic font-medium
+                    text-white/90
+                    leading-relaxed
+                  "
+                >
+                  <RichText text={block.text} />
+                </p>
+              )}
+
+              {(block.author || block.source) && (
+                <footer className="flex items-center gap-2 pt-1 text-sm">
+                  <span className="h-px w-6 bg-cyan-400/50" />
+                  <span className="font-mono text-cyan-300/90">
+                    {block.author}
+                    {block.author && block.source && (
+                      <span className="text-white/40"> · </span>
+                    )}
+                    {block.source && (
+                      <span className="text-white/50">{block.source}</span>
+                    )}
+                  </span>
+                </footer>
+              )}
+            </div>
+          </blockquote>
         )
 
       case "heading":

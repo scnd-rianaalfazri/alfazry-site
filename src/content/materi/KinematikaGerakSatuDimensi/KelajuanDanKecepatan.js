@@ -1,6 +1,4 @@
-import { text } from "framer-motion/client";
-
-const kelajuandankecepatan = {
+const kelajuanDanKecepatan = {
   title: "Kelajuan dan Kecepatan",
   slug: "kelajuan-dan-kecepatan",
   description: "Memahami perbedaan kelajuan dan kecepatan serta kaitannya dengan jarak, perpindahan, dan arah gerak.",
@@ -455,4 +453,4 @@ const kelajuandankecepatan = {
   ]
 };
 
-export default kelajuandankecepatan;
+export default kelajuanDanKecepatan;

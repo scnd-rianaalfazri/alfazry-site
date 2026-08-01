@@ -10,7 +10,7 @@ import miskonsepsimengapafisika from "/src/assets/Materi/HakikatIlmuFisika/Menga
 import nextmissionapaitufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika10.jpg";
 import { link } from "framer-motion/client";
 
-const mengapabelajarfisika = {
+const mengapaBelajarFisika = {
   title: "Mengapa Belajar Fisika?",
   slug: "mengapa-belajar-fisika",
   description: "Memahami mengapa fisika dipelajari dan bagaimana fisika membantu manusia memahami alam semesta.",
@@ -451,4 +451,4 @@ const mengapabelajarfisika = {
   }]
 };
 
-export default mengapabelajarfisika;
+export default mengapaBelajarFisika;

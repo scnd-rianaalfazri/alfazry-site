@@ -274,13 +274,107 @@ const kecepatanLinearDanSudut = {
         },
       ]
     },
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+            {
+              question: "Kecepatan linear pada gerak melingkar adalah....",
+              options: [
+                "kecepatan perubahan sudut terhadap waktu.",
+                "kecepatan benda saat bergerak sepanjang lintasan melingkar.",
+                "banyaknya putaran dalam satu detik.",
+                "waktu yang dibutuhkan untuk satu putaran.",
+                "percepatan yang menuju pusat lingkaran."
+              ],
+              answerIndex: 1
+            },
+            {
+              question: "Hubungan yang benar antara kecepatan linear $(v)$, kecepatan sudut $(\\omega)$, dan jari-jari lintasan $(r)$ adalah....",
+              options: [
+                "$v = = \\frac{\\omega}{r}",
+                "$v = \\omega + r",
+                "v = \\omega r",
+                "v = frac{r}{\\\omega}",
+                "v = \\omega^2 r"
+              ],
+              answerIndex: 3
+            },
+            {
+              question: "Sebuah roda berjari-jari 0,4 m berputar dengan kecepatan sudut 15 rad/s. Besar kecepatan linear titik pada tepi roda adalah....",
+              options: [
+                "3 m/s.",,
+                "6 m/s.",
+                "15 m/s.",
+                "19 m/s.",
+                "30 m/s."
+              ],
+              answerIndex: 1
+            },
+            {
+              question: "Dua anak duduk pada komidi putar yang sama. Anak A duduk dekat pusat, sedangkan Anak B duduk di tepi. Pernyataan yang benar adalah....",
+              options: [
+                "kecepatan linear keduanya sama, tetapi kecepatan sudut berbeda.",
+                "Kecepatan sudut Anak B lebih besar daripada Anak A.",
+                "kecepatan sudut keduanya sama, tetapi kecepatan linear Anak B lebih besar.",
+                "kecepatan linear Anak A lebih besar daripada Anak B.",
+                "anak yang lebih dekat pusat memiliki periode yang lebih kecil."
+              ],
+              answerIndex: 2
+            },
+            {
+              question: "Pernyataan berikut yang benar mengenai kecepatan linear dan kecepatan sudut adalah....",
+              options: [
+                "semua titik pada benda yang berputar memiliki kecepatan linear yang sama.",
+                "kecepatan sudut memiliki satuan m/s.",
+                "kecepatan linear memiliki satuan rad/s.",
+                "semakin jauh suatu titik dari pusat putaran, semakin besar kecepatan linearnya jika kecepatan sudut tetap.",
+                "kecepatan linear tidak dipengaruhi oleh jari-jari lintasan."
+                ],
+              answerIndex: 3
+            }],
+            scoring: [
+            {
+              min: 5,
+              max: 5,
+              emoji: "🏆",
+              title: "Mission Complete!",
+              message: "Kamu siap memasuki portal berikutnya."
+            },
+            {
+              min: 4,
+              max: 4,
+              emoji: "🚀",
+              title: "Hampir Sempurna",
+              message: "Pemahamanmu sudah sangat baik."
+            },
+            {
+              min: 2,
+              max: 3,
+              emoji: "🔄",
+              title: "Perlu Sedikit Lagi",
+              message: "Coba eksplorasi lagi bagian inti materi."
+            },
+            {
+              min: 0,
+              max: 1,
+              emoji: "📖",
+              title: "Ulangi Petualangan",
+              message: "Tenang, ulangi petualanganmu dari awal."
+            }]
+          }
+        }
+      ]
+    },
     { blocks: [
         {
           type: "paragraph",
           text: [
             "Walaupun besar kecepatan sebuah benda bisa tetap, ternyata arah kecepatannya terus berubah ketika bergerak melingkar.",
             "Perubahan arah ini menyebabkan munculnya percepatan yang selalu mengarah ke pusat lingkaran.",
-            "*Next,* portal selanjutnya: [**Percepatan Sentripetal**](/materi/percepatan-sentripetal)"
+            "*➡️ *Next*, kita menuju portal: [**Percepatan Sentripetal**](/materi/percepatan-sentripetal)"
           ]
         }
       ]

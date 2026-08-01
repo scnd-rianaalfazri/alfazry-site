@@ -11,9 +11,8 @@ import ringkasanImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiPros
 import miskonsepsiImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses11.jpg";
 import nextmissionfisikasebagaisikapImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses14.jpg";
 import bonusImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses15.jpg";
-import { List } from "lucide-react";
 
-const fisikasbgproses = {
+const fisikaSebagaiProses = {
   title: "Fisika sebagai Proses",
   slug: "fisika-sebagai-proses",
   description: "Memahami bahwa pengetahuan fisika diperoleh melalui proses penyelidikan ilmiah yang sistematis.",
@@ -329,4 +328,4 @@ const fisikasbgproses = {
   }]
 };
 
-export default fisikasbgproses;
+export default fisikaSebagaiProses;

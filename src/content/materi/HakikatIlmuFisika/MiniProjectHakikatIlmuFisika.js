@@ -1,6 +1,4 @@
-import { text } from "framer-motion/client";
-
-const miniprojecthakikatilmufisika = {
+const miniProjectHakikatIlmuFisika = {
   title: "Mini Project: Hakikat Ilmu Fisika",
   slug: "mini-project-hakikat-ilmu-fisika",
   description: "Menerapkan metode ilmiah melalui penyelidikan sederhana untuk menjawab pertanyaan berdasarkan bukti.",
@@ -289,4 +287,4 @@ const miniprojecthakikatilmufisika = {
   }]
 };
 
-export default miniprojecthakikatilmufisika;
+export default miniProjectHakikatIlmuFisika;

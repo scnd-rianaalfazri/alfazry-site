@@ -1,6 +1,4 @@
-import { text } from "framer-motion/client";
-
-const gerakvertikalbawah = {
+const gerakVertikalBawah = {
   title: "Gerak Vertikal ke Bawah",
   slug: "gerak-vertikal-bawah",
   description: "Memahami konsep gerak vertikal ke bawah sebagai gerak lurus berubah beraturan (GLBB) dipercepat yang memiliki kecepatan awal.",
@@ -312,4 +310,4 @@ const gerakvertikalbawah = {
   ]
 };
 
-export default gerakvertikalbawah;
+export default gerakVertikalBawah;

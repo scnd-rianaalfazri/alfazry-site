@@ -1,4 +1,4 @@
-const kesimpulankomunikasi = {
+const kesimpulanKomunikasi = {
   title: "Kesimpulan & Komunikasi Ilmiah",
   slug: "kesimpulan-komunikasi-ilmiah",
   description: "Memahami cara menyusun kesimpulan berdasarkan data serta mengomunikasikan hasil penelitian secara ilmiah.",
@@ -332,4 +332,4 @@ const kesimpulankomunikasi = {
   }]
 };
 
-export default kesimpulankomunikasi;
+export default kesimpulanKomunikasi;

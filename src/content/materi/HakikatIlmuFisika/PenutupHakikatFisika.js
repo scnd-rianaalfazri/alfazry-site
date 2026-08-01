@@ -1,4 +1,4 @@
-const penutuphakikatilmufisika = {
+const penutupHakikatIlmuFisika = {
   title: "Penutup Chapter",
   slug: "penutup-hakikat-fisika",
   description: "Merefleksikan perjalanan mempelajari hakikat ilmu fisika dan metode ilmiah sebagai fondasi dalam memahami alam semesta.",
@@ -231,4 +231,4 @@ const penutuphakikatilmufisika = {
   }]
 };
 
-export default penutuphakikatilmufisika;
+export default penutupHakikatIlmuFisika;

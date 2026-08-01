@@ -1,8 +1,7 @@
 const penerapangerakparabola = {
   title: "Penerapan Gerak Parabola dalam Kehidupan dan Teknologi",
   slug: "penerapan-gerak-parabola-dalam-kehidupan-dan-teknologi",
-  description:
-    "Mengeksplorasi penerapan konsep gerak parabola dalam olahraga, kehidupan sehari-hari, teknologi, simulasi komputer, dan berbagai sistem nyata.",
+  description: "Mengeksplorasi penerapan konsep gerak parabola dalam olahraga, kehidupan sehari-hari, teknologi, simulasi komputer, dan berbagai sistem nyata.",
 
   chapter: "🏀 Kinematika: Gerak Dua Dimensi",
 

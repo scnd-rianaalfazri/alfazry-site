@@ -1,6 +1,4 @@
-import { text } from "framer-motion/client";
-
-const mengolahdata = {
+const mengolahData = {
   title: "Mengolah dan Menafsirkan Data",
   slug: "mengolah-dan-menafsirkan-data",
   description: "Memahami cara mengolah, menyajikan, dan menafsirkan data hasil eksperimen agar dapat digunakan untuk menarik kesimpulan yang tepat.",
@@ -162,7 +160,7 @@ const mengolahdata = {
       }
     ]
   },
-  { heading: "✨ Inti Materi (Takeaway Message)", 
+  { heading: "✨ Inti Materi *(Takeaway Message)*", 
     blocks: [
       {
         type: "paragraph",
@@ -292,4 +290,4 @@ const mengolahdata = {
   }]
 };
 
-export default mengolahdata;
+export default mengolahData;

@@ -1,5 +1,3 @@
-import { text } from "framer-motion/client";
-
 const jangkauanDanWaktuTempuh = {
   title: "Jangkauan Maksimum dan Waktu Tempuh Gerak Parabola",
   slug: "jangkauan-maksimum-dan-waktu-tempuh-gerak-parabola",
