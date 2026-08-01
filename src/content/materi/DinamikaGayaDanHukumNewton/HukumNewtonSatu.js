@@ -58,12 +58,12 @@ const hukumNewtonSatu = {
         },
         {
           type: "equation",
-          equation: "Sigma F = 0"
+          equation: "\\Sigma F = 0"
         },
         {
           type: "paragraph",
           text: [
-            "Dalam kondisi ini, benda tidak mengalami percepatan (a = 0). Artinya:",
+            "Dalam kondisi ini, benda tidak mengalami percepatan $(a = 0)$. Artinya:",
           ]
         },
         {
@@ -71,8 +71,8 @@ const hukumNewtonSatu = {
           list: {
             type: "unordered",
             items: [
-            "Jika benda awalnya diam (v = 0), benda akan TETAP DIAM.",
-            "Jika benda awalnya bergerak dengan kecepatan v, benda akan TETAP BERGERAK LURUS BERATURAN (GLB) dengan kecepatan konstan."
+            "Jika benda awalnya diam $(v = 0)$, benda akan TETAP DIAM.",
+            "Jika benda awalnya bergerak dengan kecepatan $v$, benda akan TETAP BERGERAK LURUS BERATURAN (GLB) dengan kecepatan konstan."
             ]
           }
         }
@@ -93,8 +93,8 @@ const hukumNewtonSatu = {
           list: {
             type: "unordered",
             items: [
-              "• Benda diam ingin tetap diam.",
-              "• Benda bergerak ingin tetap bergerak lurus.",
+              "Benda diam ingin tetap diam.",
+              "Benda bergerak ingin tetap bergerak lurus.",
             ]
           }
         },
@@ -206,6 +206,102 @@ const hukumNewtonSatu = {
           text: [
             "Hukum Newton I menjelaskan bahwa benda akan mempertahankan keadaan diam atau bergerak lurus beraturan jika resultan gaya yang bekerja padanya sama dengan nol. Sifat mempertahankan keadaan gerak ini disebut inersia atau kelembaman."
           ]
+        }
+      ]
+    },
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Hukum Newton I menyatakan bahwa....",
+                options: [
+                  "benda tetap diam atau bergerak lurus beraturan.",
+                  "benda akan selalu bergerak jika diberi gaya.",
+                  "benda akan mengalami percepatan jika massanya besar." ,
+                  "semua benda yang bergerak pasti mengalami percepatan.",
+                  "gaya selalu sebanding dengan kecepatan benda."
+                ],
+                answerIndex: 0
+              },
+              {
+                question: "Sifat suatu benda yang cenderung mempertahankan keadaan diam atau bergerak lurus beraturan disebut....",
+                options: [
+                  "elastisitas.",
+                  "momentum.",
+                  "inersia (kelembaman).",
+                  "gravitasi.",
+                  "usaha."
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Mengapa tubuh penumpang terdorong ke depan ketika mobil mengerem secara tiba-tiba?",
+                options: [
+                  "Karena gaya gravitasi bertambah besar.",
+                  "Karena tubuh berusaha mempertahankan keadaan geraknya akibat inersia.",
+                  "Karena massa tubuh tiba-tiba bertambah.",
+                  "Karena gaya mesin mobil mendorong tubuh ke depan.",
+                  "Karena gaya gesek antara ban dan jalan menghilang."
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Sebuah buku diletakkan di atas meja dan tetap diam. Pernyataan yang benar adalah....",
+                options: [
+                  "tidak ada gaya yang bekerja pada buku.",
+                  "resultan gaya pada buku sama dengan nol",
+                  "buku tetap diam karena massanya sangat kecil.",
+                  "gaya gravitasi tidak bekerja pada buku.",
+                  "gaya normal lebih besar daripada gaya berat."
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Dua benda memiliki massa yang berbeda. Benda A bermassa 5 kg, sedangkan benda B bermassa 50 kg. Pernyataan yang benar mengenai inersia kedua benda adalah....",
+                options: [
+                  "benda A memiliki inersia lebih besar daripada benda B.",
+                  "kedua benda memiliki inersia yang sama.",
+                  "benda B memiliki inersia lebih besar sehingga lebih sulit mengubah keadaan geraknya.",
+                  "inersia tidak dipengaruhi oleh massa benda.",
+                  "benda yang lebih besar massanya selalu bergerak lebih cepat."
+                ],
+                answerIndex: 2
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
         }
       ]
     },

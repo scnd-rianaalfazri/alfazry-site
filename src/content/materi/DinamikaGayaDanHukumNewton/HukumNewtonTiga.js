@@ -1,170 +1,314 @@
-const hukumnewtontiga = {
-  title: "Hukum Newton III",
-  slug: "hukum newton 3",
+const hukumNewtonIII = {
+  title: "Hukum Newton III: Aksi dan Reaksi",
+  slug: "hukum-newton-tiga",
   description:
-  "Memahami hubungan antara gaya, massa, dan percepatan serta konsep resultan gaya dalam gerak benda.",
-  chapter: "🚀 Dinamika: Konsep Dasar",
+    "Memahami Hukum Newton III serta pasangan gaya aksi dan reaksi yang selalu muncul ketika dua benda saling berinteraksi.",
+
+  chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
   content: [
-  { heading:
-
-    "🚀 Ketika Gaya Tidak Seimbang", blocks: [{ type: "heading", text: "🚀 Ketika Gaya Tidak Seimbang" },
     {
-      type: "paragraph",
-      text: "Pada Hukum Newton I, kita belajar bahwa jika gaya seimbang, benda tidak berubah gerak."
+      heading: "🤜 Mengapa Meja Mendorong Balik Tanganmu?",
+      blocks: [
+        {
+          type: "heading",
+          text: "🤜 Mengapa Meja Mendorong Balik Tanganmu?"
+        },
+        {
+          type: "paragraph",
+          text: "Coba tekan permukaan meja menggunakan telapak tanganmu."
+        },
+        {
+          type: "paragraph",
+          text: "Semakin kuat kamu menekan meja, semakin kuat pula tekanan yang kamu rasakan pada tanganmu."
+        },
+        {
+          type: "paragraph",
+          text: "Padahal, meja terlihat diam."
+        },
+        {
+          type: "paragraph",
+          text: "Mengapa meja bisa 'mendorong balik' tanganmu?"
+        }
+      ]
     },
-    { type: "paragraph", text: "Tapi bagaimana jika gaya tidak seimbang?" },
-    { type: "paragraph", text: "Jawabannya ada pada Hukum Newton II." }]
 
-  },
-  { heading:
-
-    "📍 Bunyi Hukum Newton II", blocks: [{ type: "heading", text: "📍 Bunyi Hukum Newton II" },
     {
-      type: "paragraph",
-      text: "Percepatan yang dialami benda sebanding dengan resultan gaya yang bekerja padanya dan berbanding terbalik dengan massa benda."
+      heading: "❓ Pertanyaan Besar",
+      blocks: [
+        {
+          type: "heading",
+          text: "❓ Pertanyaan Besar"
+        },
+        {
+          type: "paragraph",
+          text: "Mengapa setiap gaya selalu memiliki pasangan?"
+        },
+        {
+          type: "paragraph",
+          text: "Apakah gaya aksi dan reaksi saling meniadakan?"
+        }
+      ]
     },
-    { type: "paragraph", text: "Artinya:" },
+
     {
-      type: "paragraph",
-      text: "semakin besar gaya → semakin besar percepatan"
+      heading: "📖 Bunyi Hukum Newton III",
+      blocks: [
+        {
+          type: "heading",
+          text: "📖 Bunyi Hukum Newton III"
+        },
+        {
+          type: "quote",
+          text: "Jika suatu benda memberikan gaya kepada benda lain, maka benda kedua akan memberikan gaya yang sama besar tetapi berlawanan arah kepada benda pertama."
+        }
+      ]
     },
-    {
-      type: "paragraph",
-      text: "semakin besar massa → semakin kecil percepatan"
-    }]
 
-  },
-  { heading:
-
-    "⚖️ Hubungan Gaya, Massa, dan Percepatan", blocks: [{ type: "heading", text: "⚖️ Hubungan Gaya, Massa, dan Percepatan" },
     {
-      type: "paragraph",
-      text: "Hukum ini menunjukkan hubungan tiga besaran penting:"
+      heading: "⚖️ Pasangan Aksi dan Reaksi",
+      blocks: [
+        {
+          type: "heading",
+          text: "⚖️ Pasangan Aksi dan Reaksi"
+        },
+        {
+          type: "paragraph",
+          text: "Setiap interaksi selalu menghasilkan dua gaya yang muncul secara bersamaan."
+        },
+        {
+          type: "paragraph",
+          text: "Gaya-gaya tersebut disebut pasangan aksi dan reaksi."
+        },
+        {
+          type: "paragraph",
+          text: "Kedua gaya memiliki:"
+        },
+        {
+          type: "paragraph",
+          text: "✔ Besar yang sama."
+        },
+        {
+          type: "paragraph",
+          text: "✔ Arah yang berlawanan."
+        },
+        {
+          type: "paragraph",
+          text: "✔ Bekerja pada dua benda yang berbeda."
+        }
+      ]
     },
-    { type: "paragraph", text: "💪 Gaya (F)" },
-    { type: "paragraph", text: "⚖️ Massa (m)" },
-    { type: "paragraph", text: "🚀 Percepatan (a)" },
-    {
-      type: "paragraph",
-      text: "Ketiganya saling terhubung dalam gerak benda."
-    }]
 
-  },
-  { heading:
-
-    "📈 Makna F = m × a", blocks: [{ type: "heading", text: "📈 Makna F = m × a" },
     {
-      type: "paragraph",
-      text: "Persamaan ini adalah inti dari Hukum Newton II."
+      heading: "🎯 Mengapa Tidak Saling Menghilangkan?",
+      blocks: [
+        {
+          type: "heading",
+          text: "🎯 Mengapa Tidak Saling Menghilangkan?"
+        },
+        {
+          type: "paragraph",
+          text: "Banyak siswa mengira gaya aksi dan reaksi saling meniadakan sehingga resultannya nol."
+        },
+        {
+          type: "paragraph",
+          text: "Padahal hal tersebut tidak benar."
+        },
+        {
+          type: "paragraph",
+          text: "Pasangan aksi dan reaksi bekerja pada benda yang berbeda."
+        },
+        {
+          type: "paragraph",
+          text: "Karena bekerja pada benda yang berbeda, keduanya tidak pernah dijumlahkan sebagai resultan gaya pada satu benda."
+        }
+      ]
     },
-    { type: "paragraph", text: "F = m × a" },
-    { type: "paragraph", text: "Artinya:" },
-    {
-      type: "paragraph",
-      text: "gaya diperlukan untuk menghasilkan percepatan pada benda bermassa tertentu."
-    }]
 
-  },
-  { heading:
-
-    "🏎️ Contoh Sederhana", blocks: [{ type: "heading", text: "🏎️ Contoh Sederhana" },
     {
-      type: "paragraph",
-      text: "Dua mobil didorong dengan gaya yang sama:"
+      heading: "🌍 Contoh dalam Kehidupan",
+      blocks: [
+        {
+          type: "heading",
+          text: "🌍 Contoh dalam Kehidupan"
+        },
+        {
+          type: "paragraph",
+          text: "🚶 Saat berjalan, kaki mendorong tanah ke belakang, sedangkan tanah mendorong tubuh ke depan."
+        },
+        {
+          type: "paragraph",
+          text: "🏊 Saat berenang, tangan mendorong air ke belakang, sedangkan air mendorong tubuh ke depan."
+        },
+        {
+          type: "paragraph",
+          text: "🚣 Dayung mendorong air ke belakang, air mendorong perahu ke depan."
+        },
+        {
+          type: "paragraph",
+          text: "🚀 Roket mendorong gas panas ke bawah, gas mendorong roket ke atas."
+        }
+      ]
     },
-    { type: "paragraph", text: "🚗 Mobil ringan → lebih cepat bergerak" },
-    { type: "paragraph", text: "🚚 Truk besar → lebih lambat bergerak" },
-    {
-      type: "paragraph",
-      text: "Karena massa yang lebih besar membutuhkan gaya lebih besar untuk menghasilkan percepatan yang sama."
-    }]
 
-  },
-  { heading:
-
-    "🧠 Resultan Gaya", blocks: [{ type: "heading", text: "🧠 Resultan Gaya" },
     {
-      type: "paragraph",
-      text: "Dalam Hukum Newton II, yang digunakan adalah resultan gaya (ΣF)."
+      heading: "🚀 Roket Bisa Terbang Tanpa Udara",
+      blocks: [
+        {
+          type: "heading",
+          text: "🚀 Roket Bisa Terbang Tanpa Udara"
+        },
+        {
+          type: "paragraph",
+          text: "Sering muncul pertanyaan, bagaimana roket dapat bergerak di ruang angkasa yang hampir tidak memiliki udara?"
+        },
+        {
+          type: "paragraph",
+          text: "Jawabannya adalah Hukum Newton III."
+        },
+        {
+          type: "paragraph",
+          text: "Mesin roket menyemburkan gas panas ke belakang."
+        },
+        {
+          type: "paragraph",
+          text: "Sebagai reaksinya, gas memberikan gaya yang sama besar ke arah depan sehingga roket terdorong maju."
+        }
+      ]
     },
-    {
-      type: "paragraph",
-      text: "Jika gaya lebih dari satu, maka semua gaya dijumlahkan secara vektor."
-    }]
 
-  },
-  { heading:
-
-    "🧩 Arah Percepatan", blocks: [{ type: "heading", text: "🧩 Arah Percepatan" },
     {
-      type: "paragraph",
-      text: "Arah percepatan selalu searah dengan resultan gaya."
+      heading: "🧪 Contoh Analisis",
+      blocks: [
+        {
+          type: "heading",
+          text: "🧪 Contoh Analisis"
+        },
+        {
+          type: "paragraph",
+          text: "Seorang anak menekan dinding dengan gaya sebesar 80 N."
+        },
+        {
+          type: "paragraph",
+          text: "Menurut Hukum Newton III, dinding memberikan gaya sebesar 80 N kepada anak dengan arah yang berlawanan."
+        },
+        {
+          type: "paragraph",
+          text: "Walaupun besarnya sama, kedua gaya tersebut bekerja pada dua benda yang berbeda."
+        }
+      ]
     },
-    { type: "paragraph", text: "Jika gaya ke kanan lebih besar:" },
-    { type: "paragraph", text: "benda dipercepat ke kanan." },
-    { type: "paragraph", text: "Jika gaya ke kiri lebih besar:" },
-    { type: "paragraph", text: "benda dipercepat ke kiri." }]
 
-  },
-  { heading:
-
-    "🚗 Contoh Kehidupan Nyata", blocks: [{ type: "heading", text: "🚗 Contoh Kehidupan Nyata" },
-    { type: "paragraph", text: "Contoh penerapan:" },
-    { type: "paragraph", text: "🏎️ Mobil balap saat akselerasi" },
-    { type: "paragraph", text: "🚀 Roket saat lepas landas" },
-    { type: "paragraph", text: "🛒 Troli belanja saat didorong" },
-    { type: "paragraph", text: "🏀 Bola yang ditendang" }]
-
-  },
-  { heading:
-
-    "📊 Hubungan Massa dan Percepatan", blocks: [{ type: "heading", text: "📊 Hubungan Massa dan Percepatan" },
-    { type: "paragraph", text: "Jika gaya tetap:" },
-    { type: "paragraph", text: "📦 massa besar → percepatan kecil" },
-    { type: "paragraph", text: "📦 massa kecil → percepatan besar" },
     {
-      type: "paragraph",
-      text: "Ini menjelaskan mengapa benda berat lebih sulit dipercepat."
-    }]
-
-  },
-  { heading:
-
-    "🌎 Makna Fisika dalam Kehidupan", blocks: [{ type: "heading", text: "🌎 Makna Fisika dalam Kehidupan" },
-    { type: "paragraph", text: "Hukum Newton II membantu menjelaskan:" },
-    { type: "paragraph", text: "🚗 kenapa mobil bisa melaju cepat" },
-    { type: "paragraph", text: "🛑 kenapa butuh jarak untuk berhenti" },
-    {
-      type: "paragraph",
-      text: "🚀 kenapa roket butuh gaya besar untuk lepas landas"
-    }]
-
-  },
-  { heading:
-
-    "✨ Inti Materi", blocks: [{ type: "heading", text: "✨ Inti Materi" },
-    {
-      type: "paragraph",
-      text: "Hukum Newton II menjelaskan bahwa percepatan benda ditentukan oleh gaya dan massa."
+      heading: "🧩 Cara Mengenali Pasangan Aksi-Reaksi",
+      blocks: [
+        {
+          type: "heading",
+          text: "🧩 Cara Mengenali Pasangan Aksi-Reaksi"
+        },
+        {
+          type: "paragraph",
+          text: "Saat mencari pasangan aksi dan reaksi, tanyakan tiga hal berikut:"
+        },
+        {
+          type: "paragraph",
+          text: "1️⃣ Apakah kedua gaya bekerja pada dua benda yang berbeda?"
+        },
+        {
+          type: "paragraph",
+          text: "2️⃣ Apakah kedua gaya muncul pada saat yang sama?"
+        },
+        {
+          type: "paragraph",
+          text: "3️⃣ Apakah besar kedua gaya sama tetapi arahnya berlawanan?"
+        },
+        {
+          type: "paragraph",
+          text: "Jika semua jawabannya 'ya', maka kedua gaya tersebut merupakan pasangan aksi dan reaksi."
+        }
+      ]
     },
-    {
-      type: "paragraph",
-      text: "F = m × a menjadi hubungan dasar dinamika gerak."
-    }]
 
-  },
-  { heading:
-
-    "🚀 Next Mission", blocks: [{ type: "heading", text: "🚀 Next Mission" },
     {
-      type: "paragraph",
-      text: "Jika sebuah benda memberikan gaya ke benda lain, apa yang terjadi?"
+      heading: "⚠️ Miskonsepsi",
+      blocks: [
+        {
+          type: "heading",
+          text: "⚠️ Miskonsepsi"
+        },
+        {
+          type: "paragraph",
+          text: "❌ Gaya aksi dan reaksi saling menghilangkan."
+        },
+        {
+          type: "paragraph",
+          text: "✅ Faktanya, keduanya bekerja pada dua benda yang berbeda sehingga tidak saling meniadakan."
+        },
+        {
+          type: "paragraph",
+          text: "❌ Gaya yang lebih besar memiliki pasangan reaksi yang lebih kecil."
+        },
+        {
+          type: "paragraph",
+          text: "✅ Faktanya, besar gaya aksi dan reaksi selalu sama."
+        },
+        {
+          type: "paragraph",
+          text: "❌ Jika benda diam, berarti tidak ada pasangan aksi dan reaksi."
+        },
+        {
+          type: "paragraph",
+          text: "✅ Faktanya, pasangan aksi dan reaksi tetap ada meskipun benda tidak bergerak."
+        }
+      ]
     },
-    { type: "paragraph", text: "➡️ Selanjutnya: Hukum Newton III." }]
 
-  }]
+    {
+      heading: "🌟 Fun Fact",
+      blocks: [
+        {
+          type: "heading",
+          text: "🌟 Fun Fact"
+        },
+        {
+          type: "paragraph",
+          text: "Gurita dan cumi-cumi bergerak menggunakan prinsip Hukum Newton III. Mereka menyemburkan air ke belakang sehingga tubuhnya terdorong ke depan. Mekanisme ini dikenal sebagai jet propulsion."
+        }
+      ]
+    },
 
+    {
+      heading: "🧠 Inti Materi",
+      blocks: [
+        {
+          type: "heading",
+          text: "🧠 Inti Materi"
+        },
+        {
+          type: "paragraph",
+          text: "Hukum Newton III menyatakan bahwa setiap gaya selalu memiliki pasangan gaya yang sama besar, berlawanan arah, dan bekerja pada dua benda yang berbeda. Oleh karena itu, gaya aksi dan reaksi tidak pernah saling meniadakan."
+        }
+      ]
+    },
+
+    {
+      heading: "🚀 Next Mission",
+      blocks: [
+        {
+          type: "heading",
+          text: "🚀 Next Mission"
+        },
+        {
+          type: "paragraph",
+          text: "Sekarang kamu telah memahami bagaimana gaya bekerja melalui tiga Hukum Newton."
+        },
+        {
+          type: "paragraph",
+          text: "Namun, gaya yang dibahas Newton berasal dari berbagai sumber. Pada misi berikutnya, kita akan mengenal berbagai gaya yang bekerja di alam, mulai dari gaya gravitasi, gaya normal, gaya gesek, hingga gaya tegangan tali."
+        }
+      ]
+    }
+  ]
 };
 
-export default hukumnewtontiga;
+export default hukumNewtonIII;

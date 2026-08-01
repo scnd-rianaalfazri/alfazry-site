@@ -191,63 +191,86 @@ const resultanGaya = {
       ]
     },
     {
-      heading: "🧪 Latihan Soal & Analisis",
+      heading: "🧪 Contoh Soal & Pembahasan",
       blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "**__SOAL 1__**",
+            "Sebuah balok didorong ke kanan dengan gaya $F_1 = 50\\text{ N}$ dan ditarik ke kiri oleh gaya gesek $F_2 = 20\\text{ N}$.",
+            "**JAWABAN:**",
+            "**Diketahui:**",
+          ]
+        },
         {
           type: "list",
           list: {
-            type: "ordered",
+            type: "unordered",
             items: [
-              {
-                text: "Sebuah balok didorong ke kanan dengan gaya $F_1 = 50\\text{ N}$ dan ditarik ke kiri oleh gaya gesek $F_2 = 20\\text{ N}$.",
-                description: [
-                  "Pembahasan",
-                  "Diketahui:",
-                ],
-                children: {
-                  type: "unordered",
-                  items: [
-                    "$F_1 = 50\\text{ N}$ (kanan)",
-                    "$F_2 = 20\\text{ N}$ (kiri)"
-                  ]
-                },
-                description: [
-                  "Ditanyakan: Resultan gaya dan arah gerak balok?",
-                  "Jawab:",
-                ],
-                equation: [
-                  "\\Sigma F = F_1 - F_2 = 50 - 20 = 30\\;\\text{N}",
-                ],
-                description: [
-                  "Resultan gaya bernilai $30\\text{ N}$ dengan arah ke **kanan**."
-                ]
-              },
-              {
-                text: "Dua gaya bekerja pada benda padat. $F_1 = 3\\text{ N}$ ke utara dan $F_2 = 4\\text{ N}$ ke timur.",
-                description: [
-                  "Pembahasan",
-                  "Diketahui:",   
-                ],
-                children: {
-                  type: "unordered",
-                  items: [
-                    "$F_1 = 3\\text{ N}$ (utara)",
-                    "$F_2 = 4\\text{ N}$ (timur)"
-                  ]
-                },
-                description: [
-                  "Ditanyakan: Resultan gaya dan arah gerak benda?",
-                  "Jawab:"
-                ],
-                equation: [
-                  "\\Sigma F = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5\\;\\text{N}"
-                ],
-                description: [
-                  "Resultan gaya yang bekerja adalah $5\\text{ N}$ ke arah timur laut."
-                ]
-              }
+              "$F_1 = 50\\text{ N}$ (kanan)",
+              "$F_2 = 20\\text{ N}$ (kiri)",
             ]
-          }
+          },
+        },
+        {
+          type: "paragraph",
+          text: [
+            "**Ditanyakan:**",
+            "Resultan gaya dan arah gerak balok?",
+            "**Penyelesaian:**",
+          ]
+        },
+        {
+          type: "equation",
+          equation: "\\Sigma F = F_1 - F_2 = 50 - 20 = 30\\;\\text{N}",
+        },
+        {
+          type: "paragraph",
+          text: [
+            "**KESIMPULAN:**",
+            "Resultan gaya bernilai $30\\text{ N}$ dengan arah ke **kanan**."
+          ]
+        },
+        {
+          type: "paragraph",
+          text: [
+            "**-------------------------------------------------------------------------------------------------------------------------------------------------------**",
+            "**__SOAL 2__**",
+            "Dua gaya bekerja pada benda padat. $F_1 = 3\\text{ N}$ ke utara dan $F_2 = 4\\text{ N}$ ke timur.",
+            "**JAWABAN:**",
+            "**Diketahui:**"
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+            "$F_1 = 3\\text{ N}$ (utara)",
+            "$F_2 = 4\\text{ N}$ (timur)"
+            ]
+          },
+        },
+        {
+          type: "paragraph",
+          text: [
+            "**Ditanyakan:**",
+            "Resultan gaya dan arah gerak benda?",
+            "**Penyelesaian:**",
+           ]
+        },
+        {
+          type: "equation",
+          equation: [
+            "\\Sigma F = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5\\;\\text{N}"
+          ]
+        },
+        {
+          type: "paragraph",
+          text: [
+            "**KESIMPULAN:**",
+            "Resultan gaya yang bekerja adalah $5\\text{ N}$ ke arah timur laut."
+          ]
         }
       ]
     },
@@ -299,6 +322,102 @@ const resultanGaya = {
           text: [
             "Resultan gaya $(\\Sigma F)$ adalah total gabungan dari semua gaya yang bekerja. Arah gaya sangat menentukan operasi matematikanya (searah dijumlah, berlawanan dikurang). Jika $\\Sigma F = 0$ benda seimbang, sedangkan jika $\\Sigma F \\neq 0$ benda akan mengalami perubahan gerak."
           ]
+        }
+      ]
+    },
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Resultan gaya adalah....",
+                options: [
+                  "gaya terbesar yang bekerja pada suatu benda.",
+                  "jumlah massa semua benda yang saling berinteraksi.",
+                  "satu gaya pengganti yang memberikan efek sama seperti gabungan seluruh gaya yang bekerja pada suatu benda.",
+                  "gaya yang selalu menyebabkan benda bergerak.",
+                  "gaya yang hanya bekerja pada benda diam."
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Dua orang mendorong sebuah troli ke arah yang sama. Orang pertama memberikan gaya 40 N, sedangkan orang kedua 30 N. Besar resultan gaya yang bekerja pada troli adalah....",
+                options: [
+                  "10 N.",
+                  "30 N.",
+                  "40 N.",
+                  "70 N.",
+                  "120 N."
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Sebuah balok didorong ke kanan dengan gaya 60 N dan ditarik ke kiri dengan gaya 25 N. Resultan gaya yang bekerja pada balok adalah....",
+                options: [
+                  "25 N ke kiri.",
+                  "35 N ke kanan.",
+                  "60 N ke kanan.",
+                  "85 N ke kanan.",
+                  "35 N ke kiri."
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Dua gaya saling tegak lurus bekerja pada sebuah benda, yaitu 6 N ke timur dan 8 N ke utara. Besar resultan gaya tersebut adalah....",
+                options: [
+                  "2 N.",
+                  "7 N.",
+                  "10 N.",
+                  "12 N.",
+                  "14 N."
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Jika resultan gaya yang bekerja pada suatu benda bernilai nol, maka pernyataan yang benar adalah....",
+                options: [
+                  "tidak ada gaya yang bekerja pada benda.",
+                  "benda pasti dalam keadaan diam.",
+                  "benda pasti bergerak semakin cepat.",
+                  "massa benda menjadi nol.",
+                  "gaya-gaya yang bekerja saling menyeimbangkan sehingga benda dapat tetap diam atau bergerak lurus"
+                ],
+                answerIndex: 4
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
         }
       ]
     },
