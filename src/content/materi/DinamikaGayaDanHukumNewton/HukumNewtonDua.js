@@ -136,14 +136,14 @@ const hukumNewtonDua = {
           text: [
             "Sebuah mobil mainan bermassa 2 kg didorong oleh dua gaya searah masing-masing F1 = 6 N dan F2 = 4 N. Berapakah percepatan yang dialami mobil mainan tersebut?",
             "**JAWABAN**",
-            "*Diketahui:*",
+            "**Diketahui:**",
           ]
         },
         {
           type: "list",
           list: {
             type: "unordered",
-            itemS: [
+            items: [
               {
                 text: "Massa mobil mainan, m = 2 kg"
               },
@@ -158,7 +158,9 @@ const hukumNewtonDua = {
         },
         {
           type: "paragraph",
-          text: "Langkah Pembahasan:"
+          text: [
+            "**Penyelesaian:**"
+          ]
         },
         {
           type: "list",
@@ -177,7 +179,7 @@ const hukumNewtonDua = {
         {
           type: "paragraph",
           text: [
-            "**Kesimpulan:**",
+            "**KESIMPULAN:**",
             "Mobil mainan mengalami percepatan sebesar 5 m/s² ke arah dorongan."
           ]
         }

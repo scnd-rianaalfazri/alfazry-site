@@ -1,6 +1,6 @@
 const gayagravitasidangayaberat = {
   title: "Gaya Gravitasi dan Gaya Berat",
-  slug: "gaya gravitasi dan gaya berat",
+  slug: "gaya-gravitasi-dan-gaya berat",
   description:
   "Memahami perbedaan gaya gravitasi dan gaya berat serta pengaruh massa benda terhadap gaya tarik bumi.",
   chapter: "🚀 Dinamika: Konsep Dasar",

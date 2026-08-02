@@ -239,10 +239,17 @@ export default function DetailMateri() {
   //     style: "upperRoman",
   //     items: ["Poin pertama", "Poin kedua", "Poin ketiga"],
   //   }
+  const getListItems = (listLike) => {
+    if (!listLike || typeof listLike !== "object") return []
+    if (Array.isArray(listLike.items)) return listLike.items
+    if (Array.isArray(listLike.itemS)) return listLike.itemS
+    return []
+  }
+
   const renderListBlock = (block, depth = 0) => {
     const type = block?.type === "ordered" ? "ordered" : "unordered"
     const orderedStyle = block?.style || "number"
-    const items = block?.items || []
+    const items = getListItems(block)
     const Tag = type === "ordered" ? "ol" : "ul"
 
     return (
@@ -389,7 +396,7 @@ export default function DetailMateri() {
   const renderList = (list) => {
     if (!list) return null
 
-    if (typeof list === "object" && Array.isArray(list.items)) {
+    if (typeof list === "object" && (Array.isArray(list.items) || Array.isArray(list.itemS))) {
       return renderListBlock(list)
     }
 

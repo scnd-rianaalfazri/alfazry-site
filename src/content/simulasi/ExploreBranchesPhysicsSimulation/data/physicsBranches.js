@@ -1,0 +1,187 @@
+// Data cabang-cabang fisika untuk simulasi "Explore the Branches of Physics".
+// Struktur berbasis array/object agar mudah menambah cabang baru tanpa
+// mengubah komponen utama (GalaxyMap, GalaxyGroup, PlanetNode, dst).
+
+export const centerPlanet = {
+  id: "physics",
+  name: "PHYSICS",
+  tagline: "Pusat dari segala cabang ilmu fisika",
+  icon: "Sparkles",
+}
+
+export const galaxies = [
+  {
+    id: "klasik",
+    name: "Fisika Klasik",
+    emoji: "🔵",
+    icon: "Settings",
+    color: "blue",
+    description:
+      "Fondasi fisika yang menjelaskan gerak, energi, dan interaksi benda dalam kehidupan sehari-hari.",
+    planets: [
+      {
+        id: "mekanika",
+        name: "Mekanika",
+        icon: "Settings",
+        apa: "Gerak benda, gaya, energi, dan interaksi antar benda.",
+        objek: ["Mobil", "Bola", "Roket", "Ayunan"],
+        penerapan: ["Kendaraan", "Robot", "Mesin", "Jembatan"],
+        profesi: ["Mechanical Engineer", "Automotive Engineer", "Aerospace Engineer"],
+        fact: "Sebagian besar kendaraan modern dirancang menggunakan prinsip mekanika.",
+      },
+      {
+        id: "termodinamika",
+        name: "Termodinamika",
+        icon: "Flame",
+        apa: "Mempelajari kalor, suhu, dan perubahan energi.",
+        objek: ["Mesin", "Kulkas", "AC", "Turbin"],
+        penerapan: ["Pembangkit listrik", "Mesin kendaraan", "Pendingin"],
+        profesi: ["Thermal Engineer", "Energy Engineer"],
+        fact: "Tidak ada mesin yang memiliki efisiensi 100%.",
+      },
+      {
+        id: "elektromagnetisme",
+        name: "Elektromagnetisme",
+        icon: "Zap",
+        apa: "Mempelajari listrik dan magnet.",
+        objek: ["Motor listrik", "Generator", "Speaker", "Transformator"],
+        penerapan: ["Listrik", "Komunikasi", "Industri"],
+        profesi: ["Electrical Engineer"],
+        fact: "Generator mengubah energi mekanik menjadi energi listrik.",
+      },
+      {
+        id: "optik",
+        name: "Optik",
+        icon: "Aperture",
+        apa: "Mempelajari cahaya.",
+        objek: ["Kamera", "Mikroskop", "Teleskop", "Fiber optik"],
+        penerapan: ["Internet", "Kamera", "Laser"],
+        profesi: ["Optical Engineer"],
+        fact: "Internet berkecepatan tinggi menggunakan cahaya di dalam kabel fiber optik.",
+      },
+      {
+        id: "akustik",
+        name: "Akustik",
+        icon: "Volume2",
+        apa: "Mempelajari bunyi.",
+        objek: ["Speaker", "Mikrofon", "Alat musik", "USG"],
+        penerapan: ["Audio", "Kesehatan", "Komunikasi"],
+        profesi: ["Audio Engineer"],
+        fact: "USG memanfaatkan gelombang ultrasonik.",
+      },
+    ],
+  },
+  {
+    id: "modern",
+    name: "Fisika Modern",
+    emoji: "🟣",
+    icon: "Atom",
+    color: "violet",
+    description:
+      "Cabang fisika abad ke-20 ke atas yang mengungkap dunia atom, partikel, ruang, dan waktu.",
+    planets: [
+      {
+        id: "kuantum",
+        name: "Fisika Kuantum",
+        icon: "Atom",
+        apa: "Mempelajari atom dan partikel sangat kecil.",
+        objek: ["Atom", "Elektron", "Foton"],
+        penerapan: ["Chip", "Laser", "Komputer kuantum"],
+        profesi: ["Quantum Researcher"],
+        fact: "Perilaku partikel tidak selalu dapat dijelaskan oleh fisika klasik.",
+      },
+      {
+        id: "relativitas",
+        name: "Relativitas",
+        icon: "Orbit",
+        apa: "Mempelajari ruang, waktu, dan gravitasi.",
+        objek: ["Black hole", "Satelit", "Cahaya"],
+        penerapan: ["GPS", "Astronomi"],
+        profesi: ["Astrophysicist"],
+        fact: "GPS menggunakan koreksi teori relativitas.",
+      },
+      {
+        id: "nuklir",
+        name: "Fisika Nuklir",
+        icon: "Radiation",
+        apa: "Mempelajari inti atom.",
+        objek: ["Uranium", "Reaktor", "Isotop"],
+        penerapan: ["PLTN", "Radioterapi"],
+        profesi: ["Nuclear Engineer"],
+        fact: "Energi nuklir berasal dari perubahan inti atom.",
+      },
+      {
+        id: "partikel",
+        name: "Fisika Partikel",
+        icon: "CircleDot",
+        apa: "Mempelajari penyusun dasar alam semesta.",
+        objek: ["Quark", "Proton", "Neutron", "Boson Higgs"],
+        penerapan: ["Penelitian fundamental"],
+        profesi: ["Particle Physicist"],
+        fact: "Sebagian besar massa proton berasal dari energi interaksi quark.",
+      },
+    ],
+  },
+  {
+    id: "interdisipliner",
+    name: "Interdisipliner",
+    emoji: "🟢",
+    icon: "Globe",
+    color: "emerald",
+    description:
+      "Perpaduan fisika dengan bidang lain seperti bumi, luar angkasa, dan makhluk hidup.",
+    planets: [
+      {
+        id: "geofisika",
+        name: "Geofisika",
+        icon: "Globe",
+        apa: "Mempelajari bumi menggunakan prinsip fisika.",
+        objek: ["Gempa", "Gunung api", "Medan magnet bumi"],
+        penerapan: ["Mitigasi bencana", "Eksplorasi sumber daya"],
+        profesi: ["Geophysicist"],
+        fact: "Gelombang seismik membantu mengetahui struktur bagian dalam bumi.",
+      },
+      {
+        id: "astrofisika",
+        name: "Astrofisika",
+        icon: "Telescope",
+        apa: "Mempelajari benda langit.",
+        objek: ["Matahari", "Planet", "Galaksi", "Nebula"],
+        penerapan: ["Satelit", "Eksplorasi luar angkasa"],
+        profesi: ["Astronom"],
+        fact: "Cahaya Matahari membutuhkan sekitar delapan menit untuk mencapai Bumi.",
+      },
+      {
+        id: "biofisika",
+        name: "Biofisika",
+        icon: "Dna",
+        apa: "Menggunakan prinsip fisika untuk mempelajari makhluk hidup.",
+        objek: ["Sel", "Jantung", "Otot", "Jaringan"],
+        penerapan: ["MRI", "CT Scan", "Biomekanika"],
+        profesi: ["Medical Physicist", "Biomedical Engineer"],
+        fact: "MRI menghasilkan citra tubuh tanpa menggunakan sinar-X.",
+      },
+    ],
+  },
+]
+
+export const galaxyColorTokens = {
+  blue: {
+    core: "#3b82f6",
+    glow: "rgba(59, 130, 246, 0.55)",
+    soft: "rgba(59, 130, 246, 0.14)",
+    text: "text-blue-300",
+  },
+  violet: {
+    core: "#8b3bff",
+    glow: "rgba(139, 59, 255, 0.55)",
+    soft: "rgba(139, 59, 255, 0.16)",
+    text: "text-violet-300",
+  },
+  emerald: {
+    core: "#22c55e",
+    glow: "rgba(34, 197, 94, 0.5)",
+    soft: "rgba(34, 197, 94, 0.14)",
+    text: "text-emerald-300",
+  },
+}

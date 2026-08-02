@@ -86,6 +86,10 @@ function renderInlineMathError(rawSource) {
 
 const isInternalLink = (url) => url.startsWith("/")
 
+function escapeTextForDisplay(text) {
+  return String(text)
+}
+
 const linkClassName =
   "text-cyan-300 underline decoration-cyan-400/40 underline-offset-2 hover:text-cyan-200 hover:decoration-cyan-300 transition-colors"
 
@@ -109,7 +113,7 @@ function parseRichText(text, keyPrefix, depth = 0) {
 
   while ((match = pattern.exec(text)) !== null) {
     if (match.index > lastIndex) {
-      nodes.push(text.slice(lastIndex, match.index))
+      nodes.push(escapeTextForDisplay(text.slice(lastIndex, match.index)))
     }
 
     const [, linkText, linkUrl, bold, underline, italic, math] = match
@@ -168,7 +172,7 @@ function parseRichText(text, keyPrefix, depth = 0) {
   }
 
   if (lastIndex < text.length) {
-    nodes.push(text.slice(lastIndex))
+    nodes.push(escapeTextForDisplay(text.slice(lastIndex)))
   }
 
   return nodes
@@ -178,7 +182,7 @@ export default function RichText({ text }) {
   if (text === null || text === undefined || text === "") return null
 
   if (typeof text !== "string") {
-    return text
+    return typeof text === "number" || typeof text === "boolean" ? text : null
   }
 
   return <>{parseRichText(text, "rt")}</>

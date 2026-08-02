@@ -569,13 +569,13 @@ export const materials = [
   PengertianGaya,
   ResultanGaya,
   HukumNewtonSatu,
+  HukumNewtonDua,
+  HukumnewtonTiga,
   JenisjenisGaya,
   GayaGravitasiDanGayaBerat,
   GayaNormal,
-  GayaGesek,
   GayaTeganganTali,
-  HukumNewtonDua,
-  HukumnewtonTiga,
+  GayaGesek,
   DiagramGaya,
 
   /* Chapter : Dinamika Gerak Lurus */
