@@ -1,0 +1,96 @@
+/* ============================================================
+   styles.css — WaveGeneratorSimulation
+   Selaras dengan design system "Alfazrian Fisika" (Sci-Fi HUD):
+   dark space background, aksen violet + cyan, hud-frame corners.
+   Hanya berisi hal yang belum tersedia dari index.css global.
+   ============================================================ */
+
+/* ---------- Slider modern bertema cyan ---------- */
+.wave-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 9999px;
+  background: linear-gradient(
+    90deg,
+    rgba(34, 211, 238, 0.35),
+    rgba(34, 211, 238, 0.08)
+  );
+  outline: none;
+  transition: box-shadow 0.2s ease;
+}
+
+.wave-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #22d3ee;
+  border: 2px solid #05060f;
+  box-shadow: 0 0 10px rgba(34, 211, 238, 0.85), 0 0 22px rgba(34, 211, 238, 0.45);
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.wave-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 14px rgba(34, 211, 238, 1), 0 0 30px rgba(34, 211, 238, 0.6);
+}
+
+.wave-slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #22d3ee;
+  border: 2px solid #05060f;
+  box-shadow: 0 0 10px rgba(34, 211, 238, 0.85);
+  cursor: pointer;
+}
+
+.wave-slider:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.wave-slider:disabled::-webkit-slider-thumb {
+  background: #64748b;
+  box-shadow: none;
+}
+
+/* ---------- Toggle mode Manual / Auto ---------- */
+.wave-toggle-track {
+  position: relative;
+  transition: background-color 0.25s ease;
+}
+
+.wave-toggle-thumb {
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ---------- Glow tipis untuk garis gelombang SVG ---------- */
+.wave-path-glow {
+  filter: drop-shadow(0 0 6px rgba(34, 211, 238, 0.75))
+    drop-shadow(0 0 14px rgba(34, 211, 238, 0.35));
+}
+
+/* ---------- Tombol preset: hover halus ---------- */
+.wave-preset-btn {
+  transition: transform 0.18s ease, border-color 0.18s ease, background-color 0.18s ease;
+}
+
+.wave-preset-btn:hover {
+  transform: translateY(-2px);
+}
+
+.wave-preset-btn:active {
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wave-preset-btn,
+  .wave-toggle-thumb,
+  .wave-slider::-webkit-slider-thumb {
+    transition: none;
+  }
+}

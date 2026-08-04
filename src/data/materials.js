@@ -73,16 +73,17 @@ import PenerapanGerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi
 import PengantarDinamika from "../content/materi/DinamikaGayaDanHukumNewton/PengantarDinamika.js"
 import PengertianGaya from "../content/materi/DinamikaGayaDanHukumNewton/PengertianGaya.js"
 import ResultanGaya from "../content/materi/DinamikaGayaDanHukumNewton/ResultanGaya.js"
+import HukumNewtonSatu from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonSatu.js"
+import HukumNewtonDua from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonDua.js"
+import HukumnewtonTiga from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonTiga.js"
 import JenisjenisGaya from "../content/materi/DinamikaGayaDanHukumNewton/Jenisjenisgaya.js"
 import GayaGravitasiDanGayaBerat from "../content/materi/DinamikaGayaDanHukumNewton/GayaGravitasiDanGayaBerat.js"
 import GayaNormal from "../content/materi/DinamikaGayaDanHukumNewton/GayaNormal.js"
 import GayaGesek from "../content/materi/DinamikaGayaDanHukumNewton/GayaGesek.js"
 import GayaTeganganTali from "../content/materi/DinamikaGayaDanHukumNewton/GayaTeganganTali.js"
+import MengidentifikasiGaya from "../content/materi/DinamikaGayaDanHukumNewton/MengidentifikasGaya.js"
 
 /* dinamika hukum newton */
-import HukumNewtonSatu from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonSatu.js"
-import HukumNewtonDua from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonDua.js"
-import HukumnewtonTiga from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonTiga.js"
 import DiagramGaya from "../content/materi/DinamikaGayaDanHukumNewton/DiagramGaya.js"
 
 /* dinamika gerak lurus */
@@ -576,6 +577,7 @@ export const materials = [
   GayaNormal,
   GayaTeganganTali,
   GayaGesek,
+  MengidentifikasiGaya,
   DiagramGaya,
 
   /* Chapter : Dinamika Gerak Lurus */

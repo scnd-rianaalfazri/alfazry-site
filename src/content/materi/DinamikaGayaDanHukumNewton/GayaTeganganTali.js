@@ -126,92 +126,122 @@ const gayaTeganganTali = {
       blocks: [
         {
           type: "paragraph",
-          text: "**Soal:** Sebuah ember berisi air dengan massa total $4\\text{ kg}$ ditarik ke atas dari sumur menggunakan seutas tali. Jika percepatan gravitasi $g = 10\\text{ m/s}^2$, hitunglah gaya tegangan tali jika ember ditarik ke atas dengan percepatan konstan $2\\text{ m/s}^2$!"
-        },
-        {
-          type: "paragraph",
-          text: "**Pembahasan Step-by-Step:**"
+          text: [
+           "Sebuah ember berisi air dengan massa total $4\\text{ kg}$ ditarik ke atas dari sumur menggunakan seutas tali. Jika percepatan gravitasi $g = 10\\text{ m/s}^2$, hitunglah gaya tegangan tali jika ember ditarik ke atas dengan percepatan konstan $2\\text{ m/s}^2$!",
+           "**JAWABAN**",
+           "**Diketahui:**",
+          ]
         },
         {
           type: "list",
-          items: [
-            "**Diketahui:** $m = 4\\text{ kg}$, $g = 10\\text{ m/s}^2$, $a = 2\\text{ m/s}^2$ (ke atas).",
-            "**Ditanya:** Gaya tegangan tali ($T$)?",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "$m = 4\\text{ kg}$"
+              },
+              {
+                text: "$g = 10\\text{ m/s}^2$"
+              },
+              {
+                text: "$a = 2\\text{ m/s}^2$ (ke atas)."
+              }
+            ]
+          }
+        },
+        {
+          type: "paragraph",
+          text: [
+            "**Ditanya:**",
+            "Gaya tegangan tali ($T$)?",
+            "**Penyelesaian:**",
             "**Gunakan Rumus Vertikal Ke Atas:** $T = m(g + a)$",
-            "**Hitung:** $$T = 4 \\cdot (10 + 2) = 4 \\cdot 12 = 48\\text{ N}$$"
+            "**Hitung:**"
+          ]
+        },
+        {
+          type: "equation",
+          equation: [
+            "T = 4 \\cdot (10 + 2) = 4 \\cdot 12 = 48\\text{ N}"
           ]
         },
         {
           type: "paragraph",
-          text: "Jadi, besar gaya tegangan tali saat ember ditarik naik dengan percepatan adalah **$48\\text{ Newton}$**."
+          text: [
+            "**KESIMPULAN:**",
+            "Jadi, besar gaya tegangan tali saat ember ditarik naik dengan percepatan adalah **$48\\text{ Newton}$**."
+          ]
         }
       ]
     },
-
     {
       heading: "⚠️ Miskonsepsi Populer (Fact Check!)",
       blocks: [
         {
-          type: "heading",
-          text: "⚠️ Miskonsepsi Populer (Fact Check!)"
-        },
-        {
           type: "list",
-          items: [
-            "❌ **Miskonsepsi:** Tali kendor tetap memiliki gaya tegangan tali.\n\n✅ **Fakta:** Gaya tegangan tali *hanya* ada ketika tali teregang/tegang. Jika kendor, nilainya $0\\text{ N}$.",
-            "❌ **Miskonsepsi:** Gaya tegangan tali selalu bernilai sama dengan gaya berat benda ($T = W$).\n\n✅ **Fakta:** $T = W$ hanya berlaku jika benda diam atau bergerak dengan kecepatan konstan (GLB). Jika benda dipercepat naik atau turun, $T \\neq W$.",
-            "❌ **Miskonsepsi:** Gaya tegangan tali bisa mendorong benda.\n\n✅ **Fakta:** Tali tidak memiliki sifat kaku seperti batang besi, sehingga tali hanya bisa memberikan gaya **tarik**, tidak bisa gaya dorong."
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Miskonsepsi 1",
+                description: [
+                  "Tali kendor tetap memiliki gaya tegangan tali. ❌",
+                  "Gak, gitu!",
+                  "Faktanya, gaya tegangan tali *hanya* ada ketika tali teregang/tegang. Jika kendor, nilainya $0\\text{ N}$. ✔️"
+                ]
+              },
+              {
+                text: "Miskonsepsi 2",
+                description: [
+                  "Gaya tegangan tali selalu bernilai sama dengan gaya berat benda ($T = W$). ❌",
+                  "Gak, gitu!",
+                  "Faktanya, $T = W$ hanya berlaku jika benda diam atau bergerak dengan kecepatan konstan (GLB). Jika benda dipercepat naik atau turun, $T \\neq W$. ✔️"
+                ]
+              },
+              {
+                text: "Miskonsepsi 3",
+                description: [
+                  "Gaya tegangan tali bisa mendorong benda. ❌",
+                  "Gak, gitu!",
+                  "Faktanya, tali tidak memiliki sifat kaku seperti batang besi, sehingga tali hanya bisa memberikan gaya **tarik**, tidak bisa gaya dorong. ✔️"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      heading: "🌟 *Fun Fact*",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Jembatan gantung modern menggunakan kabel baja super tebal yang mampu menahan gaya tegangan hingga jutaan Newton. Tanpa perhitungan gaya tegangan tali yang presisi dari para insinyur, kabel dapat putus dan jembatan tidak akan sanggup menopang beban kendaraan yang melintas!"
           ]
         }
       ]
     },
-
     {
-      heading: "🌟 Fun Fact",
+      heading: "✨ Inti Materi",
       blocks: [
         {
-          type: "heading",
-          text: "🌟 Fun Fact"
-        },
-        {
           type: "paragraph",
-          text: "Jembatan gantung modern menggunakan kabel baja super tebal yang mampu menahan gaya tegangan hingga jutaan Newton. Tanpa perhitungan gaya tegangan tali yang presisi dari para insinyur, kabel dapat putus dan jembatan tidak akan sanggup menopang beban kendaraan yang melintas!"
+          text: [
+            "Gaya tegangan tali adalah gaya tarik yang diteruskan melalui tali, kabel, atau kawat yang tegang. Arah gaya selalu mengikuti arah tali, menjauhi benda yang ditinjau, dan hanya muncul ketika tali dalam keadaan tegang."
+          ]
         }
       ]
     },
-
-    {
-      heading: "🧠 Inti Materi",
-      blocks: [
-        {
-          type: "heading",
-          text: "🧠 Inti Materi"
-        },
+    { blocks: [
         {
           type: "paragraph",
-          text: "Gaya tegangan tali adalah gaya tarik yang diteruskan melalui tali, kabel, atau kawat yang tegang. Arah gaya selalu mengikuti arah tali, menjauhi benda yang ditinjau, dan hanya muncul ketika tali dalam keadaan tegang."
-        }
-      ]
-    },
-
-    {
-      heading: "🚀 Next Mission",
-      blocks: [
-        {
-          type: "heading",
-          text: "🚀 Next Mission"
-        },
-        {
-          type: "paragraph",
-          text: "Selain gaya gravitasi, gaya normal, dan gaya tegangan tali, masih ada satu gaya yang sangat berperan dalam kehidupan sehari-hari."
-        },
-        {
-          type: "paragraph",
-          text: "Mengapa kita tidak terpeleset saat berjalan? Mengapa mobil dapat mengerem dan berhenti?"
-        },
-        {
-          type: "paragraph",
-          text: "Jawabannya ada pada **Gaya Gesek** yang akan kita pelajari pada misi berikutnya!"
+          text: [
+            "Selain gaya gravitasi, gaya normal, dan gaya tegangan tali, masih ada satu gaya yang sangat berperan dalam kehidupan sehari-hari.",
+            "Mengapa kita tidak terpeleset saat berjalan? Mengapa mobil dapat mengerem dan berhenti?",
+            "Jawabannya ada pada **Gaya Gesek** yang akan kita pelajari pada misi berikutnya!",
+            "➡️ *Next,* kita menuju portal: [**Gaya Gesek**](/materi/gaya-gesek)"
+          ]
         }
       ]
     }

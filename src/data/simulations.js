@@ -5,6 +5,7 @@ import Newton2Simulation from "../content/simulasi/Newton2Simulation/Newton2Simu
 import VektorDasarSimulation from "../content/simulasi/VektorDasarSimulation/VektorDasarSimulation"
 import ScienceOrNotSimulation from "../content/simulasi/ScienceOrNotSimulation/ScienceOrNotSimulation"
 import ExploreBranchesPhysicsSimulation from "../content/simulasi/ExploreBranchesPhysicsSimulation/ExploreBranchesPhysicsSimulation"
+import WaveGeneratorSimulation from "../content/simulasi/WaveGeneratorSimulation/WaveGeneratorSimulation"
 
 export const simulations = [
     PhysicsAroundSimulation,
@@ -14,4 +15,5 @@ export const simulations = [
     Newton2Simulation,
     ScienceOrNotSimulation,
     ExploreBranchesPhysicsSimulation,
+    WaveGeneratorSimulation,
 ]
