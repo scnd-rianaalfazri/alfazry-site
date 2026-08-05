@@ -2,25 +2,22 @@ import React from "react";
 
 // ============================================================
 // ControlButtons
-// Tiga tombol aksi utama simulasi.
+// Hanya dua aksi: acak ulang ukuran objek yang sama (Reset), atau
+// pindah ke objek lain (Objek Berikutnya). Tidak ada tombol
+// "Periksa" karena simulasi ini bukan kuis — alat ukur di sini
+// berfungsi sebagai pengganti alat fisik saat alat asli tidak ada.
 // ============================================================
-export default function ControlButtons({ onCheck, onReset, onNext }) {
+export default function ControlButtons({ onReset, onNext }) {
   const baseClass =
     "flex-1 rounded-xl px-4 py-3 text-sm font-semibold transition-all duration-300 border active:scale-[0.97]";
 
   return (
     <div className="flex flex-wrap gap-3">
       <button
-        onClick={onCheck}
-        className={`${baseClass} border-cyan-400 bg-cyan-500/15 text-cyan-200 hover:bg-cyan-500/25 hover:shadow-[0_0_16px_rgba(34,211,238,0.4)]`}
-      >
-        ✅ Periksa
-      </button>
-      <button
         onClick={onReset}
         className={`${baseClass} border-zinc-500/40 bg-zinc-800/60 text-zinc-300 hover:border-zinc-300/50 hover:text-white`}
       >
-        🔄 Reset
+        🔄 Reset Ukuran
       </button>
       <button
         onClick={onNext}

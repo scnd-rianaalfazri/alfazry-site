@@ -1,12 +1,12 @@
-import VirLabMeasurementSimulation from "./components/VirtualMeasurementLab"
-const measurementsimulation = {
+import VirtualMeasurementLab from "./components/VirtualMeasurementLab"
+const measurementSimulation = {
   title: "Pengukuran",  
   slug: "pengukuran",
-    description: "",
+    description: "Eksplorasi menggunakan alat ukur penggaris, jangka sorong, dan mikrometer sekrup",
     content: [
       {
-        component: VirLabMeasurementSimulation,
+        component: VirtualMeasurementLab,
       }
     ]
   }
-export default measurementsimulation
+export default measurementSimulation

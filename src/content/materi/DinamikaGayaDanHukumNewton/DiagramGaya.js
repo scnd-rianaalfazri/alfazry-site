@@ -1,6 +1,4 @@
-import { textDefaultProps } from "recharts/types/component/Text";
-
-const freeBodyDiagram = {
+const diagramGaya = {
   title: "Diagram Gaya (Free Body Diagram)",
   slug: "free-body-diagram",
   description: "Memahami Free Body Diagram (FBD) sebagai alat visualisasi utama untuk mengisolasi benda dan menggambarkan seluruh gaya eksternal sebelum menerapkan Hukum Newton.",
@@ -221,4 +219,4 @@ const freeBodyDiagram = {
   ]
 };
 
-export default freeBodyDiagram;
+export default diagramGaya;

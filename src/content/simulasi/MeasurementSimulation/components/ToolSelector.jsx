@@ -1,22 +1,20 @@
 import React from "react";
-import { TOOLS } from "../utils/measurementChecker";
+import { TOOL_LIST } from "../utils/measurementTools";
 
 // ============================================================
 // ToolSelector
 // Tombol untuk memilih salah satu dari tiga alat ukur.
 // ============================================================
 export default function ToolSelector({ selectedToolId, onSelectTool }) {
-  const toolList = Object.values(TOOLS);
-
   return (
     <div className="flex flex-wrap gap-2 md:gap-3">
-      {toolList.map((tool) => {
+      {TOOL_LIST.map((tool) => {
         const isActive = tool.id === selectedToolId;
         return (
           <button
             key={tool.id}
             onClick={() => onSelectTool(tool.id)}
-            className={`flex-1 min-w-[120px] rounded-xl px-3 py-2.5 text-sm font-medium transition-all duration-300 border
+            className={`flex-1 min-w-[130px] rounded-xl px-3 py-2.5 text-sm font-medium transition-all duration-300 border
               ${
                 isActive
                   ? "border-purple-400 bg-purple-500/15 text-purple-200 shadow-[0_0_16px_rgba(192,132,252,0.35)]"

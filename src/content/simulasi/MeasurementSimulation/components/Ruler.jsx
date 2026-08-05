@@ -1,45 +1,36 @@
 import React, { useState, useRef } from "react";
 
 // ============================================================
-// Ruler (Penggaris)
-// Digambar murni dengan SVG. Bisa digeser secara horizontal
-// menggunakan drag (Pointer Events) supaya siswa bisa menyejajarkan
-// angka 0 penggaris dengan ujung kiri benda.
+// Ruler (Penggaris) — v2
+// Digambar murni SVG, diletakkan tepat di bawah objek (bukan
+// menimpa objek) sehingga skala tetap terbaca jelas untuk semua
+// bentuk objek. Bisa digeser horizontal (Pointer Events) untuk
+// menyejajarkan angka 0 dengan ujung kiri benda.
 // Ketelitian: 1 mm.
 // ============================================================
 
-const RULER_LENGTH_CM = 22; // panjang total penggaris yang digambar
+const RULER_LENGTH_CM = 24; // panjang total penggaris yang digambar
+const BODY_HEIGHT = 78; // tebal badan penggaris (px)
 
-export default function Ruler({ scale, viewBoxWidth, y = 60, initialOffset = 0 }) {
-  // offsetX = posisi geser penggaris relatif terhadap posisi awalnya (dalam px)
+export default function Ruler({ scale, viewBoxWidth, topY, initialOffset = 0 }) {
   const [offsetX, setOffsetX] = useState(initialOffset);
   const dragState = useRef({ dragging: false, startPointerX: 0, startOffset: 0 });
 
   const rulerLengthPx = RULER_LENGTH_CM * scale;
-
-  // Batas geser: agar penggaris tidak hilang total dari area kanvas
-  const minOffset = -rulerLengthPx + 40;
-  const maxOffset = viewBoxWidth - 40;
+  const minOffset = -rulerLengthPx + 60;
+  const maxOffset = viewBoxWidth - 60;
 
   function handlePointerDown(e) {
     e.currentTarget.setPointerCapture(e.pointerId);
-    dragState.current = {
-      dragging: true,
-      startPointerX: e.clientX,
-      startOffset: offsetX,
-    };
+    dragState.current = { dragging: true, startPointerX: e.clientX, startOffset: offsetX };
   }
 
   function handlePointerMove(e) {
     if (!dragState.current.dragging) return;
-    // Konversi pergerakan mouse di layar (px CSS) ke px viewBox SVG.
-    // Karena SVG di-scale responsif, kita gunakan getBoundingClientRect
-    // dari elemen SVG induk untuk menghitung rasio skala.
     const svgEl = e.currentTarget.ownerSVGElement;
     const rect = svgEl.getBoundingClientRect();
-    const ratio = viewBoxWidth / rect.width;
-    const deltaScreen = e.clientX - dragState.current.startPointerX;
-    const deltaViewBox = deltaScreen * ratio;
+    const ratio = (svgEl.viewBox.baseVal.width || rect.width) / rect.width;
+    const deltaViewBox = (e.clientX - dragState.current.startPointerX) * ratio;
     let next = dragState.current.startOffset + deltaViewBox;
     next = Math.max(minOffset, Math.min(maxOffset, next));
     setOffsetX(next);
@@ -54,24 +45,24 @@ export default function Ruler({ scale, viewBoxWidth, y = 60, initialOffset = 0 }
     }
   }
 
-  // Bangun tick mark: setiap 1 mm garis pendek, setiap 5 mm agak panjang,
-  // setiap 1 cm garis panjang + label angka.
+  // Tick mark memproyeksi ke ATAS (arah objek): tiap mm garis pendek,
+  // tiap 5 mm agak panjang, tiap cm garis panjang + label angka besar.
   const ticks = [];
   const totalMm = RULER_LENGTH_CM * 10;
   for (let mm = 0; mm <= totalMm; mm++) {
     const x = (mm / 10) * scale;
     const isCm = mm % 10 === 0;
     const isHalfCm = mm % 5 === 0;
-    const tickHeight = isCm ? 22 : isHalfCm ? 14 : 8;
+    const tickHeight = isCm ? 38 : isHalfCm ? 24 : 12;
     ticks.push(
       <line
         key={mm}
         x1={x}
         y1={0}
         x2={x}
-        y2={tickHeight}
+        y2={-tickHeight}
         stroke={isCm ? "#22d3ee" : "#67e8f9"}
-        strokeWidth={isCm ? 1.4 : 0.8}
+        strokeWidth={isCm ? 2 : 1}
         opacity={isCm ? 1 : 0.6}
       />
     );
@@ -80,8 +71,9 @@ export default function Ruler({ scale, viewBoxWidth, y = 60, initialOffset = 0 }
         <text
           key={`label-${mm}`}
           x={x}
-          y={36}
-          fontSize="10"
+          y={26}
+          fontSize="15"
+          fontWeight="600"
           textAnchor="middle"
           fill="#a5f3fc"
         >
@@ -93,37 +85,49 @@ export default function Ruler({ scale, viewBoxWidth, y = 60, initialOffset = 0 }
 
   return (
     <g
-      transform={`translate(${offsetX}, ${y})`}
+      transform={`translate(${offsetX}, ${topY})`}
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerUp}
       style={{ cursor: "grab", touchAction: "none" }}
     >
-      {/* Badan penggaris */}
+      {/* Badan penggaris (tebal, jelas terlihat sebagai alat fisik) */}
       <rect
-        x={-4}
-        y={-6}
-        width={rulerLengthPx + 8}
-        height={48}
-        rx={6}
+        x={-6}
+        y={0}
+        width={rulerLengthPx + 12}
+        height={BODY_HEIGHT}
+        rx={8}
         fill="url(#rulerBody)"
         stroke="#22d3ee"
-        strokeOpacity={0.5}
+        strokeOpacity={0.6}
+        strokeWidth={1.5}
       />
       <defs>
         <linearGradient id="rulerBody" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stopColor="#0e2a33" />
-          <stop offset="100%" stopColor="#082027" />
+          <stop offset="0%" stopColor="#123742" />
+          <stop offset="100%" stopColor="#081e26" />
         </linearGradient>
       </defs>
 
-      {/* Penanda titik NOL */}
-      <line x1={0} y1={-6} x2={0} y2={42} stroke="#f472b6" strokeWidth={1.6} />
-      <text x={0} y={-10} fontSize="10" fill="#f472b6" textAnchor="middle">
+      {ticks}
+
+      {/* Penanda titik NOL — besar & mencolok */}
+      <line x1={0} y1={-46} x2={0} y2={BODY_HEIGHT} stroke="#f472b6" strokeWidth={2.4} />
+      <text x={0} y={-52} fontSize="13" fontWeight="700" fill="#f472b6" textAnchor="middle">
         0
       </text>
 
-      {ticks}
+      <text
+        x={rulerLengthPx / 2}
+        y={62}
+        fontSize="12"
+        fill="#67e8f9"
+        opacity={0.7}
+        textAnchor="middle"
+      >
+        geser badan penggaris untuk menyejajarkan 0 dengan ujung benda
+      </text>
     </g>
   );
 }

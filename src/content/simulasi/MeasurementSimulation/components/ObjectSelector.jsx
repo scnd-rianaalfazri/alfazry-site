@@ -41,7 +41,6 @@ export default function ObjectSelector({ selectedObjectId, onSelectObject }) {
               </span>
             </div>
 
-            {/* Indikator aktif */}
             {isActive && (
               <span className="ml-auto h-2 w-2 rounded-full bg-cyan-400 shadow-[0_0_8px_2px_rgba(34,211,238,0.8)]" />
             )}
