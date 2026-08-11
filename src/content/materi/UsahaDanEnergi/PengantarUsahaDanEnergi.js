@@ -1,5 +1,3 @@
-import aplikasimomentumdanimpuls from "../DinamikaMomentumDanImpuls/AplikasiMomentumDanImpuls";
-
 const pengantarusahadanenergi = {
   title: "Pengantar Usaha dan Energi",
   slug: "pengantar usaha dan energi",

@@ -1,12 +1,8 @@
-import apaitufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika1.jpg";
-import fisikadisekelilingImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika2.jpg";
-import skalalingkupfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika4.jpg";
-import cabangfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika3.jpg";
-import fisikadalamkehidupanImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika5.jpg";
-import miskonsepsiaoaitufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika6.jpg";
-import pengertianfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika7.jpg";
-import nextmissionhakikatilmufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika8.jpg";
-import cobatemukanImg from "/src/assets/Materi/HakikatIlmuFisika/ApaItuFisika9.jpg";
+import img1 from "/src/assets/Materi/HakikatIlmuFisika/apa-itu-fisika1.png"
+import img2 from "/src/assets/Materi/HakikatIlmuFisika/apa-itu-fisika2.png"
+import img3 from "/src/assets/Materi/HakikatIlmuFisika/apa-itu-fisika3.png"
+import img4 from "/src/assets/Materi/HakikatIlmuFisika/apa-itu-fisika4.png"
+import img5 from "/src/assets/Materi/HakikatIlmuFisika/apa-itu-fisika5.png"
 
 const apaItuFisika = {
   title: "Apa Itu Fisika?",
@@ -17,12 +13,13 @@ const apaItuFisika = {
   content: [
   {
     blocks: [
-      { type: "image", 
-        src: apaitufisikaImg, 
-        caption: "Apa itu fisika?" },
+      {
+        type: "image",
+        src: img1,
+      },
       {
         type: "paragraph",
-        text: "Coba sejenak kamu pause kesibukanmu dan perhatikan sekelilingmu. (ILUSTRASI 👇)"
+        text: "Coba sejenak kamu pause kesibukanmu dan perhatikan sekelilingmu."
       },
       {
         type: "list",
@@ -56,11 +53,6 @@ const apaItuFisika = {
   { heading: "🔬 Fisika di Sekeliling Kita", 
     blocks: [
       {
-        type: "image",
-        src: fisikadisekelilingImg,
-        caption: "Fisika di sekitar kita"
-      },
-      {
         type: "paragraph",
         text: [
           "Apakah semua kejadian itu terjadi secara kebetulan atau karena sihir?",
@@ -72,11 +64,6 @@ const apaItuFisika = {
   },
   { heading: "🔬 Pengertian Fisika", 
     blocks: [
-      {
-        type: "image",
-        src: pengertianfisikaImg,
-        caption: "Fenomena alam hingga penjelasan ilmiah"
-      },
       {
         type: "paragraph",
         text: [
@@ -91,8 +78,7 @@ const apaItuFisika = {
     blocks: [
       {
         type: "image",
-        src: skalalingkupfisikaImg,
-        caption: "Skala alam semesta dalam grafik"
+        src: img2
       },
       {
         type: "paragraph",
@@ -127,8 +113,7 @@ const apaItuFisika = {
     blocks: [
       {
         type: "image",
-        src: cabangfisikaImg,
-        caption: "Beberapa cabang ilmu fisika"
+        src: img3
       },
       {
         type: "paragraph",
@@ -143,7 +128,7 @@ const apaItuFisika = {
           type: "ordered",
           items: [
           {
-            text: "Fisika Klasik (The Foundation)",
+            text: "Fisika Klasik *(The Foundation)*",
             description:
             "Ini adalah fondasi awal yang membahas fenomena alam yang bisa kita lihat dan rasakan langsung dalam skala sehari-hari.",
             children: {
@@ -173,7 +158,7 @@ const apaItuFisika = {
             }
           },
           {
-            text: "Fisika Modern (The Frontier)",
+            text: "Fisika Modern *(The Frontier)*",
             description:  "Ketika teknologi berkembang dan para ilmuwan mulai masuk ke skala ekstrem—super cepat (mendekati kecepatan cahaya) atau super kecil (dunia atom)—hukum fisika klasik mulai runtuh. Dari sanalah lahir era baru setelah abad ke-20 yang penuh kejutan.",
             children: {
               type: "unordered",
@@ -265,6 +250,10 @@ const apaItuFisika = {
   { heading: "🚀 Fisika dalam Kehidupan", 
     blocks: [
       {
+        type: "image",
+        src: img4
+      },
+      {
         type: "paragraph",
         text: "Fisika hadir hampir di setiap teknologi modern."
       },
@@ -298,8 +287,7 @@ const apaItuFisika = {
     blocks: [
       {
         type: "image",
-        src: fisikadalamkehidupanImg,
-        caption: "Fisikawan berinovasi di berbagai bidang"
+        src: img5
       },
       {
         type: "paragraph",
@@ -313,37 +301,23 @@ const apaItuFisika = {
   { heading: "⚠️ Miskonsepsi", 
     blocks: [
       {
-        type: "image",
-        src: miskonsepsiaoaitufisikaImg,
-        caption: "Miskonsepsi umum tentang fisika"
-      },
-      {
         type: "paragraph",
         text: [
           "'Fisika itu kan cuma ilmu yang mempelajari benda bergerak dan menghitung kecepatan mobil lewat rumus, ya?' ❌",
           "Wah, itu sempit banget! Gerak benda hanyalah satu dari sekian banyak menu di dalam fisika.",
-          "Fisika juga mempelajari hal-hal tak kasat mata seperti radiasi cahaya, aliran kalor, arus listrik, gelombang wifi, hingga sifat dasar dari ruang dan waktu itu sendiri.",
-          "Jadi, jangan cuma batasi fisika hanya sebatas rumus kecepatan (v = s/t)"
+          "Fisika juga mempelajari hal-hal tak kasat mata seperti radiasi cahaya, aliran kalor, arus listrik, gelombang wifi, hingga sifat dasar dari ruang dan waktu itu sendiri. ✔️",
+          "Jadi, jangan cuma batasi fisika hanya sebatas rumus kecepatan $(v = \\frac{s}{t})$"
         ]
       }
     ]
   },
-  { heading: "🧠 Inti Materi (Takeaway Message)", 
+  { heading: "✨ Inti Materi", 
     blocks: [
       {
         type: "paragraph",
         text: [
           "Fisika adalah ilmu yang mempelajari hukum-hukum fundamental alam semesta untuk menjelaskan berbagai fenomena, mulai dari skala sub-atomik (mikroskopis) yang tak kasat mata hingga skala kosmik (makroskopis) yang megah."
         ]
-      }
-    ]
-  },
-  { heading: "🔍 Coba Temukan?", 
-    blocks: [
-      {
-        type: "image",
-        src: cobatemukanImg,
-        caption: "Coba temukan fenomena fisika di sekitar gambar ini!"
       }
     ]
   },
@@ -444,11 +418,6 @@ const apaItuFisika = {
   {
     link: "/materi/hakikat-ilmu-fisika",
     blocks: [
-      {
-        type: "image",
-        src: nextmissionhakikatilmufisikaImg,
-        caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya."
-      },
       {
         type: "paragraph",
         text: [

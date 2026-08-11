@@ -6,6 +6,8 @@ import VektorDasarSimulation from "../content/simulasi/VektorDasarSimulation/Vek
 import ScienceOrNotSimulation from "../content/simulasi/ScienceOrNotSimulation/ScienceOrNotSimulation"
 import ExploreBranchesPhysicsSimulation from "../content/simulasi/ExploreBranchesPhysicsSimulation/ExploreBranchesPhysicsSimulation"
 import WaveGeneratorSimulation from "../content/simulasi/WaveGeneratorSimulation/WaveGeneratorSimulation"
+import ColoumbForceSimulation from "../content/simulasi/ColoumbForceSimulation/ColoumbForceSimulation"
+import FieldExplorerSimulation from "../content/simulasi/FieldExplorerSimulation/FieldExplorerSimulation"
 
 export const simulations = [
     PhysicsAroundSimulation,
@@ -16,4 +18,6 @@ export const simulations = [
     ScienceOrNotSimulation,
     ExploreBranchesPhysicsSimulation,
     WaveGeneratorSimulation,
+    ColoumbForceSimulation,
+    FieldExplorerSimulation,
 ]

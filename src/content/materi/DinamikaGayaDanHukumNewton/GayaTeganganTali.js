@@ -233,6 +233,102 @@ const gayaTeganganTali = {
         }
       ]
     },
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Gaya tegangan tali adalah....",
+                options: [
+                  "gaya dorong yang diberikan tali pada benda.",
+                  "gaya tarik yang diteruskan melalui tali, kabel, atau kawat yang tegang.",
+                  "gaya gesek antara tali dan benda.",
+                  "gaya gravitasi yang bekerja pada tali.",
+                  "gaya normal yang diberikan tali pada benda."
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Pernyataan yang benar mengenai gaya tegangan tali adalah....",
+                options: [
+                  "tali dapat memberikan gaya tarik maupun gaya dorong.",
+                  "gaya tegangan tetap ada meskipun tali kendur.",
+                  "arah gaya tegangan selalu mengikuti arah tali dan menjauhi benda yang ditinjau.",
+                  "besar gaya tegangan selalu lebih kecil daripada gaya berat.",
+                  "gaya tegangan hanya muncul pada benda yang bergerak."
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Sebuah benda bermassa 5 kg digantung diam pada seutas tali. Jika $\\text{g = 10 m/s}^2$, maka besar gaya tegangan talinya adalah....",
+                options: [
+                  "5 N.",
+                  "10 N.",
+                  "25 N.",
+                  "50 N.",
+                  "60 N."
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Sebuah ember bermassa 4 kg ditarik ke atas dengan percepatan $\\text {2 m/s}^2$. Jika $\\text {g = 10 m/s}^2$, maka besar gaya tegangan tali adalah....",
+                options: [
+                  "32 N.",
+                  "40 N.",
+                  "48 N.",
+                  "52 N.",
+                  "60 N."
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Pernyataan yang benar mengenai gaya tegangan tali adalah....",
+                options: [
+                  "gaya tegangan selalu sama dengan gaya berat pada semua kondisi.",
+                  "tali yang kendur tetap memiliki gaya tegangan yang besar.",
+                  "pada tali ideal yang tegang, besar gaya tegangan di setiap bagian tali adalah sama.",
+                  "gaya tegangan bekerja tegak lurus terhadap permukaan bidang.",
+                  "gaya tegangan merupakan gaya tak kontak."
+                ],
+                answerIndex: 2
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
     { blocks: [
         {
           type: "paragraph",

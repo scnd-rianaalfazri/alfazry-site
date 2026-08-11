@@ -1,250 +1,96 @@
-import { body, caption } from "framer-motion/client";
-import mengapakitaharusmengukurImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan1.jpg";
-import katakatatidakcukupImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan2.jpg";
-import daripengamatandatadataImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan3.jpg";
-import pengukuranadadimanamanaImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan4.jpg";
-import tahukahkamuImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan5.jpg";
-import miskonsepsibesarandansatuanImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan6.jpg";
-import pentingnyapengukuranImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan7.jpg";
-import intichapterImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan8.jpg";
-import nextmissionImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan9.jpg";
-import cobatebakImg from "/src/assets/Materi/BesaranDanSatuan/PengantarBesaranDanSatuan10.jpg";
-
 const pengantarbesarandansatuan = {
-  title: "Mengapa Kita Harus Mengukur?",
-  slug: "mengapa kita harus mengukur",
-  description:
-  "Memahami pentingnya pengukuran sebagai dasar dalam fisika untuk menggambarkan fenomena alam secara objektif.",
+  title: 'Mengapa Kita Harus Mengukur?',
+  slug: 'mengapa kita harus mengukur',
+  description: 'Memahami pentingnya pengukuran sebagai dasar fisika untuk mengubah pengamatan menjadi data yang objektif.',
   chapter: "📏 Pengukuran",
 
   content: [
-  {
-    blocks: [
     {
-      type: "image",
-      src: mengapakitaharusmengukurImg,
-      caption: "Setiap penemuan ilmiah dimulai dari sebuah pengukuran."
+      heading: '🔎 Hook — Seberapa Berat? Seberapa Cepat?',
+      blocks: [
+        { type: "paragraph", text: 'Bayangkan seorang teman berkata, "Tas ini berat." Teman lain berkata, "Motor itu sangat cepat."' },
+        { type: "paragraph", text: 'Menurutmu, seberapa berat? Seberapa cepat? Kata-kata itu memberi gambaran, tetapi belum memberi data yang bisa dibandingkan.' },
+      ]
     },
-    { type: "paragraph", text: "Bayangkan seorang teman berkata," },
-    { type: "paragraph", text: '"Tas ini berat."' },
-    { type: "paragraph", text: "Lalu teman lain berkata," },
-    { type: "paragraph", text: '"Motor itu melaju sangat cepat."' },
-    { type: "paragraph", text: "Menurutmu..." },
-    { type: "paragraph", text: "Seberapa berat?" },
-    { type: "paragraph", text: "Seberapa cepat?" }]
 
-  },
-  { heading:
+    {
+      heading: '❓ Pertanyaan Besar',
+      blocks: [
+        { type: "paragraph", text: 'Bagaimana fisika mengubah sesuatu yang kita amati menjadi informasi yang objektif?' },
+        { type: "paragraph", text: 'Jawabannya dimulai dari satu kegiatan sederhana: mengukur.' },
+      ]
+    },
 
-    "🤔 Mengapa Kata-Kata Saja Tidak Cukup?", blocks: [{ type: "heading", text: "🤔 Mengapa Kata-Kata Saja Tidak Cukup?" },
     {
-      type: "image",
-      src: katakatatidakcukupImg,
-      caption:
-      "Kata-kata seperti besar, kecil, cepat, atau berat tidak cukup untuk menjelaskan suatu fenomena."
+      heading: '📏 Dari Pengamatan Menjadi Data',
+      blocks: [
+        { type: "paragraph", text: 'Fisika dibangun melalui pengamatan dan metode ilmiah. Agar pengamatan dapat dianalisis, fenomena perlu dinyatakan dalam data.' },
+        { type: "paragraph", text: 'Pengukuran membantu mengubah pengamatan menjadi data yang dapat dibandingkan dan dianalisis.' },
+      ]
     },
-    {
-      type: "paragraph",
-      text: "Dalam kehidupan sehari-hari, kita sering menggunakan kata seperti besar, kecil, panjang, cepat, atau berat."
-    },
-    {
-      type: "paragraph",
-      text: "Namun dalam fisika, kata-kata tersebut belum cukup untuk menjelaskan suatu fenomena."
-    },
-    {
-      type: "paragraph",
-      text: "Fisika membutuhkan sesuatu yang dapat dibandingkan, diuji, dan dihitung."
-    }]
 
-  },
-  { heading:
-
-    "📏 Dari Pengamatan Menjadi Data", blocks: [{ type: "heading", text: "📏 Dari Pengamatan Menjadi Data" },
     {
-      type: "image",
-      src: daripengamatandatadataImg,
-      caption:
-      "Pengukuran adalah proses mengubah pengamatan menjadi data yang dapat dianalisis."
+      heading: '👀 Visualisasi Konsep',
+      blocks: [
+        { type: "paragraph", text: 'Bayangkan Amara mengukur panjang sebuah benda. Ia memilih alat, menentukan satuan, membaca skala, lalu mencatat hasilnya.' },
+        { type: "paragraph", text: 'Jadi, pengukuran bukan sekadar melihat angka; ada proses di balik angka tersebut.' },
+      ]
+    },
+
+    {
+      heading: '🧠 Analisis',
+      blocks: [
+        { type: "paragraph", text: 'Jika dua orang mengukur benda yang sama menggunakan alat dan satuan yang sesuai, hasilnya dapat dibandingkan.' },
+        { type: "paragraph", text: 'Standar dan prosedur membuat data menjadi lebih bermakna.' },
+      ]
+    },
+
+    {
+      heading: '🌍 Pengukuran Ada di Sekitar Kita',
+      blocks: [
+        { type: "paragraph", text: '⌚ waktu, 🌡️ suhu, ⚖️ massa, 📏 panjang, dan 🚗 kecepatan adalah contoh besaran yang kita temui setiap hari.' },
+      ]
+    },
+
+    {
+      heading: '⚠️ Miskonsepsi',
+      blocks: [
+        { type: "paragraph", text: 'Pengukuran bukan hanya membaca angka pada alat ukur. Pengukuran juga mencakup pemilihan alat, satuan, teknik membaca, dan pemahaman terhadap keterbatasan hasil.' },
+      ]
+    },
+
+    {
+      heading: '💡 Fun Fact',
+      blocks: [
+        { type: "paragraph", text: 'Pengukuran jarak Bumi–Bulan menggunakan laser dapat dilakukan dengan ketelitian yang sangat tinggi meskipun jaraknya sekitar 384.400 km.' },
+      ]
+    },
+
+    {
+      heading: '✨ Inti Materi',
+      blocks: [
+        { type: "paragraph", text: 'Pengukuran adalah cara fisika mengubah fenomena alam menjadi data yang dapat dinyatakan, dibandingkan, dan dianalisis.' },
+      ]
+    },
+
+    {
+      heading: "🚀 Next Mission",
+      blocks: [
+        { type: "paragraph", text: 'Kita sudah tahu mengapa pengukuran penting. Sekarang kita perlu memahami apa yang sebenarnya diukur dan bagaimana hasilnya dinyatakan.' },
+        { type: "paragraph", text: '➡️ Selanjutnya: Besaran dan Satuan.' },
+      ],
+      link: '/materi/besaran%20dan%20satuan'
     },
     {
-      type: "paragraph",
-      text: "Di chapter sebelumnya kamu belajar bahwa fisika dibangun melalui metode ilmiah."
-    },
-    {
-      type: "paragraph",
-      text: "Nah, agar sebuah pengamatan dapat dianalisis, kita harus mengubahnya menjadi data."
-    },
-    {
-      type: "paragraph",
-      text: "Cara mengubah fenomena menjadi data adalah melalui pengukuran."
-    }]
-
-  },
-  { heading:
-
-    "🌍 Pengukuran Ada di Mana-Mana", blocks: [{ type: "heading", text: "🌍 Pengukuran Ada di Mana-Mana" },
-    {
-      type: "image",
-      src: pengukuranadadimanamanaImg,
-      caption: "Ini beberapa alat ukur"
-    },
-    {
-      type: "paragraph",
-      text: "Tanpa disadari, setiap hari kita melakukan pengukuran."
-    },
-    { type: "paragraph", text: "⌚ Melihat waktu." },
-    { type: "paragraph", text: "🌡️ Mengukur suhu tubuh." },
-    { type: "paragraph", text: "⚖️ Menimbang massa badan." },
-    { type: "paragraph", text: "🚗 Melihat kecepatan kendaraan." },
-    { type: "paragraph", text: "📱 Mengukur kapasitas penyimpanan data." }]
-
-  },
-  { heading:
-
-    "🚀 Mengapa Pengukuran Sangat Penting?", blocks: [{ type: "heading", text: "🚀 Mengapa Pengukuran Sangat Penting?" },
-    {
-      type: "image",
-      src: pentingnyapengukuranImg,
-      caption: "Pengukuran adalah dasar dari semua penemuan ilmiah."
-    },
-    {
-      type: "paragraph",
-      text: "Seluruh cabang fisika bergantung pada pengukuran."
-    },
-    { type: "paragraph", text: "Tanpa pengukuran, kita tidak dapat:" },
-    { type: "paragraph", text: "✅ Menentukan kecepatan benda." },
-    { type: "paragraph", text: "✅ Menghitung gaya." },
-    { type: "paragraph", text: "✅ Mengetahui energi." },
-    { type: "paragraph", text: "✅ Membandingkan hasil eksperimen." },
-    { type: "paragraph", text: "✅ Membuktikan suatu teori." }]
-
-  },
-  { heading:
-
-    "💡 Tahukah Kamu?", blocks: [{ type: "heading", text: "💡 Tahukah Kamu?" },
-    {
-      type: "image",
-      src: tahukahkamuImg,
-      caption: "Ketelitian pada laser"
-    },
-    {
-      type: "paragraph",
-      text: "Ketika ilmuwan mengukur jarak Bumi ke Bulan menggunakan laser, ketelitiannya dapat mencapai beberapa milimeter meskipun jaraknya sekitar 384.400 kilometer."
-    }]
-
-  },
-  { heading:
-
-    "⚠️ Miskonsepsi", blocks: [{ type: "heading", text: "⚠️ Miskonsepsi" },
-    {
-      type: "image",
-      src: miskonsepsibesarandansatuanImg,
-      caption:
-      "Banyak orang mengira pengukuran hanya berarti membaca angka pada alat ukur."
-    },
-    {
-      type: "paragraph",
-      text: "Banyak orang mengira pengukuran hanya berarti membaca angka pada alat ukur."
-    },
-    {
-      type: "paragraph",
-      text: "Padahal pengukuran juga mencakup memilih alat yang tepat, menggunakan satuan yang benar, dan memahami batas ketelitian hasil pengukuran."
-    }]
-
-  },
-  { heading:
-
-    "🗺️ Misi Chapter Ini", blocks: [{ type: "heading", text: "🗺️ Misi Chapter Ini" },
-    { type: "paragraph", text: "Pada chapter ini kamu akan mempelajari:" },
-    { type: "paragraph", text: "📏 Besaran dan Satuan" },
-    { type: "paragraph", text: "🌐 Sistem Internasional (SI)" },
-    { type: "paragraph", text: "🧱 Besaran Pokok & Turunan" },
-    { type: "paragraph", text: "🧩 Dimensi" },
-    { type: "paragraph", text: "🔬 Pengukuran" },
-    { type: "paragraph", text: "📉 Ketidakpastian" },
-    { type: "paragraph", text: "🔢 Angka Penting" },
-    { type: "paragraph", text: "🚀 Notasi Ilmiah" },
-    { type: "paragraph", text: "🔄 Konversi Satuan" }]
-
-  },
-  { heading:
-
-    "✨ Inti Chapter", blocks: [{ type: "heading", text: "✨ Inti Chapter" },
-    {
-      type: "image",
-      src: intichapterImg,
-      caption:
-      "Pengukuran adalah bahasa yang digunakan fisika untuk menggambarkan alam secara objektif."
-    },
-    {
-      type: "paragraph",
-      text: "Pengukuran adalah bahasa yang digunakan fisika untuk menggambarkan alam secara objektif."
-    },
-    {
-      type: "paragraph",
-      text: "Semakin teliti pengukuran, semakin dapat dipercaya data yang diperoleh."
-    }]
-
-  },
-  { heading:
-
-    "⁉️ Coba Tebak?", blocks: [{ type: "heading", text: "⁉️ Coba Tebak?" },
-    {
-      type: "image",
-      src: cobatebakImg,
-      caption: "Manakah yang bisa diukur?"
-    },
-    {
-      type: "paragraph",
-      text: "✔️ Objektif = Dapat diukur mengunakan alat dan satuan"
-    },
-    {
-      type: "paragraph",
-      text: "❌ Subjektif = Berdasarkan perasaan dan pendapat"
-    }]
-
-  },
-  {
-    link: "/materi/besaran%20dan%20satuan",
-    blocks: [
-    {
-      type: "image",
-      src: nextmissionImg,
-      caption: "🚀 KLIK GAMBAR INI! Misi pertamamu dimulai di sini."
-    },
-    {
-      type: "paragraph",
-      text: "Setelah memahami mengapa pengukuran penting, sekarang saatnya mengenal dua konsep paling dasar dalam dunia pengukuran."
-    },
-    { type: "paragraph", text: "➡️ Next Mission: Besaran dan Satuan." }]
-
-  },
-  { heading:
-
-    "Referensi:", blocks: [{ type: "heading", text: "Referensi:" },
-    {
-      type: "paragraph",
-      text: "Halliday, Resnick & Walker. Fundamentals of Physics."
-    },
-    {
-      type: "paragraph",
-      text: "Serway & Jewett. Physics for Scientists and Engineers."
-    },
-    {
-      type: "paragraph",
-      text: "Young & Freedman. University Physics with Modern Physics."
-    },
-    {
-      type: "paragraph",
-      text: "BIPM. The International System of Units (SI Brochure)."
-    },
-    {
-      type: "paragraph",
-      text: "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X."
-    }]
-
-  }]
-
+      heading: "📚 Referensi",
+      blocks: [
+        { type: "paragraph", text: 'Halliday, Resnick & Walker. Fundamentals of Physics.' },
+        { type: "paragraph", text: 'Serway & Jewett. Physics for Scientists and Engineers.' },
+        { type: "paragraph", text: 'Young & Freedman. University Physics with Modern Physics.' },
+        { type: "paragraph", text: 'Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X.' },
+      ]
+    }
+  ]
 };
 
 export default pengantarbesarandansatuan;

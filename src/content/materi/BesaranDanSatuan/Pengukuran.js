@@ -1,227 +1,105 @@
-import { body, caption, image, link } from "framer-motion/client";
-import pengukuranImg from "/src/assets/Materi/BesaranDanSatuan/Pengukuran1.jpg";
-import pengertianpengukuranImg from "/src/assets/Materi/BesaranDanSatuan/Pengukuran2.jpg";
-import alatukurImg from "/src/assets/Materi/BesaranDanSatuan/Pengukuran3.jpg";
-import ketelitianalatukurImg from "/src/assets/Materi/BesaranDanSatuan/Pengukuran4.jpg";
-import nextmissinketidakpastianImg from "/src/assets/Materi/BesaranDanSatuan/Pengukuran5.jpg";
-
 const pengukuran = {
-  title: "Pengukuran",
-  slug: "pengukuran",
-  description:
-  "Memahami konsep pengukuran, alat ukur, dan cara memperoleh data dalam fisika.",
+  title: 'Pengukuran',
+  slug: 'pengukuran',
+  description: 'Memahami proses pengukuran, pemilihan alat ukur, ketelitian, dan cara memperoleh data fisika.',
   chapter: "📏 Pengukuran",
+
   content: [
-  {
-    blocks: [
     {
-      type: "image",
-      src: pengukuranImg,
-      caption: "Pengukuran dalam Dunia Fisika"
+      heading: '🔬 Hook — Angka Itu Datang dari Mana?',
+      blocks: [
+        { type: "paragraph", text: 'Dalam eksperimen kita sering melihat angka seperti 15,2 cm, 2,0 kg, atau 10 s. Tapi dari mana angka-angka itu berasal?' },
+      ]
     },
-    {
-      type: "paragraph",
-      text: "Fisika tidak hanya mengamati fenomena, tetapi juga membutuhkan data."
-    },
-    {
-      type: "paragraph",
-      text: "Data tersebut diperoleh melalui proses pengukuran."
-    },
-    {
-      type: "paragraph",
-      text: "Dengan pengukuran, sesuatu yang sebelumnya hanya diamati dapat dinyatakan dalam bentuk angka."
-    }]
 
-  },
-  {
-    blocks: [
     {
-      type: "image",
-      src: pengertianpengukuranImg,
-      caption: "Pengenalan konsep pengukuran"
+      heading: '❓ Pertanyaan Besar',
+      blocks: [
+        { type: "paragraph", text: 'Bagaimana cara memperoleh data pengukuran yang dapat dipercaya?' },
+      ]
     },
-    {
-      type: "paragraph",
-      text: "Pengukuran adalah proses membandingkan suatu besaran dengan satuan standar yang telah ditentukan."
-    },
-    { type: "paragraph", text: "Hasil pengukuran selalu terdiri dari:" },
-    { type: "paragraph", text: "Nilai + Satuan" },
-    { type: "paragraph", text: "Contoh:" },
-    { type: "paragraph", text: "Panjang meja = 120 cm" }]
 
-  },
-  { heading:
+    {
+      heading: '📏 Apa Itu Pengukuran?',
+      blocks: [
+        { type: "paragraph", text: 'Pengukuran adalah proses membandingkan suatu besaran dengan satuan standar yang telah ditentukan. Hasil pengukuran dinyatakan sebagai nilai dan satuan.' },
+      ]
+    },
 
-    "🧩 Unsur Dalam Pengukuran", blocks: [{ type: "heading", text: "🧩 Unsur Dalam Pengukuran" },
     {
-      type: "paragraph",
-      text: "Dalam proses pengukuran terdapat beberapa komponen:"
+      heading: '👀 Visualisasi Konsep',
+      blocks: [
+        { type: "paragraph", text: 'Amara menentukan besaran yang akan diukur, memilih instrumen yang sesuai, menempatkan alat dengan benar, membaca skala, lalu mencatat hasil.' },
+      ]
     },
-    { type: "paragraph", text: "1. Besaran yang diukur" },
-    { type: "paragraph", text: "2. Alat ukur" },
-    { type: "paragraph", text: "3. Satuan standar" },
-    { type: "paragraph", text: "4. Hasil pengukuran" }]
 
-  },
-  {
-    blocks: [
     {
-      type: "image",
-      src: alatukurImg,
-      caption: "Alat ukur dalam fisika dan penggunaannya"
+      heading: '🧰 Memilih Alat Ukur',
+      blocks: [
+        { type: "paragraph", text: 'Panjang → mistar, jangka sorong, mikrometer sekrup. Massa → neraca. Waktu → stopwatch. Suhu → termometer.' },
+      ]
     },
-    {
-      type: "paragraph",
-      text: "Setiap besaran memiliki alat ukur yang sesuai."
-    },
-    { type: "paragraph", text: "Contoh:" },
-    {
-      type: "paragraph",
-      text: "Panjang → mistar, jangka sorong, mikrometer sekrup"
-    },
-    { type: "paragraph", text: "Massa → neraca" },
-    { type: "paragraph", text: "Waktu → stopwatch" },
-    { type: "paragraph", text: "Suhu → termometer" }]
 
-  },
-  {
-    blocks: [
     {
-      type: "image",
-      src: ketelitianalatukurImg,
-      caption: "Perbandingan ketelitian alat ukur"
+      heading: '🧠 Analisis — Mengapa Alat Berbeda?',
+      blocks: [
+        { type: "paragraph", text: 'Setiap alat memiliki skala terkecil dan kemampuan baca berbeda. Pemilihan alat harus mempertimbangkan besaran, rentang, dan ketelitian yang dibutuhkan.' },
+      ]
+    },
+
+    {
+      heading: '📊 Pengukuran Tunggal dan Berulang',
+      blocks: [
+        { type: "paragraph", text: 'Pengukuran tunggal dilakukan satu kali. Pengukuran berulang dilakukan beberapa kali untuk memperoleh data yang lebih informatif dan membantu mengurangi pengaruh kesalahan acak.' },
+      ]
+    },
+
+    {
+      heading: '🌍 Contoh di Kehidupan',
+      blocks: [
+        { type: "paragraph", text: 'Saat membuat meja, panjang harus diukur. Saat memasak, massa atau volume bahan perlu diukur. Pengukuran membuat keputusan menjadi lebih objektif.' },
+      ]
+    },
+
+    {
+      heading: '⚠️ Miskonsepsi',
+      blocks: [
+        { type: "paragraph", text: 'Alat yang lebih canggih tidak otomatis membuat semua hasil lebih baik. Alat harus sesuai dengan besaran, rentang, ketelitian, dan cara penggunaan.' },
+      ]
+    },
+
+    {
+      heading: '💡 Fun Fact',
+      blocks: [
+        { type: "paragraph", text: 'Dalam eksperimen ilmiah, cara alat digunakan dapat sama pentingnya dengan kualitas alat itu sendiri.' },
+      ]
+    },
+
+    {
+      heading: '✨ Inti Materi',
+      blocks: [
+        { type: "paragraph", text: 'Pengukuran mengubah fenomena menjadi data. Pengukuran yang baik membutuhkan alat, satuan, teknik, dan pencatatan yang sesuai.' },
+      ]
+    },
+
+    {
+      heading: "🚀 Next Mission",
+      blocks: [
+        { type: "paragraph", text: 'Kita sudah memperoleh data pengukuran. Namun, apakah hasil itu selalu tepat tanpa batas?' },
+        { type: "paragraph", text: '➡️ Selanjutnya: Ketidakpastian Pengukuran.' },
+      ],
+      link: '/materi/ketidakpastian'
     },
     {
-      type: "paragraph",
-      text: "Setiap alat ukur memiliki tingkat ketelitian yang berbeda."
-    },
-    {
-      type: "paragraph",
-      text: "Semakin kecil skala terkecil alat ukur, semakin teliti hasil pengukurannya."
-    },
-    { type: "paragraph", text: "Contoh:" },
-    {
-      type: "paragraph",
-      text: "Mikrometer sekrup lebih teliti daripada penggaris biasa."
-    }]
-
-  },
-  { heading:
-
-    "📊 Pengukuran Tunggal dan Berulang", blocks: [{ type: "heading", text: "📊 Pengukuran Tunggal dan Berulang" },
-    {
-      type: "paragraph",
-      text: "Pengukuran tunggal dilakukan satu kali pengukuran."
-    },
-    { type: "paragraph", text: "Contoh:" },
-    { type: "paragraph", text: "Mengukur panjang buku satu kali." },
-    {
-      type: "paragraph",
-      text: "Pengukuran berulang dilakukan beberapa kali untuk mendapatkan hasil yang lebih terpercaya."
-    }]
-
-  },
-  { heading:
-
-    "🎲 Contoh Pengukuran", blocks: [{ type: "heading", text: "🎲 Contoh Pengukuran" },
-    {
-      type: "paragraph",
-      text: "Seorang siswa mengukur panjang pensil menggunakan penggaris."
-    },
-    { type: "paragraph", text: "Hasil yang diperoleh:" },
-    { type: "paragraph", text: "15,2 cm" },
-    { type: "paragraph", text: "Angka 15,2 menunjukkan nilai pengukuran." },
-    { type: "paragraph", text: "cm menunjukkan satuan yang digunakan." }]
-
-  },
-  { heading:
-
-    "⚠️ Kenapa Hasil Pengukuran Bisa Berbeda?", blocks: [{ type: "heading", text: "⚠️ Kenapa Hasil Pengukuran Bisa Berbeda?" },
-    {
-      type: "paragraph",
-      text: "Dalam praktiknya, hasil pengukuran bisa memiliki perbedaan karena:"
-    },
-    { type: "paragraph", text: "✅ Keterbatasan alat ukur" },
-    { type: "paragraph", text: "✅ Cara membaca alat" },
-    { type: "paragraph", text: "✅ Kondisi lingkungan" },
-    { type: "paragraph", text: "✅ Keterampilan pengukur" }]
-
-  },
-  { heading:
-
-    "🔬 Pengukuran dalam Metode Ilmiah", blocks: [{ type: "heading", text: "🔬 Pengukuran dalam Metode Ilmiah" },
-    {
-      type: "paragraph",
-      text: "Pengukuran menjadi bagian penting dalam eksperimen."
-    },
-    {
-      type: "paragraph",
-      text: "Tanpa data hasil pengukuran, ilmuwan tidak dapat membuktikan suatu hipotesis."
-    }]
-
-  },
-  { heading:
-
-    "✨ Inti Materi", blocks: [{ type: "heading", text: "✨ Inti Materi" },
-    {
-      type: "paragraph",
-      text: "Pengukuran adalah cara fisika mengubah fenomena alam menjadi data yang dapat dianalisis."
-    },
-    {
-      type: "paragraph",
-      text: "Semakin baik pengukuran, semakin baik pula kesimpulan yang diperoleh."
-    }]
-
-  },
-  {
-    link: "/materi/ketidakpastian",
-    blocks: [
-    {
-      type: "image",
-      src: nextmissinketidakpastianImg,
-      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya."
-    },
-    {
-      type: "paragraph",
-      text: "Apakah hasil pengukuran selalu tepat 100%?"
-    },
-    { type: "paragraph", text: "Ternyata tidak." },
-    {
-      type: "paragraph",
-      text: "Setiap pengukuran memiliki batas ketelitian."
-    },
-    {
-      type: "paragraph",
-      text: "➡️ Next, kita menuju portal: Ketidakpastian Pengukuran."
-    }]
-
-  },
-  { heading:
-
-    "Referensi:", blocks: [{ type: "heading", text: "Referensi:" },
-    {
-      type: "paragraph",
-      text: "Halliday, Resnick & Walker. Fundamentals of Physics."
-    },
-    {
-      type: "paragraph",
-      text: "Serway & Jewett. Physics for Scientists and Engineers."
-    },
-    {
-      type: "paragraph",
-      text: "Young & Freedman. University Physics with Modern Physics."
-    },
-    {
-      type: "paragraph",
-      text: "BIPM. The International System of Units (SI Brochure)."
-    },
-    {
-      type: "paragraph",
-      text: "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X."
-    }]
-
-  }]
-
+      heading: "📚 Referensi",
+      blocks: [
+        { type: "paragraph", text: 'Halliday, Resnick & Walker. Fundamentals of Physics.' },
+        { type: "paragraph", text: 'Serway & Jewett. Physics for Scientists and Engineers.' },
+        { type: "paragraph", text: 'Young & Freedman. University Physics with Modern Physics.' },
+        { type: "paragraph", text: 'Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X.' },
+      ]
+    }
+  ]
 };
 
 export default pengukuran;

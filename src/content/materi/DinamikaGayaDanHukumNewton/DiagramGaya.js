@@ -210,8 +210,8 @@ const diagramGaya = {
           type: "paragraph",
           text: [
             "Sekarang kamu sudah jago mengisolasi benda dan menggambar panah gaya-gayanya!",
-            "Pada misi berikutnya, kita akan menggunakan Free Body Diagram untuk menyelesaikan berbagai sistem mekanika kompleks, seperti sistem katrol tunggal dan ganda (Mesin Atwood)!",
-            "➡️ *Next,* kita menuju portal: Penerapan Hukum Newton pada Sistem Katrol."
+            "Pada misi berikutnya, kita akan menganalisis gaya-gaya yang bekerja pada berbagai situasi menggunakan Free Body Diagram dan Hukum Newton",
+            "➡️ *Next,* kita menuju portal: [Analisis Gaya](/materi/analisis-gaya)"
           ]
         }
       ]

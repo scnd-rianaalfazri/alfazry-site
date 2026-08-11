@@ -1,229 +1,105 @@
-import { body, caption, image, link } from "framer-motion/client";
-import ketidakpastianImg from "/src/assets/Materi/BesaranDanSatuan/Ketidakpastian1.jpg";
-import pengertiaketidakpastianImg from "/src/assets/Materi/BesaranDanSatuan/Ketidakpastian2.jpg";
-import penyebabketidakpastianImg from "/src/assets/Materi/BesaranDanSatuan/Ketidakpastian3.jpg";
-import menulishasilpengukuranImg from "/src/assets/Materi/BesaranDanSatuan/Ketidakpastian4.jpg";
-import nextmissionkonversisatuanImg from "/src/assets/Materi/BesaranDanSatuan/Ketidakpastian5.jpg";
-
 const ketidakpastian = {
-  title: "Ketidakpastian",
-  slug: "ketidakpastian",
-  description:
-  "Memahami penyebab ketidakpastian dalam pengukuran dan cara menyatakan hasil pengukuran dengan benar.",
+  title: 'Ketidakpastian Pengukuran',
+  slug: 'ketidakpastian',
+  description: 'Memahami keterbatasan hasil pengukuran dan cara menyatakan ketidakpastian secara sederhana.',
   chapter: "📏 Pengukuran",
+
   content: [
-  {
-    blocks: [
-    { type: "image", src: ketidakpastianImg },
     {
-      type: "paragraph",
-      text: "Dalam fisika, setiap pengukuran memiliki keterbatasan."
+      heading: '🎯 Hook — Apakah Pengukuran Sempurna?',
+      blocks: [
+        { type: "paragraph", text: 'Sebuah pensil diukur dan hasilnya 15,2 cm. Apakah panjangnya benar-benar tepat 15,200000... cm? Tidak.' },
+      ]
+    },
+
+    {
+      heading: '❓ Pertanyaan Besar',
+      blocks: [
+        { type: "paragraph", text: 'Bagaimana kita menunjukkan bahwa sebuah hasil pengukuran memiliki keterbatasan?' },
+      ]
+    },
+
+    {
+      heading: '📐 Apa Itu Ketidakpastian?',
+      blocks: [
+        { type: "paragraph", text: 'Ketidakpastian pengukuran adalah perkiraan batas penyimpangan suatu hasil pengukuran terhadap nilai sebenarnya.' },
+      ]
+    },
+
+    {
+      heading: '👀 Visualisasi Konsep',
+      blocks: [
+        { type: "paragraph", text: 'Amara membaca skala alat ukur. Skala alat tidak dapat memberikan digit tanpa batas. Kemampuan alat ikut menentukan batas ketelitian hasil.' },
+      ]
+    },
+
+    {
+      heading: '🛠️ Sumber Ketidakpastian',
+      blocks: [
+        { type: "paragraph", text: 'Keterbatasan alat ukur, kesalahan atau keterbatasan pembacaan, faktor lingkungan, serta cara dan keterampilan pengamat dapat memengaruhi hasil.' },
+      ]
+    },
+
+    {
+      heading: '🧠 Analisis — Tunggal dan Berulang',
+      blocks: [
+        { type: "paragraph", text: 'Pengukuran tunggal menghasilkan satu data. Pengukuran berulang menghasilkan beberapa data dan dapat membantu mengurangi pengaruh kesalahan acak.' },
+      ]
+    },
+
+    {
+      heading: '➕ Menuliskan Hasil Pengukuran',
+      blocks: [
+        { type: "paragraph", text: 'Secara sederhana, hasil dapat ditulis sebagai nilai pengukuran ± ketidakpastian. Contoh: panjang benda = (15,2 ± 0,1) cm.' },
+      ]
+    },
+
+    {
+      heading: '🌍 Contoh di Kehidupan',
+      blocks: [
+        { type: "paragraph", text: 'Saat mengukur suhu, massa, atau panjang, hasil dipengaruhi oleh benda, alat, lingkungan, dan cara pengukuran.' },
+      ]
+    },
+
+    {
+      heading: '⚠️ Miskonsepsi',
+      blocks: [
+        { type: "paragraph", text: 'Ketidakpastian bukan berarti hasil pengukuran salah total. Ketidakpastian adalah cara ilmiah menyatakan batas kemampuan hasil pengukuran.' },
+      ]
+    },
+
+    {
+      heading: '💡 Fun Fact',
+      blocks: [
+        { type: "paragraph", text: 'Ilmuwan tidak hanya melaporkan angka hasil eksperimen, tetapi juga memperhatikan ketidakpastian yang menyertai angka tersebut.' },
+      ]
+    },
+
+    {
+      heading: '✨ Inti Materi',
+      blocks: [
+        { type: "paragraph", text: 'Pengukuran yang baik bukan berarti tanpa keterbatasan. Pengukuran yang baik memahami dan menyatakan batas ketelitiannya.' },
+      ]
+    },
+
+    {
+      heading: "🚀 Next Mission",
+      blocks: [
+        { type: "paragraph", text: 'Kalau alat memiliki batas ketelitian, apakah semua digit pada hasil pengukuran boleh ditulis sembarangan?' },
+        { type: "paragraph", text: '➡️ Selanjutnya: Angka Penting.' },
+      ],
+      link: '/materi/angka%20penting'
     },
     {
-      type: "paragraph",
-      text: "Walaupun menggunakan alat ukur yang baik, hasil pengukuran tidak mungkin benar-benar sempurna."
-    },
-    {
-      type: "paragraph",
-      text: "Karena itu, setiap hasil pengukuran memiliki nilai ketidakpastian."
-    }]
-
-  },
-  {
-    blocks: [
-    { type: "image", src: pengertiaketidakpastianImg },
-    {
-      type: "paragraph",
-      text: "Ketidakpastian pengukuran adalah perkiraan batas penyimpangan suatu hasil pengukuran terhadap nilai sebenarnya."
-    },
-    {
-      type: "paragraph",
-      text: "Artinya, hasil pengukuran selalu memiliki kemungkinan berada sedikit di atas atau di bawah nilai sebenarnya."
-    }]
-
-  },
-  { heading:
-
-    "📏 Contoh Sederhana", blocks: [{ type: "heading", text: "📏 Contoh Sederhana" },
-    {
-      type: "paragraph",
-      text: "Sebuah pensil diukur menggunakan penggaris."
-    },
-    { type: "paragraph", text: "Hasil pengukuran:" },
-    { type: "paragraph", text: "15,2 cm" },
-    {
-      type: "paragraph",
-      text: "Angka tersebut bukan berarti panjang pensil pasti tepat 15,200000 cm."
-    },
-    {
-      type: "paragraph",
-      text: "Ada batas ketelitian yang dipengaruhi oleh alat ukur."
-    }]
-
-  },
-  {
-    blocks: [
-    { type: "image", src: penyebabketidakpastianImg },
-    {
-      type: "paragraph",
-      text: "Beberapa faktor yang menyebabkan hasil pengukuran tidak sempurna:"
-    }]
-
-  },
-  { heading:
-
-    "🛠️ 1. Keterbatasan Alat Ukur", blocks: [{ type: "heading", text: "🛠️ 1. Keterbatasan Alat Ukur" },
-    { type: "paragraph", text: "Setiap alat memiliki skala terkecil." },
-    { type: "paragraph", text: "Contoh:" },
-    {
-      type: "paragraph",
-      text: "Penggaris dengan skala milimeter tidak dapat membaca ukuran lebih kecil dari ketelitiannya."
-    }]
-
-  },
-  { heading:
-
-    "👀 2. Kesalahan Pembacaan", blocks: [{ type: "heading", text: "👀 2. Kesalahan Pembacaan" },
-    {
-      type: "paragraph",
-      text: "Posisi mata saat membaca alat ukur dapat memengaruhi hasil."
-    },
-    {
-      type: "paragraph",
-      text: "Pembacaan yang tidak tepat dapat menyebabkan kesalahan pengukuran."
-    }]
-
-  },
-  { heading:
-
-    "🌡️ 3. Faktor Lingkungan", blocks: [{ type: "heading", text: "🌡️ 3. Faktor Lingkungan" },
-    {
-      type: "paragraph",
-      text: "Kondisi sekitar juga dapat memengaruhi pengukuran."
-    },
-    { type: "paragraph", text: "Contoh:" },
-    {
-      type: "paragraph",
-      text: "Perubahan suhu dapat memengaruhi ukuran benda atau alat ukur tertentu."
-    }]
-
-  },
-  { heading:
-
-    "🧑‍🔬 4. Faktor Pengamat", blocks: [{ type: "heading", text: "🧑‍🔬 4. Faktor Pengamat" },
-    {
-      type: "paragraph",
-      text: "Kemampuan dan cara seseorang melakukan pengukuran juga dapat memengaruhi hasil."
-    }]
-
-  },
-  { heading:
-
-    "📊 Pengukuran Tunggal dan Berulang", blocks: [{ type: "heading", text: "📊 Pengukuran Tunggal dan Berulang" },
-    {
-      type: "paragraph",
-      text: "Pengukuran tunggal menghasilkan satu data."
-    },
-    {
-      type: "paragraph",
-      text: "Pengukuran berulang dilakukan beberapa kali untuk mengurangi pengaruh kesalahan acak."
-    },
-    {
-      type: "paragraph",
-      text: "Data yang lebih banyak membantu menghasilkan kesimpulan yang lebih terpercaya."
-    }]
-
-  },
-  { heading:
-
-    "➕ Menuliskan Hasil Pengukuran", blocks: [{ type: "heading", text: "➕ Menuliskan Hasil Pengukuran" },
-    {
-      type: "paragraph",
-      text: "Hasil pengukuran dapat ditulis dalam bentuk:"
-    },
-    { type: "paragraph", text: "Nilai pengukuran ± ketidakpastian" },
-    { type: "paragraph", text: "Contoh:" },
-    { type: "paragraph", text: "Panjang benda = (15,2 ± 0,1) cm" },
-    {
-      type: "paragraph",
-      text: "Artinya nilai sebenarnya diperkirakan berada di sekitar rentang tersebut."
-    }]
-
-  },
-  { heading:
-
-    "🎯 Kenapa Ketidakpastian Penting?", blocks: [{ type: "heading", text: "🎯 Kenapa Ketidakpastian Penting?" },
-    {
-      type: "paragraph",
-      text: "Ketidakpastian membuat laporan ilmiah menjadi lebih jujur."
-    },
-    {
-      type: "paragraph",
-      text: "Ilmuwan tidak hanya menyampaikan angka, tetapi juga menunjukkan seberapa yakin terhadap hasil tersebut."
-    }]
-
-  },
-  { heading:
-
-    "✨ Inti Materi", blocks: [{ type: "heading", text: "✨ Inti Materi" },
-    {
-      type: "paragraph",
-      text: "Pengukuran yang baik bukan berarti tanpa kesalahan."
-    },
-    {
-      type: "paragraph",
-      text: "Pengukuran yang baik adalah pengukuran yang mengetahui batas ketelitiannya."
-    }]
-
-  },
-  {
-    link: "/materi/konversi%20satuan",
-    blocks: [
-    {
-      type: "image",
-      src: nextmissionkonversisatuanImg,
-      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya."
-    },
-    {
-      type: "paragraph",
-      text: "Dalam fisika, nilai hasil pengukuran sering memiliki satuan yang berbeda."
-    },
-    {
-      type: "paragraph",
-      text: "Bagaimana cara mengubah satuan tanpa mengubah nilai sebenarnya?"
-    },
-    {
-      type: "paragraph",
-      text: "➡️ Next, kita menuju portal: Konversi Satuan."
-    }]
-
-  },
-  { heading:
-
-    "Referensi:", blocks: [{ type: "heading", text: "Referensi:" },
-    {
-      type: "paragraph",
-      text: "Halliday, Resnick & Walker. Fundamentals of Physics."
-    },
-    {
-      type: "paragraph",
-      text: "Serway & Jewett. Physics for Scientists and Engineers."
-    },
-    {
-      type: "paragraph",
-      text: "Young & Freedman. University Physics with Modern Physics."
-    },
-    {
-      type: "paragraph",
-      text: "JCGM. Evaluation of measurement data — Guide to the Expression of Uncertainty in Measurement (GUM)."
-    },
-    {
-      type: "paragraph",
-      text: "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X."
-    }]
-
-  }]
-
+      heading: "📚 Referensi",
+      blocks: [
+        { type: "paragraph", text: 'Halliday, Resnick & Walker. Fundamentals of Physics.' },
+        { type: "paragraph", text: 'Serway & Jewett. Physics for Scientists and Engineers.' },
+        { type: "paragraph", text: 'Young & Freedman. University Physics with Modern Physics.' },
+        { type: "paragraph", text: 'Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X.' },
+      ]
+    }
+  ]
 };
 
 export default ketidakpastian;

@@ -1,15 +1,3 @@
-import herohakikatilmufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika1.jpg";
-import pertanyaanfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika2.jpg";
-import pengertianfisika from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika3.jpg";
-import fisikadisekitarkita from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika4.jpg";
-import mengapabelajarfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika5.jpg";
-import fisikamengubahduniaImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika6.jpg";
-import tahukahkamuImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika7.jpg";
-import intimaterimengapabelajarfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika8.png";
-import miskonsepsimengapafisika from "/src/assets/Materi/HakikatIlmuFisika/Mengapafisika9.jpg";
-import nextmissionapaitufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/MengapaFisika10.jpg";
-import { link } from "framer-motion/client";
-
 const mengapaBelajarFisika = {
   title: "Mengapa Belajar Fisika?",
   slug: "mengapa-belajar-fisika",
@@ -20,43 +8,30 @@ const mengapaBelajarFisika = {
   {
     blocks: [
       {
-        type: "image",
-        src: herohakikatilmufisikaImg,
-        caption: "Mengapa Belajar Fisika?"
-      },
-      {
         type: "paragraph",
-        text: "Pernahkah kamu tiba-tiba bengong lalu bertanya-tanya tentang hal ini: 👇"
-      }
-    ]
-  },
-  { heading: "Semua Berawal dari Pertanyaan", 
-    blocks: [
-      {
-        type: "image",
-        src: pertanyaanfisikaImg,
-        caption: "Pertanyaan-pertanyaan fisika dalam kehidupan sehari-hari"
+        text: "Coba kamu renungkan tentang hal ini:"
       },
       {
         type: "list",
         list: {
           type: "unordered",
           items: [
-          {
-            text: "Mengapa sih langit di siang hari berwarna biru, tapi pas sore berubah jadi senja aesthetic kemerahan?"
-          },
-          {
-            text: "Mengapa pelangi selalu muncul pasca hujan dengan warna-warni yang mejikuhibiniu?"
-          },
-          {
-            text: "Mengapa benda apa pun yang kita lepas dari tangan selalu jatuh ke bawah, gak pernah melayang ke atas?"
-          },
-          {
-            text: "Bagaimana bisa burung besi seberat ratusan ton (pesawat) meluncur bebas di udara tanpa jatuh?"
-          },
-          {
-            text: "Bagaimana ceritanya internet dan sinyal GPS di HP kita bisa tahu lokasi tukang bakso terdekat secara real-time?"
-          }]
+            {
+              text: "Mengapa sih langit di siang hari berwarna biru, tapi pas sore berubah jadi senja aesthetic kemerahan?"
+            },
+            {
+              text: "Mengapa pelangi selalu muncul pasca hujan dengan warna-warni yang mejikuhibiniu?"
+            },
+            {
+              text: "Mengapa benda apa pun yang kita lepas dari tangan selalu jatuh ke bawah, gak pernah melayang ke atas?"
+            },
+            {
+              text: "Bagaimana bisa burung besi seberat ratusan ton (pesawat) meluncur bebas di udara tanpa jatuh?"
+            },
+            {
+              text: "Bagaimana ceritanya internet dan sinyal GPS di HP kita bisa tahu lokasi tukang bakso terdekat secara real-time?"
+            }
+          ]
         }
       },
       {
@@ -67,11 +42,6 @@ const mengapaBelajarFisika = {
   },
   { heading: "🤔 Jadi, Apa Itu Fisika?", 
     blocks: [
-      {
-        type: "image",
-        src: pengertianfisika,
-        caption: "Contoh bagian yang dipelajari dalam fisika"
-      },
       {
         type: "paragraph",
         text: [
@@ -84,11 +54,6 @@ const mengapaBelajarFisika = {
   },
   { heading: "📚 Gak cuma Teori, tapi ...", 
     blocks: [
-      {
-        type: "image",
-        src: fisikadisekitarkita,
-        caption: "Benda dan fenomena di sekitar, bagian dari fisika"
-      },
       {
         type: "paragraph",
         text: [
@@ -123,11 +88,6 @@ const mengapaBelajarFisika = {
   },
   { heading: "🚀 Mengapa Kita Belajar Fisika?", 
     blocks: [
-      {
-        type: "image",
-        src: mengapabelajarfisikaImg,
-        caption: "Mindmap kegunaan belajar fisika"
-      },
       {
         type: "paragraph",
         text: [
@@ -171,14 +131,8 @@ const mengapaBelajarFisika = {
       }
     ]
   },
-  { heading:
-    "🌟 Fisika Mengubah Dunia *(The Tech Trigger)*", 
+  { heading: "🌟 Fisika Mengubah Dunia *(The Tech Trigger)*", 
     blocks: [
-      {
-        type: "image",
-        src: fisikamengubahduniaImg,
-        caption: "Fisika mempengaruhi perkembangan teknologi"
-      },
       {
         type: "paragraph",
         text: [
@@ -229,23 +183,13 @@ const mengapaBelajarFisika = {
   { heading: "💡 Tahukah Kamu?", 
     blocks: [
       {
-        type: "image",
-        src: tahukahkamuImg,
-        caption: "Teknologi pada smartphone"
-      },
-      {
         type: "paragraph",
         text: "Saat membuka Google Maps, mengambil foto dengan kamera ponsel, atau menghubungkan perangkat melalui *bluetooth*, kamu sedang menikmati hasil perkembangan ilmu fisika."
       }
     ]
   },
-  { heading: "⚠️ Miskonsepsi Populer", 
+  { heading: "⚠️ Miskonsepsi", 
     blocks: [
-      {
-        type: "image",
-        src: miskonsepsimengapafisika,
-        caption: "Miskonsepsi pada pemahaman fisika"
-      },
       {
         type: "paragraph",
         text: [
@@ -308,11 +252,6 @@ const mengapaBelajarFisika = {
   { heading: "✨ Inti Materi *(Takeaway Message)*", 
     blocks: [
       {
-        type: "image",
-        src: intimaterimengapabelajarfisikaImg,
-        caption: "Inti materi mengapa belajar fisika"
-      },
-      {
         type: "paragraph",
         text: [
           "Fisika adalah ilmu yang membantu manusia memahami alam melalui pengamatan, eksperimen, dan penalaran ilmiah yang valid.",
@@ -321,111 +260,7 @@ const mengapaBelajarFisika = {
       }
     ]
   },
-  { heading: "🎯 Quick Check", 
-    blocks: [
-      {
-        type: "quickCheck",
-        data: {
-          questions: [
-          {
-            question: "Mengapa manusia mempelajari fisika?",
-            options: [
-              "Untuk menghafal sebanyak mungkin rumus",
-              "Agar dapat menyelesaikan soal hitungan dengan cepat.",
-              "Agar dapat menghitung lebih cepat daripada komputer",
-              "Supaya bisa membuat semua teknologi sendiri",
-              "Untuk memahami bagaimana alam bekerja melalui pengamatan dan penalaran ilmiah"
-            ],
-            answerIndex: 4
-          },
-          {
-            question:
-            "Manakah kegiatan berikut yang merupakan contoh penerapan fisika dalam kehidupan sehari-hari?",
-            options: [
-              "Menggunakan GPS saat bepergian",
-              "Menonton film kartun",
-              "Menghafal nama-nama negara",
-              "Menulis cerita fiksi.",
-              "Menggambar pemandangan"
-            ],
-            answerIndex: 0
-          },
-          {
-            question:
-            "Pernyataan yang paling tepat tentang fisika adalah....",
-            options: [
-              "Ilmu yang hanya dipelajari di laboratorium.",
-              "Ilmu yang mempelajari gejala alam dan hukum-hukum yang mengaturnya.",
-              "Ilmu yang hanya membahas perhitungan matematika.",
-              "Ilmu yang hanya digunakan oleh ilmuwan.",
-              "Ilmu yang mempelajari makhluk hidup dan lingkungannya."
-            ],
-            answerIndex: 1
-          },
-          {
-            question:
-            "Manakah kemampuan berikut yang dilatih ketika belajar fisika?",
-            options: [
-              "Berpikir logis dan memecahkan masalah",
-              "Menghafal tanpa memahami konsep",
-              "Menebak jawaban tanpa alasan",
-              "Mengingat semua rumus tanpa latihan",
-              "Mengandalkan intuisi tanpa melakukan pengamatan."
-            ],
-            answerIndex: 0
-          },
-          {
-            question:
-            "Banyak orang menganggap fisika sulit karena penuh rumus. Menurut materi ini, pernyataan yang benar adalah....",
-            options: [
-              "Rumus adalah tujuan utama belajar fisika.",
-              "Rumus hanyalah alat untuk memahami alam.",
-              "Fisika hanya digunakan di sekolah.",
-              "Semua fenomena alam tidak dapat dijelaskan dengan fisika.",
-              "Belajar fisika cukup dengan menghafal semua persamaan."
-            ],
-            answerIndex: 1
-          }],
-          scoring: [
-          {
-            min: 5,
-            max: 5,
-            emoji: "🏆",
-            title: "Mission Complete!",
-            message: "Kamu siap memasuki portal berikutnya."
-          },
-          {
-            min: 4,
-            max: 4,
-            emoji: "🚀",
-            title: "Hampir Sempurna",
-            message: "Pemahamanmu sudah sangat baik."
-          },
-          {
-            min: 2,
-            max: 3,
-            emoji: "🔄",
-            title: "Perlu Sedikit Lagi",
-            message: "Coba eksplorasi lagi bagian inti materi."
-          },
-          {
-            min: 0,
-            max: 1,
-            emoji: "📖",
-            title: "Ulangi Petualangan",
-            message: "Tenang, ulangi petualanganmu dari awal."
-          }]
-        }
-      }
-    ]
-  },
-  { link: "/materi/apa-itu-fisika",
-    blocks: [
-    {
-      type: "image",
-      src: nextmissionapaitufisikaImg,
-      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya."
-    },
+  { blocks: [
     {
       type: "paragraph",
       text: [

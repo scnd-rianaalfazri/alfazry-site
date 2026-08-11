@@ -85,30 +85,20 @@ import MengidentifikasiGaya from "../content/materi/DinamikaGayaDanHukumNewton/M
 import DiagramGaya from "../content/materi/DinamikaGayaDanHukumNewton/DiagramGaya.js"
 
 /* dinamika gerak lurus */
-import PengertianDinamikaGerakLurus from "../content/materi/DinamikaGerakLurus/DinamikaGerakLurus.js"
-import BendaPadaBidangDatar from "../content/materi/DinamikaGerakLurus/BendaPadaBidangDatar.js"
-import BendaPadaBidangMiring from "../content/materi/DinamikaGerakLurus/BendaPadaBidangMiring.js"
-import SistemKatrol from "../content/materi/DinamikaGerakLurus/SistemKatrol.js"
-import SistemBendaTerhubung from "../content/materi/DinamikaGerakLurus/SistemBendaTerhubung.js"
+import PengantarDinamikaGerakLurus from "../content/materi/DinamikaGerakLurus/PengantarDinamikaGerakLurus.js"
+import BalokPadaBidangDatar from "../content/materi/DinamikaGerakLurus/BalokPadaBidangDatar.js"
+import BalokPadaBidangDatarTanpaGesekan from "../content/materi/DinamikaGerakLurus/BalokPadaBidangDatarDenganGesekan.js"
+import BidangMiring from "../content/materi/DinamikaGerakLurus/BidangMiring.js"
+import BidangMiringDenganGesekan from "../content/materi/DinamikaGerakLurus/BalokPadaBidangDatarDenganGesekan.js"
+import SistemKatrolSederhana from "../content/materi/DinamikaGerakLurus/SistemKatrolSederhana.js"
+import Lift from "../content/materi/DinamikaGerakLurus/Lift.js"
+import DinamikaGerakLurusDiDuniaNyata from "../content/materi/DinamikaGerakLurus/DinamikaGerakLurusDiDuniaNyata"
+import EksplorasiFenomenaDinamikaGerakLurus from "../content/materi/DinamikaGerakLurus/EksplorasiFenomenaDinamikaGerakLurus.js"
+import PenutupDinamikaGerakLurus from "../content/materi/DinamikaGerakLurus/PengantarDinamikaGerakLurus.js"
 
 /* dinamika gerak melingkar */
-import PengertianDinamikaGerakMelingkar from "../content/materi/DinamikaGerakMelingkar/PengertianDinamikaGerakMelingkar.js"
-import GayaSentripetal from "../content/materi/DinamikaGerakMelingkar/GayaSentripetal.js"
-import AplikasiDinamikaGerakMelingkar from "../content/materi/DinamikaGerakMelingkar/AplikasiDinamikaGerakMelingkar"
 
 /* dinamika momentum dan impuls */
-import PengantarMomentumDanImpuls from "../content/materi/DinamikaMomentumDanImpuls/PemngantarMomentumDanImpuls.js"
-import PengertianMomentum from "../content/materi/DinamikaMomentumDanImpuls/PengertianMomentum.js"
-import pengertianimpuls from "../content/materi/DinamikaMomentumDanImpuls/PengertianImpuls.js"
-import HubunganMomentumImpuls from "../content/materi/DinamikaMomentumDanImpuls/HubunganMomentumImpuls.js"
-import HukumKekekalanMomentum from "../content/materi/DinamikaMomentumDanImpuls/HukumKekekalanMomentum.js"
-import JenisjenisTumbukan from "../content/materi/DinamikaMomentumDanImpuls/JenisjenisTumbukan.js"
-import TumbukanLentingSempurna from "../content/materi/DinamikaMomentumDanImpuls/TumbukanLentingSempurna.js"
-import TumbukanLentingSebagian from "../content/materi/DinamikaMomentumDanImpuls/TumbukanLentingSebagian.js"
-import TumbukanTidakLentingSamasekali from "../content/materi/DinamikaMomentumDanImpuls/TumbukanTidakLentingSamaSekali.js"
-import KoefisienRestitusi from "../content/materi/DinamikaMomentumDanImpuls/KoefisienRestitusi.js"
-import AplikasiMomentumDanImpuls from "../content/materi/DinamikaMomentumDanImpuls/AplikasiMomentumDanImpuls.js"
-import PenutupMomentumDanImpuls from "../content/materi/DinamikaMomentumDanImpuls/PenutupMomentumDanImpuls.js"
 
 /* usaha dan energi */
 import PengantarUsahaDanEnergi from "../content/materi/UsahaDanEnergi/PengantarUsahaDanEnergi.js"
@@ -579,29 +569,21 @@ export const materials = [
   DiagramGaya,
 
   /* Chapter : Dinamika Gerak Lurus */
-  PengertianDinamikaGerakLurus,
-  BendaPadaBidangDatar,
-  BendaPadaBidangMiring,
-  SistemKatrol,
-  SistemBendaTerhubung,
+  PengantarDinamikaGerakLurus,
+  BalokPadaBidangDatar,
+  BalokPadaBidangDatarTanpaGesekan,
+  BidangMiring,
+  BidangMiringDenganGesekan,
+  SistemKatrolSederhana,
+  Lift,
+  DinamikaGerakLurusDiDuniaNyata,
+  EksplorasiFenomenaDinamikaGerakLurus,
+  PenutupDinamikaGerakLurus,
   
   /* Chapter : Dinamika Gerak Melingkar */
-  PengertianDinamikaGerakMelingkar,
-  GayaSentripetal,
-  AplikasiDinamikaGerakMelingkar,
+
 
   /* Chapter : Dinamika Momentum dan Impuls */
-  PengantarMomentumDanImpuls,
-  PengertianMomentum,
-  pengertianimpuls,
-  HubunganMomentumImpuls,
-  HukumKekekalanMomentum,
-  JenisjenisTumbukan,
-  TumbukanLentingSempurna,
-  TumbukanLentingSebagian,
-  TumbukanTidakLentingSamasekali,
-  KoefisienRestitusi,
-  PenutupMomentumDanImpuls,
  
   /* Chapter : kesetimbangan dan dinamika rotasi */
   PengantarKesetimbangan,

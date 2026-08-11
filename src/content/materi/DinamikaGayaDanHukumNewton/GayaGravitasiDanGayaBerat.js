@@ -2,7 +2,7 @@ const gayagravitasidangayaberat = {
   title: "Gaya Gravitasi dan Gaya Berat",
   slug: "gaya-gravitasi-dan-gaya-berat",
   description: "Memahami perbedaan gaya gravitasi dan gaya berat, rumus matematisnya, serta pengaruh massa benda dan percepatan gravitasi terhadap berat suatu benda.",
-  chapter: "🚀 Dinamika: Konsep Dasar",
+  chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
   content: [
     { blocks: [
@@ -259,6 +259,102 @@ const gayagravitasidangayaberat = {
               },
               {
                 text: "**Massa** sifatnya tetap di mana pun, sedangkan **Berat** berubah sesuai besarnya percepatan gravitasi tempat benda berada."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Pernyataan yang benar mengenai gaya gravitasi adalah....",
+                options: [
+                  "gaya yang hanya bekerja pada benda yang sedang jatuh.",
+                  "gaya tarik-menarik yang terjadi antara dua benda yang memiliki massa.",
+                  "gaya yang muncul akibat gesekan dua permukaan.",
+                  "gaya yang hanya dimiliki oleh Bumi.",
+                  "gaya yang menyebabkan benda bergerak melingkar."
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Gaya berat suatu benda merupakan....",
+                options: [
+                  "massa benda yang diukur dengan neraca.",
+                  "gaya gravitasi yang bekerja pada suatu benda.",
+                  "jumlah materi yang terkandung dalam benda.",
+                  "gaya yang muncul karena gesekan dengan udara.",
+                  "gaya yang selalu bernilai tetap di mana pun benda berada."
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Sebuah benda memiliki massa $\\text{_8 kg}$. Jika percepatan gravitasi di suatu tempat adalah $\\text{10 m/s^2}$, maka besar gaya berat benda tersebut adalah....",
+                options: [
+                  "8 N.",
+                  "10 N.",
+                  "18 N.",
+                  "80 N.",
+                  "800 N."
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Seorang astronot berada di Bulan. Pernyataan yang benar adalah....",
+                options: [
+                  "massa dan beratnya sama-sama berkurang.",
+                  "massa dan beratnya sama-sama tetap.",
+                  "massanya tetap, tetapi beratnya lebih kecil.",
+                  "massanya berkurang, tetapi beratnya tetap.",
+                  "beratnya menjadi nol karena tidak ada gravitasi di Bulan."
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Manakah pernyataan yang benar mengenai massa dan berat?",
+                options: [
+                  "Berat memiliki satuan kilogram (kg), sedangkan massa memiliki satuan Newton (N).",
+                  "Massa selalu berubah ketika benda berpindah planet.",
+                  "Massa dan berat adalah besaran yang sama.",
+                  "Massa dipengaruhi oleh besar gravitasi, sedangkan berat selalu tetap.",
+                  "Massa merupakan besaran skalar yang tetap, sedangkan berat merupakan gaya yang bergantung pada percepatan gravitasi."
+                ],
+                answerIndex: 4
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
               }
             ]
           }

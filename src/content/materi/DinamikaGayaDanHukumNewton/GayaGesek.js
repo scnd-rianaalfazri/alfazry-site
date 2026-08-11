@@ -223,7 +223,102 @@ const gayaGesek = {
         }
       ]
     },
-
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Gaya gesek adalah....",
+                options: [
+                  "gaya yang selalu searah dengan gerak benda.",
+                  "gaya kontak yang bekerja berlawanan arah dengan gerak.",
+                  "gaya tarik yang diberikan oleh tali pada benda.",
+                  "gaya yang bekerja tanpa adanya sentuhan.",
+                  "gaya yang selalu mempercepat gerak benda."
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Gaya gesek statis bekerja ketika....",
+                options: [
+                  "benda sudah bergerak meluncur di atas permukaan.",
+                  "benda berada dalam keadaan diam",
+                  "benda bergerak dengan percepatan tetap.",
+                  "tidak ada gaya yang bekerja pada benda.",
+                  "benda berada di ruang hampa."
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Manakah pernyataan yang benar mengenai gaya gesek?",
+                options: [
+                  "gaya gesek selalu merugikan dalam semua keadaan.",
+                  "gaya gesek selalu searah dengan gerak benda.",
+                  "tanpa gaya gesek, manusia akan kesulitan berjalan dan kendaraan sulit berhenti.",
+                  "gaya gesek hanya bekerja pada benda yang bergerak.",
+                  "gaya gesek tidak dipengaruhi oleh gaya normal."
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Sebuah balok ditarik di atas lantai kasar dengan gaya yang lebih kecil daripada gaya gesek statis maksimum $(F<f_{s,maks}). Apa yang terjadi pada balok?",
+                options: [
+                  "balok bergerak dengan percepatan tetap.",
+                  "balok bergerak dengan kecepatan konstan.",
+                  "balok tetap diam",
+                  "balok bergerak karena gaya gesek menjadi nol.",
+                  "balok mengalami gaya gesek kinetis."
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Sebuah balok bermassa $5$ kg berada di atas lantai datar. Jika koefisien gesek kinetis $0,2$ dan percepatan gravitasi $\\text{10 m/s}^2$, maka besar gaya gesek kinetis yang bekerja pada balok adalah....",
+                options: [
+                  "5 N.",
+                  "10 N.",
+                  "20 N.",
+                  "30 N",
+                  "50 N."
+                ],
+                answerIndex: 1
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
     { blocks: [
         {
           type: "paragraph",

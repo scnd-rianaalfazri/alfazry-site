@@ -165,6 +165,102 @@ const mengidentifikasiGaya = {
         }
       ]
     },
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Langkah pertama yang sebaiknya dilakukan sebelum menyelesaikan soal dinamika adalah....",
+                options: [
+                  "menghitung percepatan benda.",
+                  "mengidentifikasi semua gaya yang bekerja pada benda.",
+                  "menghitung massa benda.",
+                  "menentukan kecepatan akhir benda.",
+                  "langsung menggunakan rumus Hukum Newton."
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Sebuah buku diletakkan diam di atas meja datar. Gaya yang bekerja pada buku adalah....",
+                options: [
+                  "gaya berat dan gaya normal.",
+                  "gaya berat dan gaya gesek.",
+                  "gaya normal dan gaya tegangan tali.",
+                  "gaya dorong dan gaya gesek.",
+                  "gaya berat, gaya normal, dan gaya tegangan tali."
+                ],
+                answerIndex: 0
+              },
+              {
+                question: "Sebuah balok ditarik menggunakan tali di atas lantai kasar. Gaya yang tidak bekerja pada balok adalah....",
+                options: [
+                  "gaya berat.",
+                  "gaya normal.",
+                  "gaya tegangan tali.",
+                  "gaya gesek.",
+                  "gaya apung."
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Sebuah mobil meluncur menuruni bidang miring yang kasar. Gaya gesek pada mobil arahnya....",
+                options: [
+                  "tegak lurus bidang miring.",
+                  "ke bawah menuju pusat Bumi.",
+                  "ke bawah sepanjang bidang miring.",
+                  "ke atas sepanjang bidang miring",
+                  "sejajar dengan gaya normal."
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Seorang siswa melempar bola ke atas. Setelah bola terlepas dari tangan dan hambatan udara diabaikan, gaya yang bekerja pada bola adalah....",
+                options: [
+                  "gaya dorong dari tangan dan gaya berat.",
+                  "gaya dorong dari tangan saja.",
+                  "gaya berat saja.",
+                  "gaya berat dan gaya normal.",
+                  "gaya berat dan gaya tegangan tali."
+                ],
+                answerIndex: 2
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
     { blocks: [
         {
           type: "paragraph",

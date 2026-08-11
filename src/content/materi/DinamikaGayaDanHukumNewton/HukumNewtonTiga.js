@@ -311,7 +311,7 @@ const hukumNewtonTiga = {
           text: [
             "Sekarang kamu telah memahami bagaimana gaya bekerja melalui tiga Hukum Newton.",
             "Namun, gaya yang dibahas Newton berasal dari berbagai sumber. Pada misi berikutnya, kita akan mengenal berbagai gaya yang bekerja di alam, mulai dari gaya gravitasi, gaya normal, gaya gesek, hingga gaya tegangan tali.",
-            "➡️ *Next,* kita menuju portal: [**Jenis-jenis Gaya**](/materi/jenis-jenis-gaya)"
+            "➡️ *Next,* kita menuju portal: [**Berbagai Gaya Di Sekitar Kita**](/materi/berbagai-gaya-di-sekitar-kita)"
           ]
         }
       ]

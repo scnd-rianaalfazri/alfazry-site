@@ -1,5 +1,3 @@
-import { text } from "framer-motion/client";
-
 const berbagaiGayaDiSekitarKita = {
   title: "Berbagai Gaya di Sekitar Kita",
   slug: "berbagai-gaya-di-sekitar-kita",
@@ -165,6 +163,102 @@ const berbagaiGayaDiSekitarKita = {
         {
           type: "paragraph",
           text: "Gaya selalu muncul karena adanya interaksi. Berdasarkan cara bekerjanya, gaya dikelompokkan menjadi Gaya Kontak (butuh sentuhan fisik) dan Gaya Tak Kontak (bekerja melalui medan). Memahami perbedaan jenis-jenis gaya ini merupakan fondasi utama sebelum melukiskan diagram gaya bebas (Free Body Diagram)."
+        }
+      ]
+    },
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Berdasarkan cara bekerjanya, gaya dapat dikelompokkan menjadi....",
+                options: [
+                  "gaya besar dan gaya kecil.",
+                  "gaya cepat dan gaya lambat.",
+                  "gaya sentuh dan gaya tak sentuh.",
+                  "gaya lurus dan gaya melingkar.",
+                  "gaya statis dan gaya dinamis."
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Manakah yang termasuk gaya kontak?",
+                options: [
+                  "Gaya gravitasi.",
+                  "Gaya magnet.",
+                  "Gaya listrik.",
+                  "Gaya gesek.",
+                  "Gaya elektrostatik."
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Sebuah magnet dapat menarik paku besi meskipun tidak bersentuhan langsung. Peristiwa tersebut menunjukkan adanya....",
+                options: [
+                  "Gaya otot.",
+                  "Gaya gesek.",
+                  "Gaya normal.",
+                  "Gaya pegas.",
+                  "Gaya magnet."
+                ],
+                answerIndex: 4
+              },
+              {
+                question: "Sebuah buku diletakkan di atas meja dan tetap diam. Gaya yang bekerja langsung pada buku adalah....",
+                options: [
+                  "Gaya gravitasi dan gaya normal.",
+                  "Gaya gesek dan gaya magnet.",
+                  "Gaya pegas dan gaya listrik.",
+                  "Gaya otot dan gaya tegangan tali.",
+                  "Hanya gaya gravitasi."
+                ],
+                answerIndex: 0
+              },
+              {
+                question: "Pernyataan yang benar mengenai gaya tak kontak adalah....",
+                options: [
+                  "gaya tak kontak hanya bekerja jika dua benda saling bersentuhan.",
+                  "gaya tak kontak bekerja tanpa sentuhan langsung",
+                  "gaya tak kontak hanya dimiliki oleh benda yang bergerak.",
+                  "gaya tak kontak tidak dapat memengaruhi gerak benda.",
+                  "semua gaya di alam merupakan gaya kontak."
+                ],
+                answerIndex: 1
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
         }
       ]
     },
