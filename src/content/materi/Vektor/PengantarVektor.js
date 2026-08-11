@@ -1,5 +1,3 @@
-import pengantarvektorImg from "/src/assets/Materi/Vektor/PengantarVektor1.jpg";
-
 const pengantarvektor = {
   title: "Apa Itu Vektor?",
   slug: "pengantar vektor",
@@ -9,11 +7,6 @@ const pengantarvektor = {
   content: [
   {
     blocks: [
-    {
-      type: "image",
-      src: pengantarvektorImg,
-      caption: "Bagaimana mendefinisikan besaran vektor?"
-    },
     {
       type: "paragraph",
       text: "Dalam kehidupan sehari-hari, kita sering menyebut suatu nilai tanpa memikirkan arah."
@@ -49,11 +42,43 @@ const pengantarvektor = {
       type: "paragraph",
       text: "Beberapa contoh besaran vektor dalam fisika:"
     },
-    { type: "paragraph", text: "🚗 Kecepatan" },
-    { type: "paragraph", text: "➡️ Perpindahan" },
-    { type: "paragraph", text: "⚡ Gaya" },
-    { type: "paragraph", text: "🌎 Percepatan" },
-    { type: "paragraph", text: "🚀 Momentum" },
+    {
+      type: "carousel",
+      carousel: {
+        cards: [
+          {
+            eyebrow: "🚗 Contoh 1",
+            title: "Kecepatan",
+            text: "Seberapa cepat suatu benda bergerak, sekaligus ke arah mana.",
+            description: "Contoh: mobil melaju 60 km/jam ke arah timur — angkanya besar, arahnya timur."
+          },
+          {
+            eyebrow: "➡️ Contoh 2",
+            title: "Perpindahan",
+            text: "Perubahan posisi suatu benda dari titik awal ke titik akhir.",
+            description: "Berbeda dengan jarak, perpindahan selalu punya arah dari titik A ke titik B."
+          },
+          {
+            eyebrow: "⚡ Contoh 3",
+            title: "Gaya",
+            text: "Dorongan atau tarikan yang bekerja pada suatu benda.",
+            description: "Dua orang menarik benda dari arah berbeda akan menghasilkan gerak yang berbeda pula."
+          },
+          {
+            eyebrow: "🌎 Contoh 4",
+            title: "Percepatan",
+            text: "Laju perubahan kecepatan terhadap waktu, lengkap dengan arahnya.",
+            description: "Benda bisa dipercepat atau diperlambat tergantung arah percepatannya terhadap gerak."
+          },
+          {
+            eyebrow: "🚀 Contoh 5",
+            title: "Momentum",
+            text: "Ukuran \"kesulitan\" menghentikan benda yang sedang bergerak.",
+            description: "Momentum bergantung pada massa dan kecepatan, sehingga arahnya sama dengan arah gerak benda."
+          }
+        ]
+      }
+    },
     {
       type: "paragraph",
       text: "Semua besaran tersebut memiliki nilai dan arah."

@@ -1,3 +1,10 @@
+import tegangan from "../ElastisitasDanHukumHooke/Tegangan"
+import img1 from "/src/assets/Materi/HakikatIlmuFisika/mengapa-belajar-fisika1.png"
+import img2 from "/src/assets/Materi/HakikatIlmuFisika/mengapa-belajar-fisika2.png"
+import img3 from "/src/assets/Materi/HakikatIlmuFisika/mengapa-belajar-fisika3.png"
+import img4 from "/src/assets/Materi/HakikatIlmuFisika/mengapa-belajar-fisika4.png"
+import img5 from "/src/assets/Materi/HakikatIlmuFisika/mengapa-belajar-fisika5.png"
+
 const mengapaBelajarFisika = {
   title: "Mengapa Belajar Fisika?",
   slug: "mengapa-belajar-fisika",
@@ -7,6 +14,10 @@ const mengapaBelajarFisika = {
   content: [
   {
     blocks: [
+      {
+        type: "image",
+        src: img1
+      },
       {
         type: "paragraph",
         text: "Coba kamu renungkan tentang hal ini:"
@@ -43,6 +54,10 @@ const mengapaBelajarFisika = {
   { heading: "🤔 Jadi, Apa Itu Fisika?", 
     blocks: [
       {
+        type: "image",
+        src: img2
+      },
+      {
         type: "paragraph",
         text: [
           "Secara sederhana, Fisika adalah ilmu yang mempelajari gejala-gejala alam beserta hukum-hukum fundamental yang mengaturnya.",
@@ -54,6 +69,10 @@ const mengapaBelajarFisika = {
   },
   { heading: "📚 Gak cuma Teori, tapi ...", 
     blocks: [
+      {
+        type: "image",
+        src: img3
+      },
       {
         type: "paragraph",
         text: [
@@ -89,6 +108,10 @@ const mengapaBelajarFisika = {
   { heading: "🚀 Mengapa Kita Belajar Fisika?", 
     blocks: [
       {
+        type: "image",
+        src: img4
+      },
+      {
         type: "paragraph",
         text: [
           "'Bro, kan udah ada kalkulator sama AI, ngapain repot-repot belajar fisika?'",
@@ -102,37 +125,37 @@ const mengapaBelajarFisika = {
         list: {
           type: "unordered",
           items: [
-          {
-            text: "Berpikir Logis",
-            description:
-            "Terbiasa menyusun kesimpulan berdasarkan sebab-akibat yang masuk akal, bukan cuma sekadar 'katanya' atau mitos."
-          },
-          {
-            text: "Memecahkan Masalah (Problem Solving)",
-            description:
-            "Melatih mental tangguh untuk memecahkan teka-teki rumit lewat langkah-langkah yang sistematis."
-          },
-          {
-            text: "Menganalisis Data",
-            description:
-            "Gak gampang termakan hoax karena terbiasa melihat fakta empiris dan angka yang valid."
-          },
-          {
-            text: "Memahami Teknologi",
-            description:
-            "Gak cuma jadi pengguna teknologi yang pasif, tapi tahu cara kerja dasar di balik canggihnya gadget masa kini."
-          },
-          {
-            text: "Menjelaskan Fenomena Alam",
-            description:
-            "Punya kepuasan tersendiri karena bisa menjelaskan alasan ilmiah di balik indahnya fenomena semesta."
-          }]
+            {
+              text: "Berpikir Logis",
+              description: "Terbiasa menyusun kesimpulan berdasarkan sebab-akibat yang masuk akal, bukan cuma sekadar 'katanya' atau mitos."
+            },
+            {
+              text: "Memecahkan Masalah (Problem Solving)",
+              description: "Melatih mental tangguh untuk memecahkan teka-teki rumit lewat langkah-langkah yang sistematis."
+            },
+            {
+              text: "Menganalisis Data",
+              description: "Gak gampang termakan hoax karena terbiasa melihat fakta empiris dan angka yang valid."
+            },
+            {
+              text: "Memahami Teknologi",
+              description: "Gak cuma jadi pengguna teknologi yang pasif, tapi tahu cara kerja dasar di balik canggihnya gadget masa kini."
+            },
+            {
+              text: "Menjelaskan Fenomena Alam",
+              description: "Punya kepuasan tersendiri karena bisa menjelaskan alasan ilmiah di balik indahnya fenomena semesta."
+            }
+          ]
         }
       }
     ]
   },
-  { heading: "🌟 Fisika Mengubah Dunia *(The Tech Trigger)*", 
+  { heading: "💡 Fisika Mengubah Dunia *(The Tech Trigger)*", 
     blocks: [
+      {
+        type: "image",
+        src: img5
+      },
       {
         type: "paragraph",
         text: [
@@ -147,28 +170,23 @@ const mengapaBelajarFisika = {
           items: [
           {
             text: "📱 Smartphone & Internet",
-            description:
-            "Lahir dari rekayasa gelombang elektromagnetik dan fisika semikonduktor."
+            description: "Lahir dari rekayasa gelombang elektromagnetik dan fisika semikonduktor."
           },
           {
             text: "🛰️ Satelit & Roket",
-            description:
-            "Terbang berkat penerapan hukum gravitasi dan mekanika orbital."
+            description: "Terbang berkat penerapan hukum gravitasi dan mekanika orbital."
           },
           {
             text: "🚄 Kereta Cepat (Maglev)",
-            description:
-            "Meluncur cepat karena memanfaatkan gaya tolak-menolak magnetik super kuat."
+            description: "Meluncur cepat karena memanfaatkan gaya tolak-menolak magnetik super kuat."
           },
           {
             text: "☀️ Panel Surya",
-            description:
-            "Mengubah cahaya matahari jadi listrik lewat efek fotolistrik."
+            description: "Mengubah cahaya matahari jadi listrik lewat efek fotolistrik."
           },
           {
             text: "🏥 Mesin MRI *(Magnetic Resonance Imaging)*",
-            description:
-            "Memindai bagian dalam tubuh di rumah sakit memanfaatkan medan magnetik dan fisika inti."
+            description: "Memindai bagian dalam tubuh di rumah sakit memanfaatkan medan magnetik dan fisika inti."
           }]
         },
       },
@@ -180,7 +198,7 @@ const mengapaBelajarFisika = {
       }
     ]
   },
-  { heading: "💡 Tahukah Kamu?", 
+  { heading: "🌟 *Fun Fact*", 
     blocks: [
       {
         type: "paragraph",
@@ -208,48 +226,75 @@ const mengapaBelajarFisika = {
         text: "Perjalanan yang akan dilalui pada chapter ini"
       },
       {
-        type: "list",
-        list: {
-          type: "unordered",
-          items: [
+        type: "carousel",
+        carousel: {
+          cards: [
             {
-              text: "🔬 [Apa Itu Fisika](/materi/apa-itu-fisika)",
-              description: "Gerbang awal mengenal objek sains"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Apa Itu Fisika](/materi/apa-itu-fisika)",
+              text: "Gerbang awal mengenal objek sains",
             },
             {
-              text: "🧩 [Hakikat Ilmu Fisika](/materi/hakikat-ilmu-fisika)",
-              description: "Memahami 3 pilar utama fisika"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Hakikat Ilmu Fisika](/materi/hakikat-ilmu-fisika)",
+              text: "Memahami 3 pilar utama fisika",
             },
             {
-              text: "🌌 [Ruang Lingkup Fisika](/materi/ruang-lingkup-fisika)",
-              description: "Menjelajahi skala klasik hingga modern"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Fisika sebagai Produk](/materi/fisika-sebagai-produk)",
+              text: "Kumpulan hasil pengetahuan ilmiah",
             },
             {
-              text: "⚙️ [Fisika sebagai Produk](/materi/fisika-sebagai-produk)",
-              description: "Kumpulan hasil pengetahuan ilmiah"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Fisika sebagai Proses](/materi/fisika-sebagai-proses)",
+              text: "Bagaimana cara ilmuwan bekerja?",
             },
             {
-              text: "🧪 [Fisika sebagai Proses](/materi/fisika-sebagai-proses)",
-              description: "Bagaimana cara ilmuwan bekerja?"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Fisika sebagai Sikap](/materi/fisika-sebagai-sikap-ilmiah)",
+              text: "Karakter ilmiah yang wajib dimiliki",
             },
             {
-              text: "🧠 [Fisika sebagai Sikap](/materi/fisika-sebagai-sikap-ilmiah)p",
-              description: "Karakter ilmiah yang wajib dimiliki"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Ruang Lingkup Fisika](/materi/ruang-lingkup-fisika)",
+              text: "Menjelajahi skala klasik hingga modern",
             },
             {
-              text: "🔍 [Metode Ilmiah](/materi/metode-ilmiah)",
-              description: "Langkah-langkah sistematis penelitian"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Metode Ilmiah](/materi/metode-ilmiah)",
+              text: "Langkah-langkah sistematis penelitian",
             },
             {
-              text: "🥽 [Keselamatan Laboratorium](/materi/keselamatan-kerja-laboratorium)",
-              description: "Aturan main aman saat bereksperimen"
-            }
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Merancang Eksperimen](/materi/merancang-eksperimen)",
+              text: "Menentukan variabel, alat, bahan, dan prosedur secara sistematis.",
+            },
+            {
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Mengolah Data](/materi/mengolah-data)",
+              text: "Mengolah, menyajikan, dan menafsirkan data hasil eksperimen",
+            },
+            {
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Mengolah Data](/materi/kesimpulan-komunikasi-ilmiah)",
+              text: "Menyusun kesimpulan berdasarkan data serta mengomunikasikan hasil penelitian",
+            },
+            {
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Keselamatan Kerja di Laboratorium](/materi/keselamatan-kerja-laboratorium)",
+              text: "Aturan main aman saat bereksperimen",
+            },
+            {
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Sains dalam Kehidupan](/materi/sains-dalam-kehidupan)",
+              text: "Cara berpikir ilmiah dalam Aktivitas Sehari-hari",
+            },   
           ]
         }
       }
     ]
   },
-  { heading: "✨ Inti Materi *(Takeaway Message)*", 
+  { heading: "✨ Inti Materi", 
     blocks: [
       {
         type: "paragraph",
@@ -261,15 +306,16 @@ const mengapaBelajarFisika = {
     ]
   },
   { blocks: [
-    {
-      type: "paragraph",
-      text: [
-        "Sekarang kita udah tau kan? Secara tidak sadar fisika juga ada disekitar kita.",
-        "Lalu sebenarnya...",
-        "Apa yang dipelajari dalam fisika?",
-        "➡️ Next, kita menuju portal: [**Apa Itu Fisika?**](/materi/apa-itu-fisika)"
-      ]
-    }]
+      {
+        type: "paragraph",
+        text: [
+          "Sekarang kita udah tau kan? Secara tidak sadar fisika juga ada disekitar kita.",
+          "Lalu sebenarnya...",
+          "Apa yang dipelajari dalam fisika?",
+          "➡️ Next, kita menuju portal: [**Apa Itu Fisika?**](/materi/apa-itu-fisika)"
+        ]
+      }
+    ]
   },
   { heading: "Referensi:", 
     blocks: [

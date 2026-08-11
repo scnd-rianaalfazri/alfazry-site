@@ -1,10 +1,3 @@
-import hakikatIlmuFisikaImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika1.jpg";
-import pilarilmufisikaImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika2.jpg";
-import intimaterhakikatfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika6.jpg";
-import nextmissionfisikasebagaiprodukImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika7.jpg";
-import miskonsepsihakikatfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika8.jpg";
-import tahukahkamuImg from "/src/assets/Materi/HakikatIlmuFisika/HakikatIlmuFisika9.jpg";
-
 const hakikatIlmuFisika = {
   title: "Hakikat Ilmu Fisika",
   slug: "hakikat-ilmu-fisika",
@@ -15,18 +8,11 @@ const hakikatIlmuFisika = {
   {
     blocks: [
     {
-      type: "image",
-      src: hakikatIlmuFisikaImg,
-      caption: "Menjelajahi Fisika: Dunia dan Alam Semesta"
-    },
-    {
       type: "paragraph",
       text: [
         "Banyak yang mengira kalau belajar fisika itu berarti siap-siap pusing ketemu kumpulan rumus matematis yang njelimet.",
-        "",
         "Padahal, rumus itu cuma 'bahasa' buat menjelaskan sesuatu yang jauh lebih besar. Hakikat ilmu fisika sebenarnya adalah cara pandang untuk memahami bagaimana alam semesta ini bekerja.",
-        "",
-        "Para ilmuwan membagi hakikat fisika menjadi 3 pilar utama: Fisika sebagai Produk, Fisika sebagai Proses, dan Fisika sebagai Sikap. Let's spill the details!"
+        "Para ilmuwan membagi hakikat fisika menjadi 3 pilar utama: [Fisika sebagai Produk](/materi/fisika-sebagai-produk), [Fisika sebagai Proses](/materi/fisika-sebagai-proses), dan [Fisika sebagai Sikap](/materi/fisika-sebagai-sikap). Let's spill the details!"
       ]
     }]
   },
@@ -43,11 +29,6 @@ const hakikatIlmuFisika = {
   },
   { heading: "🧩 Tiga Pilar Hakikat Fisika", 
     blocks: [
-      {
-        type: "image",
-        src: pilarilmufisikaImg,
-        caption: "Tiga pilar hakikat ilm fisika"
-      },
       {
         type: "list",
         list: {
@@ -128,13 +109,8 @@ const hakikatIlmuFisika = {
       },
     ]
   },
-  { heading:  "💡 Tahukah Kamu?", 
+  { heading:  "🌟 *Fun Fact*", 
     blocks: [
-      {
-        type: "image",
-        src: tahukahkamuImg,
-        caption: "Penemuan dari tahu ke tahun"
-      },
       {
         type: "paragraph",
         text: [
@@ -147,11 +123,6 @@ const hakikatIlmuFisika = {
   { heading: "⚠️ Miskonsepsi", 
     blocks: [
       {
-        type: "image",
-        src: miskonsepsihakikatfisikaImg,
-        caption: "Miskonsepsi tentang hakikat ilmu fisika"
-      },
-      {
         type: "paragraph",
         text: [
           "Fisika bukan kumpulan rumus yang harus dihafal.",
@@ -161,38 +132,8 @@ const hakikatIlmuFisika = {
       },
     ]
   },
-  { heading: "📊 Ringkasan Konsep", 
-    blocks: [
-      { type: "paragraph", 
-        text: "Fisika" 
-      },
-      { type: "paragraph", 
-        text: "⬇️" 
-      },
-      { type: "paragraph", 
-        text: "Produk" 
-      },
-      { type: "paragraph", 
-        text: "⬇️" 
-      },
-      { type: "paragraph", 
-        text: "Proses" 
-      },
-      { type: "paragraph", 
-        text: "⬇️" 
-      },
-      { type: "paragraph", 
-        text: "Sikap Ilmiah"
-      }
-    ]
-  },
   { heading: "✨ Inti Materi", 
     blocks: [
-      {
-        type: "image",
-        src: intimaterhakikatfisikaImg,
-        caption: "Inti materi dari hakikat ilmu fisika"
-      },
       {
         type: "paragraph",
         text: [
@@ -208,52 +149,58 @@ const hakikatIlmuFisika = {
         type: "quickCheck",
         data: {
           questions: [
-          {
-            question: "Hakikat ilmu fisika adalah....",
-            options: [
-            "Kumpulan rumus yang harus dihafal.",
-            "Karakter atau sifat dasar fisika sebagai ilmu pengetahuan.",
-            "Cara menghitung besaran fisika.",
-            "Cabang ilmu yang hanya mempelajari gerak benda."],
-            answerIndex: 1
-          },
-          {
-            question: "Manakah yang bukan termasuk tiga pilar hakikat ilmu fisika?",
-            options: [
-            "Fisika sebagai Produk",
-            "Fisika sebagai Proses",
-            "Fisika sebagai Sikap Ilmiah",
-            "Fisika sebagai Teknologi"],
-            answerIndex: 3
-          },
-          {
-            question: "Seorang ilmuwan melakukan pengamatan, menyusun hipotesis, melakukan eksperimen, lalu menarik kesimpulan. Kegiatan tersebut menunjukkan fisika sebagai....",
-            options: [
-              "Produk", 
-              "Proses", 
-              "Sikap", 
-              "Teknologi"],
-            answerIndex: 1
-          },
-          {
-            question:
-            "Sikap berikut yang mencerminkan sikap ilmiah adalah....",
-            options: [
-            "Mengubah data agar sesuai dengan harapan.",
-            "Menghafal semua rumus tanpa memahami konsep.",
-            "Jujur terhadap hasil eksperimen meskipun tidak sesuai dugaan.",
-            "Menolak pendapat orang lain tanpa bukti."],
-            answerIndex: 2
-          },
-          {
-            question: "Contoh fisika sebagai produk adalah....",
-            options: [
-            "Melakukan percobaan di laboratorium.",
-            "Mengamati gerak benda setiap hari.",
-            "Hukum Newton, teori, konsep, dan prinsip yang telah ditemukan.",
-            "Bersikap teliti saat melakukan pengukuran."],
-            answerIndex: 2
-          }],
+            {
+              question: "Hakikat ilmu fisika adalah....",
+              options: [
+                "Kumpulan rumus yang harus dihafal.",
+                "Karakter atau sifat dasar fisika",
+                "Cara menghitung besaran fisika.",
+                "Cabang ilmu yang hanya mempelajari gerak benda."
+              ],
+              answerIndex: 1
+            },
+            {
+              question: "Manakah yang bukan termasuk tiga pilar hakikat ilmu fisika?",
+              options: [
+                "Fisika sebagai Produk",
+                "Fisika sebagai Proses",
+                "Fisika sebagai Sikap Ilmiah",
+                "Fisika sebagai Teknologi"
+              ],
+              answerIndex: 3
+            },
+            {
+              question: "Seorang ilmuwan melakukan pengamatan, menyusun hipotesis, melakukan eksperimen, lalu menarik kesimpulan. Kegiatan tersebut menunjukkan fisika sebagai....",
+              options: [
+                  "Produk", 
+                  "Proses", 
+                  "Sikap", 
+                  "Teknologi"
+                ],
+              answerIndex: 1
+            },
+            {
+              question:
+              "Sikap berikut yang mencerminkan sikap ilmiah adalah....",
+              options: [
+                "Mengubah data agar sesuai dengan harapan.",
+                "Menghafal semua rumus tanpa memahami konsep.",
+                "Jujur terhadap hasil eksperimen meskipun tidak sesuai dugaan.",
+                "Menolak pendapat orang lain tanpa bukti."
+              ],
+              answerIndex: 2
+            },
+            {
+              question: "Contoh fisika sebagai produk adalah....",
+              options: [
+                "Melakukan percobaan di laboratorium.",
+                "Mengamati gerak benda setiap hari.",
+                "Hukum Newton, teori, konsep, dan prinsip yang telah ditemukan.",
+                "Bersikap teliti saat melakukan pengukuran."
+              ],
+              answerIndex: 2
+            }
+          ],
           scoring: [
           {
             min: 5,
@@ -287,21 +234,16 @@ const hakikatIlmuFisika = {
       }
     ]
   },
-  { link: "/materi/fisika-sebagai-produk",
-    blocks: [
-    {
-      type: "image",
-      src: nextmissionfisikasebagaiprodukImg,
-      caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya."
-    },
-    {
-      type: "paragraph",
-      text: [
-        "Kita sudah mengenal tiga pilar hakikat fisika.",
-        "Sekarang kita akan mempelajari pilar pertama.",
-        "➡️ Next, kita menuju portal: [**Fisika sebagai Produk.**](/materi/fisika-sebagai-produk)"
-      ]
-    }]
+  { blocks: [
+      {
+        type: "paragraph",
+        text: [
+          "Kita sudah mengenal tiga pilar hakikat fisika.",
+          "Sekarang kita akan mempelajari pilar pertama.",
+          "➡️ Next, kita menuju portal: [**Fisika sebagai Produk.**](/materi/fisika-sebagai-produk)"
+        ]
+      }
+    ]
   },
   { heading: "Referensi:", 
     blocks: [

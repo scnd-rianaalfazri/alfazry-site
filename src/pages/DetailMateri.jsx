@@ -8,6 +8,7 @@ import Navbar from "../components/layout/Navbar"
 import Footer from "../components/layout/Footer"
 import MathEquation from "../components/layout/MathEquation"
 import QuickCheck from "../components/layout/QuickCheck"
+import Carousel from "../components/layout/Carousel"
 import RichText from "../components/layout/RichText"
 import BackToTopButton from "../components/UI/BackToTopBottom"
 
@@ -426,11 +427,17 @@ export default function DetailMateri() {
   //       { type: "table", table: { headers: [...], rows: [...] } },
   //       { type: "list", list: { type: "ordered", items: [...] } },
   //       { type: "quickCheck", data: { questions: [...] } },
+  //       { type: "carousel", carousel: { cards: [...] } },
   //     ],
   //   }
   //
   // Tipe block yang didukung: paragraph, image, heading, equation,
-  // table, list, quickCheck.
+  // table, list, quickCheck, carousel.
+  //
+  // Block "carousel" -- kartu geser (lihat komentar lengkap di
+  // src/components/layout/Carousel.jsx). Tiap kartu di `cards` boleh
+  // berisi kombinasi bebas dari: image, eyebrow, title, text, description
+  // (description boleh string atau array of string).
   //
   // CATATAN: type "explanation" sudah dihapus — dulu perilakunya
   // identik dengan "paragraph", jadi sekarang cukup pakai
@@ -653,6 +660,9 @@ export default function DetailMateri() {
 
       case "quickCheck":
         return <QuickCheck key={key} data={block.data} />
+
+      case "carousel":
+        return <Carousel key={key} carousel={block.carousel} />
 
       default:
         return null

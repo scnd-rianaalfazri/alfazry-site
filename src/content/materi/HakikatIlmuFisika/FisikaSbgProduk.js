@@ -1,17 +1,3 @@
-import fisikasbgprodukImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk1.jpg";
-import faktafisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk4.jpg";
-import bentukprodukfisika2Img from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk2.jpg";
-import konsepfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk5.jpg";
-import prinsipfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk6.jpg";
-import hukumfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk8.jpg";
-import teorifisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk9.jpg";
-import nextmissionfisikasbgprosesImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk7.jpg";
-import modelfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk10.jpg";
-import pentingnyafisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk11.jpg";
-import tahukahkamuImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk12.jpg";
-import miskonsepsiImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk13.jpg";
-import intimateriImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProduk14.jpg";
-
 const fisikaSebagaiProduk = {
   title: "Fisika sebagai Produk",
   slug: "fisika-sebagai-produk",
@@ -21,12 +7,6 @@ const fisikaSebagaiProduk = {
   content: [
   {
     blocks: [
-      {
-        type: "image",
-        src: fisikasbgprodukImg,
-        caption:
-        "Pengetahuan ilmiah merupakan hasil dari proses penyelidikan."
-      },
       {
         type: "paragraph",
         text: [
@@ -41,11 +21,6 @@ const fisikaSebagaiProduk = {
   { heading: "⚙️ Apa yang Dimaksud Produk dalam Fisika?", 
     blocks: [
       {
-        type: "image",
-        src: bentukprodukfisika2Img,
-        caption: "Beberapa produk fisika"
-      },
-      {
         type: "paragraph",
         text: [
           "Dalam hakikat ilmu fisika, Fisika sebagai Produk *(physics as a product)* adalah kumpulan atau seluruh hasil pengetahuan yang didapatkan melalui proses ilmiah.",
@@ -59,16 +34,13 @@ const fisikaSebagaiProduk = {
   { heading: "Produk Fisika yang Pertama: 📌 Fakta", 
     blocks: [
       {
-        type: "image",
-        src: faktafisikaImg,
-        caption: "Ilustrasi fakta fisika"
-      },
-      {
         type: "paragraph",
-        text: "Fakta adalah kenyataan objektif yang dapat diamati atau diukur secara langsung menggunakan indra maupun alat ukur, dan kebenarannya telah disepakati bersama."
+        text: [
+          "Fakta adalah kenyataan objektif yang dapat diamati atau diukur secara langsung menggunakan indra maupun alat ukur, dan kebenarannya telah disepakati bersama.",
+          "Contoh:"
+        ]
+
       },
-      { type: "paragraph", 
-        text: "Contoh:" },
       {
         type: "list",
         list: {
@@ -88,11 +60,6 @@ const fisikaSebagaiProduk = {
   { heading: "Produk Fisika yang Kedua:💡 Konsep", 
     blocks: [
       {
-        type: "image",
-        src: konsepfisikaImg,
-        caption: "Ilustrasi konsep fisika"
-      },
-      {
         type: "paragraph",
         text: [
           "Konsep adalah abstraksi mental, gagasan, atau pengertian yang dibuat untuk mengelompokkan fenomena-fenomena alam yang sejenis agar lebih mudah dijelaskan.",
@@ -105,11 +72,6 @@ const fisikaSebagaiProduk = {
   { heading: "Produk Fisika yang Ketiga:📏 Prinsip", 
     blocks: [
       {
-        type: "image",
-        src: prinsipfisikaImg,
-        caption: "Ilustrasi prinsip fisika"
-      },
-      {
         type: "paragraph",
         text: [
           "Prinsip merupakan pernyataan yang menjelaskan hubungan umum antara beberapa konsep yang saling berkaitan erat.",
@@ -121,11 +83,6 @@ const fisikaSebagaiProduk = {
   },
   { heading: "Produk Fisika yang Keempat:⚖️ Hukum", 
     blocks: [
-      {
-        type: "image",
-        src: hukumfisikaImg,
-        caption: "Ilustrasi hukum fisika"
-      },
       {
         type: "paragraph",
         text: [
@@ -156,11 +113,6 @@ const fisikaSebagaiProduk = {
   { heading: "Produk Fisika yang Kelima: 🌌 Teori", 
     blocks: [
       {
-        type: "image",
-        src: teorifisikaImg,
-        caption: "Ilustrasi teori fisika"
-      },
-      {
         type: "paragraph",
         text: [
           "Teori adalah penjelasan ilmiah yang mendalam, komprehensif, didukung oleh gunung bukti eksperimen, serta mampu memprediksi fenomena baru yang belum teramati sebelumnya.",
@@ -185,11 +137,6 @@ const fisikaSebagaiProduk = {
   },
   { heading: "Dan yang terakhir: 🧱 Model", 
     blocks: [
-      {
-        type: "image",
-        src: modelfisikaImg,
-        caption: "Ilustrasi model fisika"
-      },
       {
         type: "paragraph",
         text: [
@@ -221,11 +168,6 @@ const fisikaSebagaiProduk = {
   { heading: "🌍 Mengapa Produk Fisika Penting?", 
     blocks: [
       {
-        type: "image",
-        src: pentingnyafisikaImg,
-        caption: "Contoh beberapa perkembangan teknologi"
-      },
-      {
         type: "paragraph",
         text: [
           "Tanpa adanya produk fisika berupa konsep, hukum, dan teori, kita akan hidup dalam kegelapan tanpa tahu cara kerja semesta.",
@@ -237,9 +179,6 @@ const fisikaSebagaiProduk = {
   },
   { heading: "💡 Tahukah Kamu?", 
     blocks: [
-      { type: "image", src: tahukahkamuImg, 
-        caption: "Hukum vs teori" 
-      },
       {
         type: "paragraph",
         text: [
@@ -267,11 +206,6 @@ const fisikaSebagaiProduk = {
   { heading: "⚠️ Miskonsepsi", 
     blocks: [
       {
-        type: "image",
-        src: miskonsepsiImg,
-        caption: "Miskonsepsi teori ilmiah"
-      },
-      {
         type: "paragraph",
         text: [
           "*'Yaa, itu kan baru sebatas 'Teori Ilmiah', berarti masih sekadar dugaan atau tebakan kosong dong?'* ❌.",
@@ -283,30 +217,8 @@ const fisikaSebagaiProduk = {
       },
     ]
   },
-  { heading: "📊 Ringkasan Konsep", 
+  { heading: "✨ Inti Materi", 
     blocks: [
-      { type: "paragraph", 
-        text: [
-          "Proses Ilmiah" ,
-          "⬇️" ,
-          "Fakta" ,
-          "⬇️",
-          "Konsep",
-          "⬇️",
-          "Prinsip",
-          "⬇️" ,
-          "Hukum",
-          "⬇️" ,
-          "Teori",
-          "⬇️",
-          "Model"
-        ]
-      }
-    ]
-  },
-  { heading: "✨ Inti Materi (Takeaway Message)", 
-    blocks: [
-      { type: "image", src: intimateriImg, caption: "Inti materi" },
       {
         type: "paragraph",
         text: [
@@ -413,14 +325,7 @@ const fisikaSebagaiProduk = {
       }
     ]
   },
-  {
-    link: "/materi/fisika-sebagai-proses",
-    blocks: [
-      {
-        type: "image",
-        src: nextmissionfisikasbgprosesImg,
-        caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya."
-      },
+  { blocks: [
       {
         type: "paragraph",
         text: [
