@@ -5,19 +5,19 @@ const merancangEksperimen = {
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
 
   content: [
-  {
-    blocks: [
     {
-      type: "paragraph",
-      text: [
-        "🧐 Paradoks Ayunan Bandul: Bisakah Kita Asal Tebak?",
-        "Bayangkan kamu sedang bosan di kelas fisika, lalu tiba-kira kamu penasaran: 'Kalau gue ganti panjang tali bandul ini jadi lebih pendek, ayunannya bakal makin cepat atau makin lambat ya?'",
-        "Pertanyaannya, apakah cukup dengan cuma asal ganti tali lalu menyimpulkan hasilnya begitu saja? Bagaimana dengan berat/massa bandul yang berayun?",
-        "Bagaimana dengan besar sudut awal saat kamu menarik tali tersebut? Terus kalau lokasinya dipindah ke tempat tinggi, apakah efeknya sama?",
-        "Nah, di sinilah insting detektif fisikamu diuji.",
-        "Sebelum melangkah langsung ke laboratorium, semua hal printilan tadi wajib kamu rencanakan secara matang biar tidak terjadi kekacauan data."
-      ]
-    }]
+      blocks: [
+        {
+        type: "paragraph",
+        text: [
+          "Bayangkan kamu sedang bosan di kelas fisika, lalu tiba-kira kamu penasaran: 'Kalau gue ganti panjang tali bandul ini jadi lebih pendek, ayunannya bakal makin cepat atau makin lambat ya?'",
+          "Pertanyaannya, apakah cukup dengan cuma asal ganti tali lalu menyimpulkan hasilnya begitu saja? Bagaimana dengan berat/massa bandul yang berayun?",
+          "Bagaimana dengan besar sudut awal saat kamu menarik tali tersebut? Terus kalau lokasinya dipindah ke tempat tinggi, apakah efeknya sama?",
+          "Nah, di sinilah insting detektif fisikamu diuji.",
+          "Sebelum melangkah langsung ke laboratorium, semua hal printilan tadi wajib kamu rencanakan secara matang biar tidak terjadi kekacauan data."
+        ]
+      }
+    ]
   },
   { heading: "🧪 Apa Itu Eksperimen?", 
     blocks: [
@@ -212,23 +212,6 @@ const merancangEksperimen = {
           "Mengubah banyak variabel acak secara bersamaan tidak akan membuat eksperimenmu naik level.",
           "Justru itu bakal bikin data yang terkumpul jadi bias, bertabrakan, dan super sulit buat dianalisis.",
           "Keep it simple, track one thing at a time!"
-        ]
-      }
-    ]
-  },
-  { heading: "📊 Ringkasan Konsep", 
-    blocks: [
-      { type: "paragraph", 
-        text: [
-          "Hipotesis",
-          "⬇️",
-          "Menentukan Variabel",
-          "⬇️",
-          "Menyusun Prosedur",
-          "⬇️",
-          "Melakukan Percobaan",
-          "⬇️",
-          "Mengumpulkan Data"
         ]
       }
     ]

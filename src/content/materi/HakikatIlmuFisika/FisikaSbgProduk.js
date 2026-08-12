@@ -1,3 +1,6 @@
+import img1 from "/src/assets/Materi/HakikatIlmuFisika/fisika-sebagai-produk1.png"
+import img2 from "/src/assets/Materi/HakikatIlmuFisika/fisika-sebagai-produk2.png"
+
 const fisikaSebagaiProduk = {
   title: "Fisika sebagai Produk",
   slug: "fisika-sebagai-produk",
@@ -7,6 +10,10 @@ const fisikaSebagaiProduk = {
   content: [
   {
     blocks: [
+      {
+        type: "image",
+        src: img1
+      },
       {
         type: "paragraph",
         text: [
@@ -26,147 +33,87 @@ const fisikaSebagaiProduk = {
           "Dalam hakikat ilmu fisika, Fisika sebagai Produk *(physics as a product)* adalah kumpulan atau seluruh hasil pengetahuan yang didapatkan melalui proses ilmiah.",
           "Ibarat sebuah pabrik, jika proses ilmiah adalah mesin dan cara kerjanya, maka pengetahuan-pengetahuan inilah barang jadi yang siap digunakan.",
           "Produk-produk ilmiah ini menjadi fondasi utama bagi peradaban manusia untuk memahami, memprediksi, dan menjelaskan berbagai macam fenomena alam yang terjadi di sekitar kita.",
-          "Produk fisika bukanlah satu hal yang monoton. Di dalamnya, kumpulan pengetahuan ini terbagi menjadi beberapa bentuk utama. Mari kita bedah satu per satu:"
+          "Produk fisika bukanlah satu hal yang monoton. Di dalamnya, kumpulan pengetahuan ini terbagi menjadi beberapa bentuk utama.",
+          "Mari kita bedah satu per satu:"
         ]
-      }
-    ]
-  },
-  { heading: "Produk Fisika yang Pertama: 📌 Fakta", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Fakta adalah kenyataan objektif yang dapat diamati atau diukur secara langsung menggunakan indra maupun alat ukur, dan kebenarannya telah disepakati bersama.",
-          "Contoh:"
-        ]
-
       },
       {
-        type: "list",
-        list: {
-          type: "unordered",
-          items: [
+        type: "carousel",
+        carousel: {
+          cards: [
             {
-              text: "Air murni mendidih pada suhu sekitar $100^\circ\text{C}$ pada tekanan udara normal (1 atmosfer)."
+              eyebrow: "PRODUK FISIKA",
+              title: "📌 Fakta",
+              text: "Fakta adalah kenyataan objektif yang dapat diamati atau diukur secara langsung menggunakan indra maupun alat ukur, dan kebenarannya telah disepakati bersama.",
+              description: [
+                "Contoh:",
+                "Air murni mendidih pada suhu sekitar $100\\degree\\text{C}$ pada tekanan udara normal (1 atmosfer).",
+                "Benda apa pun yang massanya dilepaskan di dekat permukaan Bumi akan jatuh bebas menuju pusat Bumi."
+              ]
             },
             {
-              text: "Benda apa pun yang massanya dilepaskan di dekat permukaan Bumi akan jatuh bebas menuju pusat Bumi."
-            }
+              eyebrow: "PRODUK FISIKA",
+              title: "💡 Konsep",
+              text: "Konsep adalah abstraksi mental, gagasan, atau pengertian yang dibuat untuk mengelompokkan fenomena-fenomena alam yang sejenis agar lebih mudah dijelaskan.",
+              description: [
+                "Contoh:",
+                "Istilah-istilah seperti Gaya, Energi, Usaha, dan Momentum."
+              ]
+            },
+            {
+              eyebrow: "PRODUK FISIKA",
+              title: "📏 Prinsip",
+              text: "Prinsip merupakan pernyataan yang menjelaskan hubungan umum antara beberapa konsep yang saling berkaitan erat.",
+              description: [
+                "Contoh:" ,
+                "Prinsip Kekekalan Energi menyatakan bahwa energi tidak dapat diciptakan maupun dimusnahkan, melainkan hanya dapat berubah dari satu bentuk ke bentuk energi lainnya."
+              ]
+            },
+            {
+              eyebrow: "PRODUK FISIKA",
+              title: "⚖️ Hukum",
+              text: "Hukum fisika adalah aturan atau hubungan matematis yang selalu berlaku pada kondisi tertentu.",
+              description: [
+                "Hukum dirumuskan berdasarkan hasil pengamatan dan eksperimen yang sangat konsisten.",
+                "Contoh:",
+                "Hukum Newton tentang Gerak",
+                "Hukum Ohm tentang kelistrikan",
+                "Hukum Coulomb tentang gaya elektrostatis"
+              ]
+            },
+            {
+              eyebrow: "PRODUK FISIKA",
+              title: "🌌 Teori",
+              text: "Teori adalah penjelasan ilmiah yang mendalam, komprehensif, didukung oleh gunung bukti eksperimen, serta mampu memprediksi fenomena baru yang belum teramati sebelumnya.",
+              description: [
+                "Contoh:",
+                "Teori Relativitas",
+                "Teori Kuantum"
+              ]
+            },
+            {
+              eyebrow: "PRODUK FISIKA",
+              title: "🧱 Model",
+              text: "Model adalah representasi buatan atau penyederhanaan yang membantu kita memvisualisasikan dan memahami sistem alam semesta yang terlalu rumit, terlalu besar, atau terlalu mikro untuk dilihat langsung.",
+              description: [     
+                "Contoh:",
+                "Model atom Bohr",
+                "Diagram tata surya",
+                "Persamaan matematika yang rumit",
+                "Simulasi grafis komputer"
+              ]
+            },
           ]
         }
-      }
-    ]
-  },
-  { heading: "Produk Fisika yang Kedua:💡 Konsep", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Konsep adalah abstraksi mental, gagasan, atau pengertian yang dibuat untuk mengelompokkan fenomena-fenomena alam yang sejenis agar lebih mudah dijelaskan.",
-          "Contoh:",
-          "Istilah-istilah seperti Gaya, Energi, Usaha, dan Momentum."
-        ]
-      }
-    ]
-  },
-  { heading: "Produk Fisika yang Ketiga:📏 Prinsip", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Prinsip merupakan pernyataan yang menjelaskan hubungan umum antara beberapa konsep yang saling berkaitan erat.",
-          "Contoh:" ,
-          "Prinsip Kekekalan Energi menyatakan bahwa energi tidak dapat diciptakan maupun dimusnahkan, melainkan hanya dapat berubah dari satu bentuk ke bentuk energi lainnya."
-        ]
-      }
-    ]
-  },
-  { heading: "Produk Fisika yang Keempat:⚖️ Hukum", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Hukum fisika adalah aturan atau hubungan matematis yang selalu berlaku pada kondisi tertentu.",
-          "Hukum dirumuskan berdasarkan hasil pengamatan dan eksperimen yang sangat konsisten.",
-          "Contoh:" 
-        ]
       },
-      {
-        type: "list",
-        list: {
-          type: "unordered",
-          items: [
-            {
-              text: "Hukum Newton tentang Gerak"
-            },
-            {
-              text: "Hukum Ohm tentang kelistrikan"
-            },
-            {
-              text: "Hukum Coulomb tentang gaya elektrostatis"
-            }
-          ]
-        }
-      }
-    ]
-  },
-  { heading: "Produk Fisika yang Kelima: 🌌 Teori", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Teori adalah penjelasan ilmiah yang mendalam, komprehensif, didukung oleh gunung bukti eksperimen, serta mampu memprediksi fenomena baru yang belum teramati sebelumnya.",
-          "Contoh:" ,
-        ]
-      },
-      {
-        type: "list",
-        list: {
-          type: "unordered",
-          items: [
-            {
-              text: "Teori Relativitas"
-            },
-            {
-              text: "Teori Kuantum"
-            }
-          ]
-        }
-      }
-    ]
-  },
-  { heading: "Dan yang terakhir: 🧱 Model", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Model adalah representasi buatan atau penyederhanaan yang membantu kita memvisualisasikan dan memahami sistem alam semesta yang terlalu rumit, terlalu besar, atau terlalu mikro untuk dilihat langsung.",
-          "Contoh:"
-        ]
-      },
-      {
-        type: "list",
-        list: {
-          type: "unordered",
-          items: [
-          {
-            text: "Model atom Bohr,"
-          },
-          {
-            text: "diagram tata surya,"
-          },
-          {
-            text: "persamaan matematika rumit, hingga"
-          },
-          {
-            text: "simulasi grafis komputer"
-          }]
-        }
-      }
     ]
   },
   { heading: "🌍 Mengapa Produk Fisika Penting?", 
     blocks: [
+      {
+        type: "image",
+        src: img2
+      },
       {
         type: "paragraph",
         text: [

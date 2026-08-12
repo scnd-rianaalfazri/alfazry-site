@@ -1,16 +1,6 @@
-import { caption, image, text } from "framer-motion/client";
-import fisikaSbgProsesImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses1.jpg";
-import prosesilmiahImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses2.jpg";
-import intimateriImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses3.jpg";
-import definisifisikasbgprosesImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses5.jpg";
-import buktiprosesfisikaImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses4.jpg";
-import sikluspenelitianImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses7.jpg";
-import contohkehidupanImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses8.jpg";
-import tahukahkamuImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses9.jpg";
-import ringkasanImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses10.jpg";
-import miskonsepsiImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses11.jpg";
-import nextmissionfisikasebagaisikapImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses14.jpg";
-import bonusImg from "/src/assets/Materi/HakikatIlmuFisika/FisikaSebagaiProses15.jpg";
+import img1 from "/src/assets/Materi/HakikatIlmuFisika/fisika-sebagai-proses3.png"
+import img2 from "/src/assets/Materi/HakikatIlmuFisika/fisika-sebagai-proses1.png"
+import img3 from "/src/assets/Materi/HakikatIlmuFisika/fisika-sebagai-proses2.png"
 
 const fisikaSebagaiProses = {
   title: "Fisika sebagai Proses",
@@ -23,8 +13,7 @@ const fisikaSebagaiProses = {
     blocks: [
       {
         type: "image",
-        src: fisikaSbgProsesImg,
-        caption: "Setiap penemuan besar dimulai dari rasa ingin tahu."
+        src: img1
       },
       {
         type: "paragraph",
@@ -39,11 +28,6 @@ const fisikaSebagaiProses = {
   { heading: "🧪 Apa yang Dimaksud Fisika sebagai Proses?", 
     blocks: [
       {
-        type: "image",
-        src: definisifisikasbgprosesImg,
-        caption: "pengamatan di sekitar lingkungan"
-      },
-      {
         type: "paragraph",
         text: [
           "Fisika sebagai proses *(physics as a process)* adalah cara atau metodologi yang digunakan oleh para ilmuwan untuk memperoleh pengetahuan tentang alam semesta.",
@@ -54,31 +38,67 @@ const fisikaSebagaiProses = {
   },
   { heading: "🔄 Bagaimana Pengetahuan Fisika Dibangun?",
     blocks: [
-      {
-        type: "list",
-        list: { 
-          type: "unordered", 
-          items: [
-            { 
-              text: "👀 Mengamati fenomena",  
-              description: "Melihat dan mencermati kejadian unik di sekitar alam." 
-            }, 
-            { text: "❓ Mengajukan pertanyaan", 
-              description: "Merumuskan masalah yang ingin dipecahkan (Mengapa? Bagaimana?)." 
-            }, 
-            { text: "💭 Menyusun hipotesi", 
-              description: "Membuat dugaan atau jawaban sementara yang logis." 
-            }, 
-            { text: "🧪 Melakukan eksperimen", 
-              description: "Menguji hipotesis secara langsung melalui serangkaian percobaan terkontrol." 
-            }, 
-            { text: "📊 Menganalisis data", 
-              description: "Mengolah, membaca, dan menginterpretasikan angka atau hasil dari eksperimen." 
-            }, 
-            { text: "📖 Menarik kesimpulan", 
-              description: "Menentukan apakah data eksperimen mendukung atau justru membantah hipotesis awal." 
+      { type: "carousel",
+        carousel: {
+          cards: [
+            {
+              eyebrow: "FISIKA DALAM PROSES PENEMUAN",
+              title: "👀 Mengamati fenomena",
+              text: "Melihat dan mencermati kejadian unik di sekitar alam.",
+              description: [
+                "Contoh:",
+                "Saat sebuah bola dilempar vertikal ke atas, bola bergerak semakin lambat, berhenti sesaat di titik tertinggi, lalu bergerak kembali ke bawah."
+              ]
+            },
+            {
+              eyebrow: "FISIKA DALAM PROSES PENEMUAN",
+              title: "❓ Mengajukan pertanyaan",
+              text: "Merumuskan masalah yang ingin dipecahkan (Mengapa? Bagaimana?).",
+              description: [
+                "Contoh:",
+                "Mengapa bola yang sedang bergerak ke atas justru semakin lambat? Mengapa bola kemudian berhenti sesaat dan jatuh kembali ke tanah?"
+              ]
+            },
+            {
+              eyebrow: "FISIKA DALAM PROSES PENEMUAN",
+              title: "💭 Menyusun hipotesis",
+              text: "Membuat dugaan atau jawaban sementara yang logis.",
+              description: [
+                "Contoh:",
+                "Bola mengalami gaya gravitasi yang arahnya ke bawah sehingga kecepatannya terus berkurang ketika bola bergerak ke atas."
+              ]
+            },
+            {
+              eyebrow: "FISIKA DALAM PROSES PENEMUAN",
+              title: "🧪 Melakukan eksperimen",
+              text: "Menguji hipotesis secara langsung melalui serangkaian percobaan terkontrol.",
+              description: [
+                "Contoh:",
+                "Lempar bola secara vertikal dengan beberapa kondisi awal yang berbeda. Catat waktu dan posisi bola menggunakan sensor gerak atau video analisis.",
+                "Bandingkan perubahan posisi dan kecepatannya selama bola bergerak naik hingga kembali turun."
+              ]
+            },
+            {
+              eyebrow: "FISIKA DALAM PROSES PENEMUAN",
+              title: "📊 Menganalisis data",
+              text: "Mengolah, membaca, dan menginterpretasikan angka atau hasil dari eksperimen.",
+              description: [
+                "Contoh:",
+                "Dari data posisi dan waktu, terlihat bahwa kecepatan bola berkurang secara teratur saat bergerak ke atas. Setelah mencapai titik tertinggi, arah geraknya berubah dan bola mulai bergerak ke bawah.",
+                "Data menunjukkan adanya percepatan yang arahnya ke bawah selama gerak berlangsung."
+              ]
+            },
+            {
+              eyebrow: "FISIKA DALAM PROSES PENEMUAN",
+              title: "📖 Menarik kesimpulan",
+              text: "Menentukan apakah data eksperimen mendukung atau justru membantah hipotesis awal.",
+              description: [
+                "Contoh:",
+                "Hasil eksperimen mendukung hipotesis bahwa gravitasi memengaruhi gerak bola. Gravitasi memberikan percepatan ke bawah sehingga bola melambat ketika naik dan semakin cepat ketika turun.",
+                "Dari pengamatan dan eksperimen yang konsisten, kita dapat membangun pemahaman tentang gerak vertikal dan pengaruh gravitasi."
+              ]
             }
-          ] 
+          ]
         }
       }
     ]
@@ -87,8 +107,7 @@ const fisikaSebagaiProses = {
     blocks: [
       {
         type: "image",
-        src: buktiprosesfisikaImg,
-        caption: "Pendapat vs bukti"
+        src: img2
       },
       {
         type: "paragraph",
@@ -105,8 +124,7 @@ const fisikaSebagaiProses = {
     blocks: [
       {
         type: "image",
-        src: sikluspenelitianImg,
-        caption: "Siklus penelitian ilmiah"
+        src: img3
       },
       {
         type: "paragraph",
@@ -121,7 +139,6 @@ const fisikaSebagaiProses = {
   { heading: "🌍 Contoh dalam Kehidupan", 
     caption: "Penelitian di lab futuristik", 
     blocks: [
-      { type: "image", src: contohkehidupanImg },
       {
         type: "paragraph",
         text: [
@@ -136,9 +153,6 @@ const fisikaSebagaiProses = {
   { heading: "💡 Tahukah Kamu?", 
     caption: "Penemuan besar dimuali dari pengamatan.", 
     blocks: [
-      { type: "image", 
-        src: tahukahkamuImg 
-      },
       {
         type: "paragraph",
         text: [
@@ -148,13 +162,8 @@ const fisikaSebagaiProses = {
       }
     ]
   },
-  { heading: "⚠️ Miskonsepsi Umum", 
+  { heading: "⚠️ Miskonsepsi", 
     blocks: [
-      {
-        type: "image",
-        src: miskonsepsiImg,
-        caption: "Miskonsepsi tentang hipotesis"
-      },
       {
         type: "paragraph",
         text: [
@@ -167,31 +176,7 @@ const fisikaSebagaiProses = {
       }
     ]
   },
-  { heading: "📊 Ringkasan Konsep", 
-    blocks: [
-      {
-        type: "image",
-        src: ringkasanImg,
-        caption: "Ilustrasi ringkasan konsep"
-      },
-      { type: "paragraph", 
-        text: [
-          "Fenomena Alam",
-          "⬇️",
-          "Pengamatan",
-          "⬇️",
-          "Hipotesis",
-          "⬇️",
-          "Eksperimen",
-          "⬇️",
-          "Analisis",
-          "⬇️",
-          "Kesimpulan"
-        ]
-      }
-    ]
-  },
-  { heading: "✨ Inti Materi *(Takeaway Message)*", 
+  { heading: "✨ Inti Materi", 
     blocks: [
       {
         type: "paragraph",
@@ -207,108 +192,106 @@ const fisikaSebagaiProses = {
         type: "quickCheck",
         data: {
           questions: [
-          {
-            question: "Yang dimaksud fisika sebagai proses adalah....",
-            options: [
-              "Kumpulan hukum dan teori yang telah ditemukan.",
-              "Cara ilmuwan memperoleh pengetahuan melalui penyelidikan ilmiah.",
-              "Sikap yang harus dimiliki setiap ilmuwan.",
-              "Penggunaan teknologi dalam kehidupan sehari-hari.",
-              "Cabang fisika yang mempelajari gerak benda."
+            {
+              question: "Yang dimaksud fisika sebagai proses adalah....",
+              options: [
+                "Kumpulan hukum dan teori yang telah ditemukan.",
+                "Cara ilmuwan memperoleh pengetahuan melalui penyelidikan ilmiah.",
+                "Sikap yang harus dimiliki setiap ilmuwan.",
+                "Penggunaan teknologi dalam kehidupan sehari-hari.",
+                "Cabang fisika yang mempelajari gerak benda."
+            ],
+              answerIndex: 1
+            },
+            {
+              question: "Manakah urutan proses ilmiah yang paling tepat?",
+              options: [
+                "Kesimpulan → Hipotesis → Pengamatan → Eksperimen",
+                "Pengamatan → Pertanyaan → Hipotesis → Eksperimen → Analisis → Kesimpulan",
+                "Hipotesis → Kesimpulan → Pengamatan → Analisis",
+                "Eksperimen → Pengamatan → Hipotesis → Kesimpulan",
+                "Pengamatan → Eksperimen → Kesimpulan → Hipotesis → Analisis"
+              ],
+              answerIndex: 1
+            },
+            {
+              question: "Mengapa hasil penelitian ilmiah harus didukung oleh bukti?",
+              options: [
+                "Agar hasilnya terlihat lebih menarik.",
+                "Karena pendapat seseorang selalu benar.",
+                "Agar kesimpulan dapat diuji dan dipercaya oleh orang lain.",
+                "Supaya eksperimen tidak perlu diulang.",
+                "Karena semua hipotesis pasti benar."
+              ],
+              answerIndex: 2
+            },
+            {
+              question: "Seorang siswa ingin mengetahui apakah panjang tali memengaruhi waktu ayunan bandul. Langkah yang paling tepat adalah....",
+              options: [
+                "Menebak hasilnya tanpa melakukan percobaan.",
+                "Bertanya kepada teman lalu langsung menarik kesimpulan.",
+                "Melakukan eksperimen, mencatat data, kemudian menganalisis hasilnya.",
+                "Mencari jawaban di internet tanpa melakukan pengamatan.",
+                "Mengubah hasil pengamatan agar sesuai dengan dugaan."
+              ],
+              answerIndex: 2
+            },
+            {
+              question: "Pernyataan yang benar mengenai hipotesis adalah....",
+              options: [
+                "Hipotesis harus selalu terbukti benar.",
+                "Hipotesis adalah dugaan sementara yang perlu diuji melalui eksperimen.",
+                "Hipotesis sama dengan kesimpulan akhir penelitian.",
+                "Hipotesis tidak boleh berubah meskipun data menunjukkan hasil yang berbeda.",
+                "Hipotesis dibuat setelah eksperimen selesai dilakukan."
+              ],
+              answerIndex: 1
+            }
           ],
-            answerIndex: 1
-          },
-          {
-            question: "Manakah urutan proses ilmiah yang paling tepat?",
-            options: [
-              "Kesimpulan → Hipotesis → Pengamatan → Eksperimen",
-              "Pengamatan → Pertanyaan → Hipotesis → Eksperimen → Analisis → Kesimpulan",
-              "Hipotesis → Kesimpulan → Pengamatan → Analisis",
-              "Eksperimen → Pengamatan → Hipotesis → Kesimpulan",
-              "Pengamatan → Eksperimen → Kesimpulan → Hipotesis → Analisis"
-            ],
-            answerIndex: 1
-          },
-          {
-            question: "Mengapa hasil penelitian ilmiah harus didukung oleh bukti?",
-            options: [
-              "Agar hasilnya terlihat lebih menarik.",
-              "Karena pendapat seseorang selalu benar.",
-              "Agar kesimpulan dapat diuji dan dipercaya oleh orang lain.",
-              "Supaya eksperimen tidak perlu diulang.",
-              "Karena semua hipotesis pasti benar."
-            ],
-            answerIndex: 2
-          },
-          {
-            question: "Seorang siswa ingin mengetahui apakah panjang tali memengaruhi waktu ayunan bandul. Langkah yang paling tepat adalah....",
-            options: [
-              "Menebak hasilnya tanpa melakukan percobaan.",
-              "Bertanya kepada teman lalu langsung menarik kesimpulan.",
-              "Melakukan eksperimen, mencatat data, kemudian menganalisis hasilnya.",
-              "Mencari jawaban di internet tanpa melakukan pengamatan.",
-              "Mengubah hasil pengamatan agar sesuai dengan dugaan."
-            ],
-            answerIndex: 2
-          },
-          {
-            question: "Pernyataan yang benar mengenai hipotesis adalah....",
-            options: [
-              "Hipotesis harus selalu terbukti benar.",
-              "Hipotesis adalah dugaan sementara yang perlu diuji melalui eksperimen.",
-              "Hipotesis sama dengan kesimpulan akhir penelitian.",
-              "Hipotesis tidak boleh berubah meskipun data menunjukkan hasil yang berbeda.",
-              "Hipotesis dibuat setelah eksperimen selesai dilakukan."
-            ],
-            answerIndex: 1
-          }],
           scoring: [
-          {
-            min: 5,
-            max: 5,
-            emoji: "🏆",
-            title: "Mission Complete!",
-            message: "Kamu siap memasuki portal berikutnya."
-          },
-          {
-            min: 4,
-            max: 4,
-            emoji: "🚀",
-            title: "Hampir Sempurna",
-            message: "Pemahamanmu sudah sangat baik."
-          },
-          {
-            min: 2,
-            max: 3,
-            emoji: "🔄",
-            title: "Perlu Sedikit Lagi",
-            message: "Coba eksplorasi lagi bagian inti materi."
-          },
-          {
-            min: 0,
-            max: 1,
-            emoji: "📖",
-            title: "Ulangi Petualangan",
-            message: "Tenang, ulangi petualanganmu dari awal."
-          }]
+            {
+              min: 5,
+              max: 5,
+              emoji: "🏆",
+              title: "Mission Complete!",
+              message: "Kamu siap memasuki portal berikutnya."
+            },
+            {
+              min: 4,
+              max: 4,
+              emoji: "🚀",
+              title: "Hampir Sempurna",
+              message: "Pemahamanmu sudah sangat baik."
+            },
+            {
+              min: 2,
+              max: 3,
+              emoji: "🔄",
+              title: "Perlu Sedikit Lagi",
+              message: "Coba eksplorasi lagi bagian inti materi."
+            },
+            {
+              min: 0,
+              max: 1,
+              emoji: "📖",
+              title: "Ulangi Petualangan",
+              message: "Tenang, ulangi petualanganmu dari awal."
+            }
+          ]
         }
-      }]
+      }
+    ]
   },
   {
     link: "/materi/fisika-sebagai-sikap",
     blocks: [
-      {
-        type: "image",
-        src: nextmissionfisikasebagaisikapImg,
-        caption: "🚀 KLIK GAMBAR INI! Kamu bisa menuju ke portal berikutnya."
-      },
       {
         type: "paragraph",
         text: [
           "Apakah kamu sudah paham bagaimana ilmu fisika itu diproses dan dibangun?",
           "Namun, proses ilmiah yang keren ini tidak akan berjalan lancar tanpa adanya karakter atau mindset yang benar dari sang peneliti.",
           "Selain menghasilkan pengetahuan dan metode, fisika juga membentuk karakter serta cara berperilaku seorang ilmuwan.",
-          "➡️ Next, kita menuju portal: [**Fisika sebagai Sikap Ilmiah.**](/materi/fisika-sebagai-sikap-ilmiah)"
+          "➡️ Next, kita menuju portal: [**Fisika sebagai Sikap**](/materi/fisika-sebagai-sikap)"
         ]
       }
     ]

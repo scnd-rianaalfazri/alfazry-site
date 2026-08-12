@@ -227,7 +227,7 @@ const lift = {
           text: [
             "Kini kamu telah mempelajari berbagai penerapan Hukum Newton pada gerak lurus, mulai dari balok di bidang datar, bidang miring, sistem katrol, hingga lift.",
             "Selanjutnya, kita akan mengetahui bagaimana gerak lurus ini diterapkan di dalam kehidupan nyata.",
-            "➡️ *Next:* [**Pengertian Gerak Melingkar.**](/materi/dinamika-gerak-lurus-di-dunia-nyata)"
+            "➡️ *Next:* kita menuju portal: [**Dinamika Gerak Lurus di Dunia Nyata**](/materi/dinamika-gerak-lurus-di-dunia-nyata)"
           ]
         }
       ]

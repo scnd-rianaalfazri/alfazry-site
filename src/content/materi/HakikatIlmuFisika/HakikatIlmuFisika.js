@@ -1,3 +1,6 @@
+import img1 from "/src/assets/Materi/HakikatIlmuFisika/hakikat-ilmu-fisika1.png"
+import img2 from "/src/assets/Materi/HakikatIlmuFisika/hakikat-ilmu-fisika2.png"
+
 const hakikatIlmuFisika = {
   title: "Hakikat Ilmu Fisika",
   slug: "hakikat-ilmu-fisika",
@@ -7,14 +10,19 @@ const hakikatIlmuFisika = {
   content: [
   {
     blocks: [
-    {
-      type: "paragraph",
-      text: [
-        "Banyak yang mengira kalau belajar fisika itu berarti siap-siap pusing ketemu kumpulan rumus matematis yang njelimet.",
-        "Padahal, rumus itu cuma 'bahasa' buat menjelaskan sesuatu yang jauh lebih besar. Hakikat ilmu fisika sebenarnya adalah cara pandang untuk memahami bagaimana alam semesta ini bekerja.",
-        "Para ilmuwan membagi hakikat fisika menjadi 3 pilar utama: [Fisika sebagai Produk](/materi/fisika-sebagai-produk), [Fisika sebagai Proses](/materi/fisika-sebagai-proses), dan [Fisika sebagai Sikap](/materi/fisika-sebagai-sikap). Let's spill the details!"
-      ]
-    }]
+      {
+        type: "image",
+        src: img1
+      },
+      {
+        type: "paragraph",
+        text: [
+          "Banyak yang mengira kalau belajar fisika itu berarti siap-siap pusing ketemu kumpulan rumus matematis yang njelimet.",
+          "Padahal, rumus itu cuma 'bahasa' buat menjelaskan sesuatu yang jauh lebih besar. Hakikat ilmu fisika sebenarnya adalah cara pandang untuk memahami bagaimana alam semesta ini bekerja.",
+          "Para ilmuwan membagi hakikat fisika menjadi 3 pilar utama: [Fisika sebagai Produk](/materi/fisika-sebagai-produk), [Fisika sebagai Proses](/materi/fisika-sebagai-proses), dan [Fisika sebagai Sikap](/materi/fisika-sebagai-sikap). Let's spill the details!"
+        ]
+      }
+    ]
   },
   { heading: "🌱 Apa yang Dimaksud Hakikat Ilmu Fisika?", 
     blocks: [
@@ -29,6 +37,10 @@ const hakikatIlmuFisika = {
   },
   { heading: "🧩 Tiga Pilar Hakikat Fisika", 
     blocks: [
+      {
+        type: "image",
+        src: img2
+      },
       {
         type: "list",
         list: {

@@ -55,8 +55,7 @@ const metodeIlmiah = {
       {
         type: "paragraph",
         text: [
-          "Kalau di dunia ini tidak ada metode ilmiah, pengetahuan manusia bakal dipenuhi oleh dugaan, prasangka, bias kognitif, atau klaim sepihak.",
-          "Seseorang bisa saja bilang kalau 'Bumi itu berbentuk segitiga bermuda' tanpa ada yang bisa membantahnya secara objektif.",
+          "Kalau di dunia ini tidak ada metode ilmiah, pengetahuan manusia bakal dipenuhi oleh dugaan, prasangka, bias kognitif, atau klaim sepihak. Seseorang bisa saja bilang kalau 'Bumi itu berbentuk segitiga bermuda' tanpa ada yang bisa membantahnya secara objektif.",
           "Nah, dengan adanya metode ilmiah, setiap kesimpulan wajib hukumnya didukung oleh data valid yang dapat diuji dan diulang (replicable) oleh siapa pun, kapan pun, dan di mana pun di belahan bumi ini."
         ]
       }
@@ -115,12 +114,9 @@ const metodeIlmiah = {
       {
         type: "paragraph",
         text: [
-          "Di film-film, ilmuwan kelihatan gampang banget eksperimen langsung berhasil.",
-          "Tapi realitanya, penelitian tidak selalu berjalan mulus sesuai rencana, bro!",
-          "Sering kali hasil eksperimen di lapangan justru tidak mendukung hipotesis awal kita.",
+          "Di film-film, ilmuwan kelihatan gampang banget eksperimen langsung berhasil. Tapi realitanya, penelitian tidak selalu berjalan mulus sesuai rencana. Sering kali hasil eksperimen di lapangan justru tidak mendukung hipotesis awal kita.",
           "Apakah itu artinya gagal? Tentu tidak!",
-          "Ketika hal itu terjadi, para ilmuwan akan memperbaiki hipotesis mereka atau merancang metode eksperimen baru yang lebih presisi.",
-          "Siklus trial and error yang berulang-ulang inilah yang justru membuat ilmu sains terus berkembang dinamis tanpa henti!"
+          "Ketika hal itu terjadi, para ilmuwan akan memperbaiki hipotesis mereka atau merancang metode eksperimen baru yang lebih presisi. Siklus trial and error yang berulang-ulang inilah yang justru membuat ilmu sains terus berkembang dinamis tanpa henti!",
         ]
       }
     ]
@@ -131,8 +127,7 @@ const metodeIlmiah = {
         type: "paragraph",
         text: [
           "Eits, jangan salah sangka.",
-          "Metode ilmiah itu bukan cuma konsumsi eksklusif ilmuwan berjas putih di dalam lab rahasia, lho.",
-          "Pola pikir ini dipakai setiap hari oleh berbagai profesi modern:"
+          "Metode ilmiah itu bukan cuma konsumsi eksklusif ilmuwan berjas putih di dalam lab rahasia, lho. Pola pikir ini dipakai setiap hari oleh berbagai profesi modern:",
         ]
       },
       {
@@ -157,7 +152,7 @@ const metodeIlmiah = {
       }
     ]
   },
-  { heading: "💡 Tahukah Kamu?", 
+  { heading: "🌟 *Fun Fact*", 
     blocks: [
       {
         type: "paragraph",
@@ -175,27 +170,9 @@ const metodeIlmiah = {
           "'Langkah metode ilmiah itu harga mati, kaku, dan urutannya gak boleh ketukar sama sekali!' ❌",
           "Gak, gitu!",
           "Metode ilmiah bukanlah sebuah aturan yang kaku atau checklist saklek tanpa fleksibilitas.",
-          "Urutan langkah di atas bisa banget disesuaikan dengan jenis medan penelitian yang kamu hadapi.",
-          "Namun, prinsip utamanya tetap sama dan tidak boleh ditawar: wajib menggunakan bukti valid yang dapat diuji secara empiris!"
+          "Urutan langkah di atas bisa banget disesuaikan dengan jenis medan penelitian yang kamu hadapi. Namun, prinsip utamanya tetap sama dan tidak boleh ditawar: wajib menggunakan bukti valid yang dapat diuji secara empiris!",
         ]
        },
-    ]
-  },
-  { heading: "📊 Ringkasan Konsep", 
-    blocks: [
-      { type: "paragraph", 
-        text: [
-          "Pertanyaan",
-          "⬇️",
-          "Penyelidikan",
-          "⬇️",
-          "Data",
-          "⬇️",
-          "Kesimpulan",
-          "⬇️",
-          "Pengetahuan Baru"
-        ]
-      }
     ]
   },
   { heading: "✨ Inti Materi *(Takeaway Message)*", 
