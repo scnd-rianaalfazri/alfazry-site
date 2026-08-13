@@ -176,7 +176,7 @@ const lift = {
       ]
     },
     {
-      heading: "⚠️ Miskonsepsi & Fact Check",
+      heading: "⚠️ Miskonsepsi",
       blocks: [
         {
           type: "list",

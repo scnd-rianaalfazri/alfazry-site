@@ -102,10 +102,10 @@ const fisikaSebagaiProduk = {
                 "Persamaan matematika yang rumit",
                 "Simulasi grafis komputer"
               ]
-            },
+            }
           ]
         }
-      },
+      }
     ]
   },
   { heading: "🌍 Mengapa Produk Fisika Penting?", 

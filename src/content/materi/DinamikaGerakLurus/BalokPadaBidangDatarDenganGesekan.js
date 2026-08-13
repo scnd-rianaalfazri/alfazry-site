@@ -5,7 +5,8 @@ const balokPadaBidangDatarGesekan = {
   chapter: "🚀 Dinamika Gerak Lurus",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
         {
           type: "paragraph",
           text: [

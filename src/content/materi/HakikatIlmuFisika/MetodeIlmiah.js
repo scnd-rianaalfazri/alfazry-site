@@ -1,3 +1,6 @@
+import img1 from "/src/assets/Materi/HakikatIlmuFisika/metode-ilmiah1.png"
+import img2 from "/src/assets/Materi/HakikatIlmuFisika/metode-ilmiah2.png"
+
 const metodeIlmiah = {
   title: "Metode Ilmiah",
   slug: "metode-ilmiah",
@@ -5,39 +8,45 @@ const metodeIlmiah = {
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
 
   content: [
+
+    
   {
     blocks: [
-    {
-      type: "paragraph",
-      text: [
-        "🕵️‍♂️ Kisah Dua Paradigma: Siapa yang Paling Sahih?",
-        "Bayangkan ada dua orang temanmu yang sedang jalan-jalan di taman, lalu mereka menyadari sesuatu yang aneh:",
-        "Mengapa tanaman A tumbuh subur dan tinggi banget, sedangkan tanaman B di sebelahnya bantet dan layu?",
-      ]
-    },
-    {
-      type: "list",
-      list:{
-        type: "unordered",
-        items: [
-          {
-            text: "Orang pertama langsung nyeletuk tanpa mikir panjang: 'Ah, itu mah karena pupuknya lebih mahal dan bagus aja!'"
-          },
-          {
-            text: "Orang kedua tidak langsung percaya. Dia mulai mengamati jenis tanahnya, mencatat intensitas cahaya matahari, mengukur debit air penyiraman, lalu iseng melakukan percobaan kecil dengan menukar variabelnya."
-          }
+      {
+        type: "image",
+        src: img1
+      },
+      {
+        type: "paragraph",
+        text: [
+          "Bayangkan, jika ada dua orang temanmu yang sedang jalan-jalan di taman, lalu mereka menyadari sesuatu yang aneh.",
+          "Mengapa tanaman A tumbuh subur dan tinggi banget, sedangkan tanaman B di sebelahnya bantet dan layu?",
+        ]
+      },
+      {
+        type: "list",
+        list:{
+          type: "unordered",
+          items: [
+            {
+              text: "Orang pertama langsung nyeletuk tanpa mikir panjang: 'Ah, itu mah karena pupuknya lebih mahal dan bagus aja!'"
+            },
+            {
+              text: "Orang kedua tidak langsung percaya. Dia mulai mengamati jenis tanahnya, mencatat intensitas cahaya matahari, mengukur debit air penyiraman, lalu iseng melakukan percobaan kecil dengan menukar variabelnya."
+            }
+          ]
+        }
+      },
+      {
+        type: "paragraph",
+        text: [
+          "Sekarang coba tebak, siapa di antara kedua orang tersebut yang lebih mungkin memperoleh jawaban yang benar dan dapat dipercaya?",
+          "Tentu saja orang kedua!",
+          "Mengapa?",
+          "Karena dia tidak memakai asumsi kosong, melainkan menggunakan sebuah fondasi berpikir yang dinamakan Metode Ilmiah."
         ]
       }
-    },
-    {
-      type: "paragraph",
-      text: [
-        "Sekarang coba tebak, siapa di antara kedua orang tersebut yang lebih mungkin memperoleh jawaban yang benar dan dapat dipercaya?",
-        "Tentu saja orang kedua!",
-        "Mengapa?",
-        "Karena dia tidak memakai asumsi kosong, melainkan menggunakan sebuah fondasi berpikir yang dinamakan Metode Ilmiah."
-      ]
-    }]
+    ]
   },
   { heading: "🔍 Apa Itu Metode Ilmiah?", 
     blocks: [
@@ -71,45 +80,51 @@ const metodeIlmiah = {
         ]
       },
       {
-        type: "list",
-        list: {
-          type: "ordered",
-          items: [
-            {
-              text: "👀 Observasi",
-              description: "Mengamati fenomena unik atau aneh di sekitar kita menggunakan indra atau alat ukur."
+        type: "carousel",
+        carousel: {
+          cards: [
+            { 
+              eyebrow: "LANGKAH-LANGKAH METODE ILMIAH",
+              title: "👀 Observasi",
+              text: "Mengamati fenomena unik atau aneh di sekitar kita menggunakan indra atau alat ukur."
             },
-            {
-              text: "❓ Merumuskan Masalah",
-              description: "Menyusun pertanyaan kritis tentang mengapa dan bagaimana fenomena itu bisa terjadi."
+            { 
+              eyebrow: "LANGKAH-LANGKAH METODE ILMIAH",
+              title: "❓ Merumuskan Masalah",
+              text: "Menyusun pertanyaan kritis tentang mengapa dan bagaimana fenomena itu bisa terjadi."
+            },  
+            { 
+              eyebrow: "LANGKAH-LANGKAH METODE ILMIAH",
+              title: "💭 Menyusun Hipotesis",
+              text: "Membuat dugaan ilmiah sementara yang masuk akal untuk menjawab pertanyaan tersebut."
             },
-            {
-              text: "💭 Menyusun Hipotesis",
-              description: "Membuat dugaan ilmiah sementara yang masuk akal untuk menjawab pertanyaan tersebut."
+            { 
+              eyebrow: "LANGKAH-LANGKAH METODE ILMIAH",
+              title: "🧪 Melakukan Eksperimen",
+              text: "Menguji hipotesis di laboratorium atau lapangan dengan mengontrol berbagai variabel (bebas, terikat, dan kontrol)."
             },
-            {
-              text: "🧪 Melakukan Eksperimen",
-              description: "Menguji hipotesis di laboratorium atau lapangan dengan mengontrol berbagai variabel (bebas, terikat, dan kontrol)."
+            { 
+              eyebrow: "LANGKAH-LANGKAH METODE ILMIAH",
+              title: "📊 Menganalisis Data",
+              text: "Mengolah data hasil eksperimen menjadi grafik, tabel, atau statistik agar polanya terlihat jelas."
             },
-            {
-              text: "📊 Menganalisis Data",
-              description: "Mengolah data hasil eksperimen menjadi grafik, tabel, atau statistik agar polanya terlihat jelas."
+            { 
+              eyebrow: "LANGKAH-LANGKAH METODE ILMIAH",
+              title: "📖 Menarik Kesimpulan",
+              text: "Memutuskan apakah data yang didapat mendukung hipotesis atau justru mematahkannya."
             },
-            {
-              text: "📖 Menarik Kesimpulan",
-              description: "Memutuskan apakah data yang didapat mendukung hipotesis atau justru mematahkannya."
-            },
-            {
-              text: "📢 Mengomunikasikan Hasil",
-              description: "Membagikan temuan kerenmu ke publik atau jurnal ilmiah agar bisa dievaluasi dan bermanfaat bagi peradaban."
-            },
+            { 
+              eyebrow: "LANGKAH-LANGKAH METODE ILMIAH",
+              title: "📢 Mengomunikasikan Hasil",
+              text: "Membagikan temuan kerenmu ke publik atau jurnal ilmiah agar bisa dievaluasi dan bermanfaat bagi peradaban."
+            }
           ]
         }
       }
     ]
-
   },
-  { heading: "🔄 Mengapa Tidak Selalu Berjalan Lurus?", 
+  { 
+    heading: "🔄 Mengapa Tidak Selalu Berjalan Lurus?", 
     blocks: [
       {
         type: "paragraph",
@@ -121,8 +136,13 @@ const metodeIlmiah = {
       }
     ]
   },
-  { heading: "🌍 Contoh dalam Kehidupan", 
+  { 
+    heading: "🌍 Contoh dalam Kehidupan", 
     blocks: [
+      {
+        type: "image",
+        src: img2
+      },
       {
         type: "paragraph",
         text: [
@@ -152,7 +172,8 @@ const metodeIlmiah = {
       }
     ]
   },
-  { heading: "🌟 *Fun Fact*", 
+  { 
+    heading: "🌟 *Fun Fact*", 
     blocks: [
       {
         type: "paragraph",
@@ -163,19 +184,22 @@ const metodeIlmiah = {
       }
     ]
   },
-  { heading: "⚠️ Miskonsepsi", 
+  { 
+    heading: "⚠️ Miskonsepsi", 
     blocks: [
-      { type: "paragraph", 
+      { 
+        type: "paragraph", 
         text: [
           "'Langkah metode ilmiah itu harga mati, kaku, dan urutannya gak boleh ketukar sama sekali!' ❌",
           "Gak, gitu!",
-          "Metode ilmiah bukanlah sebuah aturan yang kaku atau checklist saklek tanpa fleksibilitas.",
+          "Metode ilmiah bukanlah sebuah aturan yang kaku atau checklist saklek tanpa fleksibilitas. ✔️",
           "Urutan langkah di atas bisa banget disesuaikan dengan jenis medan penelitian yang kamu hadapi. Namun, prinsip utamanya tetap sama dan tidak boleh ditawar: wajib menggunakan bukti valid yang dapat diuji secara empiris!",
         ]
        },
     ]
   },
-  { heading: "✨ Inti Materi *(Takeaway Message)*", 
+  { 
+    heading: "✨ Inti Materi", 
     blocks: [
       {
         type: "paragraph",
@@ -245,49 +269,50 @@ const metodeIlmiah = {
             answerIndex: 2
           }],
           scoring: [
-          {
-            min: 5,
-            max: 5,
-            emoji: "🏆",
-            title: "Mission Complete!",
-            message: "Kamu siap memasuki portal berikutnya."
-          },
-          {
-            min: 4,
-            max: 4,
-            emoji: "🚀",
-            title: "Hampir Sempurna",
-            message: "Pemahamanmu sudah sangat baik."
-          },
-          {
-            min: 2,
-            max: 3,
-            emoji: "🔄",
-            title: "Perlu Sedikit Lagi",
-            message: "Coba eksplorasi lagi bagian inti materi."
-          },
-          {
-            min: 0,
-            max: 1,
-            emoji: "📖",
-            title: "Ulangi Petualangan",
-            message: "Tenang, ulangi petualanganmu dari awal."
-          }]
+            {
+              min: 5,
+              max: 5,
+              emoji: "🏆",
+              title: "Mission Complete!",
+              message: "Kamu siap memasuki portal berikutnya."
+            },
+            {
+              min: 4,
+              max: 4,
+              emoji: "🚀",
+              title: "Hampir Sempurna",
+              message: "Pemahamanmu sudah sangat baik."
+            },
+            {
+              min: 2,
+              max: 3,
+              emoji: "🔄",
+              title: "Perlu Sedikit Lagi",
+              message: "Coba eksplorasi lagi bagian inti materi."
+            },
+            {
+              min: 0,
+              max: 1,
+              emoji: "📖",
+              title: "Ulangi Petualangan",
+              message: "Tenang, ulangi petualanganmu dari awal."
+            }
+          ]
         }
       }
     ]
   },
   {
-    link: "/materi/merancang-eksperimen",
     blocks: [
-    {
-      type: "paragraph",
-      text: [
-        "Kita sekarang sudah mengantongi semua tangga tahapan dalam metode ilmiah.",
-        "Nah, gimana sih taktik riil untuk menyusun variabel dan mengeksekusi sebuah pengujian di lapangan secara presisi?",
-        "➡️ Next, kita menuju portal: Merancang Eksperiment"
-      ]
-    }]
+      {
+        type: "paragraph",
+        text: [
+          "Kita sekarang sudah mengantongi semua tangga tahapan dalam metode ilmiah.",
+          "Nah, gimana sih taktik riil untuk menyusun variabel dan mengeksekusi sebuah pengujian di lapangan secara presisi?",
+          "➡️ Next, kita menuju portal: Merancang Eksperimen"
+        ]
+      }
+    ]
   },
   { heading: "Referensi:", 
     blocks: [

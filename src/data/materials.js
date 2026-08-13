@@ -97,6 +97,8 @@ import EksplorasiFenomenaDinamikaGerakLurus from "../content/materi/DinamikaGera
 import PenutupDinamikaGerakLurus from "../content/materi/DinamikaGerakLurus/PengantarDinamikaGerakLurus.js"
 
 /* dinamika gerak melingkar */
+import PengantarDinamikaGerakMelingkar from "../content/materi/DinamikaGerakMelingkar/PengantarDinamikaGerakMelingkar.js"
+import GayaSentripetal from "../content/materi/DinamikaGerakMelingkar/GayaSentripetal.js"
 
 /* dinamika momentum dan impuls */
 
@@ -581,7 +583,8 @@ export const materials = [
   PenutupDinamikaGerakLurus,
   
   /* Chapter : Dinamika Gerak Melingkar */
-
+  PengantarDinamikaGerakMelingkar,
+  GayaSentripetal,
 
   /* Chapter : Dinamika Momentum dan Impuls */
  
