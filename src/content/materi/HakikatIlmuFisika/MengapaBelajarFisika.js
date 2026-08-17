@@ -1,9 +1,10 @@
-import tegangan from "../ElastisitasDanHukumHooke/Tegangan"
+import { caption, image, link } from "framer-motion/client"
 import img1 from "/src/assets/Materi/HakikatIlmuFisika/mengapa-belajar-fisika1.png"
 import img2 from "/src/assets/Materi/HakikatIlmuFisika/mengapa-belajar-fisika2.png"
 import img3 from "/src/assets/Materi/HakikatIlmuFisika/mengapa-belajar-fisika3.png"
 import img4 from "/src/assets/Materi/HakikatIlmuFisika/mengapa-belajar-fisika4.png"
 import img5 from "/src/assets/Materi/HakikatIlmuFisika/mengapa-belajar-fisika5.png"
+import img6 from "/src/assets/Materi/HakikatIlmuFisika/portal-apa-itu-fisika.png"
 
 const mengapaBelajarFisika = {
   title: "Mengapa Belajar Fisika?",
@@ -311,9 +312,14 @@ const mengapaBelajarFisika = {
         text: [
           "Sekarang kita udah tau kan? Secara tidak sadar fisika juga ada disekitar kita.",
           "Lalu sebenarnya...",
-          "Apa yang dipelajari dalam fisika?",
-          "➡️ Next, kita menuju portal: [**Apa Itu Fisika?**](/materi/apa-itu-fisika)"
+          "Apa yang dipelajari dalam fisika?"
         ]
+      },
+      {
+        type: "image",
+        src: img6,
+        caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+        link: "/materi/apa-itu-fisika"
       }
     ]
   },

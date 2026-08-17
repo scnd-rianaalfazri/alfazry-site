@@ -3,6 +3,7 @@ import img2 from "/src/assets/Materi/HakikatIlmuFisika/apa-itu-fisika2.png"
 import img3 from "/src/assets/Materi/HakikatIlmuFisika/apa-itu-fisika3.png"
 import img4 from "/src/assets/Materi/HakikatIlmuFisika/apa-itu-fisika4.png"
 import img5 from "/src/assets/Materi/HakikatIlmuFisika/apa-itu-fisika5.png"
+import img6 from "/src/assets/Materi/HakikatIlmuFisika/portal-apa-itu-fisika.png"
 
 const apaItuFisika = {
   title: "Apa Itu Fisika?",
@@ -423,8 +424,13 @@ const apaItuFisika = {
         text: [
           "Mungkin, sekarang kamu sudah apa itu fisika serta cabang-cabang serunya.",
           "Namun, setelah tahu objek kajiannya, apa sebenarnya esensi atau 'Hakikat' dari ilmu fisika itu sendiri bagi peradaban?",
-          "➡️ Next, kita menuju portal: [**Hakikat Ilmu Fisika.**](/materi/hakikat-ilmu-fisika)"
         ]
+      },
+      {
+        type: "image",
+        src: img6,
+        caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+        link: "/materi/hakikat-ilmu-fisika"
       }
     ]
   },

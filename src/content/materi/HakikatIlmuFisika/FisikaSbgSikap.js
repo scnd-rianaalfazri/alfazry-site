@@ -1,5 +1,6 @@
 import img1 from "/src/assets/Materi/HakikatIlmuFisika/fisika-sebagai-sikap1.png"
 import img2 from "/src/assets/Materi/HakikatIlmuFisika/fisika-sebagai-sikap2.png"
+import img3 from "/src/assets/Materi/HakikatIlmuFisika/portal-ruang-lingkup-fisika.png"
 
 const fisikaSebagaiSikap = {
   title: "Fisika sebagai Sikap",
@@ -325,9 +326,14 @@ const fisikaSebagaiSikap = {
           type: "paragraph",
           text: [
             "Apakah kamu memahami apa itu sikap ilmiah sebagai salah satu pilar hakikat fisika?",
-            "Namun, setelah memiliki sikap ini, apa saja sih kapling atau bidang luas yang dipelajari di dalam fisika?",
-            "➡️ Next, kita menuju portal: [Ruang Lingkup Fisika.](/materi/ruang-lingkup-fisika)"
+            "Namun, setelah memiliki sikap ini, apa saja sih kapling atau bidang luas yang dipelajari di dalam fisika?"
           ]
+        },
+        {
+          type: "image",
+          src: img3,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/ruang-lingkup-fisika"
         }
       ]
     },

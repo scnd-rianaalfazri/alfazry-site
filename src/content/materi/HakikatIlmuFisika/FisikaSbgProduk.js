@@ -1,5 +1,6 @@
 import img1 from "/src/assets/Materi/HakikatIlmuFisika/fisika-sebagai-produk1.png"
 import img2 from "/src/assets/Materi/HakikatIlmuFisika/fisika-sebagai-produk2.png"
+import img3 from "/src/assets/Materi/HakikatIlmuFisika/portal-fisika-sebagai-proses.png"
 
 const fisikaSebagaiProduk = {
   title: "Fisika sebagai Produk",
@@ -278,8 +279,13 @@ const fisikaSebagaiProduk = {
         text: [
           "Sekarang kamu sudah tahu, kan? Apa saja wujud 'produk' yang dihasilkan dalam fisika?",
           "Tapi, bagaimana cara para ilmuwan terdahulu bisa memproses dan menemukan semua rumus, hukum, dan teori keren ini?",
-          "➡️ *Next,* kita menuju portal: [Fisika sebagai Proses.](/materi/fisika-sebagai-proses)"
         ]
+      },
+      {
+        type: "image",
+        src: img3,
+        caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+        link: "/materi/fisika-sebagai-proses"
       }
     ]
   },

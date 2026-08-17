@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/HakikatIlmuFisika/portal-kesimpulan-dan-komunikasi-ilmiah.png"
+
 const mengolahData = {
   title: "Mengolah dan Menafsirkan Data",
   slug: "mengolah-dan-menafsirkan-data",
@@ -270,9 +272,13 @@ const mengolahData = {
       {
         type: "paragraph",
         text: [
-          "Setelah data berhasil dianalisis, saatnya menyusun kesimpulan dan mengomunikasikan hasil penelitian.",
-          "➡️ Next, kita menuju portal: [**Kesimpulan & Komunikasi Ilmiah**](/materi/kesimpulan-komunikasi-ilmiah)."
+          "Setelah data berhasil dianalisis, saatnya menyusun kesimpulan dan mengomunikasikan hasil penelitian."
         ]
+      },
+      {
+        type: "image",
+        src: img1,
+        link: "/materi/kesimpulan-komunikasi-ilmiah"
       }
     ]
   },

@@ -1,5 +1,6 @@
 import img1 from "/src/assets/Materi/HakikatIlmuFisika/hakikat-ilmu-fisika1.png"
 import img2 from "/src/assets/Materi/HakikatIlmuFisika/hakikat-ilmu-fisika2.png"
+import img3 from "/src/assets/Materi/HakikatIlmuFisika/portal-fisika-sebagai-produk.png"
 
 const hakikatIlmuFisika = {
   title: "Hakikat Ilmu Fisika",
@@ -254,6 +255,12 @@ const hakikatIlmuFisika = {
           "Sekarang kita akan mempelajari pilar pertama.",
           "➡️ Next, kita menuju portal: [**Fisika sebagai Produk.**](/materi/fisika-sebagai-produk)"
         ]
+      },
+      {
+        type: "image",
+        src: img3,
+        caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+        link: "/materi/fisika-sebagai-produk"
       }
     ]
   },

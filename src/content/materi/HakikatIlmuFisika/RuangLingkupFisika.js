@@ -1,5 +1,6 @@
 import img1 from "/src/assets/Materi/HakikatIlmuFisika/ruang-lingkup-fisika1.png"
 import img2 from "/src/assets/Materi/HakikatIlmuFisika/ruang-lingkup-fisika2.png"
+import img3 from "/src/assets/Materi/HakikatIlmuFisika/portal-metode-ilmiah.png"
 
 const ruangLingkupFisika = {
   title: "Ruang Lingkup Fisika",
@@ -315,9 +316,14 @@ const ruangLingkupFisika = {
         type: "paragraph",
         text: [
           "Kita sudah mengetahui apa saja yang dipelajari dalam fisika.",
-          "Namun, bagaimana ilmuwan memperoleh semua pengetahuan tersebut?",
-          "➡️ Next, kita menuju portal: [Metode Ilmiah](/materi/metode-ilmiah)."
+          "Namun, bagaimana ilmuwan memperoleh semua pengetahuan tersebut?"
         ]
+      },
+      {
+        type: "image",
+        src: img3,
+        caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+        link: "/materi/metode-ilmiah"
       }
     ]
   },

@@ -1,5 +1,6 @@
 import img1 from "/src/assets/Materi/HakikatIlmuFisika/metode-ilmiah1.png"
 import img2 from "/src/assets/Materi/HakikatIlmuFisika/metode-ilmiah2.png"
+import img3 from "/src/assets/Materi/HakikatIlmuFisika/portal-merancang-eksperimen.png"
 
 const metodeIlmiah = {
   title: "Metode Ilmiah",
@@ -308,9 +309,14 @@ const metodeIlmiah = {
         type: "paragraph",
         text: [
           "Kita sekarang sudah mengantongi semua tangga tahapan dalam metode ilmiah.",
-          "Nah, gimana sih taktik riil untuk menyusun variabel dan mengeksekusi sebuah pengujian di lapangan secara presisi?",
-          "➡️ Next, kita menuju portal: Merancang Eksperimen"
+          "Nah, gimana sih taktik riil untuk menyusun variabel dan mengeksekusi sebuah pengujian di lapangan secara presisi?"
         ]
+      },
+      {
+        type: "image",
+        src: img3,
+        caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+        link: "/materi/merancang-eksperimen"
       }
     ]
   },

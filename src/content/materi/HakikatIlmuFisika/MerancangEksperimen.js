@@ -1,3 +1,8 @@
+import { link } from "framer-motion/client";
+import img1 from "/src/assets/Materi/HakikatIlmuFisika/merancang-eksperimen1.png"
+import img2 from "/src/assets/Materi/HakikatIlmuFisika/merancang-eksperimen2.png"
+import img3 from "/src/assets/Materi/HakikatIlmuFisika/portal-mengolah-dan-menafsirkan-data.png"
+
 const merancangEksperimen = {
   title: "Merancang Eksperimen",
   slug: "merancang-eksperimen",
@@ -7,6 +12,10 @@ const merancangEksperimen = {
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
         type: "paragraph",
         text: [
@@ -66,157 +75,80 @@ const merancangEksperimen = {
       {
         type: "paragraph",
         text: "Agar hasil percobaanmu sah, dipercaya, dan tidak didebat oleh komunitas sains, kamu harus mengenali tiga jenis variabel berikut ini 👇"
-      }
-    ]
-  },
-  { heading: "🟢 Variabel Bebas", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Ini adalah faktor atau kondisi yang sengaja diubah-ubah atau dimanipulasi oleh kamu sebagai peneliti sejak awal.",
-          "Kamu yang memegang kendali penuh atas perubahan ini."
-        ]
       },
       {
-        type: "list",
-        list: {
-          type: "unordered",
-          items: [
+        type: "carousel",
+        carousel: {
+          cards: [
             {
-              text: "Contoh kasus pada bandul",
-              description: "Panjang tali bandul (misal divariasi dari 20 cm, 40 cm, hingga 60 cm)."
+              eyebrow: "JENIS-JENIS VARIABEL PENELITIAN",
+              title: "🟢 Variabel Bebas",
+              text: "Ini adalah faktor atau kondisi yang sengaja diubah-ubah atau dimanipulasi oleh kamu sebagai peneliti sejak awal. Kamu yang memegang kendali penuh atas perubahan ini.",
+              description: [
+                "Contoh:",
+                "**Kasus pada Bandul**",
+                "Panjang tali bandul (misal divariasi dari 20 cm, 40 cm, hingga 60 cm)."
+              ]
+            },
+            {
+              eyebrow: "JENIS-JENIS VARIABEL PENELITIAN",
+              title: "🔵 Variabel Terikat",
+              text: "Ini adalah hasil akhir atau respons yang diamati, diukur, dan dicatat. Variabel ini nilainya berubah justru karena adanya pengaruh dari variabel bebas tadi.",
+              description: [
+                "Contoh:",
+                "**Kasus pada Bandul**",
+                "Periode ayunan bandul (waktu yang dibutuhkan untuk satu getaran penuh)."
+              ]
+            },
+            {
+              eyebrow: "JENIS-JENIS VARIABEL PENELITIAN",
+              title: "🟡 Variabel Kontrol",
+              text: "Ini adalah faktor-faktor luar yang wajib dijaga tetap sama, konisten, dan tidak boleh berubah sepanjang pengujian dilakukan. Tujuannya? Biar adil!",
+              description: [
+                "Contoh",
+                "**Kasus pada Bandul**",
+                "Massa beban bandul, sudut awal tarikan ayunan, serta lokasi/ruangan percobaan."
+              ]
             }
           ]
         }
       }
     ]
   },
-  { heading: "🔵 Variabel Terikat", 
+  { heading: "⚖️ Mengapa Harus *Fair Test*?", 
     blocks: [
       {
-        type: "paragraph",
-        text: [
-          "Ini adalah hasil akhir atau respons yang diamati, diukur, dan dicatat.",
-          "Variabel ini nilainya berubah justru karena adanya pengaruh dari variabel bebas tadi."
-        ]
+        type: "image",
+        src: img2
       },
       {
-        type: "list",
-        list: {
-          type: "unordered",
-          items: [
-            {
-              text: "Contoh pada kasus bandul",
-              description: "Periode ayunan bandul (waktu yang dibutuhkan untuk satu getaran penuh)."
-            }
-          ]
-        }
-      }
-    ]
-  },
-  { heading: "🟡 Variabel Kontrol", 
-    blocks: [
-      {
         type: "paragraph",
         text: [
-          "Ini adalah faktor-faktor luar yang wajib dijaga tetap sama, konisten, dan tidak boleh berubah sepanjang pengujian dilakukan.",
-          "Tujuannya? Biar adil!"
-        ]
-      },
-      {
-        type: "list",
-        list: {
-          type: "unordered",
-          items: [
-            {
-              text: "Contoh pada kasus bandul",
-              description: "Massa beban bandul, sudut awal tarikan ayunan, serta lokasi/ruangan percobaan."
-            }
-          ]
-        }
-      }
-    ]
-
-  },
-  { heading: "⚖️ Mengapa Harus Fair Test?", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Eksperimen yang keren dan ideal menerapkan prinsip Fair Test.",
-          "Artinya, hanya ada satu variabel bebas saja yang diubah dalam satu waktu.",
-          "Bayangkan kalau kamu mengubah panjang tali sekaligus mengganti massa bandulnya secara bersamaan.",
+          "Eksperimen yang keren dan ideal menerapkan prinsip *Fair Test*. Artinya, hanya ada satu variabel bebas saja yang diubah dalam satu waktu.Bayangkan kalau kamu mengubah panjang tali sekaligus mengganti massa bandulnya secara bersamaan.",
           "Pas hasil ayunannya berubah, kamu pasti bakal pusing sendiri: 'Ini ayunannya berubah gara-gara talinya memendek atau gara-gara bebannya makin berat ya?'",
           "Tuh kan, kalau terlalu banyak faktor yang berubah sekaligus, kita bakal kehilangan jejak penyebab asli dari perubahan hasil tersebut."
         ]
       }
     ]
   },
-  { heading: "🌍 Contoh Rancangan Eksperimen", 
+  {
+    heading: "🌍 Contoh dalam Kehidupan",
     blocks: [
       {
         type: "paragraph",
         text: [
-          "Pertanyaan:",
-          "Apakah panjang tali memengaruhi periode bandul?",
-          "Mari kita breakdown rencana pengujian kita ke dalam struktur rancangan yang rapi:"
-        ],
-      },
-      {
-        type: "list",
-        list: {
-          type: "ordered",
-          items: [
-            {
-              text: "Pertanyaan Utama",
-              description: "Apakah panjang tali memengaruhi periode suatu bandul?"
-            },
-            {
-              text: "Variabel Bebas",
-              description: "Panjang tali bandul."
-            },
-            {
-              text: "Variabel Terikat",
-              description: "Periode atau waktu ayunan."
-            },
-            {
-              text: "Variabel Kontrol",
-              description: "Massa bandul, besar sudut ayunan, dan lokasi pengujian."
-            },      
-          ]
-        }
-      }
-    ]
-  },
-  { heading:  "💡 Tahukah Kamu?", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Ilmuwan profesional di dunia nyata jarang banget puas cuma dengan melakukan satu kali percobaan.",
-          "Mereka biasanya melakukan beberapa kali pengulangan (repetition) pada variasi yang sama.",
-          "Kenapa?",
-          "Biar datanya makin meyakinkan, menekan tingkat galat (error), dan membuktikan kalau hasilnya bukan cuma kebetulan atau keberuntungan semata!"
+          "Ternyata prinsip merancang eksperimen dan *fair test* tidak cuma berlaku di laboratorium. Dalam kehidupan sehari-hari, kita sering melakukan eksperimen kecil tanpa sadar.",
+          "Misalnya, kamu ingin tahu: **apakah jenis tanah memengaruhi pertumbuhan tanaman?**",
+          "Kamu menanam jenis tanaman yang sama pada dua pot dengan jenis tanah yang berbeda. Setelah beberapa hari, kamu mengukur tinggi tanaman dan membandingkan hasilnya.",
+          "Tapi tunggu dulu. Kalau tanaman pertama mendapat lebih banyak air, lebih banyak cahaya, atau menggunakan pot yang berbeda ukuran, apakah perbandingannya masih adil?",
+          "Agar eksperimennya fair, kamu perlu membuat kondisi lainnya tetap sama. Jenis tanaman, ukuran pot, jumlah air, lama penyinaran, dan waktu pengamatan harus dikendalikan.",
+          "Dengan begitu, ketika pertumbuhan kedua tanaman berbeda, kamu punya alasan yang lebih kuat untuk mengatakan bahwa **jenis tanah kemungkinan memengaruhi pertumbuhan tanaman**.",
+          "Inilah cara berpikir ilmiah bekerja dalam kehidupan sehari-hari yaitu ubah satu hal, kendalikan hal lainnya, amati hasilnya, lalu tarik kesimpulan berdasarkan data."
         ]
       }
     ]
   },
-  { heading: "⚠️ Miskonsepsi", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "'Makin banyak variabel yang gue ubah dan mainkan sekaligus, berarti eksperimen gue makin canggih dan kelihatan pro!' ❌",
-          "Gak gitu!",
-          "Mengubah banyak variabel acak secara bersamaan tidak akan membuat eksperimenmu naik level.",
-          "Justru itu bakal bikin data yang terkumpul jadi bias, bertabrakan, dan super sulit buat dianalisis.",
-          "Keep it simple, track one thing at a time!"
-        ]
-      }
-    ]
-  },
-  { heading: "✨ Inti Materi (Takeaway Message)", 
+  { heading: "✨ Inti Materi", 
     blocks: [
       {
         type: "paragraph",
@@ -230,61 +162,62 @@ const merancangEksperimen = {
         type: "quickCheck",
         data: {
           questions: [
-          {
-            question: "Tujuan utama melakukan eksperimen adalah....",
-            options: [
-              "Menghafal langkah-langkah praktikum.",
-              "Menguji hipotesis melalui percobaan yang terencana.",
-              "Membuktikan bahwa semua hipotesis pasti benar.",
-              "Menghasilkan alat laboratorium baru.",
-              "Mengurangi jumlah data yang dikumpulkan."
-            ],
-            answerIndex: 1
-          },
-          {
-            question: "Dalam eksperimen tentang pengaruh panjang tali terhadap periode ayunan bandul, variabel bebas adalah....",
-            options: [
-              "Massa bandul.",
-              "Sudut awal ayunan.",
-              "Periode ayunan bandul.",
-              "Panjang tali bandul.",
-              "Lokasi percobaan."
-            ],
-            answerIndex: 3
-          },
-          {
-            question: "Manakah yang merupakan variabel terikat pada eksperimen bandul?",
-            options: [
-              "Panjang tali.",
-              "Massa bandul.",
-              "Periode ayunan bandul.",
-              "Jenis tali yang digunakan.",
-              "Suhu ruangan."
-            ],
-            answerIndex: 2
-          },
-          {
-            question: "Mengapa variabel kontrol perlu dijaga tetap selama eksperimen?",
-            options: [
-              "Agar percobaan selesai lebih cepat.",
-              "Agar hasil percobaan terlihat lebih menarik.",
-              "Agar pengaruh variabel bebas terhadap hasil dapat diamati dengan adil.",
-              "Agar tidak perlu melakukan pengukuran.",
-              "Agar semua hipotesis terbukti benar."]
-              ,
-            answerIndex: 2
-          },
-          {
-            question: "Pernyataan yang benar mengenai fair test adalah....",
-            options: [
-              "Semua variabel harus diubah secara bersamaan.",
-              "Variabel terikat harus dibuat tetap.",
-              "Eksperimen cukup dilakukan satu kali tanpa pengulangan.",
-              "Hasil eksperimen harus selalu sesuai dengan hipotesis.",
-              "Hanya satu variabel bebas yang diubah, sedangkan variabel lainnya dikendalikan."
-            ],
-            answerIndex: 4
-          }],
+            {
+              question: "Tujuan utama melakukan eksperimen adalah....",
+              options: [
+                "Menghafal langkah-langkah praktikum.",
+                "Menguji hipotesis melalui percobaan yang terencana.",
+                "Membuktikan bahwa semua hipotesis pasti benar.",
+                "Menghasilkan alat laboratorium baru.",
+                "Mengurangi jumlah data yang dikumpulkan."
+              ],
+              answerIndex: 1
+            },
+            {
+              question: "Dalam eksperimen tentang pengaruh panjang tali terhadap periode ayunan bandul, variabel bebas adalah....",
+              options: [
+                "Massa bandul.",
+                "Sudut awal ayunan.",
+                "Periode ayunan bandul.",
+                "Panjang tali bandul.",
+                "Lokasi percobaan."
+              ],
+              answerIndex: 3
+            },
+            {
+              question: "Manakah yang merupakan variabel terikat pada eksperimen bandul?",
+              options: [
+                "Panjang tali.",
+                "Massa bandul.",
+                "Periode ayunan bandul.",
+                "Jenis tali yang digunakan.",
+                "Suhu ruangan."
+              ],
+              answerIndex: 2
+            },
+            {
+              question: "Mengapa variabel kontrol perlu dijaga tetap selama eksperimen?",
+              options: [
+                "Agar percobaan selesai lebih cepat.",
+                "Agar hasil percobaan terlihat lebih menarik.",
+                "Agar pengaruh variabel bebas terhadap hasil dapat diamati dengan adil.",
+                "Agar tidak perlu melakukan pengukuran.",
+                "Agar semua hipotesis terbukti benar."]
+                ,
+              answerIndex: 2
+            },
+            {
+              question: "Pernyataan yang benar mengenai fair test adalah....",
+              options: [
+                "Semua variabel harus diubah secara bersamaan.",
+                "Variabel terikat harus dibuat tetap.",
+                "Eksperimen cukup dilakukan satu kali tanpa pengulangan.",
+                "Hasil eksperimen harus selalu sesuai dengan hipotesis.",
+                "Hanya satu variabel bebas yang diubah, sedangkan variabel lainnya dikendalikan."
+              ],
+              answerIndex: 4
+            }
+          ],
           scoring: [
             {
               min: 5,
@@ -326,8 +259,12 @@ const merancangEksperimen = {
         type: "paragraph",
         text: [
           "Setelah eksperimen selesai dilakukan, data yang diperoleh harus diolah dan dianalisis.",
-          "➡️ Next, kita menuju portal: [**Mengolah & Menafsirkan Data**](/materi/mengolah-dan-menafsirkan-data)."
         ] 
+      },
+      {
+        type: "image",
+        src: img3,
+        link: "/materi/mengolah-dan-menafsirkan-data"
       }
     ]
   },

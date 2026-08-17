@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/HakikatIlmuFisika/portal-sains-dalam-kehidupan-sehari-hari.png"
+
 const keselamatanKerjaLaboratorium = {
   title: "Keselamatan Kerja Laboratorium",
   slug: "keselamatan-kerja-laboratorium",
@@ -195,24 +197,6 @@ const keselamatanKerjaLaboratorium = {
       ]
     },
     {
-      heading: "📊 Ringkasan Konsep",
-      blocks: [
-        { type: "paragraph", 
-          text: [
-            "Persiapan",
-            "⬇️",
-            "Gunakan APD",
-            "⬇️",
-            "Ikuti Prosedur",
-            "⬇️",
-            "Lakukan Praktikum",
-            "⬇️",
-            "Jaga Keselamatan"
-          ]
-        },
-      ]
-    },
-    {
       heading: "✨ Inti Materi",
       blocks: [
         {
@@ -224,16 +208,18 @@ const keselamatanKerjaLaboratorium = {
         },
       ]
     },
-    {
-      link: "/materi/sains-dalam-kehidupan",
-      blocks: [
+    { blocks: [
         {
           type: "paragraph",
           text: [
-            "Cara berpikir ilmiah tidak berhenti di laboratorium.",
-            "➡️ Next, kita menuju portal: [**Sains dalam Kehidupan Sehari-hari**](/materi/sains-dalam-kehidupan)."
+            "Cara berpikir ilmiah tidak berhenti di laboratorium."
           ]
         },
+        {
+          type: "image",
+          src: img1,
+          link: "/materi/sains-dalam-kehidupan"
+        }
       ]
     },
     {

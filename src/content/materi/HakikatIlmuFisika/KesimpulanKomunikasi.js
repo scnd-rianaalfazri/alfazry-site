@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/HakikatIlmuFisika/portal-keselamatan-kerja-laboratorium.png"
+
 const kesimpulanKomunikasi = {
   title: "Kesimpulan & Komunikasi Ilmiah",
   slug: "kesimpulan-komunikasi-ilmiah",
@@ -305,18 +307,17 @@ const kesimpulanKomunikasi = {
       }
     ]
   },
-  {
-    link: "/materi/keselamatan-kerja-laboratorium",
-    blocks: [
-    {
-      type: "paragraph",
-      text: "Melakukan eksperimen juga memerlukan tanggung jawab terhadap keselamatan."
-    },
-    {
-      type: "paragraph",
-      text: "➡️ Next, kita menuju portal: [**Keselamatan Kerja Laboratorium**](/materi/keselamatan-kerja-laboratorium)."
-    }]
-
+  { blocks: [
+      {
+        type: "paragraph",
+        text: "Melakukan eksperimen juga memerlukan tanggung jawab terhadap keselamatan."
+      },
+      {
+        type: "image",
+        src: img1,
+        link: "/materi/keselamatan-kerja-laboratorium"
+      }
+    ]
   },
   { heading:  "Referensi:", 
     blocks: [

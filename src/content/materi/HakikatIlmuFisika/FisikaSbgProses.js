@@ -1,6 +1,7 @@
 import img1 from "/src/assets/Materi/HakikatIlmuFisika/fisika-sebagai-proses3.png"
 import img2 from "/src/assets/Materi/HakikatIlmuFisika/fisika-sebagai-proses1.png"
 import img3 from "/src/assets/Materi/HakikatIlmuFisika/fisika-sebagai-proses2.png"
+import img4 from "/src/assets/Materi/HakikatIlmuFisika/portal-fisika-sebagai-sikap.png"
 
 const fisikaSebagaiProses = {
   title: "Fisika sebagai Proses",
@@ -291,8 +292,13 @@ const fisikaSebagaiProses = {
           "Apakah kamu sudah paham bagaimana ilmu fisika itu diproses dan dibangun?",
           "Namun, proses ilmiah yang keren ini tidak akan berjalan lancar tanpa adanya karakter atau mindset yang benar dari sang peneliti.",
           "Selain menghasilkan pengetahuan dan metode, fisika juga membentuk karakter serta cara berperilaku seorang ilmuwan.",
-          "➡️ Next, kita menuju portal: [**Fisika sebagai Sikap**](/materi/fisika-sebagai-sikap)"
         ]
+      },
+      {
+        type: "image",
+        src: img4,
+        caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+        link: "/materi/fisika-sebagai-sikap"
       }
     ]
   },
