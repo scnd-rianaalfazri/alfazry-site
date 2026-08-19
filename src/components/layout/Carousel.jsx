@@ -21,6 +21,14 @@ import RichText from "./RichText"
 //           text: "Teks pendek yang menonjol di bawah title.", // opsional
 //           description: "Penjelasan lebih panjang.",          // opsional,
 //                                    // boleh string atau array of string
+//           list: {                  // opsional, format sama persis kayak
+//             type: "unordered",     // block "list" di materi biasa
+//             items: ["Poin 1", "Poin 2"],
+//           },
+//           table: {                 // opsional, format sama persis kayak
+//             headers: ["Kolom A", "Kolom B"], // block "table" di materi biasa
+//             rows: [["1", "2"], ["3", "4"]],
+//           },
 //         },
 //         // ...tambah kartu lain
 //       ],
@@ -28,7 +36,21 @@ import RichText from "./RichText"
 //   }
 //
 // Semua field kartu opsional dan bisa dikombinasikan bebas — kartu
-// boleh cuma gambar+caption, cuma teks, atau campuran semuanya.
+// boleh cuma gambar+caption, cuma teks, atau campuran semuanya, termasuk
+// list dan/atau table.
+//
+// Detail `list`:
+//   - type: "unordered" (bullet, default) atau "ordered" (bernomor)
+//   - style (khusus ordered, opsional): "number" (default), "upperAlpha",
+//     "lowerAlpha", "upperRoman", "lowerRoman", "decimalLeadingZero",
+//     "lowerGreek", "circled"
+//   - items: array, tiap item boleh string biasa, atau object
+//     { text, description, children } buat sub-poin + sub-list bercabang
+//
+// Detail `table`:
+//   - headers: array string (opsional, kalau tidak diisi tabel tanpa header)
+//   - rows: array of array (tiap row = array of cell)
+//
 // Navigasi: panah kiri/kanan, dot indicator, atau swipe/drag di layar
 // sentuh maupun mouse.
 // ============================================================
@@ -40,6 +62,219 @@ const slideVariants = {
 }
 
 const SWIPE_THRESHOLD = 50
+
+// ----- Helper penomoran ordered list (sama kayak yang dipakai di
+// DetailMateri, biar konsisten di seluruh situs) -----------------
+const numberToAlpha = (num, upper) => {
+  let n = num
+  let result = ""
+  while (n > 0) {
+    n -= 1
+    result = String.fromCharCode(97 + (n % 26)) + result
+    n = Math.floor(n / 26)
+  }
+  return upper ? result.toUpperCase() : result
+}
+
+const numberToRoman = (num) => {
+  const map = [
+    [1000, "M"], [900, "CM"], [500, "D"], [400, "CD"],
+    [100, "C"], [90, "XC"], [50, "L"], [40, "XL"],
+    [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"],
+  ]
+  let n = num
+  let result = ""
+  for (const [value, numeral] of map) {
+    while (n >= value) {
+      result += numeral
+      n -= value
+    }
+  }
+  return result
+}
+
+const GREEK_LETTERS = [
+  "α", "β", "γ", "δ", "ε", "ζ", "η", "θ", "ι", "κ", "λ", "μ",
+  "ν", "ξ", "ο", "π", "ρ", "σ", "τ", "υ", "φ", "χ", "ψ", "ω",
+]
+const numberToGreek = (num) => {
+  let n = num
+  let result = ""
+  while (n > 0) {
+    n -= 1
+    result = GREEK_LETTERS[n % 24] + result
+    n = Math.floor(n / 24)
+  }
+  return result
+}
+
+const numberToCircled = (num) => {
+  if (num >= 1 && num <= 20) {
+    return String.fromCodePoint(0x2460 + (num - 1))
+  }
+  return `(${num})`
+}
+
+const getOrderedMarker = (index, style) => {
+  const orderNumber = index + 1
+  switch (style) {
+    case "upperAlpha":
+      return numberToAlpha(orderNumber, true)
+    case "lowerAlpha":
+      return numberToAlpha(orderNumber, false)
+    case "upperRoman":
+      return numberToRoman(orderNumber)
+    case "lowerRoman":
+      return numberToRoman(orderNumber).toLowerCase()
+    case "decimalLeadingZero":
+      return String(orderNumber).padStart(2, "0")
+    case "lowerGreek":
+      return numberToGreek(orderNumber)
+    case "circled":
+      return numberToCircled(orderNumber)
+    case "number":
+    default:
+      return String(orderNumber)
+  }
+}
+
+// ----- List bercabang (unordered/ordered + sub-list) -------------
+const renderCardList = (list, depth = 0) => {
+  if (!list || typeof list !== "object" || !Array.isArray(list.items)) {
+    return null
+  }
+
+  const type = list.type === "ordered" ? "ordered" : "unordered"
+  const orderedStyle = list.style || "number"
+  const Tag = type === "ordered" ? "ol" : "ul"
+
+  return (
+    <Tag className={`list-none space-y-2 ${depth > 0 ? "mt-2" : ""}`}>
+      {list.items.map((raw, index) => {
+        const item = typeof raw === "string" ? { text: raw } : raw || {}
+
+        return (
+          <li key={index}>
+            <div className="flex items-start gap-2.5 text-white/70 text-sm leading-relaxed">
+              {type === "ordered" ? (
+                <span
+                  className="
+                    mt-0.5
+                    shrink-0
+                    min-w-5 h-5
+                    px-1
+                    rounded-full
+                    bg-violet-500/15
+                    border border-violet-400/40
+                    text-violet-300
+                    font-mono text-[11px]
+                    flex items-center justify-center
+                  "
+                >
+                  {getOrderedMarker(index, orderedStyle)}
+                </span>
+              ) : (
+                <span
+                  className="
+                    mt-1.5
+                    w-1.5 h-1.5
+                    rounded-full
+                    shrink-0
+                    shadow-[0_0_6px_2px_rgba(139,59,255,0.5)]
+                    bg-violet-400
+                  "
+                />
+              )}
+              <span>
+                <RichText text={item.text} />
+              </span>
+            </div>
+
+            {item.description && (
+              <div className="pl-7 mt-1 space-y-1">
+                {Array.isArray(item.description) ? (
+                  item.description.map((d, dIndex) => (
+                    <p key={dIndex} className="text-white/45 text-xs leading-relaxed">
+                      <RichText text={d} />
+                    </p>
+                  ))
+                ) : (
+                  <p className="text-white/45 text-xs leading-relaxed">
+                    <RichText text={item.description} />
+                  </p>
+                )}
+              </div>
+            )}
+
+            {item.children && (
+              <div className="pl-7 mt-1.5">
+                {renderCardList(item.children, depth + 1)}
+              </div>
+            )}
+          </li>
+        )
+      })}
+    </Tag>
+  )
+}
+
+// ----- Tabel (headers opsional + rows) ----------------------------
+const renderCardTable = (table) => {
+  if (!table) return null
+
+  const headers = table.headers || null
+  const rows = Array.isArray(table) ? table : table.rows
+
+  if (!rows) return null
+
+  return (
+    <div className="overflow-x-auto rounded-xl border border-white/10 bg-white/5">
+      <table className="min-w-full text-xs md:text-sm border-collapse">
+        {headers && (
+          <thead>
+            <tr className="bg-white/10">
+              {headers.map((header, index) => (
+                <th
+                  key={index}
+                  className="
+                    border border-white/10
+                    px-2.5 py-1.5 md:px-3 md:py-2
+                    text-center
+                    font-semibold
+                    whitespace-nowrap
+                  "
+                >
+                  <RichText text={header} />
+                </th>
+              ))}
+            </tr>
+          </thead>
+        )}
+
+        <tbody>
+          {rows.map((row, rowIndex) => (
+            <tr key={rowIndex} className="hover:bg-white/5 transition">
+              {(Array.isArray(row) ? row : Object.values(row)).map(
+                (cell, cellIndex) => (
+                  <td
+                    key={cellIndex}
+                    className="
+                      border border-white/10
+                      px-2.5 py-1.5 md:px-3 md:py-2
+                      text-white/80
+                    "
+                  >
+                    <RichText text={cell} />
+                  </td>
+                )
+              )}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
 
 export default function Carousel({ carousel }) {
   const cards = carousel?.cards || []
@@ -81,7 +316,7 @@ export default function Carousel({ carousel }) {
       "
     >
       {/* Track kartu */}
-      <div className="relative min-h-[220px] overflow-hidden">
+      <div className="relative min-h-[220px] overflow-x-hidden">
         <AnimatePresence mode="wait" custom={direction} initial={false}>
           <motion.div
             key={index}
@@ -143,6 +378,14 @@ export default function Carousel({ carousel }) {
                     <RichText text={card.description} />
                   </p>
                 ))}
+
+              {card.list && (
+                <div className="pt-1">{renderCardList(card.list)}</div>
+              )}
+
+              {card.table && (
+                <div className="pt-1">{renderCardTable(card.table)}</div>
+              )}
             </div>
           </motion.div>
         </AnimatePresence>
