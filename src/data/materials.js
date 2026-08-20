@@ -469,7 +469,6 @@ import PenutupRelativitas from "../content/materi/Relativitas/PenutupRelativitas
 
 /* Astrofisika */
 import PengantarAstrofisika from "/src/content/materi/Astrofisika/PengantarAstrofisika"
-import ApaItuAstrofisika from "/src/content/materi/Astrofisika/ApaItuAstrofisika"
 import CahayaBahasaAlamSemesta from "/src/content/materi/Astrofisika/CahayaBahasaAlamSemesta"
 import SpektrumElektromagnetik from "/src/content/materi/Astrofisika/SpektrumElektromagnetik"
 import MataTelekskop from "/src/content/materi/Astrofisika/MataTeleskop"
@@ -952,7 +951,6 @@ export const materials = [
 
   /* Chapter: astrofisika */
   PengantarAstrofisika,
-  ApaItuAstrofisika,
   CahayaBahasaAlamSemesta,
   SpektrumElektromagnetik,
   MataTelekskop,

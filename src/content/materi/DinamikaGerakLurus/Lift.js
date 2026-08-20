@@ -221,6 +221,102 @@ const lift = {
         }
       ]
     },
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Ketika seseorang berdiri di atas timbangan di dalam lift, angka yang ditunjukkan timbangan sebenarnya berkaitan dengan....",
+                options: [
+                  "massa tubuh orang tersebut",
+                  "gaya gravitasi Bumi",
+                  "gaya normal dari lantai lift",
+                  "kecepatan gerak lift",
+                  "massa lift"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Sebuah lift bergerak naik dengan kecepatan konstan. Bagaimana kondisi gaya normal pada seseorang di dalam lift?",
+                options: [
+                  "$\\text{N > W}",
+                  "$\\text{N < W}",
+                  "$\\text{N = W}",
+                  "$\\text{N = 0}",
+                  "$\\text{N = 2W}",
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Ketika lift bergerak naik dengan percepatan, seseorang di dalam lift akan merasa....",
+                options: [
+                  "lebih ringan karena gaya normal berkurang",
+                  "lebih berat karena gaya normal bertambah",
+                  "tidak memiliki berat",
+                  "massanya bertambah",
+                  "massanya berkurang",
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Seorang siswa bermassa 50 $kg$ berada dalam lift yang bergerak turun dengan percepatan 2 $m/s^2$. Jika $g = 10 m/s^2$, besar gaya normal yang bekerja pada siswa adalah....",
+                options: [
+                  "300 N",
+                  "400 N",
+                  "500 N",
+                  "600 N",
+                  "700 N"
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Jika tali lift tiba-tiba putus sehingga lift mengalami jatuh bebas, kondisi yang dialami seseorang di dalam lift adalah....",
+                options: [
+                  "tubuh terasa jauh lebih berat",
+                  "tubuh tetap terasa normal",
+                  "tubuh mengalami kondisi tanpa bobot",
+                  "massa tubuh menjadi nol",
+                  "gaya gravitasi menjadi nol"
+                ],
+                answerIndex: 2
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
     { blocks: [
         {
           type: "paragraph",

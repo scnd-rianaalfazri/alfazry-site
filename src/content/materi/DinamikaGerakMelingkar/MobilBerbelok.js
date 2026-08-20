@@ -225,20 +225,24 @@ const mobilBerbelok = {
       heading: "🌍 Contoh dalam Kehidupan",
       blocks: [
         {
-          type: "paragraph",
-          text: "🚗 Mobil melewati tikungan."
-        },
-        {
-          type: "paragraph",
-          text: "🏍️ Sepeda motor menikung."
-        },
-        {
-          type: "paragraph",
-          text: "🚲 Sepeda membelok di jalan."
-        },
-        {
-          type: "paragraph",
-          text: "🏎️ Mobil balap melewati tikungan dengan kecepatan tinggi."
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "🚗 Mobil melewati tikungan."
+              },
+              {
+                text: "🏍️ Sepeda motor menikung."
+              },
+              {
+                text: "🚲 Sepeda membelok di jalan."
+              },
+              {
+                text: "🏎️ Mobil balap melewati tikungan dengan kecepatan tinggi."
+              }
+            ]
+          }
         }
       ]
     },
@@ -247,32 +251,36 @@ const mobilBerbelok = {
       heading: "⚠️ Miskonsepsi",
       blocks: [
         {
-          type: "paragraph",
-          text: "❌ Mobil dapat berbelok karena ada gaya sentrifugal yang mendorong mobil ke arah luar."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Dalam kerangka acuan jalan yang dianggap inersial, gaya horizontal yang menjaga mobil tetap berbelok adalah gaya gesek yang arahnya menuju pusat tikungan."
-        },
-        {
-          type: "paragraph",
-          text: "❌ Semakin cepat mobil, semakin kecil gaya sentripetal yang diperlukan."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Untuk massa dan jari-jari yang sama, kebutuhan gaya sentripetal meningkat sebanding dengan kuadrat kelajuan."
-        },
-        {
-          type: "paragraph",
-          text: "❌ Ban yang tidak tergelincir berarti tidak ada gaya gesek."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Gaya gesek statis dapat bekerja tanpa menyebabkan permukaan ban tergelincir relatif terhadap jalan."
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Miskonsepsi 1",
+                description: [
+                  "Mobil dapat berbelok karena ada gaya sentrifugal yang mendorong mobil ke arah luar. ❌",
+                  "Dalam kerangka acuan jalan yang dianggap inersial, gaya horizontal yang menjaga mobil tetap berbelok adalah gaya gesek yang arahnya menuju pusat tikungan. ✔️"
+                ]
+              },
+              {
+                text: "Miskonsepsi 2",
+                description: [
+                  "Semakin cepat mobil, semakin kecil gaya sentripetal yang diperlukan. ❌",
+                  "Untuk massa dan jari-jari yang sama, kebutuhan gaya sentripetal meningkat sebanding dengan kuadrat kelajuan. ✔️"
+                ]
+              },
+              {
+                text: "Miskonsepsi 3",
+                description: [
+                  "Ban yang tidak tergelincir berarti tidak ada gaya gesek. ❌",
+                  "Gaya gesek statis dapat bekerja tanpa menyebabkan permukaan ban tergelincir relatif terhadap jalan. ✔️"
+                ]
+              }
+            ]
+          }
         }
       ]
     },
-
     {
       heading: "🌟 *Fun Fact*",
       blocks: [
@@ -283,7 +291,7 @@ const mobilBerbelok = {
       ]
     },
     {
-      heading: "🧠 Inti Materi",
+      heading: "✨ Inti Materi",
       blocks: [
         {
           type: "paragraph",
@@ -292,19 +300,13 @@ const mobilBerbelok = {
       ]
     },
     {
-      heading: "🚀 Next Mission",
       blocks: [
         {
           type: "paragraph",
-          text: "Pada mobil, gaya sentripetal berasal dari interaksi ban dengan jalan."
-        },
-        {
-          type: "paragraph",
-          text: "Tapi bagaimana jika benda tidak menyentuh permukaan jalan sama sekali dan tetap dapat bergerak melingkar?"
-        },
-        {
-          type: "paragraph",
-          text: "Pada materi berikutnya, kita akan memutar sebuah benda menggunakan tali dan mencari tahu bagaimana tegangan tali menjadi penyedia gaya sentripetal."
+          text: [
+            "Pada mobil, gaya sentripetal berasal dari interaksi ban dengan jalan. Tetapi, bagaimana jika benda tidak menyentuh permukaan jalan sama sekali dan tetap dapat bergerak melingkar?",
+            "Pada materi berikutnya, kita akan memutar sebuah benda menggunakan tali dan mencari tahu bagaimana tegangan tali menjadi penyedia gaya sentripetal."
+          ]
         }
       ]
     }

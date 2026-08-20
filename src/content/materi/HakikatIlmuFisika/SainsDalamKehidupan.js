@@ -265,7 +265,7 @@ const sainsDalamKehidupan = {
       {
         type: "paragraph",
         text: [
-          "Sekarang saatnya menerapkan semua yang telah dipelajari.",
+          "Sekarang saatnya menggunakan seluruh konsep yang telah dipelajari untuk mengamati fenomena nyata di sekitarmu melalui aktivitas Eksplorasi Fenomena.",
           "➡️ Next, kita menuju portal: [**Mini Project**](/materi/mini-project-hakikat-ilmu-fisika)."
         ]
       }

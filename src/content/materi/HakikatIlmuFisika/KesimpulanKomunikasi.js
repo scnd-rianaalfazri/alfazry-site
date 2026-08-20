@@ -186,24 +186,7 @@ const kesimpulanKomunikasi = {
       }
     ]
   },
-  { heading: "📊 Ringkasan Konsep", 
-    blocks: [
-      { type: "paragraph", 
-        text: [
-          "Data",
-          "⬇️",
-          "Analisis",
-          "⬇️",
-          "Kesimpulan",
-          "⬇️",
-          "Laporan",
-          "⬇️",
-          "Komunikasi Ilmiah"
-        ]
-      }
-    ]
-  },
-  { heading: "✨ Inti Materi (Takeaway Message)", 
+  { heading: "✨ Inti Materi", 
     blocks: [
       {
         type: "paragraph",
