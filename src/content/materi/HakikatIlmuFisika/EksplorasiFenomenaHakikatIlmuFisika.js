@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/HakikatIlmuFisika/portal-penutup-chapter-hakikat-ilmu-fisika.png"
+
 const eksplorasiFenomena = {
   title: "Eksplorasi Fenomena",
   slug: "eksplorasi-fenomena-hakikat-ilmu-fisika",
@@ -556,6 +558,11 @@ const eksplorasiFenomena = {
             "Sekarang pertanyaannya:",
             "👉 Bagaimana pengamatan tersebut dapat diubah menjadi pengetahuan yang dapat dipercaya?",
           ]
+        },
+        {
+          type: "image",
+          src: img1,
+          link: "/materi/penutup-hakikat-fisika"
         }
       ]
     },

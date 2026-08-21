@@ -264,6 +264,7 @@ const merancangEksperimen = {
       {
         type: "image",
         src: img3,
+        caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
         link: "/materi/mengolah-dan-menafsirkan-data"
       }
     ]

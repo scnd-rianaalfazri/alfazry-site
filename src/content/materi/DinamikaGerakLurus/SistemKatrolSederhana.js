@@ -300,7 +300,105 @@ const sistemKatrolSederhana = {
         }
       ]
     },
-    { blocks: [
+    { 
+      heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Pada sistem katrol sederhana dengan tali yang tidak dapat mulur, kedua balok memiliki....",
+                options: [
+                  "massa yang selalu sama",
+                  "kecepatan yang selalu sama arah",
+                  "besar percepatan yang sama, tetapi arahnya berlawanan",
+                  "gaya berat yang selalu sama",
+                  "tegangan tali yang berbeda pada setiap sisi"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Pada katrol ideal, pernyataan yang benar mengenai tegangan tali adalah....",
+                options: [
+                  "tegangan tali sama besar di seluruh bagian tali",
+                  "tegangan tali selalu lebih besar daripada gaya berat",
+                  "tegangan tali bernilai nol karena katrol licin",
+                  "tegangan selalu berbeda pada setiap sisi katrol",
+                  "tegangan hanya bekerja pada benda yang lebih berat"
+                ],
+                answerIndex: 0
+              },
+              {
+                question: "Dua balok bermassa 5 kg dan 3 kg dihubungkan dengan tali melalui katrol licin. Jika $g=10 m/s^2$, besar percepatan sistem adalah....",
+                options: [
+                  "$1,25 m/s^2$",
+                  "$2,0 m/s^2$",
+                  "$2,5 m/s^2$",
+                  "$5,0 m/s^2$",
+                  "$8,0 m/s^2$"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Jika balok $m_1$ lebih berat daripada $m_2$, maka....",
+                options: [
+                  "$m_1$ bergerak turun dan $m_2$ bergerak naik",
+                  "$m_1$ bergerak naik dan $m_2$ bergerak turun",
+                  "kedua balok bergerak turun",
+                  "kedua balok tetap diam",
+                  "Hanya $m_1$ yang mengalami percepatan"
+                ],
+                answerIndex: 0
+              },
+              {
+                question: "Mengapa kedua balok dalam sistem katrol sederhana memiliki besar percepatan yang sama?",
+                options: [
+                  "karena massa kedua balok harus sama",
+                  "karena gaya berat kedua balok selalu sama",
+                  "karena tegangan tali selalu lebih besar daripada berat benda",
+                  "karena katrol memberikan gaya yang sama pada kedua benda",
+                  "karena kedua balok dihubungkan oleh tali yang tidak dapat mulur"
+                ],
+                answerIndex: 4
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    { 
+      blocks: [
         {
           type: "paragraph",
           text: [

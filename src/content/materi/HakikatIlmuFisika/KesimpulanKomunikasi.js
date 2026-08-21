@@ -298,6 +298,7 @@ const kesimpulanKomunikasi = {
       {
         type: "image",
         src: img1,
+        caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
         link: "/materi/keselamatan-kerja-laboratorium"
       }
     ]

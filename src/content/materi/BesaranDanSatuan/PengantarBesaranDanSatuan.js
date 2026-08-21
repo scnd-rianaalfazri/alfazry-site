@@ -1,6 +1,6 @@
 const pengantarbesarandansatuan = {
   title: 'Mengapa Kita Harus Mengukur?',
-  slug: 'mengapa kita harus mengukur',
+  slug: 'pengantar-besaran-dan-satuan',
   description: 'Memahami pentingnya pengukuran sebagai dasar fisika untuk mengubah pengamatan menjadi data yang objektif.',
   chapter: "📏 Pengukuran",
 

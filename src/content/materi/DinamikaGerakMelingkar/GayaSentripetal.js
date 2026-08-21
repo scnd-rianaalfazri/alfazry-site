@@ -264,6 +264,102 @@ const gayaSentripetal = {
         }
       ]
     },
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Gaya sentripetal pada gerak melingkar merupakan....",
+                options: [
+                  "gaya tambahan yang selalu muncul pada benda.",
+                  "gaya yang selalu berlawanan dengan arah gerak benda.",
+                  "gaya yang arahnya menjauhi pusat lintasan.",
+                  "resultan gaya yang arahnya menuju pusat lintasan.",
+                  "gaya yang hanya muncul ketika benda diputar menggunakan tali."
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Sebuah bola diputar menggunakan tali sehingga bergerak melingkar. Gaya yang berperan sebagai gaya sentripetal pada bola adalah....",
+                options: [
+                  "gaya berat yang selalu mengarah ke bawah.",
+                  "tegangan tali yang mengarah menuju pusat lintasan.",
+                  "gaya sentrifugal yang mengarah keluar.",
+                  "gaya gesek udara yang mengarah ke belakang.",
+                  "massa bola yang bekerja menuju pusat."
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Sebuah benda bermassa 2 kg bergerak dengan kelajuan 6 m/s pada lintasan berjari-jari 3 m. Besar gaya sentripetal yang diperlukan adalah....",
+                options: [
+                  "4 N",
+                  "12 N",
+                  "18 N",
+                  "24 N",
+                  "36 N"
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "JJika kelajuan benda yang bergerak melingkar diperbesar menjadi dua kali semula, sedangkan massa dan jari-jari lintasan tetap, maka gaya sentripetal yang diperlukan menjadi....",
+                options: [
+                  "setengah kali",
+                  "tetap",
+                  "dua kali",
+                  "empat kali",
+                  "delapan kali"
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Pernyataan yang benar mengenai gaya sentripetal adalah....",
+                options: [
+                  "gaya sentripetal merupakan gaya baru yang selalu bekerja pada benda.",
+                  "gaya sentripetal dan gaya sentrifugal selalu merupakan pasangan aksi–reaksi.",
+                  "jika kelajuan benda tetap, maka percepatannya pasti nol.",
+                  "gaya sentripetal merupakan resultan gaya menuju pusat",
+                  "gaya sentripetal selalu berasal dari gaya tegangan tali."
+                ],
+                answerIndex: 3
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       blocks: [
         {

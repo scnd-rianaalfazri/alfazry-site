@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/HakikatIlmuFisika/portal-eksplorasi-fenomena-hakikat-ilmu-fisika.png"
+
 const sainsDalamKehidupan = {
   title: "Sains dalam Kehidupan Sehari-hari",
   slug: "sains-dalam-kehidupan",
@@ -139,23 +141,6 @@ const sainsDalamKehidupan = {
       }
     ]
   },
-  { heading: "📊 Ringkasan Konsep", 
-    blocks: [
-      { type: "paragraph", 
-        text: [
-          "Pengamatan",
-          "⬇️",
-          "Data",
-          "⬇️",
-          "Analisis",
-          "⬇️",
-          "Keputusan",
-          "⬇️",
-          "Pemecahan Masalah"
-        ]
-      }
-    ]
-  },
   { heading: "✨ Inti Materi", 
     blocks: [
       {
@@ -260,18 +245,24 @@ const sainsDalamKehidupan = {
       }
     ]
   },
-  { link: "/materi/mini-project-hakikat-fisika",
+  { 
     blocks: [
       {
         type: "paragraph",
         text: [
           "Sekarang saatnya menggunakan seluruh konsep yang telah dipelajari untuk mengamati fenomena nyata di sekitarmu melalui aktivitas Eksplorasi Fenomena.",
-          "➡️ Next, kita menuju portal: [**Mini Project**](/materi/mini-project-hakikat-ilmu-fisika)."
         ]
+      },
+      {
+        type: "image",
+        src: img1,
+        caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+        link: "/materi/eksplorasi-fenomena-hakikat-ilmu-fisika"
       }
     ]
   },
-  { heading: "Referensi:", 
+  { 
+    heading: "Referensi:", 
     blocks: [
       {
         type: "paragraph",

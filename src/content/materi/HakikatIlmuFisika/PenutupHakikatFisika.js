@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-besaran-dan-satuan.png"
+
 const penutupHakikatIlmuFisika = {
   title: "Penutup Chapter",
   slug: "penutup-hakikat-fisika",
@@ -166,27 +168,8 @@ const penutupHakikatIlmuFisika = {
       }
     ]
   },
-  { heading: "📊 Ringkasan Chapter", 
-    blocks: [
-      { type: "paragraph", 
-        text: [
-          "Rasa Ingin Tahu",
-          "⬇️",
-          "Pengamatan",
-          "⬇️",
-          "Metode Ilmiah",
-          "⬇️",
-          "Eksperimen",
-          "⬇️",
-          "Data",
-          "⬇️",
-          "Pengetahuan Baru"
-        ] 
-      }
-    ]
-  },
-  { heading: 
-    "✨ Inti Chapter", 
+  { 
+    heading: "✨ Inti Chapter", 
     blocks: [
       {
         type: "list",
@@ -204,16 +187,21 @@ const penutupHakikatIlmuFisika = {
       }
     ]
   },
-  { link: "/materi/besaran-dan-satuan",
+  { 
     blocks: [
       {
         type: "paragraph",
         text: [
           "Sekarang kamu telah memahami bagaimana fisika bekerja.",
           "Pada chapter berikutnya, kita akan mempelajari dasar yang paling penting dalam fisika...",
-          "Bagaimana cara mengukur sesuatu dengan benar!",
-          "➡️ Next Chapter: Pengukuran."
+          "Bagaimana cara mengukur sesuatu dengan benar!"
         ]
+      },
+      {
+        type: "image",
+        src: img1,
+        caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+        link: "/materi/pengantar-besaran-dan-satuan"
       }
     ]
   },
