@@ -21,6 +21,11 @@ const pengantarDinamikaGerakLurus = {
       heading: "❓ Pertanyaan Besar",
       blocks: [
         {
+          type: "quote",
+          text:
+            "“Mengapa ...?” atau “Bagaimana ...?”"
+        },        
+        {
           type: "paragraph",
           text: [
             "Bagaimana Hukum Newton digunakan untuk menjelaskan berbagai gerak lurus yang terjadi dalam kehidupan sehari-hari?",
@@ -88,16 +93,16 @@ const pengantarDinamikaGerakLurus = {
             type: "ordered",
             items: [
               {
-                text: "✅ Hukum Newton I, II, dan III."
+                text: "Hukum Newton I, II, dan III."
               },
               {
-                text: "✅ Resultan gaya."
+                text: "Resultan gaya."
               },
               {
-                text: "✅ Free Body Diagram (FBD)."
+                text: "*Free Body Diagram (FBD).*"
               },
               {
-                text: "✅ Gaya berat, gaya normal, gaya gesek, dan gaya tegangan tali."
+                text: "Gaya berat, gaya normal, gaya gesek, dan gaya tegangan tali."
               }
             ]
           }

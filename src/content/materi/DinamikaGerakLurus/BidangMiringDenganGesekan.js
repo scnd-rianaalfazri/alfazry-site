@@ -22,6 +22,18 @@ const bidangMiringDenganGesekan = {
       heading: "❓ Pertanyaan Besar",
       blocks: [
         {
+          type: "paragraph",
+          text: [
+            "Sekarang ubah rasa penasaranmu menjadi pertanyaan.",
+            "Gunakan pola sederhana:"
+          ]
+        },
+        {
+          type: "quote",
+          text:
+            "“Mengapa ...?” atau “Bagaimana ...?”"
+        },
+        {
           type: "list",
           list: {
             type: "ordered",
@@ -246,20 +258,28 @@ const bidangMiringDenganGesekan = {
       heading: "⚠️ Miskonsepsi",
       blocks: [
         {
-          type: "paragraph",
-          text: "❌ Pada bidang miring, gaya gesek selalu sama dengan gaya berat."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Faktanya, gaya gesek bergantung pada gaya normal dan koefisien gesek, bukan langsung pada gaya berat."
-        },
-        {
-          type: "paragraph",
-          text: "❌ Semakin besar massa benda, semakin besar percepatannya di bidang miring."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Faktanya, selama gaya gesek sebanding dengan gaya normal, massa akan saling menghilangkan sehingga percepatan bebas dari pengaruh massa."
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Miskonsepsi 1",
+                description: [
+                  "Pada bidang miring, gaya gesek selalu sama dengan gaya berat. ❌",
+                  "Gak, gitu!",
+                  "Faktanya, gaya gesek bergantung pada gaya normal dan koefisien gesek, bukan langsung pada gaya berat. ✔️"
+                ]
+              },
+              {
+                text: "Miskonsepsi 2",
+                description: [
+                  "Semakin besar massa benda, semakin besar percepatannya di bidang miring. ❌",
+                  "Gak, gitu!",
+                  "Faktanya, selama gaya gesek sebanding dengan gaya normal, massa akan saling menghilangkan sehingga percepatan bebas dari pengaruh massa. ✔️"
+                ]
+              }
+            ]
+          }
         }
       ]
     },
@@ -282,7 +302,103 @@ const bidangMiringDenganGesekan = {
         }
       ]
     },
-
+    { 
+      heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Sebuah balok berada di atas lantai kasar dan didorong dengan gaya yang masih lebih kecil dari gaya gesek statis maksimum. Apa yang terjadi?",
+                options: [
+                  "Balok bergerak dengan percepatan tetap.",
+                  "Balok bergerak dengan kecepatan konstan.",
+                  "Balok langsung mengalami gaya gesek kinetis.",
+                  "Balok mengalami percepatan yang semakin besar.",
+                  "Balok tetap diam karena gaya gesek statis menyeimbangkan gaya dorong."
+                ],
+                answerIndex: 4
+              },
+              {
+                question: "Sebuah balok bermassa 5 kg berada di lantai datar. Jika $g=10 m/s^2$ dan koefisien gesek statisnya 0,4, besar gaya gesek statis maksimum adalah....",
+                options: [
+                  "10 N",
+                  "15 N",
+                  "20 N",
+                  "25 N",
+                  "50 N"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Sebuah balok memiliki gaya gesek statis maksimum 30 N. Jika balok didorong dengan gaya 20 N, besar gaya gesek statis yang bekerja pada balok adalah....",
+                options: [
+                  "0 N",
+                  "10 N",
+                  "20 N",
+                  "30 N",
+                  "50 N"
+                  ],
+                answerIndex: 2
+              },
+              {
+                question: "Sebuah balok sudah bergerak meluncur di atas lantai kasar. Gaya gesek yang digunakan dalam analisis adalah....",
+                options: [
+                  "gaya gesek statis",
+                  "gaya gesek statis maksimum",
+                  "gaya normal",
+                  "gaya gesek kinetis",
+                  "gaya gravitasi"
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Sebuah balok bermassa 4 kg ditarik dengan gaya 25 N di lantai kasar. Jika $g=10 m/s^2$, $\\mu_s = 0,4$ dan $, dan \\mu_k = 0,25, besar percepatan balok adalah....",
+                options: [
+                  "$1,5 m/s^2$",
+                  "$2,0 m/s^2$",
+                  "$2,5 m/s^2$",
+                  "$3,0 m/s^2$",
+                  "$4,0 m/s^2$"
+                ],
+                answerIndex: 3
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
     { blocks: [
         {
           type: "paragraph",

@@ -191,6 +191,102 @@ const dinamikaGerakLurusDuniaNyata = {
         }
       ]
     },
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Mengapa sabuk pengaman dapat membantu melindungi penumpang ketika mobil berhenti mendadak?",
+                options: [
+                  "Menghilangkan gaya gravitasi pada tubuh.",
+                  "Mengurangi massa tubuh penumpang.",
+                  "Membuat mobil berhenti tanpa mengalami percepatan.",
+                  "Meningkatkan kecepatan tubuh saat mobil berhenti.",
+                  "Menahan tubuh yang cenderung terus bergerak maju."
+                ],
+                answerIndex: 4
+              },
+              {
+                question: "Fungsi utama airbag dalam sistem keselamatan kendaraan adalah....",
+                options: [
+                  "Memperbesar perubahan momentum tubuh.",
+                  "Memperpanjang waktu benturan sehingga gaya impulsif yang diterima tubuh berkurang.",
+                  "Menghilangkan momentum kendaraan sepenuhnya sebelum tabrakan.",
+                  "Membuat massa penumpang menjadi lebih kecil.",
+                  "Menghilangkan gaya gravitasi selama kecelakaan."
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Sebuah benda bermassa 100 kg didorong dengan gaya resultan 500 N. Berdasarkan Hukum Newton II, percepatan benda tersebut adalah....",
+                options: [
+                  "0,2 $m/s^2$",
+                  "2 $m/s^2$",
+                  "5 $m/s^2$",
+                  "50 $m/s^2$",
+                  "500 $m/s^2$",
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Mengapa sistem counterweight digunakan pada lift gedung?",
+                options: [
+                  "Untuk membantu mengatur gaya dan membuat gerakan lift lebih efisien serta nyaman.",
+                  "Untuk menghilangkan gaya gravitasi.",
+                  "Untuk membuat lift bergerak tanpa gaya.",
+                  "Untuk membuat massa penumpang menjadi lebih kecil.",
+                  "Untuk menghentikan lift secara tiba-tiba."
+                ],
+                answerIndex: 0
+              },
+              {
+                question: "Dalam sistem konveyor di pabrik, gaya gesek diperlukan agar....",
+                options: [
+                  "barang dapat berpindah tanpa tergelincir dari lintasan.",
+                  "massa barang menjadi lebih besar.",
+                  "barang selalu bergerak dengan percepatan nol.",
+                  "konveyor dapat bergerak tanpa gaya.",
+                  "gaya gravitasi pada barang menghilang."
+                ],
+                answerIndex: 0
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
     { blocks: [
         {
           type: "paragraph",

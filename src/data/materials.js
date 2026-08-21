@@ -14,7 +14,7 @@ import MengolahData from "../content/materi/HakikatIlmuFisika/MengolahData.js"
 import KesimppulanKomunikasi from "../content/materi/HakikatIlmuFisika/KesimpulanKomunikasi.js"
 import KeselamatanLaboratorium from "../content/materi/HakikatIlmuFisika/KeselamatanLaboratorium.js"
 import SainsDalamKehidupan from "../content/materi/HakikatIlmuFisika/SainsDalamKehidupan.js"
-import MiniProjectHakikatIlmuFisika from "../content/materi/HakikatIlmuFisika/MiniProjectHakikatIlmuFisika.js"
+import EksplorasiFenomenaHakikatIlmuFisika from "../content/materi/HakikatIlmuFisika/EksplorasiFenomenaHakikatIlmuFisika.js"
 import PenutupChapterHakikatIlmuFisika from "../content/materi/HakikatIlmuFisika/PenutupHakikatFisika.js"
 
 /* besaran dan satuan */
@@ -499,7 +499,7 @@ export const materials = [
   KesimppulanKomunikasi,
   KeselamatanLaboratorium,
   SainsDalamKehidupan,
-  MiniProjectHakikatIlmuFisika,
+  EksplorasiFenomenaHakikatIlmuFisika,
   PenutupChapterHakikatIlmuFisika,
 
   /* Chapter : Besaran dan Satuan */

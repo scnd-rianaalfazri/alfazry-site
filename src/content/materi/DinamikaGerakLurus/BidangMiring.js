@@ -63,7 +63,6 @@ const balokPadaBidangMiring = {
     {
       heading: "🧩 Mengapa Gaya Berat Harus Diuraikan?",
       blocks: [
-
         {
           type: "paragraph",
           text: [
@@ -280,8 +279,105 @@ const balokPadaBidangMiring = {
         }
       ]
     },
-
-    { blocks: [
+    { 
+      heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Mengapa gaya berat pada balok di bidang miring perlu diuraikan menjadi beberapa komponen?",
+                options: [
+                  "Karena gaya berat tidak memiliki arah.",
+                  "Karena massa balok berubah saat berada di bidang miring.",
+                  "Karena arah gerak balok mengikuti bidang miring, sedangkan gaya berat tetap vertikal ke bawah.",
+                  "Karena gaya normal selalu lebih besar daripada gaya berat.",
+                  "Karena bidang miring menghilangkan gaya gravitasi."
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Komponen gaya berat yang menyebabkan balok bergerak menuruni bidang miring adalah....",
+                options: [
+                  "$mg$",
+                  "$mg\\cos\\theta$",
+                  "$mg\\tan\\theta$",
+                  "mg\\sin\\theta$",
+                  "\\frac{mg}{\\sin\\theta}$",
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Sebuah balok berada pada bidang miring licin dengan sudut kemiringan $30\\degree$. Jika $g=10m/s^2$, besar percepatan balok adalah....",
+                options: [
+                  "$2,5 m/s^2$",
+                  "$5 m/s^2$",
+                  "$8,7 m/s^2$",
+                  "$10 m/s^2$",
+                  "$15 m/s^2$"
+                  ],
+                answerIndex: 1
+              },
+              {
+                question: "Pada bidang miring licin, besar gaya normal pada balok adalah....",
+                options: [
+                  "$N=mg\\sin\\theta$",
+                  "$N=mg\\tan\\theta$",
+                  "$N=mg\\cos\\theta$",
+                  "$N=mg$",
+                  "$N=ma$"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Dua balok dengan massa berbeda diletakkan pada bidang miring licin dengan sudut kemiringan yang sama. Pernyataan yang benar adalah....",
+                options: [
+                  "balok yang lebih berat selalu memiliki percepatan lebih besar.",
+                  "balok yang lebih ringan selalu memiliki percepatan lebih besar.",
+                  "balok yang lebih berat tidak akan bergerak.",
+                  "percepatan kedua balok bergantung pada massanya.",
+                  "kedua balok memiliki percepatan yang sama"
+                ],
+                answerIndex: 4
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    { 
+      blocks: [
         {
           type: "paragraph",
           text: [

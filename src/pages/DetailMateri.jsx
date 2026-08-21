@@ -10,6 +10,8 @@ import MathEquation from "../components/layout/MathEquation"
 import QuickCheck from "../components/layout/QuickCheck"
 import Carousel from "../components/layout/Carousel"
 import RichText from "../components/layout/RichText"
+import Callout from "../components/layout/Callout"
+
 import BackToTopButton from "../components/UI/BackToTopBottom"
 
 export default function DetailMateri() {
@@ -661,6 +663,16 @@ export default function DetailMateri() {
       case "quickCheck":
         return <QuickCheck key={key} data={block.data} />
 
+      case "callout":
+        return (
+          <Callout
+            key={key}
+            variant={block.variant}
+            title={block.title}
+            text={block.text}
+          />
+        )
+        
       case "carousel":
         return <Carousel key={key} carousel={block.carousel} />
 
