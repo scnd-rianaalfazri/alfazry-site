@@ -1,4 +1,4 @@
-import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-besaran-dan-satuan.png"
+import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-pengantar-besaran-dan-satuan.png"
 
 const penutupHakikatIlmuFisika = {
   title: "Penutup Chapter",

@@ -51,31 +51,24 @@ const apaItuFisika = {
       }
     ]
   },
-  { heading: "🔬 Fisika di Sekeliling Kita", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Apakah semua kejadian itu terjadi secara kebetulan atau karena sihir?",
-          "Tentu tidak!",
-          "Semua fenomena tersebut diatur oleh skenario besar bernama hukum-hukum alam, dan ilmu yang bertugas membongkar rahasia di balik hukum alam itu adalah Fisika."
-        ]
-      }
-    ]
-  },
   { heading: "🔬 Pengertian Fisika", 
     blocks: [
       {
         type: "paragraph",
-        text: [
-          "Secara ilmiah, Fisika adalah cabang ilmu pengetahuan alam (sains) yang mempelajari materi, energi, gerak, gaya, ruang, waktu, beserta interaksi kompleks di antara semuanya.",
-          "Melalui fisika, manusia berusaha menguraikan source code alias cara kerja alam semesta.",
-          "Kita tidak tebak-tebakan, melainkan menggunakan fondasi kuat berupa pengamatan yang presisi, eksperimen yang terukur, serta penalaran ilmiah yang logis."
-        ]
+        text: "Secara ilmiah, Fisika adalah cabang ilmu pengetahuan alam (sains) yang mempelajari materi, energi, gerak, gaya, ruang, waktu, beserta interaksi kompleks di antara semuanya.",   
+      },
+      {
+        type: "quote",
+        text: "Melalui fisika, manusia berusaha menguraikan *source code* alias cara kerja alam semesta."
+      },
+      {
+        type: "paragraph",
+        text: "Kita tidak tebak-tebakan, melainkan menggunakan fondasi kuat berupa pengamatan yang presisi, eksperimen yang terukur, serta penalaran ilmiah yang logis."
       }
     ]
   },
-  { heading: "🌌 Apa yang Dipelajari Fisika?", 
+  { 
+    heading: "🌌 Apa yang Dipelajari Fisika?", 
     blocks: [
       {
         type: "image",
@@ -90,22 +83,23 @@ const apaItuFisika = {
         list: {
           type: "unordered",
           items: [
-          {
-            text: "Skala Mikroskopis",
-            description:
-            "Fisika masuk ke dunia super kecil, membedah partikel-partikel fundamental yang ukurannya jauh lebih mini daripada atom (seperti elektron dan kuark)."
-          },
-          {
-            text: "Skala Kosmis",
-            description:
-            "Fisika melompat jauh ke luar angkasa untuk meneropong struktur alam semesta yang super raksasa, galaksi, hingga black hole."
-          }]
+            {
+              text: "Skala Mikroskopis",
+              description:
+              "Fisika masuk ke dunia super kecil, membedah partikel-partikel fundamental yang ukurannya jauh lebih mini daripada atom (seperti elektron dan kuark)."
+            },
+            {
+              text: "Skala Kosmis",
+              description:
+              "Fisika melompat jauh ke luar angkasa untuk meneropong struktur alam semesta yang super raksasa, galaksi, hingga black hole."
+            }
+          ]
         }
       },
       {
         type: "paragraph",
         text: [
-        "Karena mencakup segala hal dari yang terkecil sampai yang terbesar di semesta ini, tidak heran kalau fisika sering dijuluki sebagai ilmu dasar (the fundamental science) bagi banyak cabang sains lainnya."
+          "Karena mencakup segala hal dari yang terkecil sampai yang terbesar di semesta ini, tidak heran kalau fisika sering dijuluki sebagai ilmu dasar *(the fundamental science)* bagi banyak cabang sains lainnya."
         ]
       }
     ]
@@ -261,7 +255,7 @@ const apaItuFisika = {
       {
         type: "list",
         list: {
-          type: "unordered",
+          type: "ordered",
           items: [
             {
               text: "📱 Smartphone & Internet",

@@ -43,7 +43,7 @@ const fisikaSebagaiProduk = {
         carousel: {
           cards: [
             {
-              eyebrow: "PRODUK FISIKA",
+              eyebrow: "PRODUK FISIKA 01",
               title: "📌 Fakta",
               text: "Fakta adalah kenyataan objektif yang dapat diamati atau diukur secara langsung menggunakan indra maupun alat ukur, dan kebenarannya telah disepakati bersama.",
               description: [
@@ -53,7 +53,7 @@ const fisikaSebagaiProduk = {
               ]
             },
             {
-              eyebrow: "PRODUK FISIKA",
+              eyebrow: "PRODUK FISIKA 02",
               title: "💡 Konsep",
               text: "Konsep adalah abstraksi mental, gagasan, atau pengertian yang dibuat untuk mengelompokkan fenomena-fenomena alam yang sejenis agar lebih mudah dijelaskan.",
               description: [
@@ -62,7 +62,7 @@ const fisikaSebagaiProduk = {
               ]
             },
             {
-              eyebrow: "PRODUK FISIKA",
+              eyebrow: "PRODUK FISIKA 03",
               title: "📏 Prinsip",
               text: "Prinsip merupakan pernyataan yang menjelaskan hubungan umum antara beberapa konsep yang saling berkaitan erat.",
               description: [
@@ -71,7 +71,7 @@ const fisikaSebagaiProduk = {
               ]
             },
             {
-              eyebrow: "PRODUK FISIKA",
+              eyebrow: "PRODUK FISIKA 04",
               title: "⚖️ Hukum",
               text: "Hukum fisika adalah aturan atau hubungan matematis yang selalu berlaku pada kondisi tertentu.",
               description: [
@@ -83,7 +83,7 @@ const fisikaSebagaiProduk = {
               ]
             },
             {
-              eyebrow: "PRODUK FISIKA",
+              eyebrow: "PRODUK FISIKA 05",
               title: "🌌 Teori",
               text: "Teori adalah penjelasan ilmiah yang mendalam, komprehensif, didukung oleh gunung bukti eksperimen, serta mampu memprediksi fenomena baru yang belum teramati sebelumnya.",
               description: [
@@ -93,7 +93,7 @@ const fisikaSebagaiProduk = {
               ]
             },
             {
-              eyebrow: "PRODUK FISIKA",
+              eyebrow: "PRODUK FISIKA 06",
               title: "🧱 Model",
               text: "Model adalah representasi buatan atau penyederhanaan yang membantu kita memvisualisasikan dan memahami sistem alam semesta yang terlalu rumit, terlalu besar, atau terlalu mikro untuk dilihat langsung.",
               description: [     
@@ -159,7 +159,7 @@ const fisikaSebagaiProduk = {
           "*'Yaa, itu kan baru sebatas 'Teori Ilmiah', berarti masih sekadar dugaan atau tebakan kosong dong?'* ❌.",
           "Gak, gitu!",
           "Dalam bahasa sehari-hari, kata 'teori' sering diartikan sebagai omong kosong atau asumsi",
-          "Tapi dalam dunia sains, Teori Ilmiah adalah kasta penjelasan tertinggi.",
+          "Tapi dalam dunia sains, Teori Ilmiah adalah kasta penjelasan tertinggi. ✔️",
           "Sebuah gagasan baru bisa diakui sebagai teori setelah lolos uji validasi ekstrem, didukung oleh banyak bukti empiris, dan belum bisa dipatahkan oleh eksperimen apa pun."
         ]
       },

@@ -21,6 +21,18 @@ const sumberGayaSentripetal = {
       heading: "❓ Pertanyaan Besar",
       blocks: [
         {
+          type: "paragraph",
+          text: [
+            "Sekarang ubah rasa penasaranmu menjadi pertanyaan.",
+            "Gunakan pola sederhana:"
+          ]
+        },
+        {
+          type: "quote",
+          text:
+            "“Mengapa ...?” atau “Bagaimana ...?”"
+        },
+        {
           type: "list",
           list: {
             type: "ordered",
@@ -226,28 +238,36 @@ const sumberGayaSentripetal = {
       heading: "⚠️ Miskonsepsi",
       blocks: [
         {
-          type: "paragraph",
-          text: "❌ Setiap benda yang bergerak melingkar selalu memiliki gaya sentripetal sebagai gaya tambahan."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Tidak. Gaya sentripetal adalah nama untuk resultan gaya yang mengarah menuju pusat."
-        },
-        {
-          type: "paragraph",
-          text: "❌ Gaya gravitasi, gaya gesek, dan tegangan tali tidak berkaitan dengan gaya sentripetal."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Gaya-gaya tersebut dapat menjadi sumber resultan gaya sentripetal dalam situasi tertentu."
-        },
-        {
-          type: "paragraph",
-          text: "❌ Satu benda hanya dapat memiliki satu gaya yang berperan sebagai gaya sentripetal."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Beberapa gaya dapat bersama-sama menghasilkan resultan gaya menuju pusat."
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Miskonsepsi 1",
+                description: [
+                  "Setiap benda yang bergerak melingkar selalu memiliki gaya sentripetal sebagai gaya tambahan. ❌",
+                  "Gak, gitu!",
+                  "Faktanya, gaya sentripetal adalah nama untuk resultan gaya yang mengarah menuju pusat. ✔️"
+                ]
+              },
+              {
+                text: "Miskonsepsi 2",
+                description: [
+                  "Gaya gravitasi, gaya gesek, dan tegangan tali tidak berkaitan dengan gaya sentripetal. ❌",
+                  "Gak, gitu!",
+                  "Gak gitu, gaya-gaya tersebut dapat menjadi sumber resultan gaya sentripetal dalam situasi tertentu. ✔️"
+                ]
+              },
+              {
+                text: "Miskonsepsi 3",
+                description: [
+                  "Satu benda hanya dapat memiliki satu gaya yang berperan sebagai gaya sentripetal. ❌",
+                  "Gak, gitu!",
+                  "Beberapa gaya dapat bersama-sama menghasilkan resultan gaya menuju pusat. ✔️"
+                ]
+              }
+            ]
+          }
         }
       ]
     },
@@ -260,7 +280,6 @@ const sumberGayaSentripetal = {
         }
       ]
     },
-
     {
       heading: "✨ Inti Materi",
       blocks: [
@@ -268,6 +287,102 @@ const sumberGayaSentripetal = {
         {
           type: "paragraph",
           text: "Gaya sentripetal bukan jenis gaya tersendiri. Ia merupakan resultan gaya pada arah radial yang menuju pusat lintasan. Sumbernya dapat berupa satu gaya atau kombinasi beberapa gaya, tergantung pada sistem yang dianalisis."
+        }
+      ]
+    },
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Pernyataan yang paling tepat mengenai sumber gaya sentripetal adalah....",
+                options: [
+                  "gaya sentripetal selalu berasal dari gaya gravitasi.",
+                  "gaya sentripetal merupakan gaya baru yang selalu ditambahkan pada FBD.",
+                  "gaya sentripetal dapat berasal dari berbagai gaya, tergantung pada situasi yang dianalisis.",
+                  "gaya sentripetal hanya dapat berasal dari gaya gesek.",
+                  "gaya sentripetal selalu berasal dari tegangan tali."
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Sebuah mobil bergerak melewati tikungan datar dan tidak tergelincir. Gaya yang berperan memberikan resultan menuju pusat tikungan adalah....",
+                options: [
+                  "gaya gravitasi",
+                  "gaya normal",
+                  "gaya gesek",
+                  "gaya tegangan tali",
+                  "gaya hambatan udara"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Sebuah bola diputar menggunakan tali sehingga bergerak melingkar. Gaya yang menghasilkan resultan menuju pusat lintasan adalah....",
+                options: [
+                  "gaya berat",
+                  "tegangan tali",
+                  "gaya normal",
+                  "gaya gesek udara",
+                  "gaya apung"
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Sebuah satelit bergerak mengorbit Bumi. Gaya yang berperan sebagai sumber resultan gaya menuju pusat orbit adalah....",
+                options: [
+                  "gaya gesek",
+                  "gaya normal",
+                  "gaya gravitasi",
+                  "gaya tegangan tali",
+                  "gaya magnet"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Pada roller coaster yang bergerak melewati lintasan melengkung, pernyataan yang benar adalah....",
+                options: [
+                  "gaya sentripetal selalu hanya berasal dari gaya gravitasi.",
+                  "gaya sentripetal selalu hanya berasal dari gaya normal.",
+                  "gaya normal dan gravitasi dapat bersama-sama menghasilkan resultan menuju pusat, bergantung pada posisi benda.",
+                  "tidak ada gaya yang mengarah menuju pusat.",
+                  "gaya sentripetal harus ditambahkan sebagai gaya baru pada FBD."
+                ],
+                answerIndex: 2
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
         }
       ]
     },

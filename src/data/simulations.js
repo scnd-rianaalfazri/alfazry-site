@@ -8,6 +8,8 @@ import ExploreBranchesPhysicsSimulation from "../content/simulasi/ExploreBranche
 import WaveGeneratorSimulation from "../content/simulasi/WaveGeneratorSimulation/WaveGeneratorSimulation"
 import ColoumbForceSimulation from "../content/simulasi/ColoumbForceSimulation/ColoumbForceSimulation"
 import FieldExplorerSimulation from "../content/simulasi/FieldExplorerSimulation/FieldExplorerSimulation"
+import TestChargeProbeSimulation from "../content/simulasi/TestChargeProbe/TestChargeProbeSimulation"
+import ElectricPotentialSimulation from "../content/simulasi/ElectricPotentialSimulation/ElectricPotentialLabSimulation"
 
 export const simulations = [
     PhysicsAroundSimulation,
@@ -20,4 +22,6 @@ export const simulations = [
     WaveGeneratorSimulation,
     ColoumbForceSimulation,
     FieldExplorerSimulation,
+    TestChargeProbeSimulation,
+    ElectricPotentialSimulation,
 ]

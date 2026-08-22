@@ -171,7 +171,7 @@ const fisikaSebagaiProses = {
           "*'Tujuan eksperimen itu untuk membuktikan kalau tebakan (hipotesis) kita 100% benar, kan?'* ❌",
           "Gak, gitu! ",
           "Eksperimen bukan alat untuk validasi ego agar hipotesis kita terlihat selalu benar.",
-          "Tujuan utama eksperimen adalah untuk menguji secara objektif apakah hipotesis tersebut didukung oleh bukti nyata atau tidak.",
+          "Tujuan utama eksperimen adalah untuk menguji secara objektif apakah hipotesis tersebut didukung oleh bukti nyata atau tidak. ",
           "Hipotesis yang terbukti salah lewat eksperimen tetaplah sebuah kontribusi besar bagi sains karena memberi tahu peneliti lain jalan mana yang buntu."
         ]
       }

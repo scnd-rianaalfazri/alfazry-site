@@ -29,10 +29,11 @@ const hakikatIlmuFisika = {
     blocks: [
       {
         type: "paragraph",
-        text: [
-          "Hakikat ilmu fisika adalah karakter atau sifat dasar fisika sebagai ilmu pengetahuan.",
-          "Fisika tidak hanya menghasilkan pengetahuan, tetapi juga memiliki cara kerja dan sikap yang harus dimiliki seorang ilmuwan."
-        ]
+        text: "Hakikat ilmu fisika adalah karakter atau sifat dasar fisika sebagai ilmu pengetahuan.",
+      },
+      {
+        type: "quote",
+        text: "Fisika tidak hanya menghasilkan pengetahuan, tetapi juga memiliki cara kerja dan sikap yang harus dimiliki seorang ilmuwan."
       }
     ]
   },
@@ -138,8 +139,8 @@ const hakikatIlmuFisika = {
       {
         type: "paragraph",
         text: [
-          "Fisika bukan kumpulan rumus yang harus dihafal.",
-          "Rumus hanyalah alat untuk menjelaskan hubungan antarbesaran.",
+          "Fisika bukan kumpulan rumus yang harus dihafal. ❌",
+          "Rumus hanyalah alat untuk menjelaskan hubungan antarbesaran. ✔️",
           "Yang lebih penting adalah memahami konsep dan cara berpikir ilmiah di baliknya."
         ]
       },

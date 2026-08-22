@@ -1,5 +1,3 @@
-import { text } from "framer-motion/client";
-
 const gayaSentripetal = {
   title: "Gaya Sentripetal",
   slug: "gaya-sentripetal",
@@ -25,9 +23,28 @@ const gayaSentripetal = {
         {
           type: "paragraph",
           text: [
-            "Apa yang menyebabkan benda tetap berada pada lintasan melingkar?",
-            "Mengapa resultan gaya pada gerak melingkar harus mengarah menuju pusat?"
+            "Sekarang ubah rasa penasaranmu menjadi pertanyaan.",
+            "Gunakan pola sederhana:"
           ]
+        },
+        {
+          type: "quote",
+          text:
+            "“Mengapa ...?” atau “Bagaimana ...?”"
+        },
+        {
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Apa yang menyebabkan benda tetap berada pada lintasan melingkar?"
+              },
+              {
+                text: "Mengapa resultan gaya pada gerak melingkar harus mengarah menuju pusat?" 
+              }
+            ]
+          }
         }
       ]
     },
@@ -221,6 +238,7 @@ const gayaSentripetal = {
                 text: "Miskonsepsi 1",
                 items: [
                   "Gaya sentripetal adalah gaya tambahan yang selalu muncul pada benda yang bergerak melingkar. ❌",
+                  "Gak, gitu!",
                   "Gaya sentripetal bukan gaya baru. Istilah tersebut digunakan untuk menyatakan resultan gaya yang arahnya menuju pusat lintasan. ✔️"
                 ]
               },
@@ -228,6 +246,7 @@ const gayaSentripetal = {
                 text: "Miskonsepsi 2",
                 items: [
                   "Gaya sentripetal dan gaya sentrifugal adalah pasangan gaya aksi-reaksi. ❌",
+                  "Gak, gitu!",
                   "Keduanya bukan pasangan Hukum Newton III. Gaya sentripetal adalah resultan gaya pada benda dalam kerangka acuan inersial, sedangkan gaya sentrifugal merupakan konsep gaya semu yang digunakan dalam kerangka berotasi. ✔️"
                 ]
               },
@@ -235,6 +254,7 @@ const gayaSentripetal = {
                 text: "Miskonsepsi 3",
                 description:[
                   "Jika kelajuan benda tetap, maka tidak ada percepatan. ❌",
+                  "Gak, gitu!",
                   "Pada gerak melingkar beraturan, kelajuan dapat tetap tetapi arah kecepatan berubah sehingga tetap terdapat percepatan sentripetal. ✔️"
                 ]
               }

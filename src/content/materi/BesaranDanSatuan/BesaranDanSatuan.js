@@ -1,6 +1,6 @@
 const besarandansatuan = {
   title: 'Besaran dan Satuan',
-  slug: 'besaran dan satuan',
+  slug: 'besaran-dan-satuan',
   description: 'Memahami bagaimana hasil pengamatan dinyatakan melalui besaran, nilai, dan satuan.',
   chapter: "📏 Pengukuran",
 
