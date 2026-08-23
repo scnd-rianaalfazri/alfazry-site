@@ -1,9 +1,7 @@
 const planetDanSatelit = {
   title: "Planet dan Satelit: Gravitasi sebagai Gaya Sentripetal",
   slug: "planet-dan-satelit",
-  description:
-    "Menganalisis bagaimana gaya gravitasi dapat menjadi penyedia gaya sentripetal yang menjaga planet dan satelit tetap berada pada orbitnya.",
-
+  description: "Menganalisis bagaimana gaya gravitasi dapat menjadi penyedia gaya sentripetal yang menjaga planet dan satelit tetap berada pada orbitnya.",
   chapter: "🌀 Dinamika Gerak Melingkar",
 
   content: [
@@ -11,98 +9,76 @@ const planetDanSatelit = {
       heading: "🪐 Mengapa Planet Tidak Terbang Lurus?",
       blocks: [
         {
-          type: "heading",
-          text: "🪐 Mengapa Planet Tidak Terbang Lurus?"
-        },
-        {
           type: "paragraph",
-          text: "Bumi bergerak mengelilingi Matahari dengan kecepatan yang sangat besar. Namun, Bumi tidak terbang lurus meninggalkan Tata Surya."
-        },
-        {
-          type: "paragraph",
-          text: "Bulan juga terus bergerak mengelilingi Bumi tanpa terlepas begitu saja ke luar angkasa."
-        },
-        {
-          type: "paragraph",
-          text: "Apa yang membuat benda-benda langit tersebut tetap berada pada orbitnya?"
+          text: [
+            "Bumi bergerak mengelilingi Matahari dengan kecepatan yang sangat besar. Namun, Bumi tidak terbang lurus meninggalkan Tata Surya.",
+            "Bulan juga terus bergerak mengelilingi Bumi tanpa terlepas begitu saja ke luar angkasa.",
+            "Apa yang membuat benda-benda langit tersebut tetap berada pada orbitnya?"
+          ]
         }
       ]
     },
-
     {
       heading: "❓ Pertanyaan Besar",
       blocks: [
         {
-          type: "heading",
-          text: "❓ Pertanyaan Besar"
-        },
-        {
-          type: "paragraph",
-          text: "Bagaimana gaya gravitasi dapat menjaga planet dan satelit tetap bergerak pada lintasan orbit?"
-        },
-        {
-          type: "paragraph",
-          text: "Apakah gravitasi dapat berperan sebagai gaya sentripetal?"
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Bagaimana gaya gravitasi dapat menjaga planet dan satelit tetap bergerak pada lintasan orbit?"
+              },
+              {
+                text: "Apakah gravitasi dapat berperan sebagai gaya sentripetal?"
+              }
+            ]
+          }
         }
       ]
     },
-
     {
       heading: "🧭 Identifikasi Gaya",
       blocks: [
         {
-          type: "heading",
-          text: "🧭 Identifikasi Gaya"
-        },
-        {
           type: "paragraph",
-          text: "Untuk menyederhanakan model, bayangkan sebuah planet mengorbit bintangnya dalam lintasan hampir melingkar."
-        },
-        {
-          type: "paragraph",
-          text: "Gaya utama yang dianalisis adalah gaya gravitasi antara planet dan bintang."
-        },
-        {
-          type: "paragraph",
-          text: "Gaya gravitasi selalu menarik planet menuju bintang."
-        },
-        {
-          type: "paragraph",
-          text: "Arah tersebut sama dengan arah menuju pusat orbit."
+          text: [
+            "Untuk menyederhanakan model, bayangkan sebuah planet mengorbit bintangnya dalam lintasan hampir melingkar.",
+            "Gaya utama yang dianalisis adalah gaya gravitasi antara planet dan bintang.",
+            "Gaya gravitasi selalu menarik planet menuju bintang. Arah tersebut sama dengan arah menuju pusat orbit."
+          ]
         }
       ]
     },
-
     {
       heading: "🎨 Visualisasi Konsep",
       blocks: [
         {
-          type: "heading",
-          text: "🎨 Visualisasi Konsep"
+          type: "paragraph",
+          text: [
+            "Bayangkan sebuah planet bergerak mengelilingi sebuah bintang.",
+            "Tampilkan:"
+          ]
         },
         {
-          type: "paragraph",
-          text: "Bayangkan sebuah planet bergerak mengelilingi sebuah bintang."
-        },
-        {
-          type: "paragraph",
-          text: "Tampilkan:"
-        },
-        {
-          type: "paragraph",
-          text: "• Bintang sebagai pusat orbit."
-        },
-        {
-          type: "paragraph",
-          text: "• Planet pada salah satu titik orbit."
-        },
-        {
-          type: "paragraph",
-          text: "• Kecepatan planet yang menyinggung lintasan."
-        },
-        {
-          type: "paragraph",
-          text: "• Gaya gravitasi yang mengarah menuju bintang."
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "Bintang sebagai pusat orbit."
+              },
+              {
+                text: "Planet pada salah satu titik orbit."
+              },
+              {
+                text: "Kecepatan planet yang menyinggung lintasan."
+              },
+              {
+                text: "Gaya gravitasi yang mengarah menuju bintang."
+              }
+            ]
+          }
         },
         {
           type: "paragraph",
@@ -110,81 +86,64 @@ const planetDanSatelit = {
         }
       ]
     },
-
     {
       heading: "📌 Strategi Penyelesaian",
       blocks: [
         {
-          type: "heading",
-          text: "📌 Strategi Penyelesaian"
-        },
-        {
-          type: "paragraph",
-          text: "1️⃣ Tentukan benda yang sedang mengorbit."
-        },
-        {
-          type: "paragraph",
-          text: "2️⃣ Tentukan pusat orbit."
-        },
-        {
-          type: "paragraph",
-          text: "3️⃣ Identifikasi gaya gravitasi."
-        },
-        {
-          type: "paragraph",
-          text: "4️⃣ Tentukan arah radial menuju pusat."
-        },
-        {
-          type: "paragraph",
-          text: "5️⃣ Hubungkan gaya gravitasi dengan kebutuhan gaya sentripetal."
-        },
-        {
-          type: "paragraph",
-          text: "6️⃣ Gunakan Hukum Newton untuk menganalisis geraknya."
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Tentukan benda yang sedang mengorbit."
+              },
+              {
+                text: "Tentukan pusat orbit."
+              },
+              {
+                text: "Identifikasi gaya gravitasi."
+              },
+              {
+                text: "Tentukan arah radial menuju pusat."
+              },
+              {
+                text: "Hubungkan gaya gravitasi dengan kebutuhan gaya sentripetal."
+              },
+              {
+                text: "Gunakan Hukum Newton untuk menganalisis geraknya."
+              }
+            ]
+          }
         }
       ]
     },
-
     {
       heading: "📝 Free Body Diagram",
       blocks: [
         {
-          type: "heading",
-          text: "📝 Free Body Diagram"
-        },
-        {
           type: "paragraph",
-          text: "Pada model sederhana planet yang mengorbit bintang, gaya utama yang dianalisis adalah gaya gravitasi."
-        },
-        {
-          type: "paragraph",
-          text: "Arah gaya gravitasi menuju pusat orbit."
-        },
-        {
-          type: "paragraph",
-          text: "Karena itu, gaya gravitasi menjadi penyedia gaya sentripetal."
+          text: [
+            "Pada model sederhana planet yang mengorbit bintang, gaya utama yang dianalisis adalah gaya gravitasi.",
+            "Arah gaya gravitasi menuju pusat orbit.",
+            "Karena itu, gaya gravitasi menjadi penyedia gaya sentripetal."
+          ]
         }
       ]
     },
-
     {
       heading: "⚖️ Analisis Resultan Gaya",
       blocks: [
-        {
-          type: "heading",
-          text: "⚖️ Analisis Resultan Gaya"
-        },
+
         {
           type: "paragraph",
           text: "Menurut Hukum Newton II, resultan gaya menuju pusat harus menghasilkan percepatan sentripetal."
         },
         {
           type: "equation",
-          latex: "F_g = F_c"
-        },
-        {
-          type: "equation",
-          latex: "\\frac{GMm}{r^2}=\\frac{mv^2}{r}"
+          equation: [
+            "F_g = F_c",
+            "\\frac{GMm}{r^2}=\\frac{mv^2}{r}"
+          ]
         },
         {
           type: "paragraph",
@@ -192,51 +151,36 @@ const planetDanSatelit = {
         },
         {
           type: "equation",
-          latex: "v=\\sqrt{\\frac{GM}{r}}"
+          equation: "v=\\sqrt{\\frac{GM}{r}}"
         }
       ]
     },
-
     {
       heading: "🔭 Apa yang Terjadi Jika Orbit Lebih Jauh?",
       blocks: [
         {
-          type: "heading",
-          text: "🔭 Apa yang Terjadi Jika Orbit Lebih Jauh?"
-        },
-        {
           type: "paragraph",
-          text: "Dari hubungan kelajuan orbit, kita dapat melihat bahwa benda yang berada pada orbit yang lebih jauh dari pusat gravitasi memiliki kelajuan orbit yang lebih kecil dalam model orbit melingkar."
-        },
-        {
-          type: "paragraph",
-          text: "Jadi, semakin jauh sebuah satelit dari pusat Bumi, kelajuan orbit melingkarnya tidak harus semakin besar."
+          text: [
+            "Dari hubungan kelajuan orbit, kita dapat melihat bahwa benda yang berada pada orbit yang lebih jauh dari pusat gravitasi memiliki kelajuan orbit yang lebih kecil dalam model orbit melingkar.",
+            "Jadi, semakin jauh sebuah satelit dari pusat Bumi, kelajuan orbit melingkarnya tidak harus semakin besar."
+          ]
         }
       ]
     },
-
     {
-      heading: "🧪 Contoh Analisis",
+      heading: "🧪 Contoh Soal",
       blocks: [
         {
-          type: "heading",
-          text: "🧪 Contoh Analisis"
-        },
-        {
           type: "paragraph",
-          text: "Sebuah satelit bergerak mengelilingi Bumi pada orbit yang dianggap melingkar."
-        },
-        {
-          type: "paragraph",
-          text: "Gaya yang menjaga satelit tetap mengorbit adalah gaya gravitasi Bumi."
-        },
-        {
-          type: "paragraph",
-          text: "Dengan demikian:"
+          text: [
+            "Sebuah satelit bergerak mengelilingi Bumi pada orbit yang dianggap melingkar.",
+            "Gaya yang menjaga satelit tetap mengorbit adalah gaya gravitasi Bumi.",
+            "Dengan demikian:"
+          ]
         },
         {
           type: "equation",
-          latex: "F_g=F_c"
+          equation: "F_g=F_c"
         },
         {
           type: "paragraph",
@@ -244,72 +188,72 @@ const planetDanSatelit = {
         }
       ]
     },
-
     {
       heading: "🌍 Contoh dalam Kehidupan",
       blocks: [
         {
-          type: "heading",
-          text: "🌍 Contoh dalam Kehidupan"
-        },
-        {
-          type: "paragraph",
-          text: "🌎 Bumi mengorbit Matahari."
-        },
-        {
-          type: "paragraph",
-          text: "🌙 Bulan mengorbit Bumi."
-        },
-        {
-          type: "🛰️ Satelit buatan mengorbit Bumi."
-        },
-        {
-          type: "🪐 Planet-planet mengorbit Matahari."
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "🌎 Bumi mengorbit Matahari."
+              },
+              {
+                text: "🌙 Bulan mengorbit Bumi."
+              },
+              {
+                text: "🛰️ Satelit buatan mengorbit Bumi."
+              },
+              {
+                text: "🪐 Planet-planet mengorbit Matahari."
+              }
+            ]
+          }
         }
       ]
     },
-
     {
       heading: "⚠️ Miskonsepsi",
       blocks: [
         {
-          type: "heading",
-          text: "⚠️ Miskonsepsi"
-        },
-        {
-          type: "paragraph",
-          text: "❌ Satelit tetap mengorbit karena ada gaya sentripetal yang berbeda dari gravitasi."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Dalam model orbit melingkar sederhana, gaya gravitasi merupakan gaya yang menyediakan gaya sentripetal."
-        },
-        {
-          type: "paragraph",
-          text: "❌ Planet mengorbit karena ada gaya yang mendorongnya terus ke depan."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Gerak tangensial planet merupakan bagian dari keadaan geraknya, sementara gravitasi terus membelokkan arah kecepatannya menuju pusat."
-        },
-        {
-          type: "paragraph",
-          text: "❌ Jika gravitasi tiba-tiba hilang, planet akan tetap mengorbit."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Tanpa gaya gravitasi, tidak ada gaya yang membelokkan lintasan. Dalam model sederhana, benda akan melanjutkan gerak mendekati garis lurus sepanjang arah tangennya."
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Miskonsepsi 1",
+                description: [
+                  "Satelit tetap mengorbit karena ada gaya sentripetal yang berbeda dari gravitasi. ❌",
+                  "Gak, gitu!",
+                  "Dalam model orbit melingkar sederhana, gaya gravitasi merupakan gaya yang menyediakan gaya sentripetal. ✔️"
+                ]
+              },
+              {
+                text: "Miskonsepsi 2",
+                description: [
+                  "Planet mengorbit karena ada gaya yang mendorongnya terus ke depan. ❌",
+                  "Gak, gitu!",
+                  "Gerak tangensial planet merupakan bagian dari keadaan geraknya, sementara gravitasi terus membelokkan arah kecepatannya menuju pusat. ✔️"
+                ]
+              },
+              {
+                text: "Miskonsepsi 3",
+                description: [
+                  "Jika gravitasi tiba-tiba hilang, planet akan tetap mengorbit. ❌",
+                  "Gak, gitu!",
+                  "Tanpa gaya gravitasi, tidak ada gaya yang membelokkan lintasan. Dalam model sederhana, benda akan melanjutkan gerak mendekati garis lurus sepanjang arah tangennya. ✔️"
+                ]
+              }
+            ]
+          }
         }
       ]
     },
 
     {
-      heading: "🌟 Fun Fact",
+      heading: "🌟* Fun Fact*",
       blocks: [
-        {
-          type: "heading",
-          text: "🌟 Fun Fact"
-        },
         {
           type: "paragraph",
           text: "Bulan sebenarnya terus 'jatuh' menuju Bumi karena gravitasi. Namun, karena Bulan juga memiliki kecepatan tangensial, permukaan Bumi terus melengkung menjauh di bawah lintasannya sehingga Bulan tetap berada dalam orbit."
@@ -318,37 +262,119 @@ const planetDanSatelit = {
     },
 
     {
-      heading: "🧠 Inti Materi",
+      heading: "✨ Inti Materi",
       blocks: [
-        {
-          type: "heading",
-          text: "🧠 Inti Materi"
-        },
         {
           type: "paragraph",
           text: "Pada orbit melingkar sederhana, gaya gravitasi dapat menjadi penyedia gaya sentripetal. Gravitasi terus menarik benda menuju pusat sehingga arah kecepatannya berubah dan benda tetap mengikuti lintasan orbit."
         }
       ]
     },
-
-    {
-      heading: "🚀 Next Mission",
+    { heading: "🎯 Quick Check", 
       blocks: [
         {
-          type: "heading",
-          text: "🚀 Next Mission"
-        },
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Gaya yang menjaga planet tetap berada pada orbitnya mengelilingi Matahari adalah....",
+                options: [
+                  "resultan gaya yang arahnya menuju pusat lintasan",
+                  "gaya normal saja",
+                  "gaya tambahan yang selalu bekerja ke pusat",
+                  "gaya gravitasi saja",
+                  "gaya yang arahnya menjauhi pusat lintasan"
+                ],
+                answerIndex: 0
+              },
+              {
+                question: "Di bagian bawah lintasan loop, arah pusat lingkaran berada....",
+                options: [
+                  "di bawah kereta",
+                  "di atas kereta",
+                  "di sebelah kiri kereta",
+                  "di sebelah kanan kereta",
+                  "berlawanan dengan arah gerak kereta"
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Sebuah roller coaster bermassa 500 kg bergerak dengan kelajuan 10 m/s pada bagian bawah lintasan berjari-jari 20 m. Jika $g=10 m/s^2$, besar gaya normal pada kereta adalah....",
+                options: [
+                  "2.500 N",
+                  "5.000 N",
+                  "7.500 N",
+                  "10.000 N",
+                  "12.500 N"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Mengapa gaya normal di bagian bawah loop dapat lebih besar daripada gaya berat?",
+                options: [
+                  "Karena massa kereta bertambah saat bergerak melingkar.",
+                  "Karena gaya gravitasi berubah arah menjadi ke atas.",
+                  "Karena diperlukan resultan gaya menuju pusat.",
+                  "Karena gaya sentripetal merupakan gaya tambahan yang bekerja pada kereta.",
+                  "Karena gaya gravitasi tidak bekerja di bagian bawah loop."
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Di bagian atas loop, gaya berat kereta mengarah....",
+                options: [
+                  "menjauhi pusat lintasan",
+                  "tegak lurus terhadap pusat lintasan",
+                  "berlawanan dengan arah gaya normal dalam semua kondisi",
+                  "sejajar dengan arah gerak kereta",
+                  "menuju pusat lintasan"
+                ],
+                answerIndex: 4
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      blocks: [
         {
           type: "paragraph",
-          text: "Sekarang kita telah melihat empat situasi berbeda: gaya gesek pada mobil, tegangan tali, gaya normal dan gravitasi pada roller coaster, serta gravitasi pada orbit."
-        },
-        {
-          type: "paragraph",
-          text: "Ternyata satu pola yang sama dapat menjelaskan semuanya: selalu ada resultan gaya menuju pusat."
-        },
-        {
-          type: "paragraph",
-          text: "Selanjutnya, kita akan membawa semua konsep ini keluar dari soal dan melihat bagaimana dinamika gerak melingkar bekerja dalam teknologi dan kehidupan nyata."
+          text: [
+            "Sekarang kita telah melihat empat situasi berbeda: gaya gesek pada mobil, tegangan tali, gaya normal dan gravitasi pada roller coaster, serta gravitasi pada orbit.",
+            "Ternyata satu pola yang sama dapat menjelaskan semuanya: selalu ada resultan gaya menuju pusat.",
+            "Selanjutnya, kita akan membawa semua konsep ini keluar dari soal dan melihat bagaimana dinamika gerak melingkar bekerja dalam teknologi dan kehidupan nyata."
+          ]
         }
       ]
     }

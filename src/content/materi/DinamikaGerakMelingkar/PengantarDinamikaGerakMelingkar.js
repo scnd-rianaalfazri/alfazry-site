@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/DinamikaGerakMelingkar/portal-gaya-sentripetal.png"
+
 const pengantarDinamikaGerakMelingkar = {
   title: "Pengantar Dinamika Gerak Melingkar",
   slug: "pengantar-dinamika-gerak-melingkar",
@@ -191,8 +193,13 @@ const pengantarDinamikaGerakMelingkar = {
           type: "paragraph",
           text: [
             "Sekarang kita akan menyelidiki lebih dalam apa yang dimaksud dengan gaya sentripetal, bagaimana arahnya, dan mengapa gaya tersebut selalu mengarah ke pusat lintasan.",
-            "➡️ *Next:* kita menuju portal: [**Gaya Sentripetal]{/materi/gaya-sentripetal}"
           ]
+        },
+        {
+          type: "image",
+          src: img1,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/gaya-sentripetal"
         }
       ]
     }

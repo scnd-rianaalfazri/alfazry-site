@@ -268,7 +268,7 @@ const rollerCoaster = {
                 description: [
                   "Gaya sentripetal selalu berasal dari gaya normal. ❌",
                   "Gak, gitu",
-                  "Tidak. Gaya sentripetal merupakan resultan gaya menuju pusat. Pada roller coaster, gaya gravitasi dan gaya normal dapat berkontribusi terhadap resultan tersebut."
+                  "Tidak. Gaya sentripetal merupakan resultan gaya menuju pusat. Pada roller coaster, gaya gravitasi dan gaya normal dapat berkontribusi terhadap resultan tersebut. ✔️"
                 ]
               },
               {
@@ -276,7 +276,7 @@ const rollerCoaster = {
                 description: [
                   "Gaya berat selalu berlawanan arah dengan gaya sentripetal. ❌",
                   "Gak, gitu!",
-                  "Arah gaya sentripetal ditentukan oleh posisi pusat lintasan. Di bagian atas lintasan, gaya berat justru mengarah menuju pusat."
+                  "Arah gaya sentripetal ditentukan oleh posisi pusat lintasan. Di bagian atas lintasan, gaya berat justru mengarah menuju pusat. ✔️"
                 ]
               },
               {
@@ -284,7 +284,7 @@ const rollerCoaster = {
                 description: [
                   "Penumpang tetap merasakan gaya yang sama di seluruh lintasan. ❌",
                   "Gak, gitu!",
-                  "Gaya normal dapat berubah sesuai posisi dan kelajuan kereta sehingga sensasi berat atau ringan juga dapat berubah."
+                  "Gaya normal dapat berubah sesuai posisi dan kelajuan kereta sehingga sensasi berat atau ringan juga dapat berubah. ✔️"
                 ]
               }
             ]
@@ -302,11 +302,107 @@ const rollerCoaster = {
       ]
     },
     {
-      heading: "🧠 Inti Materi",
+      heading: "✨ Inti Materi",
       blocks: [
         {
           type: "paragraph",
           text: "Pada lintasan melingkar vertikal, gaya sentripetal dapat berasal dari kombinasi gaya gravitasi dan gaya normal. Kunci analisisnya adalah menentukan arah pusat lintasan terlebih dahulu, kemudian menjumlahkan gaya-gaya pada arah radial."
+        }
+      ]
+    },
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Pada roller coaster yang bergerak pada lintasan melingkar vertikal, gaya sentripetal merupakan....",
+                options: [
+                  "resultan gaya yang arahnya menuju pusat lintasan",
+                  "gaya normal saja",
+                  "gaya tambahan yang selalu bekerja ke pusat",
+                  "gaya gravitasi saja",
+                  "gaya yang arahnya menjauhi pusat lintasan"
+                ],
+                answerIndex: 0
+              },
+              {
+                question: "Di bagian bawah lintasan loop, arah pusat lingkaran berada....",
+                options: [
+                  "di bawah kereta",
+                  "di atas kereta",
+                  "di sebelah kiri kereta",
+                  "di sebelah kanan kereta",
+                  "berlawanan dengan arah gerak kereta"
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Sebuah roller coaster bermassa 500 kg bergerak dengan kelajuan 10 m/s pada bagian bawah lintasan berjari-jari 20 m. Jika $g=10 m/s^2$, besar gaya normal pada kereta adalah....",
+                options: [
+                  "2.500 N",
+                  "5.000 N",
+                  "7.500 N",
+                  "10.000 N",
+                  "12.500 N"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Mengapa gaya normal di bagian bawah loop dapat lebih besar daripada gaya berat?",
+                options: [
+                  "Karena massa kereta bertambah saat bergerak melingkar.",
+                  "Karena gaya gravitasi berubah arah menjadi ke atas.",
+                  "Karena diperlukan resultan gaya menuju pusat.",
+                  "Karena gaya sentripetal merupakan gaya tambahan yang bekerja pada kereta.",
+                  "Karena gaya gravitasi tidak bekerja di bagian bawah loop."
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Di bagian atas loop, gaya berat kereta mengarah....",
+                options: [
+                  "menjauhi pusat lintasan",
+                  "tegak lurus terhadap pusat lintasan",
+                  "berlawanan dengan arah gaya normal dalam semua kondisi",
+                  "sejajar dengan arah gerak kereta",
+                  "menuju pusat lintasan"
+                ],
+                answerIndex: 4
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
         }
       ]
     },

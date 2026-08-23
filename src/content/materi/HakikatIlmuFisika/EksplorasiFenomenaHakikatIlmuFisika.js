@@ -562,7 +562,8 @@ const eksplorasiFenomena = {
         {
           type: "image",
           src: img1,
-          link: "/materi/penutup-hakikat-fisika"
+          link: "/materi/penutup-hakikat-fisika",
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
         }
       ]
     },

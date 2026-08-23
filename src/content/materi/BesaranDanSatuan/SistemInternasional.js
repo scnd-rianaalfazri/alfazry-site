@@ -1,41 +1,54 @@
 const sisteminternasional = {
   title: 'Sistem Internasional',
-  slug: 'sistem internasional',
+  slug: 'sistem-internasional',
   description: 'Memahami Sistem Internasional (SI) sebagai standar satuan agar hasil pengukuran dapat dibandingkan secara universal.',
   chapter: "📏 Pengukuran",
 
   content: [
     {
-      heading: '🌍 Hook — Bagaimana Kalau Setiap Negara Punya Standar Sendiri?',
       blocks: [
-        { type: "paragraph", text: 'Bayangkan ilmuwan di dua negara mengukur benda yang sama dengan standar berbeda. Bagaimana mereka membandingkan hasilnya?' },
+        { 
+          type: "paragraph", 
+          text: 'Bayangkan ilmuwan di dua negara mengukur benda yang sama dengan standar berbeda. Bagaimana mereka membandingkan hasilnya?' 
+        },
       ]
     },
 
     {
       heading: '❓ Pertanyaan Besar',
       blocks: [
-        { type: "paragraph", text: 'Bagaimana manusia membuat bahasa pengukuran yang dapat digunakan bersama?' },
-        { type: "paragraph", text: 'Jawabannya adalah Sistem Internasional atau SI.' },
+        { 
+          type: "paragraph", 
+          text: "Bagaimana manusia membuat bahasa pengukuran yang dapat digunakan bersama?"
+        },
       ]
     },
 
     {
       heading: '🌐 Apa Itu SI?',
       blocks: [
-        { type: "paragraph", text: 'Sistem Internasional (SI) adalah sistem satuan standar yang digunakan secara global dalam ilmu pengetahuan dan teknologi.' },
-        { type: "paragraph", text: 'SI membuat pengukuran lebih seragam, mudah dibandingkan, dan tidak membingungkan.' },
+        { 
+          type: "paragraph", 
+          text: [
+            "Sistem Internasional (SI) adalah sistem satuan standar yang digunakan secara global dalam ilmu pengetahuan dan teknologi.",
+            "SI membuat pengukuran lebih seragam, mudah dibandingkan, dan tidak membingungkan."
+          ]
+        }
       ]
     },
-
     {
       heading: '👀 Visualisasi Konsep',
       blocks: [
-        { type: "paragraph", text: 'Bayangkan Amara bekerja di stasiun pengukuran: panjang dalam meter, massa dalam kilogram, dan waktu dalam sekon.' },
-        { type: "paragraph", text: 'Standar yang sama membuat data dari berbagai tempat dapat dibandingkan.' },
+        { 
+          type: "paragraph", 
+          text: [
+            "Bayangkan Amara bekerja di stasiun pengukuran: panjang dalam meter, massa dalam kilogram, dan waktu dalam sekon.",
+            "Standar yang sama membuat data dari berbagai tempat dapat dibandingkan."
+          ]
+        }
       ]
     },
-
+    
     {
       heading: '📋 Tujuh Besaran Pokok SI',
       blocks: [

@@ -299,6 +299,102 @@ const mobilBerbelok = {
         }
       ]
     },
+    { heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Pada tikungan datar, gaya yang berperan sebagai penyedia gaya sentripetal pada mobil adalah....",
+                options: [
+                  "gaya gesek",
+                  "aya gravitasi",
+                  "gaya normal",                  
+                  "gaya sentrifugal",
+                  "gaya hambatan udara"
+                ],
+                answerIndex: 0
+              },
+              {
+                question: "Sebuah mobil bermassa 1.000 kg bergerak dengan kelajuan 10 m/s pada tikungan berjari-jari 50 m. Besar gaya sentripetal yang dibutuhkan mobil adalah....",
+                options: [
+                  "200 N",
+                  "500 N",
+                  "1.000 N",
+                  "2.000 N",
+                  "5.000 N",
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Jika kelajuan mobil di tikungan diperbesar, sedangkan massa dan jari-jari tikungan tetap, maka kebutuhan gaya sentripetal akan....",
+                options: [
+                  "berkurang",
+                  "tetap",
+                  "bertambah sebanding dengan kelajuan",
+                  "bertambah sebanding dengan kuadrat kelajuan",
+                  "menjadi nol"
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Sebuah mobil tidak tergelincir saat menikung meskipun gaya gesek yang bekerja adalah gaya gesek statis. Pernyataan yang tepat adalah....",
+                options: [
+                  "gaya gesek statis hanya bekerja ketika mobil diam.",
+                  "gaya gesek statis dapat bekerja tanpa terjadi tergelincir relatif antara ban dan jalan.",
+                  "gaya gesek statis selalu berlawanan dengan arah kecepatan mobil.",
+                  "gaya gesek statis tidak dapat menghasilkan gaya sentripetal.",
+                  "gaya gesek statis selalu bernilai nol."
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Jika kebutuhan gaya sentripetal mobil melebihi gaya gesek maksimum yang dapat diberikan jalan, maka....",
+                options: [
+                  "mobil akan semakin mudah berbelok.",
+                  "gaya gravitasi menjadi lebih besar.",
+                  "mobil dapat kehilangan cengkeraman dan mulai tergelincir.",
+                  "gaya normal menjadi nol.",
+                  "mobil akan otomatis berhenti."
+                ],
+                answerIndex: 2
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       blocks: [
         {

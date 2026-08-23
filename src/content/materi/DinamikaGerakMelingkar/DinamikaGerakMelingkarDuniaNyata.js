@@ -1,30 +1,19 @@
 const dinamikaGerakMelingkarDuniaNyata = {
   title: "Dinamika Gerak Melingkar di Dunia Nyata",
   slug: "dinamika-gerak-melingkar-di-dunia-nyata",
-  description:
-    "Menghubungkan konsep gaya sentripetal dengan berbagai teknologi, transportasi, olahraga, dan fenomena alam.",
-
+  description: "Menghubungkan konsep gaya sentripetal dengan berbagai teknologi, transportasi, olahraga, dan fenomena alam.",
   chapter: "🌀 Dinamika Gerak Melingkar",
 
   content: [
     {
-      heading: "🌍 Ternyata Kita Dikelilingi Gerak Melingkar",
       blocks: [
         {
-          type: "heading",
-          text: "🌍 Ternyata Kita Dikelilingi Gerak Melingkar"
-        },
-        {
           type: "paragraph",
-          text: "Setelah mempelajari berbagai contoh, sekarang coba lihat kembali lingkungan di sekitarmu."
-        },
-        {
-          type: "paragraph",
-          text: "Mobil berbelok, sepeda menikung, wahana berputar, roller coaster, hingga satelit yang mengorbit Bumi semuanya memiliki sesuatu yang sama."
-        },
-        {
-          type: "paragraph",
-          text: "Ada resultan gaya yang membuat arah geraknya terus berubah."
+          text: [
+            "Setelah mempelajari berbagai contoh, sekarang coba lihat kembali lingkungan di sekitarmu.",
+            "Mobil berbelok, sepeda menikung, wahana berputar, roller coaster, hingga satelit yang mengorbit Bumi semuanya memiliki sesuatu yang sama.",
+            "Ada resultan gaya yang membuat arah geraknya terus berubah."
+          ]
         }
       ]
     },
@@ -32,10 +21,6 @@ const dinamikaGerakMelingkarDuniaNyata = {
     {
       heading: "❓ Pertanyaan Besar",
       blocks: [
-        {
-          type: "heading",
-          text: "❓ Pertanyaan Besar"
-        },
         {
           type: "paragraph",
           text: "Bagaimana konsep gaya sentripetal membantu manusia merancang teknologi yang aman dan memahami fenomena alam?"
@@ -47,125 +32,79 @@ const dinamikaGerakMelingkarDuniaNyata = {
       heading: "🚗 Transportasi",
       blocks: [
         {
-          type: "heading",
-          text: "🚗 Transportasi"
-        },
-        {
           type: "paragraph",
-          text: "Saat kendaraan melewati tikungan, diperlukan resultan gaya menuju pusat tikungan agar kendaraan dapat mengikuti lintasan."
-        },
-        {
-          type: "paragraph",
-          text: "Pada jalan datar, gaya gesek antara ban dan jalan dapat menyediakan gaya tersebut."
-        },
-        {
-          type: "paragraph",
-          text: "Karena itu, desain tikungan harus mempertimbangkan kelajuan kendaraan, jari-jari tikungan, kondisi ban, dan kondisi permukaan jalan."
+          text: [
+            "Saat kendaraan melewati tikungan, diperlukan resultan gaya menuju pusat tikungan agar kendaraan dapat mengikuti lintasan.",
+            "Pada jalan datar, gaya gesek antara ban dan jalan dapat menyediakan gaya tersebut.",
+            "Karena itu, desain tikungan harus mempertimbangkan kelajuan kendaraan, jari-jari tikungan, kondisi ban, dan kondisi permukaan jalan."
+          ]
         }
       ]
     },
-
     {
       heading: "🏎️ Tikungan pada Sirkuit Balap",
       blocks: [
         {
-          type: "heading",
-          text: "🏎️ Tikungan pada Sirkuit Balap"
-        },
-        {
           type: "paragraph",
-          text: "Mobil balap dapat melewati tikungan dengan kecepatan sangat tinggi karena desain kendaraan dan lintasan membantu menghasilkan gaya yang diperlukan untuk mempertahankan lintasan."
-        },
-        {
-          type: "paragraph",
-          text: "Ban yang memiliki cengkeraman tinggi membantu menghasilkan gaya gesek yang cukup, sementara bentuk dan kemiringan lintasan dapat membantu meningkatkan kemampuan kendaraan saat menikung."
+          text: [
+            "Mobil balap dapat melewati tikungan dengan kecepatan sangat tinggi karena desain kendaraan dan lintasan membantu menghasilkan gaya yang diperlukan untuk mempertahankan lintasan.",
+            "Ban yang memiliki cengkeraman tinggi membantu menghasilkan gaya gesek yang cukup, sementara bentuk dan kemiringan lintasan dapat membantu meningkatkan kemampuan kendaraan saat menikung."
+          ]
         }
       ]
     },
-
     {
       heading: "🎢 Wahana Permainan",
       blocks: [
         {
-          type: "heading",
-          text: "🎢 Wahana Permainan"
-        },
-        {
           type: "paragraph",
-          text: "Roller coaster dan berbagai wahana berputar dirancang dengan memperhitungkan gaya, kecepatan, dan jari-jari lintasan."
-        },
-        {
-          type: "paragraph",
-          text: "Tujuannya bukan hanya membuat wahana terasa seru, tetapi juga memastikan kendaraan dan penumpang tetap berada pada lintasan dengan aman."
+          text: [
+            "Roller coaster dan berbagai wahana berputar dirancang dengan memperhitungkan gaya, kecepatan, dan jari-jari lintasan.",
+            "Tujuannya bukan hanya membuat wahana terasa seru, tetapi juga memastikan kendaraan dan penumpang tetap berada pada lintasan dengan aman."
+          ]
         }
       ]
     },
-
     {
       heading: "🌀 Mesin yang Berputar",
       blocks: [
         {
-          type: "heading",
-          text: "🌀 Mesin yang Berputar"
-        },
-        {
           type: "paragraph",
-          text: "Banyak mesin menggunakan komponen yang bergerak dalam lintasan melingkar, seperti roda, turbin, sentrifus, dan rotor."
-        },
-        {
-          type: "paragraph",
-          text: "Semakin besar kelajuan putarnya, semakin besar gaya yang harus diperhitungkan pada komponen tersebut."
-        },
-        {
-          type: "paragraph",
-          text: "Karena itu, perancang mesin harus memperhatikan massa, kecepatan putar, dan ukuran komponen."
+          text: [
+            "Banyak mesin menggunakan komponen yang bergerak dalam lintasan melingkar, seperti roda, turbin, sentrifus, dan rotor.",
+            "Semakin besar kelajuan putarnya, semakin besar gaya yang harus diperhitungkan pada komponen tersebut.",
+            "Karena itu, perancang mesin harus memperhatikan massa, kecepatan putar, dan ukuran komponen."
+          ]
         }
       ]
     },
-
     {
       heading: "🧪 Sentrifus",
       blocks: [
         {
-          type: "heading",
-          text: "🧪 Sentrifus"
-        },
-        {
           type: "paragraph",
-          text: "Di laboratorium, mesin sentrifus memutar sampel dengan kecepatan tinggi sehingga partikel di dalamnya mengalami gerak melingkar."
-        },
-        {
-          type: "paragraph",
-          text: "Prinsip dinamika gerak melingkar digunakan untuk membantu memisahkan komponen berdasarkan responsnya terhadap gerakan berputar."
+          text: [
+            "Di laboratorium, mesin sentrifus memutar sampel dengan kecepatan tinggi sehingga partikel di dalamnya mengalami gerak melingkar.",
+            "Prinsip dinamika gerak melingkar digunakan untuk membantu memisahkan komponen berdasarkan responsnya terhadap gerakan berputar."
+          ]
         }
       ]
     },
-
     {
       heading: "🪐 Satelit dan Teknologi Antariksa",
       blocks: [
         {
-          type: "heading",
-          text: "🪐 Satelit dan Teknologi Antariksa"
-        },
-        {
           type: "paragraph",
-          text: "Satelit buatan dapat ditempatkan pada orbit tertentu sehingga dapat digunakan untuk komunikasi, navigasi, pemantauan cuaca, dan pengamatan Bumi."
-        },
-        {
-          type: "paragraph",
-          text: "Dalam model orbit melingkar sederhana, gaya gravitasi menyediakan resultan gaya menuju pusat orbit."
+          text: [
+            "Satelit buatan dapat ditempatkan pada orbit tertentu sehingga dapat digunakan untuk komunikasi, navigasi, pemantauan cuaca, dan pengamatan Bumi.",
+            "Dalam model orbit melingkar sederhana, gaya gravitasi menyediakan resultan gaya menuju pusat orbit."
+          ]
         }
       ]
     },
-
     {
       heading: "💡 Benang Merah",
       blocks: [
-        {
-          type: "heading",
-          text: "💡 Benang Merah"
-        },
         {
           type: "paragraph",
           text: "Sekarang perhatikan kembali semua contoh yang telah kita pelajari."
@@ -201,10 +140,6 @@ const dinamikaGerakMelingkarDuniaNyata = {
       heading: "⚠️ Miskonsepsi",
       blocks: [
         {
-          type: "heading",
-          text: "⚠️ Miskonsepsi"
-        },
-        {
           type: "paragraph",
           text: "❌ Semua benda yang bergerak melingkar membutuhkan jenis gaya yang sama."
         },
@@ -227,10 +162,6 @@ const dinamikaGerakMelingkarDuniaNyata = {
       heading: "🌟 Fun Fact",
       blocks: [
         {
-          type: "heading",
-          text: "🌟 Fun Fact"
-        },
-        {
           type: "paragraph",
           text: "Bumi sendiri sedang bergerak dalam gerak orbit mengelilingi Matahari, sementara pada saat yang sama Bumi juga berotasi pada porosnya. Jadi, kita sebenarnya sedang melakukan banyak gerakan sekaligus tanpa merasakannya sebagai gerak ekstrem."
         }
@@ -241,10 +172,6 @@ const dinamikaGerakMelingkarDuniaNyata = {
       heading: "🧠 Inti Materi",
       blocks: [
         {
-          type: "heading",
-          text: "🧠 Inti Materi"
-        },
-        {
           type: "paragraph",
           text: "Dinamika gerak melingkar membantu kita memahami bagaimana gaya menyebabkan benda terus mengubah arah geraknya. Sumber gaya sentripetal dapat berbeda-beda, tetapi semuanya dapat dianalisis dengan pola yang sama: identifikasi gaya, tentukan arah pusat, lalu analisis resultan gaya pada arah radial."
         }
@@ -252,12 +179,7 @@ const dinamikaGerakMelingkarDuniaNyata = {
     },
 
     {
-      heading: "🚀 Next Mission",
       blocks: [
-        {
-          type: "heading",
-          text: "🚀 Next Mission"
-        },
         {
           type: "paragraph",
           text: "Sekarang saatnya berhenti sejenak dari rumus."

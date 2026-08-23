@@ -6,6 +6,7 @@ import VektorDasarSimulation from "../content/simulasi/VektorDasarSimulation/Vek
 import ScienceOrNotSimulation from "../content/simulasi/ScienceOrNotSimulation/ScienceOrNotSimulation"
 import ExploreBranchesPhysicsSimulation from "../content/simulasi/ExploreBranchesPhysicsSimulation/ExploreBranchesPhysicsSimulation"
 import WaveGeneratorSimulation from "../content/simulasi/WaveGeneratorSimulation/WaveGeneratorSimulation"
+import IdentifyTheWaveSimulation from "../content/simulasi/IdentifyTheWaveSimulation/IdentifyTheWaveSimulation"
 import ColoumbForceSimulation from "../content/simulasi/ColoumbForceSimulation/ColoumbForceSimulation"
 import FieldExplorerSimulation from "../content/simulasi/FieldExplorerSimulation/FieldExplorerSimulation"
 import TestChargeProbeSimulation from "../content/simulasi/TestChargeProbe/TestChargeProbeSimulation"
@@ -24,4 +25,5 @@ export const simulations = [
     FieldExplorerSimulation,
     TestChargeProbeSimulation,
     ElectricPotentialSimulation,
+    IdentifyTheWaveSimulation,
 ]
