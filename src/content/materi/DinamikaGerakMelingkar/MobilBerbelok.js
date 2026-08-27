@@ -299,7 +299,8 @@ const mobilBerbelok = {
         }
       ]
     },
-    { heading: "🎯 Quick Check", 
+    { 
+      heading: "🎯 Quick Check", 
       blocks: [
         {
           type: "quickCheck",

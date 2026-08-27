@@ -99,8 +99,20 @@ import PenutupDinamikaGerakLurus from "../content/materi/DinamikaGerakLurus/Peng
 /* dinamika gerak melingkar */
 import PengantarDinamikaGerakMelingkar from "../content/materi/DinamikaGerakMelingkar/PengantarDinamikaGerakMelingkar.js"
 import GayaSentripetal from "../content/materi/DinamikaGerakMelingkar/GayaSentripetal.js"
+import SumberGayaSentripetal from "../content/materi/DinamikaGerakMelingkar/SumberGayaSentripetal.js"
+import MobilBerbelok from "../content/materi/DinamikaGerakMelingkar/MobilBerbelok.js"
+import BendaDiputarDenganTali from "../content/materi/DinamikaGerakMelingkar/BendaDiputarDenganTali.js"
+import RollerCoaster from "../content/materi/DinamikaGerakMelingkar/RollerCoaster.js"
+import PlanetDanSatelit from "../content/materi/DinamikaGerakMelingkar/PlanetDanSatelit.js"
+import DinamikaGerakMelingkarDuniaNyata from "../content/materi/DinamikaGerakMelingkar/DinamikaGerakMelingkarDuniaNyata.js"
+import EksplorasiFenomenaDinamikaGerakMelingkar from "../content/materi/DinamikaGerakMelingkar/EksplorasiFenomenaDinamikaGerakMelingkar.js"
+import PenutupDinamikaGerakMelingkar from "../content/materi/DinamikaGerakMelingkar/PenutupDinamikaGerakMelingkar"
 
 /* dinamika momentum dan impuls */
+import PengantarMomentumDanImpuls from "../content/materi/DinamikaMomentumDanImpuls/PengantarMomentumDanImpuls.js"
+import PengertianMomentum from "../content/materi/DinamikaMomentumDanImpuls/PengertianMomentum.js"
+import PengertianImpuls from "../content/materi/DinamikaMomentumDanImpuls/PengertianImpuls.js"
+import HubunganMomentumImpuls from "../content/materi/DinamikaMomentumDanImpuls/HubunganMomentumImpuls.js"
 
 /* usaha dan energi */
 import PengantarUsahaDanEnergi from "../content/materi/UsahaDanEnergi/PengantarUsahaDanEnergi.js"
@@ -470,7 +482,7 @@ import PenutupRelativitas from "../content/materi/Relativitas/PenutupRelativitas
 /* Astrofisika */
 import PengantarAstrofisika from "/src/content/materi/Astrofisika/PengantarAstrofisika"
 import CahayaBahasaAlamSemesta from "/src/content/materi/Astrofisika/CahayaBahasaAlamSemesta"
-import SpektrumElektromagnetik from "/src/content/materi/Astrofisika/SpektrumElektromagnetik"
+import SpektrumCahaya from "/src/content/materi/Astrofisika/SpektrumCahaya"
 import MataTelekskop from "/src/content/materi/Astrofisika/MataTeleskop"
 import KehidupanBintang from "/src/content/materi/Astrofisika/KehidupanBintang"
 import KelahiranBintang from "/src/content/materi/Astrofisika/KelahiranBintang"
@@ -584,8 +596,20 @@ export const materials = [
   /* Chapter : Dinamika Gerak Melingkar */
   PengantarDinamikaGerakMelingkar,
   GayaSentripetal,
+  SumberGayaSentripetal,
+  MobilBerbelok,
+  BendaDiputarDenganTali,
+  RollerCoaster,
+  PlanetDanSatelit,
+  DinamikaGerakMelingkarDuniaNyata,
+  EksplorasiFenomenaDinamikaGerakMelingkar,
+  PenutupDinamikaGerakMelingkar,
 
   /* Chapter : Dinamika Momentum dan Impuls */
+  PengantarMomentumDanImpuls,
+  PengertianMomentum,
+  PengertianImpuls,
+  HubunganMomentumImpuls,
  
   /* Chapter : kesetimbangan dan dinamika rotasi */
   PengantarKesetimbangan,
@@ -952,7 +976,7 @@ export const materials = [
   /* Chapter: astrofisika */
   PengantarAstrofisika,
   CahayaBahasaAlamSemesta,
-  SpektrumElektromagnetik,
+  SpektrumCahaya,
   MataTelekskop,
   KehidupanBintang,
   KelahiranBintang,

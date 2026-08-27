@@ -110,56 +110,66 @@ const dinamikaGerakMelingkarDuniaNyata = {
           text: "Sekarang perhatikan kembali semua contoh yang telah kita pelajari."
         },
         {
-          type: "paragraph",
-          text: "🚗 Mobil → gaya gesek."
-        },
-        {
-          type: "paragraph",
-          text: "🪢 Benda dengan tali → tegangan."
-        },
-        {
-          type: "paragraph",
-          text: "🎢 Roller coaster → gravitasi dan gaya normal."
-        },
-        {
-          type: "paragraph",
-          text: "🪐 Planet dan satelit → gravitasi."
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "🚗 Mobil → gaya gesek."
+              },
+              {
+                text: "🪢 Benda dengan tali → tegangan."
+              },
+              {
+                text: "🎢 Roller coaster → gravitasi dan gaya normal."
+              },
+              {
+                text: "🪐 Planet dan satelit → gravitasi."
+              }
+            ]
+          }
         },
         {
           type: "paragraph",
           text: "Sumber gayanya berbeda, tetapi pola berpikirnya sama:"
         },
         {
-          type: "paragraph",
+          type: "quote",
           text: "Identifikasi gaya → tentukan arah pusat → analisis resultan gaya → jelaskan gerak."
         }
       ]
     },
-
     {
       heading: "⚠️ Miskonsepsi",
       blocks: [
         {
-          type: "paragraph",
-          text: "❌ Semua benda yang bergerak melingkar membutuhkan jenis gaya yang sama."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Sumber gaya sentripetal bergantung pada sistem. Yang sama adalah kebutuhan akan resultan gaya menuju pusat."
-        },
-        {
-          type: "paragraph",
-          text: "❌ Gerak melingkar hanya terjadi pada benda yang benar-benar bergerak membentuk lingkaran sempurna."
-        },
-        {
-          type: "paragraph",
-          text: "✅ Banyak sistem nyata dapat dimodelkan sebagai gerak melingkar atau gerak melengkung untuk memahami gaya yang dominan."
+          text: "List",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Miskonsepsi 1",
+                description: [
+                  "Semua benda yang bergerak melingkar membutuhkan jenis gaya yang sama. ❌",
+                  "Gak, gitu!",
+                  "Sumber gaya sentripetal bergantung pada sistem. Yang sama adalah kebutuhan akan resultan gaya menuju pusat."
+                ]
+              },
+              {
+                text: "Miskonsepsi 2",
+                description: [
+                  "Gerak melingkar hanya terjadi pada benda yang benar-benar bergerak membentuk lingkaran sempurna. ❌",
+                  "Gak, gitu!",
+                  " Banyak sistem nyata dapat dimodelkan sebagai gerak melingkar atau gerak melengkung untuk memahami gaya yang dominan."
+                ]
+              }
+            ]
+          }
         }
       ]
     },
-
     {
-      heading: "🌟 Fun Fact",
+      heading: "🌟 *Fun Fact*",
       blocks: [
         {
           type: "paragraph",
@@ -167,9 +177,8 @@ const dinamikaGerakMelingkarDuniaNyata = {
         }
       ]
     },
-
     {
-      heading: "🧠 Inti Materi",
+      heading: "✨ Inti Materi",
       blocks: [
         {
           type: "paragraph",
@@ -177,20 +186,111 @@ const dinamikaGerakMelingkarDuniaNyata = {
         }
       ]
     },
-
+    { 
+      heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Saat mobil melewati tikungan datar, gaya yang dapat menyediakan resultan gaya menuju pusat tikungan adalah....",
+                options: [
+                  "gaya gravitasi",
+                  "gaya normal",
+                  "gaya gesek antara ban dan jalan",
+                  "gaya hambatan udara",
+                  "gaya sentrifugal"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Mengapa desain tikungan jalan perlu mempertimbangkan kelajuan kendaraan dan jari-jari tikungan?",
+                options: [
+                  "Karena keduanya menentukan massa kendaraan.",
+                  "Karena keduanya memengaruhi kebutuhan resultan gaya menuju pusat lintasan.",
+                  "Karena kelajuan menentukan besar gaya gravitasi.",
+                  "Karena jari-jari menentukan arah gaya berat.",
+                  "Karena keduanya tidak berhubungan dengan gaya sentripetal."
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Pada mesin yang berputar, jika kelajuan putarnya semakin besar, maka....",
+                options: [
+                  "gaya yang perlu diperhitungkan pada komponen semakin kecil.",
+                  "massa komponen otomatis berkurang.",
+                  "komponen tidak lagi mengalami gerak melingkar.",
+                  "gaya gravitasi menjadi nol.",
+                  "gaya yang perlu diperhitungkan pada komponen semakin besar."
+                ],
+                answerIndex: 4
+              },
+              {
+                question: "Dalam model orbit melingkar sederhana, gaya yang menyediakan resultan gaya menuju pusat orbit satelit adalah....",
+                options: [
+                  "gaya gesek",
+                  "gaya normal",
+                  "tegangan tali",
+                  "gaya gravitasi",
+                  "gaya hambatan udara"
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Meskipun sumber gaya sentripetal pada berbagai sistem berbeda, pola analisis yang tepat adalah....",
+                options: [
+                  "menghafalkan jenis gaya lalu langsung menggunakan rumus.",
+                  "mengidentifikasi gaya → menentukan arah pusat → menganalisis resultan gaya → menjelaskan gerak.",
+                  "menentukan kecepatan → mencari massa → mengabaikan arah gaya.",
+                  "mengidentifikasi gaya → menghitung massa → menentukan jenis benda.",
+                  "menentukan jari-jari → mencari gaya gravitasi → menentukan kecepatan."
+                ],
+                answerIndex: 1
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       blocks: [
         {
           type: "paragraph",
-          text: "Sekarang saatnya berhenti sejenak dari rumus."
-        },
-        {
-          type: "paragraph",
-          text: "Coba lihat lingkunganmu. Temukan satu benda atau fenomena yang mengalami gerak melingkar atau gerak membelok."
-        },
-        {
-          type: "paragraph",
-          text: "Pada halaman berikutnya, kamu akan menggunakan pola berpikir yang telah dipelajari untuk mengamati dan menganalisis fenomena tersebut."
+          text: [
+            "Sekarang saatnya berhenti sejenak dari rumus. Coba lihat lingkunganmu.Lalu, temukan satu benda atau fenomena yang mengalami gerak melingkar atau gerak membelok.",
+            "Pada halaman berikutnya, kamu akan menggunakan pola berpikir yang telah dipelajari untuk mengamati dan menganalisis fenomena tersebut."
+          ]
         }
       ]
     }

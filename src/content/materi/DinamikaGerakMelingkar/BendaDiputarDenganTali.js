@@ -266,7 +266,103 @@ const bendaDiputarDenganTali = {
         }
       ]
     },
-
+    { 
+      heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Pada benda yang diputar menggunakan tali secara horizontal, gaya yang menyediakan gaya sentripetal adalah....",
+                options: [
+                  "tegangan tali",
+                  "gaya sentrifugal",
+                  "gaya normal",                  
+                  "gaya gesek udara",
+                  "gaya hambatan udara"
+                ],
+                answerIndex: 0
+              },
+              {
+                question: "Arah tegangan tali pada benda yang sedang diputar adalah....",
+                options: [
+                  "enjauhi pusat lintasan",
+                  "sejajar dengan arah kecepatan",
+                  "tegak lurus terhadap tali",
+                  "menuju pusat lintasan",
+                  "berlawanan dengan arah gravitasi"
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Sebuah benda bermassa 0,5 kg diputar dengan kelajuan 6 m/s menggunakan tali sepanjang 2 m. Besar tegangan tali yang diperlukan adalah....",
+                options: [
+                  "3 N",
+                  "6 N",
+                  "9 N",
+                  "12 N",
+                  "18 N"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Jika tali tiba-tiba putus saat benda sedang bergerak melingkar, benda akan....",
+                options: [
+                  "bergerak menuju pusat lintasan",
+                  "bergerak menjauhi pusat secara radial",
+                  "langsung berhenti",
+                  "bergerak sesaat sepanjang garis singgung lintasan",
+                  "tetap bergerak melingkar tanpa perubahan"
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Jika massa dan kelajuan benda tetap, tetapi panjang tali diperbesar, maka gaya sentripetal yang dibutuhkan akan....",
+                options: [
+                  "semakin besar",
+                  "semakin kecil",
+                  "tetap sama",
+                  "menjadi nol",
+                  "tidak dapat ditentukan"
+                ],
+                answerIndex: 1
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       blocks: [
         {

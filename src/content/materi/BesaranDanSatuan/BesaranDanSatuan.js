@@ -120,6 +120,103 @@ const besarandansatuan = {
         },
       ]
     },
+    { 
+      heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Besaran dalam fisika adalah....",
+                options: [
+                  "segala sesuatu yang dapat diberi angka",
+                  "sesuatu yang dapat diukur dan dinyatakan dengan angka serta satuan",
+                  "semua sifat yang dimiliki suatu benda",
+                  "hasil pengamatan yang tidak memerlukan satuan",
+                  "semua penilaian terhadap suatu benda"
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Seseorang mengatakan, 'Panjang meja itu 120.' Mengapa informasi tersebut belum lengkap?",
+                options: [
+                  "Karena angka 120 terlalu besar",
+                  "Karena panjang bukan besaran fisika",
+                  "Karena hasil pengukuran membutuhkan satuan sebagai standar pembanding",
+                  "Karena meja tidak dapat diukur",
+                  "Karena nilai pengukuran harus selalu berupa bilangan desimal"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Pada hasil pengukuran 'panjang meja = 120 cm', yang disebut nilai hasil pengukuran adalah....",
+                options: [
+                  "Panjang",
+                  "Meja",
+                  "120",
+                  "cm",
+                  "120 cm"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Manakah yang bukan merupakan besaran fisika?",
+                options: [
+                  "Massa",
+                  "Waktu",
+                  "Suhu",
+                  "Panjang",
+                  "Rajin"
+                ],
+                answerIndex: 4
+              },
+              {
+                question: "Pernyataan yang paling tepat mengenai besaran, nilai, dan satuan adalah....",
+                options: [
+                  "besaran menunjukkan apa yang diukur, nilai menunjukkan hasil pengukuran, dan satuan menunjukkan standar yang digunakan.",
+                  "besaran menunjukkan angka, nilai menunjukkan standar, dan satuan menunjukkan apa yang diukur.",
+                  "nilai selalu dapat digunakan tanpa satuan.",
+                  "satuan hanya digunakan untuk pengukuran panjang.",
+                  "besaran dan satuan memiliki arti yang sama."
+                ],
+                answerIndex: 0
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       blocks: [
         { 

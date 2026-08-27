@@ -264,7 +264,7 @@ const gayaSentripetal = {
       ]
     },
     {
-      heading: "🌟 Fun Fact",
+      heading: "🌟 *Fun Fact*",
       blocks: [
         {
           type: "paragraph",
@@ -284,7 +284,8 @@ const gayaSentripetal = {
         }
       ]
     },
-    { heading: "🎯 Quick Check", 
+    { 
+      heading: "🎯 Quick Check", 
       blocks: [
         {
           type: "quickCheck",

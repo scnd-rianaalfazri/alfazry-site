@@ -6,16 +6,21 @@ const konversisatuan = {
 
   content: [
     {
-      heading: '🔄 Hook — 1 km dan 1000 m, Mana yang Lebih Panjang?',
       blocks: [
-        { type: "paragraph", text: 'Keduanya menyatakan panjang yang sama. Yang berubah adalah satuannya.' },
+        { 
+          type: "paragraph", 
+          text: "Keduanya menyatakan panjang yang sama. Yang berubah adalah satuannya." 
+        },
       ]
     },
 
     {
       heading: '❓ Pertanyaan Besar',
       blocks: [
-        { type: "paragraph", text: 'Bagaimana mengubah satuan tanpa mengubah nilai fisik yang sebenarnya?' },
+        { 
+          type: "paragraph", 
+          text: "Bagaimana mengubah satuan tanpa mengubah nilai fisik yang sebenarnya?"
+        },
       ]
     },
 

@@ -9,11 +9,10 @@ const sisteminternasional = {
       blocks: [
         { 
           type: "paragraph", 
-          text: 'Bayangkan ilmuwan di dua negara mengukur benda yang sama dengan standar berbeda. Bagaimana mereka membandingkan hasilnya?' 
+          text: "Bayangkan ilmuwan di dua negara mengukur benda yang sama dengan standar berbeda. Bagaimana mereka membandingkan hasilnya?"
         },
       ]
     },
-
     {
       heading: '❓ Pertanyaan Besar',
       blocks: [
@@ -23,7 +22,6 @@ const sisteminternasional = {
         },
       ]
     },
-
     {
       heading: '🌐 Apa Itu SI?',
       blocks: [
@@ -47,57 +45,166 @@ const sisteminternasional = {
           ]
         }
       ]
-    },
-    
+    }, 
     {
       heading: '📋 Tujuh Besaran Pokok SI',
       blocks: [
-        { type: "paragraph", text: 'Panjang → meter (m). Massa → kilogram (kg). Waktu → sekon (s). Suhu termodinamik → kelvin (K). Jumlah zat → mole (mol). Kuat arus listrik → ampere (A). Intensitas cahaya → candela (cd).' },
+        { 
+          type: "paragraph", 
+          text: "Panjang → meter (m). Massa → kilogram (kg). Waktu → sekon (s). Suhu termodinamik → kelvin (K). Jumlah zat → mole (mol). Kuat arus listrik → ampere (A). Intensitas cahaya → candela (cd)."
+        },
       ]
     },
-
     {
       heading: '🧠 Analisis',
       blocks: [
-        { type: "paragraph", text: 'Satuan standar bukan untuk membuat fisika rumit. Justru standar membuat komunikasi data menjadi lebih sederhana dan konsisten.' },
+        { 
+          type: "paragraph", 
+          text: "Satuan standar bukan untuk membuat fisika rumit. Justru standar membuat komunikasi data menjadi lebih sederhana dan konsisten."
+        },
       ]
     },
-
     {
       heading: '🔢 Awalan Satuan',
       blocks: [
-        { type: "paragraph", text: 'Untuk nilai sangat besar atau kecil digunakan awalan satuan, misalnya kilo = 10³, centi = 10⁻², mili = 10⁻³, dan mikro = 10⁻⁶.' },
+        { 
+          type: "paragraph", 
+          text: "Untuk nilai sangat besar atau kecil digunakan awalan satuan, misalnya kilo = 10³, centi = 10⁻², mili = 10⁻³, dan mikro = 10⁻⁶."
+        },
       ]
     },
-
     {
       heading: '🌍 Contoh di Kehidupan',
       blocks: [
-        { type: "paragraph", text: 'Jarak perjalanan dapat dinyatakan dalam kilometer. Ukuran benda kecil dapat dinyatakan dalam milimeter. Awalan membantu menuliskan nilai secara praktis.' },
+        { 
+          type: "paragraph", 
+          text: "Jarak perjalanan dapat dinyatakan dalam kilometer. Ukuran benda kecil dapat dinyatakan dalam milimeter. Awalan membantu menuliskan nilai secara praktis."
+        },
       ]
     },
-
     {
       heading: '⚠️ Miskonsepsi',
       blocks: [
-        { type: "paragraph", text: 'SI bukan sekadar daftar satuan. SI adalah sistem standar yang membuat pengukuran dapat digunakan dan dibandingkan secara konsisten.' },
+        { 
+          type: "paragraph", 
+          text: "SI bukan sekadar daftar satuan. SI adalah sistem standar yang membuat pengukuran dapat digunakan dan dibandingkan secara konsisten."
+        },
       ]
     },
-
     {
       heading: '💡 Fun Fact',
       blocks: [
-        { type: "paragraph", text: 'Definisi satuan SI modern menggunakan konstanta alam tertentu agar standar pengukuran tidak bergantung pada satu benda fisik tertentu.' },
+        { type: "paragraph", 
+          text: "Definisi satuan SI modern menggunakan konstanta alam tertentu agar standar pengukuran tidak bergantung pada satu benda fisik tertentu." 
+        },
       ]
     },
-
     {
       heading: '✨ Inti Materi',
       blocks: [
-        { type: "paragraph", text: 'SI adalah bahasa standar pengukuran dalam fisika. Tujuh besaran pokok menjadi fondasi sistem ini.' },
+        { 
+          type: "paragraph", 
+          text: "SI adalah bahasa standar pengukuran dalam fisika. Tujuh besaran pokok menjadi fondasi sistem ini."
+        },
       ]
     },
-
+    { 
+      heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Apa tujuan utama Sistem Internasional (SI) dalam pengukuran?",
+                options: [
+                  "Menyeragamkan satuan agar hasil pengukuran dapat dibandingkan secara global",
+                  "Membuat semua hasil pengukuran memiliki nilai yang sama",
+                  "Mengurangi jumlah besaran yang dipelajari dalam fisika",
+                  "Menggantikan seluruh alat ukur yang digunakan manusia",
+                  "Membatasi penggunaan satuan hanya dalam bidang fisika"
+                ],
+                answerIndex: 0
+              },
+              {
+                question: "Manakah pasangan besaran pokok dan satuan SI yang benar?",
+                options: [
+                  "Waktu — sekon (s)",
+                  "Panjang — kilogram (kg)",
+                  "Massa — meter (m)",
+                  "Suhu — ampere (A)",
+                  "Kuat arus listrik — kelvin (K)"
+                ],
+                answerIndex: 0
+              },
+              {
+                question: "Satuan SI untuk intensitas cahaya adalah....",
+                options: [
+                  "Ampere (A)",
+                  "Mole (mol)",
+                  "Kelvin (K)",
+                  "Candela (cd)",
+                  "Sekon (s)"
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Sebuah jarak dinyatakan sebagai 5 km. Berdasarkan awalan SI, nilai tersebut setara dengan....",
+                options: [
+                  "$\\text{5 × 10}^{-3}$ m",
+                  "$\\text{5 × 10}^{-2}$ m",
+                  "$\\text{5 × 10}^{1}$ m",
+                  "$\\text{5 × 10}^{2}$ m",
+                  "$\\text{5 × 10}^{3}$ m",
+                ],
+                answerIndex: 4
+              },
+              {
+                question: "Mengapa penggunaan satuan standar penting dalam ilmu pengetahuan?",
+                options: [
+                  "Agar ilmuwan selalu menggunakan alat ukur yang sama",
+                  "Agar semua benda memiliki nilai pengukuran yang sama",
+                  "Agar data hasil pengukuran dari berbagai tempat dapat dibandingkan secara konsisten",
+                  "Agar pengukuran hanya dapat dilakukan di laboratorium",
+                  "Agar penggunaan awalan satuan tidak diperlukan"
+                ],
+                answerIndex: 2
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       heading: "🚀 Next Mission",
       blocks: [
