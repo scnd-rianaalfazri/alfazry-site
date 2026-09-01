@@ -49,7 +49,7 @@ const hakikatIlmuFisika = {
           type: "ordered",
           items: [
             {
-              text: "Fisika sebagai Produk (A Body of Knowledge)",
+              text: "[Fisika sebagai Produk (*A Body of Knowledge*)](/materi/fisika-sebagai-produk)",
               description: [
                 "Pilar pertama adalah kumpulan pengetahuan yang berhasil dikumpulkan oleh para ilmuwan selama berabad-abad.",
                 "Produk fisika ini gak asal tebak, tapi sudah teruji dan tersistematisasi dalam beberapa bentuk:"
@@ -70,13 +70,13 @@ const hakikatIlmuFisika = {
                     text: "Hukum"
                   },
                   {
-                    text: "Prinsip"
+                    text: "Model"
                   }
                 ]
               }
             },
             {
-              text: "Fisika sebagai Proses (A Way of Investigating)",
+              text: "[Fisika sebagai Proses (*A Way of Investigating*)](/materi/fisika-sebagai-proses)",
               description: [
                 "Fisika gak jatuh dari langit secara instan. Ada proses investigasi yang ketat di baliknya.",
                 "Pilar proses ini menggambarkan langkah-langkah metodologis atau metode ilmiah yang digunakan ilmuwan untuk membuktikan sesuatu.",
@@ -84,7 +84,7 @@ const hakikatIlmuFisika = {
               ]
             },
             {
-              text: "Fisika sebagai Sikap (A Way of Thinking)",
+              text: "[Fisika sebagai Sikap (*A Way of Thinking*)](/materi/fisika-sebagai-sikap)",
               description: [
                 "Pilar terakhir dan yang paling penting adalah *mindset* atau sikap ilmiah.",
                 "Untuk bisa mengungkap rahasia alam, kamu harus punya karakteristik berpikir tertentu, di antaranya:"
@@ -263,19 +263,6 @@ const hakikatIlmuFisika = {
         caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
         link: "/materi/fisika-sebagai-produk"
       }
-    ]
-  },
-  { heading: "Referensi:", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Halliday, Resnick & Walker. Fundamentals of Physics.",
-          "Serway & Jewett. Physics for Scientists and Engineers.",
-          "Young & Freedman. University Physics with Modern Physics.",
-          "Kemendikbudristek RI. Buku Fisika SMA/MA."
-        ]
-      },
     ]
   }]
 };

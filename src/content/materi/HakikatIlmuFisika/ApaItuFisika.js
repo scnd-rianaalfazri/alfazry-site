@@ -3,7 +3,7 @@ import img2 from "/src/assets/Materi/HakikatIlmuFisika/apa-itu-fisika2.png"
 import img3 from "/src/assets/Materi/HakikatIlmuFisika/apa-itu-fisika3.png"
 import img4 from "/src/assets/Materi/HakikatIlmuFisika/apa-itu-fisika4.png"
 import img5 from "/src/assets/Materi/HakikatIlmuFisika/apa-itu-fisika5.png"
-import img6 from "/src/assets/Materi/HakikatIlmuFisika/portal-apa-itu-fisika.png"
+import img6 from "/src/assets/Materi/HakikatIlmuFisika/portal-hakikat-ilmu-fisika.png"
 
 const apaItuFisika = {
   title: "Apa Itu Fisika?",
@@ -278,7 +278,7 @@ const apaItuFisika = {
       }
     ]
   },
-  { heading: "💡 Tahukah Kamu?", 
+  { heading: "🌟 *Fun Fact*", 
     blocks: [
       {
         type: "image",
@@ -427,20 +427,8 @@ const apaItuFisika = {
         link: "/materi/hakikat-ilmu-fisika"
       }
     ]
-  },
-  { heading: "Referensi:", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Halliday, Resnick & Walker. Fundamentals of Physics.",
-          "Serway & Jewett. Physics for Scientists and Engineers.",
-          "Young & Freedman. University Physics with Modern Physics.",
-          "Kemendikbudristek RI. Buku Fisika SMA/MA."
-        ]
-      }
-    ]
-  }]
+  }
+]
 };
 
 export default apaItuFisika;

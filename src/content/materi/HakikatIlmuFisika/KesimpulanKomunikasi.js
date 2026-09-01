@@ -302,18 +302,6 @@ const kesimpulanKomunikasi = {
         link: "/materi/keselamatan-kerja-laboratorium"
       }
     ]
-  },
-  { heading:  "Referensi:", 
-    blocks: [
-      { type: "heading", 
-        text: [
-          "Referensi:" ,
-          "Kemendikbudristek RI. Buku Fisika SMA/MA.",
-          "Halliday, Resnick & Walker. Fundamentals of Physics.",
-          "Serway & Jewett. Physics for Scientists and Engineers."
-        ]
-      }
-    ]
   }]
 };
 

@@ -154,7 +154,8 @@ const fisikaSebagaiSikap = {
       }
     ]
   },
-  { heading: "🌍 Contoh dalam Kehidupan", 
+  { 
+    heading: "🌍 Contoh dalam Kehidupan", 
     blocks: [
       {
         type: "list",
@@ -170,9 +171,15 @@ const fisikaSebagaiSikap = {
               children: {
                 type: "unordered",
                 items: [
-                  "memeriksa dari mana sumber informasinya,",
-                  "mencari tahu apakah ada bukti pendukung dari sumber tepercaya, dan",
-                  "membandingkannya dengan fakta lain sebelum menyimpulkan berita itu hoax atau bukan."
+                  {
+                    text: "memeriksa dari mana sumber informasinya,",
+                  },
+                  {
+                    text: "mencari tahu apakah ada bukti pendukung dari sumber tepercaya, dan",
+                  },
+                  {
+                    text: "membandingkannya dengan fakta lain sebelum menyimpulkan berita itu hoax atau bukan."
+                  }          
                 ]
               }
             },
@@ -189,7 +196,8 @@ const fisikaSebagaiSikap = {
       }
     ]
   },
-  { heading: "🌟 *Fun Fact*", 
+  { 
+    heading: "🌟 *Fun Fact*", 
     blocks: [
         {
           type: "paragraph",
@@ -200,19 +208,21 @@ const fisikaSebagaiSikap = {
         }
       ]
     },
-    { heading: "⚠️ Miskonsepsi", 
+    { 
+      heading: "⚠️ Miskonsepsi", 
       blocks: [
         {
           type: "paragraph",
           text: [
             "*'Berarti kalau bersikap ilmiah, kita harus jadi orang skeptis yang meragukan segala hal di dunia ini dong?'* ❌",
             "Gak, gitu!",
-            "Sikap ilmiah bukan berarti selalu meragukan semua hal tanpa akhir. Sikap ilmiah berarti kita bersedia menerima atau menolak suatu pendapat secara rasional berdasarkan bukti yang dapat dipertanggungjawabkan secara nyata."
+            "Sikap ilmiah bukan berarti selalu meragukan semua hal tanpa akhir. Sikap ilmiah berarti kita bersedia menerima atau menolak suatu pendapat secara rasional berdasarkan bukti yang dapat dipertanggungjawabkan secara nyata. ✔️"
           ]
         },
       ]
     },
-    { heading: "✨ Inti Materi", 
+    { 
+      heading: "✨ Inti Materi", 
       blocks: [
         {
           type: "paragraph",
@@ -223,7 +233,8 @@ const fisikaSebagaiSikap = {
         }
       ]
     },
-    { heading: "🎯 Quick Check", 
+    { 
+      heading: "🎯 Quick Check", 
       blocks: [
         {
           type: "quickCheck",
@@ -321,7 +332,8 @@ const fisikaSebagaiSikap = {
           }
         }]
     },
-    { blocks: [
+    { 
+      blocks: [
         {
           type: "paragraph",
           text: [
@@ -334,19 +346,6 @@ const fisikaSebagaiSikap = {
           src: img3,
           caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
           link: "/materi/ruang-lingkup-fisika"
-        }
-      ]
-    },
-    { heading: "Referensi:", 
-      blocks: [
-        { type: "heading", 
-          text: [
-            "Referensi:",
-            "Halliday, Resnick & Walker. Fundamentals of Physics.",
-            "Serway & Jewett. Physics for Scientists and Engineers.",
-            "Young & Freedman. University Physics with Modern Physics.",
-            "Kemendikbudristek RI. Buku Fisika SMA/MA."
-          ]
         }
       ]
     }

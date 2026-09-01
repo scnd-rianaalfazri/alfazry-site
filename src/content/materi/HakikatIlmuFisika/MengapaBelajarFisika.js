@@ -227,69 +227,52 @@ const mengapaBelajarFisika = {
         text: "Perjalanan yang akan dilalui pada chapter ini"
       },
       {
-        type: "carousel",
-        carousel: {
-          cards: [
+        type: "list",
+        list: {
+          type: "unordered",
+          items: [
             {
-              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
-              title: "[Apa Itu Fisika](/materi/apa-itu-fisika)",
-              text: "Gerbang awal mengenal objek sains",
+              text: "🌍 [Mengapa Belajar Fisika](/materi/mengapa-belajar-fisika)"
             },
             {
-              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
-              title: "[Hakikat Ilmu Fisika](/materi/hakikat-ilmu-fisika)",
-              text: "Memahami 3 pilar utama fisika",
+              text: "🔬 [Apa Itu Fisika](/materi/apa-itu-fisika)"
             },
             {
-              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
-              title: "[Fisika sebagai Produk](/materi/fisika-sebagai-produk)",
-              text: "Kumpulan hasil pengetahuan ilmiah",
+              text: "🧩 [Hakikat Ilmu Fisika](/materi/hakikat-ilmu-fisika)"
             },
             {
-              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
-              title: "[Fisika sebagai Proses](/materi/fisika-sebagai-proses)",
-              text: "Bagaimana cara ilmuwan bekerja?",
+              text: "⚙️ [Fisika sebagai Produk](/materi/fisika-sebagai-produk)"
             },
             {
-              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
-              title: "[Fisika sebagai Sikap](/materi/fisika-sebagai-sikap-ilmiah)",
-              text: "Karakter ilmiah yang wajib dimiliki",
+              text: "🧪 [Fisika sebagai Proses](/materi/fisika-sebagai-proses)"
             },
             {
-              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
-              title: "[Ruang Lingkup Fisika](/materi/ruang-lingkup-fisika)",
-              text: "Menjelajahi skala klasik hingga modern",
+              text: "🧠 [Fisika sebagai Sikap](/materi/fisika-sebagai-sikap-ilmiah)"
             },
             {
-              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
-              title: "[Metode Ilmiah](/materi/metode-ilmiah)",
-              text: "Langkah-langkah sistematis penelitian",
+              text: "🌌 [Ruang Lingkup Fisika](/materi/ruang-lingkup-fisika)"
             },
             {
-              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
-              title: "[Merancang Eksperimen](/materi/merancang-eksperimen)",
-              text: "Menentukan variabel, alat, bahan, dan prosedur secara sistematis.",
+              text: "🔍 [Metode Ilmiah](/materi/metode-ilmiah)"
             },
             {
-              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
-              title: "[Mengolah Data](/materi/mengolah-data)",
-              text: "Mengolah, menyajikan, dan menafsirkan data hasil eksperimen",
+              text: "🧪 [Merancang Eksperimen](/materi/merancang-eksperimen)"
             },
             {
-              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
-              title: "[Mengolah Data](/materi/kesimpulan-komunikasi-ilmiah)",
-              text: "Menyusun kesimpulan berdasarkan data serta mengomunikasikan hasil penelitian",
+              text: "📊 [Mengolah Data](/materi/mengolah-dan-menafsirkan-data)"
             },
             {
-              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
-              title: "[Keselamatan Kerja di Laboratorium](/materi/keselamatan-kerja-laboratorium)",
-              text: "Aturan main aman saat bereksperimen",
+              text: "📢 [Komunikasi Ilmiah](/materi/kesimpulan-komunikasi-ilmiah)"
             },
             {
-              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
-              title: "[Sains dalam Kehidupan](/materi/sains-dalam-kehidupan)",
-              text: "Cara berpikir ilmiah dalam Aktivitas Sehari-hari",
-            },   
+              text: "🥽 [Keselamatan Laboratorium](/materi/keselamatan-kerja-laboratorium)"
+            },
+            {
+              text: "🌍 [Sains dalam Kehidupan](/materi/sains-dalam-kehidupan)"
+            },
+            {
+              text: "🚀 [Mini Project](/materi/mini-project-hakikat-ilmu-fisika)"
+            }
           ]
         }
       }
@@ -320,19 +303,6 @@ const mengapaBelajarFisika = {
         src: img6,
         caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
         link: "/materi/apa-itu-fisika"
-      }
-    ]
-  },
-  { heading: "Referensi:", 
-    blocks: [
-      { type: "paragraph", 
-        text: [
-          "Referensi:",
-          "Halliday, Resnick & Walker. Fundamentals of Physics.",
-          "Serway & Jewett. Physics for Scientists and Engineers.",
-          "Young & Freedman. University Physics with Modern Physics.",
-          "Kemendikbudristek RI. Buku Fisika SMA/MA."
-        ]
       }
     ]
   }]

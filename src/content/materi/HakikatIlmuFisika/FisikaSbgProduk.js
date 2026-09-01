@@ -288,19 +288,6 @@ const fisikaSebagaiProduk = {
         link: "/materi/fisika-sebagai-proses"
       }
     ]
-  },
-  { heading: "Referensi:", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Halliday, Resnick & Walker. Fundamentals of Physics.",
-          "Serway & Jewett. Physics for Scientists and Engineers.",
-          "Young & Freedman. University Physics with Modern Physics.",
-          "Kemendikbudristek RI. Buku Fisika SMA/MA."
-        ]
-      }
-    ]
   }]
 };
 

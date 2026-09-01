@@ -153,6 +153,103 @@ const pengertianImpuls = {
         },
       ]
     },
+    { 
+      heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Impuls dapat dipahami sebagai....",
+                options: [
+                  "ukuran massa suatu benda",
+                  "pengaruh gaya yang bekerja selama selang waktu tertentu",
+                  "ukuran kecepatan benda",
+                  "gaya yang selalu bekerja pada benda diam",
+                  "perubahan posisi benda setiap sekon"
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Besar impuls dalam model sederhana dapat dihitung menggunakan persamaan....",
+                options: [
+                  "$I = \\frac{F}{\\Delta t}$",
+                  "$I = m a$",
+                  "$I = F\\Delta t$",
+                  "$I = mv$",
+                  "$I= \\frac{m}{v}$"
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Sebuah gaya rata-rata 100 N bekerja pada bola selama 0,2 s. Besar impuls yang diberikan adalah....",
+                options: [
+                  "5 N·s",
+                  "10 N·s",
+                  "20 N·s",
+                  "50 N·s",
+                  "200 N·s"
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Pernyataan yang tepat mengenai impuls adalah....",
+                options: [
+                  "impuls hanya ditentukan oleh besar gaya.",
+                  "impuls hanya ditentukan oleh massa benda.",
+                  "impuls tidak memiliki arah.",
+                  "impuls dipengaruhi oleh gaya dan selang waktu gaya bekerja.",
+                  "impuls selalu sama dengan gaya gravitasi."
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Jika gaya rata-rata yang bekerja pada suatu benda tetap, kemudian waktu kontak diperbesar, maka besar impuls akan....",
+                options: [
+                  "berkurang",
+                  "tetap",
+                  "menjadi nol",
+                  "bertambah",
+                  "tidak dapat ditentukan"
+                ],
+                answerIndex: 3
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       blocks: [
         { 

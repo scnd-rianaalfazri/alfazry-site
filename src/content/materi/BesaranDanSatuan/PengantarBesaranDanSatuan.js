@@ -66,9 +66,32 @@ const pengantarbesarandansatuan = {
     {
       heading: '🌍 Pengukuran Ada di Sekitar Kita',
       blocks: [
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "⌚ Waktu "
+              },
+              {
+                text: "🌡️ Suhu",
+              },
+              {
+                text: "⚖️ massa"
+              },
+              {
+                text: "📏 panjang",
+              },
+              {
+                text: "🚗 kecepatan"
+              }
+            ]
+          }
+        },
         { 
           type: "paragraph", 
-          text: "⌚ waktu, 🌡️ suhu, ⚖️ massa, 📏 panjang, dan 🚗 kecepatan adalah contoh besaran yang kita temui setiap hari."
+          text: "Itu adalah contoh besaran yang kita temui setiap hari."
         }
       ]
     },
@@ -110,20 +133,6 @@ const pengantarbesarandansatuan = {
           src: img1,
           caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
           link: "/materi/besaran-dan-satuan"
-        }
-      ]
-    },
-    {
-      heading: "📚 Referensi",
-      blocks: [
-        { 
-          type: "paragraph", 
-          text: [
-            "Halliday, Resnick & Walker. Fundamentals of Physics.",
-            "Serway & Jewett. Physics for Scientists and Engineers.",
-            "Young & Freedman. University Physics with Modern Physics.",
-            "Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X."
-          ] 
         }
       ]
     }

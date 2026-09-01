@@ -319,18 +319,6 @@ const metodeIlmiah = {
         link: "/materi/merancang-eksperimen"
       }
     ]
-  },
-  { heading: "Referensi:", 
-    blocks: [
-      { type: "paragraph",
-        text: [
-          "Referensi:",
-          "Kemendikbudristek RI. Buku Fisika SMA/MA.",
-          "Halliday, Resnick & Walker. Fundamentals of Physics.",
-          "Serway & Jewett. Physics for Scientists and Engineers."
-        ]
-      },
-    ]
   }]
 };
 

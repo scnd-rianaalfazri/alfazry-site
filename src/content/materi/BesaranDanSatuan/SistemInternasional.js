@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-besaran-pokok-dan-besaran-turunan.png"
+
 const sisteminternasional = {
   title: 'Sistem Internasional',
   slug: 'sistem-internasional',
@@ -19,7 +21,7 @@ const sisteminternasional = {
         { 
           type: "paragraph", 
           text: "Bagaimana manusia membuat bahasa pengukuran yang dapat digunakan bersama?"
-        },
+        }
       ]
     },
     {
@@ -49,10 +51,21 @@ const sisteminternasional = {
     {
       heading: '📋 Tujuh Besaran Pokok SI',
       blocks: [
-        { 
-          type: "paragraph", 
-          text: "Panjang → meter (m). Massa → kilogram (kg). Waktu → sekon (s). Suhu termodinamik → kelvin (K). Jumlah zat → mole (mol). Kuat arus listrik → ampere (A). Intensitas cahaya → candela (cd)."
-        },
+        {
+          type: "table",
+          table: {
+            headers: ["Besaran Pokok", "Satuan SI", "Definisi"],
+            rows: [
+              ["Panjang", "meter $(m)$", "Jarak yang ditempuh cahaya dalam vakum selama $\\frac{1}{299.792.458}$ sekon"], 
+              ["Massa", "kilogram $(kg)$", "Massa silinder campuran logam Platina-Iridium yang disimpan di Lembaga Internasional Berat dan Ukuran di Serves, Prancis"],
+              ["Waktu", "sekon $(s)$", "Selang waktu terjadinya 9,192,631,770 getaran radiasi elektromagnetik yang dipancarkan oleh atom Cesium-133 dalam transisi antara dua tingkat energi dalam pada keadaan dasar"],
+              ["Suhu", "kelvin $(K)$", "$\\frac{1}{273,16}$ kali suhu termodinamika titik tripel air, yaitu ketika tripel air berada dalam kesetimbangan dengan es dan uap jenuhnya"],
+              ["Jumlah zat", "mole $(mol)$", "Jumlah zat yang mengandung zat elementer (atom, molekul, ion) sebanyak atom yang terdapat pada 12 gram isotop karbon-12"],
+              ["Kuat arus listrik", "ampere $(A)$", "Arus listrik apabila dua konduktor lurus sejajar tak hingga panjangnya, ditempatkan 1 meter terpisah di ruang hampa, menghasilkan gaya sebesar $2 \\times 10^{-7}$ newton per meter panjang konduktor"],
+              ["Intensitas cahaya", "candela $(cd)$", "Intensitas sumber cahaya dalam arah tertentu dari sumber yang memancarkan radiasi monokromatik dengan frekuensi $540 \\times 10^{14} \\text{ Hz}$ dan memiliki intensitas radian sebesar $\\frac{1}{683} \\text{Watt per steradian}$"]
+            ]
+          }
+        }
       ]
     },
     {
@@ -69,8 +82,29 @@ const sisteminternasional = {
       blocks: [
         { 
           type: "paragraph", 
-          text: "Untuk nilai sangat besar atau kecil digunakan awalan satuan, misalnya kilo = 10³, centi = 10⁻², mili = 10⁻³, dan mikro = 10⁻⁶."
+          text: [
+            "Untuk nilai sangat besar atau kecil digunakan awalan satuan, misalnya kilo = $10^3$, centi = $10^{-2}$, mili = $10^{-3}$, dan mikro = $10^{-6}$.",
+            "Berikut ini beberapa awalan satuan yang umum digunakan dalam SI."
+          ]
         },
+        { 
+          type: "table",
+          table: {
+            headers: ["Awalan", "Simbol", "Faktor"],
+            rows: [
+              ["Tera-", "T", "$10^{12}$"],
+              ["Giga-", "G", "$10^9$"],
+              ["Mega-", "M", "$10^6$"],
+              ["kilo-", "k", "$10^3$"],
+              ["hecto-", "h", "$10^2$"],
+              ["deka-", "da", "$10^1$"],
+              ["mili-", "m", "$10^{-3}$"],
+              ["mikro-", "μ", "$10^{-6}$"],
+              ["nano-", "n", "$10^{-9}$"],
+              ["piko-", "p", "$10^{-12}$"]
+            ]
+          }
+        }
       ]
     },
     {
@@ -83,7 +117,7 @@ const sisteminternasional = {
       ]
     },
     {
-      heading: '⚠️ Miskonsepsi',
+      heading: "⚠️ Miskonsepsi",
       blocks: [
         { 
           type: "paragraph", 
@@ -92,9 +126,10 @@ const sisteminternasional = {
       ]
     },
     {
-      heading: '💡 Fun Fact',
+      heading: "🌟 *Fun Fact*",
       blocks: [
-        { type: "paragraph", 
+        { 
+          type: "paragraph", 
           text: "Definisi satuan SI modern menggunakan konstanta alam tertentu agar standar pengukuran tidak bergantung pada satu benda fisik tertentu." 
         },
       ]
@@ -206,20 +241,17 @@ const sisteminternasional = {
       ]
     },
     {
-      heading: "🚀 Next Mission",
       blocks: [
-        { type: "paragraph", text: 'Kita sudah mengenal fondasi SI. Sekarang kita akan melihat bagaimana besaran fisika dibangun dari fondasi tersebut.' },
-        { type: "paragraph", text: '➡️ Selanjutnya: Besaran Pokok dan Besaran Turunan.' },
-      ],
-      link: '/materi/besaran%20pokok%20dan%20turunan'
-    },
-    {
-      heading: "📚 Referensi",
-      blocks: [
-        { type: "paragraph", text: 'Halliday, Resnick & Walker. Fundamentals of Physics.' },
-        { type: "paragraph", text: 'Serway & Jewett. Physics for Scientists and Engineers.' },
-        { type: "paragraph", text: 'Young & Freedman. University Physics with Modern Physics.' },
-        { type: "paragraph", text: 'Kemendikbudristek RI. Buku Fisika SMA/MA Kelas X.' },
+        { 
+          type: "paragraph", 
+          text: "Kita sudah mengenal fondasi SI. Sekarang kita akan melihat bagaimana besaran fisika dibangun dari fondasi tersebut."
+        },
+        {
+          type: "image",
+          src: img1,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/besaran-pokok-dan-turunan"
+        }
       ]
     }
   ]

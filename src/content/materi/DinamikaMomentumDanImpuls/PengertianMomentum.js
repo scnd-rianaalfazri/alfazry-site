@@ -112,6 +112,7 @@ const pengertianMomentum = {
                 text: "Miskonsepsi 1",
                 description: [
                   "Benda yang lebih cepat selalu memiliki momentum lebih besar. ❌",
+                  "Gak, gitu!",
                   "Tidak selalu. Massa juga berpengaruh. ✔️"
                 ]
               },
@@ -119,6 +120,7 @@ const pengertianMomentum = {
                 text: "Miskonsepsi 2",
                 description: [
                   "Momentum adalah besaran skalar. ❌",
+                  "Gak, gitu!",
                   "Momentum adalah besaran vektor. ✔️"
                 ]
               }
@@ -134,6 +136,103 @@ const pengertianMomentum = {
           type: "paragraph", 
           text: "Dua benda dapat memiliki momentum yang sama meskipun massa dan kecepatannya berbeda, selama hasil kali massa dan kecepatan serta arahnya sama." 
         },
+      ]
+    },
+    { 
+      heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Momentum suatu benda dipengaruhi oleh....",
+                options: [
+                  "massa dan posisi benda",
+                  "massa dan kecepatan benda",
+                  "kecepatan dan waktu tempuh",
+                  "gaya dan percepatan",
+                  "massa dan percepatan"
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Rumus yang tepat untuk menentukan momentum adalah....",
+                options: [
+                  "$p = m + v$",
+                  "$p = \\frac{m}{v}$",
+                  "$p = ma$",
+                  "$p = mv$",
+                  "$p=\\frac{F}{t}$"
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Sebuah benda bermassa 4 kg bergerak dengan kecepatan 5 m/s. Besar momentumnya adalah....",
+                options: [
+                  "0,8 kg·m/s",
+                  "5 kg·m/s",
+                  "9 kg·m/s",
+                  "20 kg·m/s",
+                  "25 kg·m/s"
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Dua benda memiliki massa dan kecepatan yang berbeda. Benda A bermassa 2 kg dengan kecepatan 10 m/s, sedangkan benda B bermassa 5 kg dengan kecepatan 4 m/s. Pernyataan yang benar adalah...",
+                options: [
+                  "momentum keduanya sama besar",
+                  "momentum A lebih besar",
+                  "momentum B lebih besar",
+                  "momentum keduanya selalu nol",
+                  "tidak dapat dibandingkan karena massanya berbeda"
+                ],
+                answerIndex: 0
+              },
+              {
+                question: "Pernyataan yang tepat mengenai arah momentum adalah....",
+                options: [
+                  "selalu berlawanan dengan arah kecepatan",
+                  "selalu menuju pusat Bumi",
+                  "selalu tegak lurus terhadap arah kecepatan",
+                  "selalu sama dengan arah kecepatan benda",
+                  "tidak memiliki arah karena momentum merupakan skalar"
+                ],
+                answerIndex: 3
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
       ]
     },
     {

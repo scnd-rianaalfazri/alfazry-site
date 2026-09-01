@@ -7,7 +7,8 @@ const keselamatanKerjaLaboratorium = {
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
         { type: "paragraph", 
           text: [
             "Bayangkan kamu akan melakukan praktikum.",
@@ -22,7 +23,6 @@ const keselamatanKerjaLaboratorium = {
     {
       heading: "🥽 Mengapa Keselamatan Itu Penting?",
       blocks: [
-        { type: "heading", text: "🥽 Mengapa Keselamatan Itu Penting?[cite: 1]" },
         {
           type: "paragraph",
           text: [
@@ -193,7 +193,7 @@ const keselamatanKerjaLaboratorium = {
             "Menggunakan APD bukan berarti kita takut melakukan eksperimen.",
             "APD digunakan untuk mengurangi risiko apabila terjadi kecelakaan."
           ]
-        },
+        }
       ]
     },
     {
@@ -205,7 +205,7 @@ const keselamatanKerjaLaboratorium = {
             "Keselamatan kerja merupakan bagian penting dari kegiatan ilmiah.",
             "Dengan mematuhi prosedur keselamatan, eksperimen dapat dilakukan secara aman, tertib, dan bertanggung jawab."
           ]
-        },
+        }
       ]
     },
     { blocks: [
@@ -221,19 +221,6 @@ const keselamatanKerjaLaboratorium = {
           caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
           link: "/materi/sains-dalam-kehidupan"
         }
-      ]
-    },
-    {
-      heading: "Referensi:",
-      blocks: [
-        {
-          type: "paragraph",
-          text: [
-            "Kemendikbudristek RI. Buku Fisika SMA/MA.",
-            "Halliday, Resnick & Walker. Fundamentals of Physics.",
-            "Serway & Jewett. Physics for Scientists and Engineers."
-          ]
-        },
       ]
     }
   ]

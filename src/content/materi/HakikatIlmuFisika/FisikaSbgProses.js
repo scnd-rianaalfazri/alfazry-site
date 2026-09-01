@@ -171,7 +171,7 @@ const fisikaSebagaiProses = {
           "*'Tujuan eksperimen itu untuk membuktikan kalau tebakan (hipotesis) kita 100% benar, kan?'* ❌",
           "Gak, gitu! ",
           "Eksperimen bukan alat untuk validasi ego agar hipotesis kita terlihat selalu benar.",
-          "Tujuan utama eksperimen adalah untuk menguji secara objektif apakah hipotesis tersebut didukung oleh bukti nyata atau tidak. ",
+          "Tujuan utama eksperimen adalah untuk menguji secara objektif apakah hipotesis tersebut didukung oleh bukti nyata atau tidak. ✔️",
           "Hipotesis yang terbukti salah lewat eksperimen tetaplah sebuah kontribusi besar bagi sains karena memberi tahu peneliti lain jalan mana yang buntu."
         ]
       }
@@ -299,19 +299,6 @@ const fisikaSebagaiProses = {
         src: img4,
         caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
         link: "/materi/fisika-sebagai-sikap"
-      }
-    ]
-  },
-  { heading: "Referensi:", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Halliday, Resnick & Walker. Fundamentals of Physics.",
-          "Serway & Jewett. Physics for Scientists and Engineers.",
-          "Young & Freedman. University Physics with Modern Physics.",
-          "Kemendikbudristek RI. Buku Fisika SMA/MA."
-        ]
       }
     ]
   }]

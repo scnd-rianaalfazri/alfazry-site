@@ -1,9 +1,8 @@
 const pengantarbunyi = {
   title: "Pengantar Bunyi",
-  slug: "pengantar bunyi",
+  slug: "pengantar-bunyi",
   chapter: "🔊 Bunyi",
-  description:
-  "Memahami konsep dasar bunyi sebagai gelombang mekanik yang dihasilkan oleh benda bergetar dan merambat melalui medium.",
+  description: "Memahami konsep dasar bunyi sebagai gelombang mekanik yang dihasilkan oleh benda bergetar dan merambat melalui medium.",
 
   content: [
   { heading:

@@ -1,7 +1,7 @@
 import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-pengantar-besaran-dan-satuan.png"
 
 const penutupHakikatIlmuFisika = {
-  title: "Penutup Chapter",
+  title: "Penutup Chapter - Hakikat Ilmu Fisika",
   slug: "penutup-hakikat-fisika",
   description: "Merefleksikan perjalanan mempelajari hakikat ilmu fisika dan metode ilmiah sebagai fondasi dalam memahami alam semesta.",
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
@@ -26,55 +26,72 @@ const penutupHakikatIlmuFisika = {
         ] 
       },
       {
-        type: "list",
-        list: {
-          type: "unordered",
-          items: [
+        type: "carousel",
+        carousel: {
+          cards: [
             {
-              text: "🌍 [Mengapa Belajar Fisika](/materi/mengapa-belajar-fisika)"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Apa Itu Fisika](/materi/apa-itu-fisika)",
+              text: "Gerbang awal mengenal objek sains",
             },
             {
-              text: "🔬 [Apa Itu Fisika](/materi/apa-itu-fisika)"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Hakikat Ilmu Fisika](/materi/hakikat-ilmu-fisika)",
+              text: "Memahami 3 pilar utama fisika",
             },
             {
-              text: "🧩 [Hakikat Ilmu Fisika](/materi/hakikat-ilmu-fisika)"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Fisika sebagai Produk](/materi/fisika-sebagai-produk)",
+              text: "Kumpulan hasil pengetahuan ilmiah",
             },
             {
-              text: "⚙️ [Fisika sebagai Produk](/materi/fisika-sebagai-produk)"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Fisika sebagai Proses](/materi/fisika-sebagai-proses)",
+              text: "Bagaimana cara ilmuwan bekerja?",
             },
             {
-              text: "🧪 [Fisika sebagai Proses](/materi/fisika-sebagai-proses)"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Fisika sebagai Sikap](/materi/fisika-sebagai-sikap-ilmiah)",
+              text: "Karakter ilmiah yang wajib dimiliki",
             },
             {
-              text: "🧠 [Fisika sebagai Sikap](/materi/fisika-sebagai-sikap-ilmiah)"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Ruang Lingkup Fisika](/materi/ruang-lingkup-fisika)",
+              text: "Menjelajahi skala klasik hingga modern",
             },
             {
-              text: "🌌 [Ruang Lingkup Fisika](/materi/ruang-lingkup-fisika)"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Metode Ilmiah](/materi/metode-ilmiah)",
+              text: "Langkah-langkah sistematis penelitian",
             },
             {
-              text: "🔍 [Metode Ilmiah](/materi/metode-ilmiah)"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Merancang Eksperimen](/materi/merancang-eksperimen)",
+              text: "Menentukan variabel, alat, bahan, dan prosedur secara sistematis.",
             },
             {
-              text: "🧪 [Merancang Eksperimen](/materi/merancang-eksperimen)"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Mengolah Data](/materi/mengolah-data)",
+              text: "Mengolah, menyajikan, dan menafsirkan data hasil eksperimen",
             },
             {
-              text: "📊 [Mengolah Data](/materi/mengolah-dan-menafsirkan-data)"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Mengolah Data](/materi/kesimpulan-komunikasi-ilmiah)",
+              text: "Menyusun kesimpulan berdasarkan data serta mengomunikasikan hasil penelitian",
             },
             {
-              text: "📢 [Komunikasi Ilmiah](/materi/kesimpulan-komunikasi-ilmiah)"
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Keselamatan Kerja di Laboratorium](/materi/keselamatan-kerja-laboratorium)",
+              text: "Aturan main aman saat bereksperimen",
             },
             {
-              text: "🥽 [Keselamatan Laboratorium](/materi/keselamatan-kerja-laboratorium)"
-            },
-            {
-              text: "🌍 [Sains dalam Kehidupan](/materi/sains-dalam-kehidupan)"
-            },
-            {
-              text: "🚀 [Mini Project](/materi/mini-project-hakikat-ilmu-fisika)"
-            }
+              eyebrow: "📚 CHAPTER: Hakikat Ilmu Fisika",
+              title: "[Sains dalam Kehidupan](/materi/sains-dalam-kehidupan)",
+              text: "Cara berpikir ilmiah dalam Aktivitas Sehari-hari",
+            },   
           ]
         }
-      },
+      }
     ]
   },
   { heading: "🧠 Apa yang Telah Kamu Kuasai?", 
@@ -155,13 +172,13 @@ const penutupHakikatIlmuFisika = {
           type: "ordered",
           items: [
             {
-              type: "Materi apa yang paling menarik bagimu?"
+              text: "Materi apa yang paling menarik bagimu?"
             },
             {
-              type: "Apa hal baru yang kamu pelajari?"
+              text: "Apa hal baru yang kamu pelajari?"
             },
             {
-              type: "Bagaimana cara berpikir ilmiah dapat membantumu dalam kehidupan sehari-hari?"
+              text: "Bagaimana cara berpikir ilmiah dapat membantumu dalam kehidupan sehari-hari?"
             }
           ]
         }

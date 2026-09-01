@@ -262,11 +262,9 @@ const mengolahData = {
       }
     ]
   },
-  { heading: "🎯 Quick Check", 
+  { 
+    heading: "🎯 Quick Check", 
     blocks: [
-      { type: "heading", 
-        text: "🎯 Quick Check" 
-      },
       {
         type: "quickCheck",
         data: {
@@ -360,7 +358,8 @@ const mengolahData = {
       }
     }]
   },
-  { blocks: [
+  { 
+    blocks: [
       {
         type: "paragraph",
         text: [
@@ -372,18 +371,6 @@ const mengolahData = {
         src: img1,
         caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
         link: "/materi/kesimpulan-komunikasi-ilmiah"
-      }
-    ]
-  },
-  { heading: "Referensi:", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Kemendikbudristek RI. Buku Fisika SMA/MA.",
-          "Halliday, Resnick & Walker. Fundamentals of Physics.",
-          "Serway & Jewett. Physics for Scientists and Engineers."
-        ]
       }
     ]
   }]

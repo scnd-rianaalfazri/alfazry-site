@@ -9,18 +9,19 @@ const sainsDalamKehidupan = {
   content: [
   {
     blocks: [
-    {
-      type: "paragraph",
-      text: [
-        "Apakah metode ilmiah hanya digunakan oleh ilmuwan di dalam laboratorium yang super steril?",
-        "Ternyata tidak!",
-        "Tanpa disadari, kita sering banget menggunakan cara berpikir ilmiah saat menyelesaikan masalah sehari-hari.",
-        "Mulai dari hal simpel kayak memilih rute perjalanan biar gak telat, sampai menentukan produk gadget mana yang paling worth it buat dibeli."
-      ]
-    }
-  ]
+      {
+        type: "paragraph",
+        text: [
+          "Apakah metode ilmiah hanya digunakan oleh ilmuwan di dalam laboratorium yang super steril?",
+          "Ternyata tidak!",
+          "Tanpa disadari, kita sering banget menggunakan cara berpikir ilmiah saat menyelesaikan masalah sehari-hari.",
+          "Mulai dari hal simpel kayak memilih rute perjalanan biar gak telat, sampai menentukan produk gadget mana yang paling worth it buat dibeli."
+        ]
+      }
+    ]
   },
-  { heading: "🌍 Sains Ada di Sekitar Kita", 
+  { 
+    heading: "🌍 Sains Ada di Sekitar Kita", 
     blocks: [
       {
         type: "paragraph",
@@ -39,13 +40,15 @@ const sainsDalamKehidupan = {
         text: [
           "Gak perlu nunggu jadi profesor dulu buat menerapkan sains.",
           "Berikut adalah beberapa contoh cara berpikir ilmiah yang sering kamu lakukan:"
-        ],
+        ]
+      },
+      {
         type: "list",
         list:{
           type: "unordered",
           items:[
             {
-              text: "🗺️ Memilih rute tercepat berdasarkan real-time data di aplikasi navigasi."
+              text: "🌦️ Membawa payung setelah melihat prakiraan cuaca"
             },
             {
               text: "🗺️ Memilih rute tercepat berdasarkan real-time data di aplikasi navigasi."
@@ -61,16 +64,6 @@ const sainsDalamKehidupan = {
             }
           ]
         }
-      },
-      {
-        type: "paragraph",
-        text: [
-          "🗺️ Memilih rute tercepat berdasarkan aplikasi navigasi.",
-          "🌦️ Membawa payung setelah melihat prakiraan cuaca.",
-          "📚 Mencoba metode belajar yang paling efektif.",
-          "🪴 Mengamati pertumbuhan tanaman di rumah.",
-          "💡 Membandingkan spesifikasi sebelum membeli barang."
-        ]
       }
     ]
   },
@@ -107,7 +100,8 @@ const sainsDalamKehidupan = {
       }
     ]
   },
-  { heading: "📊 Mengambil Keputusan Berdasarkan Data", 
+  { 
+    heading: "📊 Mengambil Keputusan Berdasarkan Data", 
     blocks: [
       {
         type: "paragraph",
@@ -119,7 +113,8 @@ const sainsDalamKehidupan = {
       }
     ]
   },
-  { heading: "💡 Tahukah Kamu?", 
+  { 
+    heading: "💡 Tahukah Kamu?", 
     blocks: [
       {
         type: "paragraph",
@@ -131,7 +126,8 @@ const sainsDalamKehidupan = {
       }
     ]
   },
-  { heading: "⚠️ Miskonsepsi", 
+  { 
+    heading: "⚠️ Miskonsepsi", 
     blocks: [
       {
         type: "paragraph",
@@ -141,7 +137,8 @@ const sainsDalamKehidupan = {
       }
     ]
   },
-  { heading: "✨ Inti Materi", 
+  { 
+    heading: "✨ Inti Materi", 
     blocks: [
       {
         type: "paragraph",
@@ -151,7 +148,8 @@ const sainsDalamKehidupan = {
       }
     ]
   },
-  { heading: "🎯 Quick Check", 
+  { 
+    heading: "🎯 Quick Check", 
     blocks: [
       {
         type: "quickCheck",
@@ -258,19 +256,6 @@ const sainsDalamKehidupan = {
         src: img1,
         caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
         link: "/materi/eksplorasi-fenomena-hakikat-ilmu-fisika"
-      }
-    ]
-  },
-  { 
-    heading: "Referensi:", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Kemendikbudristek RI. Buku Fisika SMA/MA.",
-          "Halliday, Resnick & Walker. Fundamentals of Physics.",
-          "Serway & Jewett. Physics for Scientists and Engineers."
-        ]
       }
     ]
   }]

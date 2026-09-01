@@ -31,17 +31,21 @@ import KonversiSatuan from "../content/materi/BesaranDanSatuan/KonversiSatuan.js
 
 /* vektor */
 import PengantarVektor from "../content/materi/Vektor/PengantarVektor.js"
-import SkalarDanVektor from "../content/materi/Vektor/SkalarDanVektor.js"
+import BesaranSkalarDanVektor from "../content/materi/Vektor/BesaranSkalarDanVektor.js"
+import MengenalVektorDiDuniaNyata from "../content/materi/Vektor/MengenalVektorDiDuniaNyata.js"
 import RepresentasiVektor from "../content/materi/Vektor/RepresentasiVektor.js"
-import SistemKoordinatDanArahVektor from "../content/materi/Vektor/SistemKoordinatDanArahVektor.js"
-import KomponenVektor from "../content/materi/Vektor/KomponenVektor.js"
+import BesarDanArahVektor from "../content/materi/Vektor/BesarDanArahVektor.js"
+import SistemKoodinatDanArahVektor from "../content/materi/Vektor/SistemKoordinatDanArahVektor.js"
+import KompomenVektor from "../content/materi/Vektor/KomponenVektor.js"
 import MenghitungKomponenVektor from "../content/materi/Vektor/MenghitungKomponenVektor.js"
-import MenjumlahkanVektor from "../content/materi/Vektor/MenjumlahkanVektor.js"
-import ResultanVektorSatuGaris from "../content/materi/Vektor/ResultanVektorSatuGaris.js"
+import PejumlahanVektor from "../content/materi/Vektor/PenjumlahanVektor.js"
+import ResultanVektorSatuDimensi from "../content/materi/Vektor/ResultanVektorSatuDimensi.js"
 import ResultanVektorDuaDimensi from "../content/materi/Vektor/ResultanVektorDuaDimensi.js"
-import MenentukanArahResultanVektor from "../content/materi/Vektor/MenentukanArahResultanVektor.js"
+import MenentukanArahResultan from "../content/materi/Vektor/MenentukanArahResultan.js"
+import VektorSatuanDanNotasiKompomen from "../content/materi/Vektor/VektorSatuanDanNotasiKomponen.js"
 import PerkalianVektor from "../content/materi/Vektor/PerkalianVektor.js"
-import AplikasiVektor from "../content/materi/Vektor/AplikasiVektor.js"
+import AplikasiVektorDalamFisika from "../content/materi/Vektor/AplikasiVektorDalamFisika.js"
+import KonsepVektorDiDuniaNyata from "../content/materi/Vektor/KonsepDiDuniaNyataVektor.js"
 
 /* kinematika gerak satu dimensi */ 
 import PengantarGerak from "../content/materi/KinematikaGerakSatuDimensi/PengantarGerak.js"
@@ -113,6 +117,15 @@ import PengantarMomentumDanImpuls from "../content/materi/DinamikaMomentumDanImp
 import PengertianMomentum from "../content/materi/DinamikaMomentumDanImpuls/PengertianMomentum.js"
 import PengertianImpuls from "../content/materi/DinamikaMomentumDanImpuls/PengertianImpuls.js"
 import HubunganMomentumImpuls from "../content/materi/DinamikaMomentumDanImpuls/HubunganMomentumImpuls.js"
+import HukumKekekalanMomentum from "../content/materi/DinamikaMomentumDanImpuls/HukumKekekalanMomentum.js"
+import PengantarTumbukan from "../content/materi/DinamikaMomentumDanImpuls/PengantarTumbukan.js"
+import TumbukanLentingSempurna from "../content/materi/DinamikaMomentumDanImpuls/TumbukanLentingSempurna.js"
+import TumbukanLentingSebagian from "../content/materi/DinamikaMomentumDanImpuls/TumbukanLentingSebagian.js"
+import TumbukanTidakLentingSamaSekali from "../content/materi/DinamikaMomentumDanImpuls/TumbukanTidakLentingSamaSekali.js"
+import KoefisienRestitusi from "../content/materi/DinamikaMomentumDanImpuls/KoefisienRestitusi.js"
+import KonsepMonentumImpulsDiDuniaNyata from "../content/materi/DinamikaMomentumDanImpuls/KonsepDiDuniaNyataMomentumImpuls.js"
+import EksplorasiFenomenaMomentumDanImpuls from "../content/materi/DinamikaMomentumDanImpuls/EksplorasiFenomenaMomentumImpuls"
+import PenutupMomentumDanImpuls from "../content/materi/DinamikaMomentumDanImpuls/ChapterPenutupMomentumImpuls.js"
 
 /* usaha dan energi */
 import PengantarUsahaDanEnergi from "../content/materi/UsahaDanEnergi/PengantarUsahaDanEnergi.js"
@@ -528,17 +541,21 @@ export const materials = [
 
   /* Chapter : Vektor */
   PengantarVektor,
-  SkalarDanVektor,
+  BesaranSkalarDanVektor,
+  MengenalVektorDiDuniaNyata,
   RepresentasiVektor,
-  SistemKoordinatDanArahVektor,
-  KomponenVektor,
+  BesarDanArahVektor,
+  SistemKoodinatDanArahVektor,
+  KompomenVektor,
   MenghitungKomponenVektor,
-  MenjumlahkanVektor,
-  ResultanVektorSatuGaris,
+  PejumlahanVektor,
+  ResultanVektorSatuDimensi,
   ResultanVektorDuaDimensi,
-  MenentukanArahResultanVektor,
+  MenentukanArahResultan,
+  VektorSatuanDanNotasiKompomen,
   PerkalianVektor,
-  AplikasiVektor,
+  AplikasiVektorDalamFisika,
+  KonsepVektorDiDuniaNyata,
 
   /* Chapter : Kinematika Gerak Satu Dimensi */
   PengantarGerak,
@@ -610,6 +627,16 @@ export const materials = [
   PengertianMomentum,
   PengertianImpuls,
   HubunganMomentumImpuls,
+  HukumKekekalanMomentum,
+  PengantarTumbukan,
+  TumbukanLentingSempurna,
+  TumbukanLentingSebagian,
+  TumbukanTidakLentingSamaSekali,
+  KoefisienRestitusi,
+  KonsepMonentumImpulsDiDuniaNyata,
+  EksplorasiFenomenaMomentumDanImpuls,
+  PenutupMomentumDanImpuls,
+
  
   /* Chapter : kesetimbangan dan dinamika rotasi */
   PengantarKesetimbangan,

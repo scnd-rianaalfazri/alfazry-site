@@ -268,18 +268,6 @@ const merancangEksperimen = {
         link: "/materi/mengolah-dan-menafsirkan-data"
       }
     ]
-  },
-  { heading: "Referensi:", 
-    blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Kemendikbudristek RI. Buku Fisika SMA/MA.",
-          "Halliday, Resnick & Walker. Fundamentals of Physics.",
-          "Serway & Jewett. Physics for Scientists and Engineers."
-        ]
-      }
-    ]
   }]
 };
 

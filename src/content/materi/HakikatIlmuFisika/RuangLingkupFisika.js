@@ -195,8 +195,8 @@ const ruangLingkupFisika = {
       {
         type: "paragraph",
         text: [
-          "Cabang-cabang fisika bukanlah ilmu kaplingan yang berdiri sendiri-sendiri. ",
-          "Di dunia nyata, berbagai konsep fisika selalu berkolaborasi bersamaan untuk menjelaskan satu fenomena tunggal.",
+          "Cabang-cabang fisika bukanlah ilmu kaplingan yang berdiri sendiri-sendiri. ❌",
+          "Di dunia nyata, berbagai konsep fisika selalu berkolaborasi bersamaan untuk menjelaskan satu fenomena tunggal. ✔️",
           "Contohnya satelit; untuk memahaminya kita butuh kombinasi konsep gerak, gaya gravitasi, energi, hingga relativitas sekaligus."
         ]
       }
@@ -324,18 +324,6 @@ const ruangLingkupFisika = {
         src: img3,
         caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
         link: "/materi/metode-ilmiah"
-      }
-    ]
-  },
-  { heading: "Referensi:", blocks: [
-      {
-        type: "paragraph",
-        text: [
-          "Halliday, Resnick & Walker. Fundamentals of Physics.",
-          "Serway & Jewett. Physics for Scientists and Engineers.",
-          "Young & Freedman. University Physics with Modern Physics.",
-          "Kemendikbudristek RI. Buku Fisika SMA/MA."
-        ]
       }
     ]
   }]
