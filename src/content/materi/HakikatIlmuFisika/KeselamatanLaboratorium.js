@@ -1,4 +1,7 @@
 import img1 from "/src/assets/Materi/HakikatIlmuFisika/portal-sains-dalam-kehidupan-sehari-hari.png"
+import img2 from "/src/assets/Materi/HakikatIlmuFisika/keselamatan-laboratorium1.png"
+import img3 from "/src/assets/Materi/HakikatIlmuFisika/keselamatan-laboratorium2.png"
+import img4 from "/src/assets/Materi/HakikatIlmuFisika/keselamatan-laboratorium3.png"
 
 const keselamatanKerjaLaboratorium = {
   title: "Keselamatan Kerja Laboratorium",
@@ -7,15 +10,19 @@ const keselamatanKerjaLaboratorium = {
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",
 
   content: [
+
     { 
       blocks: [
+        {
+          type: "image",
+          src: img3
+        },
         { type: "paragraph", 
           text: [
-            "Bayangkan kamu akan melakukan praktikum.",
-            "Semua alat sudah tersedia dan percobaan sudah dimulai.",
-            "Namun, apakah kamu langsung mulai bekerja",
-            "Belum dulu",
-            "Seorang ilmuwan selalu memastikan bahwa lingkungan kerja aman sebelum melakukan eksperimen"
+            "Bayangkan kamu akan melakukan praktikum. Semua alat sudah tersedia dan percobaan sudah dimulai.",
+            "Namun, apakah kamu langsung mulai bekerja.",
+            "Belum dulu.",
+            "Seorang ilmuwan selalu memastikan bahwa lingkungan kerja aman sebelum melakukan eksperimen."
           ]
         }
       ]
@@ -70,35 +77,38 @@ const keselamatanKerjaLaboratorium = {
     {
       heading: "⚠️ Simbol Bahaya",
       blocks: [
-        { type: "heading", text: "⚠️ Simbol Bahaya[cite: 1]" },
         {
           type: "paragraph",
-          text: "Laboratorium menggunakan berbagai simbol untuk menunjukkan potensi bahaya.[cite: 1]"
+          text: "Laboratorium menggunakan berbagai simbol untuk menunjukkan potensi bahaya."
         },
         {
-          type: "list",
-          list: {
-            type: "ordered",
-            items: [
+          type: "carousel",
+          carousel: {
+            cards: [
               {
-                text: "🔥 Mudah terbakar",
-                description: "Jauhkan dari sumber api terbuka (misal: alkohol, minyak)."
+                eyebrow: "BEBERAPA SIMBOL DI LABORATORIUM",
+                title: "🔥 Mudah terbakar",
+                text: "Jauhkan dari sumber api terbuka (misal: alkohol, minyak).",
               },
               {
-                text: "☣️ Berbahaya bagi kesehatan",
-                description: "Bisa memicu iritasi, keracunan, atau infeksi biologis jika terhirup/tertelan."
+                eyebrow: "SIMBOL DI LABORATORIUM",
+                title: "☠️ Berbahaya bagi kesehatan",
+                text: "Bisa memicu iritasi, keracunan, atau infeksi biologis jika terhirup/tertelan..",
               },
               {
-                text: "⚡ Bahaya listrik",
-                description: "– Risiko sengatan arus tinggi dari alat elektronik laboratorium."
+                eyebrow: "SIMBOL DI LABORATORIUM",
+                title: "⚡ Bahaya listrik",
+                text: "Risiko sengatan arus tinggi dari alat elektronik laboratorium.",
               },
               {
-                text: "☢️ Radioaktif",
-                description: "Memancarkan radiasi tak terlihat yang berbahaya dalam jangka panjang."
+                eyebrow: "SIMBOL DI LABORATORIUM",
+                title: "☢️ Radioaktif",
+                text: "Memancarkan radiasi tak terlihat yang berbahaya dalam jangka panjang.",
               },
               {
-                text: "🧪 Korosif",
-                description: "Zat asam atau basa kuat yang bisa merusak jaringan kulit atau mengikis logam."
+                eyebrow: "SIMBOL DI LABORATORIUM",
+                title: "🧪 Korosif",
+                text: "Zat asam atau basa kuat yang bisa merusak jaringan kulit atau mengikis logam.",
               }
             ]
           }
@@ -108,8 +118,13 @@ const keselamatanKerjaLaboratorium = {
     {
       heading: "📋 Aturan Dasar Laboratorium",
       blocks: [
-        { type: "paragraph", 
+        { 
+          type: "paragraph", 
           text: "Beberapa aturan yang harus dipatuhi:" 
+        },
+        {
+          type: "image",
+          src: img2
         },
         {
           type: "list",
@@ -142,7 +157,12 @@ const keselamatanKerjaLaboratorium = {
     {
       heading: "🚨 Jika Terjadi Kecelakaan",
       blocks: [
-        { type: "list", 
+        {
+          type: "image",
+          src: img4
+        },
+        { 
+          type: "list", 
           list: {
             type: "ordered",
             items: [

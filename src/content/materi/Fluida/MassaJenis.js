@@ -13,8 +13,11 @@ const massaJenis = {
           text: [
             "Pernah melihat kapal laut yang terbuat dari besi raksasa? Anehnya, benda seberat itu justru bisa mengapung di atas air. Sementara sebuah paku kecil langsung tenggelam.",
             "Rahasianya terletak pada sifat yang disebut massa jenis.",
-            "Massa jenis menunjukkan seberapa rapat partikel-partikel penyusun suatu benda atau zat. Semakin besar massa jenisnya, semakin banyak massa yang terkandung dalam setiap satuan volumenya."
           ]
+        },
+        {
+          type: "quote",
+          text: "Massa jenis menunjukkan seberapa rapat partikel-partikel penyusun suatu benda atau zat. Semakin besar massa jenisnya, semakin banyak massa yang terkandung dalam setiap satuan volumenya."
         }
       ]
     },
@@ -32,7 +35,7 @@ const massaJenis = {
       ]
     },
     { 
-      heading: "🧮 Rumus Massa Jenis", 
+      heading: "🔣 Rumus Massa Jenis", 
       blocks: [
         {
           type: "paragraph",
@@ -40,7 +43,7 @@ const massaJenis = {
         },
         {
           type: "equation",
-          equation: "\\rho = frac{m}{v}"
+          equation: "\\rho = \\frac{m}{V}"
         },
         {
           type: "paragraph",
@@ -65,6 +68,27 @@ const massaJenis = {
         }
       ]
     },
+    {
+      heading: "🔠 Dimensi Massa Jenis",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "Dimensi massa jenis dapat diturunkan dari rumusnya:"
+        },
+        {
+          type: "equation",
+          equation: "\\rho = \\frac{m}{V}"
+        },
+        {
+          type: "paragraph",
+          text: "Dimensi massa $(m)$ adalah $[M]$ dan dimensi volume $(V)$ adalah $[L^3]$. Oleh karena itu, dimensi massa jenis adalah:"
+        },
+        {
+          type: "equation",
+          equation: "[\\rho] = \\frac{[M]}{[L^3]} = [M][L^{-3}]"
+        }
+      ]
+    },
     { 
       heading: "🧪 Contoh Perhitungan", 
       blocks: [
@@ -72,15 +96,37 @@ const massaJenis = {
           type: "paragraph",
           text: [
             "**SOAL**",
-            "Sebuah balok memiliki massa 2 kg dan volume 0,001 m³. Berapakah massa jenis balok tersebut?",
+            "Sebuah balok memiliki massa $\\text{2 kg}$ dan volume $\\text{0,001 m}^3$. Berapakah massa jenis balok tersebut?",
             "**JAWABAN:**",
+            "**Diketahui:**",
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "$m = 2 \\text{ kg}$",
+              },
+              {
+                text: "$V = 0,001 \\text{ m}^3$"
+              }
+            ]
+          }
+        },
+        {
+          type: "paragraph",
+          text: [
+            "**Ditanyakan:**",
+            "Massa jenis balok $(\\rho)$",
             "**Penyelesaian:**"
           ]
         },
         {
           type: "equation",
           equation: [
-            "\\rho = frac{2}{0,001}",
+            "\\rho = \\frac{2}{0,001}",
             "\\rho = 2000 kg/m^3",
           ]
         },
@@ -126,20 +172,29 @@ const massaJenis = {
       ]
     },
     { 
-      heading: "🚀 Fakta Menarik", 
+      heading: "🌟 *Fun Fact*", 
       blocks: [
         {
-          type: "paragraph",
-          text: [
-            "Minyak dapat mengapung di atas air karena massa jenisnya lebih kecil.",
-            "Balon udara dapat terbang karena udara panas di dalam balon memiliki massa jenis lebih kecil daripada udara di sekitarnya.",
-            "Kapal laut dirancang agar massa jenis rata-ratanya lebih kecil daripada massa jenis air laut sehingga dapat mengapung."
-          ]
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Minyak dapat mengapung di atas air karena massa jenisnya lebih kecil.",
+              },
+              {
+                text: "Balon udara dapat terbang karena udara panas di dalam balon memiliki massa jenis lebih kecil daripada udara di sekitarnya.",
+              },
+              {
+                text: "Kapal laut dirancang agar massa jenis rata-ratanya lebih kecil daripada massa jenis air laut sehingga dapat mengapung."
+              }
+            ]
+          }
         }
       ]
     },  
     { 
-      heading: "🎯 Kesimpulan", 
+      heading: "✨ Inti Materi", 
       blocks: [
         {
           type: "paragraph",

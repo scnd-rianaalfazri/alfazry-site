@@ -39,27 +39,28 @@ const pengantarFluida = {
           "Secara umum fluida dibedakan menjadi dua jenis, yaitu zat cair dan gas.",
           "Keduanya sama-sama dapat mengalir, tetapi memiliki karakteristik yang berbeda."
         ]
+      },
+      {
+        type: "carousel",
+        carousel: {
+          cards: [
+            {
+
+              eyebrow: "PERBEDAAN FLUIDA CAIR DAN GAS",
+              title: "🧪 Fluida Cair",
+              text: "Zat cair memiliki volume tetap tetapi bentuknya mengikuti wadah.",
+              description: "Contohnya adalah air, minyak, alkohol, dan bensin."
+            },
+            {
+              eyebrow: "PERBEDAAN FLUIDA CAIR DAN GAS",
+              title: "💨 Fluida Gas",
+              text: "Gas akan memenuhi seluruh ruang yang tersedia.",
+              description: "Contohnya adalah udara, oksigen, karbon dioksida, dan uap air."
+            }
+          ]
+        }
       }
     ]
-  },
-  {
-    type: "carousel",
-    carousel: {
-      cards: [
-        {
-          eyebrow: "PERBEDAAN FLUIDA CAIR DAN GAS",
-          title: "🧪 Fluida Cair",
-          text: "Zat cair memiliki volume tetap tetapi bentuknya mengikuti wadah.",
-          description: "Contohnya adalah air, minyak, alkohol, dan bensin."
-        },
-        {
-          eyebrow: "PERBEDAAN FLUIDA CAIR DAN GAS",
-          title: "💨 Fluida Gas",
-          text: "Gas akan memenuhi seluruh ruang yang tersedia.",
-          description: "Contohnya adalah udara, oksigen, karbon dioksida, dan uap air."
-        }
-      ]
-    }
   },
   { 
     heading: "⚡ Karakteristik Fluida", 

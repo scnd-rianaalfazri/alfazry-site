@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-angka-penting.png"
+
 const dimensi = {
   title: 'Dimensi',
   slug: 'dimensi',
@@ -14,7 +16,7 @@ const dimensi = {
       ]
     },
     {
-      heading: '❓ Pertanyaan Besar',
+      heading: "❓ Pertanyaan Besar",
       blocks: [
         { 
           type: "paragraph", 
@@ -23,7 +25,7 @@ const dimensi = {
       ]
     },
     {
-      heading: '🧩 Apa Itu Dimensi?',
+      heading: "🧩 Apa Itu Dimensi?",
       blocks: [
         { 
           type: "paragraph", 
@@ -32,7 +34,7 @@ const dimensi = {
       ]
     },
     {
-      heading: '👀 Visualisasi Konsep',
+      heading: "👀 Visualisasi Konsep",
       blocks: [
         { type: "paragraph", 
           text: "Bayangkan besaran turunan seperti sebuah resep. Dimensi membantu melihat bahan dasar apa saja yang menyusun resep tersebut."
@@ -40,26 +42,104 @@ const dimensi = {
       ]
     },
     {
-      heading: '🧮 Contoh Dimensi Kecepatan',
+      heading: "📚 Dimensi Besaran Pokok",
       blocks: [
-        { type: "paragraph", 
-          text: "Kecepatan = jarak / waktu. Jarak memiliki dimensi [L], waktu [T], sehingga dimensi kecepatan adalah [L][T⁻¹]."
+        {
+          type: "paragraph",
+          text: "Tujuh besaran pokok dalam Sistem Satuan Internasional (SI) memiliki dimensi dasar:"
+        },
+        {
+          type: "table",
+          table: {
+            headers: ["Besaran Pokok", "Dimensi"],
+            rows: [
+              ["Panjang", "$[L]$"],
+              ["Massa", "$[M]$"],
+              ["Waktu", "$[T]$"],
+              ["Arus Listrik", "$[I]$"],
+              ["Suhu", "$[\\theta]$"],
+              ["Jumlah Zat", "$[N]$"],
+              ["Intensitas Cahaya", "$[J]$"]
+            ]
+          }
         }
       ]
     },
     {
-      heading: "⚡ Contoh Dimensi Gaya",
+      heading: "🔍 Dimensi Besaran Turunan",
       blocks: [
-        { 
-          type: "paragraph", 
-          text: "Gaya berkaitan dengan massa × percepatan. Massa → [M], percepatan → [L][T⁻²], sehingga gaya → [M][L][T⁻²]."
+        {
+          type: "carousel",
+          carousel: {
+            cards: [
+              {
+                eyebrow: "CONTOH DIMENSI TURUNAN 01",
+                title: "Kecepatan",
+                text: "Dimensi: $[L][T^{-1}]$",
+                description: [
+                  "Kecepatan adalah besaran turunan yang diperoleh dari jarak dibagi waktu. Jarak memiliki dimensi $[L]$, waktu $[T]$, sehingga dimensi kecepatan adalah $[L][T^{-1}]$."
+                ]
+              },
+              {
+                eyebrow: "CONTOH DIMENSI TURUNAN 02",
+                title: "Gaya",
+                text: "Dimensi: $[M][L][T^{-2}]$",
+                description: [
+                  "Gaya adalah besaran turunan yang diperoleh dari massa dikalikan percepatan. Massa memiliki dimensi $[M]$, percepatan $[L][T^{-2}]$, sehingga dimensi gaya adalah $[M][L][T^{-2}]$."
+                ]
+              },
+              {
+                eyebrow: "CONTOH DIMENSI TURUNAN 03",
+                title: "Energi",
+                text: "Dimensi: $[M][L^{2}][T^{-2}]$",
+                description: [
+                  "Energi adalah besaran turunan yang diperoleh dari gaya dikalikan jarak. Gaya memiliki dimensi $[M][L][T^{-2}]$, jarak $[L]$, sehingga dimensi energi adalah $[M][L^{2}][T^{-2}]$."
+                ]
+              },
+              {
+                eyebrow: "CONTOH DIMENSI TURUNAN 04",
+                title: "Tekanan",
+                text: "Dimensi: $[M][L^{-1}][T^{-2}]$",
+                description: [
+                  "Tekanan adalah besaran turunan yang diperoleh dari gaya dibagi luas. Gaya memiliki dimensi $[M][L][T^{-2}]$, luas $[L^{2}]$, sehingga dimensi tekanan adalah $[M][L^{-1}][T^{-2}]$."
+                ] 
+              },
+              {
+                eyebrow: "CONTOH DIMENSI TURUNAN 05",
+                title: "Frekuensi",
+                text: "Dimensi: $[T^{-1}]$",
+                description: [
+                  "Frekuensi adalah besaran turunan yang diperoleh dari jumlah siklus dibagi waktu. Jumlah siklus adalah besaran tak berdimensi, waktu memiliki dimensi $[T]$, sehingga dimensi frekuensi adalah $[T^{-1}]$."
+                ]
+              },
+              {
+                eyebrow: "CONTOH DIMENSI TURUNAN 06",
+                title: "Daya",
+                text: "Dimensi: $[M][L^{2}][T^{-3}]$",
+                description: [
+                  "Daya adalah besaran turunan yang diperoleh dari energi dibagi waktu. Energi memiliki dimensi $[M][L^{2}][T^{-2}]$, waktu $[T]$, sehingga dimensi daya adalah $[M][L^{2}][T^{-3}]$."
+                ]
+              },
+              {
+                eyebrow: "CONTOH DIMENSI TURUNAN 07",
+                title: "Momentum",
+                text: "Dimensi: $[M][L][T^{-1}]$",
+                description: [
+                  "Momentum adalah besaran turunan yang diperoleh dari massa dikalikan kecepatan. Massa memiliki dimensi $[M]$, kecepatan $[L][T^{-1}]$, sehingga dimensi momentum adalah $[M][L][T^{-1}]$."
+                ]
+              }
+            ]
+          }
         }
       ]
     },
     {
       heading: "🧠 Analisis — Cek Konsistensi",
       blocks: [
-        { type: "paragraph", text: 'Jika dua ruas persamaan memiliki dimensi berbeda, persamaan tersebut tidak konsisten secara dimensional. Analisis dimensi membantu menemukan kesalahan struktur, tetapi tidak selalu membuktikan rumus pasti benar.' },
+        { 
+          type: "paragraph", 
+          text: "Jika dua ruas persamaan memiliki dimensi berbeda, persamaan tersebut tidak konsisten secara dimensional. Analisis dimensi membantu menemukan kesalahan struktur, tetapi tidak selalu membuktikan rumus pasti benar."
+        },
       ]
     },
     {
@@ -200,6 +280,12 @@ const dimensi = {
         { 
           type: "paragraph", 
           text: "Kita sudah mengenal struktur besaran. Sekarang saatnya melihat bagaimana angka pengukuran benar-benar diperoleh."
+        },
+        {
+          type: "image",
+          src: img1,
+          link: "/materi/angka-penting",
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
         }
       ]
     }

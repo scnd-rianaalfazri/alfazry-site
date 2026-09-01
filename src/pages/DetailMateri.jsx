@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useRef } from "react"
 import { useParams, Link } from "react-router-dom"
 import { motion, AnimatePresence } from "framer-motion"
 import { ChevronDown, Quote } from "lucide-react"
@@ -35,16 +35,27 @@ export default function DetailMateri() {
     })
   }
 
-  const openAllSections = () => {
-    const allIndexes = (materi?.content || [])
-      .map((section, index) => (section.heading ? index : null))
-      .filter((index) => index !== null)
+  // Ref tiap section (untuk scroll-to saat dipilih dari Daftar Isi)
+  const sectionRefs = useRef({})
 
-    setOpenSections(new Set(allIndexes))
-  }
+  // Klik dari Daftar Isi: buka section yang dituju lalu scroll ke sana.
+  // Menggantikan tombol "Buka Semua"/"Tutup Semua" lama supaya konten
+  // tidak terkesan tersembunyi saat halaman pertama kali dimuat.
+  const goToSection = (index) => {
+    setOpenSections((prev) => {
+      const next = new Set(prev)
+      next.add(index)
+      return next
+    })
 
-  const closeAllSections = () => {
-    setOpenSections(new Set())
+    requestAnimationFrame(() => {
+      setTimeout(() => {
+        sectionRefs.current[index]?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        })
+      }, 50)
+    })
   }
 
   const materi = materials.find(
@@ -735,45 +746,42 @@ export default function DetailMateri() {
           {materi.title}
         </h1>
 
-        <div className="flex gap-2 mb-6">
-          <button
-            type="button"
-            onClick={openAllSections}
-            className="
-              px-4 py-2
-              rounded-xl
-              text-xs md:text-sm
-              font-medium
-              font-mono
-              bg-violet-500/10
-              text-violet-300
-              border border-violet-400/30
-              hover:bg-violet-500/20
-              transition-colors
-            "
-          >
-            Buka Semua
-          </button>
+        {/* Daftar Isi: navigasi cepat antar bagian materi.
+            Klik salah satu akan membuka & scroll ke bagian tersebut. */}
+        {materi.content?.some((s) => s.heading) && (
+          <div className="mb-6">
+            <p className="font-mono text-[11px] uppercase tracking-wider text-violet-300/60 mb-2">
+              Daftar Isi
+            </p>
 
-          <button
-            type="button"
-            onClick={closeAllSections}
-            className="
-              px-4 py-2
-              rounded-xl
-              text-xs md:text-sm
-              font-medium
-              font-mono
-              bg-white/5
-              text-white/60
-              border border-white/10
-              hover:bg-white/10
-              transition-colors
-            "
-          >
-            Tutup Semua
-          </button>
-        </div>
+            <div className="flex flex-wrap gap-2">
+              {materi.content.map((section, i) =>
+                section.heading ? (
+                  <button
+                    key={i}
+                    type="button"
+                    onClick={() => goToSection(i)}
+                    className="
+                      px-3.5 py-1.5
+                      rounded-full
+                      text-xs md:text-sm
+                      font-mono
+                      bg-white/5
+                      text-white/70
+                      border border-white/10
+                      hover:border-violet-400/40
+                      hover:text-violet-200
+                      hover:bg-violet-500/10
+                      transition-colors
+                    "
+                  >
+                    <RichText text={section.heading} />
+                  </button>
+                ) : null
+              )}
+            </div>
+          </div>
+        )}
 
         {/* Content */}
         <div className="space-y-4 md:space-y-5">
@@ -820,6 +828,9 @@ export default function DetailMateri() {
             return (
               <div
                 key={i}
+                ref={(el) => {
+                  sectionRefs.current[i] = el
+                }}
                 className="
                   hud-frame
                   border border-white/10
@@ -829,6 +840,7 @@ export default function DetailMateri() {
                   overflow-hidden
                   transition-colors
                   hover:border-violet-400/30
+                  scroll-mt-24
                 "
               >
                 <button

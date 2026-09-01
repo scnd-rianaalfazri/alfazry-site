@@ -1,4 +1,6 @@
 import img1 from "/src/assets/Materi/HakikatIlmuFisika/portal-keselamatan-kerja-laboratorium.png"
+import img2 from "/src/assets/Materi/HakikatIlmuFisika/kesimpulan-dan-komunikasi1.png"
+import img3 from "/src/assets/Materi/HakikatIlmuFisika/kesimpulan-dan-komunikasi2.png"
 
 const kesimpulanKomunikasi = {
   title: "Kesimpulan & Komunikasi Ilmiah",
@@ -9,7 +11,11 @@ const kesimpulanKomunikasi = {
   content: [
   {
     blocks: [
-    {
+      {
+        type: "image",
+        src: img2
+      },
+      {
       type: "paragraph",
       text: [
         "Bayangkan kamu telah melakukan eksperimen dengan sangat baik.",
@@ -76,6 +82,10 @@ const kesimpulanKomunikasi = {
   },
   { heading: "📝 Bentuk Komunikasi Ilmiah", 
     blocks: [
+      {
+        type: "image",
+        src: img3
+      },
       {
         type: "paragraph",
         text: [

@@ -1,6 +1,6 @@
 const angkapenting = {
   title: 'Angka Penting',
-  slug: 'angka penting',
+  slug: 'angka-penting',
   description: 'Memahami makna angka penting dan cara menuliskan hasil pengukuran sesuai ketelitian data.',
   chapter: "📏 Pengukuran",
 
