@@ -95,14 +95,15 @@ const ketidakpastian = {
         },
       ]
     },
-
     {
-      heading: '✨ Inti Materi',
+      heading: "✨ Inti Materi",
       blocks: [
-        { type: "paragraph", text: 'Pengukuran yang baik bukan berarti tanpa keterbatasan. Pengukuran yang baik memahami dan menyatakan batas ketelitiannya.' },
+        { 
+          type: "paragraph", 
+          text: "Pengukuran yang baik bukan berarti tanpa keterbatasan. Pengukuran yang baik memahami dan menyatakan batas ketelitiannya."
+        }
       ]
     },
-
     {
       blocks: [
         { 

@@ -1,47 +1,57 @@
 import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-besaran-dan-satuan.png"
+import img2 from "/src/assets/Materi/BesaranDanSatuan/pengantar-besaran1.png"
+import img3 from "/src/assets/Materi/BesaranDanSatuan/pengantar-besaran2.png"
 
 const pengantarbesarandansatuan = {
-  title: 'Pengantar Besaran dan Satuan',
-  slug: 'pengantar-besaran-dan-satuan',
-  description: 'Memahami pentingnya pengukuran sebagai dasar fisika untuk mengubah pengamatan menjadi data yang objektif.',
+  title: "Pengantar Besaran dan Satuan",
+  slug: "pengantar-besaran-dan-satuan",
+  description: "Memahami pentingnya pengukuran sebagai dasar fisika untuk mengubah pengamatan menjadi data yang objektif.",
   chapter: "📏 Pengukuran",
 
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img2
+        },
         { 
           type: "paragraph", 
           text: [
-            'Bayangkan seorang teman berkata, "Tas ini berat." Teman lain berkata, "Motor itu sangat cepat."' ,
-            'Menurutmu, seberapa berat? Seberapa cepat? Kata-kata itu memberi gambaran, tetapi belum memberi data yang bisa dibandingkan.'
+            "Bayangkan seorang teman berkata, \"Tas ini berat.\" Teman lain berkata, \"Motor itu sangat cepat.\"",
+            "Menurutmu, seberapa berat? Seberapa cepat? Kata-kata itu memberi gambaran, tetapi belum memberi data yang bisa dibandingkan."
           ]
         }
       ]
     },
     {
-      heading: '❓ Pertanyaan Besar',
+      heading: "❓ Pertanyaan Besar",
       blocks: [
         { 
           type: "paragraph", 
-          text: 'Bagaimana fisika mengubah sesuatu yang kita amati menjadi informasi yang objektif?' 
+          text: "Bagaimana fisika mengubah sesuatu yang kita amati menjadi informasi yang objektif?" 
         }
       ]
     },
     {
-      heading: '📏 Dari Pengamatan Menjadi Data',
+      heading: "📏 Dari Pengamatan Menjadi Data",
       blocks: [
         { 
           type: "paragraph", 
           text: [
-            'Fisika dibangun melalui pengamatan dan metode ilmiah. Agar pengamatan dapat dianalisis, fenomena perlu dinyatakan dalam data.' ,
-            'Pengukuran membantu mengubah pengamatan menjadi data yang dapat dibandingkan dan dianalisis.'
+            "Fisika dibangun melalui pengamatan dan metode ilmiah. Agar pengamatan dapat dianalisis, fenomena perlu dinyatakan dalam data." ,
+            "Pengukuran membantu mengubah pengamatan menjadi data yang dapat dibandingkan dan dianalisis."
           ]
         }
       ]
     },
     {
-      heading: '👀 Visualisasi Konsep',
+      heading: "👀 Visualisasi Konsep",
       blocks: [
+        {
+          type: "image",
+          src: img3
+        },
         { 
           type: "paragraph", 
           text: [
@@ -52,7 +62,7 @@ const pengantarbesarandansatuan = {
       ]
     },
     {
-      heading: '🧠 Analisis',
+      heading: "🧠 Analisis",
       blocks: [
         { 
           type: "paragraph", 
@@ -64,7 +74,7 @@ const pengantarbesarandansatuan = {
       ]
     },
     {
-      heading: '🌍 Pengukuran Ada di Sekitar Kita',
+      heading: "🌍 Pengukuran Ada di Sekitar Kita",
       blocks: [
         {
           type: "list",
@@ -96,7 +106,7 @@ const pengantarbesarandansatuan = {
       ]
     },
     {
-      heading: '⚠️ Miskonsepsi',
+      heading: "⚠️ Miskonsepsi",
       blocks: [
         { 
           type: "paragraph", 
@@ -114,7 +124,7 @@ const pengantarbesarandansatuan = {
       ]
     },
     {
-      heading: '✨ Inti Materi',
+      heading: "✨ Inti Materi",
       blocks: [
         { 
           type: "paragraph", 
@@ -123,6 +133,7 @@ const pengantarbesarandansatuan = {
       ]
     },
     {
+      heading: "📝 Latihan",
       blocks: [
         { 
           type: "paragraph", 
