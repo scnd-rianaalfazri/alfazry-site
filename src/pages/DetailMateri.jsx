@@ -17,9 +17,21 @@ import BackToTopButton from "../components/UI/BackToTopBottom"
 export default function DetailMateri() {
   const { slug } = useParams()
 
-  // Section pertama yang punya heading otomatis terbuka,
-  // sisanya tertutup biar halaman tidak numpuk saat di-scroll.
-  const [openSections, setOpenSections] = useState(() => new Set([0]))
+  const materi = materials.find(
+    (m) => m.slug === slug
+  )
+
+  // Semua section otomatis terbuka begitu materi dimuat, supaya
+  // konten langsung terlihat tanpa perlu diklik satu-satu.
+  // Pengguna tetap bisa menutup section tertentu secara manual
+  // lewat toggleSection kalau mau meringkas tampilan.
+  const [openSections, setOpenSections] = useState(() => {
+    const allIndexes = (materi?.content || [])
+      .map((section, index) => (section.heading ? index : null))
+      .filter((index) => index !== null)
+
+    return new Set(allIndexes)
+  })
 
   const toggleSection = (index) => {
     setOpenSections((prev) => {
@@ -57,10 +69,6 @@ export default function DetailMateri() {
       }, 50)
     })
   }
-
-  const materi = materials.find(
-    (m) => m.slug === slug
-  )
 
   const currentIndex = materials.findIndex(
     (m) => m.slug === slug

@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/HakikatIlmuFisika/portal-penutup-chapter-hakikat-ilmu-fisika.png"
+import img2 from "/src/assets/Materi/HakikatIlmuFisika/eksplorasi-fenomena-hakikat-ilmu-fisika1.png"
 
 const eksplorasiFenomena = {
   title: "Eksplorasi Fenomena",
@@ -14,6 +15,10 @@ const eksplorasiFenomena = {
 
     {
       blocks: [
+        {
+          type: "image",
+          src: img2,
+        },
         {
           type: "paragraph",
           text: [

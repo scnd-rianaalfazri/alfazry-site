@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-pengantar-besaran-dan-satuan.png"
+import img2 from "/src/assets/Materi/HakikatIlmuFisika/penutup-chapter-hakikat-ilmu-fisika1.png"
 
 const penutupHakikatIlmuFisika = {
   title: "Penutup Chapter - Hakikat Ilmu Fisika",
@@ -9,6 +10,9 @@ const penutupHakikatIlmuFisika = {
   content: [
   {
     blocks: [
+      { type: "image",
+        src: img2
+      },
       { type: "paragraph", 
         text: [
           "🎉 Selamat!",

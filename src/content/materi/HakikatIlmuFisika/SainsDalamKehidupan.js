@@ -1,4 +1,6 @@
 import img1 from "/src/assets/Materi/HakikatIlmuFisika/portal-eksplorasi-fenomena-hakikat-ilmu-fisika.png"
+import img2 from "/src/assets/Materi/HakikatIlmuFisika/sains-dalam-kehidupan1.png"
+import img3 from "/src/assets/Materi/HakikatIlmuFisika/sains-dalam-kehidupan2.png"
 
 const sainsDalamKehidupan = {
   title: "Sains dalam Kehidupan Sehari-hari",
@@ -9,6 +11,10 @@ const sainsDalamKehidupan = {
   content: [
   {
     blocks: [
+      {
+        type: "image",
+        src: img2
+      },
       {
         type: "paragraph",
         text: [
@@ -26,8 +32,7 @@ const sainsDalamKehidupan = {
       {
         type: "paragraph",
         text: [
-          "Setiap hari kita selalu dihadapkan pada berbagai pilihan dan keputusan.",
-          "Keputusan yang baik dan minim penyesalan sebaiknya didasarkan pada data, pengamatan, dan pertimbangan yang logis.",
+          "Setiap hari kita selalu dihadapkan pada berbagai pilihan dan keputusan. Keputusan yang baik dan minim penyesalan sebaiknya didasarkan pada data, pengamatan, dan pertimbangan yang logis.",
           "Inilah salah satu bentuk nyata dari penerapan metode ilmiah dalam kehidupan kita sehari-hari."
         ]
       }
@@ -91,7 +96,8 @@ const sainsDalamKehidupan = {
   },
   { heading: "🧠 Berpikir Kritis", 
     blocks: [
-      { type: "heading", 
+      { 
+        type: "paragraph", 
         text: [
           "Salah satu manfaat terbesar mempelajari sains adalah melatih kemampuan berpikir kritis.",
           "Artinya, kita gak bakal gampang fomo atau langsung percaya begitu saja pada informasi/hoaks yang kita terima.",
@@ -104,6 +110,10 @@ const sainsDalamKehidupan = {
     heading: "📊 Mengambil Keputusan Berdasarkan Data", 
     blocks: [
       {
+        type: "image",
+        src: img3
+      },
+      {
         type: "paragraph",
         text: [
           "Dalam kehidupan sehari-hari, data membantu kita mengambil keputusan yang jauh lebih bijak.",
@@ -114,14 +124,12 @@ const sainsDalamKehidupan = {
     ]
   },
   { 
-    heading: "💡 Tahukah Kamu?", 
+    heading: "🌟 *Fun Fact*", 
     blocks: [
       {
         type: "paragraph",
         text: [
-          "Belajar sains itu harus berakhir jadi ilmuwan atau peneliti di laboratorium. ❌",
-          "Gak, gitu!",
-          "Belajar sains itu esensinya adalah melatih pola pikir. Sains membantu siapa pun menjadi orang yang lebih logis, kritis, dan bijak dalam mengambil keputusan hidup."
+          "Perusahaan teknologi raksasa (kayak Google dan Apple), rumah sakit modern, hingga lembaga antariksa sekelas NASA selalu menggunakan metode ilmiah dan analisis data intensif untuk mengembangkan inovasi-inovasi baru yang mengubah dunia."
         ]
       }
     ]
@@ -132,7 +140,9 @@ const sainsDalamKehidupan = {
       {
         type: "paragraph",
         text: [
-          "Perusahaan teknologi raksasa (kayak Google dan Apple), rumah sakit modern, hingga lembaga antariksa sekelas NASA selalu menggunakan metode ilmiah dan analisis data intensif untuk mengembangkan inovasi-inovasi baru yang mengubah dunia."
+          "Belajar sains itu harus berakhir jadi ilmuwan atau peneliti di laboratorium. ❌",
+          "Gak, gitu!",
+          "Belajar sains itu esensinya adalah melatih pola pikir. Sains membantu siapa pun menjadi orang yang lebih logis, kritis, dan bijak dalam mengambil keputusan hidup. ✔️"
         ]
       }
     ]
