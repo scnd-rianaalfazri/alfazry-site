@@ -1,4 +1,6 @@
-const ketidakpastian = {
+import img1 from "/src/assets/Materi/BesaranDanSatuan/ketidakpastian-pengukuran1.png"
+
+const ketidakpastianPengukuran = {
   title: 'Ketidakpastian Pengukuran',
   slug: 'ketidakpastian',
   description: 'Memahami keterbatasan hasil pengukuran dan cara menyatakan ketidakpastian secara sederhana.',
@@ -7,6 +9,10 @@ const ketidakpastian = {
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         { 
           type: "paragraph", 
           text: [
@@ -115,4 +121,4 @@ const ketidakpastian = {
   ]
 };
 
-export default ketidakpastian;
+export default ketidakpastianPengukuran;

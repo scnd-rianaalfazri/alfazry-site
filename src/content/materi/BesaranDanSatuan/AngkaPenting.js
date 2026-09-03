@@ -1,12 +1,19 @@
-const angkapenting = {
-  title: 'Angka Penting',
-  slug: 'angka-penting',
-  description: 'Memahami makna angka penting dan cara menuliskan hasil pengukuran sesuai ketelitian data.',
+import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-notasi-ilmiah.png"
+import img2 from "/src/assets/Materi/BesaranDanSatuan/angka-penting1.png"
+
+const angkaPenting = {
+  title: "Angka Penting",
+  slug: "angka-penting",
+  description: "Memahami makna angka penting dan cara menuliskan hasil pengukuran sesuai ketelitian data.",
   chapter: "📏 Pengukuran",
 
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img2
+        },
         { 
           type: "paragraph", 
           text: "Sebuah penggaris menghasilkan panjang 12,3 cm. Menambahkan banyak digit tidak membuat alat menjadi lebih teliti."
@@ -14,7 +21,7 @@ const angkapenting = {
       ]
     },
     {
-      heading: '❓ Pertanyaan Besar',
+      heading: "❓ Pertanyaan Besar",
       blocks: [
         { 
           type: "paragraph", 
@@ -23,7 +30,7 @@ const angkapenting = {
       ]
     },
     {
-      heading: '🧠 Apa Itu Angka Penting?',
+      heading: "🧠 Apa Itu Angka Penting?",
       blocks: [
         { 
           type: "paragraph", 
@@ -32,7 +39,7 @@ const angkapenting = {
       ]
     },
     {
-      heading: '👀 Visualisasi Konsep',
+      heading: "👀 Visualisasi Konsep",
       blocks: [
         { 
           type: "paragraph", 
@@ -41,7 +48,7 @@ const angkapenting = {
       ]
     },
     {
-      heading: '📏 Contoh',
+      heading: "📏 Contoh",
       blocks: [
         { 
           type: "paragraph", 
@@ -50,7 +57,7 @@ const angkapenting = {
       ]
     },
     {
-      heading: '🧮 Pembulatan',
+      heading: "🧮 Pembulatan",
       blocks: [
         { 
           type: "paragraph", 
@@ -59,7 +66,7 @@ const angkapenting = {
       ]
     },
     {
-      heading: '🧠 Analisis',
+      heading: "🧠 Analisis",
       blocks: [
         { 
           type: "paragraph", 
@@ -109,9 +116,15 @@ const angkapenting = {
           type: "paragraph", 
           text: "Sekarang kita tahu bagaimana menjaga makna digit. Lalu bagaimana jika angkanya sangat besar atau sangat kecil?"
         },
+        {
+          type: "image",
+          src: img1,
+          link: "/materi/notasi-ilmiah",
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+        }
       ]
     }
   ]
 };
 
-export default angkapenting;
+export default angkaPenting;

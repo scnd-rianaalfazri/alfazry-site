@@ -1,6 +1,8 @@
 import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-sistem-internasional.png"
+import img2 from "/src/assets/Materi/BesaranDanSatuan/besaran-dan-satuan2.png"
+import img3 from "/src/assets/Materi/BesaranDanSatuan/besaran-dan-satuan2.png"
 
-const besarandansatuan = {
+const besaranDanSatuan = {
   title: 'Besaran dan Satuan',
   slug: 'besaran-dan-satuan',
   description: 'Memahami bagaimana hasil pengamatan dinyatakan melalui besaran, nilai, dan satuan.',
@@ -9,6 +11,10 @@ const besarandansatuan = {
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img2
+        },
         { 
           type: "paragraph", 
           text: [
@@ -65,6 +71,10 @@ const besarandansatuan = {
     {
       heading: '📏 Apa Itu Satuan?',
       blocks: [
+        {
+          type: "image",
+          src: img3
+        },
         { 
           type: "paragraph", 
           text: [
@@ -234,4 +244,4 @@ const besarandansatuan = {
   ]
 };
 
-export default besarandansatuan;
+export default besaranDanSatuan;

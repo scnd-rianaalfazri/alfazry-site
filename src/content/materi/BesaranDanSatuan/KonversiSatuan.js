@@ -1,12 +1,19 @@
-const konversisatuan = {
+import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-pengukuran.png"
+import img2 from "/src/assets/Materi/BesaranDanSatuan/konversi-satuan1.png"
+
+const konversiSatuan = {
   title: 'Konversi Satuan',
-  slug: 'konversi satuan',
+  slug: 'konversi-satuan',
   description: 'Memahami cara mengubah satuan tanpa mengubah nilai fisik sebenarnya dan menerapkannya dalam perhitungan.',
   chapter: "📏 Pengukuran",
 
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img2
+        },
         { 
           type: "paragraph", 
           text: "Keduanya menyatakan panjang yang sama. Yang berubah adalah satuannya." 
@@ -212,11 +219,17 @@ const konversisatuan = {
       blocks: [
         { 
           type: "paragraph", 
-          text: "Kamu sudah memahami bagaimana fisika mengubah pengamatan menjadi data, menggunakan standar, membaca ketelitian, dan mengelola satuan." 
+          text: "Kita sudah bisa menulis angka dengan lebih ringkas. Sekarang saatnya menerjemahkan satuan dari satu bentuk ke bentuk lainnya." 
+        },
+        {
+          type: "image",
+          src: img1,
+          link: "/materi/pengukuran",
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
         }
       ]
     }
   ]
 };
 
-export default konversisatuan;
+export default konversiSatuan;

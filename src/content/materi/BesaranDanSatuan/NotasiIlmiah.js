@@ -1,13 +1,19 @@
-const notasiilmiah = {
+import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-konversi-satuan.png"
+import img2 from "/src/assets/Materi/BesaranDanSatuan/notasi-limah1.png"
+
+const notasiIlmiah = {
   title: 'Notasi Ilmiah',
-  slug: 'notasi ilmiah',
+  slug: 'notasi-ilmiah',
   description: 'Memahami cara menuliskan bilangan sangat besar atau sangat kecil secara ringkas menggunakan notasi ilmiah.',
   chapter: "📏 Pengukuran",
 
   content: [
     {
-      heading: '🌌 Hook — Bagaimana Menulis Angka yang Terlalu Panjang?',
       blocks: [
+        {
+          type: "image",
+          src: img2
+        },
         { 
           type: "paragraph", 
           text: "Jarak astronomis dan ukuran mikroskopis dapat menghasilkan angka dengan banyak nol. Apakah kita harus menulis semuanya dalam bentuk biasa?" 
@@ -206,10 +212,17 @@ const notasiilmiah = {
         { 
           type: "paragraph", 
           text: "Kita sudah bisa menulis angka dengan lebih ringkas. Sekarang saatnya menerjemahkan satuan dari satu bentuk ke bentuk lainnya."
+        },
+        {
+          type: "image",
+          src: img1,
+          link: "/materi/konversi-satuan",
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
         }
       ]
     }
   ]
 };
 
-export default notasiilmiah;
+export default notasiIlmiah;
+

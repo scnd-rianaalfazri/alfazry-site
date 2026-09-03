@@ -1,5 +1,7 @@
+import img1 from "/src/assets/Materi/BesaranDanSatuan/eksplorasi-fenomena-besaran-dan-satuan.png"
+
 const eksplorasiFenomenaBesaranDanSatuan = {
-  title: "Eksplorasi Fenomena",
+  title: "Eksplorasi Fenomena - Besaran dan Satuan",
   slug: "eksplorasi-fenomena-besaran-dan-satuan",
   description: "Mengamati berbagai aktivitas pengukuran di sekitar dan menganalisis bagaimana besaran, satuan, alat, dan ketelitian digunakan.",
   chapter: "📏 Pengukuran",
@@ -7,6 +9,10 @@ const eksplorasiFenomenaBesaranDanSatuan = {
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         { 
           type: "paragraph", 
           text: [

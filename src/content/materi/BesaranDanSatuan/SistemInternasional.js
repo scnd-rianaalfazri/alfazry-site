@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-besaran-pokok-dan-besaran-turunan.png"
+import img2 from "/src/assets/Materi/BesaranDanSatuan/sistem-internasional1.png"
 
 const sisteminternasional = {
   title: 'Sistem Internasional',
@@ -9,6 +10,10 @@ const sisteminternasional = {
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img2
+        },
         { 
           type: "paragraph", 
           text: "Bayangkan ilmuwan di dua negara mengukur benda yang sama dengan standar berbeda. Bagaimana mereka membandingkan hasilnya?"

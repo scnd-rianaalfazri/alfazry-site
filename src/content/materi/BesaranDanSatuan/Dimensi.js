@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-angka-penting.png"
+import img2 from "/src/assets/Materi/BesaranDanSatuan/dimensi1.png"
 
 const dimensi = {
   title: 'Dimensi',
@@ -9,6 +10,10 @@ const dimensi = {
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img2
+        },
         { 
           type: "paragraph", 
           text: "Bayangkan seseorang menulis rumus yang terlihat meyakinkan. Apakah kita bisa memeriksa apakah struktur rumus itu masuk akal?"

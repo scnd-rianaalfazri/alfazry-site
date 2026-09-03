@@ -28,6 +28,9 @@ import NotasiImiah from "../content/materi/BesaranDanSatuan/NotasiIlmiah.js"
 import Pengukuran from "../content/materi/BesaranDanSatuan/Pengukuran.js"
 import Ketidakpastian from "../content/materi/BesaranDanSatuan/Ketidakpastian.js"
 import KonversiSatuan from "../content/materi/BesaranDanSatuan/KonversiSatuan.js"
+import KonsepBesaranDanSatuanDiDuniaNyata from "../content/materi/BesaranDanSatuan/KonsepDiDuniaNyataBesaranDanSatuan.js"
+import EksplorasiFenomenaBesaranDanSatuan from "../content/materi/BesaranDanSatuan/EksplorasiFenomenaBesaranDanSatuan.js"
+import PenutupChapterBesaranDanSatuan from "../content/materi/BesaranDanSatuan/ChapterClosingBesaranDanSatuan.js"
 
 /* vektor */
 import PengantarVektor from "../content/materi/Vektor/PengantarVektor.js"
@@ -535,9 +538,12 @@ export const materials = [
   Dimensi,
   AngkaPenting,
   NotasiImiah,
+  KonversiSatuan,
   Pengukuran,
   Ketidakpastian,
-  KonversiSatuan,
+  KonsepBesaranDanSatuanDiDuniaNyata,
+  EksplorasiFenomenaBesaranDanSatuan,
+  PenutupChapterBesaranDanSatuan,
 
   /* Chapter : Vektor */
   PengantarVektor,

@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-dimensi.png"
+import img2 from "/src/assets/Materi/BesaranDanSatuan/besaran-pokok-dan-turunan1.png"
 
 const besaranpokokdanturunan = {
   title: 'Besaran Pokok dan Turunan',
@@ -9,6 +10,10 @@ const besaranpokokdanturunan = {
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img2
+        },
         { 
           type: "paragraph", 
           text: "Panjang, massa, waktu, kecepatan, gaya, dan energi sama-sama digunakan dalam fisika. Tapi apakah semuanya merupakan besaran dasar?" 

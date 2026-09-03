@@ -1,7 +1,7 @@
-import { text } from "framer-motion/m";
+import img1 from "/src/assets/Materi/BesaranDanSatuan/konsep-di-dunia-nyata-besaran-dan-satuan.png"
 
 const konsepDiDuniaNyataBesaranDanSatuan = {
-  title: "Konsep di Dunia Nyata",
+  title: "Konsep di Dunia Nyata: Besaran dan Satuan",
   slug: "konsep-di-dunia-nyata-besaran-dan-satuan",
   description: "Menghubungkan besaran, satuan, pengukuran, ketelitian, dan konversi satuan dengan aktivitas serta teknologi di sekitar kita.",
   chapter: "📏 Pengukuran",
@@ -9,6 +9,10 @@ const konsepDiDuniaNyataBesaranDanSatuan = {
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         { 
           type: "paragraph", 
           text: [

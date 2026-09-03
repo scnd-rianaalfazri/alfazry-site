@@ -1,4 +1,6 @@
-const chapterClosingBesaranDanSatuan = {
+import img1 from "/src/assets/Materi/BesaranDanSatuan/penutup-chapter-pengukuran1.png"
+
+const penutupChapterBesaranDanSatuan = {
   title: "Chapter Closing — Besaran dan Satuan",
   slug: "chapter-closing-besaran-dan-satuan",
   description:
@@ -7,8 +9,11 @@ const chapterClosingBesaranDanSatuan = {
 
   content: [
     {
-      heading: "🎉 Selamat",
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         { type: "paragraph", text: "Kamu telah menyelesaikan perjalanan dari pertanyaan sederhana tentang 'seberapa besar?' hingga memahami bagaimana fisika membangun data pengukuran." },
         { type: "paragraph", text: "Yang awalnya terlihat seperti angka dan satuan ternyata menyimpan proses berpikir yang cukup panjang." }
       ]
@@ -74,4 +79,4 @@ const chapterClosingBesaranDanSatuan = {
   ]
 };
 
-export default chapterClosingBesaranDanSatuan;
+export default penutupChapterBesaranDanSatuan;

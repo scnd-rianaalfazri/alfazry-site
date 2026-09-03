@@ -110,8 +110,12 @@ const pengantarbesarandansatuan = {
       blocks: [
         { 
           type: "paragraph", 
-          text: "Pengukuran bukan hanya membaca angka pada alat ukur. Pengukuran juga mencakup pemilihan alat, satuan, teknik membaca, dan pemahaman terhadap keterbatasan hasil."
-        },
+          text: [
+            "Pengukuran bukan hanya membaca angka pada alat ukur. ❌",
+            "Tetapi ...",
+            "Pengukuran juga mencakup pemilihan alat, satuan, teknik membaca, dan pemahaman terhadap keterbatasan hasil. ✔️"
+          ]
+        }
       ]
     },
     {
@@ -120,7 +124,7 @@ const pengantarbesarandansatuan = {
         { 
           type: "paragraph", 
           text: "Pengukuran jarak Bumi–Bulan menggunakan laser dapat dilakukan dengan ketelitian yang sangat tinggi meskipun jaraknya sekitar 384.400 km."
-        },
+        }
       ]
     },
     {
@@ -129,7 +133,7 @@ const pengantarbesarandansatuan = {
         { 
           type: "paragraph", 
           text: "Pengukuran adalah cara fisika mengubah fenomena alam menjadi data yang dapat dinyatakan, dibandingkan, dan dianalisis."
-        },
+        }
       ]
     },
     {
