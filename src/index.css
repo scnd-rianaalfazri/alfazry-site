@@ -6,8 +6,8 @@
    ============================================================ */
 
 @theme {
-  --font-display: "Orbitron", "sans-serif";
-  --font-hud: "Rajdhani", "sans-serif";
+  --font-display: "Space Grotesk", "sans-serif";
+  --font-hud: "Inter", "sans-serif";
   --font-mono: "JetBrains Mono", monospace;
 
   --color-violet-glow: #b26bff;

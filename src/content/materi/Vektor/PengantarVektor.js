@@ -1,3 +1,6 @@
+import img1 from "/src/assets/Materi/Vektor/pengantar-vektor1.png"
+import img2 from "/src/assets/Materi/Vektor/pengantar-vektor2.png"
+
 const pengantarVektor = {
   title: "Pengantar Vektor",
   slug: "pengantar-vektor",
@@ -7,6 +10,10 @@ const pengantarVektor = {
   content: [
     { 
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         { 
           type: "paragraph", 
           text: [
@@ -38,6 +45,10 @@ const pengantarVektor = {
     },
     { heading: "👩‍🔬 Analisis Vektor", 
       blocks: [
+        {
+          type: "image",
+          src: img2
+        },
         { 
           type: "paragraph", 
           text: [

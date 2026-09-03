@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/Vektor/besaran-skalar-dan-vektor1.png"
+
 const besaranSkalarDanVektor = {
   title: "Besaran Skalar dan Vektor",
   slug: "besaran-skalar-dan-vektor",
@@ -7,6 +9,10 @@ const besaranSkalarDanVektor = {
   content: [
     { 
       blocks: [
+        { 
+          type: "image",
+          src: img1
+        },
         { 
           type: "paragraph", 
           text: [

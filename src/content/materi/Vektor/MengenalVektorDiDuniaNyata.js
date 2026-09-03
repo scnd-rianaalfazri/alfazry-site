@@ -1,3 +1,6 @@
+import img1 from"/src/assets/Materi/Vektor/mengenal-vektor-di-dunia-nyata1.png"
+import img2 from"/src/assets/Materi/Vektor/mengenal-vektor-di-dunia-nyata2.png"
+
 const mengenalVektorDiDuniaNyata = {
   title: "Mengenal Vektor di Dunia Nyata",
   slug: "mengenal-vektor-di-dunia nyata",
@@ -7,6 +10,10 @@ const mengenalVektorDiDuniaNyata = {
   content: [
     {  
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         { 
           type: "paragraph", 
           text: "Lihat drone, kapal, mobil, atau bahkan angin. Banyak hal di sekitar kita tidak cukup dijelaskan hanya dengan angka." 
@@ -32,7 +39,12 @@ const mengenalVektorDiDuniaNyata = {
     },
     { heading: "🧭 Sistem Navigasi", 
       blocks: [
-        { type: "paragraph", 
+        {
+          type: "image",
+          src: img2
+        },
+        { 
+          type: "paragraph", 
           text: "Zara memproyeksikan koordinat dan arah drone ke ruang holografik. Ia melihat bahwa satu gerak dapat direpresentasikan sebagai panah yang memiliki panjang dan orientasi." 
         }
       ]
