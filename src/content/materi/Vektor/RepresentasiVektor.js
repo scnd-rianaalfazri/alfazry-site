@@ -1,3 +1,6 @@
+import img1 from "/src/assets/Materi/Vektor/representasi-vektor1.png"
+import img2 from "/src/assets/Materi/Vektor/representasi-vektor2.png"
+
 const representasiVektor = {
   title: "Representasi Vektor",
   slug: "representasi-vektor",
@@ -6,7 +9,11 @@ const representasiVektor = {
 
   content: [
     { 
-      heading: "🎯 Hook", blocks: [
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         { 
           type: "paragraph", 
           text: "Kalau sebuah vektor tidak bisa kita lihat secara langsung, bagaimana cara membuatnya terlihat?" 
@@ -42,6 +49,10 @@ const representasiVektor = {
     { 
       heading: "🧭 Cara Memetakan Vektor", 
       blocks: [
+        {
+          type: "image",
+          src: img2
+        },
         { 
           type: "paragraph", 
           text: "Zara menggeser panah holografik tanpa mengubah panjang dan arahnya. Ia mulai melihat bahwa posisi gambar dapat berubah, tetapi karakter vektornya tetap." 

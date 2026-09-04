@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/Vektor/sistem-koordinat-dan-arah-vektor1.png"
+
 const sistemKoordinatDanArahVektor = {
   title: "Sistem Koordinat dan Arah Vektor",
   slug: "sistem koordinat dan arah vektor",
@@ -7,7 +9,12 @@ const sistemKoordinatDanArahVektor = {
   content: [
     { 
       blocks: [
-        { type: "paragraph", 
+        {
+          type: "image",
+          src: img1
+        },
+        { 
+          type: "paragraph", 
           text: "Zara harus memberi tahu sistem navigasi ke mana sebuah objek bergerak. Ia membutuhkan bahasa yang konsisten untuk menyatakan arah." 
         }
       ]

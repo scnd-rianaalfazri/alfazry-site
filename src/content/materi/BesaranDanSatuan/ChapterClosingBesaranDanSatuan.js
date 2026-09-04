@@ -1,10 +1,9 @@
 import img1 from "/src/assets/Materi/BesaranDanSatuan/penutup-chapter-pengukuran1.png"
 
 const penutupChapterBesaranDanSatuan = {
-  title: "Chapter Closing — Besaran dan Satuan",
-  slug: "chapter-closing-besaran-dan-satuan",
-  description:
-    "Menutup chapter Besaran dan Satuan melalui rangkuman perjalanan konsep, pola berpikir ilmiah, refleksi, dan pengantar chapter berikutnya.",
+  title: "Penutup Chapter: Besaran dan Satuan",
+  slug: "penutup-chapter-besaran-dan-satuan",
+  description: "Menutup chapter Besaran dan Satuan melalui rangkuman perjalanan konsep, pola berpikir ilmiah, refleksi, dan pengantar chapter berikutnya.",
   chapter: "📏 Pengukuran",
 
   content: [
@@ -14,12 +13,17 @@ const penutupChapterBesaranDanSatuan = {
           type: "image",
           src: img1
         },
-        { type: "paragraph", text: "Kamu telah menyelesaikan perjalanan dari pertanyaan sederhana tentang 'seberapa besar?' hingga memahami bagaimana fisika membangun data pengukuran." },
-        { type: "paragraph", text: "Yang awalnya terlihat seperti angka dan satuan ternyata menyimpan proses berpikir yang cukup panjang." }
+        { 
+          type: "paragraph", 
+          text: [
+            "Kamu telah menyelesaikan perjalanan dari pertanyaan sederhana tentang 'seberapa besar?' hingga memahami bagaimana fisika membangun data pengukuran.",
+            "Yang awalnya terlihat seperti angka dan satuan ternyata menyimpan proses berpikir yang cukup panjang."
+          ] 
+        }
       ]
     },
     {
-      heading: "📚 Apa yang Sudah Dipelajari?",
+      heading: "📚 Apa yang Dipelajari dari Chapter ini?",
       blocks: [
         { type: "paragraph", text: "📏 Besaran dan Satuan — memahami bahwa hasil pengukuran membutuhkan nilai dan satuan." },
         { type: "paragraph", text: "🌐 Sistem Internasional — mengenal standar satuan yang digunakan bersama." },

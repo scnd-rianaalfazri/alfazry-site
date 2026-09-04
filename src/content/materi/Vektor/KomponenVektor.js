@@ -1,3 +1,6 @@
+import img1 from "/src/assets/Materi/Vektor/komponen-vektor1.png"
+import img2 from "/src/assets/Materi/Vektor/komponen-vektor2.png"
+
 const komponenVektor = {
   title: "Komponen Vektor",
   slug: "komponen-vektor",
@@ -6,8 +9,11 @@ const komponenVektor = {
 
   content: [
     { 
-      heading: "🎯 Hook", 
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         { 
           type: "paragraph", 
           text: "Satu panah miring tampak rumit. Bagaimana kalau kita mengubahnya menjadi dua panah yang lebih sederhana?" 
@@ -45,7 +51,12 @@ const komponenVektor = {
     { 
       heading: "👩‍🔬 Zara Memecah Hologram", 
       blocks: [
-        { type: "paragraph", 
+        {
+          type: "image",
+          src: img2
+        },
+        { 
+          type: "paragraph", 
           text: "Zara menarik vektor diagonal menjadi dua panah tegak lurus. Panah diagonal tetap menjadi resultan dari kedua komponen tersebut." 
         }
       ]
@@ -53,7 +64,8 @@ const komponenVektor = {
     { 
       heading: "⚠️ Miskonsepsi", 
       blocks: [
-        { type: "paragraph", 
+        { 
+          type: "paragraph", 
           text: "Komponen bukan dua vektor baru yang tidak berhubungan. Keduanya adalah bagian dari representasi vektor yang sama pada sumbu yang dipilih." 
         }
       ]
@@ -61,14 +73,16 @@ const komponenVektor = {
     { 
       heading: "✨ Inti Materi", 
       blocks: [
-        { type: "paragraph", 
+        { 
+          type: "paragraph", 
           text: "Komponen vektor membantu mengubah masalah dua dimensi menjadi analisis pada arah yang lebih sederhana." 
         }
       ]
     },
     { 
       blocks: [
-        { type: "paragraph", 
+        { 
+          type: "paragraph", 
           text: "Kita sudah tahu apa itu Ax dan Ay. Sekarang bagaimana menghitung nilainya?" 
         }
       ]

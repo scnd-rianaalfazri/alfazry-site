@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/Vektor/besar-dan-arah-vektor1.png"
+
 const besarDanArahVektor = {
   title: "Besar dan Arah Vektor",
   slug: "besar-dan-arah-vektor",
@@ -6,6 +8,10 @@ const besarDanArahVektor = {
   content: [
     { 
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         { 
           type: "paragraph", 
           text: [
