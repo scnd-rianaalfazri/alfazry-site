@@ -1,13 +1,20 @@
+import img1 from "/src/assets/Materi/Vektor/menghitung-komponen-vektor1.png"
+
 const menghitungKomponenVektor = {
   title: "Menghitung Komponen Vektor",
-  slug: "menghitung komponen vektor",
+  slug: "menghitung-komponen-vektor",
   description: "Menggunakan trigonometri dasar untuk menentukan komponen horizontal dan vertikal sebuah vektor.",
   chapter: "➡️ Vektor",
 
   content: [
     { 
       blocks: [
-        { type: "paragraph", 
+        {
+          type: "image",
+          src: img1
+        },
+        { 
+          type: "paragraph", 
           text: "Sekarang vektor sudah kita pecah. Tinggal satu pertanyaan: berapa besar masing-masing bagiannya?" 
         }
       ]

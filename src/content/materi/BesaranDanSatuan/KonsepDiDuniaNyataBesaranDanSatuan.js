@@ -1,8 +1,8 @@
 import img1 from "/src/assets/Materi/BesaranDanSatuan/konsep-di-dunia-nyata-besaran-dan-satuan.png"
 
-const konsepDiDuniaNyataBesaranDanSatuan = {
-  title: "Konsep di Dunia Nyata: Besaran dan Satuan",
-  slug: "konsep-di-dunia-nyata-besaran-dan-satuan",
+const konsepBesaranDanSatuanDiDuniaNyata = {
+  title: "Konsep Besaran dan Satuan di Dunia Nyata",
+  slug: "konsep-besaran-dan-satuan-di-dunia-nyata",
   description: "Menghubungkan besaran, satuan, pengukuran, ketelitian, dan konversi satuan dengan aktivitas serta teknologi di sekitar kita.",
   chapter: "📏 Pengukuran",
 
@@ -179,4 +179,4 @@ const konsepDiDuniaNyataBesaranDanSatuan = {
   ]
 };
 
-export default konsepDiDuniaNyataBesaranDanSatuan;
+export default konsepBesaranDanSatuanDiDuniaNyata;

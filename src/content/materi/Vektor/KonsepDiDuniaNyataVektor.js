@@ -1,6 +1,6 @@
 const konsepDiDuniaNyataVektor = {
-  title: "Konsep di Dunia Nyata: Vektor",
-  slug: "konsep-di-dunia-nyata-vektor",
+  title: "Konsep Vektor di Dunia Nyata",
+  slug: "konsep-vektor-di-dunia-nyata",
   description: "Menghubungkan konsep vektor dengan navigasi, kendaraan, drone, angin, dan sistem teknologi.",
   chapter: "➡️ Vektor",
 

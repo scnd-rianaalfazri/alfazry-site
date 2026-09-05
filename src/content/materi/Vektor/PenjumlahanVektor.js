@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/Vektor/penjumlahan-vektor1.png"
+
 const penjumlahanVektor = {
   title: "Penjumlahan Vektor",
   slug: "penjumlahan-vektor",
@@ -7,6 +9,10 @@ const penjumlahanVektor = {
   content: [
     { 
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         { 
           type: "paragraph", 
           text: "Dua orang mendorong benda dari arah berbeda. Apakah hasilnya tinggal 10 + 20?" 

@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/Vektor/resultan-vektor-satu-dimnesi1.png"
+
 const resultanVektorSatuGaris = {
   title: "Resultan Vektor Satu Dimensi",
   slug: "resultan-vektor-satu-dimensi",
@@ -7,6 +9,10 @@ const resultanVektorSatuGaris = {
   content: [
     { 
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         { 
           type: "paragraph", 
           text: "Dua gaya bekerja pada satu benda: 40 N ke kanan dan 15 N ke kiri. Mana yang menang?" 

@@ -161,7 +161,6 @@ const tekananHidrostatis = {
     ]
   },
   { 
-    heading: "🚀 Next Mission", 
     blocks: [
       {
         type: "paragraph",

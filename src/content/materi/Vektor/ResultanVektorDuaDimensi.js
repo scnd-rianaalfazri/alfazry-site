@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/Vektor/resultan-vektor-dua-dimensi1.png"
+
 const resultanVektorDuaDimensi = {
   title: "Resultan Vektor Dua Dimensi",
   slug: "resultan-vektor-dua-dimensi",
@@ -7,6 +9,10 @@ const resultanVektorDuaDimensi = {
   content: [
     { 
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         { 
           type: "paragraph", 
           text: "Satu vektor bergerak ke timur, yang lain ke utara. Resultannya tidak bisa ditemukan hanya dengan 10 + 20."

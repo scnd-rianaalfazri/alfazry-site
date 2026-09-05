@@ -1,12 +1,18 @@
+import img1 from "/src/assets/Materi/Vektor/menetukan-arah-resultan1.png"
+
 const menentukanArahResultan = {
   title: "Menentukan Arah Resultan",
-  slug: "menentukan arah resultan",
+  slug: "menentukan-arah-resultan",
   description: "Menentukan orientasi resultan dari komponen-komponennya dengan mempertimbangkan sudut dan kuadran.",
   chapter: "➡️ Vektor",
 
   content: [
     { 
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         { 
           type: "paragraph", 
           text: "Kita sudah mendapatkan besar resultan. Tapi sistem navigasi masih bertanya: 'arahnya ke mana?'" 
