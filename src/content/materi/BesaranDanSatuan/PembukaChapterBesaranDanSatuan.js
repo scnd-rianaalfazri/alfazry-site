@@ -2,8 +2,8 @@ import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-besaran-dan-satuan.
 import img2 from "/src/assets/Materi/BesaranDanSatuan/pengantar-besaran1.png"
 import img3 from "/src/assets/Materi/BesaranDanSatuan/pengantar-besaran2.png"
 
-const pengantarbesarandansatuan = {
-  title: "Pengantar Besaran dan Satuan",
+const pembukaChapterBesaranDanSatuan = {
+  title: "Pembuka Chapter: Besaran dan Satuan",
   slug: "pengantar-besaran-dan-satuan",
   description: "Memahami pentingnya pengukuran sebagai dasar fisika untuk mengubah pengamatan menjadi data yang objektif.",
   chapter: "📏 Pengukuran",
@@ -154,4 +154,4 @@ const pengantarbesarandansatuan = {
   ]
 };
 
-export default pengantarbesarandansatuan;
+export default pembukaChapterBesaranDanSatuan;

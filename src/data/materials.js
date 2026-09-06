@@ -18,7 +18,7 @@ import EksplorasiFenomenaHakikatIlmuFisika from "../content/materi/HakikatIlmuFi
 import PenutupChapterHakikatIlmuFisika from "../content/materi/HakikatIlmuFisika/PenutupHakikatFisika.js"
 
 /* besaran dan satuan */
-import PengantarBesaranDanSatuan from "../content/materi/BesaranDanSatuan/PengantarBesaranDanSatuan.js"
+import PembukaChapterBesaranDanSatuan from "../content/materi/BesaranDanSatuan/PembukaChapterBesaranDanSatuan.js"
 import BesaranDanSatuan from "../content/materi/BesaranDanSatuan/BesaranDanSatuan.js"
 import SistemInternasional from "../content/materi/BesaranDanSatuan/SistemInternasional.js"
 import BesaranPokokDanTurunan from"../content/materi/BesaranDanSatuan/BesaranPokokDanTurunan.js"
@@ -30,10 +30,10 @@ import Ketidakpastian from "../content/materi/BesaranDanSatuan/Ketidakpastian.js
 import KonversiSatuan from "../content/materi/BesaranDanSatuan/KonversiSatuan.js"
 import KonsepBesaranDanSatuanDiDuniaNyata from "../content/materi/BesaranDanSatuan/KonsepDiDuniaNyataBesaranDanSatuan.js"
 import EksplorasiFenomenaBesaranDanSatuan from "../content/materi/BesaranDanSatuan/EksplorasiFenomenaBesaranDanSatuan.js"
-import PenutupChapterBesaranDanSatuan from "../content/materi/BesaranDanSatuan/ChapterClosingBesaranDanSatuan.js"
+import PenutupChapterBesaranDanSatuan from "../content/materi/BesaranDanSatuan/PenutupChapterBesaranDanSatuan.js"
 
 /* vektor */
-import PengantarVektor from "../content/materi/Vektor/PengantarVektor.js"
+import PembukaChapterVektor from "../content/materi/Vektor/PembukaChapterVektor.js"
 import BesaranSkalarDanVektor from "../content/materi/Vektor/BesaranSkalarDanVektor.js"
 import MengenalVektorDiDuniaNyata from "../content/materi/Vektor/MengenalVektorDiDuniaNyata.js"
 import RepresentasiVektor from "../content/materi/Vektor/RepresentasiVektor.js"
@@ -49,6 +49,7 @@ import VektorSatuanDanNotasiKompomen from "../content/materi/Vektor/VektorSatuan
 import PerkalianVektor from "../content/materi/Vektor/PerkalianVektor.js"
 import AplikasiVektorDalamFisika from "../content/materi/Vektor/AplikasiVektorDalamFisika.js"
 import KonsepVektorDiDuniaNyata from "../content/materi/Vektor/KonsepDiDuniaNyataVektor.js"
+import PenutupChapterVektor from "../content/materi/Vektor/PenutupChapterVektor.js"
 
 /* kinematika gerak satu dimensi */ 
 import PengantarGerak from "../content/materi/KinematikaGerakSatuDimensi/PengantarGerak.js"
@@ -513,7 +514,7 @@ import besaranGerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi/B
 /* EKSPORT CONTENT */
 export const materials = [
 
-  /* Chapter : Naikat Ilmu Fisika */
+  /* Chapter : Hakikat Ilmu Fisika */
   MengapaBelajarFisika,
   ApaItuFisika,
   HakikatIlmuFisika,
@@ -531,7 +532,7 @@ export const materials = [
   PenutupChapterHakikatIlmuFisika,
 
   /* Chapter : Besaran dan Satuan */
-  PengantarBesaranDanSatuan,
+  PembukaChapterBesaranDanSatuan,
   BesaranDanSatuan,
   SistemInternasional,
   BesaranPokokDanTurunan,
@@ -546,7 +547,7 @@ export const materials = [
   PenutupChapterBesaranDanSatuan,
 
   /* Chapter : Vektor */
-  PengantarVektor,
+  PembukaChapterVektor,
   BesaranSkalarDanVektor,
   MengenalVektorDiDuniaNyata,
   RepresentasiVektor,
@@ -562,6 +563,7 @@ export const materials = [
   PerkalianVektor,
   AplikasiVektorDalamFisika,
   KonsepVektorDiDuniaNyata,
+  PenutupChapterVektor,
 
   /* Chapter : Kinematika Gerak Satu Dimensi */
   PengantarGerak,

@@ -257,7 +257,7 @@ const pengertianGerakParabola = {
     },
 
     {
-      heading: "✨ Inti Materi *(Takeaway Message)*",
+      heading: "✨ Inti Materi",
       blocks: [
         {
           type: "paragraph",

@@ -1,5 +1,3 @@
-import { text } from "framer-motion/client";
-
 const besaranGerakMelingkar = {
   title: "Besaran-Besaran Gerak Melingkar",
   slug: "besaran-besaran-gerak-melingkar",

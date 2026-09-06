@@ -1,9 +1,10 @@
 import img1 from "/src/assets/Materi/Vektor/pengantar-vektor1.png"
 import img2 from "/src/assets/Materi/Vektor/pengantar-vektor2.png"
+import img3 from "/src/assets/Materi/Vektor/portal-besaran-skalar-dan-vektor.png"
 
-const pengantarVektor = {
-  title: "Pengantar Vektor",
-  slug: "pengantar-vektor",
+const pembukaChapterVektor = {
+  title: "Pembuka Chapter: Vektor",
+  slug: "pembuka-chapter-vektor",
   description: "Memulai perjalanan memahami bagaimana fisika menggambarkan besaran yang memiliki besar dan arah.",
   chapter: "➡️ Vektor",
 
@@ -81,11 +82,17 @@ const pengantarVektor = {
       blocks: [
         { 
           type: "paragraph", 
-          text: "Sekarang kita bedah lebih jelas: besaran mana yang hanya membutuhkan nilai, dan mana yang membutuhkan arah?" 
+          text: "Sekarang kita bedah lebih jelas! Besaran mana yang hanya membutuhkan nilai, dan mana yang membutuhkan arah?" 
+        },
+        {
+          type: "image",
+          src: img3,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/besaran-skalar-dan-vektor"
         }
       ]
     }
   ]
 };
 
-export default pengantarVektor;
+export default pembukaChapterVektor;

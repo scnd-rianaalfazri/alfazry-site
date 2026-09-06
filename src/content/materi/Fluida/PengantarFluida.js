@@ -90,6 +90,72 @@ const pengantarFluida = {
       }
     ]
   },
+  { heading:
+
+    "🛣️ Aliran Fluida", blocks: [{ type: "heading", text: "🛣️ Aliran Fluida" },
+    {
+      type: "paragraph",
+      text: "Aliran fluida adalah perpindahan fluida dari satu tempat ke tempat lain akibat adanya perbedaan tekanan atau perbedaan energi."
+    }]
+
+  },
+  { heading:
+
+    "➡️ Garis Arus (Streamline)", blocks: [{ type: "heading", text: "➡️ Garis Arus (Streamline)" },
+    {
+      type: "paragraph",
+      text: "Garis arus adalah lintasan yang diikuti oleh partikel-partikel fluida ketika mengalir."
+    },
+    {
+      type: "paragraph",
+      text: "Pada setiap titik, arah garis arus selalu sama dengan arah kecepatan fluida."
+    }]
+
+  },
+  { heading:
+
+    "🌊 Aliran Laminar", blocks: [{ type: "heading", text: "🌊 Aliran Laminar" },
+    {
+      type: "paragraph",
+      text: "Aliran laminar merupakan aliran yang teratur."
+    },
+    {
+      type: "paragraph",
+      text: "Partikel-partikel fluida bergerak mengikuti lintasan yang sejajar dan tidak saling bercampur."
+    }]
+
+  },
+  { heading:
+
+    "🌪️ Aliran Turbulen", blocks: [{ type: "heading", text: "🌪️ Aliran Turbulen" },
+    {
+      type: "paragraph",
+      text: "Aliran turbulen merupakan aliran yang tidak teratur."
+    },
+    {
+      type: "paragraph",
+      text: "Fluida bergerak membentuk pusaran-pusaran kecil sehingga lintasan partikel menjadi acak."
+    }]
+
+  },
+  { heading:
+
+    "🚰 Contoh Aliran Laminar", blocks: [{ type: "heading", text: "🚰 Contoh Aliran Laminar" },
+    {
+      type: "paragraph",
+      text: "Air yang mengalir perlahan di dalam pipa kecil biasanya membentuk aliran laminar."
+    }]
+
+  },
+  { heading:
+
+    "🌊 Contoh Aliran Turbulen", blocks: [{ type: "heading", text: "🌊 Contoh Aliran Turbulen" },
+    {
+      type: "paragraph",
+      text: "Arus sungai yang deras, air terjun, dan asap yang mengepul umumnya menunjukkan aliran turbulen."
+    }]
+
+  },
   { heading: "🌎 Fluida dalam Kehidupan Sehari-Hari", 
     blocks: [
       {

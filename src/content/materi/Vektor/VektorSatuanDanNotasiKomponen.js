@@ -1,12 +1,18 @@
+import img1 from "/src/assets/Materi/Vektor/vektor-satuan-dan-notasi-komponen1.png"
+
 const vektorSatuanDanNotasiKomponen = {
   title: "Vektor Satuan dan Notasi Komponen",
-  slug: "vektor-satuan-dan-notasi komponen",
+  slug: "vektor-satuan-dan-notasi-komponen",
   description: "Mengenal notasi komponen dan vektor satuan sebagai bahasa ringkas untuk menyatakan vektor.",
 
   chapter: "➡️ Vektor",
   content: [
     { 
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         { 
           type: "paragraph", 
           text: "Gambar panah bagus untuk melihat vektor. Tapi bagaimana jika kita ingin menuliskannya dengan ringkas?" 

@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/Vektor/perkalian-vektor1.png"
+
 const perkalianVektor = {
   title: "Perkalian Vektor",
   slug: "perkalian vektor",
@@ -7,6 +9,10 @@ const perkalianVektor = {
   content: [
     { 
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         { 
           type: "paragraph", 
           text: "Vektor bisa dijumlahkan. Tapi bagaimana jika sebuah vektor harus diperbesar, diproyeksikan, atau menghasilkan arah baru?" 

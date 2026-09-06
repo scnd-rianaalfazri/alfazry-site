@@ -2,9 +2,9 @@ import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-dimensi.png"
 import img2 from "/src/assets/Materi/BesaranDanSatuan/besaran-pokok-dan-turunan1.png"
 
 const besaranpokokdanturunan = {
-  title: 'Besaran Pokok dan Turunan',
-  slug: 'besaran-pokok-dan-turunan',
-  description: 'Memahami perbedaan besaran pokok dan besaran turunan serta hubungan antarbesaran.',
+  title: "Besaran Pokok dan Turunan",
+  slug: "besaran-pokok-dan-turunan",
+  description: "Memahami perbedaan besaran pokok dan besaran turunan serta hubungan antarbesaran.",
   chapter: "📏 Pengukuran",
 
   content: [

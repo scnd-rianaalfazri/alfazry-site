@@ -1,5 +1,7 @@
-const penutupVektor = {
-  title: "Penutup Chapter Vektor",
+import img1 from "/src/assets/Materi/Vektor/penutup-chapter-vektor1.png"
+
+const penutupChapterVektor = {
+  title: "Penutup Chapter: Vektor",
   slug: "penutup-chapter-vektor",
   description: "Menutup perjalanan Vektor dengan refleksi konsep dan jembatan menuju Kinematika.",
   chapter: "➡️ Vektor",
@@ -7,6 +9,10 @@ const penutupVektor = {
   content: [
     { 
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         { 
           type: "paragraph", 
           text: "Kamu baru saja menyelesaikan perjalanan dari pertanyaan sederhana tentang arah hingga analisis vektor dua dimensi." 
@@ -70,4 +76,4 @@ const penutupVektor = {
     }
   ]
 };
-export default chapterClosingVektor;
+export default penutupChapterVektor;

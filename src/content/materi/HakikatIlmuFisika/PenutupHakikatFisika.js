@@ -2,7 +2,7 @@ import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-pengantar-besaran-d
 import img2 from "/src/assets/Materi/HakikatIlmuFisika/penutup-chapter-hakikat-ilmu-fisika1.png"
 
 const penutupHakikatIlmuFisika = {
-  title: "Penutup Chapter - Hakikat Ilmu Fisika",
+  title: "Penutup Chapter: Hakikat Ilmu Fisika",
   slug: "penutup-hakikat-fisika",
   description: "Merefleksikan perjalanan mempelajari hakikat ilmu fisika dan metode ilmiah sebagai fondasi dalam memahami alam semesta.",
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",

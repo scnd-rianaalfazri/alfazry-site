@@ -3,9 +3,9 @@ import img2 from "/src/assets/Materi/BesaranDanSatuan/besaran-dan-satuan2.png"
 import img3 from "/src/assets/Materi/BesaranDanSatuan/besaran-dan-satuan2.png"
 
 const besaranDanSatuan = {
-  title: 'Besaran dan Satuan',
-  slug: 'besaran-dan-satuan',
-  description: 'Memahami bagaimana hasil pengamatan dinyatakan melalui besaran, nilai, dan satuan.',
+  title: "Besaran dan Satuan",
+  slug: "besaran-dan-satuan",
+  description: "Memahami bagaimana hasil pengamatan dinyatakan melalui besaran, nilai, dan satuan.",
   chapter: "📏 Pengukuran",
 
   content: [
