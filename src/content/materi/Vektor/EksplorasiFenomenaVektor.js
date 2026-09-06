@@ -1,12 +1,11 @@
 const eksplorasiFenomenaVektor = {
-  title: "Eksplorasi Fenomena: Vector Hunt",
+  title: "Eksplorasi Fenomena: Vektor",
   slug: "eksplorasi-fenomena-vektor",
   description: "Mengamati fenomena sekitar dan melatih cara mengubah pengamatan menjadi model vektor sederhana.",
   chapter: "➡️ Vektor",
 
   content: [
-    { 
-      heading: "🎯 Hook", 
+    {  
       blocks: [
         { 
           type: "paragraph", 

@@ -1,7 +1,7 @@
 import img1 from "/src/assets/Materi/HakikatIlmuFisika/portal-penutup-chapter-hakikat-ilmu-fisika.png"
 
 const eksplorasiFenomena = {
-  title: "Eksplorasi Fenomena",
+  title: "Eksplorasi Fenomena: Hakikat Ilmu Fisika",
   slug: "eksplorasi-fenomena-hakikat-ilmu-fisika",
   description: "Mengamati fenomena sederhana di sekitar dan melatih cara berpikir ilmiah melalui pertanyaan, bukti, analisis, dan refleksi.",
   chapter: "🔬 Hakikat Ilmu Fisika & Metode Ilmiah",

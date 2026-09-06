@@ -1,7 +1,8 @@
 import img1 from "/src/assets/Materi/BesaranDanSatuan/eksplorasi-fenomena-besaran-dan-satuan.png"
+import img2 from "/src/assets/Materi/BesaranDanSatuan/portal-penutup-chapter-besaran-dan-satuan.png"
 
 const eksplorasiFenomenaBesaranDanSatuan = {
-  title: "Eksplorasi Fenomena - Besaran dan Satuan",
+  title: "Eksplorasi Fenomena: Besaran dan Satuan",
   slug: "eksplorasi-fenomena-besaran-dan-satuan",
   description: "Mengamati berbagai aktivitas pengukuran di sekitar dan menganalisis bagaimana besaran, satuan, alat, dan ketelitian digunakan.",
   chapter: "📏 Pengukuran",
@@ -277,6 +278,12 @@ const eksplorasiFenomenaBesaranDanSatuan = {
             "Kamu sudah mengamati pengukuran secara langsung." ,
             "Sekarang waktunya melihat kembali perjalananmu dari angka sederhana hingga cara ilmuwan membangun data yang dapat dipercaya."
           ]
+        },
+        {
+          type: "image",
+          src: img2,
+          link: "/materi/penutup-chapter-besaran-dan-satuan",
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
         }
       ]
     }

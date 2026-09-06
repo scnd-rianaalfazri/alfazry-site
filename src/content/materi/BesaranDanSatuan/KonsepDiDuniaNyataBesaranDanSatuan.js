@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/BesaranDanSatuan/konsep-di-dunia-nyata-besaran-dan-satuan.png"
+import img2 from "/src/assets/Materi/BesaranDanSatuan/portal-konsep-di-dunia-nyata-besaran-dan-satuan.png"
 
 const konsepBesaranDanSatuanDiDuniaNyata = {
   title: "Konsep Besaran dan Satuan di Dunia Nyata",
@@ -173,6 +174,12 @@ const konsepBesaranDanSatuanDiDuniaNyata = {
             "Sekarang jangan hanya membaca tentang pengukuran.",
             "Coba amati satu fenomena pengukuran yang benar-benar terjadi di sekitarmu."
           ] 
+        },
+        {
+          type: "image",
+          src: img2,
+          link: "/materi/eksplorasi-fenomena-besaran-dan-satuan",
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
         }
       ]
     }

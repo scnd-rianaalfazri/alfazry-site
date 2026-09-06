@@ -2,7 +2,7 @@ import img1 from "/src/assets/Materi/Vektor/sistem-koordinat-dan-arah-vektor1.pn
 
 const sistemKoordinatDanArahVektor = {
   title: "Sistem Koordinat dan Arah Vektor",
-  slug: "sistem koordinat dan arah vektor",
+  slug: "sistem-koordinat-dan-arah-vektor",
   description: "Menggunakan koordinat Cartesius untuk menentukan posisi, arah, dan kuadran vektor.",
   chapter: "➡️ Vektor",
 

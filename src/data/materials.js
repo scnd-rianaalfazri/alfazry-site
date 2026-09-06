@@ -35,7 +35,6 @@ import PenutupChapterBesaranDanSatuan from "../content/materi/BesaranDanSatuan/P
 /* vektor */
 import PembukaChapterVektor from "../content/materi/Vektor/PembukaChapterVektor.js"
 import BesaranSkalarDanVektor from "../content/materi/Vektor/BesaranSkalarDanVektor.js"
-import MengenalVektorDiDuniaNyata from "../content/materi/Vektor/MengenalVektorDiDuniaNyata.js"
 import RepresentasiVektor from "../content/materi/Vektor/RepresentasiVektor.js"
 import BesarDanArahVektor from "../content/materi/Vektor/BesarDanArahVektor.js"
 import SistemKoodinatDanArahVektor from "../content/materi/Vektor/SistemKoordinatDanArahVektor.js"
@@ -48,7 +47,7 @@ import MenentukanArahResultan from "../content/materi/Vektor/MenentukanArahResul
 import VektorSatuanDanNotasiKompomen from "../content/materi/Vektor/VektorSatuanDanNotasiKomponen.js"
 import PerkalianVektor from "../content/materi/Vektor/PerkalianVektor.js"
 import AplikasiVektorDalamFisika from "../content/materi/Vektor/AplikasiVektorDalamFisika.js"
-import KonsepVektorDiDuniaNyata from "../content/materi/Vektor/KonsepDiDuniaNyataVektor.js"
+import EksplorasiFenomenaVektor from "../content/materi/Vektor/EksplorasiFenomenaVektor.js"
 import PenutupChapterVektor from "../content/materi/Vektor/PenutupChapterVektor.js"
 
 /* kinematika gerak satu dimensi */ 
@@ -549,7 +548,6 @@ export const materials = [
   /* Chapter : Vektor */
   PembukaChapterVektor,
   BesaranSkalarDanVektor,
-  MengenalVektorDiDuniaNyata,
   RepresentasiVektor,
   BesarDanArahVektor,
   SistemKoodinatDanArahVektor,
@@ -562,7 +560,7 @@ export const materials = [
   VektorSatuanDanNotasiKompomen,
   PerkalianVektor,
   AplikasiVektorDalamFisika,
-  KonsepVektorDiDuniaNyata,
+  EksplorasiFenomenaVektor,
   PenutupChapterVektor,
 
   /* Chapter : Kinematika Gerak Satu Dimensi */

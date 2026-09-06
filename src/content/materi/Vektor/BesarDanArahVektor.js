@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/Vektor/besar-dan-arah-vektor1.png"
+import img2 from "/src/assets/Materi/Vektor/portal-sistem-koordinat-dan-arah-vektor.png"
 
 const besarDanArahVektor = {
   title: "Besar dan Arah Vektor",
@@ -71,8 +72,15 @@ const besarDanArahVektor = {
     },
     { 
       blocks: [
-        { type: "paragraph", 
+        { 
+          type: "paragraph", 
           text: "Untuk membaca arah dengan konsisten, kita membutuhkan sistem koordinat." 
+        },
+        {
+          type: "image",
+          src: img2,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/sistem-koordinat-dan-arah-vektor"
         }
       ]
     }

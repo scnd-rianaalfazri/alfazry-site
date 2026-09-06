@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/Vektor/besaran-skalar-dan-vektor1.png"
+import img2 from "/src/assets/Materi/Vektor/portal-representasi-vektor.png"
 
 const besaranSkalarDanVektor = {
   title: "Besaran Skalar dan Vektor",
@@ -90,9 +91,15 @@ const besaranSkalarDanVektor = {
     },
     { 
       blocks: [
+        {
+          type: "image",
+          src: img2,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/representasi-vektor"
+        },
         { 
           type: "paragraph", 
-          text: "Sekarang cari tahu: di mana saja vektor sebenarnya bekerja di dunia nyata?" 
+          text: "Kalau vektor punya arah dan besar, bagaimana cara menggambarkannya?" 
         }
       ]
     }

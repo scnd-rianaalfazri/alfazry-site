@@ -1,6 +1,6 @@
-import { useState } from "react"
+import { useState, useRef } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { ChevronDown } from "lucide-react"
+import { ChevronDown, ChevronsUpDown } from "lucide-react"
 import MaterialCard from "../components/layout/MaterialCards"
 import { materials } from "../data/materials"
 import Navbar from "../components/layout/Navbar"
@@ -22,10 +22,12 @@ export default function Materi() {
 
   const chapters = Object.entries(grouped)
 
-  // Chapter pertama otomatis terbuka, sisanya tertutup
-  // biar halaman tidak langsung penuh saat pertama dibuka.
+  // Semua bab otomatis terbuka begitu halaman dimuat, supaya
+  // daftar topik langsung terlihat tanpa perlu diklik satu-satu.
+  // Pengguna tetap bisa menutup bab tertentu secara manual
+  // lewat toggleChapter kalau mau meringkas tampilan.
   const [openChapters, setOpenChapters] = useState(() =>
-    new Set(chapters.length ? [chapters[0][0]] : [])
+    new Set(chapters.map(([chapter]) => chapter))
   )
 
   const toggleChapter = (chapter) => {
@@ -42,12 +44,27 @@ export default function Materi() {
     })
   }
 
-  const openAll = () => {
-    setOpenChapters(new Set(chapters.map(([chapter]) => chapter)))
-  }
+  // Ref tiap bab (untuk scroll-to saat dipilih dari Daftar Isi)
+  const chapterRefs = useRef({})
 
-  const closeAll = () => {
-    setOpenChapters(new Set())
+  // Daftar Isi hanya menampilkan beberapa bab dulu supaya tidak
+  // menumpuk panjang di atas halaman. Sisanya bisa dibuka lewat
+  // tombol "Tampilkan Semua Materi".
+  const TOC_LIMIT = 6
+  const [showAllToc, setShowAllToc] = useState(false)
+
+  // Klik dari Daftar Isi: buka bab yang dituju lalu scroll ke sana.
+  const goToChapter = (chapter) => {
+    setOpenChapters((prev) => new Set(prev).add(chapter))
+
+    requestAnimationFrame(() => {
+      setTimeout(() => {
+        chapterRefs.current[chapter]?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        })
+      }, 50)
+    })
   }
 
   return (
@@ -65,58 +82,73 @@ export default function Materi() {
           MATERI FISIKA
         </h1>
 
-        <div
-          className="
-            flex flex-col sm:flex-row
-            sm:items-center sm:justify-between
-            gap-3
-            mb-10
-          "
-        >
-          <p className="text-white/50 text-sm md:text-base">
-            Klik salah satu bab untuk membuka daftar topiknya.
-          </p>
+        <p className="text-white/50 text-sm md:text-base mb-8">
+          Klik salah satu bab untuk membuka atau menutup daftar topiknya.
+        </p>
 
-          <div className="flex gap-2">
-            <button
-              type="button"
-              onClick={openAll}
-              className="
-                px-4 py-2
-                rounded-xl
-                text-xs md:text-sm
-                font-medium
-                font-mono
-                bg-violet-500/10
-                text-violet-300
-                border border-violet-400/30
-                hover:bg-violet-500/20
-                transition-colors
-              "
-            >
-              Buka Semua
-            </button>
+        {/* Daftar Isi: navigasi cepat antar bab.
+            Klik salah satu akan membuka & scroll ke bab tersebut. */}
+        {chapters.length > 0 && (
+          <div className="mb-8">
+            <p className="font-mono text-[11px] uppercase tracking-wider text-violet-300/60 mb-2">
+              Daftar Isi
+            </p>
 
-            <button
-              type="button"
-              onClick={closeAll}
-              className="
-                px-4 py-2
-                rounded-xl
-                text-xs md:text-sm
-                font-medium
-                font-mono
-                bg-white/5
-                text-white/60
-                border border-white/10
-                hover:bg-white/10
-                transition-colors
-              "
-            >
-              Tutup Semua
-            </button>
+            <div className="flex flex-wrap gap-2">
+              {(showAllToc ? chapters : chapters.slice(0, TOC_LIMIT)).map(
+                ([chapter]) => (
+                  <button
+                    key={chapter}
+                    type="button"
+                    onClick={() => goToChapter(chapter)}
+                    className="
+                      px-3.5 py-1.5
+                      rounded-full
+                      text-xs md:text-sm
+                      font-mono
+                      bg-white/5
+                      text-white/70
+                      border border-white/10
+                      hover:border-violet-400/40
+                      hover:text-violet-200
+                      hover:bg-violet-500/10
+                      transition-colors
+                    "
+                  >
+                    {chapter}
+                  </button>
+                )
+              )}
+
+              {chapters.length > TOC_LIMIT && (
+                <button
+                  type="button"
+                  onClick={() => setShowAllToc((prev) => !prev)}
+                  className="
+                    inline-flex items-center gap-1.5
+                    px-4 py-1.5
+                    rounded-full
+                    text-xs md:text-sm
+                    font-mono font-semibold
+                    text-white
+                    bg-gradient-to-r from-violet-500 to-fuchsia-500
+                    shadow-[0_0_16px_rgba(168,85,247,0.45)]
+                    hover:shadow-[0_0_22px_rgba(168,85,247,0.65)]
+                    hover:brightness-110
+                    transition-all
+                  "
+                >
+                  <ChevronsUpDown size={14} />
+                  {showAllToc
+                    ? "Sembunyikan"
+                    : `Tampilkan Semua Materi (+${
+                        chapters.length - TOC_LIMIT
+                      })`}
+                </button>
+              )}
+            </div>
           </div>
-        </div>
+        )}
 
         <div className="space-y-4">
 
@@ -126,6 +158,9 @@ export default function Materi() {
             return (
               <div
                 key={chapter}
+                ref={(el) => {
+                  chapterRefs.current[chapter] = el
+                }}
                 className="
                   hud-frame
                   rounded-2xl
@@ -135,6 +170,7 @@ export default function Materi() {
                   overflow-hidden
                   transition-colors
                   hover:border-violet-400/30
+                  scroll-mt-24
                 "
               >
                 {/* Card Chapter (Header) */}

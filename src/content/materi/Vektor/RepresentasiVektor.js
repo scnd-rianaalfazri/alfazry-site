@@ -1,5 +1,6 @@
 import img1 from "/src/assets/Materi/Vektor/representasi-vektor1.png"
 import img2 from "/src/assets/Materi/Vektor/representasi-vektor2.png"
+import img3 from "/src/assets/Materi/Vektor/portal-besar-dan-arah-vektor.png"
 
 const representasiVektor = {
   title: "Representasi Vektor",
@@ -82,7 +83,14 @@ const representasiVektor = {
         }
       ]
     },
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img3,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/besar-dan-arah-vektor"
+        },
         { 
           type: "paragraph", 
           text: "Sebelum menghitung, kita perlu bisa membaca dua informasi utama: besar dan arah." 
