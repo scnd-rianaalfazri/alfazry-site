@@ -1,12 +1,11 @@
-const penutupGerakSatuDimensi = {
-  title: "Penutup Chapter",
-  slug: "penutup-gerak-satu-dimensi",
+const penutupChapterGerakSatuDimensi = {
+  title: "Penutup Chapter: Gerak Satu Dimensi",
+  slug: "penutup-chapter-gerak-satu-dimensi",
   description: "Menyimpulkan seluruh konsep Gerak Satu Dimensi dan mempersiapkan diri untuk memasuki bab Kinematika Gerak Dua Dimensi.",
   chapter: "↔️↕️ Kinematika: Gerak Satu Dimensi",
 
   content: [
     {
-      heading: "🏁 Mission Complete",
       blocks: [
         {
           type: "paragraph",
@@ -59,7 +58,25 @@ const penutupGerakSatuDimensi = {
         }
       ]
     },
-
+    {
+      heading: "💭 Refleksi",
+      blocks: [
+        {
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+             {
+               text: "Konsep apa yang paling mengubah cara kamu melihat gerak?"
+             },
+             {
+               text: "Fenomena apa di sekitarmu yang sekarang ingin kamu analisis dengan konsep kinematika?"
+             }
+            ]
+          }
+        }
+      ]
+    },
     {
       heading: "🧠 Inti Chapter",
       blocks: [
@@ -74,27 +91,25 @@ const penutupGerakSatuDimensi = {
     },
 
     {
-      heading: "🌍 Dari Satu Dimensi ke Dua Dimensi",
+      heading: "🔭 Sekilas Chapter Berikutnya",
       blocks: [
         {
           type: "paragraph",
           text: [
-            "Di dunia nyata, banyak benda tidak hanya bergerak lurus.",
-            "Bola sepak melengkung saat ditendang, bola basket membentuk lintasan melengkung menuju ring, dan kembang api melesat ke langit sebelum jatuh kembali.",
+            "Selama ini kita menyederhanakan gerak menjadi satu garis: maju-mundur atau naik-turun.",
+            "Namun, banyak benda tidak hanya bergerak lurus. Misalnya, ola sepak melengkung saat ditendang, bola basket membentuk lintasan melengkung menuju ring, dan kembang api melesat ke langit sebelum jatuh kembali.",
             "Gerakan-gerakan tersebut terjadi pada dua arah sekaligus: horizontal dan vertikal."
           ]
         }
       ]
     },
     {
-      heading: "🚀 Next Mission",
       blocks: [
         {
           type: "paragraph",
           text: [
-            "Misi berikutnya akan membawa kita ke level yang lebih menantang.",
+            "Chapter berikutnya akan membawa kita ke level yang lebih menantang.",
             "Kita akan mempelajari bagaimana dua gerak yang berbeda dapat terjadi secara bersamaan hingga membentuk lintasan yang melengkung.",
-            "➡️ Next, kita menuju portal: Kinematika Gerak Dua Dimensi."
           ]
         }
       ]
@@ -102,4 +117,4 @@ const penutupGerakSatuDimensi = {
   ]
 };
 
-export default penutupGerakSatuDimensi;
+export default penutupChapterGerakSatuDimensi;

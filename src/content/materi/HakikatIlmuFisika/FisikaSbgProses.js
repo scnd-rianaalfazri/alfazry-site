@@ -26,7 +26,8 @@ const fisikaSebagaiProses = {
       }
     ]
   },
-  { heading: "🧪 Apa yang Dimaksud Fisika sebagai Proses?", 
+  { 
+    heading: "🧪 Apa yang Dimaksud Fisika sebagai Proses?", 
     blocks: [
       {
         type: "paragraph",
@@ -37,7 +38,8 @@ const fisikaSebagaiProses = {
       }
     ]
   },
-  { heading: "🔄 Bagaimana Pengetahuan Fisika Dibangun?",
+  { 
+    heading: "🔄 Bagaimana Pengetahuan Fisika Dibangun?",
     blocks: [
       { type: "carousel",
         carousel: {
@@ -104,7 +106,8 @@ const fisikaSebagaiProses = {
       }
     ]
   },
-  { heading: "🔍 Mengapa Harus Berdasarkan Bukti?", 
+  { 
+    heading: "🔍 Mengapa Harus Berdasarkan Bukti?", 
     blocks: [
       {
         type: "image",
@@ -120,8 +123,8 @@ const fisikaSebagaiProses = {
       }
     ]
   },
-  { heading: 
-    "🔁 Proses yang Terus Berulang", 
+  { 
+    heading: "🔁 Proses yang Terus Berulang", 
     blocks: [
       {
         type: "image",
@@ -137,8 +140,8 @@ const fisikaSebagaiProses = {
       }
     ]
   },
-  { heading: "🌍 Contoh dalam Kehidupan", 
-    caption: "Penelitian di lab futuristik", 
+  { 
+    heading: "🌍 Contoh dalam Kehidupan", 
     blocks: [
       {
         type: "paragraph",
@@ -151,8 +154,8 @@ const fisikaSebagaiProses = {
       }
     ]
   },
-  { heading: "💡 Tahukah Kamu?", 
-    caption: "Penemuan besar dimuali dari pengamatan.", 
+  { 
+    heading: "✨ Inti Materi", 
     blocks: [
       {
         type: "paragraph",
@@ -163,7 +166,8 @@ const fisikaSebagaiProses = {
       }
     ]
   },
-  { heading: "⚠️ Miskonsepsi", 
+  { 
+    heading: "⚠️ Miskonsepsi", 
     blocks: [
       {
         type: "paragraph",
@@ -177,7 +181,8 @@ const fisikaSebagaiProses = {
       }
     ]
   },
-  { heading: "✨ Inti Materi", 
+  { 
+    heading: "✨ Inti Materi", 
     blocks: [
       {
         type: "paragraph",
@@ -284,7 +289,6 @@ const fisikaSebagaiProses = {
     ]
   },
   {
-    link: "/materi/fisika-sebagai-sikap",
     blocks: [
       {
         type: "paragraph",

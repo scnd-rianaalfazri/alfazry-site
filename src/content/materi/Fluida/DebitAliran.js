@@ -1,40 +1,30 @@
 const debitaliran = {
   title: "Debit Aliran",
   slug: "debit aliran",
-  description:
-  "Memahami konsep debit aliran, hubungan antara volume fluida dan waktu, serta penerapannya dalam kehidupan sehari-hari.",
+  description: "Memahami konsep debit aliran, hubungan antara volume fluida dan waktu, serta penerapannya dalam kehidupan sehari-hari.",
   chapter: "💧 Fluida",
 
   content: [
-  { heading:
-
-
-
-    "🚰 Mengapa Keran yang Dibuka Lebih Besar Mengisi Ember Lebih Cepat?", blocks: [{ type: "heading", text: "🚰 Mengapa Keran yang Dibuka Lebih Besar Mengisi Ember Lebih Cepat?"
+    {  
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Ketika keran dibuka sedikit, ember membutuhkan waktu yang lebih lama untuk penuh. Namun, ketika keran dibuka lebih besar, air mengalir lebih banyak setiap detik sehingga ember lebih cepat terisi.",
+            "Banyaknya fluida yang mengalir setiap satuan waktu disebut debit aliran."
+          ]
+        }
+      ]
     },
-    {
-      type: "paragraph",
-      text: "Ketika keran dibuka sedikit, ember membutuhkan waktu yang lebih lama untuk penuh."
+    { heading:
+
+      "📍 Apa Itu Debit Aliran?", blocks: [{ type: "heading", text: "📍 Apa Itu Debit Aliran?" },
+      {
+        type: "paragraph",
+        text: "Debit aliran adalah banyaknya volume fluida yang mengalir melalui suatu penampang setiap satuan waktu."
+      }]
+
     },
-    {
-      type: "paragraph",
-      text: "Namun ketika keran dibuka lebih besar, air mengalir lebih banyak setiap detik sehingga ember lebih cepat terisi."
-    },
-    {
-      type: "paragraph",
-      text: "Banyaknya fluida yang mengalir setiap satuan waktu disebut debit aliran."
-    }]
-
-  },
-  { heading:
-
-    "📍 Apa Itu Debit Aliran?", blocks: [{ type: "heading", text: "📍 Apa Itu Debit Aliran?" },
-    {
-      type: "paragraph",
-      text: "Debit aliran adalah banyaknya volume fluida yang mengalir melalui suatu penampang setiap satuan waktu."
-    }]
-
-  },
   { heading:
 
     "💡 Makna Debit", blocks: [{ type: "heading", text: "💡 Makna Debit" },

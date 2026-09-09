@@ -6,14 +6,13 @@ const gerakLurusBerubahBeraturan = {
 
   content: [
     {
-      heading: "🏎️ Mengapa Mobil Semakin Cepat?",
       blocks: [
         {
           type: "paragraph",
           text: [
             "Saat pedal gas diinjak, mobil tidak langsung meluncur dengan kecepatan maksimum. Kecepatannya bertambah sedikit demi sedikit secara konsisten hingga melaju kencang.",
             "Hal serupa terjadi saat pengemudi menginjak pedal rem. Kecepatan mobil berkurang perlahan hingga akhirnya benar-benar berhenti.",
-            "Gerak dengan perubahan kecepatan yang teratur dan konsisten inilah yang dinamakan Gerak Lurus Berubah Beraturan (GLBB)."
+            "Nah, Gerak dengan perubahan kecepatan yang teratur dan konsisten inilah yang dinamakan **GERAK LURUS BERUBAH BERATURAN (GLBB).**"
           ]
         }
       ]
@@ -23,10 +22,7 @@ const gerakLurusBerubahBeraturan = {
       blocks: [
         {
           type: "paragraph",
-          text: [
-            "Bagaimana cara memprediksi jarak tempuh benda jika kecepatannya terus berubah setiap detik?",
-            "Kuncinya ada pada nilai percepatan yang KONSTAN (TETAP). Karena perubahan kecepatannya teratur, kita dapat menghitung posisi dan waktunya secara presisi!"
-          ]
+          text: "Bagaimana kita memprediksi posisi dan kecepatan benda ketika kecepatannya terus berubah secara teratur?"
         }
       ]
     },
@@ -115,7 +111,24 @@ const gerakLurusBerubahBeraturan = {
       ]
     },
     {
-      heading: "📐 Persamaan Utama GLBB",
+      heading: "👀 Visualisasi Konsep",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Sebuah mobil mulai bergerak dari keadaan diam.",
+            "Setiap detik kecepatannya bertambah $2 m/s$.",
+            "Detik ke-1 → $2 m/s$",
+            "detik ke-2 → $4 m/s$",
+            "detik ke-3 → $6 m/s$",
+            "dan seterusnya.",
+            "Itu artinya, perubahan kecepatannya selalu sama setiap detik, mobil mengalami **GLBB (Gerak Lurus Berubah Beraturan).**"
+          ]
+        }
+      ]
+    },
+    {
+      heading: "📐 Rumus Gerak Lurus Berubah Beraturan (GLBB)",
       blocks: [
         {
           type: "paragraph",
@@ -175,23 +188,6 @@ const gerakLurusBerubahBeraturan = {
       ]
     },
     {
-      heading: "🎯 Visualisasi Konsep",
-      blocks: [
-        {
-          type: "paragraph",
-          text: [
-            "Sebuah mobil mulai bergerak dari keadaan diam.",
-            "Setiap detik kecepatannya bertambah $2 m/s$.",
-            "Detik ke-1 → $2 m/s$",
-            "detik ke-2 → $4 m/s$",
-            "detik ke-3 → $6 m/s$",
-            "dan seterusnya.",
-            "Itu artinya, perubahan kecepatannya selalu sama setiap detik, mobil mengalami **GLBB (Gerak Lurus Berubah Beraturan).**"
-          ]
-        }
-      ]
-    },
-    {
       heading: "📈 Analisis Grafik GLBB",
       blocks: [
         {
@@ -226,11 +222,12 @@ const gerakLurusBerubahBeraturan = {
       ]
     },
     {
-      heading: "🧮 Contoh Soal & Pembahasan",
+      heading: "✍️ Contoh Soal & Pembahasan",
       blocks: [
         {
           type: "paragraph",
           text: [
+            "**SOAL:**",
             "📌 **Kasus Pengereman Mobil**",
             "Sebuah mobil melaju dengan kecepatan awal $20\\text{ m/s}$. Tiba-tiba pengemudi melihat halangan di depan dan menginjak rem, sehingga mobil mengalami perlambatan konstan sebesar $4\\text{ m/s}^2$ hingga berhenti.",
             "Hitunglah:"
@@ -253,8 +250,8 @@ const gerakLurusBerubahBeraturan = {
         {
           type: "paragraph",
           text: [
-            "💡 **Penyelesaian:**",
-            "Diketahui:"
+            "**JAWAB:**",
+            "**Diketahui:**"
           ]
         },
         {
@@ -275,25 +272,51 @@ const gerakLurusBerubahBeraturan = {
           }
         },
         {
+          type: "paragraph",
+          text: [
+            "**Ditanyakan:**",
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "Waktu berhenti $(t)$"
+              },
+              {
+                text: "Jarak pengereman $(s)$"  
+              }
+            ]
+          }
+        },
+        {
+          type: "paragraph",
+          text: "**Penyelesaian:**"
+        },
+        {
           type: "list",
           list: {
             type: "ordered",
             items: [
               {
                 text: "Menghitung waktu berhenti $(t)$",
-                description: [
-                  "$v_t = v_0 + a \\cdot t$",
-                  "$0 = 20 + (-4) \\cdot t$",
-                  "$4t = 20 \\implies t = 5\\text{ detik}$"
+                equation: [
+                  "v_t = v_0 + at",
+                  "0 = 20 + (-4t)",
+                  "4t = 20",
+                  "t = 5\\text{ detik}"
                 ]
               },
               {
                 text: "Menghitung jarak pengereman $(s)$",
-                description: [
-                  "$v_t^2 = v_0^2 + 2 \\cdot a \\cdot s$",
-                  "$0^2 = 20^2 + 2 \\cdot (-4) \\cdot s$",
-                  "$0 = 400 - 8s$",
-                  "$8s = 400 \\implies s = 50\\text{ meter}$"
+                equation: [
+                  "v_t^2 = v_0^2 + 2as",
+                  "0^2 = 20^2 + 2 \\cdot -4s",
+                  "0 = 400 - 8s",
+                  "8s = 400",
+                  "s = 50\\text{ meter}"
                 ]
               }
             ]
@@ -302,13 +325,23 @@ const gerakLurusBerubahBeraturan = {
         {
           type: "paragraph",
           text: [
+            "**Kesimpulan:**",
             "Jadi, mobil memerlukan waktu **5 detik** dan jarak sejauh **50 meter** untuk berhenti secara aman."
           ]
         }
       ]
     },
     {
-      heading: "⚠️ Miskonsepsi Populer",
+      heading: "🧠 Strategi Penyelesaian",
+      blocks: [
+        {
+          type: "paragraph", 
+          text: "Amati → Tentukan arah positif → Identifikasi variabel yang diketahui → Tentukan variabel yang dicari → Pilih persamaan → Periksa satuan dan tanda → Simpulkan secara fisik."
+        },
+      ]
+    },
+    {
+      heading: "⚠️ Miskonsepsi",
       blocks: [
         {
           type: "paragraph",
@@ -321,7 +354,7 @@ const gerakLurusBerubahBeraturan = {
       ]
     },
     {
-      heading: "🌟 Fun Fact",
+      heading: "🌟 *Fun Fact*",
       blocks: [
         {
           type: "paragraph",
@@ -332,7 +365,7 @@ const gerakLurusBerubahBeraturan = {
       ]
     },
     {
-      heading: "✨  Inti Materi *(Takeaway Message)*",
+      heading: "✨ Inti Materi",
       blocks: [
         {
           type: "list",
@@ -448,14 +481,10 @@ const gerakLurusBerubahBeraturan = {
       ]
     },
     {
-      heading: "🚀 Next Mission",
       blocks: [
         {
           type: "paragraph",
-          text: [
-            "Tahukah kamu bahwa benda yang jatuh secara bebas tanpa didorong juga merupakan contoh GLBB akibat pengaruh gravitasi Bumi?",
-            "➡️ *Next*, kita menuju portal: **[Gerak Jatuh Bebas (GJB)](/materi/gerak-jatuh-bebas).**"
-          ]
+          text: "Tahukah kamu bahwa benda yang jatuh secara bebas tanpa didorong juga merupakan contoh GLBB akibat pengaruh gravitasi Bumi?",
         }
       ]
     }

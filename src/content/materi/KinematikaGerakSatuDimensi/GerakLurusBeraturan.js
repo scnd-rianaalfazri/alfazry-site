@@ -6,19 +6,27 @@ const gerakLurusBeraturan = {
 
   content: [
     {
-      heading: "🚗 Gerak dengan Kecepatan Tetap",
       blocks: [
         {
           type: "paragraph",
           text: [
             "Tidak semua benda yang bergerak mengalami perubahan kecepatan (akselerasi/pengereman).",
             "Bayangkan kamu naik mobil di jalan tol lurus yang sepi dengan mengaktifkan fitur *cruise control* pada $80\\text{ km/jam}$. Jarum speedometer akan terus berada di angka yang sama!",
-            "Dalam fisika, gerak lintasan lurus dengan kecepatan yang konstan ini disebut **Gerak Lurus Beraturan (GLB)**."
+            "Dalam fisika, gerak lintasan lurus dengan kecepatan yang konstan ini disebut **GERAK LURUS BERATURAN (GLB)**.",
+            "**Cruise Control* = salah-satu fitur pada mobil untuk menjaga kecepatan kendaraan tetap stabil secara otomatis tanpa harus menginjak pedal gas"
           ]
         },
       ]
     },
-
+    {
+      heading: "❓ Pertanyaan Besar",
+      blocks: [
+        {
+          type: "paragraph", 
+          text: "Apa yang terjadi pada posisi benda ketika kecepatan tidak berubah?"
+        },
+      ]
+    },
     {
       heading: "📍 Apa Itu GLB?",
       blocks: [
@@ -64,7 +72,7 @@ const gerakLurusBeraturan = {
       ]
     },
     {
-      heading: "📐 Formulasi Matematika (Rumus GLB)",
+      heading: "📐 Rumus Gerak Lurus Beraturan (GLB)",
       blocks: [
         {
           type: "paragraph",
@@ -161,7 +169,14 @@ const gerakLurusBeraturan = {
           type: "paragraph",
           text: [
             "**Jawab:**",
-            "$s = v \\times t = 20\\text{ m/s} \\times 10\\text{ s} = 200\\text{ meter}$",     
+            "$s = vt$",
+            "$s= 20 \\cdot 10$",
+            "$s = 200\\text{ meter}$"
+          ]
+        },
+        {
+          type: "paragraph",
+          text: [   
             "**Kesimpulan:**",
             "Dalam waktu $10\\text{ detik}$, kereta telah menempuh jarak sejauh $200\\text{ meter}$."
           ] 
@@ -169,21 +184,7 @@ const gerakLurusBeraturan = {
       ]
     },
     {
-      heading: "⚠️ Miskonsepsi Populer",
-      blocks: [
-        {
-          type: "paragraph",
-          text: [
-            "*'Benda yang kecepatannya besar pasti memiliki percepatan yang besar juga.'*❌",
-            "Gak, gitu!",
-            "Faktanya, pada GLB mau seberapa pun besarnya kecepatan suatu benda (misalnya $1.000\\text{ km/jam}$), jika nilainya tetap konstan, maka percepatannya adalah **NOL** ($a = 0$). ✔️"
-          ]
-        }
-      ]
-    },
-
-    {
-      heading: "🌟 Contoh Nyata GLB di Dunia Nyata",
+      heading: "🌟 Contoh GLB di Dunia Nyata",
       blocks: [
         {
           type: "list",
@@ -205,7 +206,20 @@ const gerakLurusBeraturan = {
       ]
     },
     {
-      heading: "✨ Inti Materi *(Takeaway Message)*",
+      heading: "⚠️ Miskonsepsi",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "*'Benda yang kecepatannya besar pasti memiliki percepatan yang besar juga.'*❌",
+            "Gak, gitu!",
+            "Faktanya, pada GLB mau seberapa pun besarnya kecepatan suatu benda (misalnya $1.000\\text{ km/jam}$), jika nilainya tetap konstan, maka percepatannya adalah **NOL** ($a = 0$). ✔️"
+          ]
+        }
+      ]
+    },
+    {
+      heading: "✨ Inti Materi",
       blocks: [
         {
           type: "list",
@@ -321,13 +335,11 @@ const gerakLurusBeraturan = {
       ]
     },
     {
-      heading: "🚀 Next Mission",
       blocks: [
         {
           type: "paragraph",
           text: [
-            "Bagaimana jika suatu benda bergerak lurus tetapi kecepatannya berubah secara teratur karena ada percepatan tetap?",
-            "➡️ *Next*, menuju portal: **[Gerak Lurus Berubah Beraturan (GLBB).](/materi/gerak-lurus-berubah-beraturan)**"
+            "Bagaimana jika suatu benda bergerak lurus tetapi kecepatannya berubah secara teratur karena ada percepatan tetap?"
           ]
         }
       ]

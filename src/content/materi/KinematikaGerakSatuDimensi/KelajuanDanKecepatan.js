@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/GerakSatuDimensi/kelajuan-dan-kecepatan1.png"
+
 const kelajuanDanKecepatan = {
   title: "Kelajuan dan Kecepatan",
   slug: "kelajuan-dan-kecepatan",
@@ -6,14 +8,18 @@ const kelajuanDanKecepatan = {
 
   content: [
     {
-      heading: "🏎️ Apakah Cepat Selalu Berarti Sama?",
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [
-            "Dalam kehidupan sehari-hari kita sering mendengar celetukan, 'Wah, mobil itu melaju sangat cepat!'",
-            "Namun di dunia Fisika, kata 'cepat' itu punya dua makna yang beda banget: Kelajuan dan Kecepatan.",
-            "Sekilas terdengar mirip, tapi cara hitung dan konsep dasarnya bertolak belakang!"
+            "Dalam kehidupan sehari-hari kita sering mendengar celetukan, 'Wah, mobilnya bergerak sangat cepat!'",
+            "Namun di dunia Fisika, kata 'cepat' itu punya dua makna yang beda, bisa jadi itu kelajuan atau kecepatan.",
+            "Loh, apa bedanya?",
+            "Sekilas terdengar mirip, tapi cara hitung dan konsep dasarnya bertolak belakang! *Lets spill the tea*"
           ]
         }
       ]
@@ -24,8 +30,7 @@ const kelajuanDanKecepatan = {
         {
           type: "paragraph",
           text: [
-            "Mengapa dua kendaraan bisa bergerak dengan kelajuan yang sama, tetapi kecepatannya berbeda?",
-            "Jawabannya simpel: bergantung pada apakah kita memperhatikan arah geraknya atau tidak!"
+            "Bagaimana fisika menghubungkan perubahan posisi dengan waktu?"
           ]
         }
       ]
@@ -36,8 +41,9 @@ const kelajuanDanKecepatan = {
         {
           type: "paragraph",
           text: [
-            "Kelajuan adalah besarnya jarak total yang ditempuh benda dalam setiap satuan waktu.",
-            "Kelajuan **TIDAK** peduli benda itu mau belok ke kanan, kiri, atau muter-muter. Karena cuma punya nilai (besar) tanpa arah, kelajuan termasuk besaran skalar."
+            "Kelajuan menyatakan seberapa banyak jarak yang ditempuh setiap satuan waktu.",
+            "Kelajuan **TIDAK** peduli benda itu mau belok ke kanan, kiri, atau muter-muter. Karena cuma punya nilai (besar) tanpa arah, kelajuan termasuk besaran skalar.",
+            "Kelajuan nilainya selalu positif. Contohnya: laju mobil 60 km/jam"
           ]
         }
       ]
@@ -48,14 +54,14 @@ const kelajuanDanKecepatan = {
         {
           type: "paragraph",
           text: [
-            "Kecepatan adalah perubahan perpindahan posisi benda dalam setiap satuan waktu.",
+            "Kecepatan menyatakan perubahan posisi atau perpindahan setiap satuan waktu.",
             "Selain punya nilai, kecepatan wajib punya arah gerak (misal: 60 km/jam ke utara). Karena punya besar DAN arah, kecepatan termasuk besaran vektor."
           ]
         }
       ]
     },
     {
-      heading: "📐 Rumus & Formulasi Matematika",
+      heading: "📐 Rumus Kelajuan dan Kecepatan",
       blocks: [
         {
           type: "paragraph",
@@ -120,73 +126,26 @@ const kelajuanDanKecepatan = {
       heading: "⚔️ Kelajuan vs Kecepatan: Apa Bedanya?",
       blocks: [
         {
-          type: "list",
-          list: {
-            type: "ordered",
-            items: [
-              {
-                text: "**Jenis Besaran:**",
-                children: {
-                  type: "unordered",
-                  items: [
-                    {
-                      text: "Kelajuan = Skalar"
-                    },
-                    {
-                      text: "Kecepatan = Vektor"
-                    }
-                  ]
-                }
-              },
-              {
-                text: "**Acuan Dasar:**",
-                children: {
-                  type: "unordered",
-                  items: [
-                    {
-                      text: "Kelajuan berbasis Jarak"
-                    },
-                    {
-                      text: "Kecepatan berbasis Perpindahan"
-                    }
-                  ]
-                }
-              },
-              {
-                text: "**Pengaruh Arah:**",
-                children: {
-                  type: "unordered",
-                  items: [
-                    {
-                      text: "Kelajuan tidak butuh arah"
-                    },
-                    {
-                      text: "Kecepatan sangat butuh arah"
-                    }
-                  ]
-                }
-              },
-              {
-                text: "**Nilai:**",
-                children: {
-                  type: "unordered",
-                  items: [
-                    {
-                      text: "Kelajuan selalu positif ($\\ge 0$)"
-                    },
-                    {
-                      text: "Kecepatan bisa bernilai negatif (menunjukkan arah)"
-                    }
-                  ]
-                }
-              }
+          type: "table",
+          table: {
+            headers: ["**Jenis Besaran:**", "**Acuan Dasar:**", "**Pengaruh Arah:**", "**Nilai:**", "**Contoh**"],
+            rows: [
+                ["**Kelajuan = Skalar**", "Kelajuan berbasis Jarak", "Kelajuan tidak butuh arah", "Kelajuan selalu positif ($\\ge 0$)", "Laju mobil 60 km/jam."],
+                ["Kecepatan = Vektor**", "Kecepatan berbasis Perpindahan", "Kecepatan sangat butuh arah", "Kecepatan bisa bernilai negatif (menunjukkan arah)", "Kecepatan mobil 60 km/jam ke arah timur"]
             ]
           }
         }
       ]
     },
     {
-      heading: "🎯 Visualisasi Konsep & Studi Kasus",
+      heading: "👀 Visualisasi Konsep",
+      blocks: [
+        {"type": "paragraph", "text": "Jarak → dibagi waktu → Kelajuan."},
+        {"type": "paragraph", "text": "Perpindahan → dibagi waktu → Kecepatan."},
+      ]
+    },
+    {
+      heading: "🧠 Studi Kasus",
       blocks: [
         {
           type: "paragraph",
@@ -214,7 +173,6 @@ const kelajuanDanKecepatan = {
         }
       ]
     },
-
     {
       heading: "✍️ Contoh Soal & Pembahasan",
       blocks: [
@@ -272,7 +230,15 @@ const kelajuanDanKecepatan = {
         }
       ]
     },
-
+    {
+      heading: " Analisis Konsep",
+      blocks: [
+        {
+            type: "callout",
+            variant: "warning", 
+            text: "Identifikasi apakah informasi yang diberikan berupa jarak atau perpindahan. Tentukan waktu. Baru pilih konsep yang sesuai."},
+      ]
+    },
     {
       heading: "🌎 Contoh dalam Kehidupan",
       blocks: [
@@ -300,19 +266,19 @@ const kelajuanDanKecepatan = {
       ]
     },
     {
-      heading: "⚠️ Miskonsepsi Populer",
+      heading: "⚠️ Miskonsepsi",
       blocks: [
         {
           type: "paragraph",
           text: [
-            "*'Kelajuan dan Kecepatan itu sama aja kok, cuma beda bahasa Inggrisnya (Speed & Velocity).'* ❌",
+            "*'Kelajuan dan Kecepatan itu sama aja kok, cuma beda bahasa Inggrisnya (*Speed & Velocity*).'* ❌",
             "Faktanya, dalam bahasa sehari-hari mungkin dianggap mirip. Tapi dalam Fisika, salah membedakan besaran skalar dan vektor ini bisa bikin perhitungan navigasi roket/pesawat nyasar jauh! ✔️"
           ]
         }
       ]
     },
     {
-      heading: "🌟 Fun Fact",
+      heading: "🌟 *Fun Fact*",
       blocks: [
         {
           type: "paragraph",
@@ -324,7 +290,7 @@ const kelajuanDanKecepatan = {
       ]
     },
     {
-      heading: "🧠 Inti Materi (Takeaway Message)",
+      heading: "✨ Inti Materi",
       blocks: [
         {
           type: "list",
@@ -439,13 +405,13 @@ const kelajuanDanKecepatan = {
       ]
     },
     {
-      heading: "🚀 Next Mission",
       blocks: [
         {
           type: "paragraph",
           text: [
-            "Bagaimana jika kelajuan atau kecepatan suatu benda tidak konstan alias berubah-ubah seiring waktu? Bikin makin cepat atau makin lambat?",
-            "➡️ *Next*, kita menuju portal: [**Percepatan (Acceleration)**](/materi/percepatan)."
+            "Kita sudah memahami bagaimana jarak dan perpindahan berhubungan dengan waktu untuk menggambarkan kelajuan dan kecepatan rata-rata.",
+            "Tapi perjalanan sebuah benda tidak selalu berlangsung dengan gerak yang sama dari awal hingga akhir.",
+            "Jadi, bagaimana kita mengetahui seberapa cepat benda bergerak pada satu momen tertentu?"
           ] 
         }
       ]

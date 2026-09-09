@@ -1,20 +1,18 @@
 const gerakJatuhBebas = {
-  title: "Gerak Jatuh Bebas",
+  title: "Gerak Jatuh Bebas (GJB)",
   slug: "gerak-jatuh-bebas",
   description: "Memahami Gerak Jatuh Bebas sebagai salah satu bentuk Gerak Lurus Berubah Beraturan yang dipengaruhi oleh gravitasi Bumi.",
   chapter: "↔️↕️ Kinematika: Gerak Satu Dimensi",
 
   content: [
     {
-      heading: "🍎 Mengapa Semua Benda Jatuh ke Bawah?",
       blocks: [
-
         {
           type: "paragraph",
           text: [
             "Pernahkah kamu menjatuhkan sebuah apel, buku, atau bola? Semua benda tersebut selalu bergerak menuju permukaan Bumi.",
-            "Mengapa benda tidak melayang ke atas atau bergerak ke samping?",
-            "Jawabannya adalah karena adanya gaya gravitasi yang selalu menarik benda menuju pusat Bumi."
+            "Lalu, mengapa benda tidak melayang ke atas atau bergerak ke samping? Jawabannya adalah karena adanya gaya gravitasi yang selalu menarik benda menuju pusat Bumi.",
+            "Nah, konsep ini dinamakan *GERAK JATUH BEBAS (GJB)**"
           ]
         }
       ]
@@ -69,7 +67,39 @@ const gerakJatuhBebas = {
       ]
     },
     {
-      heading: "📐 Persamaan Gerak Jatuh Bebas",
+      heading: "👀 Visualisasi Konsep",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "Bayangkan sebuah bola dijatuhkan dari atas gedung."
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "Detik ke-0: Bola baru dilepas, $v = 0 m/s$."
+              },
+              {
+                text: "Detik ke-1: Kecepatan bola bertambah menjadi $9,8 m/s$."
+              },
+              {
+                text: "Detik ke-2: Kecepatan bola bertambah lagi menjadi $19,6 m/s$."
+              }
+            ]
+          }
+        },
+        {
+          type: "paragraph",
+          text: [
+            "Semakin lama jatuh, kecepatan bola terus bertambah secara konstan akibat percepatan gravitasi."
+          ]
+        }
+      ]
+    },
+    {
+      heading: "📐 Gerak Jatuh Bebas (GJB)",
       blocks: [
         {
           type: "paragraph",
@@ -123,38 +153,6 @@ const gerakJatuhBebas = {
       ]
     },
     {
-      heading: "🎯 Visualisasi Konsep",
-      blocks: [
-        {
-          type: "paragraph",
-          text: "Bayangkan sebuah bola dijatuhkan dari atas gedung."
-        },
-        {
-          type: "list",
-          list: {
-            type: "unordered",
-            items: [
-              {
-                text: "Detik ke-0: Bola baru dilepas, $v = 0 m/s$."
-              },
-              {
-                text: "Detik ke-1: Kecepatan bola bertambah menjadi $9,8 m/s$."
-              },
-              {
-                text: "Detik ke-2: Kecepatan bola bertambah lagi menjadi $19,6 m/s$."
-              }
-            ]
-          }
-        },
-        {
-          type: "paragraph",
-          text: [
-            "Semakin lama jatuh, kecepatan bola terus bertambah secara konstan akibat percepatan gravitasi."
-          ]
-        }
-      ]
-    },
-    {
       heading: "📊 Grafik Gerak",
       blocks: [
         {
@@ -180,13 +178,14 @@ const gerakJatuhBebas = {
       ]
     },
     {
-      heading: "🧮 Contoh Soal & Pembahasan",
+      heading: "✍️ Contoh Soal & Pembahasan",
       blocks: [
         {
           type: "paragraph",
           text: [
+            "**SOAL:**",
             "Sebuah kelapa jatuh bebas dari pohonnya yang berketinggian 20 meter. Jika percepatan gravitasi bumi $g = 10\\text{ m/s}^2$, hitunglah waktu yang dibutuhkan kelapa untuk sampai di tanah dan kecepatannya sesaat sebelum menyentuh tanah!",
-            "**💡 Penyelesaian:**",
+            "**JAWABAN:**",
             "Diketahui:"
           ]
         },
@@ -208,19 +207,49 @@ const gerakJatuhBebas = {
           }
         },
         {
+          type: "paragraph",
+          text: "**Diketahui:**"
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "Waktu jatuh $(t)$"
+              },
+              {
+                text: "Kecepatan saat menyentuh tanah ($v$)"
+              }
+            ]
+          }
+        },
+        {
+          type: "paragraph",
+          text: "**Penyelesaian:**",
+        },
+        {
           type: "list",
           list: {
             type: "ordered",
             items: [
               {
                 text: "Mencari waktu jatuh $(t)$",
-                description: [
-                  "$h = \\frac{1}{2}gt^2 \\implies 20 = \\frac{1}{2}(10)t^2 \\implies 20 = 5t^2 \\implies t^2 = 4 \\implies t = 2\\text{ detik}$"
+                equation: [
+                  "h = \\frac{1}{2}gt^2",
+                  "20 = \\frac{1}{2}(10)t^2",
+                  "20 = 5t^2",
+                  "t^2 = 4",
+                  "t = 2\\text{ detik}"
                 ]
               },
               {
-                text: "2. Mencari kecepatan saat menyentuh tanah ($v$)",
-                description: "$v = gt = 10 \\times 2 = 20\\text{ m/s}$"
+                text: "Mencari kecepatan saat menyentuh tanah ($v$)",
+                equation: [
+                  "v = gt",
+                  "v = 10 \\: . \\: 2",
+                  "v = 20\\text{ m/s}"
+                ]
               }
             ]
           }
@@ -228,8 +257,18 @@ const gerakJatuhBebas = {
         {
           type: "paragraph",
           text: [
+            "**Kesimpulan:**",
             "Jadi, kelapa menyentuh tanah dalam waktu **2 detik** dengan kecepatan **20 m/s**."
           ]
+        }
+      ]
+    },
+    {
+      heading: "🧠 Analisis Konsep",
+      blocks: [
+        {
+          type: "paragraph", 
+          text: "Tentukan sistem koordinat terlebih dahulu. Konsistenlah menggunakan tanda arah pada kecepatan, perpindahan, dan percepatan."
         }
       ]
     },
@@ -268,13 +307,14 @@ const gerakJatuhBebas = {
       ]
     },
     {
-      heading: "⚠️ Miskonsepsi Umum",
+      heading: "⚠️ Miskonsepsi",
       blocks: [
         {
           type: "paragraph",
           text: [
             "*Benda yang lebih berat jatuh lebih cepat daripada benda yang lebih ringan.* ❌",
-            "Namun faktanya, massa ($m$) tidak ada di dalam rumus Gerak Jatuh Bebas! Jika hambatan udara ditiadakan (misalnya di ruang hampa), sebuah bola besi dan sebuah bulu ayam akan jatuh dengan kecepatan dan waktu yang persis sama. ✔️"
+            "Dalam konsep GJB sebenarnya gak gitu",
+            "Faktanya, massa ($m$) tidak ada di dalam rumus Gerak Jatuh Bebas! Jika hambatan udara ditiadakan (misalnya di ruang hampa), sebuah bola besi dan sebuah bulu ayam akan jatuh dengan kecepatan dan waktu yang persis sama. ✔️"
           ]
         }
       ]
@@ -292,7 +332,7 @@ const gerakJatuhBebas = {
     },
 
     {
-      heading: "✨ Inti Materi *(Takeaway Message)*",
+      heading: "✨ Inti Materi",
       blocks: [
         {
           type: "list",
@@ -412,10 +452,7 @@ const gerakJatuhBebas = {
       blocks: [
         {
           type: "paragraph",
-          text: [
-            "Bagaimana jika sebuah benda justru kita lemparkan ke atas terlebih dahulu dengan kecepatan awal tertentu?",
-            "➡️ Next, menuju portal: [**Gerak Vertikal ke Atas (GVA).**](/materi/gerak-vertikal-atas)"
-          ]
+          text: "Bagaimana jika sebuah benda justru kita lemparkan ke atas terlebih dahulu dengan kecepatan awal tertentu?",
         }
       ]
     }

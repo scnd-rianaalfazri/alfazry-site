@@ -1,4 +1,3 @@
-import { text } from "framer-motion/client";
 
 const percepatan = {
   title: "Percepatan",
@@ -8,14 +7,13 @@ const percepatan = {
 
   content: [
     {
-      heading: "🏎️ Mengapa Kendaraan Bisa Semakin Cepat?",
       blocks: [
         {
           type: "paragraph",
           text: [
             "Ketika lampu lalu lintas berubah dari merah ke hijau, pengemudi menginjak pedal gas dan mobil perlahan melaju semakin cepat.",
             "Sebaliknya, saat mendekati persimpangan atau lampu merah, rem diinjak dan kendaraan akan melambat hingga akhirnya berhenti total.",
-            "Perubahan kecepatan seiring berjalannya waktu inilah yang di dalam fisika kita sebut sebagai Percepatan (Acceleration)."
+            "Nah, perubahan kecepatan seiring berjalannya waktu inilah yang di dalam fisika kita sebut sebagai **PERCEPATAN** (*Acceleration*)."
           ]
         },
       ]
@@ -27,7 +25,6 @@ const percepatan = {
           type: "paragraph",
           text: [
             "Apakah percepatan selalu berarti gerak benda makin cepat?",
-            "Jawabannya: TIDAK! Dalam fisika, pengereman (membuat benda lambat) atau perpindahan arah gerak juga termasuk bagian dari percepatan."
           ]
         }
       ]
@@ -44,7 +41,38 @@ const percepatan = {
         }
       ]
     },
-
+    {
+      heading: "👀 Visualisasi Konsep",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "Berikut ini adalah tabel perubahan kecepatan pada mobil dalam setiap detiknya"
+        },
+        {
+          type: "table",
+          table: {
+            headers: ["Waktu (detik ke ...)", "Kecepatan"],
+            rows: [
+              ["0 s", "0 m/s"],
+              ["1 s", "5 m/s"],
+              ["2 s", "10 m/s"],
+              ["3 s", "15 m/s"],
+              ["4 s", "20 m/s"],
+              ["5 s", "25 m/s"]
+            ]
+          }
+        },
+        { 
+          type: "paragraph", 
+          text: [
+            "Berapakah nilai percepatan $(a)$ dari tabel tersebut",
+            "Yap!",
+            "Percepatannya adalah $\\text{5 m/s}^2$. Artinya, kecepatan bertambah 5 m/s setiap detik.",
+            "Pola perubahan inilah yang menunjukkan percepatan.",
+          ]
+        }
+      ]
+    },
     {
       heading: "📐 Rumus & Formulasi Matematika",
       blocks: [
@@ -162,13 +190,14 @@ const percepatan = {
     },
 
     {
-      heading: "⚠️ Miskonsepsi Populer",
+      heading: "⚠️ Miskonsepsi",
       blocks: [
         {
           type: "paragraph",
           text: [
-            "*'Benda yang kecepatannya tinggi pasti percepatannya juga tinggi.'* ❌",
-            "**Faktanya:** Tidak selalu! Pesawat jet yang terbang lurus dengan kecepatan konstan $900\\text{ km/jam}$ memiliki percepatan **NOL** ($a = 0$) karena kecepatannya tidak berubah. ✔️",
+            "Benda yang kecepatannya tinggi pasti percepatannya juga tinggi. ❌",
+            "Tidak selalu!",
+            "Faktanya, Pesawat jet yang terbang lurus dengan kecepatan konstan $900\\text{ km/jam}$ memiliki percepatan **NOL** ($a = 0$) karena kecepatannya tidak berubah. ✔️",
             "Percepatan hanya terjadi jika ada **perubahan** kecepatan!"
           ]
         }
@@ -186,7 +215,7 @@ const percepatan = {
       ]
     },
     {
-      heading: "✨ Inti Materi (*Takeaway Message*)",
+      heading: "✨ Inti Materi",
       blocks: [
         {
           type: "list",
@@ -302,14 +331,10 @@ const percepatan = {
       ]
     },
     {
-      heading: "🚀 Next Mission",
       blocks: [
         {
           type: "paragraph",
-          text: [
-            "Bagaimana jika sebuah benda bergerak lurus dengan kecepatan yang selalu tetap tanpa ada percepatan sama sekali?",
-            "➡️ *Next*, menuju portal: **[Gerak Lurus Beraturan (GLB).](/materi/gerak-lurus-beraturan)**"
-          ]
+          text: "Bagaimana jika sebuah benda bergerak lurus dengan kecepatan yang selalu tetap tanpa ada percepatan sama sekali?",
         }
       ]
     }

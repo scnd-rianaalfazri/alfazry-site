@@ -51,16 +51,21 @@ import EksplorasiFenomenaVektor from "../content/materi/Vektor/EksplorasiFenomen
 import PenutupChapterVektor from "../content/materi/Vektor/PenutupChapterVektor.js"
 
 /* kinematika gerak satu dimensi */ 
-import PengantarGerak from "../content/materi/KinematikaGerakSatuDimensi/PengantarGerak.js"
+import PembukaChapterGerakSatuDimensi from "../content/materi/KinematikaGerakSatuDimensi/PembukaChapterGerakSatuDimensi.js"
+import PengertianGerak from "../content/materi/KinematikaGerakSatuDimensi/PengertianGerak.js"
 import JarakDanPerpindahan from "../content/materi/KinematikaGerakSatuDimensi/JarakDanPerpindahan.js"
 import KelajuanDanKecepatan from "../content/materi/KinematikaGerakSatuDimensi/KelajuanDanKecepatan.js"
-import Percepatan from "../content/materi/KinematikaGerakSatuDimensi/Percepatan"
+import KelajuanDanKecepatanSesaat from "../content/materi/KinematikaGerakSatuDimensi/KelajuanDanKecepatanSesaat.js"
+import Percepatan from "../content/materi/KinematikaGerakSatuDimensi/Percepatan.js"
+import GrafikGerakSatuDimensi from "../content/materi/KinematikaGerakSatuDimensi/GrafikGerakSatuDimensi.js"
 import GerakLurusBeraturan from "../content/materi/KinematikaGerakSatuDimensi/GerakLurusBeraturan.js"
 import GerakLurusBerubahBeraturan from "../content/materi/KinematikaGerakSatuDimensi/GerakLurusBerubahBeraturan.js"
 import GerakJatuhBebas from "../content/materi/KinematikaGerakSatuDimensi/GerakJatuhBebas.js"
 import GerakVertikalAtas from "../content/materi/KinematikaGerakSatuDimensi/GerakVertikalAtas.js"
 import GerakVertikalBawah from "../content/materi/KinematikaGerakSatuDimensi/GerakVertikalBawah.js"
-import PenutupGerakSatuDimensi from "../content/materi/KinematikaGerakSatuDimensi/PenutupGerakSatuDimensi.js"
+import KonsepGerakSatuDimensiDiDUniaNyata from "../content/materi/KinematikaGerakSatuDimensi/KonsepGerakSatuDimensiDiDuniaNyata.js"
+import EksplorasiFenomenaGerakSatuDimensi from "../content/materi/KinematikaGerakSatuDimensi/EksplorasiFenomenaGerakSatuDimensi.js"
+import PenutupChapterGerakSatuDimensi from "../content/materi/KinematikaGerakSatuDimensi/PenutupChapterGerakSatuDimensi.js"
 
 /* kinematika gerak dua dimensi */
 import PengantarGerakDuaDimensi from "../content/materi/KinematikaGerakDuaDimensi/PengantarGerakDuaDimensi.js"
@@ -564,16 +569,22 @@ export const materials = [
   PenutupChapterVektor,
 
   /* Chapter : Kinematika Gerak Satu Dimensi */
-  PengantarGerak,
+  PembukaChapterGerakSatuDimensi,
+  PengertianGerak,
   JarakDanPerpindahan,
   KelajuanDanKecepatan,
+  KelajuanDanKecepatanSesaat,
   Percepatan,
+  GrafikGerakSatuDimensi,
   GerakLurusBeraturan,
+  GerakLurusBerubahBeraturan,
   GerakLurusBerubahBeraturan,
   GerakJatuhBebas,
   GerakVertikalAtas,
   GerakVertikalBawah,
-  PenutupGerakSatuDimensi,
+  KonsepGerakSatuDimensiDiDUniaNyata,
+  EksplorasiFenomenaGerakSatuDimensi,
+  PenutupChapterGerakSatuDimensi,
 
   /* Chapter : Kinematika Gerak Dua Dimensi */
   PengantarGerakDuaDimensi,

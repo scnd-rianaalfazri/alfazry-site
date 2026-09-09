@@ -224,7 +224,7 @@ const mengapaBelajarFisika = {
     blocks: [
       {
         type: "paragraph",
-        text: "Perjalanan yang akan dilalui pada chapter ini"
+        text: "Inilah, perjalanan yang akan dilalui pada chapter ini"
       },
       {
         type: "list",

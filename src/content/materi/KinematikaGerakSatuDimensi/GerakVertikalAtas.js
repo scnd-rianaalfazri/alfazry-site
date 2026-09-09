@@ -6,19 +6,26 @@ const gerakVertikalAtas = {
 
   content: [
     {
-      heading: "🚀 Benda yang Dilempar ke Atas",
       blocks: [
         {
           type: "paragraph",
           text: [
             "Ketika kamu melempar bola basket atau koin lurus ke atas, benda tersebut tidak akan terus meluncur ke langit selamanya.",
             "Benda akan bergerak ke atas, kecepatannya makin berkurang, berhenti sesaat di titik tertinggi, lalu berbalik arah dan jatuh kembali ke bawah.",
-            "Gerakan ini dikenal sebagai Gerak Vertikal ke Atas (GVA)."
+            "Gerakan ini dikenal sebagai **GERAK VERTIKAL ATAS (GVA).**"
           ]
         }
       ]
     },
-
+    {
+      heading: "❓ Pertanyaan Besar",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "Ketika kecepatan benda nol di titik tertinggi, apakah gravitasi juga menjadi nol?"
+        }
+      ]
+    },
     {
       heading: "📍 Apa Itu Gerak Vertikal ke Atas?",
       blocks: [
@@ -32,7 +39,6 @@ const gerakVertikalAtas = {
         }
       ]
     },
-
     {
       heading: "⭐ Ciri-Ciri Utama GVA",
       blocks: [
@@ -59,7 +65,39 @@ const gerakVertikalAtas = {
       ]
     },
     {
-      heading: "📐 Persamaan Gerak Vertikal ke Atas",
+    heading: "👀 Visualisasi Konsep",
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Bayangkan sebuah bola dilempar lurus ke atas dengan kecepatan awal $29,4 m/s$."
+      },
+      {
+        type: "list",
+        list: {
+          type: "unordered",
+          items: [
+            {
+              text: "Detik ke-0: Bola baru dilempar ke atas dengan kecepatan $29,4 m/s$."
+            },
+            {
+              text: "Detik ke-1: Kecepatan bola berkurang menjadi $19,6 m/s$, tetapi bola masih bergerak ke atas."
+            },
+            {
+              text: "Detik ke-2: Kecepatan bola berkurang lagi menjadi $9,8 m/s$."
+            },
+            {
+              text: "Detik ke-3: Bola mencapai titik tertinggi dengan $v = 0 m/s$."
+            },
+            {
+              text: "Setelah detik ke-3: Bola mulai bergerak ke bawah dan kecepatannya kembali bertambah."
+            }
+          ]
+        }
+      }
+     ]
+    },
+    {
+      heading: "📐 Rumus Gerak Vertikal ke Atas (GVA)",
       blocks: [
         {
           type: "paragraph",
@@ -72,7 +110,6 @@ const gerakVertikalAtas = {
         }
       ]
     },
-
     {
       heading: "🔝 Kondisi Khusus: Titik Tertinggi (Tinggi Maksimum)",
       blocks: [
@@ -99,7 +136,7 @@ const gerakVertikalAtas = {
         {
           type: "paragraph",
           text: [
-            "💡 Simetri Gerak: ",
+            "Simetri Gerak: ",
             "*Waktu yang dibutuhkan benda untuk naik ke titik tertinggi $(t_{\\text{naik}})$ persis sama dengan waktu yang dibutuhkan untuk turun kembali ke posisi awal ($t_{\\text{turun}}$).*"
           ]
         }
@@ -107,7 +144,7 @@ const gerakVertikalAtas = {
     },
 
     {
-      heading: "🧮 Contoh Soal & Pembahasan",
+      heading: "✍️ Contoh Soal & Pembahasan",
       blocks: [
         {
           type: "paragraph",
@@ -176,7 +213,15 @@ const gerakVertikalAtas = {
         }
       ]
     },
-
+    {
+      heading: "🧠 Analisis Konsep",
+      blocks: [
+        {
+         type: "paragraph", 
+         text: "Tentukan arah positif → Identifikasi kondisi awal → Tentukan posisi atau waktu yang dianalisis → Gunakan tanda yang konsisten."
+        }
+      ]
+    },
     {
       heading: "🌍 Penerapan dalam Kehidupan",
       blocks: [
@@ -185,30 +230,38 @@ const gerakVertikalAtas = {
           list: {
             type: "unordered",
             items: [
-              "🏀 Lemparan bola basket saat melakukan *jump shot*.",
-              "⛲ Semburan air dari pancuran air mancur ke udara.",
-              "🪙 Melempar koin ke atas saat melakukan pengundian (*coin toss*).",
-              "🎆 Kembang api yang meluncur lurus sebelum meledak di langit."
+             {
+                text: "🏀 Lemparan bola basket saat melakukan *jump shot*."
+             },
+             {
+                text: "⛲ Semburan air dari pancuran air mancur ke udara."
+             },
+             {
+                text: "🪙 Melempar koin ke atas saat melakukan pengundian (*coin toss*)."
+             },
+             {
+                text: "🎆 Kembang api yang meluncur lurus sebelum meledak di langit."
+             }
             ]
           }
         }
       ]
     },
     {
-      heading: "⚠️ Miskonsepsi yang Sering Terjadi",
+      heading: "⚠️ Miskonsepsi",
       blocks: [
         {
           type: "paragraph",
           text: [
             "'Di titik tertinggi, gravitasi berhenti bekerja karena kecepatan benda nol.' ❌",
+            "Gak, gitu!",
             "Faktanya gravitasi Bumi tidak pernah berhenti bekerja! Di titik puncak, hanya kecepatannya yang nol $(v = 0)$, tetapi percepatan gravitasi tetap ada $(a = -g)$. Karena itulah bola langsung berbalik arah dan jatuh ke bawah, bukan melayang diam di udara. ✔️"
           ]
         }
       ]
     },
-
     {
-      heading: "✨ Inti Materi *(Takeaway Message)*",
+      heading: "✨ Inti Materi",
       blocks: [
         {
           type: "list",
@@ -331,10 +384,7 @@ const gerakVertikalAtas = {
       blocks: [
         {
           type: "paragraph",
-          text: [
-            "Bagaimana jika kita melempar benda ke bawah dari atas gedung dengan memberikan dorongan atau kecepatan awal tertentu?",
-            "➡️ Next, kita menuju portal: [**Gerak Vertikal ke Bawah (GVB)**](/materi/gerak-vertikal-bawah)."
-          ]
+          text: "Bagaimana jika kita melempar benda ke bawah dari atas gedung dengan memberikan dorongan atau kecepatan awal tertentu?",
         }
       ]
     }

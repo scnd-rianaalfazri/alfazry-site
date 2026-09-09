@@ -1,7 +1,7 @@
 import { useState, useRef } from "react"
 import { useParams, Link } from "react-router-dom"
 import { motion, AnimatePresence } from "framer-motion"
-import { ChevronDown, Quote } from "lucide-react"
+import { ChevronDown, ChevronsUpDown, Quote } from "lucide-react"
 import { materials } from "../data/materials"
 
 import Navbar from "../components/layout/Navbar"
@@ -49,6 +49,12 @@ export default function DetailMateri() {
 
   // Ref tiap section (untuk scroll-to saat dipilih dari Daftar Isi)
   const sectionRefs = useRef({})
+
+  // Daftar Isi hanya menampilkan beberapa bagian dulu supaya tidak
+  // menumpuk panjang di atas halaman. Sisanya bisa dibuka lewat
+  // tombol "Tampilkan Semua Materi".
+  const TOC_LIMIT = 6
+  const [showAllToc, setShowAllToc] = useState(false)
 
   // Klik dari Daftar Isi: buka section yang dituju lalu scroll ke sana.
   // Menggantikan tombol "Buka Semua"/"Tutup Semua" lama supaya konten
@@ -763,30 +769,70 @@ export default function DetailMateri() {
             </p>
 
             <div className="flex flex-wrap gap-2">
-              {materi.content.map((section, i) =>
-                section.heading ? (
-                  <button
-                    key={i}
-                    type="button"
-                    onClick={() => goToSection(i)}
-                    className="
-                      px-3.5 py-1.5
-                      rounded-full
-                      text-xs md:text-sm
-                      font-mono
-                      bg-white/5
-                      text-white/70
-                      border border-white/10
-                      hover:border-violet-400/40
-                      hover:text-violet-200
-                      hover:bg-violet-500/10
-                      transition-colors
-                    "
-                  >
-                    <RichText text={section.heading} />
-                  </button>
-                ) : null
-              )}
+              {(() => {
+                const sectionsWithHeading = materi.content
+                  .map((section, i) => ({ section, i }))
+                  .filter(({ section }) => section.heading)
+
+                const visible = showAllToc
+                  ? sectionsWithHeading
+                  : sectionsWithHeading.slice(0, TOC_LIMIT)
+
+                const hiddenCount =
+                  sectionsWithHeading.length - TOC_LIMIT
+
+                return (
+                  <>
+                    {visible.map(({ section, i }) => (
+                      <button
+                        key={i}
+                        type="button"
+                        onClick={() => goToSection(i)}
+                        className="
+                          px-3.5 py-1.5
+                          rounded-full
+                          text-xs md:text-sm
+                          font-mono
+                          bg-white/5
+                          text-white/70
+                          border border-white/10
+                          hover:border-violet-400/40
+                          hover:text-violet-200
+                          hover:bg-violet-500/10
+                          transition-colors
+                        "
+                      >
+                        <RichText text={section.heading} />
+                      </button>
+                    ))}
+
+                    {hiddenCount > 0 && (
+                      <button
+                        type="button"
+                        onClick={() => setShowAllToc((prev) => !prev)}
+                        className="
+                          inline-flex items-center gap-1.5
+                          px-4 py-1.5
+                          rounded-full
+                          text-xs md:text-sm
+                          font-mono font-semibold
+                          text-white
+                          bg-gradient-to-r from-violet-500 to-fuchsia-500
+                          shadow-[0_0_16px_rgba(168,85,247,0.45)]
+                          hover:shadow-[0_0_22px_rgba(168,85,247,0.65)]
+                          hover:brightness-110
+                          transition-all
+                        "
+                      >
+                        <ChevronsUpDown size={14} />
+                        {showAllToc
+                          ? "Sembunyikan"
+                          : `Tampilkan Semua Materi (+${hiddenCount})`}
+                      </button>
+                    )}
+                  </>
+                )
+              })()}
             </div>
           </div>
         )}

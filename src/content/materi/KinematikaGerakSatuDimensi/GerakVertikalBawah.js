@@ -14,12 +14,11 @@ const gerakVertikalBawah = {
             "Tidak semua benda yang bergerak ke bawah atau jatuh itu berawal dari keadaan diam.",
             "Bayangkan kamu melempar bola kriket ke bawah dari lantai dua rumahmu, atau memukul bola smash saat bermain bulu tangkis ke arah tanah.",
             "Benda-benda tersebut sudah diberi dorongan awal (kecepatan awal) menuju ke bawah, lalu gerakannya makin cepat akibat ditarik gaya gravitasi.",
-            "Gerakan seperti ini disebut Gerak Vertikal ke Bawah (GVB)."
+            "Gerakan seperti ini disebut **GERAK VERTIKAL BAWAH (GVB)**."
           ]
         }
       ]
     },
-
     {
       heading: "📍 Apa Itu Gerak Vertikal ke Bawah?",
       blocks: [
@@ -33,7 +32,6 @@ const gerakVertikalBawah = {
         }
       ]
     },
-
     {
       heading: "⚡ Perbedaan GVB vs Gerak Jatuh Bebas (GJB)",
       blocks: [
@@ -61,9 +59,41 @@ const gerakVertikalBawah = {
         }
       ]
     },
-
     {
-      heading: "📐 Persamaan Gerak Vertikal ke Bawah",
+      heading: "👀 Visualisasi Konsep",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "Bayangkan sebuah bola dilempar lurus ke bawah dari atas gedung dengan kecepatan awal $5 m/s$."
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "Detik ke-0: Bola mulai bergerak ke bawah dengan kecepatan $5 m/s$."
+              },
+              {
+                text: "Detik ke-1: Kecepatan bola bertambah menjadi $14,8 m/s$."
+              },
+              {
+                text: "Detik ke-2: Kecepatan bola bertambah lagi menjadi $24,6 m/s$."
+              },
+              {
+                text: "Detik ke-3: Bola bergerak semakin cepat ke bawah."
+              }
+            ]
+          }
+        },
+        {
+          type: "paragraph",
+          text: "Karena arah kecepatan awal dan percepatan gravitasi sama-sama ke bawah, gravitasi membuat bola bergerak semakin cepat."
+        }
+      ]
+    },
+    {
+      heading: "📐 Rumus Gerak Vertikal Bawah (GVB)",
       blocks: [
         {
           type: "paragraph",
@@ -106,7 +136,7 @@ const gerakVertikalBawah = {
       ]
     },
     {
-      heading: "🧮 Contoh Soal & Pembahasan",
+      heading: "✍️ Contoh Soal & Pembahasan",
       blocks: [
         {
           type: "paragraph",
@@ -146,7 +176,15 @@ const gerakVertikalBawah = {
         }
       ]
     },
-
+    {
+      heading: "🧠 Analisis Konsep",
+      blocks: [
+        {
+          type: "paragraph", 
+          text: "Sebelum menggunakan rumus, tentukan arah positif. Setelah itu, pastikan kecepatan awal dan percepatan menggunakan tanda yang konsisten."
+        }
+      ]
+    },
     {
       heading: "🌍 Penerapan dalam Kehidupan",
       blocks: [
@@ -180,7 +218,7 @@ const gerakVertikalBawah = {
     },
 
     {
-      heading: "✨ Inti Materi *(Takeaway Message)*",
+      heading: "✨ Inti Materi",
       blocks: [
         {
           type: "list",
@@ -296,7 +334,6 @@ const gerakVertikalBawah = {
       ]
     },
     {
-      heading: "🚀 Next Mission",
       blocks: [
         {
           type: "paragraph",
