@@ -1,4 +1,4 @@
-import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-angka-penting.png"
+import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-pengukuran.png"
 import img2 from "/src/assets/Materi/BesaranDanSatuan/dimensi1.png"
 
 const dimensi = {
@@ -289,7 +289,7 @@ const dimensi = {
         {
           type: "image",
           src: img1,
-          link: "/materi/angka-penting",
+          link: "/materi/pengukuran",
           caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
         }
       ]

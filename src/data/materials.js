@@ -23,10 +23,10 @@ import BesaranDanSatuan from "../content/materi/BesaranDanSatuan/BesaranDanSatua
 import SistemInternasional from "../content/materi/BesaranDanSatuan/SistemInternasional.js"
 import BesaranPokokDanTurunan from"../content/materi/BesaranDanSatuan/BesaranPokokDanTurunan.js"
 import Dimensi from "../content/materi/BesaranDanSatuan/Dimensi.js"
-import AngkaPenting from "../content/materi/BesaranDanSatuan/AngkaPenting.js"
-import NotasiImiah from "../content/materi/BesaranDanSatuan/NotasiIlmiah.js"
 import Pengukuran from "../content/materi/BesaranDanSatuan/Pengukuran.js"
 import Ketidakpastian from "../content/materi/BesaranDanSatuan/Ketidakpastian.js"
+import AngkaPenting from "../content/materi/BesaranDanSatuan/AngkaPenting.js"
+import NotasiImiah from "../content/materi/BesaranDanSatuan/NotasiIlmiah.js"
 import KonversiSatuan from "../content/materi/BesaranDanSatuan/KonversiSatuan.js"
 import KonsepBesaranDanSatuanDiDuniaNyata from "../content/materi/BesaranDanSatuan/KonsepDiDuniaNyataBesaranDanSatuan.js"
 import EksplorasiFenomenaBesaranDanSatuan from "../content/materi/BesaranDanSatuan/EksplorasiFenomenaBesaranDanSatuan.js"
@@ -541,11 +541,11 @@ export const materials = [
   SistemInternasional,
   BesaranPokokDanTurunan,
   Dimensi,
+  Pengukuran,
+  Ketidakpastian,
   AngkaPenting,
   NotasiImiah,
   KonversiSatuan,
-  Pengukuran,
-  Ketidakpastian,
   KonsepBesaranDanSatuanDiDuniaNyata,
   EksplorasiFenomenaBesaranDanSatuan,
   PenutupChapterBesaranDanSatuan,

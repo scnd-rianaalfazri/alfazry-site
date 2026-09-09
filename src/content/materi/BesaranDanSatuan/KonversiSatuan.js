@@ -1,4 +1,4 @@
-import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-pengukuran.png"
+import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-konsep-di-dunia-nyata-besaran-dan-satuan.png"
 import img2 from "/src/assets/Materi/BesaranDanSatuan/konversi-satuan1.png"
 
 const konversiSatuan = {
@@ -224,7 +224,7 @@ const konversiSatuan = {
         {
           type: "image",
           src: img1,
-          link: "/materi/pengukuran",
+          link: "/materi/eksplorasi-fenomena-besaran-dan-satuan",
           caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
         }
       ]

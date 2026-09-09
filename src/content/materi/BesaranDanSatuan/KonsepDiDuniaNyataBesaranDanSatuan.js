@@ -1,5 +1,5 @@
 import img1 from "/src/assets/Materi/BesaranDanSatuan/konsep-di-dunia-nyata-besaran-dan-satuan.png"
-import img2 from "/src/assets/Materi/BesaranDanSatuan/portal-konsep-di-dunia-nyata-besaran-dan-satuan.png"
+import img2 from "/src/assets/Materi/BesaranDanSatuan/portsl-eksplorasi-fenomena-besaran-dan-satuan.png"
 
 const konsepBesaranDanSatuanDiDuniaNyata = {
   title: "Konsep Besaran dan Satuan di Dunia Nyata",

@@ -1,5 +1,5 @@
 import img1 from "/src/assets/Materi/BesaranDanSatuan/portal-sistem-internasional.png"
-import img2 from "/src/assets/Materi/BesaranDanSatuan/besaran-dan-satuan2.png"
+import img2 from "/src/assets/Materi/BesaranDanSatuan/besaran-dan-satuan1.png"
 import img3 from "/src/assets/Materi/BesaranDanSatuan/besaran-dan-satuan2.png"
 
 const besaranDanSatuan = {

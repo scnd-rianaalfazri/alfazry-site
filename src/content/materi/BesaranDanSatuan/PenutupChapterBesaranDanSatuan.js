@@ -67,12 +67,12 @@ const penutupChapterBesaranDanSatuan = {
               },
               {
                 eyebrow: "📚 CHAPTER: Besaran dan Satuan",
-                title: "[Notasi Ilmiah](/materi/angka-penting)",
+                title: "[Notasi Ilmiah](/materi/notasi-ilmiah)",
                 text: "Menuliskan bilangan sangat besar atau kecil secara ringkas.",
               },
               {
                 eyebrow: "📚 CHAPTER: Besaran dan Satuan",
-                title: "[Konversi Satuan](/materi/angka-penting)",
+                title: "[Konversi Satuan](/materi/konversi-satuan)",
                 text: "Mengubah cara menyatakan nilai tanpa mengubah nilai fisiknya..",
               },
             ]
