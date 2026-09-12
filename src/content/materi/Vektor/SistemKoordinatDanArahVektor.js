@@ -50,7 +50,8 @@ const sistemKoordinatDanArahVektor = {
       ]
     },
     { 
-      heading: "📍 Kuadran", blocks: [
+      heading: "📍 Kuadran", 
+      blocks: [
         { 
           type: "paragraph", 
           text: "Kuadran I: (+,+). Kuadran II: (-,+). Kuadran III: (-,-). Kuadran IV: (+,-)." 
@@ -58,7 +59,8 @@ const sistemKoordinatDanArahVektor = {
       ]
     },
     { 
-      heading: "🧭 Sudut Arah", blocks: [
+      heading: "🧭 Sudut Arah", 
+      blocks: [
         { 
           type: "paragraph", 
           text: "Arah vektor dapat dinyatakan dengan sudut terhadap sumbu x positif. Kuadran tetap penting karena menentukan tanda komponen." 

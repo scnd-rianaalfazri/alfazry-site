@@ -90,6 +90,103 @@ const besaranSkalarDanVektor = {
       ]
     },
     { 
+      heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Perbedaan utama antara besaran skalar dan vektor adalah....",
+                options: [
+                  "skalar memiliki arah, sedangkan vektor tidak",
+                  "skalar hanya memiliki satuan, sedangkan vektor tidak",
+                  "skalar membutuhkan nilai dan arah, sedangkan vektor hanya nilai",
+                  "skalar cukup dinyatakan dengan nilai dan satuan, sedangkan vektor membutuhkan besar dan arah",
+                  "skalar dan vektor tidak memiliki perbedaan"
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Manakah yang merupakan besaran skalar?",
+                options: [
+                  "Perpindahan",
+                  "Kecepatan",
+                  "Gaya",
+                  "Jarak",
+                  "Percepatan",
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Pernyataan 'mobil bergerak dengan kecepatan 60 km/jam ke utara' merupakan besaran vektor karena....",
+                options: [
+                  "memiliki satuan km/jam",
+                  "memiliki nilai dan arah",
+                  "memiliki nilai yang besar",
+                  "menunjukkan benda yang bergerak",
+                  "menggunakan satuan SI"
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Seseorang berjalan 5 m ke timur. Pernyataan yang tepat adalah....",
+                options: [
+                  "jarak dan perpindahan keduanya merupakan skalar",
+                  "jarak merupakan vektor, sedangkan perpindahan skalar",
+                  "jarak dan perpindahan tidak dapat dibandingkan",
+                  "jarak merupakan skalar, sedangkan perpindahan merupakan vektor",
+                  "jarak dan perpindahan selalu bernilai nol"
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Pernyataan yang paling tepat adalah....",
+                options: [
+                  "kelajuan dan kecepatan merupakan besaran skalar",
+                  "kelajuan merupakan vektor karena berhubungan dengan gerak",
+                  "kecepatan merupakan skalar karena hanya memiliki nilai",
+                  "kelajuan merupakan skalar, sedangkan kecepatan merupakan vektor",
+                  "semua besaran yang menggunakan satuan meter merupakan vektor"
+                ],
+                answerIndex: 3
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    { 
       blocks: [
         {
           type: "image",
