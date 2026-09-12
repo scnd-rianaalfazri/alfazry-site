@@ -77,6 +77,103 @@ const vektorSatuanDanNotasiKomponen = {
       ]
     },
     { 
+      heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Apa yang dimaksud dengan vektor satuan?",
+                options: [
+                  "Vektor yang memiliki besar 0",
+                  "Vektor yang memiliki besar 1 dan digunakan untuk menunjukkan arah",
+                  "Vektor yang hanya memiliki komponen $x$",
+                  "Vektor yang hanya memiliki komponen $y$",
+                  "Vektor yang tidak memiliki arah"
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Dalam bidang dua dimensi, simbol $\\hat{i}$ dan $\\hat{j}$ masing-masing menunjukkan arah...",
+                options: [
+                  "$x$ dan $y$",
+                  "$y$ dan $x$",
+                  "$x$ dan $z$",
+                  "$z$ dan $y$",
+                  "positif dan negatif"
+                ],
+                answerIndex: 0
+              },
+              {
+                question: "Sebuah vektor ditulis sebagai $A = 3 \\hat{i} + 4 \\hat{j}$. Apa arti angka 3 dan 4 pada notasi tersebut?",
+                options: [
+                  "besar dan arah vektor",
+                  "besar vektor satuan",
+                  "komponen vektor pada sumbu $x$ dan $y$",
+                  "koordinat titik awal dan akhir",
+                  "besar resultan dan sudut"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Sebuah vektor ditulis sebagai $A = 3 \\hat{i} + 4 \\hat{j}$. Berapakah besar vektor $A$?",
+                options: [
+                  "3",
+                  "4",
+                  "5",
+                  "7",
+                  "12"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Pernyataan yang tepat tentang $\\hat{i}$ dan $\\hat{j}$ adalah...",
+                options: [
+                  "keduanya merupakan penanda arah sumbu dengan besar satu",
+                  "keduanya merupakan angka biasa",
+                  "keduanya merupakan satuan gaya",
+                  "keduanya menentukan besar resultan secara langsung",
+                  "keduanya hanya digunakan untuk menggambar vektor"
+                ],
+                answerIndex: 0
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    { 
       blocks: [
         { 
           type: "paragraph", 

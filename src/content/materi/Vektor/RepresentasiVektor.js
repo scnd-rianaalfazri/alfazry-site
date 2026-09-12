@@ -84,6 +84,103 @@ const representasiVektor = {
       ]
     },
     { 
+      heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Dalam representasi vektor menggunakan anak panah, panjang panah menunjukkan...",
+                options: [
+                  "arah vektor",
+                  "besar vektor",
+                  "posisi vektor",
+                  "satuan vektor",
+                  "titik asal vektor"
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Arah sebuah vektor pada gambar anak panah ditunjukkan oleh...",
+                options: [
+                  "panjang pangkal panah",
+                  "ketebalan garis",
+                  "ujung atau kepala panah",
+                  "ukuran gambar",
+                  "titik tengah panah"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Sebuah gambar menggunakan skala 1 cm = 10 N. Jika sebuah gaya sebesar 30 N ingin digambarkan, panjang anak panah yang diperlukan adalah...",
+                options: [
+                  "0,3 cm",
+                  "1 cm",
+                  "2 cm",
+                  "3 cm",
+                  "30 cm"
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Sebuah vektor dipindahkan secara paralel ke tempat lain tanpa mengubah panjang dan arahnya. Dalam konteks vektor bebas, vektor tersebut...",
+                options: [
+                  "berubah menjadi skalar",
+                  "memiliki besar yang berbeda",
+                  "memiliki arah yang berbeda",
+                  "tetap merepresentasikan vektor yang sama",
+                  "tidak dapat lagi disebut vektor"
+                ],
+                answerIndex: 3
+              },
+              {
+                question: "Mengapa penggunaan skala penting ketika menggambarkan vektor?",
+                options: [
+                  "Agar arah vektor selalu berubah",
+                  "Agar gambar dapat menyimpan makna kuantitatif tentang besar vektor",
+                  "Agar semua vektor memiliki panjang yang sama",
+                  "Agar vektor tidak membutuhkan arah",
+                  "Agar posisi vektor tidak dapat dipindahkan"
+                ],
+                answerIndex: 1
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    { 
       blocks: [
         {
           type: "image",

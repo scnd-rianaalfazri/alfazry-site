@@ -89,6 +89,103 @@ const perkalianVektor = {
       ]
     },
     { 
+      heading: "🎯 Quick Check", 
+      blocks: [
+        {
+          type: "quickCheck",
+          data: {
+            questions: [
+              {
+                question: "Apa yang terjadi jika sebuah vektor dikalikan dengan skalar positif?",
+                options: [
+                  "Besarnya tetap dan arahnya berbalik",
+                  "Besarnya berubah dan arahnya tetap",
+                  "Besarnya dan arahnya selalu berubah",
+                  "Vektor berubah menjadi skalar",
+                  "Vektor menjadi nol"
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Jika sebuah vektor dikalikan dengan skalar negatif, maka...",
+                options: [
+                  "besarnya selalu tetap",
+                  "arah tetap dan besar berkurang",
+                  "arah vektor berbalik",
+                  "vektor berubah menjadi skalar",
+                  "vektor tidak dapat digunakan lagi"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Hasil dari dot product dua buah vektor adalah...",
+                options: [
+                  "vektor",
+                  "skalar",
+                  "matriks",
+                  "bilangan kompleks",
+                  "sudut"
+                ],
+                answerIndex: 1
+              },
+              {
+                question: "Dua vektor $A$ dan $B$ membentuk sudut $\\theta$. Rumus dot product yang tepat adalah...",
+                options: [
+                  "$A \\cdot B = |A||B|\\sin\\theta$",
+                  "$A \\cdot B = |A|+|B|\\cos\\theta$",
+                  "$A \\cdot B = |A||B|\\cos\\theta$",
+                  "$A \\cdot B = |A||B|\\tan\\theta$",
+                  "$A \\cdot B = //frac{∣A∣}{∣B∣} \\cos\\theta$"
+                ],
+                answerIndex: 2
+              },
+              {
+                question: "Pernyataan yang tepat tentang cross product adalah...",
+                options: [
+                  "menghasilkan skalar yang menunjukkan kesamaan arah",
+                  "menghasilkan vektor yang tegak lurus terhadap bidang yang dibentuk kedua vektor",
+                  "hanya dapat digunakan untuk vektor yang sejajar",
+                  "menghasilkan skalar tanpa memperhatikan sudut",
+                  "selalu menghasilkan vektor yang searah dengan kedua vektor"
+                ],
+                answerIndex: 1
+              }
+            ],
+            scoring: [
+              {
+                min: 5,
+                max: 5,
+                emoji: "🏆",
+                title: "Mission Complete!",
+                message: "Kamu siap memasuki portal berikutnya."
+              },
+              {
+                min: 4,
+                max: 4,
+                emoji: "🚀",
+                title: "Hampir Sempurna",
+                message: "Pemahamanmu sudah sangat baik."
+              },
+              {
+                min: 2,
+                max: 3,
+                emoji: "🔄",
+                title: "Perlu Sedikit Lagi",
+                message: "Coba eksplorasi lagi bagian inti materi."
+              },
+              {
+                min: 0,
+                max: 1,
+                emoji: "📖",
+                title: "Ulangi Petualangan",
+                message: "Tenang, ulangi petualanganmu dari awal."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    { 
       blocks: [
         { 
           type: "paragraph", 
