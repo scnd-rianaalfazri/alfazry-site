@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/Vektor/menetukan-arah-resultan1.png"
+import img2 from "/src/assets/Materi/Vektor/portal-vektor-satuan-dan-notasi-komponen.png"
 
 const menentukanArahResultan = {
   title: "Menentukan Arah Resultan",
@@ -88,7 +89,7 @@ const menentukanArahResultan = {
                   "$\\sin \\theta = \\frac{R_y}{R_x}$",
                   "$\\cos \\theta = \\frac{R_y}{R_x}$",
                   "$\\tan \\theta = \\frac{R_y}{R_x}$",
-                  "$\\tan \\theta = \frac{R_x}{R_y}$",
+                  "$\\tan \\theta = \\frac{R_x}{R_y}$",
                   "$R = R_x + R_y$"
                 ],
                 answerIndex: 2
@@ -177,7 +178,13 @@ const menentukanArahResultan = {
         { 
           type: "paragraph", 
           text: "Sekarang kita naik satu level: bagaimana fisikawan menuliskan vektor secara lebih ringkas?" 
-        }
+        },
+        {
+          type: "image",
+          src: img2,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/vektor-satuan-dan-notasi-komponen"
+        },
       ]
     }
   ]

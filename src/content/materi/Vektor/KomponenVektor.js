@@ -1,5 +1,6 @@
 import img1 from "/src/assets/Materi/Vektor/komponen-vektor1.png"
 import img2 from "/src/assets/Materi/Vektor/komponen-vektor2.png"
+import img3 from "/src/assets/Materi/Vektor/portal-menghitung-komponen-vektor.png"
 
 const komponenVektor = {
   title: "Komponen Vektor",
@@ -181,7 +182,13 @@ const komponenVektor = {
         { 
           type: "paragraph", 
           text: "Kita sudah tahu apa itu Ax dan Ay. Sekarang bagaimana menghitung nilainya?" 
-        }
+        },
+        {
+          type: "image",
+          src: img3,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/menghitung-komponen-vektor"
+        },
       ]
     }
   ]

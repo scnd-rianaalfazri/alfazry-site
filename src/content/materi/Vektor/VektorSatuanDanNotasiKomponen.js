@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/Vektor/vektor-satuan-dan-notasi-komponen1.png"
+import img2 from "/src/assets/Materi/Vektor/portal-perkalian-vektor.png"
 
 const vektorSatuanDanNotasiKomponen = {
   title: "Vektor Satuan dan Notasi Komponen",
@@ -178,7 +179,13 @@ const vektorSatuanDanNotasiKomponen = {
         { 
           type: "paragraph", 
           text: "Vektor bukan hanya bisa dijumlahkan. Ada beberapa jenis perkalian dengan makna fisika yang berbeda." 
-        }
+        },
+        {
+          type: "image",
+          src: img2,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/perkalian-vektor"
+        },
       ]
     }
   ]

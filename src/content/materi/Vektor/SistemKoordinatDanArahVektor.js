@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/Vektor/sistem-koordinat-dan-arah-vektor1.png"
+import img2 from "/src/assets/Materi/Vektor/portal-komponen-vektor.png"
 
 const sistemKoordinatDanArahVektor = {
   title: "Sistem Koordinat dan Arah Vektor",
@@ -187,7 +188,13 @@ const sistemKoordinatDanArahVektor = {
         { 
           type: "paragraph", 
           text: "Sekarang satu vektor miring akan kita pecah menjadi dua arah yang lebih sederhana." 
-        }
+        },
+        {
+          type: "image",
+          src: img2,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/komponen-vektor"
+        },
       ]
     }
   ]

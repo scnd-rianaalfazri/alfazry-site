@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/Vektor/penjumlahan-vektor1.png"
+import img2 from "/src/assets/Materi/Vektor/portal-resultan-vektor-satu-dimensi.png"
 
 const penjumlahanVektor = {
   title: "Penjumlahan Vektor",
@@ -179,7 +180,13 @@ const penjumlahanVektor = {
         { 
           type: "paragraph", 
           text: "Kita mulai dari kasus paling sederhana: semua vektor berada pada satu garis." 
-        }
+        },
+        {
+          type: "image",
+          src: img2,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/resultan-vektor-satu-dimensi"
+        },
       ]
     }
   ]

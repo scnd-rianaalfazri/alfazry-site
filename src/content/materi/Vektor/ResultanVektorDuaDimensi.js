@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/Vektor/resultan-vektor-dua-dimensi1.png"
+import img2 from "/src/assets/Materi/Vektor/portal-menentukan-arah-resultan.png"
 
 const resultanVektorDuaDimensi = {
   title: "Resultan Vektor Dua Dimensi",
@@ -190,7 +191,13 @@ const resultanVektorDuaDimensi = {
         { 
           type: "paragraph", 
           text: "Resultan belum lengkap. Kita juga harus tahu ke mana arahnya." 
-        }
+        },
+        {
+          type: "image",
+          src: img2,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/menentukan-arah-resultan"
+        },
       ]
     }
   ]

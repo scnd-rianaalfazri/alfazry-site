@@ -142,16 +142,7 @@ const penutupHakikatIlmuFisika = {
       }
     ]
   },
-  { heading: "💡 Einstein Insight", 
-    blocks: [
-      { type: "paragraph", 
-        text: [
-          "'Yang penting adalah jangan pernah berhenti bertanya.' — Albert Einstein",
-          "Rasa ingin tahu adalah awal dari setiap penemuan ilmiah terbesar dalam sejarah manusia."
-        ] 
-      }
-    ]
-  },
+
   { heading: "⚠️ Pesan Penting", 
     blocks: [
       { type: "paragraph", 
@@ -208,6 +199,10 @@ const penutupHakikatIlmuFisika = {
       }
     ]
   },
+  {
+    type: "list",
+    
+  },
   { 
     blocks: [
       {
@@ -228,13 +223,34 @@ const penutupHakikatIlmuFisika = {
   },
   { heading: "Referensi:", 
     blocks: [
-      { type: "heading", 
-        text: [
-          "Referensi:" ,
-          "Halliday, Resnick & Walker. Fundamentals of Physics.",
-          "Young & Freedman. University Physics with Modern Physics.",
-          "Kemendikbudristek RI. Buku Fisika SMA/MA."
-        ]
+      { 
+        type: "list",
+        list: {
+          type: "unordered",
+          items: [
+            {
+              text: "*Saroji. Modul Fisika Kelas X KD 3.1: Hakikat Fisika dan Metode Ilmiah. Direktorat SMA, Direktorat Jenderal PAUD, DIKDAS dan DIKMEN, 2020. Modul ini membahas fisika sebagai produk, proses, dan sikap; cabang fisika; metode ilmiah; keselamatan kerja; serta peranan fisika dalam kehidupan.*"
+            },
+            {
+              text: "*Direktorat Pendidikan Menengah. Hakikat Fisika. Kementerian Pendidikan dan Kebudayaan. Materi mencakup pengertian fisika, metode ilmiah, observasi, perumusan masalah, hipotesis, eksperimen, dan kesimpulan.*"
+            },
+            {
+              text: "*OpenStax. Physics, Section 1.2: The Scientific Methods. Rice University. Sumber ini digunakan untuk menjelaskan observasi, hipotesis, eksperimen, analisis data, kesimpulan, model ilmiah, hukum, dan teori.*"
+            },
+            {
+              text: "*OpenStax. Physics, Section Summary. Sumber ini menjelaskan fisika sebagai ilmu tentang energi, materi, ruang, waktu, dan interaksinya serta proses sains yang meliputi observasi, hipotesis, eksperimen, dan kesimpulan.*"
+            },
+            {
+              text: "*National Science Teaching Association. Analyzing and Interpreting Data. Sumber ini digunakan untuk menjelaskan pentingnya tabel, grafik, visualisasi, dan analisis statistik dalam memberikan makna pada data.*"
+            },
+            {
+              text: "*Occupational Safety and Health Administration. National Research Council Recommendations Concerning Chemical Hygiene in Laboratories. Sumber ini digunakan untuk materi penilaian risiko, alat pelindung diri, ventilasi, penyimpanan bahan, keadaan darurat, dan budaya keselamatan laboratorium.*"
+            },
+            {
+              text: "*Occupational Safety and Health Administration. Laboratory Safety Guidance. Sumber ini digunakan sebagai referensi tambahan mengenai penggunaan PPE dan fasilitas keselamatan laboratorium.*"
+            }
+          ]
+        }
       }
     ]
   }]

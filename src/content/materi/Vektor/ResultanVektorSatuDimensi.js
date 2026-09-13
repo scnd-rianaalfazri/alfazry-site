@@ -1,4 +1,6 @@
 import img1 from "/src/assets/Materi/Vektor/resultan-vektor-satu-dimnesi1.png"
+import img2 from "/src/assets/Materi/Vektor/resultan-vektor-dua-dimensi1.png"
+import img3 from "/src/assets/Materi/Vektor/portal-resultan-vektor-dua-dimensi.png"
 
 const resultanVektorSatuGaris = {
   title: "Resultan Vektor Satu Dimensi",
@@ -188,7 +190,13 @@ const resultanVektorSatuGaris = {
         {
            type: "paragraph", 
            text: "Bagaimana jika vektornya tidak lagi segaris, tetapi membentuk sudut?" 
-        }
+        },
+        {
+          type: "image",
+          src: img3,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/resultan-vektor-dua-dimensi"
+        },
       ]
     }
   ]

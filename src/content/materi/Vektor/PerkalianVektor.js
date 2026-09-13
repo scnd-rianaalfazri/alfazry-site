@@ -2,7 +2,7 @@ import img1 from "/src/assets/Materi/Vektor/perkalian-vektor1.png"
 
 const perkalianVektor = {
   title: "Perkalian Vektor",
-  slug: "perkalian vektor",
+  slug: "perkalian-vektor",
   description: "Memahami perkalian vektor dengan skalar, dot product, dan pengantar cross product.",
   chapter: "➡️ Vektor",
 

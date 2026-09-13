@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/Vektor/menghitung-komponen-vektor1.png"
+import img2 from "/src/assets/Materi/Vektor/portal-penjumlahan-vektor.png"
 
 const menghitungKomponenVektor = {
   title: "Menghitung Komponen Vektor",
@@ -178,9 +179,16 @@ const menghitungKomponenVektor = {
     },
     { 
       blocks: [
-        { type: "paragraph", 
+        { 
+          type: "paragraph", 
           text: "Kalau dua vektor bertemu, bagaimana kita menggabungkannya?" 
-        }
+        },
+        {
+          type: "image",
+          src: img2,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/penjumlahan-vektor"
+        },
       ]
     }
   ]

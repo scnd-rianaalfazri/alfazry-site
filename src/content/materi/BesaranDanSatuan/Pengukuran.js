@@ -42,20 +42,93 @@ const pengukuran = {
       ]
     },
     {
-      heading: '🧰 Memilih Alat Ukur',
+      heading: "🧰 Contoh Alat Ukur",
       blocks: [
         { 
-          type: "paragraph", 
-          text: "Panjang → mistar, jangka sorong, mikrometer sekrup. Massa → neraca. Waktu → stopwatch. Suhu → termometer." 
+          type: "table", 
+          table: {
+            headers: ["Besaran", "Alat Ukur"],
+            rows: [
+              ["Panjang", "	Mistar, jangka sorong, mikrometer sekrup"],
+              ["Massa", "Neraca/Timbangan"],
+              ["Waktu", "Stopwatch, Jam dinding"],
+              ["Suhu", "Termometer"],
+              ["Arus Listrik", "Amperemeter"],
+              ["Intensitas Cahaya", "Fotometer"],
+              ["Tengangan Listrik", "Voltmeter"],
+              ["Kelajuan", "Spidometer"],
+              ["Kecepatan", "Velocimeter"]
+            ]
+          }
         }
       ]
     },
     {
-      heading: '🧠 Analisis — Mengapa Alat Berbeda?',
+      heading: '🧠 Analisis Konsep',
       blocks: [
         { 
           type: "paragraph", 
-          text: "Setiap alat memiliki skala terkecil dan kemampuan baca berbeda. Pemilihan alat harus mempertimbangkan besaran, rentang, dan ketelitian yang dibutuhkan." 
+          text: "Mengapa alat ukur bisa berbeda-beda? Yap, karena setiap alat memiliki skala terkecil dan kemampuan baca berbeda. Pemilihan alat harus mempertimbangkan besaran, rentang, dan ketelitian yang dibutuhkan." 
+        }
+      ]
+    },
+    {
+      heading: "📊 Pengukuran Langsung dan Tidak Langsung",
+      blocks: [
+        { 
+          type: "list", 
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "**Pengukuran Langsung**",
+                description: [
+                  "Pengukuran langsung dilakukan dengan membaca nilai besaran dari alat ukur.",
+                  "Contoh:"
+                ],
+                children: {
+                  type: "unordered",
+                  items: [
+                    {
+                      text: "Mengukur panjang pensil menggunakan mistar."
+                    },
+                    {
+                      text: "Mengukur suhu air menggunakan termometer."
+                    },
+                    {
+                      text: "Mengukur waktu lari menggunakan stopwatch."
+                    }
+                  ]
+                }
+              },
+              {
+                text: "**Pengukuran Tidak Langsung**",
+                description: [
+                  "Pengukuran tidak langsung dilakukan dengan mengukur beberapa besaran lain, kemudian menghitung besaran yang dicari.",
+                  "Contoh:"
+                ],
+                children: {
+                  type: "unordered",
+                  items: [
+                    {
+                      text: "Massa jenis:",
+                      description: [
+                        "$\\rho = \\frac{m}{V}$",
+                        "Massa $(𝑚)$ dan volume $(V)$ diukur terlebih dahulu. Massa jenis kemudian dihitung."
+                      ]
+                    },
+                    {
+                      text: "Kecepatan:",
+                      description: [
+                        "$v = \\frac{s}{t}$",
+                        "Jarak $(s)$ dan waktu $(t)$ diukur, lalu kecepatan dihitung."
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
         }
       ]
     },

@@ -2,8 +2,8 @@ import img1 from "/src/assets/Materi/Vektor/mengenal-vektor-di-dunia-nyata1.png"
 import img2 from "/src/assets/Materi/Vektor/mengenal-vektor-di-dunia-nyata2.png"
 
 const vektorDiDuniaNyata = {
-  title: "Vektor di Dunia Nyata",
-  slug: "vektor-di-dunia-nyata",
+  title: "Konsep Vektor di Dunia Nyata",
+  slug: "konsep-vektor-di-dunia-nyata",
   description: "Menemukan bagaimana konsep besar dan arah membantu kita memahami gerak, navigasi, teknologi, dan berbagai fenomena fisika.",
   chapter: "➡️ Vektor",
 

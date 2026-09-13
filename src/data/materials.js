@@ -15,6 +15,7 @@ import KesimppulanKomunikasi from "../content/materi/HakikatIlmuFisika/Kesimpula
 import KeselamatanLaboratorium from "../content/materi/HakikatIlmuFisika/KeselamatanLaboratorium.js"
 import SainsDalamKehidupan from "../content/materi/HakikatIlmuFisika/SainsDalamKehidupan.js"
 import EksplorasiFenomenaHakikatIlmuFisika from "../content/materi/HakikatIlmuFisika/EksplorasiFenomenaHakikatIlmuFisika.js"
+import GlosariumChapterHakikatIlmuFisika from "../content/materi/HakikatIlmuFisika/GlosariumHakikatIlmuFisika.js"
 import PenutupChapterHakikatIlmuFisika from "../content/materi/HakikatIlmuFisika/PenutupHakikatFisika.js"
 
 /* besaran dan satuan */
@@ -533,6 +534,7 @@ export const materials = [
   KeselamatanLaboratorium,
   SainsDalamKehidupan,
   EksplorasiFenomenaHakikatIlmuFisika,
+  GlosariumChapterHakikatIlmuFisika,
   PenutupChapterHakikatIlmuFisika,
 
   /* Chapter : Besaran dan Satuan */
