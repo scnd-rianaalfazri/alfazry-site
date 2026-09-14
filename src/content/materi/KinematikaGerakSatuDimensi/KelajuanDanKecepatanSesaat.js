@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/GerakSatuDimensi/kelajuan-dan-kecepatan-sesaat1.png"
+
 const kelajuanDanKecepatanSesaat = {
   title: "Kelajuan dan Kecepatan Sesaat",
   slug: "kelajuan-dan-kecepatan-sesaat",
@@ -6,12 +8,15 @@ const kelajuanDanKecepatanSesaat = {
 
   content: [
     {
-      heading: "🚀 Hook",
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [
-            "Coba deh, perhatikan speedometer pada sepeda motor atau mobil. Angka yang kamu lihat terus berubah selama perjalanan. Ketika angka menunjukkan 60 km/jam, apakah itu berarti kendaraan selalu bergerak dengan kelajuan 60 km/jam sepanjang perjalanan?",
+            "Coba deh, perhatikan speedometer pada sepeda motor atau mobil. Angka yang kamu lihat terus berubah selama perjalanan. Ketika angka menunjukkan 82 km/jam, apakah itu berarti kendaraan selalu bergerak dengan kelajuan 82 km/jam sepanjang perjalanan?",
             "Belum tentu. Angka tersebut hanya memberi tahu kita bagaimana gerak kendaraan pada saat itu."
           ]
             

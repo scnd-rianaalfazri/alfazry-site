@@ -1,3 +1,4 @@
+import img1 from "/src/assets/Materi/GerakSatuDimensi/percepatan1.png"
 
 const percepatan = {
   title: "Percepatan",
@@ -8,6 +9,10 @@ const percepatan = {
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

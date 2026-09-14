@@ -1,12 +1,18 @@
-const konsepGerakDiDuniaNyata = {
-  title: "Konsep Gerak Di Dunia Nyata",
-  slug: "konsep-gerak-satu-dimensi-di-dunia-nyata",
+import img1 from "/src/assets/Materi/GerakSatuDimensi/konsep-kinematika-gerak-di-dunia-nyata1.png"
+
+const konsepKinematikaGerakDiDuniaNyata = {
+  title: "Konsep Kinematika Gerak Di Dunia Nyata",
+  slug: "konsep-kinematika-gerak-satu-dimensi-di-dunia-nyata",
   description: "Menghubungkan konsep gerak satu dimensi dengan transportasi, olahraga, teknologi, dan aktivitas sehari-hari.",
   chapter: "↔️↕️ Kinematika: Gerak Satu Dimensi",
 
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph", 
           text: "Setelah mempelajari banyak konsep, sekarang coba lihat dunia di sekitarmu lagi. Jalan raya, lift, bola, dan GPS ternyata sedang menggunakan 'bahasa' yang sama."
@@ -109,4 +115,4 @@ const konsepGerakDiDuniaNyata = {
   ]
 };
 
-export default konsepGerakDiDuniaNyata;
+export default konsepKinematikaGerakDiDuniaNyata;

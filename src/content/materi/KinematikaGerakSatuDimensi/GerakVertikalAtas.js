@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/GerakSatuDimensi/gerak-vertikal-atas1.png"
+
 const gerakVertikalAtas = {
   title: "Gerak Vertikal ke Atas",
   slug: "gerak-vertikal-atas",
@@ -7,6 +9,10 @@ const gerakVertikalAtas = {
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

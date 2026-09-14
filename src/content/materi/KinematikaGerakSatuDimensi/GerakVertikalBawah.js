@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi//GerakSatuDimensi/gerak-vertikal-bawah1.png"
+
 const gerakVertikalBawah = {
   title: "Gerak Vertikal ke Bawah",
   slug: "gerak-vertikal-bawah",
@@ -6,8 +8,11 @@ const gerakVertikalBawah = {
 
   content: [
     {
-      heading: "⬇️ Benda yang Bergerak Turun",
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

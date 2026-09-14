@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/GerakSatuDimensi/gerak-jatuh-bebas1.png"
+
 const gerakJatuhBebas = {
   title: "Gerak Jatuh Bebas (GJB)",
   slug: "gerak-jatuh-bebas",
@@ -7,6 +9,10 @@ const gerakJatuhBebas = {
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

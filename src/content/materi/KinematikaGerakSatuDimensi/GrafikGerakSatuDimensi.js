@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/GerakSatuDimensi/grafik-gerak-satu-dimensi1.png"
+
 const grafikGerakSatuDimensi = {
   title: "Grafik Gerak Satu Dimensi",
   slug: "grafik-gerak-satu-dimensi",
@@ -7,6 +9,10 @@ const grafikGerakSatuDimensi = {
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph", 
           text: "Satu grafik sederhana dapat menceritakan apakah benda diam, bergerak konstan, semakin cepat, atau sedang melambat. Grafik adalah cara lain fisika bercerita."
