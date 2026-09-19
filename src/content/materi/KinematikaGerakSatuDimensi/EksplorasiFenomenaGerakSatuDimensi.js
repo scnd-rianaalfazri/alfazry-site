@@ -1,6 +1,8 @@
+import img1 from "/src/assets/Materi/GerakSatuDimensi/eksplorasi-fenomena-kinematika-gerak-satu-dimensi1.png"
+
 const eksplorasiFenomenaGerakSatuDimensi = {
-  title: "Eksplorasi Fenomena: Gerak Satu Dimensi",
-  slug: "eksplorasi-fenomena-gerak-satu-dimensi",
+  title: "Eksplorasi Fenomena: Kinematika Gerak Satu Dimensi",
+  slug: "eksplorasi-fenomena-kinematika-gerak-satu-dimensi",
   description: "Mengajak siswa mengamati fenomena gerak di sekitar dan menganalisisnya dengan pola berpikir fisika.",
   chapter: "↔️↕️ Kinematika: Gerak Satu Dimensi",
 
@@ -8,8 +10,12 @@ const eksplorasiFenomenaGerakSatuDimensi = {
     {
       blocks: [
         {
+          type: "image",
+          src: img1
+        },
+        {
           type: "paragraph", 
-          text: "Fisika tidak selalu dimulai dari laboratorium besar. Koridor sekolah, jalan depan rumah, lift, atau bola yang jatuh sudah cukup untuk memulai sebuah penyelidikan."
+          text: "Fisika tidak selalu dimulai dari laboratorium besar. Bisa saja dari koridor sekolah, jalan depan rumah, lift, atau bola yang jatuh sudah cukup untuk memulai sebuah penyelidikan."
         }
       ]
     },
@@ -122,7 +128,7 @@ const eksplorasiFenomenaGerakSatuDimensi = {
       heading: "💭 Refleksi",
       blocks: [
         {
-          text: "list",
+          type: "list",
           list: {
             type: "ordered",
             items: [

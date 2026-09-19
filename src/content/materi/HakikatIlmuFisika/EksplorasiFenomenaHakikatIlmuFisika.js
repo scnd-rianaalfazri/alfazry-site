@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/HakikatIlmuFisika/portal-penutup-chapter-hakikat-ilmu-fisika.png"
+import img2 from "/src/assets/Materi/HakikatIlmuFisika/portal-glosarium-chapter-hakikat-ilmu-fisika.png"
 
 const eksplorasiFenomena = {
   title: "Eksplorasi Fenomena: Hakikat Ilmu Fisika",
@@ -555,15 +556,13 @@ const eksplorasiFenomena = {
           text: [
             "Eksplorasi selesai.",
             "Kamu sudah belajar melihat fenomena dengan cara seorang pengamat sains.",
-            "Sekarang pertanyaannya:",
-            "👉 Bagaimana pengamatan tersebut dapat diubah menjadi pengetahuan yang dapat dipercaya?",
           ]
         },
         {
           type: "image",
-          src: img1,
-          link: "/materi/penutup-hakikat-fisika",
+          src: img2,
           caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/glosarium-chapter-hakikat-ilmu-fisika"
         }
       ]
     }

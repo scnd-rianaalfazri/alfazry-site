@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/GerakSatuDimensi/penutup-chapter-kinematika-gerak-satu-dimensi1.png"
+
 const penutupChapterGerakSatuDimensi = {
   title: "Penutup Chapter: Gerak Satu Dimensi",
   slug: "penutup-chapter-gerak-satu-dimensi",
@@ -7,6 +9,10 @@ const penutupChapterGerakSatuDimensi = {
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

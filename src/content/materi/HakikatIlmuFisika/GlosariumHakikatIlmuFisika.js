@@ -1,3 +1,6 @@
+import img1 from "/src/assets/Materi/HakikatIlmuFisika/glosarium-chapter-hakikat-ilmu-fisika1.png"
+import img2 from "/src/assets/Materi/HakikatIlmuFisika/portal-penutup-chapter-hakikat-ilmu-fisika.png"
+
 const glosariumChapterHakikatIlmiah = {
   title: "Glosarium: Hakikat Ilmu Fisika",
   slug: "glosarium-chapter-hakikat-ilmu-fisika",
@@ -7,6 +10,10 @@ const glosariumChapterHakikatIlmiah = {
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: "Glosarium berikut mencakup istilah penting dari seluruh chapter: alasan mempelajari fisika, hakikat fisika, fisika sebagai sikap, proses, dan produk, ruang lingkup fisika, metode ilmiah, eksperimen, data, komunikasi ilmiah, keselamatan laboratorium, serta penerapan sains dalam kehidupan.",
@@ -881,6 +888,42 @@ const glosariumChapterHakikatIlmiah = {
               }
             ]
           }
+        }
+      ]
+    },
+    {
+      heading: "Istilah Rumus dan Besaran",
+      blocks: [
+        {
+          type: "table",
+          table: {
+            headers: ["Simbol", "Makna"],
+            rows: [
+              ["$a$", "Percepatan"],
+              ["$E$", "Energi"],
+              ["$E_k$", "Energi Kinetik"],
+              ["$F$", "Gaya"],
+              ["$m$", "Massa"],
+              ["$p$", "Momentum"],
+              ["$s$", "Jarak atau perpindahan (sesuai konteks)"],
+              ["$t$", "Waktu"],
+              ["$v$", "kecepatan"],
+              ["$V$", "Volume atau tegangan Listrik (sesuai konteks)"],
+              ["$I$", "Kuat arus listrik"],
+              ["$R$", "Hambatan listrik"],
+              ["$W$", "Usaha"]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      blocks: [
+        {
+          type: "image",
+          src: img2,
+          link: "/materi/penutup-hakikat-fisika",
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
         }
       ]
     }

@@ -135,9 +135,42 @@ const pengukuran = {
     {
       heading: '📊 Pengukuran Tunggal dan Berulang',
       blocks: [
-        { 
-          type: "paragraph", 
-          text: "Pengukuran tunggal dilakukan satu kali. Pengukuran berulang dilakukan beberapa kali untuk memperoleh data yang lebih informatif dan membantu mengurangi pengaruh kesalahan acak." 
+        {
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "Pengukuran Tunggal",
+                description: [
+                  "Pengukuran tunggal dilakukan satu kali.",
+                  "Contoh:",
+                  "$L=12,4 cm$",
+                  "Untuk alat analog, ketidakpastian sederhana sering diperkirakan sebesar setengah skala terkecil:",
+                  "$\\Delta x = \\frac{1}{2} \\text{skala terkecil}$",
+                  "Jika mistar memiliki skala terkecil 1 mm:",
+                  "$\\Delta L = \\frac{1}{2} (1 mm) = 0,5 \\: mm$",
+                  "Hasilnya dapat ditulis",
+                  "$L = (12,4 \\pm 0,05)\\: cm$",
+                  "Pengukuran tunggal digunakan saat kondisi objek yang diukur sangat stabil dan praktis cukup diambil satu kali."
+                ]
+              },
+              {
+                text: "Pengukuran Berulang",
+                description: [
+                  "Pengukuran berulang dilakukan beberapa kali (biasa nya tiga hingga lima atau lebih) untuk memperoleh data yang lebih informatif",
+                  "Nilai rata-rata:",
+                  "$\\bar{x}=\\frac{x_1\\:+\\:x_2\\:+\\:x_3\\:+\\:...\\:+\\:x_n}{m}$",
+                  "Contoh data waktu:",
+                  "$\\text{2,1 s, 2,3 s, 2,2 s}$",
+                  "Rata-rata:",
+                  "$\\bar{t}=\\frac{2,1\\:+\\:2,2\\:+\\:2,1}{3}$",
+                  "$\\bar{t}=2,2\\:s$",
+                  "Pengukuran berulang digunakan untuk mengurangi kesalahan pengamatan, mendapatkan hasil yang lebih akurat, dan mengetahui tingkat ketidakpastian yang sebenarnya dari suatu eksperimen."
+                ]
+              }
+            ]
+          }
         }
       ]
     },
