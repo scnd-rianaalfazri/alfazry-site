@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/Vektor/perkalian-vektor1.png"
+import img2 from "/src/assets/Materi/Vektor/portal-konsep-vektor-di-dunia-nyata.png"
 
 const perkalianVektor = {
   title: "Perkalian Vektor",
@@ -190,6 +191,12 @@ const perkalianVektor = {
         { 
           type: "paragraph", 
           text: "Sekarang kita lihat mengapa semua konsep ini penting dalam fisika." 
+        },
+        {
+          type: "image",
+          src: img2,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/konsep-vektor-di-dunia-nyata"
         }
       ]
     }

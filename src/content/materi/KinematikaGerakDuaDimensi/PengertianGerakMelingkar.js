@@ -1,5 +1,3 @@
-import { text } from "framer-motion/client";
-
 const pengantarGerakMelingkar = {
   title: "Pengertian Gerak Melingkar",
   slug: "pengantar-gerak-melingkar",
@@ -46,12 +44,6 @@ const pengantarGerakMelingkar = {
     {
       heading: "❓ Pertanyaan Besar untuk Dibayangkan",
       blocks: [
-        {
-          type: "paragraph",
-          text: [
-            "Sebelum kita masuk ke konsepnya, coba pikirkan tiga hal ini:"
-          ]
-        },
         {
           type: "list",
           list: {

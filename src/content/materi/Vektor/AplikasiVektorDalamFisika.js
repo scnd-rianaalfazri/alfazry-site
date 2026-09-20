@@ -1,5 +1,6 @@
 import img1 from "/src/assets/Materi/Vektor/mengenal-vektor-di-dunia-nyata1.png"
 import img2 from "/src/assets/Materi/Vektor/mengenal-vektor-di-dunia-nyata2.png"
+import img3 from "/src/assets/Materi/Vektor/portal-eksplorasi-fenomena-vektor.png"
 
 const vektorDiDuniaNyata = {
   title: "Konsep Vektor di Dunia Nyata",
@@ -233,18 +234,17 @@ const vektorDiDuniaNyata = {
       blocks: [
         {
           type: "paragraph",
-          text:
-            "Sekarang kamu sudah melihat bahwa vektor tidak hanya hidup di dalam buku atau papan tulis."
-        },
-        {
-          type: "paragraph",
-          text:
-            "Tantangan berikutnya adalah melihat lingkungan di sekitarmu dengan cara yang sedikit berbeda."
-        },
-        {
-          type: "paragraph",
-          text:
+          text: [
+            "Sekarang kamu sudah melihat bahwa vektor tidak hanya hidup di dalam buku atau papan tulis.",
+            "Nah, tantangan berikutnya adalah melihat lingkungan di sekitarmu dengan cara yang sedikit berbeda.",
             "Di mana saja kamu bisa menemukan besar dan arah yang bekerja bersama?"
+          ]   
+        },
+        {
+          type: "image",
+          src: img3,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/eksplorasi-fenomena-vektor"
         }
       ]
     }

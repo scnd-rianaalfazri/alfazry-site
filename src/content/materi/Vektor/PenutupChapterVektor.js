@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/Vektor/penutup-chapter-vektor1.png"
+import img2 from "/src/assets/Materi/GerakSatuDimensi/portal-pembuka-chapter-kinematika-gerak-satu-dimensi.png"
 
 const penutupChapterVektor = {
   title: "Penutup Chapter: Vektor",
@@ -71,6 +72,12 @@ const penutupChapterVektor = {
         { 
           type: "paragraph", 
           text: "Kita sudah memiliki bahasa untuk menyatakan arah. Sekarang gunakan bahasa itu untuk menjawab pertanyaan yang lebih besar: bagaimana posisi suatu benda berubah terhadap waktu?" 
+        },
+        {
+          type: "image",
+          src: img2,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/pembuka-chapter-gerak-satu-dimensi"
         }
       ]
     }

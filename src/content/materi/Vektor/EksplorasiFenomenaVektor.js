@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/Vektor/portal-penutup-chapter-vektor.png"
+
 const eksplorasiFenomenaVektor = {
   title: "Eksplorasi Fenomena: Vektor",
   slug: "eksplorasi-fenomena-vektor",
@@ -127,7 +129,13 @@ const eksplorasiFenomenaVektor = {
         { 
           type: "paragraph", 
           text: "Sebelum melanjutkan perjalanan, mari lihat kembali cara berpikir yang sudah kamu kuasai." 
-        }
+        },
+        {
+          type: "image",
+          src: img1,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/penutup-chapter-vektor"
+        }       
       ]
     }
   ]

@@ -186,7 +186,7 @@ const penjumlahanVektor = {
           src: img2,
           caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
           link: "/materi/resultan-vektor-satu-dimensi"
-        },
+        }
       ]
     }
   ]

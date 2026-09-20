@@ -106,19 +106,6 @@ const pembukaChapterBesaranDanSatuan = {
       ]
     },
     {
-      heading: "⚠️ Miskonsepsi",
-      blocks: [
-        { 
-          type: "paragraph", 
-          text: [
-            "Pengukuran bukan hanya membaca angka pada alat ukur. ❌",
-            "Tetapi ...",
-            "Pengukuran juga mencakup pemilihan alat, satuan, teknik membaca, dan pemahaman terhadap keterbatasan hasil. ✔️"
-          ]
-        }
-      ]
-    },
-    {
       heading: "🌟 *Fun Fact*",
       blocks: [
         { 
@@ -127,17 +114,57 @@ const pembukaChapterBesaranDanSatuan = {
         }
       ]
     },
-    {
-      heading: "✨ Inti Materi",
+    { 
+      heading: "🧭 Roadmap Chapter", 
       blocks: [
-        { 
-          type: "paragraph", 
-          text: "Pengukuran adalah cara fisika mengubah fenomena alam menjadi data yang dapat dinyatakan, dibandingkan, dan dianalisis."
+        {
+          type: "paragraph",
+          text: "Inilah, perjalanan yang akan dilalui pada chapter ini"
+        },
+        {
+          type: "list",
+          list: {
+            type: "unordered",
+            items: [
+              {
+                text: "📏 [Besaran dan Satuan](/materi/besaran-dan-satuan)"
+              },
+              {
+                text: "🌐 [Sistem Internasional](/materi/sistem-internasional)"
+              },
+              {
+                text: "🔬 [Hakikat Ilmu Fisika](/materi/hakikat-ilmu-fisika)"
+              },
+              {
+                text: "⚛️ [Besaran Pokok dan Turunan](/materi/besaran-pokok-dan-turunan)"
+              },
+              {
+                text: "📐 [Dimensi](/materi/dimensi)"
+              },
+              {
+                text: "🧪 [Pengukuran](/materi/pengukuran)"
+              },
+              {
+                text: "🎯 [Ketidakpastian Pengukuran](/materi/ketidakpastian)"
+              },
+              {
+                text: "🔢 [Angka Penting](/materi/angka-penting)"
+              },
+              {
+                text: "🔬 [Notasi Ilmiah](/materi/notasi-ilmiah)"
+              },
+              {
+                text: "🔄 [Konversi Satuan](/materi/konversi-satuan)"
+              },
+              {
+                text: "🌍 [Konsep Besaran dan Satuan di Dunia Nyata](/materi/konsep-besaran-dan-satuan-di-dunia-nyata)"
+              }
+            ]
+          }
         }
       ]
     },
     {
-      heading: "📝 Latihan",
       blocks: [
         { 
           type: "paragraph", 
