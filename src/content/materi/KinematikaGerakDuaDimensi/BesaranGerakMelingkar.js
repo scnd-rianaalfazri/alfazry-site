@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/KinematikaGerakDuaDimensi/besaran-gerak-dua-dimensi1.png"
+
 const besaranGerakMelingkar = {
   title: "Besaran-Besaran Gerak Melingkar",
   slug: "besaran-besaran-gerak-melingkar",
@@ -5,7 +7,12 @@ const besaranGerakMelingkar = {
   chapter: "🏀 Kinematika: Gerak Dua Dimensi",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

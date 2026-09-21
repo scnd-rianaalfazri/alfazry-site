@@ -1,15 +1,22 @@
-const pengantarGerakDuaDimensi = {
-  title: "Pengantar Gerak Dua Dimensi",
-  slug: "pengantar-gerak-dua-dimensi",
+import img1 from "/src/assets/Materi/KinematikaGerakDuaDimensi/pengantar-kinematika-gerak-dua-dimensi1.png"
+
+const pembukachapterKinematikaGerakDuaDimensi = {
+  title: "Pembuka Chapter: Kinematika Gerak Dua Dimensi",
+  slug: "pembuka-chapter-kinematika-gerak-dua-dimensi",
   description: "Mengenal konsep gerak dua dimensi dan memahami bagaimana gerak pada arah horizontal dan vertikal dapat terjadi secara bersamaan.",
   chapter: "🏀 Kinematika: Gerak Dua Dimensi",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [
-            "Bayangkan kamu menendang sebuah bola ke depan dengan sudut tertentu. Bola tidak hanya bergerak maju. Pada saat yang sama, bola juga bergerak naik dan kemudian turun kembali ke tanah.",
+            "Bayangkan kamu melempar sebuah bola ke depan dengan sudut tertentu. Bola tidak hanya bergerak maju. Pada saat yang sama, bola juga bergerak naik dan kemudian turun kembali ke tanah.",
             "Menariknya, satu gerakan yang terlihat sederhana ini sebenarnya merupakan gabungan dari dua gerak yang terjadi secara bersamaan.",
             "Selamat datang di dunia Kinematika Gerak Dua Dimensi."
           ]
@@ -295,4 +302,4 @@ const pengantarGerakDuaDimensi = {
   ]
 };
 
-export default pengantarGerakDuaDimensi;
+export default pembukachapterKinematikaGerakDuaDimensi;

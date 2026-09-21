@@ -459,7 +459,7 @@ export default function DetailMateri() {
   //   }
   //
   // Tipe block yang didukung: paragraph, image, heading, equation,
-  // table, list, quickCheck, carousel.
+  // table, list, quickCheck, carousel, quote, callout, component.
   //
   // Block "carousel" -- kartu geser (lihat komentar lengkap di
   // src/components/layout/Carousel.jsx). Tiap kartu di `cards` boleh
@@ -700,6 +700,38 @@ export default function DetailMateri() {
         
       case "carousel":
         return <Carousel key={key} carousel={block.carousel} />
+
+      // Block "component" -- untuk menyisipkan komponen React apa pun
+      // di tengah materi (simulasi interaktif, kalkulator kecil, dsb)
+      // TANPA perlu menambah import atau case baru di file ini setiap
+      // kali ada visualisasi baru. File konten materi (mis. file di
+      // src/content/materi/<Bab>/<Judul>.js) yang mengimpor komponennya
+      // sendiri dan menaruhnya langsung sebagai referensi fungsi:
+      //
+      //   import DistanceDisplacementExplorer from "./DistanceDisplacementExplorer"
+      //   ...
+      //   { type: "component", component: DistanceDisplacementExplorer }
+      //
+      //   Props tambahan (opsional) bisa dikirim lewat `props`:
+      //   { type: "component", component: MyWidget, props: { max: 10 } }
+      //
+      // Komponennya sendiri boleh ditaruh berdampingan dengan file
+      // konten materinya (co-located), sama seperti pola component
+      // per-simulasi di src/content/simulasi/.
+      case "component": {
+        const Component = block.component
+
+        if (import.meta.env.DEV && typeof Component !== "function") {
+          console.warn(
+            `[DetailMateri] Block "component" (key ${key}) butuh field ` +
+              `"component" berupa komponen React (function), tapi menerima:`,
+            Component
+          )
+          return null
+        }
+
+        return <Component key={key} {...(block.props || {})} />
+      }
 
       default:
         return null

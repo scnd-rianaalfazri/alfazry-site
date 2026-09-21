@@ -1,4 +1,5 @@
-import img1 from "/src/assets/Materi/GerakSatuDimensi/jarak-dan-perpindahan1.png"
+import img1 from "/src/assets/Materi/KinematikaGerakSatuDimensi/image/jarak-dan-perpindahan1.png"
+import DistanceDisplacementExplorer from "/src/assets/Materi/KinematikaGerakSatuDimensi/code/DistanceDisplacementExplorer.jsx"
 
 const jarakDanPerpindahan = {
   title: "Jarak dan Perpindahan",
@@ -65,6 +66,19 @@ const jarakDanPerpindahan = {
             "Rumah → Warung sejauh 5 m → kembali ke Rumah sejauh 5 m.",
             "Jarak total = 10 m. Perpindahan = 0 karena posisi awal dan posisi akhir sama."
           ]
+        }
+      ]
+    },
+    {
+      heading: "🧪 Coba Sendiri",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "Sebelum lanjut ke analisis, coba dulu ubah-ubah jalurnya sendiri. Seret titik A dan B, tambah beberapa waypoint, lalu bandingkan lintasan ungu (jarak) dengan panah cyan (perpindahan)."
+        },
+        {
+          type: "component",
+          component: DistanceDisplacementExplorer
         }
       ]
     },

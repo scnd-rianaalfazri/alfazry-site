@@ -1,6 +1,8 @@
-const pengantarGerakMelingkar = {
+import img1 from "/src/assets/Materi/KinematikaGerakDuaDimensi/pengertian-gerak-melingkar1.png"
+
+const pengertianGerakMelingkar = {
   title: "Pengertian Gerak Melingkar",
-  slug: "pengantar-gerak-melingkar",
+  slug: "pengertian-gerak-melingkar",
   description: "Mengenal karakteristik gerak melingkar dan memahami bagaimana posisi serta arah gerak benda berubah ketika bergerak mengikuti lintasan berbentuk lingkaran.",
   chapter: "🏀 Kinematika: Gerak Dua Dimensi",
 
@@ -397,4 +399,4 @@ const pengantarGerakMelingkar = {
   ]
 };
 
-export default pengantarGerakMelingkar;
+export default pengertianGerakMelingkar;

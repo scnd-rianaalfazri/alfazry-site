@@ -69,7 +69,7 @@ import EksplorasiFenomenaGerakSatuDimensi from "../content/materi/KinematikaGera
 import PenutupChapterGerakSatuDimensi from "../content/materi/KinematikaGerakSatuDimensi/PenutupChapterGerakSatuDimensi.js"
 
 /* kinematika gerak dua dimensi */
-import PengantarGerakDuaDimensi from "../content/materi/KinematikaGerakDuaDimensi/PengantarGerakDuaDimensi.js"
+import PembukaChapterKinematikaGerakDuaDimensi from "../content/materi/KinematikaGerakDuaDimensi/PembukaChapterKInematikaGerakDuaDimensi.js"
 import AnalisisSumbuXDanY from "../content/materi/KinematikaGerakDuaDimensi/AnalisisSumbuXDanY.js"
 import GerakParabola from "../content/materi/KinematikaGerakDuaDimensi/GerakParabola.js"
 import HorizontalVertikalParabola from "../content/materi/KinematikaGerakDuaDimensi/HorizontalVertikalParabola.js"
@@ -589,7 +589,7 @@ export const materials = [
   PenutupChapterGerakSatuDimensi,
 
   /* Chapter : Kinematika Gerak Dua Dimensi */
-  PengantarGerakDuaDimensi,
+  PembukaChapterKinematikaGerakDuaDimensi,
   AnalisisSumbuXDanY,
   GerakParabola,
   HorizontalVertikalParabola,
