@@ -1,8 +1,9 @@
 import img1 from "/src/assets/Materi/GerakSatuDimensi/pembuka-chapter-gerak-satu-dimensi1.png"
+import img2 from "/src/assets/Materi/KinematikaGerakSatuDimensi/image/portal-pengertian-gerak.png"
 
 const pembukaChapterGerakSatuDimensi = {
-  title: "Pembuka Chapter: Gerak Satu Dimensi",
-  slug: "pembuka-chapter-gerak-satu-dimensi",
+  title: "Pembuka Chapter: Kinematika Gerak Satu Dimensi",
+  slug: "pembuka-chapter-kinematika-gerak-satu-dimensi",
   description: "Memulai perjalanan memahami bagaimana fisika membaca, mengukur, dan menganalisis gerak pada satu dimensi.",
   chapter: "↔️↕️ Kinematika: Gerak Satu Dimensi",
 
@@ -100,7 +101,13 @@ const pembukaChapterGerakSatuDimensi = {
         {
           type: "paragraph", 
           text: "Langkah pertama kita adalah memahami pertanyaan paling mendasar, kapan sebuah benda dikatakan bergerak?"
-        }
+        },
+        {
+          type: "image",
+          src: img2,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/pengertian-gerak"
+        }        
       ]
     }
   ]

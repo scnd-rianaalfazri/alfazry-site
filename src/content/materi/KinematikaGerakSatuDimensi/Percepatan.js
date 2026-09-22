@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/GerakSatuDimensi/percepatan1.png"
+import img2 from "/src/assets/Materi/KinematikaGerakSatuDimensi/image/portal-grafik-gerak-satu-dimensi.png"
 
 const percepatan = {
   title: "Percepatan",
@@ -340,7 +341,13 @@ const percepatan = {
         {
           type: "paragraph",
           text: "Bagaimana jika sebuah benda bergerak lurus dengan kecepatan yang selalu tetap tanpa ada percepatan sama sekali?",
-        }
+        },
+        {
+          type: "image",
+          src: img2,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/grafik-gerak-satu-dimensi"
+        } 
       ]
     }
   ]

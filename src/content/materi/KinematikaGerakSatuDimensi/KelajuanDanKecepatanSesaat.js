@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/GerakSatuDimensi/kelajuan-dan-kecepatan-sesaat1.png"
+import img2 from "/src/assets/Materi/KinematikaGerakSatuDimensi/image/portal-percepatan.png"
 
 const kelajuanDanKecepatanSesaat = {
   title: "Kelajuan dan Kecepatan Sesaat",
@@ -314,7 +315,13 @@ const kelajuanDanKecepatanSesaat = {
             "Sekarang kita sudah memahami bagaimana mendeskripsikan gerak melalui kelajuan dan kecepatan, baik secara rata-rata maupun pada suatu saat tertentu.",
             "Tetapi ada satu pertanyaan berikutnya: bagaimana jika kecepatan benda terus berubah?"
           ]    
-        }
+        },
+        {
+          type: "image",
+          src: img2,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/percepatan"
+        }  
       ]
     }
   ]

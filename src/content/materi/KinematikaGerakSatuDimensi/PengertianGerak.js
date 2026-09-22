@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/GerakSatuDimensi/pengertian-gerak1.png"
+import img2 from "/src/assets/Materi/KinematikaGerakSatuDimensi/image/portal-jarak-dan-perpindahan.png"
 
 const pengertianGerak = {
   title: "Pengertian Gerak",
@@ -150,7 +151,13 @@ const pengertianGerak = {
         {
           type: "paragraph", 
           text: "Kita sudah tahu kapan benda dikatakan bergerak. Sekarang, bagaimana cara menggambarkan seberapa jauh benda melakukan perjalanan?"
-        }
+        },
+        {
+          type: "image",
+          src: img2,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/jarak-dan-perpindahan"
+        }  
       ]
     }
   ]

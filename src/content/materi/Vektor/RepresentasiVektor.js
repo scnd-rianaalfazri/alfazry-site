@@ -182,15 +182,15 @@ const representasiVektor = {
     },
     { 
       blocks: [
+        { 
+          type: "paragraph", 
+          text: "Sebelum menghitung, kita perlu bisa membaca dua informasi utama: besar dan arah." 
+        },
         {
           type: "image",
           src: img3,
           caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
           link: "/materi/besar-dan-arah-vektor"
-        },
-        { 
-          type: "paragraph", 
-          text: "Sebelum menghitung, kita perlu bisa membaca dua informasi utama: besar dan arah." 
         }
       ]
     }

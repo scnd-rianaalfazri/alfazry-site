@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/KinematikaGerakSatuDimensi/image/jarak-dan-perpindahan1.png"
+import img2 from "/src/assets/Materi/KinematikaGerakSatuDimensi/image/portal-kelajuan-dan-kecepatan.png"
 import DistanceDisplacementExplorer from "/src/assets/Materi/KinematikaGerakSatuDimensi/code/DistanceDisplacementExplorer.jsx"
 
 const jarakDanPerpindahan = {
@@ -241,7 +242,13 @@ const jarakDanPerpindahan = {
         {
           type: "paragraph", 
           text: "Sekarang kita sudah bisa mengukur perjalanan. Pertanyaan berikutnya: seberapa cepat perjalanan itu terjadi?"
-        }
+        },
+        {
+          type: "image",
+          src: img2,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/kelajuan-dan-kecepatan"
+        }  
       ]
     },
   ]

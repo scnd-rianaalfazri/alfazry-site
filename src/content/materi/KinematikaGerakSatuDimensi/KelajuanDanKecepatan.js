@@ -1,4 +1,5 @@
 import img1 from "/src/assets/Materi/GerakSatuDimensi/kelajuan-dan-kecepatan1.png"
+import img2 from "/src/assets/Materi/KinematikaGerakSatuDimensi/image/portal-kelajuan-dan-kecepatan-sesaat.png"
 
 const kelajuanDanKecepatan = {
   title: "Kelajuan dan Kecepatan",
@@ -413,7 +414,13 @@ const kelajuanDanKecepatan = {
             "Tapi perjalanan sebuah benda tidak selalu berlangsung dengan gerak yang sama dari awal hingga akhir.",
             "Jadi, bagaimana kita mengetahui seberapa cepat benda bergerak pada satu momen tertentu?"
           ] 
-        }
+        },
+        {
+          type: "image",
+          src: img2,
+          caption: "🚀 Kamu bisa KLIK GAMBAR INI untuk menuju portal selanjutnya",
+          link: "/materi/kelajuan-dan-kecepatan-sesaat"
+        }  
       ]
     }
   ]

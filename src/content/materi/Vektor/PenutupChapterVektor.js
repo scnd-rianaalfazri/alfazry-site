@@ -66,8 +66,7 @@ const penutupChapterVektor = {
         }
       ]
     },
-    { 
-      heading: "👀 Sekilas Chapter Berikutnya", 
+    {
       blocks: [
         { 
           type: "paragraph", 
