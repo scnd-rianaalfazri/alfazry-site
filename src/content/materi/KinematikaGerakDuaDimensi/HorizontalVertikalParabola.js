@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/KinematikaGerakDuaDimensi/image/gerak-horizontal-dan-gerak-vertikal-pada-gerak-parabola.png"
+
 const gerakHorizontalDanVertikal = {
   title: "Gerak Horizontal dan Gerak Vertikal pada Gerak Parabola",
   slug: "gerak-horizontal-dan-vertikal-pada-gerakparabola",
@@ -6,8 +8,11 @@ const gerakHorizontalDanVertikal = {
 
   content: [
     {
-      heading: "🧩 Satu Gerak, Dua Arah",
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

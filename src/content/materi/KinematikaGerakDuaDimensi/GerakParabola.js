@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/KinematikaGerakDuaDimensi/image/pengertian-gerak-parabola1.png"
+
 const pengertianGerakParabola = {
   title: "Pengertian Gerak Parabola",
   slug: "pengertian-gerak-parabola",
@@ -5,8 +7,11 @@ const pengertianGerakParabola = {
   chapter: "🏀 Kinematika: Gerak Dua Dimensi",
   content: [
     {
-      heading: "🏀 Mengapa Bola Bisa Terbang Membentuk Lintasan Melengkung?",
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

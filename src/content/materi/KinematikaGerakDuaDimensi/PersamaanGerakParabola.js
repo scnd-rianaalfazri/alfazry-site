@@ -1,4 +1,4 @@
-import { text } from "framer-motion/client";
+import img1 from "/src/assets/Materi/KinematikaGerakDuaDimensi/image/persamaan-gerak-parabola1.png"
 
 const persamaangerakparabola = {
   title: "Persamaan Gerak Parabola",
@@ -7,7 +7,12 @@ const persamaangerakparabola = {
   chapter: "🏀 Kinematika: Gerak Dua Dimensi",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

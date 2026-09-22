@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/KinematikaGerakDuaDimensi/image/jangkauan-maksimum-dan-waktu-tempuh-gerak-parabola.png"
+
 const jangkauanDanWaktuTempuh = {
   title: "Jangkauan Maksimum dan Waktu Tempuh Gerak Parabola",
   slug: "jangkauan-maksimum-dan-waktu-tempuh-gerak-parabola",
@@ -6,8 +8,11 @@ const jangkauanDanWaktuTempuh = {
 
   content: [
     {
-      heading: "🎯 Seberapa Jauh Benda Bisa Terbang?",
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

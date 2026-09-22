@@ -1,4 +1,4 @@
-import { text } from "framer-motion/client";
+import img1 from "/src/assets/Materi/KinematikaGerakDuaDimensi/image/analisis-sumbu-x-dany1.png"
 
 const analisissumbuxdany = {
   title: "Analisis Sumbu X dan Y",
@@ -8,6 +8,10 @@ const analisissumbuxdany = {
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [
