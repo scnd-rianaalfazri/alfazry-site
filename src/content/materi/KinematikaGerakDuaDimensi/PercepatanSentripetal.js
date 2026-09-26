@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/KinematikaGerakDuaDimensi/image/percepatan-sentripetal1.png"
+
 const percepatanSentripetal = {
   title: "Percepatan Sentripetal",
   slug: "percepatan-sentripetal",
@@ -5,7 +7,12 @@ const percepatanSentripetal = {
   chapter: "🏀 Kinematika: Gerak Dua Dimensi",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

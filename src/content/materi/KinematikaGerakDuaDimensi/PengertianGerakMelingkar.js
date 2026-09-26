@@ -1,4 +1,4 @@
-import img1 from "/src/assets/Materi/KinematikaGerakDuaDimensi/pengertian-gerak-melingkar1.png"
+import img1 from "/src/assets/Materi/KinematikaGerakDuaDimensi/image/pengertian-gerak-melingkar1.png"
 
 const pengertianGerakMelingkar = {
   title: "Pengertian Gerak Melingkar",
@@ -7,7 +7,12 @@ const pengertianGerakMelingkar = {
   chapter: "🏀 Kinematika: Gerak Dua Dimensi",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

@@ -69,18 +69,19 @@ import EksplorasiFenomenaGerakSatuDimensi from "../content/materi/KinematikaGera
 import PenutupChapterGerakSatuDimensi from "../content/materi/KinematikaGerakSatuDimensi/PenutupChapterGerakSatuDimensi.js"
 
 /* kinematika gerak dua dimensi */
-import PembukaChapterKinematikaGerakDuaDimensi from "../content/materi/KinematikaGerakDuaDimensi/PembukaChapterKInematikaGerakDuaDimensi.js"
+import PembukaChapterKinematikaGerakDuaDimensi from "../content/materi/KinematikaGerakDuaDimensi/PembukaChapterKinematikaGerakDuaDimensi.js"
 import AnalisisSumbuXDanY from "../content/materi/KinematikaGerakDuaDimensi/AnalisisSumbuXDanY.js"
 import GerakParabola from "../content/materi/KinematikaGerakDuaDimensi/GerakParabola.js"
 import HorizontalVertikalParabola from "../content/materi/KinematikaGerakDuaDimensi/HorizontalVertikalParabola.js"
 import PersamaanGerakParabola from "../content/materi/KinematikaGerakDuaDimensi/PersamaanGerakParabola.js"
 import JangkauanWaktuTempuhParabola from "../content/materi/KinematikaGerakDuaDimensi/JangkauanWaktuTempuhParabola.js"
-import PenerapanGerakParabola from "../content/materi/KinematikaGerakDuaDimensi/PenerapanGerakParabola.js"
+import KonsepGerakParabolaDiDuniaNyata from "../content/materi/KinematikaGerakDuaDimensi/KonsepGeakParabolaDuniaNyata.js"
 import PengertianGerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi/PengertianGerakMelingkar.js"
 import BesaranGerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi/BesaranGerakMelingkar.js"
 import KecepatanLinierDanSudut from "../content/materi/KinematikaGerakDuaDimensi/KecepatanLinearDanSudut.js"
 import PercepatanSentripetal from "../content/materi/KinematikaGerakDuaDimensi/PercepatanSentripetal.js"
 import PenerapanGerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi/PenerapanGerakMelingkar.js"
+
 
 /* dinamika gaya dan hukum newton */
 import PengantarDinamika from "../content/materi/DinamikaGayaDanHukumNewton/PengantarDinamika.js"
@@ -595,7 +596,7 @@ export const materials = [
   HorizontalVertikalParabola,
   PersamaanGerakParabola,
   JangkauanWaktuTempuhParabola,
-  PenerapanGerakParabola,
+  KonsepGerakParabolaDiDuniaNyata,
   PengertianGerakMelingkar,
   BesaranGerakMelingkar,
   KecepatanLinierDanSudut,

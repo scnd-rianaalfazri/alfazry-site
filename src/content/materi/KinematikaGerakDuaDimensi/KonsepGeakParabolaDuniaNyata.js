@@ -1,12 +1,18 @@
-const penerapangerakparabola = {
-  title: "Penerapan Gerak Parabola dalam Kehidupan dan Teknologi",
-  slug: "penerapan-gerak-parabola-dalam-kehidupan-dan-teknologi",
-  description: "Mengeksplorasi penerapan konsep gerak parabola dalam olahraga, kehidupan sehari-hari, teknologi, simulasi komputer, dan berbagai sistem nyata.",
+import img1 from "/src/assets/Materi/KinematikaGerakDuaDimensi/image/konsep-gerak-parabola-di-dunia-nyata1.png"
 
+const konsepGerakParabolaDiDuniaNyata = {
+  title: "Konsep Gerak Parabola di Dunia Nyata",
+  slug: "pkonsep-gerak-parabola-di-dunia-nyata",
+  description: "Mengeksplorasi penerapan konsep gerak parabola dalam olahraga, kehidupan sehari-hari, teknologi, simulasi komputer, dan berbagai sistem nyata.",
   chapter: "🏀 Kinematika: Gerak Dua Dimensi",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [
@@ -295,4 +301,4 @@ const penerapangerakparabola = {
   ]
 };
 
-export default penerapangerakparabola;
+export default konsepGerakParabolaDiDuniaNyata;

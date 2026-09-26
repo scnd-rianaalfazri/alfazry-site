@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/KinematikaGerakDuaDimensi/image/kecepatan-linier-dan-kecepatan-sudut1.png"
+
 const kecepatanLinearDanSudut = {
   title: "Kecepatan Linear dan Kecepatan Sudut",
   slug: "kecepatan-linear-dan-kecepatan-sudut",
@@ -6,8 +8,11 @@ const kecepatanLinearDanSudut = {
 
   content: [
     {
-      heading: "⚙️ Dua Cara Mengukur Kecepatan",
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [
@@ -55,7 +60,7 @@ const kecepatanLinearDanSudut = {
         },
         {
           type: "equation",
-          equation: "v = \frac{s}{t}"
+          equation: "v = \\frac{s}{t}"
         },
         {
           type: "paragraph",
@@ -88,7 +93,7 @@ const kecepatanLinearDanSudut = {
         },
         {
           type: "equation",
-          equation: "v = \frac{2\pi r}{T} = 2\pi f r"
+          equation: "v = \\frac{2\\pi r}{T} \\text{ atau } v = 2\\pi f r "
         }
       ]
     },
