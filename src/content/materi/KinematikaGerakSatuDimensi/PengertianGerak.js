@@ -1,5 +1,6 @@
 import img1 from "/src/assets/Materi/GerakSatuDimensi/pengertian-gerak1.png"
 import img2 from "/src/assets/Materi/KinematikaGerakSatuDimensi/image/portal-jarak-dan-perpindahan.png"
+import ObjectMotionTrack from "/src/assets/Materi/KinematikaGerakSatuDimensi/code/ObjectMotionTrack.jsx"
 
 const pengertianGerak = {
   title: "Pengertian Gerak",
@@ -97,6 +98,19 @@ const pengertianGerak = {
               }
             ]
           }
+        }
+      ]
+    },
+    {
+      heading: "🧪 Coba Amati Sendiri",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "Sebelum lanjut baca contohnya, coba jalankan dulu bendanya. Amati posisinya terhadap titik acuan — apakah berubah atau tetap?"
+        },
+        {
+          type: "component",
+          component: ObjectMotionTrack
         }
       ]
     },

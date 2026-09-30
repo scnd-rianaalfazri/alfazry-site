@@ -56,10 +56,30 @@ const fisikaSebagaiProduk = {
               eyebrow: "PRODUK FISIKA 02",
               title: "💡 Konsep",
               text: "Konsep adalah abstraksi mental, gagasan, atau pengertian yang dibuat untuk mengelompokkan fenomena-fenomena alam yang sejenis agar lebih mudah dijelaskan.",
-              description: [
-                "Contoh:",
-                "Istilah-istilah seperti Gaya, Energi, Usaha, dan Momentum."
-              ]
+              description: "Contoh:",
+              list: {
+                type: "unordered",
+                items: [
+                  {
+                    text: "Gaya"
+                  },
+                  {
+                    text: "Energi"
+                  },
+                  {
+                    text: "Suhu"
+                  },
+                  {
+                    text: "Massa"
+                  },
+                  {
+                    text: "Kecepatan"
+                  },
+                  {
+                    text: "Medan magnet"
+                  }
+                ]
+              }
             },
             {
               eyebrow: "PRODUK FISIKA 03",
@@ -86,23 +106,49 @@ const fisikaSebagaiProduk = {
               eyebrow: "PRODUK FISIKA 05",
               title: "🌌 Teori",
               text: "Teori adalah penjelasan ilmiah yang mendalam, komprehensif, didukung oleh gunung bukti eksperimen, serta mampu memprediksi fenomena baru yang belum teramati sebelumnya.",
-              description: [
-                "Contoh:",
-                "Teori Relativitas",
-                "Teori Kuantum"
-              ]
+              list: {
+                type: "unordered",
+                items: [
+                  {
+                    text: "Teori Relativitas"
+                  },
+                  {
+                    text: "Teori Kuantum"
+                  },
+                  {
+                    text: "Teori Kinetik Gas"
+                  }
+                ]
+              }
             },
             {
               eyebrow: "PRODUK FISIKA 06",
+              title: "📐 Rumus",
+              text: "Rumus adalah cara matematis untuk menyatakan hubungan antarbesaran.",
+              description:[
+                "Contoh:",
+                "$v=\\frac{s}{t}$",
+                "Rumus tersebut menyatakan bahwa kecepatan $𝑣$ berhubungan dengan jarak $𝑠$ dan waktu $𝑡$"
+              ]
+            },          
+            {
+              eyebrow: "PRODUK FISIKA 07",
               title: "🧱 Model",
               text: "Model adalah representasi buatan atau penyederhanaan yang membantu kita memvisualisasikan dan memahami sistem alam semesta yang terlalu rumit, terlalu besar, atau terlalu mikro untuk dilihat langsung.",
-              description: [     
-                "Contoh:",
-                "Model atom Bohr",
-                "Diagram tata surya",
-                "Persamaan matematika yang rumit",
-                "Simulasi grafis komputer"
-              ]
+              list: {
+                type: "unordered",
+                items: [
+                  {
+                    text: "Model Atom Bohr"
+                  },
+                  {
+                    text: "Grafik hubungan dan kecepatan"
+                  },
+                  {
+                    text: "Simulasi grafis komputer"
+                  }
+                ]
+              }
             }
           ]
         }

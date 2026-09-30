@@ -107,17 +107,17 @@ const metodeIlmiah = {
             { 
               eyebrow: "LANGKAH-LANGKAH METODE ILMIAH",
               title: "📊 Menganalisis Data",
-              text: "Mengolah data hasil eksperimen menjadi grafik, tabel, atau statistik agar polanya terlihat jelas."
+              text: "Mengolah data menjadi informasi yang bermakna. Baik dalam bentuk grafik, tabel, atau statistik agar polanya terlihat jelas."
             },
             { 
               eyebrow: "LANGKAH-LANGKAH METODE ILMIAH",
               title: "📖 Menarik Kesimpulan",
-              text: "Memutuskan apakah data yang didapat mendukung hipotesis atau justru mematahkannya."
+              text: "Menentukan apakah data mendukung hipotesis atau sebaliknya."
             },
             { 
               eyebrow: "LANGKAH-LANGKAH METODE ILMIAH",
               title: "📢 Mengomunikasikan Hasil",
-              text: "Membagikan temuan kerenmu ke publik atau jurnal ilmiah agar bisa dievaluasi dan bermanfaat bagi peradaban."
+              text: "Menyampaikan hasil penelitian kepada orang lain."
             }
           ]
         }

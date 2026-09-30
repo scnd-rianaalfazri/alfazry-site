@@ -1,13 +1,18 @@
-import { text } from "framer-motion/client";
+import img1 from "/src/assets/Materi/DinamikaGayaDanHukumNewton/image/pembuka-chapter-dinamika-gaya-dan-hukum-newton1.png"
 
-const pengantarDinamika = {
-  title: "Pengantar Dinamika",
-  slug: "pengantar-dinamika",
+const pembukaChapterDinamikaGayaDanHukumNewton = {
+  title: "Pembuka Chapter: Dinamika Gaya dan Hukum Newton",
+  slug: "pembuka-chapter-dinamika-gaya-dan-hukum-newton",
   description: "Memahami perbedaan antara kinematika dan dinamika serta mengenal gaya sebagai penyebab perubahan gerak benda.",
   chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [
@@ -312,4 +317,4 @@ const pengantarDinamika = {
   ]
 };
 
-export default pengantarDinamika;
+export default pembukaChapterDinamikaGayaDanHukumNewton;

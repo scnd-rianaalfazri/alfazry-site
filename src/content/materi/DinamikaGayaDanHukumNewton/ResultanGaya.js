@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/DinamikaGayaDanHukumNewton/image/resultan-gaya1.png"
+
 const resultanGaya = {
   title: "Resultan Gaya",
   slug: "resultan-gaya",
@@ -7,6 +9,10 @@ const resultanGaya = {
   content: [
     { 
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

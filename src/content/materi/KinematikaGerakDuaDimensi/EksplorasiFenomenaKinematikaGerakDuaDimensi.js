@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/KinematikaGerakDuaDimensi/image/eksplorasi-fenomena-kinematika-gerak-dua-dimensi1.png"
+
 const eksplorasiFenomenaGerakDuaDimensi = {
   title: "Eksplorasi Fenomena: Gerak Dua Dimensi",
   slug: "eksplorasi-fenomena-gerak-dua-dimensi",
@@ -7,6 +9,10 @@ const eksplorasiFenomenaGerakDuaDimensi = {
   content: [
     {
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         { 
           type: "paragraph", 
           text: "Bola, air, roda, kipas, dan wahana di sekitar kita sudah cukup untuk memulai pertanyaan fisika."

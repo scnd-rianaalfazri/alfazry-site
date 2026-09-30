@@ -1,13 +1,18 @@
-import { text } from "framer-motion/client";
+import img1 from "/src/assets/Materi/KinematikaGerakDuaDimensi/image/penutup-chapter-kinematika-gerak-dua-dimensi1.png"
 
-const penutupGerakDuaDimensi = {
-  title: "Chapter Closing: Gerak Dua Dimensi",
-  slug: "chapter-closing-gerak-dua-dimensi",
+const penutupChapterGerakDuaDimensi = {
+  title: "Penutup Chapter: Kinematika Gerak Dua Dimensi",
+  slug: "penutup-chapter-kinematika-gerak-dua-dimensi",
   description: "Merangkum seluruh konsep Gerak Dua Dimensi sebagai bekal menuju materi Dinamika Partikel.",
   chapter: "🏀 Kinematika: Gerak Dua Dimensi",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [
@@ -108,4 +113,4 @@ const penutupGerakDuaDimensi = {
   ]
 };
 
-export default penutupGerakDuaDimensi;
+export default penutupChapterGerakDuaDimensi;

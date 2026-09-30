@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/DinamikaGayaDanHukumNewton/image/hukum-newton-satu1.png"
+
 const hukumNewtonSatu = {
   title: "Hukum Newton I (Hukum Inersia)",
   slug: "hukum-newton-satu",
@@ -6,8 +8,11 @@ const hukumNewtonSatu = {
 
   content: [
     {
-      heading: "🚌 Mengapa Tubuh Terdorong Saat Kendaraan Berhenti?",
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/DinamikaGayaDanHukumNewton/image/hukum-newton-tiga1.png"
+
 const hukumNewtonTiga = {
   title: "Hukum Newton III: Aksi dan Reaksi",
   slug: "hukum-newton-tiga",
@@ -5,7 +7,12 @@ const hukumNewtonTiga = {
   chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

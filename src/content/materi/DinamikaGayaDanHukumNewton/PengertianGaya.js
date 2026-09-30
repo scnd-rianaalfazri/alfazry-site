@@ -1,4 +1,4 @@
-import { text } from "framer-motion/client";
+import img1 from "/src/assets/Materi/DinamikaGayaDanHukumNewton/image/pengertian-gaya1.png"
 
 const pengertianGaya = {
   title: "Pengertian Gaya",
@@ -7,7 +7,12 @@ const pengertianGaya = {
   chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

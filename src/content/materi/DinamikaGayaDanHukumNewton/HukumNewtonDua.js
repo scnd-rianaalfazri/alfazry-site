@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/DinamikaGayaDanHukumNewton/image/hukum-newton-dua1.png"
+
 const hukumNewtonDua = {
   title: "Hukum Newton II: Hubungan Gaya, Massa, dan Percepatan",
   slug: "hukum-newton-dua",
@@ -5,7 +7,12 @@ const hukumNewtonDua = {
   chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

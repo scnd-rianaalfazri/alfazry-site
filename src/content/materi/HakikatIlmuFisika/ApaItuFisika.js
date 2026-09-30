@@ -67,6 +67,43 @@ const apaItuFisika = {
       }
     ]
   },
+  {
+    heading: "Ciri-ciri fisika sebagai ilmu",
+    blocks: [
+      {
+        type: "list",
+        list: {
+          type: "ordered",
+          items: [
+            {
+              text: "Empiris",
+              description: "Fisika didasarkan pada hasil pengamatan dan pengalaman yang dapat diuji."
+            },
+            {
+              text: "Objektif",
+              description: "Kesimpulan fisika harus didasarkan pada data, bukan keinginan atau pendapat pribadi."
+            },
+            {
+              text: "Sistematis",
+              description: "Pengetahuan fisika disusun secara teratur dan saling berhubungan."
+            },
+            {
+              text: "Kuantitatif",
+              description: "Banyak gejala fisika dijelaskan menggunakan besaran, satuan, pengukuran, dan matematika."
+            },
+            {
+              text: "Dapat diuji",
+              description: "Pernyataan atau hipotesis dalam fisika harus dapat diuji melalui pengamatan atau eksperimen."
+            },
+            {
+              text: "Terbuka terhadap perkembangan",
+              description: "Pengetahuan fisika dapat diperbaiki atau dikembangkan apabila ditemukan bukti baru."
+            }
+          ]
+        }
+      }
+    ]
+  },
   { 
     heading: "🌌 Apa yang Dipelajari Fisika?", 
     blocks: [
@@ -104,121 +141,6 @@ const apaItuFisika = {
       }
     ]
   },
-  { heading: "🧩 Cabang-Cabang Fisika", 
-    blocks: [
-      {
-        type: "image",
-        src: img3
-      },
-      {
-        type: "paragraph",
-        text: [
-          "Agar pembahasannya tidak tumpang tindih, ilmu fisika dibagi ke dalam beberapa era dan disiplin.",
-          "Berikut adalah peta cabang fisika yang dijamin bikin kita makin kagum sama cara kerja semesta:"
-        ]
-      },
-      {
-        type: "list",
-        list: {
-          type: "ordered",
-          items: [
-          {
-            text: "Fisika Klasik *(The Foundation)*",
-            description:
-            "Ini adalah fondasi awal yang membahas fenomena alam yang bisa kita lihat dan rasakan langsung dalam skala sehari-hari.",
-            children: {
-              type: "unordered",
-              items: [
-                {
-                  text: "Mekanika Klasik",
-                  description: "Rajanya hukum gerak. Cabang ini membedah bagaimana benda bergerak, gaya-gaya yang memengaruhinya, dan keseimbangan benda. Rumah bagi Hukum Newton."
-                },
-                {
-                  text: "Termodinamika",
-                  description: "Cabang yang puitis tentang bagaimana kalor (panas) berpindah, berdansa, dan berubah wujud menjadi energi lain, termasuk membahas konsep entropi yang misterius."
-                },
-                {
-                  text: "Elektromagnetisme",
-                  description: "Ilmu yang menyatukan fenomena kelistrikan dan kemagnetan. Inilah alasan mengapa gadget-mu bisa dicharge dan kompas bisa menunjuk arah utara."
-                },
-                {
-                  text: "Optika",
-                  description: "Ilmu yang khusus mempelajari cahaya, lensa, pantulan, dan bagaimana mata atau kamera menangkap keindahan visual dunia."
-                },
-                {
-                  text: "Akustik (Fisika Gelombang & Bunyi)",
-                  description: "Mempelajari bagaimana gelombang mekanik merambat, bergetar, dan menghasilkan suara—mulai dari petikan dawai gitar hingga gelombang ultrasonik medis."
-                }
-              ]
-            }
-          },
-          {
-            text: "Fisika Modern *(The Frontier)*",
-            description:  "Ketika teknologi berkembang dan para ilmuwan mulai masuk ke skala ekstrem—super cepat (mendekati kecepatan cahaya) atau super kecil (dunia atom)—hukum fisika klasik mulai runtuh. Dari sanalah lahir era baru setelah abad ke-20 yang penuh kejutan.",
-            children: {
-              type: "unordered",
-              items: [
-              {
-                text: "Mekanika Kuantum.",
-                description: [
-                  "Selamat datang di dunia sub-atomik yang liar!",
-                  "Di skala atom dan elektron, partikel bisa bertingkah seperti gelombang, dan suatu benda bisa berada di dua kondisi sekaligus (probabilitas)."
-                ]
-              },
-              {
-                text: "Teori Relativitas (Einstein)",
-                description: [
-                  "Mengubah total cara kita memandang ruang dan waktu.",
-                  "Einstein membuktikan bahwa gravitasi bukanlah gaya tarik gaib biasa, melainkan kelengkungan ruang-waktu akibat adanya massa yang besar (seperti planet atau bintang)."
-                ]
-              },
-              {
-                text: "Fisika Inti (Nuklir)",
-                description: [
-                  "Fokus meneliti 'jantung' dari atom, yaitu nukleus.",
-                  "Mempelajari gaya kuat yang mengikat proton dan neutron, serta pemanfaatan reaksi fisi dan fusi."
-                ]
-              },
-              {
-                text: "Fisika Partikel",
-                description: "Berburu partikel paling fundamental yang menyusun alam semesta (seperti Quark dan Higgs Boson) menggunakan mesin akselerator raksasa."
-              }]
-            }
-          },
-          {
-            text: "Fisika Terapan & Interdisipliner (The Innovation)",
-            description: "Fisika tidak cuma berdiam diri di lab, tapi juga berkolaborasi dengan bidang ilmu lain untuk melahirkan inovasi masa depan.",
-            children: {
-              type: "unordered",
-              items: [
-              {
-                text: "Astrofisika & Kosmologi",
-                description: [
-                  "Fisika yang menatap langit.",
-                  "Mempelajari sifat fisik benda-benda langit, jalannya bintang, hingga bagaimana alam semesta ini bermula (Big Bang) dan bagaimana ia akan berakhir."
-                ]
-              },
-              {
-                text: "Biofisika",
-                description: [
-                  "Jembatan antara fisika dan biologi.",
-                  "Menganalisis fenomena biologis makhluk hidup (seperti mekanisme kerja sel atau aliran impuls saraf di otak) menggunakan prinsip-prinsip fisika."
-                ]
-              },
-              {
-                text: "Geofisika",
-                description: "Menggunakan metode fisik (seperti gelombang seismik) untuk mengintip isi perut bumi dan memetakan potensi gempa atau struktur geologi."
-              },
-              {
-                text: "Fisika Komputasi",
-                description: "Ketika rumus matematika fisika sudah terlalu rumit untuk dihitung manual, baris-baris kode (coding) dan simulasi komputer mengambil alih untuk memprediksi fenomena kompleks."
-              }]
-            }
-          }]
-        }
-      }
-    ]
-  },
   { heading: "🌍 Mengapa Fisika Disebut Ilmu Dasar?", 
     blocks: [
       { type: "paragraph", 
@@ -242,7 +164,86 @@ const apaItuFisika = {
       }
     ]
   },
-  { heading: "🚀 Fisika dalam Kehidupan", 
+  { 
+    heading: "🧩 Cabang-Cabang Fisika", 
+    blocks: [
+      {
+        type: "image",
+        src: img3
+      },
+      {
+        type: "paragraph",
+        text: [
+          "Berikut adalah peta cabang fisika yang dijamin bikin kita makin kagum sama cara kerja semesta:",
+          "Cabang fisika klasik *(The Foundation)*"
+        ]
+      },
+      {
+        type: "table",
+        table: {
+          headers: ["Cabang", "Kajian"],
+          rows: [
+            ["Mekanika", "Gerak, gaya, keseimbangan, dan energi"],
+            ["Fluida", "Zat cair dan gas yang dapat mengalir"],
+            ["Termodinamika", "Suhu, kalor, usaha, dan energi"],
+            ["Optika", "	Cahaya, cermin, lensa, dan alat optik"],
+            ["Akustik", "Bunyi dan gelombang suara"],
+            ["Listrik", "Muatan, arus, tegangan, dan rangkaian"],
+            ["Magnetisme", "Magnet, medan magnet, dan induksi"],
+            ["Elektromagnetisme", "Hubungan antara listrik dan magnet"]
+          ]
+        }
+      },
+      {
+        type: "paragraph",
+        text: "Fisika Modern *(The Frontier)*"
+      },
+      {
+        type: "table",
+        table: {
+          headers: ["Cabang", "Kajian"],
+          rows: [
+            ["Fisika kuantum", "Materi dan energi pada skala atomik"],
+            ["Fisika atom", "Struktur dan sifat atom"],
+            ["Fisika inti", "Inti atom dan reaksi nuklir"],
+            ["Fisika partikel", "Partikel dasar penyusun materi"],
+            ["Relativitas", "Ruang, waktu, gerak, dan gravitasi"],
+            ["Fisika zat padat", "Sifat bahan padat"],
+            ["Fisika plasma", "Gas terionisasi"],
+            ["Kosmologi", "Asal-usul dan perkembangan alam semesta"],
+            ["Fisika material", "Sifat dan pengembangan material"]
+          ]
+        }
+      },
+      {
+        type: "paragraph",
+        text: "Fisika Terapan & Interdisipliner *(The Innovation)*"
+      },
+      {
+        type: "table",
+        table: {
+          headers: ["Cabang", "Kajian"],
+          rows: [
+            ["Astrofisika", "Menggabungkan antara fisika dan astronomi untuk mempelajari benda langit."],
+            ["Geofisika", "Memanfaatkan fisika untuk mempelajari Bumi."],
+            ["Biofisika", "Menggunakan prinsip fisika untuk memahami proses makhluk hidup."],
+            ["Fisika medis", "Menggunakan fisika untuk diagnosis, pengobatan, dan keselamatan pasien."],
+            ["Ekonofisika", "Menerapkan konsep fisika dan analisis matematis untuk memahami sistem ekonomi yang kompleks."],
+            ["Fisika lingkungan", "Mempelajari interaksi energi, materi, dan lingkungan."],
+            ["Fisika kimia", "Mempelajari struktur, energi, dan perubahan materi menggunakan prinsip fisika."]
+          ]
+        }
+      },
+      {
+        type: "paragraph",
+        text: [
+          "[KLIK DISINI](/materi/ruang-lingkup-fisika) untuk mmembaca penjelasan fenomena nyata dari setiap cabang fisika klasik, fisika modern, dan bidang interdisipliner"
+        ]
+      },
+    ]
+  },
+  { 
+    heading: "🚀 Fisika dalam Kehidupan", 
     blocks: [
       {
         type: "image",

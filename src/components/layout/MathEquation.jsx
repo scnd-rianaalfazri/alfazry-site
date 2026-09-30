@@ -46,7 +46,10 @@ export default function MathEquation({
           ${className}
         `.trim()}
       >
-        <div className="overflow-x-auto px-3 py-2 md:px-4 md:py-2.5">
+        {/* [&_.katex-display]:my-0 -> matikan margin vertikal bawaan
+            KaTeX (default 1em atas-bawah), spasi sepenuhnya diatur
+            lewat py-* di bawah supaya tidak dobel/kebesaran. */}
+        <div className="overflow-x-auto px-3.5 py-2 md:px-4 md:py-2.5 [&_.katex-display]:my-0">
           <div className="flex flex-col gap-1.5 min-w-max">
             {equations.map((item, index) => (
               <div
@@ -65,12 +68,12 @@ export default function MathEquation({
   return (
     <div
       className={`
-        my-4
+        relative
+        my-5
         overflow-hidden
         rounded-2xl
         border border-cyan-400/20
-        bg-slate-950/80
-        p-2.5 md:p-3
+        bg-gradient-to-b from-slate-900/85 to-slate-950/90
         shadow-lg shadow-cyan-500/10
         transition-all duration-300
         hover:border-cyan-300/40
@@ -78,8 +81,16 @@ export default function MathEquation({
         ${className}
       `.trim()}
     >
-      <div className="overflow-x-auto">
-        <div className="flex flex-col items-center gap-2 min-w-max">
+      {/* Aksen garis tipis di tepi atas — penanda visual "blok rumus"
+          yang lebih halus daripada border tebal/solid biasa. */}
+      <div className="h-px w-full bg-gradient-to-r from-transparent via-cyan-400/50 to-transparent" />
+
+      {/* Padding vertikal py-3.5/py-4 SENGAJA jadi satu-satunya sumber
+          jarak atas-bawah — margin bawaan KaTeX (.katex-display) di-nol-kan
+          lewat [&_.katex-display]:my-0 supaya tidak menumpuk jadi
+          kelihatan kelewat lega/renggang. */}
+      <div className="overflow-x-auto px-4 py-3.5 md:px-6 md:py-4 [&_.katex-display]:my-0">
+        <div className="flex flex-col items-center gap-2.5 min-w-max">
           {equations.map((item, index) => (
             <div
               key={`${item}-${index}`}

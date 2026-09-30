@@ -80,11 +80,13 @@ import PengertianGerakMelingkar from "../content/materi/KinematikaGerakDuaDimens
 import BesaranGerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi/BesaranGerakMelingkar.js"
 import KecepatanLinierDanSudut from "../content/materi/KinematikaGerakDuaDimensi/KecepatanLinearDanSudut.js"
 import PercepatanSentripetal from "../content/materi/KinematikaGerakDuaDimensi/PercepatanSentripetal.js"
-import PenerapanGerakMelingkar from "../content/materi/KinematikaGerakDuaDimensi/PenerapanGerakMelingkar.js"
+import KonsepGerakMelingkarDiDuniaNyata from "../content/materi/KinematikaGerakDuaDimensi/KonsepGerakMelingkarDiDuniaNyata.js"
+import EksplorasiFenomenaKinematikaGerakDuaDimensi from "../content/materi/KinematikaGerakDuaDimensi/EksplorasiFenomenaKinematikaGerakDuaDimensi.js"
+import PenutupChapterKinematikaGerakDuaDimensi from "../content/materi/KinematikaGerakDuaDimensi/PenutupChapterKinematikaGerakDuaDimensi.js"
 
 
 /* dinamika gaya dan hukum newton */
-import PengantarDinamika from "../content/materi/DinamikaGayaDanHukumNewton/PengantarDinamika.js"
+import PembukaChapterDinamikaGayaDanHukumNewton from "../content/materi/DinamikaGayaDanHukumNewton/PembukaChapterDinamikaGayaDanHukumNewton"
 import PengertianGaya from "../content/materi/DinamikaGayaDanHukumNewton/PengertianGaya.js"
 import ResultanGaya from "../content/materi/DinamikaGayaDanHukumNewton/ResultanGaya.js"
 import HukumNewtonSatu from "../content/materi/DinamikaGayaDanHukumNewton/HukumNewtonSatu.js"
@@ -601,10 +603,12 @@ export const materials = [
   BesaranGerakMelingkar,
   KecepatanLinierDanSudut,
   PercepatanSentripetal,
-  PenerapanGerakMelingkar,
+  KonsepGerakMelingkarDiDuniaNyata,
+  EksplorasiFenomenaKinematikaGerakDuaDimensi,
+  PenutupChapterKinematikaGerakDuaDimensi,
 
   /* Chapter : Dinamika Gaya dan Hukum Newton */
-  PengantarDinamika,
+  PembukaChapterDinamikaGayaDanHukumNewton,
   PengertianGaya,
   ResultanGaya,
   HukumNewtonSatu,

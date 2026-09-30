@@ -70,6 +70,12 @@ const hakikatIlmuFisika = {
                     text: "Hukum"
                   },
                   {
+                    text: "Rumus"
+                  },
+                  {
+                    text: "Teori"
+                  },
+                  {
                     text: "Model"
                   }
                 ]

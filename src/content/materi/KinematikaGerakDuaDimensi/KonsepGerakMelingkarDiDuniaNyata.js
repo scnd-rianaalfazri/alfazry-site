@@ -1,13 +1,18 @@
-const penerapanGerakMelingkar = {
-  title: "Penerapan Gerak Melingkar",
-  slug: "penerapan-gerak-melingkar",
+import img1 from "/src/assets/Materi/KinematikaGerakDuaDimensi/image/konsep-gerak-melingkar-di-dunia-nyata1.png"
+
+const konsepGerakMelingkarDiDuniaNyata = {
+  title: "Konsep Gerak Melingkar di Dunia Nyata",
+  slug: "konsep-gerak-melingkar-di-dunia-nyata",
   description: "Menjelajahi berbagai penerapan gerak melingkar dalam kehidupan sehari-hari, teknologi modern, olahraga, dan eksplorasi antariksa.",
   chapter: "🏀 Kinematika: Gerak Dua Dimensi",
 
   content: [
     {
-      heading: "🌍 Gerak Melingkar Ada di Sekitar Kita",
       blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [
@@ -285,4 +290,4 @@ const penerapanGerakMelingkar = {
   ]
 };
 
-export default penerapanGerakMelingkar;
+export default konsepGerakMelingkarDiDuniaNyata;
