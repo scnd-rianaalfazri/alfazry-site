@@ -261,7 +261,8 @@ const mengidentifikasiGaya = {
         }
       ]
     },
-    { blocks: [
+    { 
+      blocks: [
         {
           type: "paragraph",
           text: [

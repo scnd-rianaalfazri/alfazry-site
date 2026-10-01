@@ -1,6 +1,6 @@
-const penutupDinamikaGayaDanHukumNewton = {
-  title: "Penutup Dinamika Gaya dan Hukum Newton",
-  slug: "penutup-dinamika-gaya-dan-hukum-newton",
+const penutupChapterDinamikaGayaDanHukumNewton = {
+  title: "Penutup Chapter: Dinamika Gaya dan Hukum Newton",
+  slug: "penutup-chapter-dinamika-gaya-dan-hukum-newton",
   description: "Merangkum seluruh konsep Dinamika: Gaya dan Hukum Newton sebagai fondasi untuk menganalisis gerak benda pada berbagai kondisi.",
   chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
@@ -147,4 +147,4 @@ const penutupDinamikaGayaDanHukumNewton = {
   ]
 };
 
-export default chapterClosing;
+export default penutupChapterDinamikaGayaDanHukumNewton;

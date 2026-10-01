@@ -84,7 +84,6 @@ import KonsepGerakMelingkarDiDuniaNyata from "../content/materi/KinematikaGerakD
 import EksplorasiFenomenaKinematikaGerakDuaDimensi from "../content/materi/KinematikaGerakDuaDimensi/EksplorasiFenomenaKinematikaGerakDuaDimensi.js"
 import PenutupChapterKinematikaGerakDuaDimensi from "../content/materi/KinematikaGerakDuaDimensi/PenutupChapterKinematikaGerakDuaDimensi.js"
 
-
 /* dinamika gaya dan hukum newton */
 import PembukaChapterDinamikaGayaDanHukumNewton from "../content/materi/DinamikaGayaDanHukumNewton/PembukaChapterDinamikaGayaDanHukumNewton"
 import PengertianGaya from "../content/materi/DinamikaGayaDanHukumNewton/PengertianGaya.js"
@@ -99,6 +98,10 @@ import GayaGesek from "../content/materi/DinamikaGayaDanHukumNewton/GayaGesek.js
 import GayaTeganganTali from "../content/materi/DinamikaGayaDanHukumNewton/GayaTeganganTali.js"
 import MengidentifikasiGaya from "../content/materi/DinamikaGayaDanHukumNewton/MengidentifikasGaya.js"
 import DiagramGaya from "../content/materi/DinamikaGayaDanHukumNewton/DiagramGaya.js"
+import AnalisisGaya from "../content/materi/DinamikaGayaDanHukumNewton/AnalisisGaya.js"
+import KonsepDinamikaGayaDanHukumNewtonDiDuniaNyata from "../content/materi/DinamikaGayaDanHukumNewton/KonsepDinamikaGayaDanHukumNewtonDiDuniaNyata.js"
+import EksplorasiFenomenaDinamikaGayaDanHukumNewton from "../content/materi/DinamikaGayaDanHukumNewton/EksplorasiFenomenaDinamikaGayaDanHukumNewton.js"
+import PenutupChapterDinamikaGayaDanHukumNewton from "../content/materi/DinamikaGayaDanHukumNewton/PenutupChapterDinamikaGayaDanHukumNewton.js"
 
 /* dinamika gerak lurus */
 import PengantarDinamikaGerakLurus from "../content/materi/DinamikaGerakLurus/PengantarDinamikaGerakLurus.js"
@@ -621,6 +624,11 @@ export const materials = [
   GayaGesek,
   MengidentifikasiGaya,
   DiagramGaya,
+  AnalisisGaya,
+  KonsepDinamikaGayaDanHukumNewtonDiDuniaNyata,
+  EksplorasiFenomenaDinamikaGayaDanHukumNewton,
+  PenutupChapterDinamikaGayaDanHukumNewton,
+
 
   /* Chapter : Dinamika Gerak Lurus */
   PengantarDinamikaGerakLurus,

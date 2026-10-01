@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/DinamikaGayaDanHukumNewton/image/gaya-tegangan-tali1.png"
+
 const gayaTeganganTali = {
   title: "Gaya Tegangan Tali",
   slug: "gaya-tegangan-tali",
@@ -5,7 +7,12 @@ const gayaTeganganTali = {
   chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

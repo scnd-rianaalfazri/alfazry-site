@@ -1,6 +1,7 @@
 import img1 from "/src/assets/Materi/KinematikaGerakSatuDimensi/image/jarak-dan-perpindahan1.png"
 import img2 from "/src/assets/Materi/KinematikaGerakSatuDimensi/image/portal-kelajuan-dan-kecepatan.png"
-import DistanceDisplacementExplorer from "/src/assets/Materi/KinematikaGerakSatuDimensi/code/DistanceDisplacementExplorer.jsx"
+import PathExplorer from "/src/assets/Materi/KinematikaGerakSatuDimensi/code/PathExplorer.jsx"
+
 
 const jarakDanPerpindahan = {
   title: "Jarak dan Perpindahan",
@@ -71,15 +72,15 @@ const jarakDanPerpindahan = {
       ]
     },
     {
-      heading: "🧪 Coba Sendiri",
+      heading: "🧪 Coba Amati Sendiri",
       blocks: [
         {
           type: "paragraph",
-          text: "Sebelum lanjut ke analisis, coba dulu ubah-ubah jalurnya sendiri. Seret titik A dan B, tambah beberapa waypoint, lalu bandingkan lintasan ungu (jarak) dengan panah cyan (perpindahan)."
+          text: "Sekarang coba versi yang lebih menantang: pilih skenario gerak, selesaikan misinya, terus lihat apakah kamu bisa menaklukkan dua tantangannya."
         },
         {
           type: "component",
-          component: DistanceDisplacementExplorer
+          component: PathExplorer
         }
       ]
     },

@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/DinamikaGayaDanHukumNewton/image/gaya-normal1.png"
+
 const gayaNormal = {
   title: "Gaya Normal",
   slug: "gaya-normal",
@@ -5,7 +7,12 @@ const gayaNormal = {
   chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

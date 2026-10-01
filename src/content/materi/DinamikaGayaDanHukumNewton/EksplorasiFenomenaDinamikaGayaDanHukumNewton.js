@@ -1,6 +1,6 @@
-const eksplorasiFenomena = {
-  title: "Eksplorasi Fenomena",
-  slug: "eksplorasi-fenomena",
+const eksplorasiFenomenaDinamikaGayaDanHukumNewton = {
+  title: "Eksplorasi Fenomena: Dinamika Gaya dan Hukum Newton",
+  slug: "eksplorasi-fenomena-dinamika-gaya-dan-hukum-newton",
   description: "Menggunakan seluruh konsep yang telah dipelajari untuk mengamati dan menjelaskan berbagai fenomena di sekitar kita.",
   chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
@@ -109,4 +109,4 @@ const eksplorasiFenomena = {
   ]
 };
 
-export default eksplorasiFenomena;
+export default eksplorasiFenomenaDinamikaGayaDanHukumNewton;

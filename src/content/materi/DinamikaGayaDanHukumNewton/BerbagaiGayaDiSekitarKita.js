@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/DinamikaGayaDanHukumNewton/image/berbagai-gaya-disekitar-kita1.png"
+
 const berbagaiGayaDiSekitarKita = {
   title: "Berbagai Gaya di Sekitar Kita",
   slug: "berbagai-gaya-di-sekitar-kita",
@@ -5,7 +7,12 @@ const berbagaiGayaDiSekitarKita = {
   chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

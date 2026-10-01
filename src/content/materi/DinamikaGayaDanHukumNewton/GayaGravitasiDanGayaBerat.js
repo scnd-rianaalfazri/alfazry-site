@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/DinamikaGayaDanHukumNewton/image/gaya-gravitasi-dan-gaya-berat1.png"
+
 const gayagravitasidangayaberat = {
   title: "Gaya Gravitasi dan Gaya Berat",
   slug: "gaya-gravitasi-dan-gaya-berat",
@@ -5,7 +7,12 @@ const gayagravitasidangayaberat = {
   chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [
