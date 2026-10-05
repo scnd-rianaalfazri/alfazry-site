@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/DinamikaGayaDanHukumNewton/image/eksplorasi-fenomena-dinamika-gerak-dan-hukum-newton1.png"
+
 const eksplorasiFenomenaDinamikaGayaDanHukumNewton = {
   title: "Eksplorasi Fenomena: Dinamika Gaya dan Hukum Newton",
   slug: "eksplorasi-fenomena-dinamika-gaya-dan-hukum-newton",
@@ -5,7 +7,12 @@ const eksplorasiFenomenaDinamikaGayaDanHukumNewton = {
   chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

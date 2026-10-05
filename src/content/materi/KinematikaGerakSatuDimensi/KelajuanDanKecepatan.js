@@ -1,5 +1,6 @@
 import img1 from "/src/assets/Materi/GerakSatuDimensi/kelajuan-dan-kecepatan1.png"
 import img2 from "/src/assets/Materi/KinematikaGerakSatuDimensi/image/portal-kelajuan-dan-kecepatan-sesaat.png"
+import SpeedControl from "/src/assets/Materi/KinematikaGerakSatuDimensi/code/SpeedControl.jsx"
 
 const kelajuanDanKecepatan = {
   title: "Kelajuan dan Kecepatan",
@@ -143,6 +144,80 @@ const kelajuanDanKecepatan = {
       blocks: [
         {"type": "paragraph", "text": "Jarak → dibagi waktu → Kelajuan."},
         {"type": "paragraph", "text": "Perpindahan → dibagi waktu → Kecepatan."},
+      ]
+    },
+    {
+      heading: "🧪 Coba Amati Sendiri",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "Sebelum lanjut ke rumus, coba dulu rasakan sendiri bedanya. Geser kelajuan, pilih arah, lalu balik arahnya -- perhatikan mana yang berubah dan mana yang tetap."
+        },
+        {
+          type: "component",
+          component: SpeedControl
+        }
+      ]
+    },
+    {
+      heading: "📐 Rumus Kelajuan dan Kecepatan",
+      blocks: [
+        {
+          type: "paragraph",
+          text: [
+            "Secara matematis, kelajuan ($v$) dan kecepatan ($\\vec{v}$) dirumuskan sebagai berikut:"
+          ]
+        },
+        {
+          type: "list",
+          list: {
+            type: "ordered",
+            items: [
+              {
+                text: "**Kelajuan Rata-rata:**",
+                description: [
+                  "$v = \\frac{s}{t}$",
+                  "Keterangan:"
+                ],
+                children: {
+                  type: "unordered",
+                  items: [
+                    {
+                      text: "$v$ = kelajuan (m/s)"
+                    },
+                    {
+                      text: "$s$ = total jarak (m)"
+                    },
+                    {
+                      text: "$t$ = total waktu (s)"
+                    }
+                  ]
+                }
+              },
+              {
+                text: "**Kecepatan Rata-rata:**",
+                description: [
+                  "$\\vec{v} = \\frac{\\Delta x}{\\Delta t} = \\frac{x_2 - x_1}{t_2 - t_1}$",
+                  "Keterangan:"
+                ],
+                children: {
+                  type: "unordered",
+                  items: [
+                    {
+                      text: "$\\vec{v}$ = kecepatan (m/s)"
+                    },
+                    {
+                      text: "$\\Delta x$ = perpindahan posisi (m)"
+                    },
+                    {
+                      text: "$\\Delta t$ = selisih waktu (s)"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
       ]
     },
     {

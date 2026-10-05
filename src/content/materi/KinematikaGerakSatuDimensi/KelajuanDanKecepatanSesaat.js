@@ -1,5 +1,6 @@
 import img1 from "/src/assets/Materi/GerakSatuDimensi/kelajuan-dan-kecepatan-sesaat1.png"
 import img2 from "/src/assets/Materi/KinematikaGerakSatuDimensi/image/portal-percepatan.png"
+import InstantSpeedMeter from "/src/assets/Materi/KinematikaGerakSatuDimensi/code/InstantSpeedMeter.jsx"
 
 const kelajuanDanKecepatanSesaat = {
   title: "Kelajuan dan Kecepatan Sesaat",
@@ -134,6 +135,19 @@ const kelajuanDanKecepatanSesaat = {
               ["Kecepatan sesaat", "Menggambarkan kecepatan pada satu momen tertentu."]
             ]
           }
+        }
+      ]
+    },
+    {
+      heading: "🧪 Coba Amati Sendiri",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "Pilih mode geraknya, jalankan, lalu geser slider waktu. Perhatikan: angka di speed meter itu cuma menunjukkan kondisi benda PADA SAAT ITU, bukan rata-rata seluruh perjalanan."
+        },
+        {
+          type: "component",
+          component: InstantSpeedMeter
         }
       ]
     },

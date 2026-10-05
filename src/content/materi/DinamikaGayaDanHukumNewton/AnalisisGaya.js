@@ -1,11 +1,18 @@
+import img1 from "/src/assets/Materi/DinamikaGayaDanHukumNewton/image/analisis-gaya-pada-berbagai-kasus1.png"
+
 const analisisGaya = {
   title: "Analisis Gaya pada Berbagai Kasus",
-  slug: "analisis-gaya",
+  slug: "analisis-gaya-pada-berbagai-kasus",
   description: "Menganalisis gaya-gaya yang bekerja pada berbagai situasi menggunakan Free Body Diagram dan Hukum Newton.",
   chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

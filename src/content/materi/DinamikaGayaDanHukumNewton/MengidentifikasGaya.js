@@ -1,11 +1,18 @@
+import img1 from "/src/assets/Materi/DinamikaGayaDanHukumNewton/image/mengidentifikasi-gaya-yang-bekerja-pada-benda.png"
+
 const mengidentifikasiGaya = {
   title: "Mengidentifikasi Gaya yang Bekerja pada Benda",
-  slug: "mengidentifikasi-gaya",
+  slug: "mengidentifikasi-gaya-yang-bekerja-pada-benda",
   description: "Belajar mengenali semua gaya yang bekerja pada suatu benda sebagai langkah awal wajib sebelum menggambarkan Free Body Diagram (FBD) dan menyelesaikan soal dinamika.",
   chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [

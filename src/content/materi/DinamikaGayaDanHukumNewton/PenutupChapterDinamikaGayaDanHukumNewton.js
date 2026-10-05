@@ -1,3 +1,5 @@
+import img1 from "/src/assets/Materi/DinamikaGayaDanHukumNewton/image/penutup-chapter-dinamika-gerak-dan-hukum-newton1.png"
+
 const penutupChapterDinamikaGayaDanHukumNewton = {
   title: "Penutup Chapter: Dinamika Gaya dan Hukum Newton",
   slug: "penutup-chapter-dinamika-gaya-dan-hukum-newton",
@@ -5,7 +7,12 @@ const penutupChapterDinamikaGayaDanHukumNewton = {
   chapter: "🚀 Dinamika: Gaya dan Hukum Newton",
 
   content: [
-    { blocks: [
+    { 
+      blocks: [
+        {
+          type: "image",
+          src: img1
+        },
         {
           type: "paragraph",
           text: [
