@@ -69,7 +69,7 @@ import EksplorasiFenomenaGerakSatuDimensi from "../content/materi/KinematikaGera
 import PenutupChapterGerakSatuDimensi from "../content/materi/KinematikaGerakSatuDimensi/PenutupChapterGerakSatuDimensi.js"
 
 /* kinematika gerak dua dimensi */
-import PembukaChapterKinematikaGerakDuaDimensi from "../content/materi/KinematikaGerakDuaDimensi/PembukaChapterKinematikaGerakDuaDimensi.js"
+import PembukaChapterKinematikaGerakDuaDimensi from "../content/materi/KinematikaGerakDuaDimensi/PembukaChapterKInematikaGerakDuaDimensi.js"
 import AnalisisSumbuXDanY from "../content/materi/KinematikaGerakDuaDimensi/AnalisisSumbuXDanY.js"
 import GerakParabola from "../content/materi/KinematikaGerakDuaDimensi/GerakParabola.js"
 import HorizontalVertikalParabola from "../content/materi/KinematikaGerakDuaDimensi/HorizontalVertikalParabola.js"
@@ -155,7 +155,7 @@ import EfisiensiEnergi from "../content/materi/UsahaDanEnergi/EfisiensiEnergi.js
 import AplikasiUsahaDanEnergi from "../content/materi/UsahaDanEnergi/AplikasiUsahaDanEnergi.js"
 import PenutupUsahaDanEnergi from "../content/materi/UsahaDanEnergi/PenutupUsahaDanEnergi.js"
 
-/* kesetimbangan danmomen gaya */
+/* kesetimbangan dan momen gaya */
 import PengantarKesetimbangan from "../content/materi/KesetimbanganDanDinamikaRotasi/PengantarKesetimbangan.js"
 import KesetimbanganPartikel from "../content/materi/KesetimbanganDanDinamikaRotasi/KesetimbanganPartikel.js"
 import MomenGaya from "../content/materi/KesetimbanganDanDinamikaRotasi/MomenGaya.js"
@@ -629,7 +629,7 @@ export const materials = [
   EksplorasiFenomenaDinamikaGayaDanHukumNewton,
   PenutupChapterDinamikaGayaDanHukumNewton,
 
-
+ 
   /* Chapter : Dinamika Gerak Lurus */
   PengantarDinamikaGerakLurus,
   BalokPadaBidangDatar,

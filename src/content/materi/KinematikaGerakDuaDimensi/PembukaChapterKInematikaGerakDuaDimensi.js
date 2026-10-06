@@ -1,6 +1,6 @@
 import img1 from "/src/assets/Materi/KinematikaGerakDuaDimensi/pengantar-kinematika-gerak-dua-dimensi1.png"
 
-const pembukachapterKinematikaGerakDuaDimensi = {
+const pembukaChapterKinematikaGerakDuaDimensi = {
   title: "Pembuka Chapter: Kinematika Gerak Dua Dimensi",
   slug: "pembuka-chapter-kinematika-gerak-dua-dimensi",
   description: "Mengenal konsep gerak dua dimensi dan memahami bagaimana gerak pada arah horizontal dan vertikal dapat terjadi secara bersamaan.",
@@ -302,4 +302,4 @@ const pembukachapterKinematikaGerakDuaDimensi = {
   ]
 };
 
-export default pembukachapterKinematikaGerakDuaDimensi;
+export default pembukaChapterKinematikaGerakDuaDimensi;
