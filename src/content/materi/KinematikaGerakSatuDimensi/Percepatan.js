@@ -1,5 +1,6 @@
 import img1 from "/src/assets/Materi/GerakSatuDimensi/percepatan1.png"
 import img2 from "/src/assets/Materi/KinematikaGerakSatuDimensi/image/portal-grafik-gerak-satu-dimensi.png"
+import AccelerationLab from "/src/assets/Materi/KinematikaGerakSatuDimensi/code/AccelerationLab.jsx"
 
 const percepatan = {
   title: "Percepatan",
@@ -76,6 +77,19 @@ const percepatan = {
             "Percepatannya adalah $\\text{5 m/s}^2$. Artinya, kecepatan bertambah 5 m/s setiap detik.",
             "Pola perubahan inilah yang menunjukkan percepatan.",
           ]
+        }
+      ]
+    },
+    {
+      heading: "🧪 Coba Amati Sendiri",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "Sebelum lanjut ke rumus, coba dulu geser percepatannya. Perhatikan: percepatan negatif nggak selalu bikin benda melambat -- itu tergantung searah atau berlawanan arah dengan kecepatannya."
+        },
+        {
+          type: "component",
+          component: AccelerationLab
         }
       ]
     },
